@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "IfcConvert": "~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert",
+    "xeokit-metadata": "xeokit-metadata",
+    "convert2xkt": "~/xeokit/tools/xeokit-convert/convert2xkt.js",
+    "ifc2gltf": "~/xeokit/tools/ifc2gltf-linux/build/Release/ifc2gltf"
+  }
+}

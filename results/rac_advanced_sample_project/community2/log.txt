@@ -1,0 +1,311 @@
+#----------------------------------------------------------------------------
+# Community Pipeline 2 Log
+#
+# Converting file: rac_advanced_sample_project.ifc
+# Using tools: convert2xkt
+# Date: Thu Sep 08 2022 05:50:54 GMT+0200 (Central European Summer Time)
+#----------------------------------------------------------------------------
+
+
+[convert2xkt] Running convert2xkt v1.1.3...
+[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-pipeline/ifc/rac_advanced_sample_project.ifc
+[convert2xkt] Input file size: 45316.70 kB
+[convert2xkt] Using parser: parseIFCIntoXKTModel
+web-ifc: 0.0.34 threading: 0
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+Unsupported curve type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+unexpected style type
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 2041.57 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 22.20
+[convert2xkt] Conversion time: 57.76 s
+[convert2xkt] Converted metaobjects: 5570
+[convert2xkt] Converted property sets: 11420
+[convert2xkt] Converted drawable objects: 5512
+[convert2xkt] Converted geometries: 2871
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 277071
+[convert2xkt] Converted vertices: 725525
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-pipeline/converted/rac_advanced_sample_project/community2/model.xkt
+[convert2xkt] Done.

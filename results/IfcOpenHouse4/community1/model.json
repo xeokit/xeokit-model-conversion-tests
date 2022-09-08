@@ -1,0 +1,274 @@
+{
+  "id": "IfcOpenHouse",
+  "projectId": "2Iicv0RnfAVPda6Sg4SE78",
+  "author": "",
+  "createdAt": "2014-05-05T15:42:14",
+  "schema": "IFC4",
+  "creatingApplication": "IfcOpenShell 0.5.0-dev",
+  "metaObjects": [
+    {
+      "id": "2Iicv0RnfAVPda6Sg4SE78",
+      "name": "IfcOpenHouse",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "3bqf5ZY_nDpfb1hfmOkxFk",
+      "name": null,
+      "type": "IfcSite",
+      "parent": "2Iicv0RnfAVPda6Sg4SE78"
+    },
+    {
+      "id": "3FweM$L1L56fABBUNXlIbJ",
+      "name": null,
+      "type": "IfcBuilding",
+      "parent": "3bqf5ZY_nDpfb1hfmOkxFk"
+    },
+    {
+      "id": "38aOKO8_DDkBd1FHm_lVXz",
+      "name": null,
+      "type": "IfcBuildingStorey",
+      "parent": "3FweM$L1L56fABBUNXlIbJ"
+    },
+    {
+      "id": "3g46_woBL6sugXeY5_WP6n",
+      "name": "South wall",
+      "type": "IfcWallStandardCase",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "2W4bl$KK1Brv_UEOkAThqU",
+      "name": "Footing",
+      "type": "IfcFooting",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "1C6JH2QOP0lwj7ou2leSLH",
+      "name": "Roof",
+      "type": "IfcRoof",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "2KoBar2pfAWBou8q$ldGHy",
+      "name": "South roof",
+      "type": "IfcSlab",
+      "parent": "1C6JH2QOP0lwj7ou2leSLH"
+    },
+    {
+      "id": "3lPsczHcDCwepFiJhZqz9q",
+      "name": "North roof",
+      "type": "IfcSlab",
+      "parent": "1C6JH2QOP0lwj7ou2leSLH"
+    },
+    {
+      "id": "3xUPAVO39FGgNkCUQqf4JV",
+      "name": "North wall",
+      "type": "IfcWallStandardCase",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "3hw7qrktPAl8j6w3qKhwKm",
+      "name": "East wall",
+      "type": "IfcWallStandardCase",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "1hwEPyGUD1vwPpm508N9dQ",
+      "name": "West wall",
+      "type": "IfcWallStandardCase",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "2Ab2jpYsXCGu4_o2TnJmpB",
+      "name": null,
+      "type": "IfcStairFlight",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "0Tif_$wI1FwAwq$OJt24I8",
+      "name": null,
+      "type": "IfcDoor",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "3lY7vAqg1AOuHmhrmPSRNL",
+      "name": null,
+      "type": "IfcWindow",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "1DDgU0hLvBH8oWeOKX3GI2",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "3lY7vAqg1AOuHmhrmPSRNL"
+    },
+    {
+      "id": "2hlyLAdjfEGeOVzpaN2yyi",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "3lY7vAqg1AOuHmhrmPSRNL"
+    },
+    {
+      "id": "2LgB4q_MXBK9HwUSNOlfaz",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "3lY7vAqg1AOuHmhrmPSRNL"
+    },
+    {
+      "id": "2lzT5H31bAIPS3Ep0DTo7x",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "3lY7vAqg1AOuHmhrmPSRNL"
+    },
+    {
+      "id": "3wAl_gjCj9ZRWv12kmFW1U",
+      "name": null,
+      "type": "IfcPlate",
+      "parent": "3lY7vAqg1AOuHmhrmPSRNL"
+    },
+    {
+      "id": "1$ROshSLD8PxvcHXbFnnTi",
+      "name": null,
+      "type": "IfcWindow",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "3h7VkxoBP65wjElx54zMBz",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1$ROshSLD8PxvcHXbFnnTi"
+    },
+    {
+      "id": "1M2y_u9$vBTh7Yd5_usZ23",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1$ROshSLD8PxvcHXbFnnTi"
+    },
+    {
+      "id": "2X4Md3tin09fSS3NN94BNj",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1$ROshSLD8PxvcHXbFnnTi"
+    },
+    {
+      "id": "0vA0LIH5v9gxUg5A53p88K",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1$ROshSLD8PxvcHXbFnnTi"
+    },
+    {
+      "id": "0p8HXuwiD3yBz1RJLzKo7o",
+      "name": null,
+      "type": "IfcPlate",
+      "parent": "1$ROshSLD8PxvcHXbFnnTi"
+    },
+    {
+      "id": "1omMjrueL1RBg$X8j2Z2J5",
+      "name": null,
+      "type": "IfcWindow",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "0lSDqOsFD7_QJ_J_bqBkIl",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1omMjrueL1RBg$X8j2Z2J5"
+    },
+    {
+      "id": "2UFQMMz1jBgPS0zsW6zg5D",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1omMjrueL1RBg$X8j2Z2J5"
+    },
+    {
+      "id": "2Ma0fbEZX0R97HX$kAWqQm",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1omMjrueL1RBg$X8j2Z2J5"
+    },
+    {
+      "id": "24LmlyfDb0ZeEE4jvefsN5",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1omMjrueL1RBg$X8j2Z2J5"
+    },
+    {
+      "id": "23dVSDsxXCPhtqOSjMZ_H9",
+      "name": null,
+      "type": "IfcPlate",
+      "parent": "1omMjrueL1RBg$X8j2Z2J5"
+    },
+    {
+      "id": "2hoO8_fkD7T9eJPdlaToJT",
+      "name": null,
+      "type": "IfcWindow",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "1WrTfNTaPF2fXeGcePrGda",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "2hoO8_fkD7T9eJPdlaToJT"
+    },
+    {
+      "id": "1aI9bCsPnCXA4IRqZW9S74",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "2hoO8_fkD7T9eJPdlaToJT"
+    },
+    {
+      "id": "2n2gwY9rv8e9oHNGo8x2qW",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "2hoO8_fkD7T9eJPdlaToJT"
+    },
+    {
+      "id": "3J3RjR0$n8peLRZVKppSng",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "2hoO8_fkD7T9eJPdlaToJT"
+    },
+    {
+      "id": "0JwnnKhZr3694nxJ1extNw",
+      "name": null,
+      "type": "IfcPlate",
+      "parent": "2hoO8_fkD7T9eJPdlaToJT"
+    },
+    {
+      "id": "1f2A4_vjLEBRKe77yVKHtq",
+      "name": null,
+      "type": "IfcWindow",
+      "parent": "38aOKO8_DDkBd1FHm_lVXz"
+    },
+    {
+      "id": "279dlwph95$gPMCup$shvv",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1f2A4_vjLEBRKe77yVKHtq"
+    },
+    {
+      "id": "2T0zJmuRDFx8VqbUOAsLII",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1f2A4_vjLEBRKe77yVKHtq"
+    },
+    {
+      "id": "0nCuI0UWT9z9LUZfvNs8Bx",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1f2A4_vjLEBRKe77yVKHtq"
+    },
+    {
+      "id": "0s18lXjPD0suRoyNawI5Q_",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "1f2A4_vjLEBRKe77yVKHtq"
+    },
+    {
+      "id": "3vhbFRmyXDouRftZl4AXgJ",
+      "name": null,
+      "type": "IfcPlate",
+      "parent": "1f2A4_vjLEBRKe77yVKHtq"
+    }
+  ]
+}
