@@ -1,5 +1,5 @@
 {
-  "name": "xeokit-testdrive",
+  "name": "xeokit-model-conversion-tests",
   "version": "1.0.0",
   "description": "Runs all our converter pipelines over a directory containing your IFC files and generates a nice report with Bootstrap, including logs and clickable links to view the converted XKT files ",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xeokit/xeokit-testdrive.git"
+    "url": "git+https://github.com/xeokit/xeokit-model-conversion-tests.git"
   },
   "keywords": [
     "webgl",
@@ -21,9 +21,9 @@
   "author": "@xeolabs",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/xeokit/xeokit-testdrive/issues"
+    "url": "https://github.com/xeokit/xeokit-model-conversion-tests/issues"
   },
-  "homepage": "https://github.com/xeokit/xeokit-testdrive#readme",
+  "homepage": "https://github.com/xeokit/xeokit-model-conversion-tests#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.1.1",

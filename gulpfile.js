@@ -9,7 +9,7 @@ gulp.task('build', function (callback) {
 
 gulp.task('build-pages', function () {
     return gulp.src([
-        '_pages/tests.html',
+        '_pages/index.html',
         '_pages/pipelines.html'
     ])
         .pipe(fileinclude({
