@@ -10,7 +10,7 @@ gulp.task('build', function (callback) {
 gulp.task('build-pages', function () {
     return gulp.src([
         '_pages/index.html',
-        '_pages/index.html'
+        '_pages/tests.html'
     ])
         .pipe(fileinclude({
             filters: {
