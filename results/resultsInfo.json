@@ -2,8 +2,8 @@
 	"conversions": [
 		{
 			"conversionId": 0,
-			"modelId": "IfcOpenHouse2x3",
-			"modelSrc": "IfcOpenHouse2x3.ifc",
+			"modelId": "Duplex",
+			"modelSrc": "Duplex.ifc",
 			"pipelineId": "ifcCommunityPipeline1",
 			"pipelineName": "IFC Community Pipeline #1",
 			"viewableArtifacts": [
@@ -15,10 +15,61 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
 		},
 		{
 			"conversionId": 1,
+			"modelId": "Duplex",
+			"modelSrc": "Duplex.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 2,
+			"modelId": "Duplex",
+			"modelSrc": "Duplex.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 3,
+			"modelId": "IfcOpenHouse2x3",
+			"modelSrc": "IfcOpenHouse2x3.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 4,
 			"modelId": "IfcOpenHouse2x3",
 			"modelSrc": "IfcOpenHouse2x3.ifc",
 			"pipelineId": "ifcCommunityPipeline2",
@@ -32,10 +83,10 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
 		},
 		{
-			"conversionId": 2,
+			"conversionId": 5,
 			"modelId": "IfcOpenHouse2x3",
 			"modelSrc": "IfcOpenHouse2x3.ifc",
 			"pipelineId": "ifcEnterprisePipeline1",
@@ -49,10 +100,10 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
 		},
 		{
-			"conversionId": 3,
+			"conversionId": 6,
 			"modelId": "IfcOpenHouse4",
 			"modelSrc": "IfcOpenHouse4.ifc",
 			"pipelineId": "ifcCommunityPipeline1",
@@ -66,10 +117,10 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
 		},
 		{
-			"conversionId": 4,
+			"conversionId": 7,
 			"modelId": "IfcOpenHouse4",
 			"modelSrc": "IfcOpenHouse4.ifc",
 			"pipelineId": "ifcCommunityPipeline2",
@@ -83,10 +134,10 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
 		},
 		{
-			"conversionId": 5,
+			"conversionId": 8,
 			"modelId": "IfcOpenHouse4",
 			"modelSrc": "IfcOpenHouse4.ifc",
 			"pipelineId": "ifcEnterprisePipeline1",
@@ -100,7 +151,160 @@
 				"ifc",
 				"xkt"
 			],
-			"date": "2022-09-10T00:31:15.696Z"
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 9,
+			"modelId": "MAP",
+			"modelSrc": "MAP.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 10,
+			"modelId": "MAP",
+			"modelSrc": "MAP.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 11,
+			"modelId": "MAP",
+			"modelSrc": "MAP.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 12,
+			"modelId": "rac_advanced_sample_project",
+			"modelSrc": "rac_advanced_sample_project.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 13,
+			"modelId": "rac_advanced_sample_project",
+			"modelSrc": "rac_advanced_sample_project.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 14,
+			"modelId": "rac_advanced_sample_project",
+			"modelSrc": "rac_advanced_sample_project.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 15,
+			"modelId": "rme_advanced_sample_project",
+			"modelSrc": "rme_advanced_sample_project.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 16,
+			"modelId": "rme_advanced_sample_project",
+			"modelSrc": "rme_advanced_sample_project.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
+		},
+		{
+			"conversionId": 17,
+			"modelId": "rme_advanced_sample_project",
+			"modelSrc": "rme_advanced_sample_project.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T01:50:32.150Z"
 		}
 	]
 }

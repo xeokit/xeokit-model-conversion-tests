@@ -90,6 +90,11 @@ blockquote cite:before {
     border: 0;
 }
 
+.conversion-results-section:before {
+    height: 60px;
+    content: "";
+    display:block;
+}
 
 .conversion-results-section {
     padding: 0 0;
