@@ -101,8 +101,8 @@ const configs = JSON.parse(configsData);
 # More info: 
 #----------------------------------------------------------------------------\n`, {encoding: 'utf8'});
 
-            fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --no-progress --generate-uvs --force-space-transparency 0.4 --door-arcs\n`);
-            execSync(`${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --no-progress --generate-uvs --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+            fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --use-element-guids --no-progress  --force-space-transparency 0.4 --door-arcs\n`);
+            execSync(`${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --no-progress --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
 
             fs.appendFileSync(logCommunity1PathAbs, `\n\n# xeokit-metadata\n\n${configs.paths["xeokit-metadata"]} ${ifcPathAbs} ${jsonCommunity1PathAbs}\n`);
             execSync(`${configs.paths["xeokit-metadata"]} ${ifcPathAbs} ${jsonCommunity1PathAbs} >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
@@ -163,6 +163,7 @@ const configs = JSON.parse(configsData);
             resultsInfo.conversions.push(conversionInfo);
 
             fs.mkdirSync(enterprise1Dir);
+
             fs.writeFileSync(logEnterprise1PathAbs, `#----------------------------------------------------------------------------
 # Enterprise Pipeline 1 Log
 #

@@ -29,15 +29,17 @@
 
         .pageInfo {
             border-color: black;
-            background-color: rgba(255,255,255,0.7);
+            background-color: rgba(255, 255, 255, 0.7);
             position: absolute;
-            bottom: 20px;
+            top: 110px;
             left: 20px;
             -webkit-user-select: none;
             -ms-user-select: none;
             user-select: none;
             z-index: 500;
-            /*pointer-events: none;*/
+            padding: 10px;
+            border-radius: 5px;
+
         }
 
         #myCanvas {
@@ -53,13 +55,13 @@
             height: 100%;
             overflow-y: scroll;
             overflow-x: hidden;
-            position: absolute;
+
             background-color: rgba(255, 255, 255, 0.2);
             color: black;
-            top: 80px;
+            top: 60px;
             z-index: 200000;
             float: left;
-            left: 0;
+            right: 0;
             padding-left: 10px;
             font-family: 'Roboto', sans-serif;
             font-size: 15px;
@@ -252,12 +254,18 @@
     </div>
 </nav>
 
-<div class="pageInfo" id="pageInfo"></div>
+<div class="pageInfo">
+    <h2 id="modelFile"></h2><br>
+    <div id="pageInfo"></div>
+    <br>
+    <h5>Objects:</h5>
+    <div id="treeViewContainer"><p>N/A</p></div>
+</div>
 
 <div class="row no-gutters">
     <canvas id="myCanvas"></canvas>
-</div>
 
+</div>
 
 
 </body>
@@ -293,6 +301,7 @@
         return vars;
     }
 
+
     const viewer = new Viewer({
         canvasId: "myCanvas",
         transparent: true,
@@ -309,7 +318,9 @@
 
     new FastNavPlugin(viewer);
 
-    if (needTree) {
+    if (!needTree) {
+ //       document.getElementById('treeViewContainer').innerHTML = "<p>N/A</p>"
+    } else {
         const treeView = new TreeViewPlugin(viewer, {
             containerElement: document.getElementById("treeViewContainer"),
             autoExpandDepth: 3,
@@ -818,6 +829,10 @@
         .then(function (resultsInfo) {
             const index = Number.parseInt(conversionId);
             const conversionInfo = resultsInfo.conversions[index];
+
+            document.getElementById(`modelFile`).innerHTML = `<a href="./tests.html#${conversionInfo.modelId}">&lt;&lt;&nbsp;<code>${conversionInfo.modelId}</code></a>`;
+
+
             let model;
             switch (ext) {
                 case "xkt":
@@ -829,22 +844,19 @@
                         edges: true,
                         excludeUnclassifiedObjects: false
                     });
-                    pageTitle.innerHTML = `<table class="table table-bordered">
+                    pageTitle.innerHTML = `<table class="table table-bordered mb-0 mt-0">
             <tbody>
-                <tr>
-                    <td>Original model file:</td>
-                    <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
+              <tr>
+                    <td>Viewing XKT file:</td>
+                    <td><code><a href="${src}">${src}</a><code></td>
                 </tr>
-                 <tr>
-                    <td>Viewing converted file type:</td>
-                    <td><code>.xkt<code></td>
-                </tr>
-                <tr>
-                    <td>Converted with:</td>
+             <tr>
+                    <td>Converted using pipeline:</td>
                     <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
+
                 <tr>
-                    <td>Viewing with:</td>
+                    <td>Using SDK components:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a></td>
                 </tr>
                 </tbody>
@@ -863,20 +875,16 @@
                     if (metaModelSrc) {
                         pageTitle.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
-                <tr>
-                    <td>Original model file:</td>
-                    <td><a href="./tests.html#${conversionInfo.modelId}">${conversionInfo.modelSrc}</a></td>
+              <tr>
+                    <td>Viewing glTF and JSON files:</td>
+                    <td><code><a href="${src}">${src}</a></code><br><code><a href="${metaModelSrc}">${metaModelSrc}</a></code></td>
                 </tr>
-                 <tr>
-                    <td>Viewing intermediate converted file types:</td>
-                    <td><code>.glb</code> and <code>.json</code></td>
-                </tr>
-                <tr>
-                    <td>Converted with:</td>
-                    <td><a href="./index.html#${conversionInfo.pipelineId}"><code>${conversionInfo.pipelineName}</code></a></td>
+              <tr>
+                    <td>Converted using pipeline:</td>
+                    <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
                 <tr>
-                    <td>Viewing with</td>
+                    <td>Using SDK components:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
@@ -884,22 +892,21 @@
                     } else {
                         pageTitle.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
-                <tr>
-          <td>Original model file:</td>
-                <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
+             <tr>
+                    <td>Viewing glTF file:</td>
+              <td><code><a href="${src}">${src}</a></code></td>
                 </tr>
-                 <tr>
-                    <td>Viewing intermediate converted file type:</td>
-                    <td><code>.glb</code></td>
+ <tr>
+                    <td>Converted using pipeline:</td>
+                  <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
-                <tr>
-                    <td>Converted with:</td>
-                    <td><a href="./index.html#${conversionInfo.pipelineId}"><code>${conversionInfo.pipelineName}</code></a></td>
-                </tr>
-                <tr>
-                 <td>Viewing with:</td>
+
+                 <td>Viewing using SDK components:</td>
                  <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
+
+                <tr>
+
                 </tbody>
             </table>`;
                     }
@@ -916,20 +923,16 @@
                     });
                     pageTitle.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
-                <tr>
-                    <td>Original model file:</td>
-                    <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
-                </tr>
                  <tr>
-                    <td>Viewing original file type:</td>
-                    <td><code>.ifc</code></td>
-                </tr>
-                 <tr>
-                    <td>Converted with:</td>
-                    <td><code>N/A</code></td>
+                    <td>Viewing IFC file:</td>
+                    <td><a href="${src}"><code>${src}</code></a></td>
                 </tr>
                 <tr>
-                    <td>Viewing with:</td>
+                    <td>Converted using pipeline:</td>
+                  <td>N/A</td>
+                </tr>
+               <tr>
+                    <td>Using SDK components:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/WebIFCLoaderPlugin/WebIFCLoaderPlugin.js~WebIFCLoaderPlugin.html"><code>WebIFCLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
