@@ -1,0 +1,106 @@
+{
+	"conversions": [
+		{
+			"conversionId": 0,
+			"modelId": "IfcOpenHouse2x3",
+			"modelSrc": "IfcOpenHouse2x3.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		},
+		{
+			"conversionId": 1,
+			"modelId": "IfcOpenHouse2x3",
+			"modelSrc": "IfcOpenHouse2x3.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		},
+		{
+			"conversionId": 2,
+			"modelId": "IfcOpenHouse2x3",
+			"modelSrc": "IfcOpenHouse2x3.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		},
+		{
+			"conversionId": 3,
+			"modelId": "IfcOpenHouse4",
+			"modelSrc": "IfcOpenHouse4.ifc",
+			"pipelineId": "ifcCommunityPipeline1",
+			"pipelineName": "IFC Community Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		},
+		{
+			"conversionId": 4,
+			"modelId": "IfcOpenHouse4",
+			"modelSrc": "IfcOpenHouse4.ifc",
+			"pipelineId": "ifcCommunityPipeline2",
+			"pipelineName": "IFC Community Pipeline #2",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		},
+		{
+			"conversionId": 5,
+			"modelId": "IfcOpenHouse4",
+			"modelSrc": "IfcOpenHouse4.ifc",
+			"pipelineId": "ifcEnterprisePipeline1",
+			"pipelineName": "IFC Enterprise Pipeline #1",
+			"viewableArtifacts": [
+				[
+					"glb",
+					"json"
+				],
+				"glb",
+				"ifc",
+				"xkt"
+			],
+			"date": "2022-09-10T00:31:15.696Z"
+		}
+	]
+}

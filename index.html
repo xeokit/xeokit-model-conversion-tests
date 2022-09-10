@@ -6,13 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="xeokit - SDK for Browser-Based 3D BIM Visualization">
 <meta name="author" content="Lindsay Kay">
-<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,BIMServer,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
+<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
 
 <title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
 
 <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="./css/business-frontpage.css" rel="stylesheet">
-<!--<script src="vendor/jquery/jquery.slim.min.js"></script>-->
 
 <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -20,29 +19,22 @@
 <!-- Bootstrap core JavaScript -->
 <script src="./vendor/jquery/jquery.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
+    <title></title></head>
 
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-    <!--    <div class="container">-->
-    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>&nbsp;/&nbsp;<a
-            class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>&nbsp;/&nbsp;<a
-            class="navbar-brand" href="./index.html">Model Conversion</a></span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-brand" href="./index.html">Model Conversion</a></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
             <li class="nav-item">
                 <a class="nav-link" href="./index.html?foo=0">Home</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Demos
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
                     <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample IFC Model</a>
                     <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>
@@ -62,14 +54,10 @@
                 <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/"
-                   target="_demos">Examples</a>
+                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Developers
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
                     <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>
                     <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>
@@ -78,19 +66,14 @@
                     <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>
                 </div>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://xeokit.io/download.html">Download</a>
             </li>
-            <!--            <li class="nav-item">-->
-            <!--                <a class="nav-link" href="./index.html?foo=3#connect">Connect</a>-->
-            <!--            </li>-->
         </ul>
     </div>
-    <!--    </div>-->
 </nav>
 
 <header class="bg-primary py-5 pipelines-header bg-black">
@@ -111,22 +94,26 @@
                 <h1>Introduction</h1>
             </div>
         </div>
-
         <div class="row">
-            <div class="col-12 mx-auto center-text">
-                <p>WIP</p>
+            <div class="col-12 mx-auto">
+                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view them in the browser. To do that, we pre-convert our models to xeokit's fast-loading native
+                    <i>XKT</i> format.</p>
+
+                <p>Listed below are several pipelines we can use to convert AEC files to XKT. Each pipeline involves running the files through a chain of one or more CLI tools, in your local environment. The Community pipelines use exclusively open source tools, while the Enterprise pipeline includes a proprietary tool for which a commercial license is required.</p>
+                <p>Periodically, we run our AEC test files through all the pipelines. That statically-generates the
+                    <a href="./tests.html">Model Conversion Tests</a> page, where you can check if the latest pipelines are converting our test models correctly.
+                </p>
             </div>
         </div>
         <div class="row mt-5 mb-5">
             <div class="col-sm-12 text-center">
-                <a class="btn btn-lg btn-outline-primary border-2" href="./tests.html">Model Conversion Tests
-                    &gt;&gt;</a>
+                <a class="btn btn-lg btn-outline-primary border-2" href="./tests.html">Model Conversion Tests &gt;&gt;</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="community1" class="main-section">
+<section id="ifcCommunityPipeline1" class="main-section">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-md-12">
@@ -139,53 +126,43 @@
             </div>
             <div class="col-md-7">
                 <br><br>
-                <p class="mb-4">A pipeline of open source CLI tools that converts
-                    medium-to-large
+                <p class="mb-4">A pipeline of open source CLI tools that converts medium-to-large
                     <code>.ifc</code> files to <code>.xkt</code>.</p>
                 <h5>Features</h5>
                 <ul>
                     <li>Converts medium-to-large <code>.ifc</code> files to <code>.xkt</code></li>
                     <li>All tools open source under AGPL3 and MIT</li>
-                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files on
-                        disk
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files on disk
                     </li>
-                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit <a
-                            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
-                        with
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
-                        or
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a> or
                         <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
                     </li>
                 </ul>
                 <h5>Tools used</h5>
                 <ul>
-                    <li><a href="http://ifcopenshell.org/ifcconvert">IfcConvert</a> (MIT, from <a
-                            href="http://ifcopenshell.org/">IfcOpenShell</a>)
+                    <li><a href="http://ifcopenshell.org/ifcconvert">IfcConvert</a> (MIT, from
+                        <a href="http://ifcopenshell.org/">IfcOpenShell</a>)
                     </li>
-                    <li><a href="https://github.com/bimspot/xeokit-metadata">xeokit-metadata</a> <i>(MIT
-                        License, from <a
-                                href="https://bimspot.io">BIMSpot</a></i>)
+                    <li><a href="https://github.com/bimspot/xeokit-metadata">xeokit-metadata</a> <i>(MIT License, from
+                        <a href="https://bimspot.io">BIMSpot</a></i>)
                     </li>
                     <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
-                        <a
-                                href="https://xeokit.io">xeokit SDK</a>)
+                        <a href="https://xeokit.io">xeokit SDK</a>)
                     </li>
                 </ul>
                 <h5>More info</h5>
                 <ul>
-                    <li>Tutorial: <a
-                            href="https://www.notion.so/xeokit/Converting-IFC-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting
-                        IFC Models to XKT using Open Source Tools - A
-                        Simpler
-                        Pipeline</a>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-IFC-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting IFC Models to XKT using Open Source Tools - A Simpler Pipeline</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </div>
 </section>
-<section id="community2" class="main-section">
+<section id="ifcCommunityPipeline2" class="main-section">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-md-12">
@@ -199,33 +176,28 @@
             <div class="col-md-7">
                 <br><br>
                 <p class="mb-4">A single open source Node.js-based CLI script that converts small
-                    <code>.ifc</code> files to <code>.xkt</code> in a single step. Internally uses <a
-                            href="https://github.com/IFCjs/web-ifc">web-ifc</a> to parse the
-                    <code>.ifc</code>.</p>
+                    <code>.ifc</code> files to <code>.xkt</code> in a single step. Internally uses
+                    <a href="https://github.com/IFCjs/web-ifc">web-ifc</a> to parse the <code>.ifc</code>.</p>
                 <h5>Features</h5>
                 <ul>
                     <li>Converts small <code>.ifc</code> files to <code>.xkt</code></li>
                     <li>Open source under AGPL3</li>
                     <li>Creates no intermediate files</li>
-                    <li>View the <code>.xkt</code> in a
-                        xeokit <a
-                                href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
-                        using an <a
-                                href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> using an
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
                     </li>
                 </ul>
                 <h5>Tools used</h5>
                 <ul>
                     <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
-                        <a
-                                href="https://xeokit.io">xeokit SDK</a>)
+                        <a href="https://xeokit.io">xeokit SDK</a>)
                     </li>
                 </ul>
                 <h5>More info</h5>
                 <ul>
-                    <li>Tutorial: <a
-                            href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting
-                        Models to XKT with convert2xkt</a>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting Models to XKT with convert2xkt</a>
                     </li>
                 </ul>
             </div>
@@ -233,7 +205,7 @@
     </div>
 </section>
 
-<section id="enterprise1" class="main-section">
+<section id="ifcEnterprisePipeline1" class="main-section">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-md-12">
@@ -246,39 +218,32 @@
             </div>
             <div class="col-md-7">
                 <br><br>
-                <p>A high-performance pipeline that converts large
-                    <code>.ifc</code> files to <code>.xkt</code>.</p>
+                <p>A high-performance pipeline that converts large <code>.ifc</code> files to <code>.xkt</code>.</p>
                 <h5>Features</h5>
                 <ul>
                     <li>Converts large <code>.ifc</code> files to <code>.xkt</code></li>
                     <li>Includes proprietary and open source CLI tools</li>
                     <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files
                     </li>
-                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit <a
-                            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
-                        with
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
-                        or
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a> or
                         <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
                     </li>
                 </ul>
                 <h5>Tools used</h5>
                 <ul>
-                    <li><a href="https://github.com/xeokit/xeokit-convert">ifc2gltf</a> (Proprietary,
-                        from
-                        <a
-                                href="https://creoox.com">Creoox AG</a>)
+                    <li><a href="https://github.com/xeokit/xeokit-convert">ifc2gltf</a> (Proprietary, from
+                        <a href="https://creoox.com">Creoox AG</a>)
                     </li>
                     <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
-                        <a
-                                href="https://xeokit.io">xeokit SDK</a>)
+                        <a href="https://xeokit.io">xeokit SDK</a>)
                     </li>
                 </ul>
                 <h5>More info</h5>
                 <ul>
-                    <li>Tutorial: <a
-                            href="https://www.notion.so/xeokit/Converting-IFC-to-XKT-using-ifc2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
-                        IFC to XKT using ifc2gltf</a>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-IFC-to-XKT-using-ifc2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting IFC to XKT using ifc2gltf</a>
                     </li>
                 </ul>
             </div>

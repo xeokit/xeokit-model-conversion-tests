@@ -4,7 +4,7 @@
   "description": "Runs all our converter pipelines over a directory containing your IFC files and generates a nice report with Bootstrap, including logs and clickable links to view the converted XKT files ",
   "main": "index.js",
   "scripts": {
-    "build": "node testdrive.js; gulp build"
+    "build": "node convert.js; gulp build"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,9 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.1.1",
-    "run-sequence": "^2.2.1",
     "gulp4-run-sequence": "^1.0.1",
-    "markdown": "^0.5.0"
+    "markdown": "^0.5.0",
+    "run-sequence": "^2.2.1",
+    "systeminformation": "^5.12.6"
   }
 }

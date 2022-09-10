@@ -6,13 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="xeokit - SDK for Browser-Based 3D BIM Visualization">
 <meta name="author" content="Lindsay Kay">
-<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,BIMServer,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
+<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
 
 <title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
 
 <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="./css/business-frontpage.css" rel="stylesheet">
-<!--<script src="vendor/jquery/jquery.slim.min.js"></script>-->
 
 <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -20,29 +19,22 @@
 <!-- Bootstrap core JavaScript -->
 <script src="./vendor/jquery/jquery.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
+    <title></title></head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-    <!--    <div class="container">-->
-    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>&nbsp;/&nbsp;<a
-            class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>&nbsp;/&nbsp;<a
-            class="navbar-brand" href="./index.html">Model Conversion</a></span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-brand" href="./tests.html">Tests</a></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
             <li class="nav-item">
                 <a class="nav-link" href="./index.html?foo=0">Home</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Demos
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
                     <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample IFC Model</a>
                     <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>
@@ -62,14 +54,10 @@
                 <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/"
-                   target="_demos">Examples</a>
+                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Developers
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
                     <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>
                     <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>
@@ -78,19 +66,14 @@
                     <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>
                 </div>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://xeokit.io/download.html">Download</a>
             </li>
-            <!--            <li class="nav-item">-->
-            <!--                <a class="nav-link" href="./index.html?foo=3#connect">Connect</a>-->
-            <!--            </li>-->
         </ul>
     </div>
-    <!--    </div>-->
 </nav>
 
 <header class="bg-black home-header bg-black">
@@ -98,151 +81,294 @@
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
                 <h1 class="text-white mt-5 mb-2">Model Conversion Tests </h1>
-                <p class="lead mb-5 text-white">Check the health of our various AEC file conversion tools and pipelines.</p>
+                <p class="lead mb-5 text-white">Check the health of our AEC file conversion tools</p>
             </div>
         </div>
     </div>
 </header>
 
-
-
-<section id="intro" class="main-section  alabaster">
+<section id="intro" class="main-section alabaster">
     <div class="container">
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
                 <h1>Introduction</h1>
             </div>
         </div>
-<!--        <div class="row mb-5">-->
-<!--            <div class="col-5 mx-auto center-text">-->
-<!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitter.png">-->
-<!--                    </div>-->
-<!--        </div>-->
+        <!--        <div class="row mb-5">-->
+        <!--            <div class="col-5 mx-auto center-text">-->
+        <!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitter.png">-->
+        <!--            </div>-->
+        <!--        </div>-->
         <div class="row">
             <div class="col-12 mx-auto center-text">
-                <p>This is a report that's automatically generated by xeokit's conversion pipelines test suite.  In this report, you can view the XKT models converted by all our pipelines from a selection of standard IFC test files.</p>
+                <p>Periodically, we run our AEC test models through all our conversion pipelines. That action statically-generates this page of test results, where you can check if the pipelines are converting our models correctly. Click the converted files in the left column to view them in a xeokit viewer. Click the log links on the right to see what happened during their conversion.</p>
             </div>
         </div>
         <div class="row mt-5 mb-5">
             <div class="col-sm-12 text-center">
-                <a class="btn btn-lg btn-outline-primary border-2" href="./index.html">Model Conversion &gt;&gt;</a>
+                <a class="btn btn-lg btn-outline-primary border-2" href="./index.html">About Model Conversion &gt;&gt;</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="reports" class="main-section">
-    <div class="container pt-3 pb-3">
-        <div class="col-md-12 mb-5">
-    <h4>IfcOpenHouse2x3.ifc</h4>
-    <p>Fri Sep 09 2022 00:09:45 GMT+0200 (Central European Summer Time)</p>
-    <table class="table table-sm table-hover table-striped table-bordered mb-0">
-        <thead>
-        <tr>
-            <th scope="col">Files</th>
-            <th scope="col">Conversion Pipeline</th>
-            <th scope="col">Log</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/model.ifc">.ifc</a></td>
-            <td><a href="">WebGLLoaderPlugin</a></td>
-            <td> -</td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/community1/model.glb">.glb</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/enterprise1/model.glb">.glb</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/enterprise1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/community1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/community1/model.json">.glb + .json</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/enterprise1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/enterprise1/model.json">.glb + .json</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/enterprise1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/community1/model.xkt">.xkt</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/community2/model.xkt">.xkt</a></td>
-            <td><a href="index.html#community2">Community IFC Conversion Pipeline #2</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/community2/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse2x3/enterprise1/model.xkt">.xkt</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse2x3/enterprise1/log.txt">Log</a></td>
-        </tr>
-        </tbody>
-    </table>
-</div>
-<div class="col-md-12 mb-5">
-    <h4>IfcOpenHouse4.ifc</h4>
-    <p>Fri Sep 09 2022 00:09:45 GMT+0200 (Central European Summer Time)</p>
-    <table class="table table-sm table-hover table-striped table-bordered mb-0">
-        <thead>
-        <tr>
-            <th scope="col">Files</th>
-            <th scope="col">Conversion Pipeline</th>
-            <th scope="col">Log</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/model.ifc">.ifc</a></td>
-            <td><a href="">WebGLLoaderPlugin</a></td>
-            <td> -</td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/community1/model.glb">.glb</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/enterprise1/model.glb">.glb</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/enterprise1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/community1/model.glb&metaModelSrc=results/IfcOpenHouse4/community1/model.json">.glb + .json</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/enterprise1/model.glb&metaModelSrc=results/IfcOpenHouse4/enterprise1/model.json">.glb + .json</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/enterprise1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/community1/model.xkt">.xkt</a></td>
-            <td><a href="index.html#community1">Community IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/community1/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/community2/model.xkt">.xkt</a></td>
-            <td><a href="index.html#community2">Community IFC Conversion Pipeline #2</a></td>
-            <td><a href="./results/IfcOpenHouse4/community2/log.txt">Log</a></td>
-        </tr>
-        <tr>
-            <td><a href="./viewModel.html?src=results/IfcOpenHouse4/enterprise1/model.xkt">.xkt</a></td>
-            <td><a href="index.html#enterprise1">Enterprise IFC Conversion Pipeline #1</a></td>
-            <td><a href="./results/IfcOpenHouse4/enterprise1/log.txt">Log</a></td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+<section id="systemInfo" class="system-info-section">
+    <div class="container pt-0 pb-0">
+
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>System Information</h1>
+            </div>
+        </div>
+        <!--            </div>-->
+        <!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;        <div class="row testimonial-row">&ndash;&gt;-->
+        <!--&lt;!&ndash;            <div class="col-lg-12">&ndash;&gt;-->
+        <!--&lt;!&ndash;                <h4>System Information</h4>&ndash;&gt;-->
+        <!--&lt;!&ndash;            </div>&ndash;&gt;-->
+        <!--            <div class="col-lg-12">-->
+        <div class="row testimonial-row">
+            <div class="col-lg-12">
+                
+<p>These are the summarized statistics of the test system - find the full set <a href="./results/systemInfo.json">here</a>.</p>
+<table class="table table-sm table-hover table-striped table-bordered mb-0">
+    <tbody>
+    <tr>
+        <td>Date</td>
+        <td>Sat Sep 10 2022 02:31:15 GMT+0200 (Central European Summer Time)</td>
+    </tr>
+    <tr>
+        <td>CPU Manufacturer</td>
+        <td>Intel</td>
+    </tr>
+    <tr>
+        <td>CPU Brand</td>
+        <td>Core™ i7-8650U</td>
+    </tr>
+    <tr>
+        <td>Memory</td>
+        <td>17 GB</td>
+    </tr>
+    <tr>
+        <td>OS Platform</td>
+        <td>linux</td>
+    </tr>
+    <tr>
+        <td>OS Distro</td>
+        <td>Ubuntu</td>
+    </tr>
+    <tr>
+        <td>OS Release</td>
+        <td>20.04.5 LTS</td>
+    </tr>
+    <tr>
+        <td>Node.js</td>
+        <td>v16.10.0</td>
+    </tr>
+<!--    <tr>-->
+<!--        <td>xeokit-sdk</td>-->
+<!--        <td>Latest </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>xeokit-convert</td>-->
+<!--        <td>Latest </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>IfcConvert</td>-->
+<!--        <td>Latest </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>xeokit-metadata</td>-->
+<!--        <td>Latest </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>ifc2gltf</td>-->
+<!--        <td>Latest </td>-->
+<!--    </tr>-->
+
+    </tbody>
+</table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="test-results-section">
+    <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>IFC Conversion Tests</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="IfcOpenHouse2x3" class="conversion-results-section">
+    <div class="container pt-2 mt-0 pb-0 mb-1">
+        <h4>IfcOpenHouse2x3.ifc</h4>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0 ">
+            <thead>
+            <tr>
+                <th scope="col">Files</th>
+                <th scope="col">Conversion Pipeline</th>
+                <th scope="col">Log</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/model.ifc">View .ifc</a>
+                </td>
+                <td><a href="">WebGLLoaderPlugin</a></td>
+                <td> -</td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">View .glb</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">View .glb</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.json&pipelineId=ifcCommunity1">View .glb and .json</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">View .glb and .json</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline2">Community IFC Conversion Pipeline #2</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcCommunityPipeline2/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse2x3/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="IfcOpenHouse4" class="conversion-results-section">
+    <div class="container pt-2 mt-0 pb-0 mb-1">
+        <h4>IfcOpenHouse4.ifc</h4>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0 ">
+            <thead>
+            <tr>
+                <th scope="col">Files</th>
+                <th scope="col">Conversion Pipeline</th>
+                <th scope="col">Log</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/model.ifc">View .ifc</a>
+                </td>
+                <td><a href="">WebGLLoaderPlugin</a></td>
+                <td> -</td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">View .glb</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">View .glb</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/ifcCommunityPipeline1/model.json&pipelineId=ifcCommunity1">View .glb and .json</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">View .glb and .json</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline1">Community IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcCommunityPipeline1/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcCommunityPipeline2">Community IFC Conversion Pipeline #2</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcCommunityPipeline2/log.txt">Log</a></td>
+            </tr>
+            <tr>
+
+                <td>
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">View .xkt</a>
+                </td>
+                <td><a href="index.html#ifcEnterprisePipeline1">Enterprise IFC Conversion Pipeline #1</a></td>
+                <td><a href="./results/IfcOpenHouse4/ifcEnterprisePipeline1/log.txt">Log</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="test-results-section">
+    <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+
+            </div>
+        </div>
     </div>
 </section>
 

@@ -1,0 +1,118 @@
+{
+	"version": "5.12.6",
+	"time": {
+		"current": 1662769875696,
+		"uptime": 271477.36,
+		"timezone": "GMT+0200",
+		"timezoneName": "Europe/Berlin"
+	},
+	"system": {},
+	"cpu": {
+		"manufacturer": "Intel",
+		"brand": "Core™ i7-8650U",
+		"vendor": "Intel",
+		"family": "6",
+		"model": "142",
+		"stepping": "10",
+		"revision": "",
+		"voltage": "",
+		"speed": 1.9,
+		"speedMin": 0.4,
+		"speedMax": 4.2,
+		"governor": "powersave",
+		"cores": 8,
+		"physicalCores": 4,
+		"performanceCores": 4,
+		"efficiencyCores": 0,
+		"processors": 1,
+		"socket": "",
+		"flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities",
+		"virtualization": true,
+		"cache": {
+			"l1d": 131072,
+			"l1i": 131072,
+			"l2": 1048576,
+			"l3": 8388608
+		}
+	},
+	"mem": {
+		"total": 16655450112,
+		"free": 257232896,
+		"used": 16398217216,
+		"active": 16086556672,
+		"available": 568893440,
+		"buffers": 26550272,
+		"cached": 4026814464,
+		"slab": 356425728,
+		"buffcache": 4409790464,
+		"swaptotal": 2147479552,
+		"swapused": 2147401728,
+		"swapfree": 77824
+	},
+	"graphics": {
+		"controllers": [
+			{
+				"vendor": "Intel Corporation",
+				"model": "UHD Graphics 620 ",
+				"bus": "Onboard",
+				"busAddress": "00:02.0",
+				"vram": 256,
+				"vramDynamic": false,
+				"pciID": ""
+			}
+		],
+		"displays": [
+			{
+				"vendor": "",
+				"model": "",
+				"deviceName": "",
+				"main": false,
+				"builtin": true,
+				"connection": "eDP-1",
+				"sizeX": 309,
+				"sizeY": 173,
+				"pixelDepth": 24,
+				"resolutionX": 1920,
+				"resolutionY": 1080,
+				"currentResX": 1920,
+				"currentResY": 1080,
+				"positionX": 0,
+				"positionY": 0,
+				"currentRefreshRate": 60
+			},
+			{
+				"vendor": "",
+				"model": "LG Ultra HD",
+				"main": true,
+				"builtin": false,
+				"connection": "HDMI-1",
+				"sizeX": 309,
+				"sizeY": 173,
+				"pixelDepth": 24,
+				"resolutionX": 1920,
+				"resolutionY": 1080,
+				"currentResX": 3840,
+				"currentResY": 2160,
+				"positionX": 0,
+				"positionY": 0,
+				"currentRefreshRate": 30
+			}
+		]
+	},
+	"os": {
+		"platform": "linux",
+		"distro": "Ubuntu",
+		"release": "20.04.5 LTS",
+		"codename": "Focal Fossa",
+		"kernel": "5.15.0-46-generic",
+		"arch": "x64",
+		"hostname": "bodacious",
+		"fqdn": "bodacious",
+		"codepage": "UTF-8",
+		"logofile": "ubuntu",
+		"serial": "3bb0301eb6d64ad983a2c1544cff3cbc",
+		"build": "",
+		"servicepack": "",
+		"uefi": true
+	}
+}

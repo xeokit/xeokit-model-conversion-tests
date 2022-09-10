@@ -79,6 +79,23 @@ blockquote cite:before {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
+.system-info-section {
+    padding: 70px 0;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.test-results-section {
+    padding: 70px 0 0;
+    border: 0;
+}
+
+
+.conversion-results-section {
+    padding: 0 0;
+    border: 0;
+}
+
 .testimonial-portrait {
     width: 100px;
     height: 100px;
