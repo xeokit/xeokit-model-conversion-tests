@@ -73,6 +73,12 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
+code {
+    font-size: 87.5%;
+    color: inherit;
+    word-break: break-word;
+}
+
 .main-section {
     padding: 70px 0;
     border-top: solid 1px lightgray;
@@ -91,7 +97,7 @@ blockquote cite:before {
 }
 
 .conversion-results-section:before {
-    height: 60px;
+    height: 70px;
     content: "";
     display:block;
 }

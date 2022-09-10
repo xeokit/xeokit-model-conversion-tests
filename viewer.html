@@ -28,7 +28,8 @@
         }
 
         .pageInfo {
-            /*background-color: white;*/
+            border-color: black;
+            background-color: rgba(255,255,255,0.7);
             position: absolute;
             bottom: 20px;
             left: 20px;
@@ -810,18 +811,13 @@
 
     const pageTitle = document.getElementById('pageInfo');
 
-    const pipelineNames = {
-        "ifcCommunityPipeline1": "IFC Community Pipeline #1",
-        "ifcCommunityPipeline2": "IFC Community Pipeline #2",
-        "ifcEnterprisePipeline1": "IFC Enterprise Pipeline #1"
-    }
-
     fetch("./results/resultsInfo.json")
         .then(function (response) {
             return response.json();
         })
         .then(function (resultsInfo) {
-            const conversionInfo = resultsInfo.conversions[Number.parseInt(conversionId)];
+            const index = Number.parseInt(conversionId);
+            const conversionInfo = resultsInfo.conversions[index];
             let model;
             switch (ext) {
                 case "xkt":
@@ -837,7 +833,7 @@
             <tbody>
                 <tr>
                     <td>Original model file:</td>
-                    <td><a href="./tests.html#${conversionInfo.modelId}">${conversionInfo.modelSrc}</a></td>
+                    <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
                 </tr>
                  <tr>
                     <td>Viewing converted file type:</td>
@@ -877,11 +873,11 @@
                 </tr>
                 <tr>
                     <td>Converted with:</td>
-                    <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
+                    <td><a href="./index.html#${conversionInfo.pipelineId}"><code>${conversionInfo.pipelineName}</code></a></td>
                 </tr>
                 <tr>
                     <td>Viewing with</td>
-                    <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a></td>
+                    <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
             </table>`;
@@ -890,7 +886,7 @@
             <tbody>
                 <tr>
           <td>Original model file:</td>
-                       <td><a href="./tests.html#${conversionInfo.modelId}">${conversionInfo.modelSrc}</a></td>
+                <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
                 </tr>
                  <tr>
                     <td>Viewing intermediate converted file type:</td>
@@ -898,11 +894,11 @@
                 </tr>
                 <tr>
                     <td>Converted with:</td>
-                    <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
+                    <td><a href="./index.html#${conversionInfo.pipelineId}"><code>${conversionInfo.pipelineName}</code></a></td>
                 </tr>
                 <tr>
                  <td>Viewing with:</td>
-                 <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a></td>
+                 <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
             </table>`;
@@ -922,7 +918,7 @@
             <tbody>
                 <tr>
                     <td>Original model file:</td>
-                    <td><a href="./tests.html#${conversionInfo.modelId}">${conversionInfo.modelSrc}</a></td>
+                    <td><a href="./tests.html#${conversionInfo.modelId}"><code>${conversionInfo.modelSrc}</code></a></td>
                 </tr>
                  <tr>
                     <td>Viewing original file type:</td>
@@ -930,11 +926,11 @@
                 </tr>
                  <tr>
                     <td>Converted with:</td>
-                    <td>N/A</td>
+                    <td><code>N/A</code></td>
                 </tr>
                 <tr>
                     <td>Viewing with:</td>
-                    <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/WebIFCLoaderPlugin/WebIFCLoaderPlugin.js~WebIFCLoaderPlugin.html">WebIFCLoaderPlugin</a></td>
+                    <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/WebIFCLoaderPlugin/WebIFCLoaderPlugin.js~WebIFCLoaderPlugin.html"><code>WebIFCLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
             </table>`;
