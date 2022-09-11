@@ -1,8 +1,8 @@
 {
 	"version": "5.12.6",
 	"time": {
-		"current": 1662846546251,
-		"uptime": 348146.28,
+		"current": 1662851526061,
+		"uptime": 353126.09,
 		"timezone": "GMT+0200",
 		"timezoneName": "Europe/Berlin"
 	},
@@ -37,17 +37,17 @@
 	},
 	"mem": {
 		"total": 16655450112,
-		"free": 1595371520,
-		"used": 15060078592,
-		"active": 13545541632,
-		"available": 3109908480,
-		"buffers": 204558336,
-		"cached": 4454699008,
-		"slab": 360714240,
-		"buffcache": 5019971584,
+		"free": 1795698688,
+		"used": 14859751424,
+		"active": 13175971840,
+		"available": 3479478272,
+		"buffers": 177078272,
+		"cached": 4565471232,
+		"slab": 370061312,
+		"buffcache": 5112610816,
 		"swaptotal": 2147479552,
-		"swapused": 1908621312,
-		"swapfree": 238858240
+		"swapused": 1894551552,
+		"swapfree": 252928000
 	},
 	"graphics": {
 		"controllers": [

@@ -55,7 +55,8 @@ const configs = JSON.parse(configsData);
         for (const file of files) {
 
             const fileName = path.parse(file).name;
-            const baseName = path.basename(file);
+          //  const baseName = path.basename(file);
+            const baseName = fileName;
             const ifcPath = path.join(inputFilesDir, file);
             const ifcPathAbs = `${__dirname}/${ifcPath}`;
             const resultsSubDir = `${resultsDir}/${fileName}`;

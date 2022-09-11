@@ -27,14 +27,14 @@
                 <h1>Introduction</h1>
             </div>
         </div>
-        <!--        <div class="row mb-5">-->
-        <!--            <div class="col-5 mx-auto center-text">-->
-        <!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitter.png">-->
-        <!--            </div>-->
-        <!--        </div>-->
+<!--        <div class="row mb-5">-->
+<!--            <div class="col-5 mx-auto center-text">-->
+<!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitterThumb.png">-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="row">
             <div class="col-12 mx-auto center-text">
-                <p>Periodically, we run our AEC test models through all our conversion pipelines. That action statically-generates this page of test results, where you can check if the pipelines are converting our models correctly. Click the converted files in the left column to view them in a xeokit viewer. Click the log links on the right to see what happened during their conversion.</p>
+                <p>Periodically, run our <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to batch-convert our AEC test models through all our conversion pipelines, which generates this static page of test results, where you can quickly check if the pipelines are working OK. Scroll down to see how well the latest pipelines and tools are working.</p>
             </div>
         </div>
         <div class="row mt-5 mb-5">
@@ -50,17 +50,17 @@
 
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>System Information</h1>
+                <h1>Conversion Test Setup</h1>
             </div>
         </div>
-        <!--            </div>-->
-        <!--&lt;!&ndash;        </div>&ndash;&gt;-->
 
-        <!--&lt;!&ndash;        <div class="row testimonial-row">&ndash;&gt;-->
-        <!--&lt;!&ndash;            <div class="col-lg-12">&ndash;&gt;-->
-        <!--&lt;!&ndash;                <h4>System Information</h4>&ndash;&gt;-->
-        <!--&lt;!&ndash;            </div>&ndash;&gt;-->
-        <!--            <div class="col-lg-12">-->
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <p>Below is a summary of the system we ran these conversion tests on - find the full system information
+                    <a href="./results/systemInfo.json">here</a>.</p>
+            </div>
+        </div>
+
         <div class="row testimonial-row">
             <div class="col-lg-12">
                 @@include('../_includes/systemInfo.html')
@@ -71,9 +71,14 @@
 
 <section class="test-results-section">
     <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Conversion Test Results</h1>
+            </div>
+        </div>
         <div class="row  center-text">
             <div class="col-lg-12">
-                <h1>IFC Conversion Test Results</h1>
+                <p>Listed below are the results of our latest conversion tests. The tests have run our sample files through all our conversion pipelines, creating various XKT, glTF, JSON files that we can now view or download. Although the glTF and JSON are intermediate files within our pipelines, the results provide them for viewing and download as debugging resources.</p>
             </div>
         </div>
     </div>

@@ -27,7 +27,9 @@
             overflow-y: hidden !important;
         }
 
-        .pageInfo {
+        #modelInfoContainer {
+            visibility: hidden;
+
             border-color: black;
             background-color: rgba(255, 255, 255, 0.7);
             position: absolute;
@@ -39,7 +41,6 @@
             z-index: 500;
             padding: 10px;
             border-radius: 5px;
-
         }
 
         #myCanvas {
@@ -254,9 +255,9 @@
     </div>
 </nav>
 
-<div class="pageInfo">
+<div id="modelInfoContainer">
     <h2 id="modelFile"></h2><br>
-    <div id="pageInfo"></div>
+    <div id="modelInfo"></div>
     <br>
     <h5>Objects:</h5>
     <div id="treeViewContainer"><p>N/A</p></div>
@@ -288,9 +289,9 @@
     const conversionId = reqParams["conversionId"];
     const src = reqParams["src"];
     const metaModelSrc = reqParams["metaModelSrc"];
-
-
+    const srcName = src.replace(/^.*[\\\/]/, '');
     const ext = src.split('.').pop();
+    const srcDownloadName = `${srcName}-${pipelineId}.${ext}`;
     const needTree = (!metaModelSrc) || (ext === "xkt") || (ext === "ifc");
 
     function getRequestParams() {
@@ -319,7 +320,7 @@
     new FastNavPlugin(viewer);
 
     if (!needTree) {
- //       document.getElementById('treeViewContainer').innerHTML = "<p>N/A</p>"
+        //       document.getElementById('treeViewContainer').innerHTML = "<p>N/A</p>"
     } else {
         const treeView = new TreeViewPlugin(viewer, {
             containerElement: document.getElementById("treeViewContainer"),
@@ -820,7 +821,7 @@
     });
 
 
-    const pageTitle = document.getElementById('pageInfo');
+    const modelInfo = document.getElementById('modelInfo');
 
     fetch("./results/resultsInfo.json")
         .then(function (response) {
@@ -830,7 +831,7 @@
             const index = Number.parseInt(conversionId);
             const conversionInfo = resultsInfo.conversions[index];
 
-            document.getElementById(`modelFile`).innerHTML = `<a href="./tests.html#${conversionInfo.modelId}">&lt;&lt;&nbsp;<code>${conversionInfo.modelId}</code></a>`;
+            document.getElementById(`modelFile`).innerHTML = `<a href="./tests.html#${conversionInfo.modelId}"><code>&lt;&lt;&nbsp;${conversionInfo.modelId}</code></a>`;
 
 
             let model;
@@ -844,19 +845,19 @@
                         edges: true,
                         excludeUnclassifiedObjects: false
                     });
-                    pageTitle.innerHTML = `<table class="table table-bordered mb-0 mt-0">
+                    modelInfo.innerHTML = `<table class="table table-bordered mb-0 mt-0">
             <tbody>
               <tr>
-                    <td>Viewing XKT file:</td>
-                    <td><code><a href="${src}">${src}</a><code></td>
+                    <td>Viewing file:</td>
+                    <td><a href="${src}"><button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button></a></td>
                 </tr>
              <tr>
-                    <td>Converted using pipeline:</td>
+                    <td>Converted with:</td>
                     <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
 
                 <tr>
-                    <td>Using SDK components:</td>
+                    <td>Viewing with:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a></td>
                 </tr>
                 </tbody>
@@ -873,35 +874,35 @@
                         excludeUnclassifiedObjects: false
                     });
                     if (metaModelSrc) {
-                        pageTitle.innerHTML = `<table class="table table-bordered mb-0">
+                        modelInfo.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
               <tr>
-                    <td>Viewing glTF and JSON files:</td>
-                    <td><code><a href="${src}">${src}</a></code><br><code><a href="${metaModelSrc}">${metaModelSrc}</a></code></td>
+                    <td>Viewing files:</td>
+                    <td><a href="${src}"><button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button></a>&nbsp;+&nbsp;<a href="${metaModelSrc}"><button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button></a></td>
                 </tr>
               <tr>
-                    <td>Converted using pipeline:</td>
+                    <td>Converted with:</td>
                     <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
                 <tr>
-                    <td>Using SDK components:</td>
+                    <td>Viewing with:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
             </table>`;
                     } else {
-                        pageTitle.innerHTML = `<table class="table table-bordered mb-0">
+                        modelInfo.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
              <tr>
-                    <td>Viewing glTF file:</td>
-              <td><code><a href="${src}">${src}</a></code></td>
+                    <td>Viewing file:</td>
+              <td><a href="${src}"><button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button></a></td>
                 </tr>
  <tr>
-                    <td>Converted using pipeline:</td>
+                    <td>Converted with:</td>
                   <td><a href="./index.html#${conversionInfo.pipelineId}">${conversionInfo.pipelineName}</a></td>
                 </tr>
 
-                 <td>Viewing using SDK components:</td>
+                 <td>Viewing Viewing with:</td>
                  <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html"><code>GLTFLoaderPlugin</code></a></td>
                 </tr>
 
@@ -921,18 +922,18 @@
                         edges: true,
                         excludeUnclassifiedObjects: false
                     });
-                    pageTitle.innerHTML = `<table class="table table-bordered mb-0">
+                    modelInfo.innerHTML = `<table class="table table-bordered mb-0">
             <tbody>
-                 <tr>
-                    <td>Viewing IFC file:</td>
-                    <td><a href="${src}"><code>${src}</code></a></td>
+                <tr>
+                    <td>Viewing file:</td>
+              <td><a href="${src}"><button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button></a></td>
                 </tr>
                 <tr>
-                    <td>Converted using pipeline:</td>
+                    <td>Converted with:</td>
                   <td>N/A</td>
                 </tr>
                <tr>
-                    <td>Using SDK components:</td>
+                    <td>Viewing with:</td>
                     <td><a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>, <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/WebIFCLoaderPlugin/WebIFCLoaderPlugin.js~WebIFCLoaderPlugin.html"><code>WebIFCLoaderPlugin</code></a></td>
                 </tr>
                 </tbody>
@@ -941,21 +942,12 @@
 
             model.on("loaded", function () {
                 viewer.cameraFlight.jumpTo(model);
+                document.getElementById("modelInfoContainer").style.visibility = "visible";
             });
         })
         .catch(function (err) {
             console.log('error: ' + err);
         });
-
-    function appendData(data) {
-        let mainContainer = document.getElementById("pageInfo");
-        mainContainer.innerHTML = JSON.stringify(data);
-        // for (let i = 0; i < data.length; i++) {
-        //     let div = document.createElement("div");
-        //     div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-        //     mainContainer.appendChild(div);
-        // }
-    }
 
 
     window.viewer = viewer;     // For debugging

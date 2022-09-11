@@ -94,14 +94,14 @@
                 <h1>Introduction</h1>
             </div>
         </div>
-        <!--        <div class="row mb-5">-->
-        <!--            <div class="col-5 mx-auto center-text">-->
-        <!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitter.png">-->
-        <!--            </div>-->
-        <!--        </div>-->
+<!--        <div class="row mb-5">-->
+<!--            <div class="col-5 mx-auto center-text">-->
+<!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitterThumb.png">-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="row">
             <div class="col-12 mx-auto center-text">
-                <p>Periodically, we run our AEC test models through all our conversion pipelines. That action statically-generates this page of test results, where you can check if the pipelines are converting our models correctly. Click the converted files in the left column to view them in a xeokit viewer. Click the log links on the right to see what happened during their conversion.</p>
+                <p>Periodically, run our <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to batch-convert our AEC test models through all our conversion pipelines, which generates this static page of test results, where you can quickly check if the pipelines are working OK. Scroll down to see how well the latest pipelines and tools are working.</p>
             </div>
         </div>
         <div class="row mt-5 mb-5">
@@ -117,26 +117,26 @@
 
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>System Information</h1>
+                <h1>Conversion Test Setup</h1>
             </div>
         </div>
-        <!--            </div>-->
-        <!--&lt;!&ndash;        </div>&ndash;&gt;-->
 
-        <!--&lt;!&ndash;        <div class="row testimonial-row">&ndash;&gt;-->
-        <!--&lt;!&ndash;            <div class="col-lg-12">&ndash;&gt;-->
-        <!--&lt;!&ndash;                <h4>System Information</h4>&ndash;&gt;-->
-        <!--&lt;!&ndash;            </div>&ndash;&gt;-->
-        <!--            <div class="col-lg-12">-->
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <p>Below is a summary of the system we ran these conversion tests on - find the full system information
+                    <a href="./results/systemInfo.json">here</a>.</p>
+            </div>
+        </div>
+
         <div class="row testimonial-row">
             <div class="col-lg-12">
                 
-<p>These are the summarized statistics of the test system - find the full set <a href="./results/systemInfo.json">here</a>.</p>
+
 <table class="table table-sm table-hover table-striped table-bordered mb-0">
     <tbody>
     <tr>
         <td>Date</td>
-        <td>Sat Sep 10 2022 23:49:06 GMT+0200 (Central European Summer Time)</td>
+        <td>Sun Sep 11 2022 01:12:06 GMT+0200 (Central European Summer Time)</td>
     </tr>
     <tr>
         <td>CPU Manufacturer</td>
@@ -196,135 +196,23 @@
 
 <section class="test-results-section">
     <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Conversion Test Results</h1>
+            </div>
+        </div>
         <div class="row  center-text">
             <div class="col-lg-12">
-                <h1>IFC Conversion Test Results</h1>
+                <p>Listed below are the results of our latest conversion tests. The tests have run our sample files through all our conversion pipelines, creating various XKT, glTF, JSON files that we can now view or download. Although the glTF and JSON are intermediate files within our pipelines, the results provide them for viewing and download as debugging resources.</p>
             </div>
         </div>
     </div>
 </section>
 
 
-<section id="Duplex" class="conversion-results-section">
-    <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>Duplex.ifc</h4>
-
-        <table class="table table-hover table-bordered mb-0 ">
-            <thead>
-            <tr>
-                <th scope="col">Pipeline</th>
-                <th scope="col">Viewables</th>
-                <th scope="col">Downloadables</th>
-                <th scope="col">Conversion Logs</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcCommunityPipeline1/model.glb&metaModelSrc=results/Duplex/model.json&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-                <td>
-                    <a href="./results/Duplex/ifcCommunityPipeline1/model.xkt">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a> <a href="./results/Duplex/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/Duplex/ifcCommunityPipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/Duplex/ifcCommunityPipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/Duplex/ifcCommunityPipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            <tr>
-                <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/model.ifc&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                </td>
-
-                <td><a href="./results/Duplex/ifcCommunityPipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    <a href="./results/Duplex/model.ifc">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-
-                </a>
-             </td>
-
-                <td><a href="./results/Duplex/ifcCommunityPipeline2/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-            <tr>
-                <td>
-                    <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=2&src=results/Duplex/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/Duplex/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-
-
-                <td><a href="./results/Duplex/ifcEnterprisePipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                </a><a href="./results/Duplex/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/Duplex/ifcEnterprisePipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/Duplex/ifcEnterprisePipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/Duplex/ifcEnterprisePipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            </tbody>
-        </table>
-
-
-    </div>
-</section>
-
 <section id="IfcOpenHouse2x3" class="conversion-results-section">
     <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>IfcOpenHouse2x3.ifc</h4>
+        <h4>IfcOpenHouse2x3</h4>
 
         <table class="table table-hover table-bordered mb-0 ">
             <thead>
@@ -333,7 +221,6 @@
                 <th scope="col">Viewables</th>
                 <th scope="col">Downloadables</th>
                 <th scope="col">Conversion Logs</th>
-
             </tr>
             </thead>
             <tbody>
@@ -342,16 +229,16 @@
                     <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/model.json&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/ifcCommunityPipeline1/model.json&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -375,10 +262,10 @@
                 <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
                 </td>
@@ -402,16 +289,16 @@
                     <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=2&src=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse2x3/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -441,7 +328,7 @@
 
 <section id="IfcOpenHouse4" class="conversion-results-section">
     <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>IfcOpenHouse4.ifc</h4>
+        <h4>IfcOpenHouse4</h4>
 
         <table class="table table-hover table-bordered mb-0 ">
             <thead>
@@ -450,7 +337,6 @@
                 <th scope="col">Viewables</th>
                 <th scope="col">Downloadables</th>
                 <th scope="col">Conversion Logs</th>
-
             </tr>
             </thead>
             <tbody>
@@ -459,16 +345,16 @@
                     <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/model.json&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/ifcCommunityPipeline1/model.json&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -492,10 +378,10 @@
                 <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
                 </td>
@@ -519,16 +405,16 @@
                     <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=8&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=5&src=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/IfcOpenHouse4/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -558,7 +444,7 @@
 
 <section id="MAP" class="conversion-results-section">
     <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>MAP.ifc</h4>
+        <h4>MAP</h4>
 
         <table class="table table-hover table-bordered mb-0 ">
             <thead>
@@ -567,7 +453,6 @@
                 <th scope="col">Viewables</th>
                 <th scope="col">Downloadables</th>
                 <th scope="col">Conversion Logs</th>
-
             </tr>
             </thead>
             <tbody>
@@ -576,16 +461,16 @@
                     <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcCommunityPipeline1/model.glb&metaModelSrc=results/MAP/model.json&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcCommunityPipeline1/model.glb&metaModelSrc=results/MAP/ifcCommunityPipeline1/model.json&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -609,10 +494,10 @@
                 <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/model.ifc&pipelineId=ifcCommunity2">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/model.ifc&pipelineId=ifcCommunity2">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
                 </td>
@@ -636,16 +521,16 @@
                     <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
                 </td>
                 <td>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/model.ifc&pipelineId=ifcCommunity1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/model.ifc&pipelineId=ifcCommunity1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
                     </a>
-                    <a href="./viewer.html?conversionId=11&src=results/MAP/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/MAP/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
+                    <a href="./viewer.html?conversionId=8&src=results/MAP/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/MAP/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
                         <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
                     </a>
                 </td>
@@ -661,240 +546,6 @@
                     <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
                 </a></td>
                 <td><a href="./results/MAP/ifcEnterprisePipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            </tbody>
-        </table>
-
-
-    </div>
-</section>
-
-<section id="rac_advanced_sample_project" class="conversion-results-section">
-    <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>rac_advanced_sample_project.ifc</h4>
-
-        <table class="table table-hover table-bordered mb-0 ">
-            <thead>
-            <tr>
-                <th scope="col">Pipeline</th>
-                <th scope="col">Viewables</th>
-                <th scope="col">Downloadables</th>
-                <th scope="col">Conversion Logs</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcCommunityPipeline1/model.glb&metaModelSrc=results/rac_advanced_sample_project/model.json&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-                <td>
-                    <a href="./results/rac_advanced_sample_project/ifcCommunityPipeline1/model.xkt">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a> <a href="./results/rac_advanced_sample_project/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/rac_advanced_sample_project/ifcCommunityPipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/rac_advanced_sample_project/ifcCommunityPipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/rac_advanced_sample_project/ifcCommunityPipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            <tr>
-                <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/model.ifc&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                </td>
-
-                <td><a href="./results/rac_advanced_sample_project/ifcCommunityPipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    <a href="./results/rac_advanced_sample_project/model.ifc">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-
-                </a>
-             </td>
-
-                <td><a href="./results/rac_advanced_sample_project/ifcCommunityPipeline2/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-            <tr>
-                <td>
-                    <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=14&src=results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-
-
-                <td><a href="./results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                </a><a href="./results/rac_advanced_sample_project/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/rac_advanced_sample_project/ifcEnterprisePipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/rac_advanced_sample_project/ifcEnterprisePipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            </tbody>
-        </table>
-
-
-    </div>
-</section>
-
-<section id="rme_advanced_sample_project" class="conversion-results-section">
-    <div class="container pt-0 mt-0 pb-0 mb-0">
-        <h4>rme_advanced_sample_project.ifc</h4>
-
-        <table class="table table-hover table-bordered mb-0 ">
-            <thead>
-            <tr>
-                <th scope="col">Pipeline</th>
-                <th scope="col">Viewables</th>
-                <th scope="col">Downloadables</th>
-                <th scope="col">Conversion Logs</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcCommunityPipeline1/model.xkt&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcCommunityPipeline1/model.glb&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcCommunityPipeline1/model.glb&metaModelSrc=results/rme_advanced_sample_project/model.json&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-                <td>
-                    <a href="./results/rme_advanced_sample_project/ifcCommunityPipeline1/model.xkt">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a> <a href="./results/rme_advanced_sample_project/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/rme_advanced_sample_project/ifcCommunityPipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/rme_advanced_sample_project/ifcCommunityPipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/rme_advanced_sample_project/ifcCommunityPipeline1/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-
-            <tr>
-                <td><a href="index.html#ifcCommunityPipeline2"><p>Community IFC Pipeline #2</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcCommunityPipeline2/model.xkt&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/model.ifc&pipelineId=ifcCommunity2">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                </td>
-
-                <td><a href="./results/rme_advanced_sample_project/ifcCommunityPipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    <a href="./results/rme_advanced_sample_project/model.ifc">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-
-                </a>
-             </td>
-
-                <td><a href="./results/rme_advanced_sample_project/ifcCommunityPipeline2/log.txt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
-                </a></td>
-            </tr>
-
-            <tr>
-                <td>
-                    <a href="index.html#ifcEnterprisePipeline1"><p>Enterprise IFC Pipeline #1</p></a>
-                </td>
-                <td>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.xkt&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/model.ifc&pipelineId=ifcCommunity1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.glb&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                    </a>
-                    <a href="./viewer.html?conversionId=17&src=results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.glb&metaModelSrc=results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.json&pipelineId=ifcEnterprise1">
-                        <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF + JSON</button>
-                    </a>
-                </td>
-
-
-                <td><a href="./results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.xkt">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">XKT</button>
-                </a><a href="./results/rme_advanced_sample_project/model.ifc">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">IFC</button>
-                </a> <a href="./results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.glb">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">glTF</button>
-                </a><a href="./results/rme_advanced_sample_project/ifcEnterprisePipeline1/model.json">
-                    <button type="button" class="btn btn-secondary btn-sm btn-outline-success">JSON</button>
-                </a></td>
-                <td><a href="./results/rme_advanced_sample_project/ifcEnterprisePipeline1/log.txt">
                     <button type="button" class="btn btn-secondary btn-sm btn-outline-success">Log</button>
                 </a></td>
             </tr>
