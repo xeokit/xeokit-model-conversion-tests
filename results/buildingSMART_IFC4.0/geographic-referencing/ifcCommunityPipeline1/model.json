@@ -1,0 +1,40 @@
+{
+  "id": "Notch",
+  "projectId": "01JwSt5ycUHvKFlMZUleKS",
+  "author": "Geiger",
+  "createdAt": "2014-08-22T15:03:00",
+  "schema": "IFC4",
+  "creatingApplication": "",
+  "metaObjects": [
+    {
+      "id": "01JwSt5ycUHvKFlMZUleKS",
+      "name": "Notch",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "1BPCQAtTW7GhKrUF$Sytrr",
+      "name": "Site",
+      "type": "IfcSite",
+      "parent": "01JwSt5ycUHvKFlMZUleKS"
+    },
+    {
+      "id": "0cVTYHAI3nGeTXA2X4Gxyo",
+      "name": "Building",
+      "type": "IfcBuilding",
+      "parent": "1BPCQAtTW7GhKrUF$Sytrr"
+    },
+    {
+      "id": "3_fv_WeK63IPclwapZa9MD",
+      "name": "Storey 1",
+      "type": "IfcBuildingStorey",
+      "parent": "0cVTYHAI3nGeTXA2X4Gxyo"
+    },
+    {
+      "id": "0rBru4syGxGOZb$M8kVJuS",
+      "name": "Geographic Position",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3_fv_WeK63IPclwapZa9MD"
+    }
+  ]
+}

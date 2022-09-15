@@ -1,15 +1,13 @@
-// Make an async function that gets executed immediately
 const fs = require("fs");
 const path = require("path");
 const execSync = require('child_process').execSync;
 const si = require('systeminformation');
 
-const inputFilesDir = "./inputFiles";
-const resultsDir = "./results";
+const inputFilesDir = "./inputFiles/";
+const resultsDir = "./results/";
 
 const configsData = fs.readFileSync("./convertconfig.json");
 const configs = JSON.parse(configsData);
-
 
 (async () => {
     try {
@@ -46,146 +44,133 @@ const configs = JSON.parse(configsData);
             })`);
 
 
-        const files = await fs.promises.readdir(inputFilesDir);
-
         const conversionResultsHTML = [];
-        
-        let conversionInfo;
 
-        for (const file of files) {
+        const inputBatchDirs = await fs.promises.readdir(inputFilesDir);
 
-            const fileName = path.parse(file).name;
-          //  const baseName = path.basename(file);
-            const baseName = fileName;
-            const ifcPath = path.join(inputFilesDir, file);
-            const ifcPathAbs = `${__dirname}/${ifcPath}`;
-            const resultsSubDir = `${resultsDir}/${fileName}`;
-
-            if (fs.existsSync(resultsSubDir)) {
-                fs.rmdirSync(resultsSubDir, {recursive: true, force: true});
+        for (const inputBatchDir of inputBatchDirs) { // BIMData, IfcOpenShell etc
+            if (inputBatchDir.startsWith("_")) {
+                continue;
             }
+            const inputBatchDirPath = path.join(inputFilesDir, inputBatchDir);
+            const isDir = fs.lstatSync(inputBatchDirPath).isDirectory();
+            if (isDir) {
+                console.log("Converting batch: " + inputBatchDirPath);
+                const outputBatchDirPath = path.join(resultsDir, inputBatchDir);
+                if (fs.existsSync(outputBatchDirPath)) {
+                    fs.rmdirSync(outputBatchDirPath, {recursive: true, force: true});
+                }
+                fs.mkdirSync(outputBatchDirPath);
 
-            fs.mkdirSync(resultsSubDir);
+                conversionResultsHTML.push(`<section class="test-results-section">
+    <div class="container pt-6 pb-0">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>${inputBatchDir}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table table-sm table-hover table-striped table-bordered mb-0">
+                    <tbody>`);
+                const inputFiles = await fs.promises.readdir(inputBatchDirPath);
+                for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
+                    const ext = inputFile.split('.').pop();
 
-            fs.copyFileSync(ifcPathAbs, `${resultsSubDir}/model.ifc`);
+                    if (ext !== "ifc") {
+                        continue;
+                    }
 
-            const community1Dir = `${resultsSubDir}/ifcCommunityPipeline1`;
-            const glbCommunity1Path = path.join(community1Dir, `model.glb`);
-            const glbCommunity1PathAbs = `${__dirname}/${glbCommunity1Path}`;
-            const jsonCommunity1Path = path.join(community1Dir, `model.json`);
-            const jsonCommunity1PathAbs = `${__dirname}/${jsonCommunity1Path}`;
-            const xktCommunity1Path = path.join(community1Dir, `model.xkt`);
-            const xktCommunity1PathAbs = `${__dirname}/${xktCommunity1Path}`;
-            const logCommunity1Path = path.join(community1Dir, `log.txt`);
-            const logCommunity1PathAbs = `${__dirname}/${logCommunity1Path}`;
+                    console.log("Converting file: " + inputFile);
 
-            conversionInfo = {
-                conversionId: resultsInfo.conversions.length,
-                modelId: fileName,
-                modelSrc: baseName,
-                pipelineId: "ifcCommunityPipeline1",
-                pipelineName: "IFC Community Pipeline #1",
-                viewableArtifacts: [["glb", "json"], "glb", "ifc", "xkt"],
-                date: date
-            };
-            
-            resultsInfo.conversions.push(conversionInfo);
+                    try {
 
-            fs.mkdirSync(community1Dir);
-            fs.writeFileSync(logCommunity1PathAbs, `#----------------------------------------------------------------------------
-# Community Pipeline 1 Log
+                        const inputFileName = path.parse(inputFile).name;
+                        const inputFilePath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
+                        const modelResultsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
+
+                        if (fs.existsSync(modelResultsDirPath)) {
+                            fs.rmdirSync(modelResultsDirPath, {recursive: true, force: true});
+                        }
+
+                        fs.mkdirSync(modelResultsDirPath);
+                        fs.copyFileSync(inputFilePath, `${modelResultsDirPath}/model.ifc`);
+
+                        const c1dir = `${modelResultsDirPath}/ifcCommunityPipeline1`;
+                        const glbCommunity1Path = path.join(c1dir, `model.glb`);
+                        const glbCommunity1PathAbs = `${__dirname}/${glbCommunity1Path}`;
+                        const jsonCommunity1Path = path.join(c1dir, `model.json`);
+                        const jsonCommunity1PathAbs = `${__dirname}/${jsonCommunity1Path}`;
+                        const xktCommunity1Path = path.join(c1dir, `model.xkt`);
+                        const xktCommunity1PathAbs = `${__dirname}/${xktCommunity1Path}`;
+                        const logCommunity1Path = path.join(c1dir, `log.txt`);
+                        const logCommunity1PathAbs = `${__dirname}/${logCommunity1Path}`;
+
+                        fs.mkdirSync(c1dir);
+                        fs.writeFileSync(logCommunity1PathAbs, `#----------------------------------------------------------------------------
+# Community IFC Conversion Pipeline Log
 #
 # ${date}
 #
-# Converting file: ${file}
+# Converting file: ${inputFile}
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
 # More info: 
 #----------------------------------------------------------------------------\n`, {encoding: 'utf8'});
 
-            fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --use-element-guids --no-progress  --force-space-transparency 0.4 --door-arcs\n`);
-            execSync(`${configs.paths["IfcConvert"]} ${ifcPathAbs} ${glbCommunity1PathAbs} --no-progress --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                        fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress  --force-space-transparency 0.4\n`);
+                        execSync(`${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
 
-            fs.appendFileSync(logCommunity1PathAbs, `\n\n# xeokit-metadata\n\n${configs.paths["xeokit-metadata"]} ${ifcPathAbs} ${jsonCommunity1PathAbs}\n`);
-            execSync(`${configs.paths["xeokit-metadata"]} ${ifcPathAbs} ${jsonCommunity1PathAbs} >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                        fs.appendFileSync(logCommunity1PathAbs, `\n\n# xeokit-metadata\n\n${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs}\n`);
+                        execSync(`${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs} >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
 
-            fs.appendFileSync(logCommunity1PathAbs, `\n\n# convert2xkt\n\nnode ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l\n`);
-            execSync(`node ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                        fs.appendFileSync(logCommunity1PathAbs, `\n\n# convert2xkt\n\nnode ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l\n`);
+                        execSync(`node ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
 
-            const community2Dir = `${resultsSubDir}/ifcCommunityPipeline2`;
-            const xktcommunity2Path = path.join(community2Dir, `model.xkt`);
-            const xktcommunity2PathAbs = `${__dirname}/${xktcommunity2Path}`;
-            const logCommunity2Path = path.join(community2Dir, `log.txt`);
-            const logCommunity2PathAbs = `${__dirname}/${logCommunity2Path}`;
 
-            conversionInfo = {
-                conversionId: resultsInfo.conversions.length,
-                modelId: fileName,
-                modelSrc: baseName,
-                pipelineId: "ifcCommunityPipeline2",
-                pipelineName: "IFC Community Pipeline #2",
-                viewableArtifacts: [["glb", "json"], "glb", "ifc", "xkt"],
-                date: date
-            };
+                        const enterprise1DirPath = `${modelResultsDirPath}/ifcCXConverterPipeline1`;
+                        const glbEnterprise1Path = path.join(enterprise1DirPath, `model.glb`);
+                        const glbEnterprise1PathAbs = `${__dirname}/${glbEnterprise1Path}`;
+                        const jsonEnterprise1Path = path.join(enterprise1DirPath, `model.json`);
+                        const jsonEnterprise1PathAbs = `${__dirname}/${jsonEnterprise1Path}`;
+                        const xktEnterprise1Path = path.join(enterprise1DirPath, `model.xkt`);
+                        const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
+                        const logEnterprise1Path = path.join(enterprise1DirPath, `log.txt`);
+                        const logEnterprise1PathAbs = `${__dirname}/${logEnterprise1Path}`;
 
-            resultsInfo.conversions.push(conversionInfo);
-
-            fs.mkdirSync(community2Dir);
-
-            fs.writeFileSync(logCommunity2PathAbs, `#----------------------------------------------------------------------------
-# Community Pipeline 2 Log
+                        fs.mkdirSync(enterprise1DirPath);
+                        fs.writeFileSync(logEnterprise1PathAbs, `#----------------------------------------------------------------------------
+# CxConverter IFC Conversion Pipeline Log
 #
-# Converting file: ${file}
-# Using tools: convert2xkt
-# Date: ${date}
-#----------------------------------------------------------------------------\n\n\n`, {encoding: 'utf8'});
-
-            execSync(`node ${configs.paths["convert2xkt"]} -s ${ifcPathAbs} -o ${xktcommunity2PathAbs} -l >> ${logCommunity2PathAbs}`, {stdio: 'inherit'});
-
-            const enterprise1Dir = `${resultsSubDir}/ifcEnterprisePipeline1`;
-            const glbEnterprise1Path = path.join(enterprise1Dir, `model.glb`);
-            const glbEnterprise1PathAbs = `${__dirname}/${glbEnterprise1Path}`;
-            const jsonEnterprise1Path = path.join(enterprise1Dir, `model.json`);
-            const jsonEnterprise1PathAbs = `${__dirname}/${jsonEnterprise1Path}`;
-            const xktEnterprise1Path = path.join(enterprise1Dir, `model.xkt`);
-            const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
-            const logEnterprise1Path = path.join(enterprise1Dir, `log.txt`);
-            const logEnterprise1PathAbs = `${__dirname}/${logEnterprise1Path}`;
-
-            conversionInfo = {
-                conversionId: resultsInfo.conversions.length,
-                modelId: fileName,
-                modelSrc: baseName,
-                pipelineId: "ifcEnterprisePipeline1",
-                pipelineName: "IFC Enterprise Pipeline #1",
-                viewableArtifacts: [["glb", "json"], "glb", "ifc", "xkt"],
-                date: date
-            };
-            
-            resultsInfo.conversions.push(conversionInfo);
-
-            fs.mkdirSync(enterprise1Dir);
-
-            fs.writeFileSync(logEnterprise1PathAbs, `#----------------------------------------------------------------------------
-# Enterprise Pipeline 1 Log
-#
-# Converting file: ${file}
+# Converting file: ${inputFile}
 # Using tools: ifc2gltf and convert2xkt
 # Date: ${date}
 #----------------------------------------------------------------------------\n\n`, {encoding: 'utf8'});
+                        fs.appendFileSync(logEnterprise1PathAbs, `\n\n# ifc2gltf\n\n${configs.paths["ifc2gltf"]} -i ${inputFilePath} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs}\n`);
+                        execSync(`${configs.paths["ifc2gltf"]} -i ${inputFilePath} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
 
-            fs.appendFileSync(logEnterprise1PathAbs, `\n\n# ifc2gltf\n\n${configs.paths["ifc2gltf"]} -i ${ifcPathAbs} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs}\n`);
-            execSync(`${configs.paths["ifc2gltf"]} -i ${ifcPathAbs} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
-            fs.appendFileSync(logEnterprise1PathAbs, `\n\n# convert2xkt\n\n${configs.paths["convert2xkt"]} -s ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} -o ${xktEnterprise1PathAbs} -l \n`);
-            execSync(`node ${configs.paths["convert2xkt"]} -s ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} -o ${xktEnterprise1PathAbs} -l >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
-            
-            conversionResultsHTML.push(`@@include('../_includes/modelConversionResults.html', { "modelId": "${fileName}", "title":"${baseName}", "conversionId": "${conversionInfo.conversionId}" })`);
+                        fs.appendFileSync(logEnterprise1PathAbs, `\n\n# convert2xkt\n\n${configs.paths["convert2xkt"]} -s ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} -o ${xktEnterprise1PathAbs} -l \n`);
+                        execSync(`node ${configs.paths["convert2xkt"]} -s ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} -o ${xktEnterprise1PathAbs} -l >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
+
+                        conversionResultsHTML.push(`@@include('../_includes/modelConversionResults.html', { "batchId": "${inputBatchDir}", "modelId": "${inputFileName}" })`);
+
+                    } catch (e) {
+                        console.error("[Error] ", e);
+                    }
+                }
+
+                conversionResultsHTML.push(`</tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>`);
+            }
         }
 
-        fs.writeFileSync("./results/resultsInfo.json", JSON.stringify(resultsInfo, null, "\t"), {encoding: 'utf8'});
         fs.writeFileSync("./_includes/conversionResults.html", conversionResultsHTML.join("\n"), {encoding: 'utf8'});
 
     } catch (e) {
-        console.error("We've thrown! Whoops!", e);
+        console.error("[Error] ", e);
     }
 
 })(); 

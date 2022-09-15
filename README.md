@@ -61,7 +61,7 @@ results/
 │   ├── ifcCommunityPipeline2
 │   │   ├── log.txt
 │   │   └── model.xkt
-│   ├── ifcEnterprisePipeline1
+│   ├── ifcCXConverterPipeline1
 │   │   ├── log.txt
 │   │   ├── model.glb
 │   │   ├── model.json
@@ -76,7 +76,7 @@ results/
 │   ├── ifcCommunityPipeline2
 │   │   ├── log.txt
 │   │   └── model.xkt
-│   ├── ifcEnterprisePipeline1
+│   ├── ifcCXConverterPipeline1
 │   │   ├── log.txt
 │   │   ├── model.glb
 │   │   ├── model.json
@@ -91,7 +91,7 @@ results/
 │   ├── ifcCommunityPipeline2
 │   │   ├── log.txt
 │   │   └── model.xkt
-│   ├── ifcEnterprisePipeline1
+│   ├── ifcCXConverterPipeline1
 │   │   ├── log.txt
 │   │   ├── model.glb
 │   │   ├── model.json
@@ -106,7 +106,7 @@ results/
 │   ├── ifcCommunityPipeline2
 │   │   ├── log.txt
 │   │   └── model.xkt
-│   ├── ifcEnterprisePipeline1
+│   ├── ifcCXConverterPipeline1
 │   │   ├── log.txt
 │   │   ├── model.glb
 │   │   ├── model.json
@@ -121,7 +121,7 @@ results/
 │   ├── ifcCommunityPipeline2
 │   │   ├── log.txt
 │   │   └── model.xkt
-│   ├── ifcEnterprisePipeline1
+│   ├── ifcCXConverterPipeline1
 │   │   ├── log.txt
 │   │   ├── model.glb
 │   │   ├── model.json

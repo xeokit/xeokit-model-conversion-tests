@@ -1,0 +1,177 @@
+
+body {
+    overflow-y: hidden !important;
+}
+
+#body {
+    visibility: hidden;
+}
+
+#infoArea {
+    visibility: hidden;
+}
+
+#modelInfoContainer {
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 500;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 0;
+}
+
+#viewerCanvas {
+    width: 100%;
+    height: calc(100vh - 320px);
+    border: 0;
+    background: lightblue;
+}
+
+#navCubeCanvas {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 700000000;
+}
+
+#treeViewContainer {
+    pointer-events: all;
+    height: calc(100vh - 400px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    z-index: 500;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#treeViewContainer ul {
+    list-style: none;
+    padding-left: 1.75em;
+    pointer-events: none;
+}
+
+#treeViewContainer ul li {
+    position: relative;
+    width: 600px;
+    pointer-events: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    vertical-align: middle;
+}
+
+#treeViewContainer ul li a {
+    background-color: #eee;
+    border-radius: 50%;
+    color: #000;
+    display: inline-block;
+    height: 1.5em;
+    left: -1.5em;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 1.5em;
+    pointer-events: all;
+}
+
+#treeViewContainer ul li a.plus {
+    background-color: #ded;
+    pointer-events: all;
+}
+
+#treeViewContainer ul li a.minus {
+    background-color: #eee;
+    pointer-events: all;
+}
+
+#treeViewContainer ul li a:active {
+    top: 1px;
+    pointer-events: all;
+}
+
+#treeViewContainer ul li span:hover {
+    color: white;
+    cursor: pointer;
+    background: black;
+    padding-left: 2px;
+    pointer-events: all;
+}
+
+#treeViewContainer ul li span {
+    display: inline-block;
+    width: calc(100% - 50px);
+    padding-left: 2px;
+    pointer-events: all;
+    height: 23px;
+}
+
+#treeViewContainer .highlighted-node { /* Appearance of node highlighted with TreeViewPlugin#showNode() */
+    border: black solid 1px;
+    background: yellow;
+    color: black;
+    padding-left: 1px;
+    padding-right: 5px;
+    pointer-events: all;
+}
+
+.xeokit-context-menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: none;
+    z-index: 300000;
+    background: rgba(255, 255, 255, 0.46);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0;
+    width: 200px;
+}
+
+.xeokit-context-menu ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.xeokit-context-menu ul li {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: black;
+    border-bottom: 1px solid gray;
+    background: rgba(255, 255, 255, 0.46);
+    cursor: pointer;
+    width: calc(100% - 30px);
+}
+
+.xeokit-context-menu ul li:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.xeokit-context-menu ul li span {
+    display: inline-block;
+}
+
+.xeokit-context-menu .disabled {
+    display: inline-block;
+    color: gray;
+    cursor: default;
+    font-weight: normal;
+}
+
+.xeokit-context-menu .disabled:hover {
+    color: gray;
+    cursor: default;
+    background: #eeeeee;
+    font-weight: normal;
+}

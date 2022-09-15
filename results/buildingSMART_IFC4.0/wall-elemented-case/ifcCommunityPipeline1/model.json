@@ -1,0 +1,58 @@
+{
+  "id": "Project",
+  "projectId": "3jLKJe5mnDk9v_4zehUGXb",
+  "author": "",
+  "createdAt": "2015-03-13T19:19:38",
+  "schema": "IFC4",
+  "creatingApplication": "Constructivity 0.9.8.2",
+  "metaObjects": [
+    {
+      "id": "3jLKJe5mnDk9v_4zehUGXb",
+      "name": "Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "0$2MxjB$PAzwRPEqmXLEy9",
+      "name": "Site #1",
+      "type": "IfcSite",
+      "parent": "3jLKJe5mnDk9v_4zehUGXb"
+    },
+    {
+      "id": "2ucZRLBGP4uxZW$9i1VAZ8",
+      "name": "Wall #1",
+      "type": "IfcWallElementedCase",
+      "parent": "0$2MxjB$PAzwRPEqmXLEy9"
+    },
+    {
+      "id": "1dhqqYR5v9EPzs7Ts1dOEX",
+      "name": "Panel Forward",
+      "type": "IfcBuildingElementPart",
+      "parent": "2ucZRLBGP4uxZW$9i1VAZ8"
+    },
+    {
+      "id": "0tQt_zoibF6gdoecLxBvHT",
+      "name": "Frame",
+      "type": "IfcElementAssembly",
+      "parent": "2ucZRLBGP4uxZW$9i1VAZ8"
+    },
+    {
+      "id": "3E4igxyD1F5w4vj3LTAREz",
+      "name": "Track",
+      "type": "IfcMember",
+      "parent": "0tQt_zoibF6gdoecLxBvHT"
+    },
+    {
+      "id": "0y81T5OQ921PKefugNkz2z",
+      "name": "Studs",
+      "type": "IfcMember",
+      "parent": "0tQt_zoibF6gdoecLxBvHT"
+    },
+    {
+      "id": "3dca$PAJT1XA6b06dQW26g",
+      "name": "Panel Reverse",
+      "type": "IfcBuildingElementPart",
+      "parent": "2ucZRLBGP4uxZW$9i1VAZ8"
+    }
+  ]
+}

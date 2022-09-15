@@ -1,0 +1,130 @@
+#----------------------------------------------------------------------------
+# Community IFC Conversion Pipeline Log
+#
+# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+#
+# Converting file: reinforcing-assembly.ifc
+# Using tools: IfcConvert, xeokit-metadata and convert2xkt
+# More info: 
+#----------------------------------------------------------------------------
+
+
+# IfcConvert
+
+~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/reinforcing-assembly.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
+Creating geometry...
+Done creating geometry (35 objects)                                
+
+Log:
+[Notice] [2022-09-15 10:13:12] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-15 10:13:12] {1VqLDnx414bxsjqKU7ADfc} No material and surface styles for:
+#224=IfcBeamStandardCase('1VqLDnx414bxsjqKU7ADfc',$,$,$,$,#225,#243,$,$)
+[Warning] [2022-09-15 10:13:12] {0X9wv9XdjEYO2nsFBpTcnd} No material and surface styles for:
+#251=IfcReinforcingBar('0X9wv9XdjEYO2nsFBpTcnd',$,$,$,$,#254,#252,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1_WZkvvIP6helVP3gsEFVw} No material and surface styles for:
+#262=IfcReinforcingBar('1_WZkvvIP6helVP3gsEFVw',$,$,$,$,#265,#263,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {2vXadaelP9EwjUulhz9QyC} No material and surface styles for:
+#272=IfcReinforcingBar('2vXadaelP9EwjUulhz9QyC',$,$,$,$,#275,#273,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {0B2Lrr6Lv4HRBEl5eA9AsB} No material and surface styles for:
+#282=IfcReinforcingBar('0B2Lrr6Lv4HRBEl5eA9AsB',$,$,$,$,#285,#283,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1pk2f8DX97LuZkc8nzjiTw} No material and surface styles for:
+#292=IfcReinforcingBar('1pk2f8DX97LuZkc8nzjiTw',$,$,$,$,#295,#293,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3Fi4$7GBP2_wc47Tuj8EOb} No material and surface styles for:
+#302=IfcReinforcingBar('3Fi4$7GBP2_wc47Tuj8EOb',$,$,$,$,#305,#303,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3co82UYKv6m8fCRbncwjFM} No material and surface styles for:
+#312=IfcReinforcingBar('3co82UYKv6m8fCRbncwjFM',$,$,$,$,#315,#313,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {2JNMKKGY16BPkJlV1rwYCG} No material and surface styles for:
+#322=IfcReinforcingBar('2JNMKKGY16BPkJlV1rwYCG',$,$,$,$,#325,#323,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {2KpH4fyAfFAPKTLsZlJvAj} No material and surface styles for:
+#332=IfcReinforcingBar('2KpH4fyAfFAPKTLsZlJvAj',$,$,$,$,#335,#333,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3xlhbdNRLD2QkXU5m_IqqU} No material and surface styles for:
+#342=IfcReinforcingBar('3xlhbdNRLD2QkXU5m_IqqU',$,$,$,$,#345,#343,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {0til_kQmr2e94OnrA1_Ftc} No material and surface styles for:
+#352=IfcReinforcingBar('0til_kQmr2e94OnrA1_Ftc',$,$,$,$,#355,#353,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3VX1168jPE$wQRfsCn9XCO} No material and surface styles for:
+#362=IfcReinforcingBar('3VX1168jPE$wQRfsCn9XCO',$,$,$,$,#365,#363,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3z5f38IIf8fhDAc8ENt10l} No material and surface styles for:
+#372=IfcReinforcingBar('3z5f38IIf8fhDAc8ENt10l',$,$,$,$,#375,#373,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {0xyptLYzb8MQGiGry4bmPS} No material and surface styles for:
+#382=IfcReinforcingBar('0xyptLYzb8MQGiGry4bmPS',$,$,$,$,#385,#383,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1LNoA5DlL5Qe3oUfd403CQ} No material and surface styles for:
+#392=IfcReinforcingBar('1LNoA5DlL5Qe3oUfd403CQ',$,$,$,$,#395,#393,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3eghWwAEX01BtJ2E4ptTLx} No material and surface styles for:
+#402=IfcReinforcingBar('3eghWwAEX01BtJ2E4ptTLx',$,$,$,$,#405,#403,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3qAHaxKPX6MASh_ABF$6Lp} No material and surface styles for:
+#412=IfcReinforcingBar('3qAHaxKPX6MASh_ABF$6Lp',$,$,$,$,#415,#413,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1F$nFBpTj8bAMaCu8WL98_} No material and surface styles for:
+#422=IfcReinforcingBar('1F$nFBpTj8bAMaCu8WL98_',$,$,$,$,#425,#423,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3LENYE4Uz5l8$owyO5P$3e} No material and surface styles for:
+#432=IfcReinforcingBar('3LENYE4Uz5l8$owyO5P$3e',$,$,$,$,#435,#433,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1bDonuwqb38eEcK_2WGVix} No material and surface styles for:
+#442=IfcReinforcingBar('1bDonuwqb38eEcK_2WGVix',$,$,$,$,#445,#443,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {0E6T2zEmH3l8R4$Abx1JgJ} No material and surface styles for:
+#452=IfcReinforcingBar('0E6T2zEmH3l8R4$Abx1JgJ',$,$,$,$,#455,#453,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3LVHcxsRf6b8kujh2jKKPy} No material and surface styles for:
+#462=IfcReinforcingBar('3LVHcxsRf6b8kujh2jKKPy',$,$,$,$,#465,#463,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3U4RnQfBD8ZOnjZg73GjG8} No material and surface styles for:
+#472=IfcReinforcingBar('3U4RnQfBD8ZOnjZg73GjG8',$,$,$,$,#475,#473,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {3U6Myoj$98W9IkbmCaLf2M} No material and surface styles for:
+#482=IfcReinforcingBar('3U6Myoj$98W9IkbmCaLf2M',$,$,$,$,#485,#483,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {0usMsRTxP0kP29733fsf2K} No material and surface styles for:
+#492=IfcReinforcingBar('0usMsRTxP0kP29733fsf2K',$,$,$,$,#495,#493,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {25gmOlxuL91eYqABfnEqRQ} No material and surface styles for:
+#502=IfcReinforcingBar('25gmOlxuL91eYqABfnEqRQ',$,$,$,$,#505,#503,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1lPvw96JPBKuCj6rfrnRvE} No material and surface styles for:
+#512=IfcReinforcingBar('1lPvw96JPBKuCj6rfrnRvE',$,$,$,$,#515,#513,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1gmjP8SKT91e2HMuoACRv8} No material and surface styles for:
+#522=IfcReinforcingBar('1gmjP8SKT91e2HMuoACRv8',$,$,$,$,#525,#523,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {23usaHG6T8AR7l7h2CYijI} No material and surface styles for:
+#532=IfcReinforcingBar('23usaHG6T8AR7l7h2CYijI',$,$,$,$,#535,#533,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {31ZuXJpGD0oAwU6NDk4uyD} No material and surface styles for:
+#542=IfcReinforcingBar('31ZuXJpGD0oAwU6NDk4uyD',$,$,$,$,#545,#543,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {1ZLktWyV96ABNT0HxnVfRf} No material and surface styles for:
+#552=IfcReinforcingBar('1ZLktWyV96ABNT0HxnVfRf',$,$,$,$,#555,#553,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:12] {2sq2rbiav96g6JcZKQqvI8} No material and surface styles for:
+#562=IfcReinforcingBar('2sq2rbiav96g6JcZKQqvI8',$,$,$,$,#565,#563,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:13] {1UhvLsV5T0EhRNnXBrLWEz} No material and surface styles for:
+#572=IfcReinforcingBar('1UhvLsV5T0EhRNnXBrLWEz',$,$,$,$,#575,#573,$,$,$,$,$,$,$)
+[Warning] [2022-09-15 10:13:13] {1ltX7blVz6MAo8eXQDPbyM} No material and surface styles for:
+#582=IfcReinforcingBar('1ltX7blVz6MAo8eXQDPbyM',$,$,$,$,#585,#583,$,$,$,$,$,$,$)
+
+
+Conversion took 1 second
+
+
+# xeokit-metadata
+
+xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/reinforcing-assembly.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.json
+
+
+# convert2xkt
+
+node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.4...
+[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.glb
+[convert2xkt] Input file size: 2679.95 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 537.08 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 4.99
+[convert2xkt] Conversion time: 0.87 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 35
+[convert2xkt] Converted geometries: 35
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 94872
+[convert2xkt] Converted vertices: 63162
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 63162
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Done.

@@ -1,0 +1,62 @@
+#----------------------------------------------------------------------------
+# Community IFC Conversion Pipeline Log
+#
+# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+#
+# Converting file: column-extruded-solid.ifc
+# Using tools: IfcConvert, xeokit-metadata and convert2xkt
+# More info: 
+#----------------------------------------------------------------------------
+
+
+# IfcConvert
+
+~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
+Creating geometry...
+Done creating geometry (1 objects)                                
+
+Log:
+[Notice] [2022-09-15 10:12:53] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-15 10:12:53] {2RBigpQc1BvfKj13SBZAbb} No material and surface styles for:
+#210=IfcColumnStandardCase('2RBigpQc1BvfKj13SBZAbb',$,$,$,$,#211,#225,$,$)
+
+
+Conversion took 0 seconds
+
+
+# xeokit-metadata
+
+xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.json
+
+
+# convert2xkt
+
+node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.4...
+[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.glb
+[convert2xkt] Input file size: 7.54 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 2.01 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.75
+[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 1
+[convert2xkt] Converted geometries: 1
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 156
+[convert2xkt] Converted vertices: 192
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 192
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Done.

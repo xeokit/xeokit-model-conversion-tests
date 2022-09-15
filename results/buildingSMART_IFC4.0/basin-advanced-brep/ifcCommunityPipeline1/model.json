@@ -1,0 +1,28 @@
+{
+  "id": "IfcProject",
+  "projectId": "2Fhz9x2116KfAdF6b5PcUu",
+  "author": "Jon",
+  "createdAt": "2014-12-09T00:27:55",
+  "schema": "IFC4",
+  "creatingApplication": "ggIFC - Exporter by Geometry Gym Pty Ltd",
+  "metaObjects": [
+    {
+      "id": "2Fhz9x2116KfAdF6b5PcUu",
+      "name": "IfcProject",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "2DaUviXGv3IgGDZ0SQr$Ko",
+      "name": "IfcBuilding",
+      "type": "IfcBuilding",
+      "parent": "2Fhz9x2116KfAdF6b5PcUu"
+    },
+    {
+      "id": "1li7KIQzH9cPSAQD2J80Oc",
+      "name": null,
+      "type": "IfcSanitaryTerminal",
+      "parent": "2DaUviXGv3IgGDZ0SQr$Ko"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Default Project",
+  "projectId": "28hypXUBvBefc20SI8kfA$",
+  "author": "Architect",
+  "createdAt": "2011-12-12T22:18:35",
+  "schema": "IFC4",
+  "creatingApplication": "Geometry example",
+  "metaObjects": [
+    {
+      "id": "28hypXUBvBefc20SI8kfA$",
+      "name": "Default Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "1cwlDi_hLEvPsClAelBNnz",
+      "name": "Default Site",
+      "type": "IfcSite",
+      "parent": "28hypXUBvBefc20SI8kfA$"
+    },
+    {
+      "id": "0AqAhXVxvCy9m0OX1nxY1A",
+      "name": "Default Building",
+      "type": "IfcBuilding",
+      "parent": "1cwlDi_hLEvPsClAelBNnz"
+    },
+    {
+      "id": "2GNgSHJ5j9BRUjqT$7tE8w",
+      "name": "Default Building Storey",
+      "type": "IfcBuildingStorey",
+      "parent": "0AqAhXVxvCy9m0OX1nxY1A"
+    },
+    {
+      "id": "3ZYW59sxj8lei475l7EhLU",
+      "name": "Wall for Test Example",
+      "type": "IfcWallStandardCase",
+      "parent": "2GNgSHJ5j9BRUjqT$7tE8w"
+    },
+    {
+      "id": "0tA4DSHd50le6Ov9Yu0I9X",
+      "name": "Window for Test Example",
+      "type": "IfcWindow",
+      "parent": "2GNgSHJ5j9BRUjqT$7tE8w"
+    }
+  ]
+}

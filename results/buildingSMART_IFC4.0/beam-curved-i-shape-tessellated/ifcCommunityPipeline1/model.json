@@ -1,0 +1,28 @@
+{
+  "id": "Grasshopper Project",
+  "projectId": "1c0rr5yFb9LQ4JPGqugORL",
+  "author": "Jon Mirtschin",
+  "createdAt": "2014-06-09T14:06:08",
+  "schema": "IFC4",
+  "creatingApplication": "ggGrasshopperIFC",
+  "metaObjects": [
+    {
+      "id": "1c0rr5yFb9LQ4JPGqugORL",
+      "name": "Grasshopper Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "3uvY$5FxrCov51rMJmsbC8",
+      "name": "B1",
+      "type": "IfcBuilding",
+      "parent": "1c0rr5yFb9LQ4JPGqugORL"
+    },
+    {
+      "id": "0JQJhMxlz6TgURbBQnX7Da",
+      "name": "Beam 2",
+      "type": "IfcBeam",
+      "parent": "3uvY$5FxrCov51rMJmsbC8"
+    }
+  ]
+}

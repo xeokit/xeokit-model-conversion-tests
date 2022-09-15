@@ -1,0 +1,1852 @@
+{
+  "id": "1601",
+  "projectId": "3toKckUfH2jBmd$7uhJHa6",
+  "author": "",
+  "createdAt": "2021-11-05T14:26:33",
+  "schema": "IFC2X3",
+  "creatingApplication": "IfcOpenShell 0.6.0b0",
+  "metaObjects": [
+    {
+      "id": "3toKckUfH2jBmd$7uhJHa6",
+      "name": "1601",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "3toKckUfH2jBmd$7uhJHa4",
+      "name": "Default",
+      "type": "IfcSite",
+      "parent": "3toKckUfH2jBmd$7uhJHa6"
+    },
+    {
+      "id": "3toKckUfH2jBmd$7uhJHa7",
+      "name": "",
+      "type": "IfcBuilding",
+      "parent": "3toKckUfH2jBmd$7uhJHa4"
+    },
+    {
+      "id": "3toKckUfH2jBmd$7xKikV1",
+      "name": "Ground Floor",
+      "type": "IfcBuildingStorey",
+      "parent": "3toKckUfH2jBmd$7uhJHa7"
+    },
+    {
+      "id": "1qf6$6S4jAiAgJycKiDqT2",
+      "name": "Mur de base:Wall Tile:695297",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0LgHBlsVrFOuFggQF0UVS$",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324015",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJwvszkI",
+      "name": "Sol:FootPath:421062",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJsvszkI",
+      "name": "Sol:FootPath:421062",
+      "type": "IfcSlab",
+      "parent": "0SMh8MeyDD69huEJwvszkI"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJovszkI",
+      "name": "Sol:FootPath:421062",
+      "type": "IfcSlab",
+      "parent": "0SMh8MeyDD69huEJwvszkI"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvgiu",
+      "name": "Mur de base:250 mm_Interior Wall:191893",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3PG1PP3oH3YeBawF_fDNCf",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2KSeOvmJ56JwG8GGoE$0zX",
+      "name": "Door with Fix Glass_2920 X 2250:Door with Fix Glass_2920 X 2250:217611",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3Ex8Y",
+      "name": "M_Rectangular Column:300 X 450 mm:762119",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2tlgvDcbT90u6KApJVjaZM",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "059zzJJCT0Ohc6bi$ICaW2",
+      "name": "Mur de base:150 mm_Interior Wall 2:296561",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0c$1U8McT0yxuQ649narG9",
+      "name": "Mur de base:Skirting 25 mm:566092",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfa5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfi5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIOV"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfy5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIOV"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfm5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIOV"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfe5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIOV"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfq5WIOV",
+      "name": "Sol:FootPath:420368",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIOV"
+    },
+    {
+      "id": "3_ZqhTu154TP9vFPuIcrsP",
+      "name": "Mur de base:150 mm_Interior Wall:615226",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W2D",
+      "name": "M_Single-Flush:0762 x 2134mm:412348",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$Hh",
+      "name": "Window_3050 x 1350_New 001:Window_3050 x 1350_New 001:399697",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0FwfpgTYr0wOs9pQ0KDrHC",
+      "name": "Mur de base:250 mm_Exterior Wall:236727",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W6q",
+      "name": "Double-Flush:1700 X 2134:412351",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a6ZA",
+      "name": "Mur de base:50 mm_Interior Partition Wall:582047",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g42",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329400",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB96Y",
+      "name": "Electric Meter:Electric Meter:407732",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1qf6$6S4jAiAgJycKiDqVm",
+      "name": "Mur de base:Wall Tile:695475",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "14JK7tBZf0AOxzjMW0$rd0",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "38MydK_gTCKvr3Ep6jNIGF",
+      "name": "Glass Door _ Opnable:Glass Door _ Opnable:378601",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rnT",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329390",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dAR",
+      "name": "Isolation des gaines:Default",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W0r",
+      "name": "M_Single-Flush:0813 x 2134mm:412346",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBawQ",
+      "name": "Mur de base:External Wal with stonel_20 mm:288625",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0LgHBlsVrFOuFggQF0UVRN",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfa5WIMU",
+      "name": "Sol:Gardening Area:420241",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBawv",
+      "name": "Mur de base:External Wal with stonel_20 mm:288594",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBavk",
+      "name": "Mur de base:External Wal with stonel_20 mm:288645",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "08eeVq3aP91Oro30aE$ece",
+      "name": "Mur de base:150 mm_Exterior Wall:193872",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WvK",
+      "name": "M_Single-Flush:0762 x 2134mm:412339",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2QdDmV0TrDCeyB2Uhxt72u",
+      "name": "Mur de base:300mm_ Exterior Wall:364537",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBaoa",
+      "name": "Mur de base:External Wall_20 mm:288079",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgdE",
+      "name": "Mur de base:250 mm_Interior Wall:192355",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBanq",
+      "name": "Mur de base:External Wall_20 mm:288159",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "28v06UA2bBoQSeP$kHY9Ch",
+      "name": "Sol:Toilet Floor 50 mm:489983:2",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WxN",
+      "name": "Mur de base:50 mm_Interior Partition Wall:412341",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB9xD",
+      "name": "Half Swing Door:500 X 2134:407071",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "059zzJJCT0Ohc6bi$ICakr",
+      "name": "Mur de base:300mm_ Exterior Wall:296390",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rw3",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329387",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvgdh",
+      "name": "Mur de base:250 mm_Interior Wall:192326",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "30RKBNXADBzP_JJWt2E0zO",
+      "name": "M_Rectangular Column:300 x 300mm:364098",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvfa1",
+      "name": "Sol:Generic 300mm:188332",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1sqgNUhlX8oOOp2LleW3N7",
+      "name": "Window_1970 X 1350:Window_1970 X 1350:399699",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5$r",
+      "name": "Mur de base:500 mm_Interior Wall:579232",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0DRzrKIHn2aPmoIpjsnKtE",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325839",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0dd5ycY5167A0KrxowxM5s",
+      "name": "Mur de base:250 mm_Interior Wall:293098",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGm4",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324850",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2o1BZCewvA786mTztTsb_9",
+      "name": "Escalier:190mm max riser 250mm going 2:239440",
+      "type": "IfcStair",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2o1BZCewvA786mTztTsbXv",
+      "name": "Garde-corps:900mm 2:239442",
+      "type": "IfcRailing",
+      "parent": "2o1BZCewvA786mTztTsb_9"
+    },
+    {
+      "id": "2o1BZCewvA786mTz$Tsb_9",
+      "name": "Escalier:190mm max riser 250mm going 2:239440",
+      "type": "IfcStair",
+      "parent": "2o1BZCewvA786mTztTsb_9"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$rP",
+      "name": "Small Fixed Glass WIndow:Small Fixed Glass WIndow:399765",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2QdDmV0TrDCeyB2Uhxt73A",
+      "name": "Mur de base:300mm_ Exterior Wall:364427",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5Mg",
+      "name": "Mur de base:50 mm Partition Marble clading wall:580863",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3PG1PP3oH3YeBawF_fDN5R",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3Eu_z",
+      "name": "M_Rectangular Column:300 X 450 mm:760984",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84r$8",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329388",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0FwfpgTYr0wOs9pQ0KDrJB",
+      "name": "Mur de base:250 mm_Exterior Wall:236592",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W_2",
+      "name": "M_Single-Flush:0915 x 2134mm:412345",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3ExFW",
+      "name": "M_Rectangular Column:300 X 450 mm:762053",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0c$1U8McT0yxuQ44DnarJc",
+      "name": "Mur de base:Skirting 25 mm:566091",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g54",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329398",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0dd5ycY5167A0KrxowxMAU",
+      "name": "Mur de base:250 mm_Interior Wall:293097",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a6XZ",
+      "name": "Sol:Gardaning Floor INterior Part:581942",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2V5HeUgCP8bxfsZwHn_EOS",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0hA_7Jy0jEoO$tMBiIKvme",
+      "name": "Mur de base:150 mm_Interior Wall:613632",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB9m_",
+      "name": "Half Swing Door:0762 x 2134mm:407082",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36$tKdLLv1JxUGTU22EMPo",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBwX",
+      "name": "Garde-corps:900mm Exterior Facing:376233",
+      "type": "IfcRailing",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBZG",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375768",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGb8",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324030",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1rLkdWJRf2ZxmyXYb$CIMe",
+      "name": "Overhead-Rolling:3000 X 2220:296653",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1D15kOaLb2leu8GSGop36d",
+      "name": "Mur de base:250 mm_Interior Wall:382138",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgGX",
+      "name": "Mur de base:250 mm_Exterior Wall:189068",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WHw",
+      "name": "Double-Flush:1000 X 2135:412357",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrpy7z",
+      "name": "Window with Jali _3000 X 1350:Window with Jali _3000 X 1350:206125",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgJt",
+      "name": "Mur de base:250 mm_Exterior Wall:189018",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBa3U",
+      "name": "Sol:50 mm Entrence floor Marble clading:289077",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGnP",
+      "name": "Mur de base:250 mm_Interior Wall:324783",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2QdDmV0TrDCeyB2Uhxt71n",
+      "name": "Mur de base:300mm_ Exterior Wall:364336",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5xI",
+      "name": "Mur de base:250 mm_Interior Wall:579463",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0K7jX8iMrAOBu300VK9uz8",
+      "name": "Switch Board:Switch Board:595984",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB9$0",
+      "name": "Mur de base:50 mm_Interior Partition Wall:407065",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2tlgvDcbT90u6KApJVjaYP",
+      "name": "Half Swing Door:0762 x 2134mm:694793",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrpySR",
+      "name": "Window with Jali _3000 X 1350:Window with Jali _3000 X 1350:205771",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$HL",
+      "name": "Window_3050 x 1350_New 001:Window_3050 x 1350_New 001:399698",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WlU",
+      "name": "Half Swing Door:0762 x 2134mm:412331",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1IQJpSU49DlPKPMYhdab9h",
+      "name": "Sol:Gardening Area:707844",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3Ex8u",
+      "name": "M_Rectangular Column:300 X 450 mm:762141",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgI5",
+      "name": "Mur de base:250 mm_Exterior Wall:188968",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W$I",
+      "name": "M_Single-Flush:0915 x 2134mm:412344",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0LgHBlsVrFOuFggQF0UVTx",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324013",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGi1",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324599",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dAO",
+      "name": "Isolation des gaines:Default",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0dWoULYUH3zPg8sJxTnRht",
+      "name": "Mur de base:150 mm_Interior Wall:194001",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "04BGh7FMf9JOn9ygLUpvsI",
+      "name": "Sol:Passage area Marble Floor 50 mm:503586",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgSX",
+      "name": "Mur de base:300mm_ Exterior Wall:188812",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3n11jxQJbAbQWMixM04w6A",
+      "name": "Family9:Electrical Panel:697529",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJwvszg5",
+      "name": "Sol:FootPath 2:421329",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1D15kOaLb2leu8GSGop35Q",
+      "name": "Mur de base:50 mm_Interior Partition Wall:382143",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dAP",
+      "name": "Isolation des gaines:Default",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$Yi",
+      "name": "Garde-corps:600mm Exterior Facing:399738",
+      "type": "IfcRailing",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvgna",
+      "name": "Mur de base:250 mm_Exterior Wall:191177",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "059zzJJCT0Ohc6bi$ICaaG",
+      "name": "Profil en relief:Walln Sweep on External Wall",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WyE",
+      "name": "M_Single-Flush:0915 x 2134mm:412343",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0MQolrICH6f8G1DCCL1Zf7",
+      "name": "Window_ Back Side with Jali:Window_ Back Side_1300 X 1000:372678",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2Idfvppc1A1wUGKwe4iDp2",
+      "name": "M_Rectangular Column:300 x 300mm:326743",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgrT",
+      "name": "Mur de base:150 mm_Exterior Wall:191472",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGi_",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324552",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1ESEB1nMzCOBvAGWBX1s_l",
+      "name": "Ceiling in Entrance:Ceiling in Entrance:590747",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvg81",
+      "name": "Mur de base:150 mm_Interior Wall:189612",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2VFjG6EaDEuObwZUFK1T1M",
+      "name": "Window_1970 X 1350:Window_1970 X 1350:206562",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2oMUyUT_j0GOP_pjBrdTlq",
+      "name": "Escalier:Monolithic Stair:515823",
+      "type": "IfcStair",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2oMUyUT_j0GOP_pjBrdTkN",
+      "name": "Garde-corps:600mm Exterior Facing:515854",
+      "type": "IfcRailing",
+      "parent": "2oMUyUT_j0GOP_pjBrdTlq"
+    },
+    {
+      "id": "3UhubCgnzDu9lQG5acW_dC",
+      "name": "Escalier:Monolithic Stair:515823:1",
+      "type": "IfcStairFlight",
+      "parent": "2oMUyUT_j0GOP_pjBrdTlq"
+    },
+    {
+      "id": "1z38uPLvj9JxT_YdvF1nw9",
+      "name": "Sol:Passage area Marble Floor 50 mm:503586:2",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rrj",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329391",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB9pd",
+      "name": "Mur de base:50 mm_Interior Partition Wall:407084",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfa5WIGF",
+      "name": "Sol:FootPath 2:419840",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfi5WIGF",
+      "name": "Sol:FootPath 2:419840",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIGF"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfe5WIGF",
+      "name": "Sol:FootPath 2:419840",
+      "type": "IfcSlab",
+      "parent": "0JJqPutQD7fgEmZfa5WIGF"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3ExEF",
+      "name": "M_Rectangular Column:300 X 450 mm:762026",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4XRT",
+      "name": "Jali On Exterior Window:Jali On Exterior Window:412315",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgM$",
+      "name": "Mur de base:250 mm_Interior Wall:189202",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dAQ",
+      "name": "Isolation des gaines:Default",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0DRzrKIHn2aPmoIpjsnKt$",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325886",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0c$1U8McT0yxuQ645narka",
+      "name": "Mur de base:Skirting 25 mm:566698",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBaoS",
+      "name": "Mur de base:External Wall_20 mm:288119",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W7i",
+      "name": "Half Swing Door:0762 x 2134mm:412350",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2Bly35d8bAof4710LgjPsp",
+      "name": "Half Swing Door:0762 x 2134mm:412354",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g1r",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329396",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0hA_7Jy0jEoO$tMBiIKvr1",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3Euse",
+      "name": "M_Rectangular Column:300 X 450 mm:761485",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rqK",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329393",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WuC",
+      "name": "Lift Door:1000 x 2134mm:412340",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGxF",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325177",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvgs$",
+      "name": "Mur de base:250 mm_Exterior Wall:191250",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4Wjd",
+      "name": "M_Single-Flush:0864 x 2134mm:412328",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rxU",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329386",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0LgHBlsVrFOuFggQF0UVST",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324014",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgjJ",
+      "name": "Mur de base:300mm_ Exterior Wall:191998",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2Idfvppc1A1wUGKwe4iIAM",
+      "name": "M_Rectangular Column:300 x 300mm:328195",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGoL",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324707",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgXZ",
+      "name": "Mur de base:250 mm_Interior Wall:192206",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1njQF1Pw13Xfk$h3iXGdQ8",
+      "name": "Sol:50 mm Entrence floor Marble clading:289077:2",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1qf6$6S4jAiAgJycKiDqSq",
+      "name": "Mur de base:Wall Tile:695415",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6uykQ",
+      "name": "Mur de base:250 mm_Exterior Wall:400568",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0dd5ycY5167A0KrxowxM54",
+      "name": "Mur de base:250 mm_Interior Wall:293099",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1qf6$6S4jAiAgJycKiDqTu",
+      "name": "Mur de base:Wall Tile:695355",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3PG1PP3oH3YeBawF_fDNBv",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrpy0i",
+      "name": "Window with Jali _3000 X 1350:Window with Jali _3000 X 1350:206076",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGvK",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325282",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2KSeOvmJ56JwG8GGoE$1d$",
+      "name": "Window_1970 X 1050:Window_1970 X 1050:214165",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvglP",
+      "name": "Mur de base:250 mm_Exterior Wall:191860",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBy_",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375862",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgG4",
+      "name": "Mur de base:250 mm_Interior Wall:189097",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6uyje",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBa95",
+      "name": "Sol:25 mm Entrence floor:289710",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0hA_7Jy0jEoO$tMBiIKvcm",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrp$tQ",
+      "name": "Window with Jali _1970 X 1350:Window with Jali _1970 X 1350:203018",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WXj",
+      "name": "Jali On Exterior Window:JAli _1970 X 1350:412318",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGsC",
+      "name": "Mur de base:250 mm_Interior Wall:324986",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "08eeVq3aP91Oro30aE$ecA",
+      "name": "Mur de base:150 mm_Exterior Wall:193906",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WhB",
+      "name": "M_Single-Flush:0864 x 2134mm:412326",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2tlgvDcbT90u6KApJVjaWP",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0MQolrICH6f8G1DCCL1YIO",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0I9BeMqJH9DA58a8kRpZSK",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgBo",
+      "name": "Mur de base:250 mm_Exterior Wall:189535",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB90X",
+      "name": "Electric Meter:Electric Meter:407733",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2Idfvppc1A1wUGKwe4iIAm",
+      "name": "M_Rectangular Column:300 x 300mm:328229",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "059zzJJCT0Ohc6bi$ICaaN",
+      "name": "Profil en relief:Walln Sweep on External Wall",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2T20NLR2bDbPhwwff78TB3",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrpy1U",
+      "name": "Window with Jali _3000 X 1350:Window with Jali _3000 X 1350:205966",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0DRzrKIHn2aPmoIpjsnKAs",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325559",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0JJqPutQD7fgEmZfa5WIgU",
+      "name": "Single Flush Wooden Door:Single Flush Wooden Door:419473",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36$tKdLLv1JxUGTU22EMPq",
+      "name": "Profil en relief:Wall Sweep - Skirting",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBth",
+      "name": "Garde-corps:900mm Exterior Facing:376547",
+      "type": "IfcRailing",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0cRLsmXW1AHQFoD7fHKXa1",
+      "name": "Door_1500 X 2250:Door_1500 X 2250:580583",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W4q",
+      "name": "Half Swing Door:0762 x 2134mm:412349",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$WS",
+      "name": "Profil en relief:Wall Sweep for window",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0MQolrICH6f8G1DCCL1ZBY",
+      "name": "Window_ Back Side with Jali:Window_ Back Side:372677",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$Oa",
+      "name": "Window_3050 x 1350_New 001:Window_3050 x 1350_New 001:399696",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTG$$",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325385",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "062GBg_KDDO8mSK4_Ox43t",
+      "name": "M_Single-Flush:0915 x 2134mm:708605",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBye",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375840",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W3j",
+      "name": "M_Single-Flush:0762 x 2134mm:412347",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4XUp",
+      "name": "Jali On Exterior Window:Jali On Exterior Window:412317",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBa_N",
+      "name": "Mur de base:External Wall_20 mm:288380",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4Wiy",
+      "name": "M_Single-Flush:0864 x 2134mm:412330",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rxr",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329385",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "02kB1rVQb1sQy2pSWdUgaa",
+      "name": "Glass Door With Fix GLass:Glass Door With Fix GLass:536503",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dAN",
+      "name": "Isolation des gaines:Default",
+      "type": "IfcCovering",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGwH",
+      "name": "Mur de base:250 mm_Interior Wall:325223",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WbQ",
+      "name": "Jali On Exterior Window:Jali_1050 X 720:412322",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1r7kD2unvCQ8TNvjz6u$lW",
+      "name": "Garde-corps:600mm Exterior Facing:399710",
+      "type": "IfcRailing",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WGZ",
+      "name": "Double-Flush:1300 X 2134:412359",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36$tKdLLv1JxUGTU22EMSg",
+      "name": "Mur de base:Skirting 25 mm:694582",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJwvszkj",
+      "name": "Sol:FootPath:421113",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g8J",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329395",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1AwbB57WXD49G5wREa9D3j",
+      "name": "Door with Fix Glass_2470 X 2250:Door with Fix Glass_2470 X 2250:222889",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4Wgx",
+      "name": "M_Single-Flush:0864 x 2134mm:412327",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84rqj",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329392",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGl4",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324402",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "39uIX2bPb5O85hAciSCCdN",
+      "name": "Mur de base:250 mm_Interior Wall:507431",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "24cPSi2AD9QeoKAHpXCqfs",
+      "name": "Metal Barrier:Metal Barrier:701749",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "24cPSi2AD9QeoKAHpXCqeC",
+      "name": "Metal Barrier:Metal Barrier 2:701775",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgW3",
+      "name": "Mur de base:250 mm_Interior Wall:192174",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0hA_7Jy0jEoO$tMBiIKvzm",
+      "name": "Mur de base:150 mm_Interior Wall:613608",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2c4cWNO8H8bvUZTaxrpy6D",
+      "name": "Window with Jali _1970 X 1350:Window with Jali _1970 X 1350:206173",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "28aNcQwFDFRgQnaVhIiCQ7",
+      "name": "Door_3000 X 2220:Door_3000 X 2220:294976",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0DRzrKIHn2aPmoIpjsnKBr",
+      "name": "Mur de base:50 mm_Interior Partition Wall:325620",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1rZZlLGmnAzxMi13dxxORY",
+      "name": "Sol:25 mm Jali Grill:377680",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0TTGVrCZXAOeWVzw0EQLTm",
+      "name": "Metal Barrier:Metal Barrier:700221",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "321EIHH0v8KOO2s9RjdAGp",
+      "name": "Mur de base:250 mm_Exterior Wall:357635",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBza",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375916",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3n11jxQJbAbQWMixM04wKx",
+      "name": "Family8:Electrical Panel:696926",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0LgHBlsVrFOuFggQF0UVQX",
+      "name": "Mur de base:50 mm_Interior Partition Wall:323942",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g9N",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329394",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84gQJ",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329401",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2Idfvppc1A1wUGKwe4iDqk",
+      "name": "M_Rectangular Column:300 x 300mm:327099",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBy0",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375816",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0TTGVrCZXAOeWVzw0EQKil",
+      "name": "Metal Barrier:Metal Barrier:701282",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBZ9",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375745",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4W90",
+      "name": "M_Single-Flush:0915 x 2134mm:412352",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0j8o7VUgb0jRJoISKNPMll",
+      "name": "Window with Jali _3000 X 1350:Window with Jali _3000 X 1350:224116",
+      "type": "IfcWindow",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGti",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324890",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5JX",
+      "name": "Mur de base:25 mm Partiton Wall:581044",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84g7c",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329397",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0WgbOZllD6bvJPUtq3Ex8j",
+      "name": "M_Rectangular Column:300 X 450 mm:762120",
+      "type": "IfcColumn",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5Hm",
+      "name": "Mur de base:50 mm Partition Marble clading wall:580901",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a5TG",
+      "name": "Mur de base:50 mm Partition Marble clading wall:581125",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7Wbvg8v",
+      "name": "Mur de base:150 mm_Interior Wall:189588",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4XVi",
+      "name": "Jali On Exterior Window:Jali On Exterior Window:412316",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4Wsj",
+      "name": "Half Swing Door:0762 x 2134mm:412336",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0ToLgZSZrDnBQHrSMVnBYf",
+      "name": "Mur de base:100 mm Exerior Parapet wall:375713",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "36_CvmjDHEe97NPI0PB9_d",
+      "name": "Mur de base:50 mm_Interior Partition Wall:407070",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "33ktarrbzBUOiXnLe84roD",
+      "name": "Mur de base:50 mm_Interior Partition Wall:329389",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2uM98Xtxf8dwcRJJRwTGel",
+      "name": "Mur de base:50 mm_Interior Partition Wall:324313",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0Um3OXjaz9kh4maZjY4WB8",
+      "name": "Half Swing Door:0762 x 2134mm:412353",
+      "type": "IfcDoor",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1rZZlLGmnAzxMi13dxxVdl",
+      "name": "Sol:25 mm Jali:377669",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1iY46pLyv8WgfbM$xjBa9W",
+      "name": "Sol:50 mm Entrence floor Marble clading:289675",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RLTfSMBXE_BWgA7WbvgBI",
+      "name": "Mur de base:250 mm_Interior Wall:189567",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "251MdpmYL8Eg5KQsJAa4$t",
+      "name": "Sol:Toilet Floor 50 mm:489983",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2QdDmV0TrDCeyB2Uhxt6yB",
+      "name": "Mur de base:300mm_ Exterior Wall:364618",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2UhhXCNCjF1xC3dyjbG$SE",
+      "name": "Sol:Marble Floor 50 mm:437953",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJwvszht",
+      "name": "Sol:FootPath 2:421283",
+      "type": "IfcSlab",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJovszht",
+      "name": "Sol:FootPath 2:421283",
+      "type": "IfcSlab",
+      "parent": "0SMh8MeyDD69huEJwvszht"
+    },
+    {
+      "id": "0SMh8MeyDD69huEJsvszht",
+      "name": "Sol:FootPath 2:421283",
+      "type": "IfcSlab",
+      "parent": "0SMh8MeyDD69huEJwvszht"
+    },
+    {
+      "id": "2tlgvDcbT90u6KApJVjadH",
+      "name": "Mur de base:Wall Tile:695105",
+      "type": "IfcWallStandardCase",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1eoShJ91r0u8CVHkVVaaMp",
+      "name": "018",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3QfzbYuoP5$vWHNzvsxNmG",
+      "name": "Lighting-Canopy-Philips_Gardco-Designer-Concrete_Pour:220C-F-42TRF-UNIV:716266",
+      "type": "IfcFlowTerminal",
+      "parent": "1eoShJ91r0u8CVHkVVaaMp"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMX",
+      "name": "003",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWw",
+      "name": "668",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGM9",
+      "name": "011",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGL_",
+      "name": "015",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWD",
+      "name": "671",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "062GBg_KDDO8mSK4_Ox4Ah",
+      "name": "016",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2gkv$_9kL6qu4$_SbvRLYY",
+      "name": "Exterior_Cooper_Shaper_Wall_691WP:Exterior_Cooper_Shaper_Wall_691WP:342319",
+      "type": "IfcFlowTerminal",
+      "parent": "062GBg_KDDO8mSK4_Ox4Ah"
+    },
+    {
+      "id": "2gkv$_9kL6qu4$_SbvRMxK",
+      "name": "Exterior_Cooper_Shaper_Wall_691WP:Exterior_Cooper_Shaper_Wall_691WP:340230",
+      "type": "IfcFlowTerminal",
+      "parent": "062GBg_KDDO8mSK4_Ox4Ah"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMK",
+      "name": "010",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMO",
+      "name": "006",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWs",
+      "name": "669",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFRX",
+      "name": "663",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dth",
+      "name": "M_Rectangular Duct Elbow - Mitered:Trash Duct:714934",
+      "type": "IfcFlowFitting",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRX"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dmg",
+      "name": "M_Rectangular to Round Duct Transition - Angle:45 Degree:714928",
+      "type": "IfcFlowFitting",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRX"
+    },
+    {
+      "id": "15bHXf2jH7uu_QQjVS_dtE",
+      "name": "M_Rectangular Duct Elbow - Mitered:Trash Duct:714937",
+      "type": "IfcFlowFitting",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRX"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMd",
+      "name": "005",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWB",
+      "name": "670",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "062GBg_KDDO8mSK4_Ox43e",
+      "name": "017",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGM0",
+      "name": "014",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFRY",
+      "name": "662",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "3RzbIkyT9BP8CoLSFroH_Y",
+      "name": "Panelboard:Panelboard:503016",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRY"
+    },
+    {
+      "id": "3RzbIkyT9BP8CoLSFroHzW",
+      "name": "Elevator Box:Elevator Box:503018",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRY"
+    },
+    {
+      "id": "3RzbIkyT9BP8CoLSFroHy6",
+      "name": "Panelboard:Panelboard:503017",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRY"
+    },
+    {
+      "id": "3RzbIkyT9BP8CoLSFroHDk",
+      "name": "Elevator Box:Elevator Box:502362",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1NNH2t0aP2LuVIrzcnbFRY"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMF",
+      "name": "013",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFRW",
+      "name": "664",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWZ",
+      "name": "666",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMA",
+      "name": "012",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMY",
+      "name": "004",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFRZ",
+      "name": "661",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWW",
+      "name": "667",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMJ",
+      "name": "009",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "2$79RCRBHAfvvxx5rWbA4X",
+      "name": "Switch Board:Switch Board:589581",
+      "type": "IfcBuildingElementProxy",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "0knx8nCin2F86axvFhsNco",
+      "name": "RPC%20Plant%20-%20Tropical:Agave - 1.5':614746",
+      "type": "IfcBuildingElementProxy",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "0knx8nCin2F86axvFhsNZH",
+      "name": "RPC%20Plant%20-%20Tropical:Agave - 1.5':614747",
+      "type": "IfcBuildingElementProxy",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "1D9XKVcdnEAh9PtIusxqCy",
+      "name": "Mailbox:Type 1:380269",
+      "type": "IfcFurnishingElement",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "0knx8nCin2F86axvFhsNXI",
+      "name": "RPC%20Plant%20-%20Tropical:Agave - 1.5':614748",
+      "type": "IfcBuildingElementProxy",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "1D15kOaLb2leu8GSGop3dj",
+      "name": "Mailbox Desk 2:Mailbox Desk 2:383011",
+      "type": "IfcFurnishingElement",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "3NxmPgi$14gRw7v_z0a6eB",
+      "name": "Generic Models 6:Generic Models 3:582494",
+      "type": "IfcBuildingElementProxy",
+      "parent": "0UJqou9f1FzfLKdgHitGMJ"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMT",
+      "name": "007",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMi",
+      "name": "002",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "1NNH2t0aP2LuVIrzcnbFWk",
+      "name": "665",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "39uIX2bPb5O85hAciSCCyz",
+      "name": "001",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    },
+    {
+      "id": "0UJqou9f1FzfLKdgHitGMU",
+      "name": "008",
+      "type": "IfcSpace",
+      "parent": "3toKckUfH2jBmd$7xKikV1"
+    }
+  ]
+}

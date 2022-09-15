@@ -1,0 +1,16 @@
+Usage: IfcConvert [options] <input.ifc> [<output>]
+
+Converts (the geometry in) an IFC file into one of the following formats:
+  .obj   WaveFront OBJ  (a .mtl file is also created)
+  .dae   Collada        Digital Assets Exchange
+  .glb   glTF           Binary glTF v2.0
+  .stp   STEP           Standard for the Exchange of Product Data
+  .igs   IGES           Initial Graphics Exchange Specification
+  .xml   XML            Property definitions and decomposition tree
+  .svg   SVG            Scalable Vector Graphics (2D floor plan)
+  .h5    HDF            Hierarchical Data Format storing positions, normals and indices
+  .ifc   IFC-SPF        Industry Foundation Classes
+
+If no output filename given, <input>.obj will be used as the output file.
+
+Run 'IfcConvert --help' for more information.

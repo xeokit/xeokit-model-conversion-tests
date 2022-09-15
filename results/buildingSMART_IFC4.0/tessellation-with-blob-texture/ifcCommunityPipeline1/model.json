@@ -1,0 +1,28 @@
+{
+  "id": "Project",
+  "projectId": "2BkIlLW5T7aQj3Uy9BMFxr",
+  "author": "",
+  "createdAt": "2016-01-20T18:38:46",
+  "schema": "IFC4",
+  "creatingApplication": "Constructivity 0.9.8.3",
+  "metaObjects": [
+    {
+      "id": "2BkIlLW5T7aQj3Uy9BMFxr",
+      "name": "Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "12Jhas3DnFkfm06Be8GeKW",
+      "name": "Site #1",
+      "type": "IfcSite",
+      "parent": "2BkIlLW5T7aQj3Uy9BMFxr"
+    },
+    {
+      "id": "3K_lgFFuT4$xmawQPom25e",
+      "name": null,
+      "type": "IfcMember",
+      "parent": "12Jhas3DnFkfm06Be8GeKW"
+    }
+  ]
+}

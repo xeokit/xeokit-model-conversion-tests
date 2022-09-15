@@ -1,0 +1,28 @@
+{
+  "id": "Grasshopper Project",
+  "projectId": "2oT9YYbSrBUghtexcAcblU",
+  "author": "Jon",
+  "createdAt": "2012-05-31T11:53:44",
+  "schema": "IFC4",
+  "creatingApplication": "ssiIFC - Grasshopper Plug-in by Geometry Gym Pty Ltd",
+  "metaObjects": [
+    {
+      "id": "2oT9YYbSrBUghtexcAcblU",
+      "name": "Grasshopper Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "3qzoyCPy1CtfV237Rle9$t",
+      "name": "Grasshopper Building",
+      "type": "IfcBuilding",
+      "parent": "2oT9YYbSrBUghtexcAcblU"
+    },
+    {
+      "id": "1hMBdOkWj7WhC2kvgZp44F",
+      "name": "BuildingElementProxy",
+      "type": "IfcBuildingElementProxy",
+      "parent": "3qzoyCPy1CtfV237Rle9$t"
+    }
+  ]
+}

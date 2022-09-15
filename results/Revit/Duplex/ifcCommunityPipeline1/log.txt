@@ -1,0 +1,382 @@
+#----------------------------------------------------------------------------
+# Community IFC Conversion Pipeline Log
+#
+# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+#
+# Converting file: Duplex.ifc
+# Using tools: IfcConvert, xeokit-metadata and convert2xkt
+# More info: 
+#----------------------------------------------------------------------------
+
+
+# IfcConvert
+
+~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/Revit/Duplex.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
+Creating geometry...
+Done creating geometry (205 objects)                                
+
+Log:
+[Notice] [2022-09-15 10:06:39] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-15 10:06:39] Precision lower than 0.0000001 meter not enforced
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Operand B 1/2 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Operand B 2/2 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Intersecting boundaries
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNtn} Processed fully in 2D
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Operand B 1/2 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Operand B 2/2 is an extrusion
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Intersecting boundaries
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:39] {2O2Fr$t4X7Zf8NOew3FNqI} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Operand B 1/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Operand B 2/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNr2} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Operand B 1/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Operand B 2/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNhv} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNau} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNbT} Eliminated 1 touching operands
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNbT} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNbT} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNbT} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FNbT} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRi} Eliminated 1 touching operands
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRi} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRi} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRi} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRi} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRH} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRH} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRH} Operand B 1/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRH} Operand B 2/2 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKRH} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKST} Processed fully in 2D
+[Warning] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FKau} No material and surface styles for:
+#5348=IfcWall('2O2Fr$t4X7Zf8NOew3FKau',#33,'Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239',$,'Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555',#5251,#5347,'143239')
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLQD} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLR9} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLOH} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLPP} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLTF} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLTF} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLTF} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLTF} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLTF} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLIE} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FLJd} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL8v} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL8v} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL8v} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL8v} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL8v} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL9r} Processed fully in 2D
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Intersecting boundaries
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:40] {2O2Fr$t4X7Zf8NOew3FL96} Processed fully in 2D
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4v_PL} No material and surface styles for:
+#9269=IfcRailing('0wkEuT1wr1kOyafLY4v_PL',#33,'Railing:900mm Handrail Only:151162',$,'Railing:900mm Handrail Only',#9078,#9268,'151162',.NOTDEFINED.)
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4v_PH} Triangulating face boundaries for face
+#11630=IfcFace((#11629))
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4v_PH} Triangulating face boundaries for face
+#11633=IfcFace((#11632))
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4v_PH} No material and surface styles for:
+#12125=IfcRailing('0wkEuT1wr1kOyafLY4v_PH',#33,'Railing:1100mm Guard Rail:151166',$,'Railing:1100mm Guard Rail',#9723,#12124,'151166',.NOTDEFINED.)
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} No material and surface styles for:
+#12513=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vyu$',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157200',$,'800 mm',#12512,#12506,'157200')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vyu$} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} No material and surface styles for:
+#12915=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy_8',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157607',$,'800 mm',#12914,#12908,'157607')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy_8} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} No material and surface styles for:
+#13270=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy3H',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950',$,'800 mm',#13269,#13263,'157950')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3H} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} No material and surface styles for:
+#13624=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy3G',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951',$,'800 mm',#13623,#13617,'157951')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy3G} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} No material and surface styles for:
+#13979=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy4m',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157983',$,'800 mm',#13978,#13972,'157983')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4m} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} No material and surface styles for:
+#14333=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy4F',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:157984',$,'800 mm',#14332,#14326,'157984')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy4F} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} No material and surface styles for:
+#14688=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy6l',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:158080',$,'800 mm',#14687,#14681,'158080')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6l} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} No material and surface styles for:
+#15042=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vy6k',#33,'M_Tall Cabinet-Single Door(2):800 mm:800 mm:158081',$,'800 mm',#15041,#15035,'158081')
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Non-manifold first operand
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Multiple components in IfcConnectedFaceSet
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Non-manifold first operand
+[Notice] [2022-09-15 10:06:40] {0wkEuT1wr1kOyafLY4vy6k} Eliminated 1 disjoint operands
+[Warning] [2022-09-15 10:06:41] {0wkEuT1wr1kOyafLY4vyMO} No material and surface styles for:
+#15402=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vyMO',#33,'M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159159',$,'1000mm',#15401,#15395,'159159')
+[Warning] [2022-09-15 10:06:41] {0wkEuT1wr1kOyafLY4vyOn} No material and surface styles for:
+#15795=IfcFurnishingElement('0wkEuT1wr1kOyafLY4vyOn',#33,'M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159262',$,'1000mm',#15794,#15788,'159262')
+[Notice] [2022-09-15 10:06:41] {2OBrcmyk58NupXoVOHUv88} Eliminated 1 disjoint operands
+[Notice] [2022-09-15 10:06:41] {2OBrcmyk58NupXoVOHUvq$} Used fuzziness: 0.000000
+[Warning] [2022-09-15 10:06:41] {2OBrcmyk58NupXoVOHUshs} No material and surface styles for:
+#17280=IfcFurnishingElement('2OBrcmyk58NupXoVOHUshs',#33,'M_Sofa:1830mm:1830mm:167283',$,'1830mm',#17279,#17273,'167283')
+[Warning] [2022-09-15 10:06:41] {2OBrcmyk58NupXoVOHUtM4} No material and surface styles for:
+#19214=IfcFurnishingElement('2OBrcmyk58NupXoVOHUtM4',#33,'M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:168449',$,'1525 x 2007mm - Queen',#19213,#19207,'168449')
+[Warning] [2022-09-15 10:06:41] {2OBrcmyk58NupXoVOHUtI8} No material and surface styles for:
+#20596=IfcFurnishingElement('2OBrcmyk58NupXoVOHUtI8',#33,'M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168717',$,'1981 x 2032mm - King',#20595,#20589,'168717')
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Operand B 1/4 is an extrusion
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Operand B 2/4 is an extrusion
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Operand B 3/4 is an extrusion
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} Operand B 4/4 is an extrusion
+[Notice] [2022-09-15 10:06:41] {09g7Eo3WDEihdnsYS1YDoI} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2022-09-15 10:06:41] {1Eo2$BaHX42AEkDvQQDocD} No material and surface styles for:
+#23094=IfcWindow('1Eo2$BaHX42AEkDvQQDocD',#33,'M_Skylight:1180 x 1170mm:1180 x 1170mm:185337',$,'1180 x 1170mm',#23093,#23087,'185337',0.6348000000000008,1.172537682966587)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc5T8} No material and surface styles for:
+#23601=IfcCovering('3bXiCStxP6Fgxdej$yc5T8',#33,'Compound Ceiling:Gypsum Board:187149',$,'Compound Ceiling:Gypsum Board',#23520,#23600,'187149',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc503} No material and surface styles for:
+#23696=IfcCovering('3bXiCStxP6Fgxdej$yc503',#33,'Compound Ceiling:Gypsum Board:187462',$,'Compound Ceiling:Gypsum Board',#23665,#23695,'187462',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc50B} No material and surface styles for:
+#23754=IfcCovering('3bXiCStxP6Fgxdej$yc50B',#33,'Compound Ceiling:Gypsum Board:187470',$,'Compound Ceiling:Gypsum Board',#23723,#23753,'187470',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc50U} No material and surface styles for:
+#23812=IfcCovering('3bXiCStxP6Fgxdej$yc50U',#33,'Compound Ceiling:Gypsum Board:187483',$,'Compound Ceiling:Gypsum Board',#23781,#23811,'187483',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc50n} No material and surface styles for:
+#23920=IfcCovering('3bXiCStxP6Fgxdej$yc50n',#33,'Compound Ceiling:Gypsum Board:187508',$,'Compound Ceiling:Gypsum Board',#23839,#23919,'187508',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc52o} No material and surface styles for:
+#23988=IfcCovering('3bXiCStxP6Fgxdej$yc52o',#33,'Compound Ceiling:Gypsum Board:187639',$,'Compound Ceiling:Gypsum Board',#23947,#23987,'187639',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc554} No material and surface styles for:
+#24056=IfcCovering('3bXiCStxP6Fgxdej$yc554',#33,'Compound Ceiling:Gypsum Board:187649',$,'Compound Ceiling:Gypsum Board',#24015,#24055,'187649',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55E} No material and surface styles for:
+#24114=IfcCovering('3bXiCStxP6Fgxdej$yc55E',#33,'Compound Ceiling:Gypsum Board:187659',$,'Compound Ceiling:Gypsum Board',#24083,#24113,'187659',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55M} No material and surface styles for:
+#24172=IfcCovering('3bXiCStxP6Fgxdej$yc55M',#33,'Compound Ceiling:Gypsum Board:187667',$,'Compound Ceiling:Gypsum Board',#24141,#24171,'187667',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55U} No material and surface styles for:
+#24230=IfcCovering('3bXiCStxP6Fgxdej$yc55U',#33,'Compound Ceiling:Gypsum Board:187675',$,'Compound Ceiling:Gypsum Board',#24199,#24229,'187675',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55c} No material and surface styles for:
+#24288=IfcCovering('3bXiCStxP6Fgxdej$yc55c',#33,'Compound Ceiling:Gypsum Board:187683',$,'Compound Ceiling:Gypsum Board',#24257,#24287,'187683',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55k} No material and surface styles for:
+#24356=IfcCovering('3bXiCStxP6Fgxdej$yc55k',#33,'Compound Ceiling:Gypsum Board:187691',$,'Compound Ceiling:Gypsum Board',#24315,#24355,'187691',.CEILING.)
+[Warning] [2022-09-15 10:06:41] {3bXiCStxP6Fgxdej$yc55m} No material and surface styles for:
+#24424=IfcCovering('3bXiCStxP6Fgxdej$yc55m',#33,'Compound Ceiling:Gypsum Board:187701',$,'Compound Ceiling:Gypsum Board',#24383,#24423,'187701',.CEILING.)
+[Notice] [2022-09-15 10:06:41] {0iEHWY1$XA8eQeeULq4jZ1} Eliminated 1 touching operands
+[Warning] [2022-09-15 10:06:41] {0iEHWY1$XA8eQeeULq4jZ1} Subtraction yields unchanged volume:
+#24473=IfcBooleanClippingResult(.DIFFERENCE.,#24460,#24472)
+[Warning] [2022-09-15 10:06:41] {0iEHWY1$XA8eQeeULq4j7w} No material and surface styles for:
+#26819=IfcFurnishingElement('0iEHWY1$XA8eQeeULq4j7w',#33,'M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191401',$,'1000 mm',#26818,#26812,'191401')
+[Warning] [2022-09-15 10:06:41] {0iEHWY1$XA8eQeeULq4jOM} No material and surface styles for:
+#28976=IfcFurnishingElement('0iEHWY1$XA8eQeeULq4jOM',#33,'M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191557',$,'1000 mm',#28975,#28969,'191557')
+[Warning] [2022-09-15 10:06:41] {0iEHWY1$XA8eQeeULq4jTB} No material and surface styles for:
+#31119=IfcFurnishingElement('0iEHWY1$XA8eQeeULq4jTB',#33,'M_Upper Cabinet-Double Door-Wall:1000mm:1000mm:191768',$,'1000mm',#31118,#31112,'191768')
+[Warning] [2022-09-15 10:06:41] {21ldoMpbP4VfsJ0XGY_34P} No material and surface styles for:
+#32224=IfcRailing('21ldoMpbP4VfsJ0XGY_34P',#33,'Railing:900mm Handrail Only:198880',$,'Railing:900mm Handrail Only',#32033,#32223,'198880',.NOTDEFINED.)
+[Warning] [2022-09-15 10:06:41] {21ldoMpbP4VfsJ0XGY_335} Triangulating face boundaries for face
+#34546=IfcFace((#34545))
+[Warning] [2022-09-15 10:06:41] {21ldoMpbP4VfsJ0XGY_335} Triangulating face boundaries for face
+#34549=IfcFace((#34548))
+[Warning] [2022-09-15 10:06:41] {21ldoMpbP4VfsJ0XGY_335} No material and surface styles for:
+#35041=IfcRailing('21ldoMpbP4VfsJ0XGY_335',#33,'Railing:1100mm Guard Rail:198972',$,'Railing:1100mm Guard Rail',#32639,#35040,'198972',.NOTDEFINED.)
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Intersecting boundaries
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpvt} Processed fully in 2D
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Operand A 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Operand B 1/1 is an extrusion
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Operand B creates a through hole
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Intersecting boundaries
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Used fuzziness: 0.000000
+[Notice] [2022-09-15 10:06:41] {1aj$VJZFn2TxepZUBcKpZw} Processed fully in 2D
+[Warning] [2022-09-15 10:06:41] {2gRXFgjRn2HPE$YoDLX0mp} No material and surface styles for:
+#35661=IfcFurnishingElement('2gRXFgjRn2HPE$YoDLX0mp',#33,'M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:204934',$,'650 x 450 mm',#35660,#35654,'204934')
+[Warning] [2022-09-15 10:06:41] {2gRXFgjRn2HPE$YoDLX0rb} No material and surface styles for:
+#36003=IfcFurnishingElement('2gRXFgjRn2HPE$YoDLX0rb',#33,'M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205264',$,'650 x 450 mm',#36002,#35996,'205264')
+[Warning] [2022-09-15 10:06:42] {2gRXFgjRn2HPE$YoDLX0vP} No material and surface styles for:
+#36301=IfcFurnishingElement('2gRXFgjRn2HPE$YoDLX0vP',#33,'M_Vanity Cabinet-Double Door Sink Unit:450 x 450 mm:450 x 450 mm:205548',$,'450 x 450 mm',#36300,#36294,'205548')
+
+
+Conversion took 3 seconds
+
+
+# xeokit-metadata
+
+xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/Revit/Duplex.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.json
+
+
+# convert2xkt
+
+node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.4...
+[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.glb
+[convert2xkt] Input file size: 961.14 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 117.16 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 8.20
+[convert2xkt] Conversion time: 0.38 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 205
+[convert2xkt] Converted geometries: 160
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 15236
+[convert2xkt] Converted vertices: 27360
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 27360
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/Revit/Duplex/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Done.

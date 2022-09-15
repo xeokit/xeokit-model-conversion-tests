@@ -1,0 +1,28 @@
+{
+  "id": "IfcProject",
+  "projectId": "1BOGo$cBv9ePqXvg1A7XlA",
+  "author": "Jon",
+  "createdAt": "2014-12-09T00:27:55",
+  "schema": "IFC4",
+  "creatingApplication": "ggIFC - Exporter by Geometry Gym Pty Ltd",
+  "metaObjects": [
+    {
+      "id": "1BOGo$cBv9ePqXvg1A7XlA",
+      "name": "IfcProject",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "0WoLgLOcf80OfpMfE5JDJy",
+      "name": "IfcBuilding",
+      "type": "IfcBuilding",
+      "parent": "1BOGo$cBv9ePqXvg1A7XlA"
+    },
+    {
+      "id": "381QpY9RP89gKaSFbzIfbP",
+      "name": null,
+      "type": "IfcReinforcingBar",
+      "parent": "0WoLgLOcf80OfpMfE5JDJy"
+    }
+  ]
+}
