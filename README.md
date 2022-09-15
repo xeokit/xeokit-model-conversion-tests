@@ -33,13 +33,17 @@ Drop the IFC files you want to convert into ````./inputFiles````.
 For example:
 
 ````bash
-inputFiles/
-├── Duplex.ifc
-├── IfcOpenHouse2x3.ifc
-├── IfcOpenHouse4.ifc
-├── MAP.ifc
-├── rac_advanced_sample_project.ifc
-└── rme_advanced_sample_project.ifc
+./inputFiles/
+├── Archicad
+│    ├── Archicad-Demoprojekt.ifc
+│    └── AR-Demo_Sample_Building_01.ifc
+├── BIMData
+│    ├── 19_rue_Marc_Antoine_Petit_Ground_floor.ifc
+│    └── MAP.ifc
+├── blenderbim
+│    └── auto-geolocation.ifc
+└─── buildingSMART_IFC2.3
+     └── Clinic_Architectural.ifc
 ````
 ## Run tests
 
@@ -51,89 +55,83 @@ Run the test script and build the HTML pages:
 
 When the test script has finished, the ````./results```` directory will contain converted XKT files, along with intermediate glTF and JSON files created by some of the pipelines. The directory will also contain logging output collected from the CLI tools. 
 ````bash
-results/
-├── Duplex
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   ├── ifcCommunityPipeline2
-│   │   ├── log.txt
-│   │   └── model.xkt
-│   ├── ifcCXConverterPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   └── model.ifc
-├── IfcOpenHouse2x3
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   ├── ifcCommunityPipeline2
-│   │   ├── log.txt
-│   │   └── model.xkt
-│   ├── ifcCXConverterPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   └── model.ifc
-├── IfcOpenHouse4
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   ├── ifcCommunityPipeline2
-│   │   ├── log.txt
-│   │   └── model.xkt
-│   ├── ifcCXConverterPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   └── model.ifc
-├── MAP
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   ├── ifcCommunityPipeline2
-│   │   ├── log.txt
-│   │   └── model.xkt
-│   ├── ifcCXConverterPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   └── model.ifc
-├── rac_advanced_sample_project
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   ├── ifcCommunityPipeline2
-│   │   ├── log.txt
-│   │   └── model.xkt
-│   ├── ifcCXConverterPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   ├── model.json
-│   │   └── model.xkt
-│   └── model.ifc
-├── resultsInfo.json
-├── rme_advanced_sample_project
-│   ├── ifcCommunityPipeline1
-│   │   ├── log.txt
-│   │   ├── model.glb
-│   │   └── model.json
-│   └── model.ifc
+./results/
+├── Archicad
+│   ├── Archicad-Demoprojekt
+│   │   ├── ifcCommunityPipeline1
+│   │   │   ├── log.txt
+│   │   │   ├── model.glb
+│   │   │   ├── model.json
+│   │   │   └── model.xkt
+│   │   ├── ifcCXConverterPipeline1
+│   │   │   ├── log.txt
+│   │   │   ├── model.glb
+│   │   │   ├── model.json
+│   │   │   └── model.xkt
+│   │   └── model.ifc
+│   └── AR-Demo_Sample_Building_01
+│       ├── ifcCommunityPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       ├── ifcCXConverterPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       └── model.ifc
+├── BIMData
+│   ├── 19_rue_Marc_Antoine_Petit_Ground_floor
+│   │   ├── ifcCommunityPipeline1
+│   │   │   ├── log.txt
+│   │   │   ├── model.glb
+│   │   │   ├── model.json
+│   │   │   └── model.xkt
+│   │   ├── ifcCXConverterPipeline1
+│   │   │   ├── log.txt
+│   │   │   ├── model.glb
+│   │   │   ├── model.json
+│   │   │   └── model.xkt
+│   │   └── model.ifc
+│   └── MAP
+│       ├── ifcCommunityPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       ├── ifcCXConverterPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       └── model.ifc
+├── blenderbim
+│   └── auto-geolocation
+│       ├── ifcCommunityPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       ├── ifcCXConverterPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       └── model.ifc
+├── buildingSMART_IFC2.3
+│   └── Clinic_Architectural
+│       ├── ifcCommunityPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       ├── ifcCXConverterPipeline1
+│       │   ├── log.txt
+│       │   ├── model.glb
+│       │   ├── model.json
+│       │   └── model.xkt
+│       └── model.ifc
 └── systemInfo.json
 ````
 
