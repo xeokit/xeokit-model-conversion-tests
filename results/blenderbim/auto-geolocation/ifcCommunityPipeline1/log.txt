@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: auto-geolocation.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,13 +17,13 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:09:00] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:09:00] {0F$Pk9LP57qh205akVlNyn} No material and surface styles for:
+[Notice] [2022-09-20 18:35:26] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:35:26] {0F$Pk9LP57qh205akVlNyn} No material and surface styles for:
 #63=IfcPlate('0F$Pk9LP57qh205akVlNyn',#5,'1780 x 270 PRECAST WALL','None','PLATE',#47,#62,$)
-[Notice] [2022-09-15 10:09:00] {0F$Pk9LP57qh205akVlNyn} Used fuzziness: 0.000100
-[Notice] [2022-09-15 10:09:00] {0F$Pk9LP57qh205akVlNyn} Operand A 1/1 is an extrusion
-[Notice] [2022-09-15 10:09:00] {0F$Pk9LP57qh205akVlNyn} Operand B 1/1 is an extrusion
-[Notice] [2022-09-15 10:09:00] {0F$Pk9LP57qh205akVlNyn} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Notice] [2022-09-20 18:35:26] {0F$Pk9LP57qh205akVlNyn} Used fuzziness: 0.000100
+[Notice] [2022-09-20 18:35:26] {0F$Pk9LP57qh205akVlNyn} Operand A 1/1 is an extrusion
+[Notice] [2022-09-20 18:35:26] {0F$Pk9LP57qh205akVlNyn} Operand B 1/1 is an extrusion
+[Notice] [2022-09-20 18:35:26] {0F$Pk9LP57qh205akVlNyn} No second operands can be processed as 2D inner bounds. Retrying in 3D.
 
 
 Conversion took 0 seconds
@@ -50,7 +50,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 1.02 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.26
-[convert2xkt] Conversion time: 0.03 s
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

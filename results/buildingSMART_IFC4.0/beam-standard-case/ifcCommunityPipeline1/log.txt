@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-standard-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,42 +17,42 @@ Creating geometry...
 Done creating geometry (18 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:12:41] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20Qwnsj} No material and surface styles for:
+[Notice] [2022-09-20 18:39:35] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20Qwnsj} No material and surface styles for:
 #1000=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnsj',$,'A-1','IPE220','Beam',#1001,#1010,'A-1',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20sznsj} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20sznsj} No material and surface styles for:
 #1100=IfcBeamStandardCase('0juf4qyggSI8rxA20sznsj',$,'A-2','IPE220','Beam',#1101,#1110,'A-2',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8s4A20sznsj} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8s4A20sznsj} No material and surface styles for:
 #1200=IfcBeamStandardCase('0juf4qyggSI8s4A20sznsj',$,'A-3','IPE220','Beam',#1201,#1210,'A-3',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8s4A20sznw6} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8s4A20sznw6} No material and surface styles for:
 #1300=IfcBeamStandardCase('0juf4qyggSI8s4A20sznw6',$,'A-4','IPE220','Beam',#1301,#1310,'A-4',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20Qwnab} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20Qwnab} No material and surface styles for:
 #1400=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnab',$,'A-5','IPE220','Beam',#1401,#1410,'A-5',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20Qwng1} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20Qwng1} No material and surface styles for:
 #1500=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwng1',$,'A-6','IPE220','Beam',#1501,#1510,'A-6',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20Qwn3s} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20Qwn3s} No material and surface styles for:
 #1600=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwn3s',$,'A-7','IPE220','Beam',#1601,#1610,'A-7',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8rxA20Qwnlq} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8rxA20Qwnlq} No material and surface styles for:
 #1700=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnlq',$,'A-8','IPE220','Beam',#1701,#1710,'A-8',$)
-[Warning] [2022-09-15 10:12:41] {0juf4qyggSI8s4A20sznrt} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {0juf4qyggSI8s4A20sznrt} No material and surface styles for:
 #1800=IfcBeamStandardCase('0juf4qyggSI8s4A20sznrt',$,'A-9','IPE220','Beam',#1801,#1810,'A-9',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYoB7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYoB7Hvx$4VHzijYi} No material and surface styles for:
 #2000=IfcBeamStandardCase('3QbcAsYoB7Hvx$4VHzijYi',$,'B-1','1/2IPE300','Beam',#2001,#2010,'B-1',$)
-[Warning] [2022-09-15 10:12:41] {3Qb5gsYoB7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3Qb5gsYoB7Hvx$4VHzijYi} No material and surface styles for:
 #2100=IfcBeamStandardCase('3Qb5gsYoB7Hvx$4VHzijYi',$,'B-2','1/2IPE300','Beam',#2101,#2110,'B-2',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzijYi} No material and surface styles for:
 #2200=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijYi',$,'B-3','1/2IPE300','Beam',#2201,#2210,'B-3',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzijGT} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzijGT} No material and surface styles for:
 #2300=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijGT',$,'B-4','1/2IPE300','Beam',#2301,#2310,'B-4',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzijdF} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzijdF} No material and surface styles for:
 #2400=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijdF',$,'B-5','1/2IPE300','Beam',#2401,#2410,'B-5',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzij3V} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzij3V} No material and surface styles for:
 #2500=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzij3V',$,'B-6','1/2IPE300','Beam',#2501,#2510,'B-6',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzij71} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzij71} No material and surface styles for:
 #2600=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzij71',$,'B-7','1/2IPE300','Beam',#2601,#2610,'B-7',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzijvb} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzijvb} No material and surface styles for:
 #2700=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijvb',$,'B-8','1/2IPE300','Beam',#2701,#2710,'B-8',$)
-[Warning] [2022-09-15 10:12:41] {3QbcAsYsg7Hvx$4VHzijp1} No material and surface styles for:
+[Warning] [2022-09-20 18:39:35] {3QbcAsYsg7Hvx$4VHzijp1} No material and surface styles for:
 #2800=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijp1',$,'B-9','1/2IPE300','Beam',#2801,#2810,'B-9',$)
 
 
@@ -80,7 +80,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 9.05 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 11.47
-[convert2xkt] Conversion time: 0.12 s
+[convert2xkt] Conversion time: 0.14 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 18

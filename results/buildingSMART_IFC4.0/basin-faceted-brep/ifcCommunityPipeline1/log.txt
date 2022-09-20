@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: basin-faceted-brep.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,9 +17,9 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:12:28] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:12:28] {3tkl48paX9yw0lahGPGmeU} 0 duplicate faces removed, 0 degenerate loops eliminated and 3 non-manifold edges
-[Warning] [2022-09-15 10:12:28] {3tkl48paX9yw0lahGPGmeU} No material and surface styles for:
+[Notice] [2022-09-20 18:39:20] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:39:20] {3tkl48paX9yw0lahGPGmeU} 0 duplicate faces removed, 0 degenerate loops eliminated and 3 non-manifold edges
+[Warning] [2022-09-20 18:39:20] {3tkl48paX9yw0lahGPGmeU} No material and surface styles for:
 #868=IfcSanitaryTerminal('3tkl48paX9yw0lahGPGmeU',$,$,$,$,#55,#869,$,.NOTDEFINED.)
 
 
@@ -47,7 +47,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 4.51 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.49
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Conversion time: 0.07 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

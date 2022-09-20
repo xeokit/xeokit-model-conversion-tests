@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: tessellation-with-individual-colors.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:13:29] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:13:29] {3VRU6T9_18bPNzxvGkzDIj} No material and surface styles for:
+[Notice] [2022-09-20 18:40:30] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:40:30] {3VRU6T9_18bPNzxvGkzDIj} No material and surface styles for:
 #300=IfcBuildingElementProxy('3VRU6T9_18bPNzxvGkzDIj',$,'BuildingElementProxy',$,$,#55,#301,$,.NOTDEFINED.)
 
 

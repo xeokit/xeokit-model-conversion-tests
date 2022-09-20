@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: cube-advanced-brep.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,16 +17,16 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:13:00] exclude entities IfcOpeningElement IfcSpace
-[Notice] [2022-09-15 10:13:00] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-09-20 18:39:56] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-09-20 18:39:56] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #131=IfcAdvancedFace((#121),#122,.F.)
-[Notice] [2022-09-15 10:13:00] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-09-20 18:39:56] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #147=IfcAdvancedFace((#137),#138,.F.)
-[Notice] [2022-09-15 10:13:00] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-09-20 18:39:56] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #163=IfcAdvancedFace((#153),#154,.F.)
-[Notice] [2022-09-15 10:13:00] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-09-20 18:39:56] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #179=IfcAdvancedFace((#169),#170,.F.)
-[Warning] [2022-09-15 10:13:00] {1hMBdOkWj7WhC2kvgZp44F} No material and surface styles for:
+[Warning] [2022-09-20 18:39:56] {1hMBdOkWj7WhC2kvgZp44F} No material and surface styles for:
 #181=IfcBuildingElementProxy('1hMBdOkWj7WhC2kvgZp44F',#6,'BuildingElementProxy',$,$,#184,#182,$,.NOTDEFINED.)
 
 
@@ -54,7 +54,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 24.51 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.90
-[convert2xkt] Conversion time: 0.12 s
+[convert2xkt] Conversion time: 0.13 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: mapped-shape-without-transformation.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:13:10] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:13:10] {1kTvXnbbzCWw8lcMd1dR4o} No material and surface styles for:
+[Notice] [2022-09-20 18:40:08] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:40:08] {1kTvXnbbzCWw8lcMd1dR4o} No material and surface styles for:
 #1000=IfcBuildingElementProxy('1kTvXnbbzCWw8lcMd1dR4o',$,'P-1','sample proxy',$,#1001,#1010,$,$)
 
 

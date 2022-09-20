@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-cardinal-points.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,14 +17,14 @@ Creating geometry...
 Done creating geometry (4 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:12:46] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:12:46] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
+[Notice] [2022-09-20 18:39:40] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:39:40] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
 #210=IfcBeamStandardCase('06uVDzM0j8rugiazVexGkx',$,'TopMid',$,$,#211,#229,$,$)
-[Warning] [2022-09-15 10:12:46] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
+[Warning] [2022-09-20 18:39:40] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
 #230=IfcBeamStandardCase('3Cyaczln1DyfCVyfoF1Fyl',$,'BotMid',$,$,#231,#249,$,$)
-[Warning] [2022-09-15 10:12:46] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
+[Warning] [2022-09-20 18:39:40] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
 #250=IfcBeamStandardCase('3_uWum$4vBjQ8_adQlTox1',$,'BotLeft',$,$,#251,#269,$,$)
-[Warning] [2022-09-15 10:12:46] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
+[Warning] [2022-09-20 18:39:40] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
 #270=IfcBeamStandardCase('3QKYtgM_1EtekuZgGn_XdM',$,'TopRight',$,$,#271,#289,$,$)
 
 
@@ -52,7 +52,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 3.32 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 8.68
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Conversion time: 0.07 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4

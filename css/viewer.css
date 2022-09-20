@@ -175,3 +175,121 @@ body {
     background: #eeeeee;
     font-weight: normal;
 }
+
+
+
+
+.xeokit-propertiesTab .element-attributes {
+    padding-left: 10px;
+}
+
+.xeokit-propertiesTab .xeokit-tab-btn {
+    margin-left: 15px;
+}
+
+.xeokit-propertiesTab .title {
+    color: #CFCFCF;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-top: 12px;
+}
+
+.xeokit-propertiesTab .subtitle {
+    color: #CFCFCF;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 0;
+}
+
+.xeokit-propertiesTab .subsubtitle {
+    color: #CFCFCF;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 0;
+}
+
+.xeokit-propertiesTab .panel {
+    padding: 0 18px;
+    background: #03103F;
+    color: #CFCFCF;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.15s;
+}
+
+.xeokit-propertiesTab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.xeokit-propertiesTab .row {
+    display: flex;
+}
+
+.xeokit-propertiesTab .row .col {
+    flex: 1;
+}
+
+.xeokit-propertiesTab .row .col:last-child {
+    margin-left: 1em;
+}
+
+.xeokit-propertiesTab .tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.xeokit-propertiesTab .tab {
+    width: 100%;
+    color: #CFCFCF;
+    overflow: hidden;
+}
+
+.xeokit-propertiesTab .tab-label {
+    display: flex;
+    padding: .5em .5em .5em 1em;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.xeokit-propertiesTab .tab-label:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.xeokit-propertiesTab .tab-label::before {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+.xeokit-propertiesTab .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all 0.35s;
+    overflow: hidden;
+}
+
+.viewer-button {
+    background-color: #dcffdd;
+}
+
+.viewer-button-disabled {
+    color: black !important;
+    background-color: #f1bdbd !important;
+    pointer-events: none !important;
+    text-decoration: line-through;
+}
+
+.disabled {
+    color: black;
+    pointer-events: none !important;
+}
+

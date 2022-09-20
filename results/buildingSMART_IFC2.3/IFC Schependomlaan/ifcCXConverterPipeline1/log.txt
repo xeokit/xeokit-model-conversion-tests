@@ -1,0 +1,16 @@
+#----------------------------------------------------------------------------
+# CxConverter IFC Conversion Pipeline Log
+#
+# Converting file: IFC Schependomlaan.ifc
+# Using tools: ifc2gltf and convert2xkt
+# Date: Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+#----------------------------------------------------------------------------
+
+
+
+# ifc2gltf
+
+~/xeokit/tools/ifc2gltf-linux/build/Release/ifc2gltf -i /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC2.3/IFC Schependomlaan.ifc -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC2.3/IFC Schependomlaan/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC2.3/IFC Schependomlaan/ifcCXConverterPipeline1/model.json
+
+
+[Error]: Error: Command failed: ~/xeokit/tools/ifc2gltf-linux/build/Release/ifc2gltf -i /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC2.3/IFC Schependomlaan.ifc -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC2.3/IFC Schependomlaan/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC2.3/IFC Schependomlaan/ifcCXConverterPipeline1/model.json >> /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC2.3/IFC Schependomlaan/ifcCXConverterPipeline1/log.txt

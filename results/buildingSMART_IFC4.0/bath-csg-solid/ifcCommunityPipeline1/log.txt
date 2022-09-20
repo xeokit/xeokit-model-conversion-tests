@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: bath-csg-solid.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,11 +17,11 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:12:32] exclude entities IfcOpeningElement IfcSpace
-[Notice] [2022-09-15 10:12:32] {0R_AIYbPX8Uv51WTQ8fVir} Used fuzziness: 0.000000
-[Notice] [2022-09-15 10:12:32] {0R_AIYbPX8Uv51WTQ8fVir} Operand A 1/1 is an extrusion
-[Notice] [2022-09-15 10:12:32] {0R_AIYbPX8Uv51WTQ8fVir} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-09-15 10:12:32] {0R_AIYbPX8Uv51WTQ8fVir} No material and surface styles for:
+[Notice] [2022-09-20 18:39:24] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-09-20 18:39:24] {0R_AIYbPX8Uv51WTQ8fVir} Used fuzziness: 0.000000
+[Notice] [2022-09-20 18:39:24] {0R_AIYbPX8Uv51WTQ8fVir} Operand A 1/1 is an extrusion
+[Notice] [2022-09-20 18:39:24] {0R_AIYbPX8Uv51WTQ8fVir} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2022-09-20 18:39:24] {0R_AIYbPX8Uv51WTQ8fVir} No material and surface styles for:
 #228=IfcSanitaryTerminal('0R_AIYbPX8Uv51WTQ8fVir',$,$,$,$,#55,#229,$,.NOTDEFINED.)
 
 
@@ -49,7 +49,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 2.38 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.05
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

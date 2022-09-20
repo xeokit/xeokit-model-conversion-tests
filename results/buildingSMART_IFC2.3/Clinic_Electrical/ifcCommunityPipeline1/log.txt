@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: Clinic_Electrical.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,67 +17,67 @@ Creating geometry...
 Done creating geometry (2118 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:09:22] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:09:23] ContextType 'Annotation' not allowed:
+[Notice] [2022-09-20 18:35:51] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:35:51] ContextType 'Annotation' not allowed:
 #12092=IfcGeometricRepresentationContext($,'Annotation',3,1.0E-9,#4,#11050)
-[Warning] [2022-09-15 10:09:23] Precision lower than 0.0000001 meter not enforced
-[Warning] [2022-09-15 10:09:23] {23oK9Ybpf2MPoMOri$YliI} No material and surface styles for:
+[Warning] [2022-09-20 18:35:51] Precision lower than 0.0000001 meter not enforced
+[Warning] [2022-09-20 18:35:51] {23oK9Ybpf2MPoMOri$YliI} No material and surface styles for:
 #1219=IfcBuildingElementProxy('23oK9Ybpf2MPoMOri$YliI',#1,'M_Lighting and Appliance Panelboard - 208V MLO:225 A:N21E2:858534',$,'225 A',#46220,#43459,'858534',.ELEMENT.)
-[Warning] [2022-09-15 10:09:23] {23oK9Ybpf2MPoMOri$YlXS} No material and surface styles for:
+[Warning] [2022-09-20 18:35:51] {23oK9Ybpf2MPoMOri$YlXS} No material and surface styles for:
 #1221=IfcBuildingElementProxy('23oK9Ybpf2MPoMOri$YlXS',#1,'M_Lighting and Appliance Panelboard - 208V MLO:225 A:N21E:858856',$,'225 A',#46222,#43461,'858856',.ELEMENT.)
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
+[Warning] [2022-09-20 18:35:51] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
 #29022=IfcFace((#36973))
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
+[Warning] [2022-09-20 18:35:51] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
 #29139=IfcFace((#37091))
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
+[Warning] [2022-09-20 18:35:51] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
+[Warning] [2022-09-20 18:35:51] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
+[Warning] [2022-09-20 18:35:52] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
+[Warning] [2022-09-20 18:35:52] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
 #29803=IfcFace((#37903))
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
+[Warning] [2022-09-20 18:35:52] {3u9DOlJebDl9MeZM6OymSR} Triangulating face boundaries for face
 #29884=IfcFace((#37984))
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
-[Warning] [2022-09-15 10:09:23] {3u9DOlJebDl9MeZM6OymSR} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {3u9DOlJebDl9MeZM6OymSR} Self-intersections with 2 cycles detected
+[Warning] [2022-09-20 18:35:52] {3u9DOlJebDl9MeZM6OymSR} No material and surface styles for:
 #1289=IfcFlowMovingDevice('3u9DOlJebDl9MeZM6OymSR',#1,'M_Inline Pump - Circulator:3.9 LPS - 0.8 Meter Head:3.9 LPS - 0.8 Meter Head:1060890',$,'3.9 LPS - 0.8 Meter Head',#47228,#44453,'1060890')
-[Warning] [2022-09-15 10:09:23] {0VU2rHYgPAX8k2yXfmStdn} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0VU2rHYgPAX8k2yXfmStdn} No material and surface styles for:
 #1062=IfcFlowMovingDevice('0VU2rHYgPAX8k2yXfmStdn',#1,'M_Centrifugal Fan -  Rooftop  - Upblast:991-1905 LPS:991-1905 LPS:1062388',$,'991-1905 LPS',#47230,#53862,'1062388')
-[Warning] [2022-09-15 10:09:24] {0JGTSjcSn7v8o$ZI4qc5Mg} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0JGTSjcSn7v8o$ZI4qc5Mg} No material and surface styles for:
 #1247=IfcFlowMovingDevice('0JGTSjcSn7v8o$ZI4qc5Mg',#1,'M_Air Handling Unit - Split System - Horizontal:63300000 J:63300000 J:570439',$,'63300000 J',#45149,#53020,'570439')
-[Warning] [2022-09-15 10:09:24] {1MPejKGxvAxOPe64yBS0Dr} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {1MPejKGxvAxOPe64yBS0Dr} No material and surface styles for:
 #1063=IfcFlowTerminal('1MPejKGxvAxOPe64yBS0Dr',#1,'M_Downlight - Recessed Can:SB - 102mm Diameter:SB - 102mm Diameter:746741',$,'SB - 102mm Diameter',#45514,#53385,'746741')
-[Warning] [2022-09-15 10:09:24] {1MPejKGxvAxOPe64yBS0uz} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {1MPejKGxvAxOPe64yBS0uz} No material and surface styles for:
 #1081=IfcFlowTerminal('1MPejKGxvAxOPe64yBS0uz',#1,'M_Downlight - Recessed Can:SBB - 102 Diameter:SBB - 102 Diameter:747965',$,'SBB - 102 Diameter',#45532,#53403,'747965')
-[Warning] [2022-09-15 10:09:24] {1MPejKGxvAxOPe64yBS0mY} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {1MPejKGxvAxOPe64yBS0mY} No material and surface styles for:
 #1085=IfcFlowTerminal('1MPejKGxvAxOPe64yBS0mY',#1,'M_Downlight - Recessed Can:SD - 213mm Diameter:SD - 213mm Diameter:748450',$,'SD - 213mm Diameter',#45536,#53407,'748450')
-[Warning] [2022-09-15 10:09:24] {1MPejKGxvAxOPe64yBS0Wg} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {1MPejKGxvAxOPe64yBS0Wg} No material and surface styles for:
 #1103=IfcFlowTerminal('1MPejKGxvAxOPe64yBS0Wg',#1,'M_Downlight - Recessed Can:SDB - 213mm Diameter:SDB - 213mm Diameter:749482',$,'SDB - 213mm Diameter',#45554,#53425,'749482')
-[Warning] [2022-09-15 10:09:24] {1MPejKGxvAxOPe64yBS10f} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {1MPejKGxvAxOPe64yBS10f} No material and surface styles for:
 #1118=IfcFlowTerminal('1MPejKGxvAxOPe64yBS10f',#1,'M_Downlight - Recessed Can:LV - 203mm Diameter:LV - 203mm Diameter:751529',$,'LV - 203mm Diameter',#45573,#53444,'751529')
-[Warning] [2022-09-15 10:09:24] {0yuotxu8DEgv2qMIt$xMWI} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0yuotxu8DEgv2qMIt$xMWI} No material and surface styles for:
 #1131=IfcFlowTerminal('0yuotxu8DEgv2qMIt$xMWI',#1,'M_Downlight - Recessed Can:S - 203mm Diameter:S - 203mm Diameter:778151',$,'S - 203mm Diameter',#45870,#53737,'778151')
-[Warning] [2022-09-15 10:09:24] {0yuotxu8DEgv2qMIt$xLJS} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0yuotxu8DEgv2qMIt$xLJS} No material and surface styles for:
 #1140=IfcFlowTerminal('0yuotxu8DEgv2qMIt$xLJS',#1,'M_Downlight - Recessed Can:SCB - 213 Diameter:SCB - 213 Diameter:779113',$,'SCB - 213 Diameter',#45880,#53747,'779113')
-[Warning] [2022-09-15 10:09:24] {0yuotxu8DEgv2qMIt$xLEF} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0yuotxu8DEgv2qMIt$xLEF} No material and surface styles for:
 #1142=IfcFlowTerminal('0yuotxu8DEgv2qMIt$xLEF',#1,'M_Downlight - Recessed Can:SC - 213mm Diameter:SC - 213mm Diameter:779322',$,'SC - 213mm Diameter',#45882,#53749,'779322')
-[Warning] [2022-09-15 10:09:24] {0yuotxu8DEgv2qMIt$xL$m} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0yuotxu8DEgv2qMIt$xL$m} No material and surface styles for:
 #1155=IfcFlowTerminal('0yuotxu8DEgv2qMIt$xL$m',#1,'M_Downlight - Recessed Can:SE - 213mm Diameter:SE - 213mm Diameter:780357',$,'SE - 213mm Diameter',#45897,#53764,'780357')
-[Warning] [2022-09-15 10:09:24] {0yuotxu8DEgv2qMIt$xKL7} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0yuotxu8DEgv2qMIt$xKL7} No material and surface styles for:
 #1191=IfcFlowTerminal('0yuotxu8DEgv2qMIt$xKL7',#1,'M_Downlight - Recessed Can:SA - 152mm Diameter:SA - 152mm Diameter:783090',$,'SA - 152mm Diameter',#45938,#53804,'783090')
-[Warning] [2022-09-15 10:09:24] {0FGGKr9E19BvyMqqUqhCY9} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0FGGKr9E19BvyMqqUqhCY9} No material and surface styles for:
 #1291=IfcFlowTerminal('0FGGKr9E19BvyMqqUqhCY9',#1,'M_Lighting Switches:Single Pole:Single Pole:795878',$,'Single Pole',#45955,#43220,'795878')
-[Warning] [2022-09-15 10:09:24] {0YIMYffWP7i9skNaemGPe9} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0YIMYffWP7i9skNaemGPe9} No material and surface styles for:
 #1296=IfcFlowTerminal('0YIMYffWP7i9skNaemGPe9',#1,'M_Lighting Switches:Three Way:Three Way:798387',$,'Three Way',#45960,#43225,'798387')
-[Warning] [2022-09-15 10:09:24] {0Oe4W3Rwf1Dht7uPdCMIGs} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0Oe4W3Rwf1Dht7uPdCMIGs} No material and surface styles for:
 #1576=IfcFlowTerminal('0Oe4W3Rwf1Dht7uPdCMIGs',#1,'M_Duplex Receptacle:Standard:Standard:861697',$,'Standard',#46235,#43474,'861697')
-[Warning] [2022-09-15 10:09:24] {0Oe4W3Rwf1Dht7uPdCMKEv} No material and surface styles for:
+[Warning] [2022-09-20 18:35:52] {0Oe4W3Rwf1Dht7uPdCMKEv} No material and surface styles for:
 #1643=IfcFlowTerminal('0Oe4W3Rwf1Dht7uPdCMKEv',#1,'M_Duplex Receptacle:GFCI:GFCI:868750',$,'GFCI',#46302,#43541,'868750')
-[Warning] [2022-09-15 10:09:24] {23oK9Ybpf2MPoMOri$Yi6d} No material and surface styles for:
+[Warning] [2022-09-20 18:35:53] {23oK9Ybpf2MPoMOri$Yi6d} No material and surface styles for:
 #1287=IfcEnergyConversionDevice('23oK9Ybpf2MPoMOri$Yi6d',#1,'M_Transformer Switchboard:914mmx673mm:MS1:860947',$,'914mmx673mm',#46230,#43469,'860947')
-[Warning] [2022-09-15 10:09:24] {1C7ufxVL54OQXhLl9juIzL} No material and surface styles for:
+[Warning] [2022-09-20 18:35:53] {1C7ufxVL54OQXhLl9juIzL} No material and surface styles for:
 #1290=IfcFlowStorageDevice('1C7ufxVL54OQXhLl9juIzL',#1,'M_Water Heater:380 L:380 L:1061086',$,'380 L',#47229,#53861,'1061086')
-[Warning] [2022-09-15 10:09:25] {1IDUDqfdD848yYb_PPcsHA} No material and surface styles for:
+[Warning] [2022-09-20 18:35:54] {1IDUDqfdD848yYb_PPcsHA} No material and surface styles for:
 #1268=IfcFlowTerminal('1IDUDqfdD848yYb_PPcsHA',#1,'Lighted Signage:Y1 - Darkroom:Y1 - Darkroom:1220034',$,'Y1 - Darkroom',#45974,#43242,'1220034')
-[Warning] [2022-09-15 10:09:25] {2H3wYxUIPBpw3mjj9GlAnl} No material and surface styles for:
+[Warning] [2022-09-20 18:35:54] {2H3wYxUIPBpw3mjj9GlAnl} No material and surface styles for:
 #1575=IfcEnergyConversionDevice('2H3wYxUIPBpw3mjj9GlAnl',#1,'M_Screw Chiller - Air Cooled - 281-1231 kW:633-703 kW:633-703 kW:1066741',$,'633-703 kW',#47232,#44455,'1066741')
 
 
@@ -105,7 +105,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 252.11 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 8.35
-[convert2xkt] Conversion time: 0.81 s
+[convert2xkt] Conversion time: 0.88 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2118

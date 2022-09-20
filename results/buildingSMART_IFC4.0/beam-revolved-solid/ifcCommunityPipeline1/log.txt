@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Thu Sep 15 2022 10:02:59 GMT+0200 (Central European Summer Time)
+# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-revolved-solid.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,10 +17,10 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-09-15 10:12:39] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-15 10:12:39] {3v1174zor6w9secwnbuYk1} Warning Axis and SweptArea intersecting
+[Notice] [2022-09-20 18:39:33] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-09-20 18:39:33] {3v1174zor6w9secwnbuYk1} Warning Axis and SweptArea intersecting
 #85=IfcRevolvedAreaSolid(#91,$,#86,1.52202550844946)
-[Warning] [2022-09-15 10:12:39] {3v1174zor6w9secwnbuYk1} No material and surface styles for:
+[Warning] [2022-09-20 18:39:33] {3v1174zor6w9secwnbuYk1} No material and surface styles for:
 #70=IfcBeamStandardCase('3v1174zor6w9secwnbuYk1',#6,$,$,$,#73,#90,$,$)
 
 
@@ -48,7 +48,7 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] XKT size: 94.81 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.20
-[convert2xkt] Conversion time: 0.32 s
+[convert2xkt] Conversion time: 0.33 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
