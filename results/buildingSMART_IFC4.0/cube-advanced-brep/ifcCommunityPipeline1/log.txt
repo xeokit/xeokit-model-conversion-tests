@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: cube-advanced-brep.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,16 +17,16 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:10] exclude entities IfcOpeningElement IfcSpace
-[Notice] [2022-10-07 08:53:10] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-10-07 09:44:45] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-10-07 09:44:45] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #131=IfcAdvancedFace((#121),#122,.F.)
-[Notice] [2022-10-07 08:53:10] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-10-07 09:44:45] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #147=IfcAdvancedFace((#137),#138,.F.)
-[Notice] [2022-10-07 08:53:10] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-10-07 09:44:45] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #163=IfcAdvancedFace((#153),#154,.F.)
-[Notice] [2022-10-07 08:53:10] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2022-10-07 09:44:45] {1hMBdOkWj7WhC2kvgZp44F} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #179=IfcAdvancedFace((#169),#170,.F.)
-[Warning] [2022-10-07 08:53:10] {1hMBdOkWj7WhC2kvgZp44F} No material and surface styles for:
+[Warning] [2022-10-07 09:44:45] {1hMBdOkWj7WhC2kvgZp44F} No material and surface styles for:
 #181=IfcBuildingElementProxy('1hMBdOkWj7WhC2kvgZp44F',#6,'BuildingElementProxy',$,$,#184,#182,$,.NOTDEFINED.)
 
 

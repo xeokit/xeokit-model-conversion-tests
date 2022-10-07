@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-straight-i-shape-tessellated.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,7 +17,7 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:52:53] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-10-07 09:44:29] exclude entities IfcOpeningElement IfcSpace
 
 
 Conversion took 1 second

@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: basin-tessellation.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:52:40] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:52:40] {0Zk2_ch2P32wrl1QuECi58} No material and surface styles for:
+[Notice] [2022-10-07 09:44:16] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:16] {0Zk2_ch2P32wrl1QuECi58} No material and surface styles for:
 #217=IfcSanitaryTerminal('0Zk2_ch2P32wrl1QuECi58',$,$,$,$,#55,#218,$,.NOTDEFINED.)
 
 
@@ -43,9 +43,9 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 6.33 kB
+[convert2xkt] XKT size: 6.36 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.28
+[convert2xkt] Compression ratio: 3.27
 [convert2xkt] Conversion time: 0.06 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

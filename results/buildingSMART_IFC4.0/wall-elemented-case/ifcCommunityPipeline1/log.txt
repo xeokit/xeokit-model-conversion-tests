@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: wall-elemented-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,150 +17,150 @@ Creating geometry...
 Done creating geometry (4 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:44] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Applying non uniform transformation to:
 #130=IfcMember('3E4igxyD1F5w4vj3LTAREz',$,'Track',$,$,#182,#183,$,.PLATE.)
-[Notice] [2022-10-07 08:53:44] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3E4igxyD1F5w4vj3LTAREz} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:44] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Applying non uniform transformation to:
 #133=IfcMember('0y81T5OQ921PKefugNkz2z',$,'Studs',$,$,#232,#233,$,.STUD.)
-[Notice] [2022-10-07 08:53:45] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {0y81T5OQ921PKefugNkz2z} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Applying non uniform transformation to:
 #145=IfcBuildingElementPart('1dhqqYR5v9EPzs7Ts1dOEX',$,'Panel Forward',$,$,#358,#359,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
-[Notice] [2022-10-07 08:53:45] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Eliminated 1 disjoint operands
+[Notice] [2022-10-07 09:45:20] {1dhqqYR5v9EPzs7Ts1dOEX} Used fuzziness: 0.000000
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
-[Warning] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Warning] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Applying non uniform transformation to:
 #146=IfcBuildingElementPart('3dca$PAJT1XA6b06dQW26g',$,'Panel Reverse',$,$,#383,#384,$,.PRECASTPANEL.)
-[Notice] [2022-10-07 08:53:45] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
+[Notice] [2022-10-07 09:45:20] {3dca$PAJT1XA6b06dQW26g} Eliminated 2 disjoint operands
 
 
-Conversion took 1 second
+Conversion took 0 seconds
 
 
 # xeokit-metadata

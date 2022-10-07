@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: reinforcing-stirrup.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:26] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:26] {381QpY9RP89gKaSFbzIfbP} No material and surface styles for:
+[Notice] [2022-10-07 09:45:02] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:45:02] {381QpY9RP89gKaSFbzIfbP} No material and surface styles for:
 #220=IfcReinforcingBar('381QpY9RP89gKaSFbzIfbP',$,$,$,$,#55,#221,$,$,$,$,$,$,$)
 
 
@@ -43,10 +43,10 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 29.52 kB
+[convert2xkt] XKT size: 29.53 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.68
-[convert2xkt] Conversion time: 0.11 s
+[convert2xkt] Conversion time: 0.12 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

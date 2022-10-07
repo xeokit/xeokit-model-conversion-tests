@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: geographic-referencing.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:13] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:13] {0rBru4syGxGOZb$M8kVJuS} No material and surface styles for:
+[Notice] [2022-10-07 09:44:49] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:49] {0rBru4syGxGOZb$M8kVJuS} No material and surface styles for:
 #149=IfcBuildingElementProxy('0rBru4syGxGOZb$M8kVJuS',#100005,'Geographic Position',$,$,#121,#5037,$,$)
 
 

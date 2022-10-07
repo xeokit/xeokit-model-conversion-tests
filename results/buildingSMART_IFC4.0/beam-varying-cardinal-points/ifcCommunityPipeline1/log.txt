@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-cardinal-points.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,14 +17,14 @@ Creating geometry...
 Done creating geometry (4 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:52:56] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:52:56] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
+[Notice] [2022-10-07 09:44:32] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:32] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
 #210=IfcBeamStandardCase('06uVDzM0j8rugiazVexGkx',$,'TopMid',$,$,#211,#229,$,$)
-[Warning] [2022-10-07 08:52:56] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
+[Warning] [2022-10-07 09:44:32] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
 #230=IfcBeamStandardCase('3Cyaczln1DyfCVyfoF1Fyl',$,'BotMid',$,$,#231,#249,$,$)
-[Warning] [2022-10-07 08:52:56] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
+[Warning] [2022-10-07 09:44:32] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
 #250=IfcBeamStandardCase('3_uWum$4vBjQ8_adQlTox1',$,'BotLeft',$,$,#251,#269,$,$)
-[Warning] [2022-10-07 08:52:56] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
+[Warning] [2022-10-07 09:44:32] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
 #270=IfcBeamStandardCase('3QKYtgM_1EtekuZgGn_XdM',$,'TopRight',$,$,#271,#289,$,$)
 
 
@@ -49,10 +49,10 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 5.46 kB
+[convert2xkt] XKT size: 5.48 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.28
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Compression ratio: 5.26
+[convert2xkt] Conversion time: 0.07 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4

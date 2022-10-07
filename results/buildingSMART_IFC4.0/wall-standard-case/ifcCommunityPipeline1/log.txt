@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: wall-standard-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:47] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:47] {0czCsOQ5z4dg8QGBRFInu2} No material and surface styles for:
+[Notice] [2022-10-07 09:45:22] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:45:22] {0czCsOQ5z4dg8QGBRFInu2} No material and surface styles for:
 #302=IfcWallStandardCase('0czCsOQ5z4dg8QGBRFInu2',$,$,$,$,#305,#320,$,$)
 
 
@@ -43,9 +43,9 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3.40 kB
+[convert2xkt] XKT size: 3.60 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 0.51
+[convert2xkt] Compression ratio: 0.48
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

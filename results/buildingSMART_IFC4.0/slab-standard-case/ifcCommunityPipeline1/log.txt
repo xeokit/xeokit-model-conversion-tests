@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: slab-standard-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,7 +17,7 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:30] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-10-07 09:45:05] exclude entities IfcOpeningElement IfcSpace
 
 
 Conversion took 0 seconds
@@ -41,7 +41,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4.68 kB
+[convert2xkt] XKT size: 4.67 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.11
 [convert2xkt] Conversion time: 0.04 s

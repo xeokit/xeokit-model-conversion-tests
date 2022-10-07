@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: column-extruded-solid.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:03] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:03] {2RBigpQc1BvfKj13SBZAbb} No material and surface styles for:
+[Notice] [2022-10-07 09:44:39] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:39] {2RBigpQc1BvfKj13SBZAbb} No material and surface styles for:
 #210=IfcColumnStandardCase('2RBigpQc1BvfKj13SBZAbb',$,$,$,$,#211,#225,$,$)
 
 
@@ -45,7 +45,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] XKT size: 4.32 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.75
+[convert2xkt] Compression ratio: 1.74
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

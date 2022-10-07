@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: column-straight-rectangle-tessellation.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,9 +17,9 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:05] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:05] No plane angle unit encountered
-[Warning] [2022-10-07 08:53:05] {2WUGYBphrFv8aLIFJCmiIk} No material and surface styles for:
+[Notice] [2022-10-07 09:44:40] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:40] No plane angle unit encountered
+[Warning] [2022-10-07 09:44:40] {2WUGYBphrFv8aLIFJCmiIk} No material and surface styles for:
 #71=IfcColumn('2WUGYBphrFv8aLIFJCmiIk',$,'Column #1',$,$,#121,#111,$,.COLUMN.)
 
 

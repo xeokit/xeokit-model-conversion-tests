@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: air-terminal-library-object.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -15,9 +15,9 @@
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 
 Log:
-[Notice] [2022-10-07 08:52:36] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:52:36] No plane angle unit encountered
-[Notice] [2022-10-07 08:52:36] No geometrical elements found or none succesfully converted
+[Notice] [2022-10-07 09:44:11] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:11] No plane angle unit encountered
+[Notice] [2022-10-07 09:44:11] No geometrical elements found or none succesfully converted
 
 
 

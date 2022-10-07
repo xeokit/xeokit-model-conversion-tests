@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: construction-scheduling-task.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,9 +17,9 @@ Creating geometry...
 Done creating geometry (6 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:53:06] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:53:06] No plane angle unit encountered
-[Warning] [2022-10-07 08:53:06] {2uTUkDuu1Caw4X2OaltWYD} No material and surface styles for:
+[Notice] [2022-10-07 09:44:42] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:42] No plane angle unit encountered
+[Warning] [2022-10-07 09:44:42] {2uTUkDuu1Caw4X2OaltWYD} No material and surface styles for:
 #208=IfcSite('2uTUkDuu1Caw4X2OaltWYD',#201,'Site #1',$,$,#229,#210,$,.ELEMENT.,$,$,$,$,$)
 
 
@@ -44,10 +44,10 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3.79 kB
+[convert2xkt] XKT size: 3.76 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.38
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Compression ratio: 2.40
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6

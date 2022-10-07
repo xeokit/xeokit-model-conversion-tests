@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
 #
 # Converting file: basin-faceted-brep.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,9 +17,9 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 08:52:38] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 08:52:38] {3tkl48paX9yw0lahGPGmeU} 0 duplicate faces removed, 0 degenerate loops eliminated and 3 non-manifold edges
-[Warning] [2022-10-07 08:52:38] {3tkl48paX9yw0lahGPGmeU} No material and surface styles for:
+[Notice] [2022-10-07 09:44:14] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 09:44:14] {3tkl48paX9yw0lahGPGmeU} 0 duplicate faces removed, 0 degenerate loops eliminated and 3 non-manifold edges
+[Warning] [2022-10-07 09:44:14] {3tkl48paX9yw0lahGPGmeU} No material and surface styles for:
 #868=IfcSanitaryTerminal('3tkl48paX9yw0lahGPGmeU',$,$,$,$,#55,#869,$,.NOTDEFINED.)
 
 
