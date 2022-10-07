@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
 #
 # Converting file: structural-curve-member.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,21 +11,21 @@
 
 # IfcConvert
 
-~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 
 Log:
-[Notice] [2022-09-20 18:40:22] exclude entities IfcOpeningElement IfcSpace
-[Error] [2022-09-20 18:40:22] {3539fAVu96i8mFr0cgUqeI} No operation defined for:
+[Notice] [2022-10-07 08:53:33] exclude entities IfcOpeningElement IfcSpace
+[Error] [2022-10-07 08:53:33] {3539fAVu96i8mFr0cgUqeI} No operation defined for:
 #233=IfcVertexPoint(#232)
-[Error] [2022-09-20 18:40:22] {2mc6ibF258HPIpTmqg6DSl} No operation defined for:
+[Error] [2022-10-07 08:53:33] {2mc6ibF258HPIpTmqg6DSl} No operation defined for:
 #244=IfcVertexPoint(#243)
-[Error] [2022-09-20 18:40:22] {1dqi3aUQP3yeww5muaF15h} No operation defined for:
+[Error] [2022-10-07 08:53:33] {1dqi3aUQP3yeww5muaF15h} No operation defined for:
 #268=IfcVertexPoint(#267)
-[Error] [2022-09-20 18:40:22] {0IHrRf6abAZwDys7n7fbS2} No operation defined for:
+[Error] [2022-10-07 08:53:33] {0IHrRf6abAZwDys7n7fbS2} No operation defined for:
 #277=IfcVertexPoint(#276)
-[Notice] [2022-09-20 18:40:22] No geometrical elements found or none succesfully converted
+[Notice] [2022-10-07 08:53:33] No geometrical elements found or none succesfully converted
 
 
 
-[Error]: Error: Command failed: ~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress --force-space-transparency 0.4 -v >> /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/log.txt
+[Error]: Error: Command failed: ~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress --force-space-transparency 0.4 -v >> /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/structural-curve-member/ifcCommunityPipeline1/log.txt

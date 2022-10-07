@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
 #
 # Converting file: air-terminal-element.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,19 +11,19 @@
 
 # IfcConvert
 
-~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/air-terminal-element.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/air-terminal-element.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2022-09-20 18:39:16] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-20 18:39:16] No plane angle unit encountered
-[Error] [2022-09-20 18:39:16] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
-[Error] [2022-09-20 18:39:16] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
-[Warning] [2022-09-20 18:39:16] {1mF0_JbLzBtAZ0GUOlCFEx} No material and surface styles for:
+[Notice] [2022-10-07 08:52:34] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 08:52:34] No plane angle unit encountered
+[Error] [2022-10-07 08:52:34] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
+[Error] [2022-10-07 08:52:34] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
+[Warning] [2022-10-07 08:52:34] {1mF0_JbLzBtAZ0GUOlCFEx} No material and surface styles for:
 #331=IfcAirTerminal('1mF0_JbLzBtAZ0GUOlCFEx',#209,$,$,$,#376,#336,$,.NOTDEFINED.)
-[Warning] [2022-09-20 18:39:16] {3T2CbFzwP0jP3Q12nB1pFu} No material and surface styles for:
+[Warning] [2022-10-07 08:52:34] {3T2CbFzwP0jP3Q12nB1pFu} No material and surface styles for:
 #381=IfcDuctSegment('3T2CbFzwP0jP3Q12nB1pFu',#209,'Duct Segment #1',$,$,#388,#395,$,.FLEXIBLESEGMENT.)
 
 
@@ -32,26 +32,26 @@ Conversion took 0 seconds
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/air-terminal-element.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/air-terminal-element.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.xkt -l
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.xkt -l
 [convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 14.68 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3.42 kB
+[convert2xkt] XKT size: 5.72 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.30
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Compression ratio: 2.56
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2
@@ -63,5 +63,5 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 364
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-element/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.

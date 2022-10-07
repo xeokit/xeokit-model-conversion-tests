@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
 #
 # Converting file: air-terminal-library-object.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,14 +11,14 @@
 
 # IfcConvert
 
-~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/air-terminal-library-object.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/air-terminal-library-object.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 
 Log:
-[Notice] [2022-09-20 18:39:18] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-20 18:39:18] No plane angle unit encountered
-[Notice] [2022-09-20 18:39:18] No geometrical elements found or none succesfully converted
+[Notice] [2022-10-07 08:52:36] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 08:52:36] No plane angle unit encountered
+[Notice] [2022-10-07 08:52:36] No geometrical elements found or none succesfully converted
 
 
 
-[Error]: Error: Command failed: ~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/air-terminal-library-object.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress --force-space-transparency 0.4 -v >> /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/log.txt
+[Error]: Error: Command failed: ~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/air-terminal-library-object.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress --force-space-transparency 0.4 -v >> /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCommunityPipeline1/log.txt

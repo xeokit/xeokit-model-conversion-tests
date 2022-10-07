@@ -15,7 +15,7 @@ If no output filename given, <input>.obj will be used as the output file.
 
 Run 'IfcConvert --help' for more information.
 -- IFC to GLTF converter ---------------------
-input file not found: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC2.3/IFC
+input file not found: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC2.3/IFC
 ----------------------------------------------
 ifc2x: convert ifc to gltf
  usage information:

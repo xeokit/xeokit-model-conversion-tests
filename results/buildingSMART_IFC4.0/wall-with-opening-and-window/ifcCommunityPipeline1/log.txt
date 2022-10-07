@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
 #
 # Converting file: wall-with-opening-and-window.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,19 +11,19 @@
 
 # IfcConvert
 
-~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2022-09-20 18:40:39] exclude entities IfcOpeningElement IfcSpace
-[Notice] [2022-09-20 18:40:39] {3ZYW59sxj8lei475l7EhLU} Used fuzziness: 0.000000
-[Notice] [2022-09-20 18:40:39] {3ZYW59sxj8lei475l7EhLU} Operand A 1/1 is an extrusion
-[Notice] [2022-09-20 18:40:39] {3ZYW59sxj8lei475l7EhLU} Operand B 1/1 is an extrusion
-[Notice] [2022-09-20 18:40:39] {3ZYW59sxj8lei475l7EhLU} Operand B creates a through hole
-[Notice] [2022-09-20 18:40:39] {3ZYW59sxj8lei475l7EhLU} Processed fully in 2D
-[Warning] [2022-09-20 18:40:39] {0tA4DSHd50le6Ov9Yu0I9X} No material and surface styles for:
+[Notice] [2022-10-07 08:53:48] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2022-10-07 08:53:48] {3ZYW59sxj8lei475l7EhLU} Used fuzziness: 0.000000
+[Notice] [2022-10-07 08:53:48] {3ZYW59sxj8lei475l7EhLU} Operand A 1/1 is an extrusion
+[Notice] [2022-10-07 08:53:48] {3ZYW59sxj8lei475l7EhLU} Operand B 1/1 is an extrusion
+[Notice] [2022-10-07 08:53:48] {3ZYW59sxj8lei475l7EhLU} Operand B creates a through hole
+[Notice] [2022-10-07 08:53:48] {3ZYW59sxj8lei475l7EhLU} Processed fully in 2D
+[Warning] [2022-10-07 08:53:48] {0tA4DSHd50le6Ov9Yu0I9X} No material and surface styles for:
 #102=IfcWindow('0tA4DSHd50le6Ov9Yu0I9X',#2,'Window for Test Example','Description of Window',$,#103,#106,$,1000.,1000.,.WINDOW.,.SINGLE_PANEL.,$)
 
 
@@ -32,25 +32,25 @@ Conversion took 0 seconds
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.xkt -l
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.xkt -l
 [convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 4.00 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1.26 kB
+[convert2xkt] XKT size: 3.56 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.16
+[convert2xkt] Compression ratio: 1.12
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
@@ -63,5 +63,5 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 72
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.

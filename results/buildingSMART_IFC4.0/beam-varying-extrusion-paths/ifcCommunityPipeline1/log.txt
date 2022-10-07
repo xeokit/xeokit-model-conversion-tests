@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Sep 20 2022 18:28:25 GMT+0200 (Central European Summer Time)
+# Fri Oct 07 2022 08:43:30 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-extrusion-paths.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,18 +11,18 @@
 
 # IfcConvert
 
-~/xeokit/tools/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2022-09-20 18:39:42] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-09-20 18:39:42] {00CM__ZyPDwgWTGJSh5i9o} No material and surface styles for:
+[Notice] [2022-10-07 08:52:58] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2022-10-07 08:52:58] {00CM__ZyPDwgWTGJSh5i9o} No material and surface styles for:
 #210=IfcBeamStandardCase('00CM__ZyPDwgWTGJSh5i9o',$,'Extrusion',$,$,#211,#229,$,$)
-[Warning] [2022-09-20 18:39:42] {3HvTzTCuD1eO$PIsKnJzHR} Warning Axis and SweptArea intersecting
+[Warning] [2022-10-07 08:52:58] {3HvTzTCuD1eO$PIsKnJzHR} Warning Axis and SweptArea intersecting
 #245=IfcRevolvedAreaSolid(#203,#246,#250,0.789582239399523)
-[Warning] [2022-09-20 18:39:42] {3HvTzTCuD1eO$PIsKnJzHR} No material and surface styles for:
+[Warning] [2022-10-07 08:52:58] {3HvTzTCuD1eO$PIsKnJzHR} No material and surface styles for:
 #230=IfcBeamStandardCase('3HvTzTCuD1eO$PIsKnJzHR',$,'Revolution',$,$,#231,#254,$,$)
 
 
@@ -31,26 +31,26 @@ Conversion took 0 seconds
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json -o /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.xkt -l
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.xkt -l
 [convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 46.70 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 11.92 kB
+[convert2xkt] XKT size: 14.14 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.92
-[convert2xkt] Conversion time: 0.10 s
+[convert2xkt] Compression ratio: 3.30
+[convert2xkt] Conversion time: 0.08 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2
@@ -62,5 +62,5 @@ node ~/xeokit/tools/xeokit-convert/convert2xkt.js -s /home/lindsay/xeokit/conver
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 1160
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeokit/converter-tests/tools/xeokit-testdrive/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.
