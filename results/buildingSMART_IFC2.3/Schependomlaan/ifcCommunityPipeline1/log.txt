@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
+# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
 #
 # Converting file: Schependomlaan.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,1222 +11,1222 @@
 
 # IfcConvert
 
-~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC2.3/Schependomlaan.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC2.3/Schependomlaan.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (3569 objects)                                
 
 Log:
-[Notice] [2022-10-07 09:43:31] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 09:43:31] Instance encountered with non-unique GlobalId 2mjWTFJ8N58yehh8j$WWx3
-[Warning] [2022-10-07 09:43:34] {3n$0aQqvnCVgLMGYDxwc9U} No material and surface styles for:
+[Notice] [2023-01-31 18:48:05] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-01-31 18:48:05] Instance encountered with non-unique GlobalId 2mjWTFJ8N58yehh8j$WWx3
+[Warning] [2023-01-31 18:48:08] {3n$0aQqvnCVgLMGYDxwc9U} No material and surface styles for:
 #33223=IfcSlab('3n$0aQqvnCVgLMGYDxwc9U',#25,'vloer_V0',$,$,#33187,#33219,'F1FC091A-D39C-4C7E-A556-42237BEA625E',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {152mZBEq1ABBFkricfATYn} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {152mZBEq1ABBFkricfATYn} No material and surface styles for:
 #33399=IfcSlab('152mZBEq1ABBFkricfATYn',#25,'vloer_V0',$,$,#33365,#33395,'450B08CB-3B40-4A2C-B3EE-D6C9A929D8B1',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1BHDU1gL97UfslrSbfRmfy} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1BHDU1gL97UfslrSbfRmfy} No material and surface styles for:
 #33537=IfcSlab('1BHDU1gL97UfslrSbfRmfy',#25,'vloer_V0',$,$,#33503,#33533,'4B44D781-A952-477A-9DAF-D5C9696F0A7C',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {0GZ1cjigvCbhA8smeI2EOl} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {0GZ1cjigvCbhA8smeI2EOl} No material and surface styles for:
 #33675=IfcSlab('0GZ1cjigvCbhA8smeI2EOl',#25,'vloer_V0',$,$,#33641,#33671,'108C19AD-B2AE-4C96-B288-DB0A1208E62F',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3KFzTADcbBYg2niuF4VUeU} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3KFzTADcbBYg2niuF4VUeU} No material and surface styles for:
 #33813=IfcSlab('3KFzTADcbBYg2niuF4VUeU',#25,'vloer_V0',$,$,#33779,#33809,'D43FD74A-3669-4B8A-A0B1-B383C47DEA1E',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1JLZkkp4vD_Ph$NdsQnOJw} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1JLZkkp4vD_Ph$NdsQnOJw} No material and surface styles for:
 #33951=IfcSlab('1JLZkkp4vD_Ph$NdsQnOJw',#25,'vloer_V0',$,$,#33917,#33947,'53563BAE-CC4E-4DF9-9AFF-5E7D9AC584FA',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3c6u9NZVTBmu7ySb3d4Kyx} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3c6u9NZVTBmu7ySb3d4Kyx} No material and surface styles for:
 #34089=IfcSlab('3c6u9NZVTBmu7ySb3d4Kyx',#25,'vloer_V0',$,$,#34055,#34085,'E61B8257-8DF7-4BC3-81FC-7250E7114F3B',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2xho8b5LT0bvdcb_$4vT1A} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2xho8b5LT0bvdcb_$4vT1A} No material and surface styles for:
 #34227=IfcSlab('2xho8b5LT0bvdcb_$4vT1A',#25,'vloer_V0',$,$,#34193,#34223,'BBAF2225-1557-4097-99E6-97EFC4E5D04A',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1ezF2lk9bATPGbDzbqi3lV} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1ezF2lk9bATPGbDzbqi3lV} No material and surface styles for:
 #34365=IfcSlab('1ezF2lk9bATPGbDzbqi3lV',#25,'vloer_V0',$,$,#34331,#34361,'68F4F0AF-B899-4A75-9425-37D974B03BDF',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2q30Qb1_LBxgFSuRvgl_Fw} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2q30Qb1_LBxgFSuRvgl_Fw} No material and surface styles for:
 #34761=IfcSlab('2q30Qb1_LBxgFSuRvgl_Fw',#25,'vloer_V0',$,$,#34727,#34757,'B40C06A5-07E5-4BEE-A3DC-E1BE6ABFE3FA',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {34UVZsoiL7SxjW6pAa_Hb9} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {34UVZsoiL7SxjW6pAa_Hb9} No material and surface styles for:
 #34899=IfcSlab('34UVZsoiL7SxjW6pAa_Hb9',#25,'vloer_V0',$,$,#34865,#34895,'C479F8F6-CAC5-4773-BB60-1B32A4F91949',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {0Xrfa1Yov20v9aSa2Qy1KU} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {0Xrfa1Yov20v9aSa2Qy1KU} No material and surface styles for:
 #35037=IfcSlab('0Xrfa1Yov20v9aSa2Qy1KU',#25,'vloer_V0',$,$,#35003,#35033,'21D69901-8B2E-4203-9264-72409AF0151E',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2S1cg7ETr61vJ48aHPK75L} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2S1cg7ETr61vJ48aHPK75L} No material and surface styles for:
 #35175=IfcSlab('2S1cg7ETr61vJ48aHPK75L',#25,'vloer_V0',$,$,#35141,#35171,'9C066A87-39DD-4607-94C4-224459507155',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3er4Hi5O59lhIte0bi4WUx} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3er4Hi5O59lhIte0bi4WUx} No material and surface styles for:
 #35313=IfcSlab('3er4Hi5O59lhIte0bi4WUx',#25,'vloer_V0',$,$,#35279,#35309,'E8D4446C-1581-49BE-B4B7-A0096C1207BB',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2en633GqrDIwmtA9fYzxWS} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2en633GqrDIwmtA9fYzxWS} No material and surface styles for:
 #35451=IfcSlab('2en633GqrDIwmtA9fYzxWS',#25,'vloer_V0',$,$,#35417,#35447,'A8C460C3-434D-4D4B-AC37-289A62F7B81C',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1ubXcoJq9Fj9FIjV4W5qwB} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1ubXcoJq9Fj9FIjV4W5qwB} No material and surface styles for:
 #35589=IfcSlab('1ubXcoJq9Fj9FIjV4W5qwB',#25,'vloer_V0',$,$,#35555,#35585,'789619B2-4F42-4FB4-93D2-B5F120174E8B',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2kLPA4gDD7KxNUCt_3L$np} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2kLPA4gDD7KxNUCt_3L$np} No material and surface styles for:
 #35727=IfcSlab('2kLPA4gDD7KxNUCt_3L$np',#25,'vloer_V0',$,$,#35693,#35723,'AE559284-A8D3-4753-B5DE-337F8357FC73',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2aob8QCl16Q8N5ZYzE4b9k} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2aob8QCl16Q8N5ZYzE4b9k} No material and surface styles for:
 #35865=IfcSlab('2aob8QCl16Q8N5ZYzE4b9k',#25,'vloer_V0',$,$,#35831,#35861,'A4CA521A-32F0-4668-85C5-8E2F4E12526E',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2DoYNgCXz1jwarhecdsY1w} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2DoYNgCXz1jwarhecdsY1w} No material and surface styles for:
 #36003=IfcSlab('2DoYNgCXz1jwarhecdsY1w',#25,'vloer_V0',$,$,#35969,#35999,'8DCA25EA-321F-41B7-A935-AE89A7DA207A',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2ZJwwyMMvB5OA8maPq1bML} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2ZJwwyMMvB5OA8maPq1bML} No material and surface styles for:
 #36141=IfcSlab('2ZJwwyMMvB5OA8maPq1bML',#25,'vloer_V0',$,$,#36107,#36137,'A34FAEBC-596E-4B15-8288-C24674065595',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1ZG4DbpJf0lf8Ak2_bQJHW} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1ZG4DbpJf0lf8Ak2_bQJHW} No material and surface styles for:
 #36279=IfcSlab('1ZG4DbpJf0lf8Ak2_bQJHW',#25,'vloer_V0',$,$,#36245,#36275,'63404365-CD3A-40BE-920A-B82FA5693460',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1YpnSB4hH71g3zKepeErHS} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1YpnSB4hH71g3zKepeErHS} No material and surface styles for:
 #36417=IfcSlab('1YpnSB4hH71g3zKepeErHS',#25,'vloer_V0',$,$,#36383,#36413,'62CF170B-12B4-4706-A0FD-528CE83B545C',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1s_IKjunz8NgE4RwXYmqYm} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1s_IKjunz8NgE4RwXYmqYm} No material and surface styles for:
 #36555=IfcSlab('1s_IKjunz8NgE4RwXYmqYm',#25,'vloer_V0',$,$,#36521,#36551,'76F9252D-E31F-485E-A384-6FA862C348B0',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1stCMPwc91r80V5f3OShVm} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1stCMPwc91r80V5f3OShVm} No material and surface styles for:
 #36693=IfcSlab('1stCMPwc91r80V5f3OShVm',#25,'vloer_V0',$,$,#36659,#36689,'76DCC599-EA62-41D4-801F-1690D872B7F0',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {097m$Ifmb1VeHfyhSCj60L} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {097m$Ifmb1VeHfyhSCj60L} No material and surface styles for:
 #36831=IfcSlab('097m$Ifmb1VeHfyhSCj60L',#25,'vloer_V0',$,$,#36797,#36827,'091F0FD2-A709-417E-8469-F2B70CB46015',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2xLeotJhnB4e2jMPGUDqwD} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2xLeotJhnB4e2jMPGUDqwD} No material and surface styles for:
 #36969=IfcSlab('2xLeotJhnB4e2jMPGUDqwD',#25,'vloer_V0',$,$,#36935,#36965,'BB568CB7-4EBC-4B12-80AD-59941E374E8D',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {03t_5XD1v8geHDbzKHx$PA} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {03t_5XD1v8geHDbzKHx$PA} No material and surface styles for:
 #37107=IfcSlab('03t_5XD1v8geHDbzKHx$PA',#25,'vloer_V0',$,$,#37073,#37103,'03DFE161-341E-48AA-844D-97D511EFF64A',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1d0MiLLsLCdBSuTHp6ynR7} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1d0MiLLsLCdBSuTHp6ynR7} No material and surface styles for:
 #37245=IfcSlab('1d0MiLLsLCdBSuTHp6ynR7',#25,'vloer_V0',$,$,#37211,#37241,'67016B15-5765-4C9C-B738-751CC6F316C7',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {0mRsPczVDDeB_LBFOgCxdq} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {0mRsPczVDDeB_LBFOgCxdq} No material and surface styles for:
 #37383=IfcSlab('0mRsPczVDDeB_LBFOgCxdq',#25,'vloer_V0',$,$,#37349,#37379,'306F6666-F5F3-4DA0-BF95-2CF62A33B9F4',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1pSInisE96t8p52fxSGYjG} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1pSInisE96t8p52fxSGYjG} No material and surface styles for:
 #37521=IfcSlab('1pSInisE96t8p52fxSGYjG',#25,'vloer_V0',$,$,#37487,#37517,'73712C6C-D8E2-46DC-8CC5-0A9EDC422B50',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {08Su0zaR5EXQNO6ngU$Nih} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {08Su0zaR5EXQNO6ngU$Nih} No material and surface styles for:
 #37659=IfcSlab('08Su0zaR5EXQNO6ngU$Nih',#25,'vloer_V0',$,$,#37625,#37655,'0873803D-91B1-4E85-A5D8-1B1A9EFD7B2B',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1ZgBbxSDX0C9d8RHMnr9Bd} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1ZgBbxSDX0C9d8RHMnr9Bd} No material and surface styles for:
 #37797=IfcSlab('1ZgBbxSDX0C9d8RHMnr9Bd',#25,'vloer_V0',$,$,#37763,#37793,'63A8B97B-70D8-4030-99C8-6D15B1D492E7',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {0Fi5splwH1mPAxYGMuuTQ1} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {0Fi5splwH1mPAxYGMuuTQ1} No material and surface styles for:
 #37935=IfcSlab('0Fi5splwH1mPAxYGMuuTQ1',#25,'vloer_V0',$,$,#37901,#37931,'0FB05DB3-BFA4-41C1-92BB-8905B8E1D681',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2PngXSH2j6u99nI0sIn2o5} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2PngXSH2j6u99nI0sIn2o5} No material and surface styles for:
 #38073=IfcSlab('2PngXSH2j6u99nI0sIn2o5',#25,'vloer_V0',$,$,#38039,#38069,'99C6A85C-442B-46E0-9271-480D92C42C85',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3_HjQT0vD1POpnG530wEp7} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3_HjQT0vD1POpnG530wEp7} No material and surface styles for:
 #38211=IfcSlab('3_HjQT0vD1POpnG530wEp7',#25,'vloer_V0',$,$,#38177,#38207,'FE46D69D-0393-4165-8CF1-4050C0E8ECC7',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1nFD6aK1vEMPoRETGtTcaG} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1nFD6aK1vEMPoRETGtTcaG} No material and surface styles for:
 #38349=IfcSlab('1nFD6aK1vEMPoRETGtTcaG',#25,'vloer_V0',$,$,#38315,#38345,'713CD1A4-501E-4E59-9C9B-39D437766910',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2jfgBlXC5DqAtt9Imu_ZDa} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2jfgBlXC5DqAtt9Imu_ZDa} No material and surface styles for:
 #38487=IfcSlab('2jfgBlXC5DqAtt9Imu_ZDa',#25,'vloer_V0',$,$,#38453,#38483,'ADA6A2EF-84C1-4DD0-ADF7-252C38FA3364',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {16GzHPPq1BKv2r3QIxB1$6} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {16GzHPPq1BKv2r3QIxB1$6} No material and surface styles for:
 #38625=IfcSlab('16GzHPPq1BKv2r3QIxB1$6',#25,'vloer_V0',$,$,#38591,#38621,'4643D459-6740-4B53-90B5-0DA4BB2C1FC6',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1IlNDv2PvF_hqZ997BA_c0} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1IlNDv2PvF_hqZ997BA_c0} No material and surface styles for:
 #38763=IfcSlab('1IlNDv2PvF_hqZ997BA_c0',#25,'vloer_V0',$,$,#38729,#38759,'52BD7379-099E-4FFA-BD23-2491CB2BE980',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2dWeqcZXj94QwNPbNEIcDK} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2dWeqcZXj94QwNPbNEIcDK} No material and surface styles for:
 #38901=IfcSlab('2dWeqcZXj94QwNPbNEIcDK',#25,'vloer_V0',$,$,#38867,#38897,'A7828D26-8E1B-4911-AE97-6655CE4A6354',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3$gsVev9X1F8KTRxQi7mEd} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3$gsVev9X1F8KTRxQi7mEd} No material and surface styles for:
 #39279=IfcSlab('3$gsVev9X1F8KTRxQi7mEd',#25,'vloer_V0',$,$,#39243,#39275,'FFAB67E8-E498-413C-851D-6FB6AC1F03A7',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1EU0692GvC8Rre0xYHuYMJ} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {1EU0692GvC8Rre0xYHuYMJ} No material and surface styles for:
 #39417=IfcSlab('1EU0692GvC8Rre0xYHuYMJ',#25,'vloer_V0',$,$,#39383,#39413,'4E780189-090E-4C21-BD68-03B891E22593',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {2EK7acXG14vgx_QU1OeZ7J} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {2EK7acXG14vgx_QU1OeZ7J} No material and surface styles for:
 #39574=IfcSlab('2EK7acXG14vgx_QU1OeZ7J',#25,'vloer_V0',$,$,#39540,#39570,'8E507926-8500-44E6-AEFE-69E058A231D3',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {0bt_nRQyfDN8YfRjsoVHLW} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
-[Warning] [2022-10-07 09:43:34] {2LoDEf2jP0b9CMdtWhwNOO} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {0bt_nRQyfDN8YfRjsoVHLW} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
+[Warning] [2023-01-31 18:48:08] {2LoDEf2jP0b9CMdtWhwNOO} No material and surface styles for:
 #42729=IfcSlab('2LoDEf2jP0b9CMdtWhwNOO',#25,'vloer_V0',$,$,#42695,#42725,'95C8D3A9-0AD6-4094-9316-9F782BE97618',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3UgqfaQcn7kwp58pqnjWYX} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3UgqfaQcn7kwp58pqnjWYX} No material and surface styles for:
 #42867=IfcSlab('3UgqfaQcn7kwp58pqnjWYX',#25,'vloer_V0',$,$,#42833,#42863,'DEAB4A64-6A6C-47BB-ACC5-233D31B608A1',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {3ctpV8GSz3JPQfqe2o$oED} No material and surface styles for:
+[Warning] [2023-01-31 18:48:08] {3ctpV8GSz3JPQfqe2o$oED} No material and surface styles for:
 #43098=IfcSlab('3ctpV8GSz3JPQfqe2o$oED',#25,'vloer_V0',$,$,#43062,#43094,'E6DF37C8-41CF-434D-96A9-D280B2FF238D',.FLOOR.)
-[Warning] [2022-10-07 09:43:34] {1McJJLXTj2egVhpYy4cxHf} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Intersecting boundaries
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {1A9aTEU4z9SwaqEUwI8Lx4} Processed fully in 2D
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Intersecting boundaries
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {2qmQa8nAP39u6po5334l9v} Processed fully in 2D
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Intersecting boundaries
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {148inggZz0fAp_L7YGDBl6} Processed fully in 2D
-[Warning] [2022-10-07 09:43:34] {1mqSCWO5bBR84dhZ5SEDMu} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {1McJJLXTj2egVhpYy4cxHf} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {1A9aTEU4z9SwaqEUwI8Lx4} Processed fully in 2D
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {2qmQa8nAP39u6po5334l9v} Processed fully in 2D
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {148inggZz0fAp_L7YGDBl6} Processed fully in 2D
+[Warning] [2023-01-31 18:48:08] {1mqSCWO5bBR84dhZ5SEDMu} Triangulating face boundaries for face
 #57077=IfcFace((#57065,#57076))
-[Warning] [2022-10-07 09:43:34] {0tyKkyPHXFkvhRpZpx0R5f} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {0tyKkyPHXFkvhRpZpx0R5f} Triangulating face boundaries for face
 #57361=IfcFace((#57360))
-[Warning] [2022-10-07 09:43:34] {3hGtOZh1X55h2EX09_BAZ8} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {3hGtOZh1X55h2EX09_BAZ8} Triangulating face boundaries for face
 #57602=IfcFace((#57601))
-[Warning] [2022-10-07 09:43:34] {09VD$Lqi93x9JCZ1tfrTrL} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {09VD$Lqi93x9JCZ1tfrTrL} Triangulating face boundaries for face
 #58756=IfcFace((#58744,#58755))
-[Warning] [2022-10-07 09:43:34] {2MtbYSfxf8XPurPixjtvdV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {2MtbYSfxf8XPurPixjtvdV} Triangulating face boundaries for face
 #59067=IfcFace((#59066))
-[Warning] [2022-10-07 09:43:34] {1hBjzJQ_r4MQi5$dPip1Ju} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {1hBjzJQ_r4MQi5$dPip1Ju} Triangulating face boundaries for face
 #59316=IfcFace((#59315))
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Intersecting boundaries
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:34] {3bi7XzqxrAgvdZxFnRwTdg} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0A$dxBFCfD698O7H1hW$fd} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0Nj60ieO55uBt_I0iEvvde} Processed fully in 2D
-[Warning] [2022-10-07 09:43:35] {04Ezr5o2H4NgZr$CrXLBI_} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {3bi7XzqxrAgvdZxFnRwTdg} Processed fully in 2D
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {0A$dxBFCfD698O7H1hW$fd} Processed fully in 2D
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Intersecting boundaries
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {0Nj60ieO55uBt_I0iEvvde} Processed fully in 2D
+[Warning] [2023-01-31 18:48:08] {04Ezr5o2H4NgZr$CrXLBI_} Triangulating face boundaries for face
 #82825=IfcFace((#82824))
-[Warning] [2022-10-07 09:43:35] {1toAPIPJD7oPqBKCS6Nz$d} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {1toAPIPJD7oPqBKCS6Nz$d} Triangulating face boundaries for face
 #84163=IfcFace((#84162))
-[Warning] [2022-10-07 09:43:35] {2JtUzxXCjFj9jo3oilNdf7} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {2JtUzxXCjFj9jo3oilNdf7} Triangulating face boundaries for face
 #84613=IfcFace((#84612))
-[Warning] [2022-10-07 09:43:35] {23WtecHJX4cB$W9D3l89Gz} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {23WtecHJX4cB$W9D3l89Gz} Triangulating face boundaries for face
 #85651=IfcFace((#85650))
-[Warning] [2022-10-07 09:43:35] {22UbO4brrFvQJCWjanZuvV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {22UbO4brrFvQJCWjanZuvV} Triangulating face boundaries for face
 #86477=IfcFace((#86476))
-[Warning] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} Halfspace subtraction yields unchanged volume:
+[Warning] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} Halfspace subtraction yields unchanged volume:
 #87605=IfcBooleanClippingResult(.DIFFERENCE.,#87595,#87604)
-[Notice] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:35] {32VIvm2_P7AQHfabzfmEqI} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:08] {32VIvm2_P7AQHfabzfmEqI} Subtraction yields unchanged volume:
 #87605=IfcBooleanClippingResult(.DIFFERENCE.,#87595,#87604)
-[Warning] [2022-10-07 09:43:35] {0WbxJm47zCSxPd8I4EJBzV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {0WbxJm47zCSxPd8I4EJBzV} Triangulating face boundaries for face
 #90970=IfcFace((#90969))
-[Warning] [2022-10-07 09:43:35] {3pWgo6GgjDmBfRg2bfmX7L} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:08] {3pWgo6GgjDmBfRg2bfmX7L} Triangulating face boundaries for face
 #91426=IfcFace((#91414,#91425))
-[Warning] [2022-10-07 09:43:35] {2XddRbY_j3x8eYm8oLZNXR} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:09] {2XddRbY_j3x8eYm8oLZNXR} Triangulating face boundaries for face
 #98810=IfcFace((#98809))
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0GioG4iQzA1OyX4F47kc4a} Processed fully in 2D
-[Warning] [2022-10-07 09:43:35] {2U35Nruyf1cfc5sAWDSOX1} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0GioG4iQzA1OyX4F47kc4a} Processed fully in 2D
+[Warning] [2023-01-31 18:48:09] {2U35Nruyf1cfc5sAWDSOX1} Triangulating face boundaries for face
 #100722=IfcFace((#100710,#100721))
-[Warning] [2022-10-07 09:43:35] {3Gl09z0xrDMhikUUZFZdvs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:09] {3Gl09z0xrDMhikUUZFZdvs} Triangulating face boundaries for face
 #101037=IfcFace((#101036))
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2iybqz3VH31hQztnwzJ_m7} Processed fully in 2D
-[Warning] [2022-10-07 09:43:35] {0RZYP$9znCHg11Unjzo2gM} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2iybqz3VH31hQztnwzJ_m7} Processed fully in 2D
+[Warning] [2023-01-31 18:48:09] {0RZYP$9znCHg11Unjzo2gM} Triangulating face boundaries for face
 #109860=IfcFace((#109859))
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {3XhijCDWT4ERsmhSDcEHtI} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {1oHEx35PDDzQFKEx3RZUI5} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {356ZU40Tn3tvjGsP5aWnKD} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {01hUAhn2r989LDYSpRx4VK} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2Hagr_o5nCPha8GzqG_2Pz} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {1AtB01imf94g7vyKEx$EUO} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {06vshORsrEVvjbvNCwwl$2} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {0vTAFL4d1DwxQSNiJxvejT} Processed fully in 2D
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Intersecting boundaries
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:35] {2SOFxehfn3JPJ42eH$gc$u} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {36fadt$IzDJQp5auYj8rIY} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {0zCNq_mof6gPonl4mLYuLv} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {0IIlOCBsj3HgQHK5iljQCT} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {1i4_mvNgv86Pj97Vy1f2eY} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {3fvHYcQET4afRMl3etTK4F} Processed fully in 2D
-[Warning] [2022-10-07 09:43:36] {39SjBu3a1E$APuKEawG581} No material and surface styles for:
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {3XhijCDWT4ERsmhSDcEHtI} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1oHEx35PDDzQFKEx3RZUI5} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {356ZU40Tn3tvjGsP5aWnKD} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {01hUAhn2r989LDYSpRx4VK} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2Hagr_o5nCPha8GzqG_2Pz} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1AtB01imf94g7vyKEx$EUO} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {06vshORsrEVvjbvNCwwl$2} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0vTAFL4d1DwxQSNiJxvejT} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {2SOFxehfn3JPJ42eH$gc$u} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {36fadt$IzDJQp5auYj8rIY} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0zCNq_mof6gPonl4mLYuLv} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {0IIlOCBsj3HgQHK5iljQCT} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {1i4_mvNgv86Pj97Vy1f2eY} Processed fully in 2D
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Intersecting boundaries
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:09] {3fvHYcQET4afRMl3etTK4F} Processed fully in 2D
+[Warning] [2023-01-31 18:48:10] {39SjBu3a1E$APuKEawG581} No material and surface styles for:
 #184059=IfcSlab('39SjBu3a1E$APuKEawG581',#25,'vloer_V0',$,$,#184025,#184055,'C972D2F8-0E40-4EFC-A678-50E93A405201',.FLOOR.)
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {1WCZr3c7r05hqSejiWoWO4} Processed fully in 2D
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Intersecting boundaries
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:36] {13hN5zL1L2fftXqB_Ac_WZ} Processed fully in 2D
-[Warning] [2022-10-07 09:43:36] {0GU$6X29PC6gNbWz5MWmi4} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Intersecting boundaries
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:10] {1WCZr3c7r05hqSejiWoWO4} Processed fully in 2D
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Intersecting boundaries
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:10] {13hN5zL1L2fftXqB_Ac_WZ} Processed fully in 2D
+[Warning] [2023-01-31 18:48:10] {0GU$6X29PC6gNbWz5MWmi4} Triangulating face boundaries for face
 #190974=IfcFace((#190973))
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Intersecting boundaries
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {1j6lJOCJrBfhwVjXcDrBMU} Processed fully in 2D
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Intersecting boundaries
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {0VctgvK$r7cwrBnu9fG$cA} Processed fully in 2D
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Intersecting boundaries
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {1E7L0rbcP3b9T_kO_wpzXM} Processed fully in 2D
-[Warning] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} Halfspace subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Intersecting boundaries
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {1j6lJOCJrBfhwVjXcDrBMU} Processed fully in 2D
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Intersecting boundaries
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {0VctgvK$r7cwrBnu9fG$cA} Processed fully in 2D
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Intersecting boundaries
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {1E7L0rbcP3b9T_kO_wpzXM} Processed fully in 2D
+[Warning] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} Halfspace subtraction yields unchanged volume:
 #274517=IfcBooleanClippingResult(.DIFFERENCE.,#274507,#274516)
-[Notice] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:38] {1Dy5mWBn93FBoTxey7DIVO} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:12] {1Dy5mWBn93FBoTxey7DIVO} Subtraction yields unchanged volume:
 #274517=IfcBooleanClippingResult(.DIFFERENCE.,#274507,#274516)
-[Warning] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} Halfspace subtraction yields unchanged volume:
+[Warning] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} Halfspace subtraction yields unchanged volume:
 #274646=IfcBooleanClippingResult(.DIFFERENCE.,#274636,#274645)
-[Notice] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:38] {2eMdrGtAjDdfViY3DsFDZ2} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:12] {2eMdrGtAjDdfViY3DsFDZ2} Subtraction yields unchanged volume:
 #274646=IfcBooleanClippingResult(.DIFFERENCE.,#274636,#274645)
-[Warning] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} Halfspace subtraction yields unchanged volume:
+[Warning] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} Halfspace subtraction yields unchanged volume:
 #275465=IfcBooleanClippingResult(.DIFFERENCE.,#275455,#275464)
-[Notice] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:38] {36VbipjFXB5hjKJidDw3EL} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:12] {36VbipjFXB5hjKJidDw3EL} Subtraction yields unchanged volume:
 #275465=IfcBooleanClippingResult(.DIFFERENCE.,#275455,#275464)
-[Warning] [2022-10-07 09:43:38] {1LRccoRIL3pOi1F3fWQ823} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:12] {1LRccoRIL3pOi1F3fWQ823} Triangulating face boundaries for face
 #288322=IfcFace((#288321))
-[Warning] [2022-10-07 09:43:39] {0X2zNK4Gr959hH90pZPnh_} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0X2zNK4Gr959hH90pZPnh_} Triangulating face boundaries for face
 #303008=IfcFace((#303007))
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {09R3x3btbEC9NWKCsQ9Ndr} Processed fully in 2D
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {2_xwfAnHjEGheqbGUc$BD5} Processed fully in 2D
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0bPEvM_fn8SPrU2SioL4bx} Processed fully in 2D
-[Warning] [2022-10-07 09:43:39] {0QMRbnWY93Av6dpvLwMXTd} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {09R3x3btbEC9NWKCsQ9Ndr} Processed fully in 2D
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {2_xwfAnHjEGheqbGUc$BD5} Processed fully in 2D
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0bPEvM_fn8SPrU2SioL4bx} Processed fully in 2D
+[Warning] [2023-01-31 18:48:13] {0QMRbnWY93Av6dpvLwMXTd} Triangulating face boundaries for face
 #317917=IfcFace((#317916))
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {27SAqTJ4n1cfkb4yN$O3Ny} Processed fully in 2D
-[Warning] [2022-10-07 09:43:39] {3nUvT4p0D6ae2oqX84OWGo} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
-[Warning] [2022-10-07 09:43:39] {3iYQkCuxz2nwxpnW8$kdHE} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {07o2mHpkH4_PxUBc290w3Z} Processed fully in 2D
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0$YDCcbYPB0wRxDYucu1$k} Processed fully in 2D
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Intersecting boundaries
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:39] {0LxscyRCL35PTDOLAAjfSI} Processed fully in 2D
-[Warning] [2022-10-07 09:43:39] {1Ck68Did9E4B2fA9fyUEXs} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {27SAqTJ4n1cfkb4yN$O3Ny} Processed fully in 2D
+[Warning] [2023-01-31 18:48:13] {3nUvT4p0D6ae2oqX84OWGo} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
+[Warning] [2023-01-31 18:48:13] {3iYQkCuxz2nwxpnW8$kdHE} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {07o2mHpkH4_PxUBc290w3Z} Processed fully in 2D
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0$YDCcbYPB0wRxDYucu1$k} Processed fully in 2D
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {0LxscyRCL35PTDOLAAjfSI} Processed fully in 2D
+[Warning] [2023-01-31 18:48:13] {1Ck68Did9E4B2fA9fyUEXs} Triangulating face boundaries for face
 #348577=IfcFace((#348576))
-[Warning] [2022-10-07 09:43:39] {1Ck68Did9E4B2fA9fyUEXs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1Ck68Did9E4B2fA9fyUEXs} Triangulating face boundaries for face
 #348607=IfcFace((#348606))
-[Warning] [2022-10-07 09:43:39] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
 #349986=IfcFace((#349985))
-[Warning] [2022-10-07 09:43:39] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
 #350018=IfcFace((#350017))
-[Warning] [2022-10-07 09:43:39] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0cvbypZZTEfOd$plu0l_E0} Triangulating face boundaries for face
 #350025=IfcFace((#350024))
-[Warning] [2022-10-07 09:43:39] {2FFdH9XVzCpBfbvDlHuTHe} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2FFdH9XVzCpBfbvDlHuTHe} Triangulating face boundaries for face
 #350241=IfcFace((#350240))
-[Warning] [2022-10-07 09:43:39] {2FFdH9XVzCpBfbvDlHuTHe} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2FFdH9XVzCpBfbvDlHuTHe} Triangulating face boundaries for face
 #350250=IfcFace((#350249))
-[Warning] [2022-10-07 09:43:39] {3sMAjbPMf6S8WJzjjX5v9R} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {3sMAjbPMf6S8WJzjjX5v9R} Triangulating face boundaries for face
 #350512=IfcFace((#350511))
-[Warning] [2022-10-07 09:43:39] {3sMAjbPMf6S8WJzjjX5v9R} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {3sMAjbPMf6S8WJzjjX5v9R} Triangulating face boundaries for face
 #350541=IfcFace((#350540))
-[Warning] [2022-10-07 09:43:39] {2B0G8J6dD9_eLksetBKO8G} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2B0G8J6dD9_eLksetBKO8G} Triangulating face boundaries for face
 #351523=IfcFace((#351511,#351522))
-[Warning] [2022-10-07 09:43:39] {0BaTdFig96fAQhtMSd1Bze} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0BaTdFig96fAQhtMSd1Bze} Triangulating face boundaries for face
 #351807=IfcFace((#351806))
-[Warning] [2022-10-07 09:43:39] {0j6o0yB1fFhuN_Qos13Bz5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0j6o0yB1fFhuN_Qos13Bz5} Triangulating face boundaries for face
 #352048=IfcFace((#352047))
-[Warning] [2022-10-07 09:43:39] {1_5se9Bjn1rgHwEb$U1XcT} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1_5se9Bjn1rgHwEb$U1XcT} Triangulating face boundaries for face
 #352985=IfcFace((#352973,#352984))
-[Warning] [2022-10-07 09:43:39] {024PETTtr5LPliAdggDMDR} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {024PETTtr5LPliAdggDMDR} Triangulating face boundaries for face
 #353296=IfcFace((#353295))
-[Warning] [2022-10-07 09:43:39] {0oq3Y7GEDEWwB4m3kkbnC2} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0oq3Y7GEDEWwB4m3kkbnC2} Triangulating face boundaries for face
 #353537=IfcFace((#353536))
-[Warning] [2022-10-07 09:43:39] {2i8QzWRNPBw8PJKRvI47QC} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2i8QzWRNPBw8PJKRvI47QC} Triangulating face boundaries for face
 #355425=IfcFace((#355424))
-[Warning] [2022-10-07 09:43:39] {2i8QzWRNPBw8PJKRvI47QC} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2i8QzWRNPBw8PJKRvI47QC} Triangulating face boundaries for face
 #355453=IfcFace((#355452))
-[Warning] [2022-10-07 09:43:39] {2G6lQ95FPBqvla$IXbFUxb} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2G6lQ95FPBqvla$IXbFUxb} Triangulating face boundaries for face
 #355598=IfcFace((#355597))
-[Warning] [2022-10-07 09:43:39] {2G6lQ95FPBqvla$IXbFUxb} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2G6lQ95FPBqvla$IXbFUxb} Triangulating face boundaries for face
 #355628=IfcFace((#355627))
-[Warning] [2022-10-07 09:43:39] {1JdNK56yH2MfZU69$ODUDl} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1JdNK56yH2MfZU69$ODUDl} Triangulating face boundaries for face
 #355776=IfcFace((#355775))
-[Warning] [2022-10-07 09:43:39] {1JdNK56yH2MfZU69$ODUDl} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1JdNK56yH2MfZU69$ODUDl} Triangulating face boundaries for face
 #355832=IfcFace((#355831))
-[Warning] [2022-10-07 09:43:39] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
 #355967=IfcFace((#355966))
-[Warning] [2022-10-07 09:43:39] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
 #355983=IfcFace((#355982))
-[Warning] [2022-10-07 09:43:39] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0Cp5JUscrBswxyq7gaT1bs} Triangulating face boundaries for face
 #356013=IfcFace((#356012))
-[Warning] [2022-10-07 09:43:39] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
 #349986=IfcFace((#349985))
-[Warning] [2022-10-07 09:43:39] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
 #350018=IfcFace((#350017))
-[Warning] [2022-10-07 09:43:39] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2WePGJIkTE98lz29UD$HzT} Triangulating face boundaries for face
 #350025=IfcFace((#350024))
-[Warning] [2022-10-07 09:43:39] {0cbTUdrIX8OwIrU2VSaQUm} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0cbTUdrIX8OwIrU2VSaQUm} Triangulating face boundaries for face
 #356821=IfcFace((#356820))
-[Warning] [2022-10-07 09:43:39] {0cbTUdrIX8OwIrU2VSaQUm} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0cbTUdrIX8OwIrU2VSaQUm} Triangulating face boundaries for face
 #356847=IfcFace((#356846))
-[Warning] [2022-10-07 09:43:39] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
 #357065=IfcFace((#357064))
-[Warning] [2022-10-07 09:43:39] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
 #357074=IfcFace((#357073))
-[Warning] [2022-10-07 09:43:39] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {170xGwZ3n63ADCoe9qdg_h} Triangulating face boundaries for face
 #357134=IfcFace((#357133))
-[Warning] [2022-10-07 09:43:39] {17xGjrW1zASOA17QWHquI5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {17xGjrW1zASOA17QWHquI5} Triangulating face boundaries for face
 #357274=IfcFace((#357273))
-[Warning] [2022-10-07 09:43:39] {17xGjrW1zASOA17QWHquI5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {17xGjrW1zASOA17QWHquI5} Triangulating face boundaries for face
 #357304=IfcFace((#357303))
-[Warning] [2022-10-07 09:43:39] {0OrxX4Pjf0VhIuPu2Q_Bh6} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0OrxX4Pjf0VhIuPu2Q_Bh6} Triangulating face boundaries for face
 #357441=IfcFace((#357440))
-[Warning] [2022-10-07 09:43:39] {0OrxX4Pjf0VhIuPu2Q_Bh6} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0OrxX4Pjf0VhIuPu2Q_Bh6} Triangulating face boundaries for face
 #357450=IfcFace((#357449))
-[Warning] [2022-10-07 09:43:39] {36MTIgYN58Khj4Maho8oRs} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {36MTIgYN58Khj4Maho8oRs} Triangulating face boundaries for face
 #363721=IfcFace((#363720))
-[Warning] [2022-10-07 09:43:39] {2enUmZYnj72OcwNACl0MbV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2enUmZYnj72OcwNACl0MbV} Triangulating face boundaries for face
 #363969=IfcFace((#363968))
-[Warning] [2022-10-07 09:43:39] {1QORPgpTj4YPl0HjFsWYcQ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1QORPgpTj4YPl0HjFsWYcQ} Triangulating face boundaries for face
 #364842=IfcFace((#364841))
-[Warning] [2022-10-07 09:43:39] {2Zb5jLlbD7TeMfbx6mSTkJ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {2Zb5jLlbD7TeMfbx6mSTkJ} Triangulating face boundaries for face
 #365712=IfcFace((#365711))
-[Warning] [2022-10-07 09:43:40] {0RrPQ1pTz1IBZvY9bQxtJH} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {0RrPQ1pTz1IBZvY9bQxtJH} Triangulating face boundaries for face
 #365969=IfcFace((#365968))
-[Warning] [2022-10-07 09:43:40] {3K4sDlB8X44RAiRHBjIKFR} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {3K4sDlB8X44RAiRHBjIKFR} Triangulating face boundaries for face
 #366244=IfcFace((#366243))
-[Warning] [2022-10-07 09:43:40] {1ecPb8Ljv5du9f_BTPBG2_} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:13] {1ecPb8Ljv5du9f_BTPBG2_} Triangulating face boundaries for face
 #367311=IfcFace((#367310))
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1qHBiNfAHCHhBLrRv9Uyf5} Processed fully in 2D
-[Warning] [2022-10-07 09:43:40] {2LUMJaNrP2fADnpLMmofDg} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Intersecting boundaries
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:13] {1qHBiNfAHCHhBLrRv9Uyf5} Processed fully in 2D
+[Warning] [2023-01-31 18:48:14] {2LUMJaNrP2fADnpLMmofDg} Triangulating face boundaries for face
 #380465=IfcFace((#380464))
-[Warning] [2022-10-07 09:43:40] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
 #381286=IfcFace((#381285))
-[Warning] [2022-10-07 09:43:40] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
 #381293=IfcFace((#381292))
-[Warning] [2022-10-07 09:43:40] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1FqwrPu3f1XA2prZi_iJgV} Triangulating face boundaries for face
 #381310=IfcFace((#381309))
-[Warning] [2022-10-07 09:43:40] {3cpxkAv$10$PgDeMJwfCPL} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3cpxkAv$10$PgDeMJwfCPL} Triangulating face boundaries for face
 #382882=IfcFace((#382881))
-[Warning] [2022-10-07 09:43:40] {3cpxkAv$10$PgDeMJwfCPL} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3cpxkAv$10$PgDeMJwfCPL} Triangulating face boundaries for face
 #382898=IfcFace((#382897))
-[Warning] [2022-10-07 09:43:40] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
 #383463=IfcFace((#383462))
-[Warning] [2022-10-07 09:43:40] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
 #383477=IfcFace((#383476))
-[Warning] [2022-10-07 09:43:40] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2wNbDgKcj8JBeaqMAeU1Zg} Triangulating face boundaries for face
 #383499=IfcFace((#383498))
-[Warning] [2022-10-07 09:43:40] {2cIQdivwH0euQ3BKDTFgOA} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2cIQdivwH0euQ3BKDTFgOA} Triangulating face boundaries for face
 #384206=IfcFace((#384205))
-[Warning] [2022-10-07 09:43:40] {3oLzKCfPH6txb7mMIAPQlw} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3oLzKCfPH6txb7mMIAPQlw} Triangulating face boundaries for face
 #387843=IfcFace((#387842))
-[Warning] [2022-10-07 09:43:40] {3oLzKCfPH6txb7mMIAPQlw} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3oLzKCfPH6txb7mMIAPQlw} Triangulating face boundaries for face
 #387877=IfcFace((#387876))
-[Warning] [2022-10-07 09:43:40] {28TwRgPBf0Dw3TgI_VPbfp} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {28TwRgPBf0Dw3TgI_VPbfp} Triangulating face boundaries for face
 #388041=IfcFace((#388040))
-[Warning] [2022-10-07 09:43:40] {28TwRgPBf0Dw3TgI_VPbfp} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {28TwRgPBf0Dw3TgI_VPbfp} Triangulating face boundaries for face
 #388080=IfcFace((#388079))
-[Warning] [2022-10-07 09:43:40] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
 #381286=IfcFace((#381285))
-[Warning] [2022-10-07 09:43:40] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
 #381293=IfcFace((#381292))
-[Warning] [2022-10-07 09:43:40] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0yJedBOe16beS9_7mCiqJJ} Triangulating face boundaries for face
 #381310=IfcFace((#381309))
-[Warning] [2022-10-07 09:43:40] {0DuzvdVuzFFQ8DZUdYbnaa} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0DuzvdVuzFFQ8DZUdYbnaa} Triangulating face boundaries for face
 #390009=IfcFace((#390008))
-[Warning] [2022-10-07 09:43:40] {0DuzvdVuzFFQ8DZUdYbnaa} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0DuzvdVuzFFQ8DZUdYbnaa} Triangulating face boundaries for face
 #390043=IfcFace((#390042))
-[Warning] [2022-10-07 09:43:40] {2WW_2E6Wr1XPPZ0X1qKYGa} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2WW_2E6Wr1XPPZ0X1qKYGa} Triangulating face boundaries for face
 #390414=IfcFace((#390413))
-[Warning] [2022-10-07 09:43:40] {05FOAkTzrCUBgsJj6dAI3z} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {05FOAkTzrCUBgsJj6dAI3z} Triangulating face boundaries for face
 #391282=IfcFace((#391281))
-[Warning] [2022-10-07 09:43:40] {3xRi6WMC572By6DWM_I3Le} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3xRi6WMC572By6DWM_I3Le} Triangulating face boundaries for face
 #391527=IfcFace((#391526))
-[Warning] [2022-10-07 09:43:40] {125bFabrLCqQQ0adr4pzjL} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {125bFabrLCqQQ0adr4pzjL} Triangulating face boundaries for face
 #393774=IfcFace((#393773))
-[Warning] [2022-10-07 09:43:40] {3RyopHsn1E0hLmAiylGg_C} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3RyopHsn1E0hLmAiylGg_C} Triangulating face boundaries for face
 #394044=IfcFace((#394043))
-[Warning] [2022-10-07 09:43:40] {38l_4KH3nDcgCphNLY110B} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {38l_4KH3nDcgCphNLY110B} Triangulating face boundaries for face
 #394293=IfcFace((#394281,#394292))
-[Warning] [2022-10-07 09:43:40] {3tzmbbcRPEK8Jf8X7AmWZI} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3tzmbbcRPEK8Jf8X7AmWZI} Triangulating face boundaries for face
 #395275=IfcFace((#395274))
-[Warning] [2022-10-07 09:43:40] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
 #381286=IfcFace((#381285))
-[Warning] [2022-10-07 09:43:40] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
 #381293=IfcFace((#381292))
-[Warning] [2022-10-07 09:43:40] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3AuSOzb05ETBCkVB2uaARm} Triangulating face boundaries for face
 #381310=IfcFace((#381309))
-[Warning] [2022-10-07 09:43:40] {2y7S$CXyT1DRAHPrckxu7F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2y7S$CXyT1DRAHPrckxu7F} Triangulating face boundaries for face
 #399005=IfcFace((#399004))
-[Warning] [2022-10-07 09:43:40] {38WNoiHDr8$Pci7QltamW4} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {38WNoiHDr8$Pci7QltamW4} Triangulating face boundaries for face
 #400722=IfcFace((#400710,#400721))
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0I$ApwjMb2WhHUnG9PohvA} Processed fully in 2D
-[Warning] [2022-10-07 09:43:40] {02OffYjAT1s8Msmi40pyAF} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0I$ApwjMb2WhHUnG9PohvA} Processed fully in 2D
+[Warning] [2023-01-31 18:48:14] {02OffYjAT1s8Msmi40pyAF} Triangulating face boundaries for face
 #403411=IfcFace((#403410))
-[Warning] [2022-10-07 09:43:40] {0AqLcmunn6fPgUIaWYqjrt} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0AqLcmunn6fPgUIaWYqjrt} Triangulating face boundaries for face
 #403652=IfcFace((#403651))
-[Warning] [2022-10-07 09:43:40] {0AqLcmunn6fPgUIaWYqjrt} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0AqLcmunn6fPgUIaWYqjrt} Triangulating face boundaries for face
 #403680=IfcFace((#403679))
-[Warning] [2022-10-07 09:43:40] {2qSHpPW053XAbTKEASJkQt} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2qSHpPW053XAbTKEASJkQt} Triangulating face boundaries for face
 #403832=IfcFace((#403831))
-[Warning] [2022-10-07 09:43:40] {2qSHpPW053XAbTKEASJkQt} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2qSHpPW053XAbTKEASJkQt} Triangulating face boundaries for face
 #403860=IfcFace((#403859))
-[Warning] [2022-10-07 09:43:40] {1Gz$aNhiX46uZ2kIHS6A4$} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1Gz$aNhiX46uZ2kIHS6A4$} Triangulating face boundaries for face
 #404037=IfcFace((#404036))
-[Warning] [2022-10-07 09:43:40] {1Gz$aNhiX46uZ2kIHS6A4$} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1Gz$aNhiX46uZ2kIHS6A4$} Triangulating face boundaries for face
 #404049=IfcFace((#404048))
-[Warning] [2022-10-07 09:43:40] {3v71gVY7HBtAb2tWYXdOg3} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3v71gVY7HBtAb2tWYXdOg3} Triangulating face boundaries for face
 #404210=IfcFace((#404209))
-[Warning] [2022-10-07 09:43:40] {3v71gVY7HBtAb2tWYXdOg3} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3v71gVY7HBtAb2tWYXdOg3} Triangulating face boundaries for face
 #404248=IfcFace((#404247))
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1a3Bw$Plv1NBGNlNfFUZO_} Processed fully in 2D
-[Warning] [2022-10-07 09:43:40] {2fHkuDHjr38vJAKjFDaE3T} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {1a3Bw$Plv1NBGNlNfFUZO_} Processed fully in 2D
+[Warning] [2023-01-31 18:48:14] {2fHkuDHjr38vJAKjFDaE3T} Triangulating face boundaries for face
 #408604=IfcFace((#408603))
-[Warning] [2022-10-07 09:43:40] {0B6H$8Szr3t9w$7S$WA_aT} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {0B6H$8Szr3t9w$7S$WA_aT} Triangulating face boundaries for face
 #408892=IfcFace((#408891))
-[Warning] [2022-10-07 09:43:40] {2MNoLmdST0gB1k1ha8dRRH} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2MNoLmdST0gB1k1ha8dRRH} Triangulating face boundaries for face
 #409132=IfcFace((#409131))
-[Warning] [2022-10-07 09:43:40] {2MNoLmdST0gB1k1ha8dRRH} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {2MNoLmdST0gB1k1ha8dRRH} Triangulating face boundaries for face
 #409160=IfcFace((#409159))
-[Warning] [2022-10-07 09:43:40] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
 #381286=IfcFace((#381285))
-[Warning] [2022-10-07 09:43:40] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
 #381293=IfcFace((#381292))
-[Warning] [2022-10-07 09:43:40] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1lhtG8WpH9TgyVAK7hmr$C} Triangulating face boundaries for face
 #381310=IfcFace((#381309))
-[Warning] [2022-10-07 09:43:40] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
 #409559=IfcFace((#409558))
-[Warning] [2022-10-07 09:43:40] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
 #409595=IfcFace((#409594))
-[Warning] [2022-10-07 09:43:40] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {1Z3u2xHoj4xuak$BDRjbYn} Triangulating face boundaries for face
 #409609=IfcFace((#409608))
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0P9P2MTnDFWgpzAECWRMfc} Processed fully in 2D
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {3V$ApEXsL4kuuKln_RMzx7} Processed fully in 2D
-[Warning] [2022-10-07 09:43:40] {0GkhpndB96r98q9Zpfg0ks} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0P9P2MTnDFWgpzAECWRMfc} Processed fully in 2D
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {3V$ApEXsL4kuuKln_RMzx7} Processed fully in 2D
+[Warning] [2023-01-31 18:48:14] {0GkhpndB96r98q9Zpfg0ks} Triangulating face boundaries for face
 #414122=IfcFace((#414121))
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {0d193_IC94VBo0OC8YxmOX} Processed fully in 2D
-[Warning] [2022-10-07 09:43:40] {0hxjm9AAf15upUBjgwA0Rn} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {0d193_IC94VBo0OC8YxmOX} Processed fully in 2D
+[Warning] [2023-01-31 18:48:14] {0hxjm9AAf15upUBjgwA0Rn} Triangulating face boundaries for face
 #417709=IfcFace((#417708))
-[Warning] [2022-10-07 09:43:40] {3HXFH_8Kf3ixZJgb7yuoAq} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:14] {3HXFH_8Kf3ixZJgb7yuoAq} Triangulating face boundaries for face
 #421074=IfcFace((#421073))
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {2T7$dTI398mR34m8VeIw4m} Processed fully in 2D
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {1X9_auq7fAKPab7CpdR8v7} Processed fully in 2D
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {2X9Gop0bn3_x38P_1PGdAJ} Processed fully in 2D
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Intersecting boundaries
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:40] {23NrJ1a$r1DOY9eePDI0DJ} Processed fully in 2D
-[Warning] [2022-10-07 09:43:41] {1oqNG_QbD67uryAYo4g_TG} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
-[Warning] [2022-10-07 09:43:41] {3YDoxP1AL2yOJ5bNO5Jiuq} No material and surface styles for:
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {2T7$dTI398mR34m8VeIw4m} Processed fully in 2D
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {1X9_auq7fAKPab7CpdR8v7} Processed fully in 2D
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {2X9Gop0bn3_x38P_1PGdAJ} Processed fully in 2D
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Intersecting boundaries
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:14] {23NrJ1a$r1DOY9eePDI0DJ} Processed fully in 2D
+[Warning] [2023-01-31 18:48:15] {1oqNG_QbD67uryAYo4g_TG} 0 duplicate faces removed, 0 degenerate loops eliminated and 8 non-manifold edges
+[Warning] [2023-01-31 18:48:15] {3YDoxP1AL2yOJ5bNO5Jiuq} No material and surface styles for:
 #456159=IfcWallStandardCase('3YDoxP1AL2yOJ5bNO5Jiuq',#25,'zijwang dakk',$,$,#456115,#456154,'E2372ED9-04A5-42F1-84C5-9576054ECE34')
-[Warning] [2022-10-07 09:43:41] {2j63fN3Y59zRTHstj46MKH} No material and surface styles for:
+[Warning] [2023-01-31 18:48:15] {2j63fN3Y59zRTHstj46MKH} No material and surface styles for:
 #456343=IfcWallStandardCase('2j63fN3Y59zRTHstj46MKH',#25,'zijwang dakk',$,$,#456299,#456338,'AD183A57-0E21-49F5-B751-DB7B44196511')
-[Warning] [2022-10-07 09:43:41] {0n3286K797DvQM_Fi5RIsM} No material and surface styles for:
+[Warning] [2023-01-31 18:48:15] {0n3286K797DvQM_Fi5RIsM} No material and surface styles for:
 #457999=IfcWallStandardCase('0n3286K797DvQM_Fi5RIsM',#25,'zijwang dakk',$,$,#457955,#457994,'310C2206-5072-4737-9696-F8FB056D2D96')
-[Warning] [2022-10-07 09:43:41] {2_aOxJ0vb20v1d5h5564dh} No material and surface styles for:
+[Warning] [2023-01-31 18:48:15] {2_aOxJ0vb20v1d5h5564dh} No material and surface styles for:
 #460179=IfcWallStandardCase('2_aOxJ0vb20v1d5h5564dh',#25,'zijwang dakk',$,$,#460135,#460174,'BE918ED3-0399-4203-9067-16B1451849EB')
-[Warning] [2022-10-07 09:43:41] {3gnRbbc8f6xQGyDQ_NG2tX} No material and surface styles for:
+[Warning] [2023-01-31 18:48:15] {3gnRbbc8f6xQGyDQ_NG2tX} No material and surface styles for:
 #463624=IfcWallStandardCase('3gnRbbc8f6xQGyDQ_NG2tX',#25,'zijwang dakk',$,$,#463580,#463619,'EAC5B965-988A-46ED-A43C-35AF97402DE1')
-[Warning] [2022-10-07 09:43:41] {2jJ$Htazn4wuzmZrbCCkR9} No material and surface styles for:
+[Warning] [2023-01-31 18:48:15] {2jJ$Htazn4wuzmZrbCCkR9} No material and surface styles for:
 #472665=IfcCovering('2jJ$Htazn4wuzmZrbCCkR9',#25,'gipsplafond',$,$,#472625,#472661,'AD4FF477-93DC-44EB-8F70-8F594C32E6C9',$)
-[Notice] [2022-10-07 09:43:41] {2jJ$Htazn4wuzmZrbCCkR9} Used fuzziness: 0.000000
-[Warning] [2022-10-07 09:43:41] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:15] {2jJ$Htazn4wuzmZrbCCkR9} Used fuzziness: 0.000000
+[Warning] [2023-01-31 18:48:15] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
 #494528=IfcFace((#494527))
-[Warning] [2022-10-07 09:43:41] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:15] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
 #494626=IfcFace((#494625))
-[Warning] [2022-10-07 09:43:41] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:15] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
 #494635=IfcFace((#494634))
-[Warning] [2022-10-07 09:43:41] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:15] {1fdeSVh5D5i8W2EHiVl1zX} Triangulating face boundaries for face
 #494757=IfcFace((#494756))
-[Warning] [2022-10-07 09:43:42] {35N2HpIELEtPD3xssMGgew} No material and surface styles for:
+[Warning] [2023-01-31 18:48:16] {35N2HpIELEtPD3xssMGgew} No material and surface styles for:
 #522019=IfcSlab('35N2HpIELEtPD3xssMGgew',#25,'dekvloer',$,$,#521985,#522015,'C55C2473-48E5-4EDD-9343-EF6D9642AA3A',.FLOOR.)
-[Warning] [2022-10-07 09:43:42] {19cnP4Bm90V9KyCekAFXxu} No material and surface styles for:
+[Warning] [2023-01-31 18:48:16] {19cnP4Bm90V9KyCekAFXxu} No material and surface styles for:
 #522369=IfcSlab('19cnP4Bm90V9KyCekAFXxu',#25,'dekvloer',$,$,#522335,#522365,'499B1644-2F02-407C-953C-328B8A3E1EF8',.FLOOR.)
-[Warning] [2022-10-07 09:43:42] {3qewII9V1EEubSogUzOIBY} No material and surface styles for:
+[Warning] [2023-01-31 18:48:16] {3qewII9V1EEubSogUzOIBY} No material and surface styles for:
 #522690=IfcSlab('3qewII9V1EEubSogUzOIBY',#25,'dekvloer',$,$,#522652,#522686,'F4A3A492-25F0-4E3B-895C-CAA7BD6122E2',.FLOOR.)
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Intersecting boundaries
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {1J9G$AMj5D8ePpFewsM_ee} Processed fully in 2D
-[Warning] [2022-10-07 09:43:43] {3ycHvSZkr4dQo86guV5eIK} No material and surface styles for:
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Intersecting boundaries
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:17] {1J9G$AMj5D8ePpFewsM_ee} Processed fully in 2D
+[Warning] [2023-01-31 18:48:17] {3ycHvSZkr4dQo86guV5eIK} No material and surface styles for:
 #545306=IfcSlab('3ycHvSZkr4dQo86guV5eIK',#25,'dekvloer',$,$,#545272,#545302,'FC991E5C-8EED-449D-AC88-1AAE1F168494',.FLOOR.)
-[Warning] [2022-10-07 09:43:43] {22n$AYXlT6Du$WGeK8$9Iq} No material and surface styles for:
+[Warning] [2023-01-31 18:48:17] {22n$AYXlT6Du$WGeK8$9Iq} No material and surface styles for:
 #546067=IfcSlab('22n$AYXlT6Du$WGeK8$9Iq',#25,'dekvloer',$,$,#546033,#546063,'82C7F2A2-86F7-4637-8FE0-428508FC94B4',.FLOOR.)
-[Warning] [2022-10-07 09:43:43] {3z$jhdTIz3KQIVA03ccSlX} No material and surface styles for:
+[Warning] [2023-01-31 18:48:17] {3z$jhdTIz3KQIVA03ccSlX} No material and surface styles for:
 #546206=IfcSlab('3z$jhdTIz3KQIVA03ccSlX',#25,'dekvloer',$,$,#546172,#546202,'FDFEDAE7-752F-4351-A49F-2800E699CBE1',.FLOOR.)
-[Warning] [2022-10-07 09:43:43] {1TMPN6ORz3V97VjLq_yYT$} No material and surface styles for:
+[Warning] [2023-01-31 18:48:17] {1TMPN6ORz3V97VjLq_yYT$} No material and surface styles for:
 #556346=IfcSlab('1TMPN6ORz3V97VjLq_yYT$',#25,'dekvloer',$,$,#556308,#556342,'5D5995C6-61BF-437C-91DF-B55D3EF2277F',.FLOOR.)
-[Warning] [2022-10-07 09:43:43] {1UW7PE1gDERBLJr$nLgoec} No material and surface styles for:
+[Warning] [2023-01-31 18:48:17] {1UW7PE1gDERBLJr$nLgoec} No material and surface styles for:
 #557102=IfcSlab('1UW7PE1gDERBLJr$nLgoec',#25,'dekvloer',$,$,#557068,#557098,'5E80764E-06A3-4E6C-B553-D7FC55AB2A26',.FLOOR.)
-[Warning] [2022-10-07 09:43:43] {2WXOgWSjzCfR4IRJ_Z1gjK} No material and surface styles for:
+[Warning] [2023-01-31 18:48:17] {2WXOgWSjzCfR4IRJ_Z1gjK} No material and surface styles for:
 #557241=IfcSlab('2WXOgWSjzCfR4IRJ_Z1gjK',#25,'dekvloer',$,$,#557207,#557237,'A0858AA0-72DF-4CA5-B112-6D3FA306AB54',.FLOOR.)
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Intersecting boundaries
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {32BRu80e95IgL7sHEAaW4K} Processed fully in 2D
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Intersecting boundaries
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:43] {3xum028un7c91eysAw7ToR} Processed fully in 2D
-[Warning] [2022-10-07 09:43:44] {0K6QmOqO9ATe9WGMwhBHoC} No material and surface styles for:
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Intersecting boundaries
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:17] {32BRu80e95IgL7sHEAaW4K} Processed fully in 2D
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Intersecting boundaries
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:18] {3xum028un7c91eysAw7ToR} Processed fully in 2D
+[Warning] [2023-01-31 18:48:18] {0K6QmOqO9ATe9WGMwhBHoC} No material and surface styles for:
 #564110=IfcSlab('0K6QmOqO9ATe9WGMwhBHoC',#25,'dekvloer',$,$,#564044,#564106,'1419AC18-D182-4A76-8260-416EAB2D1C8C',.FLOOR.)
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Intersecting boundaries
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:44] {09Jnrvfpz0LhOau2puveUM} Processed fully in 2D
-[Notice] [2022-10-07 09:43:44] {3kQNZLqVfDcRRvBkM1IMS9} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Intersecting boundaries
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:44] {1qSuEDSd1E8ftzFK1HXdBc} Processed fully in 2D
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Intersecting boundaries
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {3JaHyppKTBGBnjCpoJt74v} Processed fully in 2D
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Intersecting boundaries
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {2r4e5jHWfDKhLK$Is1u15D} Processed fully in 2D
-[Warning] [2022-10-07 09:43:45] {13ZP4hqC56suYaFpsrqzdl} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Intersecting boundaries
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:18] {09Jnrvfpz0LhOau2puveUM} Processed fully in 2D
+[Notice] [2023-01-31 18:48:18] {3kQNZLqVfDcRRvBkM1IMS9} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Intersecting boundaries
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {1qSuEDSd1E8ftzFK1HXdBc} Processed fully in 2D
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Intersecting boundaries
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {3JaHyppKTBGBnjCpoJt74v} Processed fully in 2D
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Intersecting boundaries
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {2r4e5jHWfDKhLK$Is1u15D} Processed fully in 2D
+[Warning] [2023-01-31 18:48:19] {13ZP4hqC56suYaFpsrqzdl} Triangulating face boundaries for face
 #653778=IfcFace((#653777))
-[Warning] [2022-10-07 09:43:45] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
 #664819=IfcFace((#664818))
-[Warning] [2022-10-07 09:43:45] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
 #664929=IfcFace((#664928))
-[Warning] [2022-10-07 09:43:45] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {2idEjti6zFIgYm2tBrhV$n} Triangulating face boundaries for face
 #664964=IfcFace((#664963))
-[Warning] [2022-10-07 09:43:45] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
 #665257=IfcFace((#665256))
-[Warning] [2022-10-07 09:43:45] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
 #665327=IfcFace((#665326))
-[Warning] [2022-10-07 09:43:45] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {3c4E9lSYPEtPr3zsOvj9Jv} Triangulating face boundaries for face
 #665359=IfcFace((#665358))
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Intersecting boundaries
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:45] {0FdLbmS_r6Ch8VPitxry03} Processed fully in 2D
-[Warning] [2022-10-07 09:43:45] {3YaphMQD12wxpovAu7Z8Pn} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Intersecting boundaries
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:19] {0FdLbmS_r6Ch8VPitxry03} Processed fully in 2D
+[Warning] [2023-01-31 18:48:19] {3YaphMQD12wxpovAu7Z8Pn} Triangulating face boundaries for face
 #677621=IfcFace((#677620))
-[Warning] [2022-10-07 09:43:45] {2w6Dec7xf2lPgmSw6K6QTY} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:19] {2w6Dec7xf2lPgmSw6K6QTY} Triangulating face boundaries for face
 #691028=IfcFace((#691027))
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Intersecting boundaries
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:46] {32cOaJbaP9VOemKr9dYXtJ} Processed fully in 2D
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Intersecting boundaries
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:46] {1HTzx6dK99rxYirl5arG$b} Processed fully in 2D
-[Warning] [2022-10-07 09:43:46] {2JUSlrYQr1YwP3ayxXu$lj} No material and surface styles for:
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Intersecting boundaries
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:20] {32cOaJbaP9VOemKr9dYXtJ} Processed fully in 2D
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Intersecting boundaries
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:20] {1HTzx6dK99rxYirl5arG$b} Processed fully in 2D
+[Warning] [2023-01-31 18:48:21] {2JUSlrYQr1YwP3ayxXu$lj} No material and surface styles for:
 #744726=IfcSlab('2JUSlrYQr1YwP3ayxXu$lj',#25,'dekvloer',$,$,#744692,#744722,'9379CBF5-89AD-418B-A643-93CEE1E3FBED',.FLOOR.)
-[Warning] [2022-10-07 09:43:46] {0IjlUMbxXBUhcjfKxT2apw} No material and surface styles for:
+[Warning] [2023-01-31 18:48:21] {0IjlUMbxXBUhcjfKxT2apw} No material and surface styles for:
 #745042=IfcSlab('0IjlUMbxXBUhcjfKxT2apw',#25,'dekvloer',$,$,#745008,#745038,'12B6F796-97B8-4B7A-B9AD-A54EDD0A4CFA',.FLOOR.)
-[Warning] [2022-10-07 09:43:46] {2_qWdodb95chXxayrOIlDh} No material and surface styles for:
+[Warning] [2023-01-31 18:48:21] {2_qWdodb95chXxayrOIlDh} No material and surface styles for:
 #745362=IfcSlab('2_qWdodb95chXxayrOIlDh',#25,'dekvloer',$,$,#745324,#745358,'BED209F2-9E52-459A-B87B-93CD584AF36B',.FLOOR.)
-[Warning] [2022-10-07 09:43:47] {3Ri_Iqblr1TOWWvS199ANc} No material and surface styles for:
+[Warning] [2023-01-31 18:48:21] {3Ri_Iqblr1TOWWvS199ANc} No material and surface styles for:
 #751882=IfcSlab('3Ri_Iqblr1TOWWvS199ANc',#25,'dekvloer',$,$,#751848,#751878,'DBB3E4B4-96FD-4175-8820-E5C04924A5E6',.FLOOR.)
-[Warning] [2022-10-07 09:43:47] {36cEtcIur7XxueyFJ22C$U} No material and surface styles for:
+[Warning] [2023-01-31 18:48:21] {36cEtcIur7XxueyFJ22C$U} No material and surface styles for:
 #752643=IfcSlab('36cEtcIur7XxueyFJ22C$U',#25,'dekvloer',$,$,#752609,#752639,'C698EDE6-4B8D-4787-BE28-F0F4C208CFDE',.FLOOR.)
-[Warning] [2022-10-07 09:43:47] {3LCPmQCcP9UfP49BhFjY_v} No material and surface styles for:
+[Warning] [2023-01-31 18:48:21] {3LCPmQCcP9UfP49BhFjY_v} No material and surface styles for:
 #752782=IfcSlab('3LCPmQCcP9UfP49BhFjY_v',#25,'dekvloer',$,$,#752748,#752778,'D5319C1A-3266-497A-9644-24BACFB62FB9',.FLOOR.)
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Intersecting boundaries
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {1tkaVzyOLEHRrk3ZXytZyO} Processed fully in 2D
-[Warning] [2022-10-07 09:43:47] {2bOVZypgn3veu4GI9jl2pr} No material and surface styles for:
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Intersecting boundaries
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:21] {1tkaVzyOLEHRrk3ZXytZyO} Processed fully in 2D
+[Warning] [2023-01-31 18:48:22] {2bOVZypgn3veu4GI9jl2pr} No material and surface styles for:
 #756139=IfcSlab('2bOVZypgn3veu4GI9jl2pr',#25,'dekvloer',$,$,#756081,#756135,'A561F8FC-CEAC-43E6-8E04-41226DBC2CF5',.FLOOR.)
-[Notice] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:47] {3flVVUsffAPeRW4B67OHos} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:22] {3flVVUsffAPeRW4B67OHos} Subtraction yields unchanged volume:
 #757600=IfcBooleanClippingResult(.DIFFERENCE.,#757590,#757599)
-[Notice] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} No second operands can be processed as 2D inner bounds. Retrying in 3D.
-[Warning] [2022-10-07 09:43:47] {33u1o6Tw93B803FsLjs6QE} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Warning] [2023-01-31 18:48:22] {33u1o6Tw93B803FsLjs6QE} Subtraction yields unchanged volume:
 #757729=IfcBooleanClippingResult(.DIFFERENCE.,#757719,#757728)
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Intersecting boundaries
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:47] {1ZbRQwjUz9DQ98KhTax8G9} Processed fully in 2D
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Self-intersections with 2 cycles detected
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Self-intersections with 2 cycles detected
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Intersecting boundaries
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {1ZbRQwjUz9DQ98KhTax8G9} Processed fully in 2D
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Self-intersections with 2 cycles detected
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Self-intersections with 2 cycles detected
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
 #768295=IfcFace((#768294))
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
 #768361=IfcFace((#768360))
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
 #768417=IfcFace((#768416))
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
 #768448=IfcFace((#768447))
-[Warning] [2022-10-07 09:43:48] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {0e582X10f8qQO1eTOH2xCn} Triangulating face boundaries for face
 #768458=IfcFace((#768457))
-[Warning] [2022-10-07 09:43:48] {32vgQ0GJf0z9oImXA6ATmb} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {32vgQ0GJf0z9oImXA6ATmb} Triangulating face boundaries for face
 #777622=IfcFace((#777621))
-[Warning] [2022-10-07 09:43:48] {32vgQ0GJf0z9oImXA6ATmb} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:22] {32vgQ0GJf0z9oImXA6ATmb} Triangulating face boundaries for face
 #777632=IfcFace((#777631))
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Intersecting boundaries
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:48] {3lUaefqT14jRJXPO$2osRB} Processed fully in 2D
-[Notice] [2022-10-07 09:43:48] {3C2fvEKUr00BlwuG1or05l} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B 1/5 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B 2/5 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B 3/5 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B 4/5 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B 5/5 is an extrusion
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Intersecting boundaries
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:48] {0uG931DjD31hhRwgBkGmit} Processed fully in 2D
-[Warning] [2022-10-07 09:43:48] {2vGfAAaCDC$u2rePIbFqLy} No material and surface styles for:
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Intersecting boundaries
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {3lUaefqT14jRJXPO$2osRB} Processed fully in 2D
+[Notice] [2023-01-31 18:48:22] {3C2fvEKUr00BlwuG1or05l} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B 1/5 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B 2/5 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B 3/5 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B 4/5 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B 5/5 is an extrusion
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Intersecting boundaries
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:22] {0uG931DjD31hhRwgBkGmit} Processed fully in 2D
+[Warning] [2023-01-31 18:48:23] {2vGfAAaCDC$u2rePIbFqLy} No material and surface styles for:
 #809504=IfcSlab('2vGfAAaCDC$u2rePIbFqLy',#25,'sporenkap',$,$,#809470,#809500,'B942928A-90C3-4CFF-80B5-A194A53F457C',.ROOF.)
-[Warning] [2022-10-07 09:43:49] {2Ols16Ffn0OfFILBBVBCq0} Halfspace subtraction yields unchanged volume:
+[Warning] [2023-01-31 18:48:23] {2Ols16Ffn0OfFILBBVBCq0} Halfspace subtraction yields unchanged volume:
 #818867=IfcBooleanClippingResult(.DIFFERENCE.,#818857,#818866)
-[Notice] [2022-10-07 09:43:49] {2Ols16Ffn0OfFILBBVBCq0} Eliminated 1 touching operands
-[Warning] [2022-10-07 09:43:49] {2Ols16Ffn0OfFILBBVBCq0} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:23] {2Ols16Ffn0OfFILBBVBCq0} Eliminated 1 touching operands
+[Warning] [2023-01-31 18:48:23] {2Ols16Ffn0OfFILBBVBCq0} Subtraction yields unchanged volume:
 #818867=IfcBooleanClippingResult(.DIFFERENCE.,#818857,#818866)
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Intersecting boundaries
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {03x61TFn1FxQHXFUNuParm} Processed fully in 2D
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Intersecting boundaries
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {0ZN2GJozT4VxCVh_WHtQyq} Processed fully in 2D
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Intersecting boundaries
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {0SzdhD7kXE$9LKStg07UwP} Processed fully in 2D
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Intersecting boundaries
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:49] {1xkmYzLHD1VPKdNI8y8Me1} Processed fully in 2D
-[Warning] [2022-10-07 09:43:49] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Intersecting boundaries
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {03x61TFn1FxQHXFUNuParm} Processed fully in 2D
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Intersecting boundaries
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {0ZN2GJozT4VxCVh_WHtQyq} Processed fully in 2D
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Intersecting boundaries
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {0SzdhD7kXE$9LKStg07UwP} Processed fully in 2D
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Intersecting boundaries
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:23] {1xkmYzLHD1VPKdNI8y8Me1} Processed fully in 2D
+[Warning] [2023-01-31 18:48:23] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
 #849665=IfcFace((#849653,#849664))
-[Warning] [2022-10-07 09:43:49] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:23] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
 #849737=IfcFace((#849736))
-[Warning] [2022-10-07 09:43:49] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:23] {3giNVs41rBVvDbNPTLQa0z} Triangulating face boundaries for face
 #849747=IfcFace((#849746))
-[Warning] [2022-10-07 09:43:49] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:23] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
 #849925=IfcFace((#849913,#849924))
-[Warning] [2022-10-07 09:43:49] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:23] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
 #850060=IfcFace((#850059))
-[Warning] [2022-10-07 09:43:49] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:23] {2co_J38$rAPgF0BMkaxIMo} Triangulating face boundaries for face
 #850105=IfcFace((#850104))
-[Warning] [2022-10-07 09:43:49] {2ri1rsgxHE2uQ86INwq8Bk} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {2ri1rsgxHE2uQ86INwq8Bk} Triangulating face boundaries for face
 #777622=IfcFace((#777621))
-[Warning] [2022-10-07 09:43:49] {2ri1rsgxHE2uQ86INwq8Bk} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {2ri1rsgxHE2uQ86INwq8Bk} Triangulating face boundaries for face
 #777632=IfcFace((#777631))
-[Warning] [2022-10-07 09:43:49] {1HB2RkFMD9UQq5pmmS3kII} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {1HB2RkFMD9UQq5pmmS3kII} Triangulating face boundaries for face
 #863660=IfcFace((#863659))
-[Warning] [2022-10-07 09:43:49] {1HB2RkFMD9UQq5pmmS3kII} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {1HB2RkFMD9UQq5pmmS3kII} Triangulating face boundaries for face
 #863669=IfcFace((#863668))
-[Warning] [2022-10-07 09:43:49] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
 #381286=IfcFace((#381285))
-[Warning] [2022-10-07 09:43:49] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
 #381293=IfcFace((#381292))
-[Warning] [2022-10-07 09:43:49] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {3o22TI0vbCtvrgrNz6E9A5} Triangulating face boundaries for face
 #381310=IfcFace((#381309))
-[Warning] [2022-10-07 09:43:49] {3BHb_mQO9DKg80Cz6u_Kts} Halfspace subtraction yields unchanged volume:
+[Warning] [2023-01-31 18:48:24] {3BHb_mQO9DKg80Cz6u_Kts} Halfspace subtraction yields unchanged volume:
 #868788=IfcBooleanClippingResult(.DIFFERENCE.,#868778,#868787)
-[Notice] [2022-10-07 09:43:49] {3BHb_mQO9DKg80Cz6u_Kts} Eliminated 1 touching operands
-[Warning] [2022-10-07 09:43:49] {3BHb_mQO9DKg80Cz6u_Kts} Subtraction yields unchanged volume:
+[Notice] [2023-01-31 18:48:24] {3BHb_mQO9DKg80Cz6u_Kts} Eliminated 1 touching operands
+[Warning] [2023-01-31 18:48:24] {3BHb_mQO9DKg80Cz6u_Kts} Subtraction yields unchanged volume:
 #868788=IfcBooleanClippingResult(.DIFFERENCE.,#868778,#868787)
-[Warning] [2022-10-07 09:43:49] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
 #871005=IfcFace((#871004))
-[Warning] [2022-10-07 09:43:49] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
 #871037=IfcFace((#871036))
-[Warning] [2022-10-07 09:43:49] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0p7yfDe0j4WvQUwDkYbs7$} Triangulating face boundaries for face
 #871044=IfcFace((#871043))
-[Warning] [2022-10-07 09:43:49] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
 #871005=IfcFace((#871004))
-[Warning] [2022-10-07 09:43:49] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
 #871037=IfcFace((#871036))
-[Warning] [2022-10-07 09:43:49] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:24] {0A0p_wBZfCQhts_HNwn5bh} Triangulating face boundaries for face
 #871044=IfcFace((#871043))
-[Warning] [2022-10-07 09:43:49] {3AuBloy8rB2eQ0HbTV6Kmm} 1 duplicate faces removed, 0 degenerate loops eliminated and 6 non-manifold edges
-[Warning] [2022-10-07 09:43:49] {3AuBloy8rB2eQ0HbTV6Kmm} Self-intersections with 2 cycles detected
-[Warning] [2022-10-07 09:43:49] {3AuBloy8rB2eQ0HbTV6Kmm} Face boundary loop not included
+[Warning] [2023-01-31 18:48:24] {3AuBloy8rB2eQ0HbTV6Kmm} 1 duplicate faces removed, 0 degenerate loops eliminated and 6 non-manifold edges
+[Warning] [2023-01-31 18:48:24] {3AuBloy8rB2eQ0HbTV6Kmm} Self-intersections with 2 cycles detected
+[Warning] [2023-01-31 18:48:24] {3AuBloy8rB2eQ0HbTV6Kmm} Face boundary loop not included
 #874017=IfcPolyLoop((#873968,#874000,#873998,#873991,#873966))
-[Warning] [2022-10-07 09:43:49] {3AuBloy8rB2eQ0HbTV6Kmm} Face with no boundaries
+[Warning] [2023-01-31 18:48:24] {3AuBloy8rB2eQ0HbTV6Kmm} Face with no boundaries
 #874020=IfcFace((#874019))
-[Warning] [2022-10-07 09:43:49] {3AuBloy8rB2eQ0HbTV6Kmm} Failed to convert face:
+[Warning] [2023-01-31 18:48:24] {3AuBloy8rB2eQ0HbTV6Kmm} Failed to convert face:
 #874020=IfcFace((#874019))
-[Error] [2022-10-07 09:43:49] Triangulation missing for face
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Intersecting boundaries
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {3CRwhrtRn1UvX9iQV_OTuz} Processed fully in 2D
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Intersecting boundaries
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {1V2qCAZ9rAp8VsEGyWln2v} Processed fully in 2D
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Intersecting boundaries
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {3u3z2zFojEchllTko9vkJ5} Processed fully in 2D
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Intersecting boundaries
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:50] {0yZXVK6wf1RuZHbCnDbIWu} Processed fully in 2D
-[Warning] [2022-10-07 09:43:50] {1AdGVsRPb4RRWb4qvI7uRy} No material and surface styles for:
+[Error] [2023-01-31 18:48:24] Triangulation missing for face
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Intersecting boundaries
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {3CRwhrtRn1UvX9iQV_OTuz} Processed fully in 2D
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Intersecting boundaries
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {1V2qCAZ9rAp8VsEGyWln2v} Processed fully in 2D
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Intersecting boundaries
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {3u3z2zFojEchllTko9vkJ5} Processed fully in 2D
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Intersecting boundaries
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:24] {0yZXVK6wf1RuZHbCnDbIWu} Processed fully in 2D
+[Warning] [2023-01-31 18:48:24] {1AdGVsRPb4RRWb4qvI7uRy} No material and surface styles for:
 #885715=IfcSlab('1AdGVsRPb4RRWb4qvI7uRy',#25,'dekvloer',$,$,#885681,#885711,'4A9D07F6-6D99-446D-B825-134E521F86FC',.FLOOR.)
-[Warning] [2022-10-07 09:43:50] {0K9UoAj6n9HvS0pMeXdVOy} No material and surface styles for:
+[Warning] [2023-01-31 18:48:24] {0K9UoAj6n9HvS0pMeXdVOy} No material and surface styles for:
 #886433=IfcSlab('0K9UoAj6n9HvS0pMeXdVOy',#25,'dekvloer',$,$,#886395,#886429,'1425EC8A-B46C-4947-9700-CD6A219DF63C',.FLOOR.)
-[Warning] [2022-10-07 09:43:50] {2$_Kkal4jC8BFBilJN8I3K} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {2$_Kkal4jC8BFBilJN8I3K} Triangulating face boundaries for face
 #899098=IfcFace((#899097))
-[Warning] [2022-10-07 09:43:50] {3rLHaGT8f4ffCX220B$XUw} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {3rLHaGT8f4ffCX220B$XUw} Triangulating face boundaries for face
 #900796=IfcFace((#900795))
-[Warning] [2022-10-07 09:43:51] {0rH_wyN7P26e3gGvknLdfN} No material and surface styles for:
+[Warning] [2023-01-31 18:48:25] {0rH_wyN7P26e3gGvknLdfN} No material and surface styles for:
 #903668=IfcSlab('0rH_wyN7P26e3gGvknLdfN',#25,'dekvloer',$,$,#903634,#903664,'3547EEBC-5C76-421A-80EA-439BB1567A57',.FLOOR.)
-[Warning] [2022-10-07 09:43:51] {3nz7uS4R5DovP3jeKI_v93} No material and surface styles for:
+[Warning] [2023-01-31 18:48:25] {3nz7uS4R5DovP3jeKI_v93} No material and surface styles for:
 #904573=IfcSlab('3nz7uS4R5DovP3jeKI_v93',#25,'dekvloer',$,$,#904539,#904569,'F1F47E1C-11B1-4DCB-9643-B68512FB9243',.FLOOR.)
-[Warning] [2022-10-07 09:43:51] {25tyzjfSP76hJKtX0Kf9lQ} No material and surface styles for:
+[Warning] [2023-01-31 18:48:25] {25tyzjfSP76hJKtX0Kf9lQ} No material and surface styles for:
 #904712=IfcSlab('25tyzjfSP76hJKtX0Kf9lQ',#25,'dekvloer',$,$,#904678,#904708,'85DFCF6D-A5C6-471A-B4D4-DE1014A49BDA',.FLOOR.)
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #910710=IfcFace((#910709))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #911984=IfcFace((#911983))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #912014=IfcFace((#912013))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #912426=IfcFace((#912425))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #913041=IfcFace((#913040))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #913775=IfcFace((#913774))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #913792=IfcFace((#913791))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #913814=IfcFace((#913813))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #914829=IfcFace((#914828))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #922840=IfcFace((#922839))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #923148=IfcFace((#923147))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #923179=IfcFace((#923178))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #923186=IfcFace((#923185))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #923191=IfcFace((#923190))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #925559=IfcFace((#925558))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #925589=IfcFace((#925588))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #925648=IfcFace((#925647))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #925653=IfcFace((#925652))
-[Warning] [2022-10-07 09:43:51] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:25] {15m0CeBGfECerYsUDbEOge} Triangulating face boundaries for face
 #925665=IfcFace((#925664))
-[Warning] [2022-10-07 09:43:51] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #929077=IfcFace((#929076))
-[Warning] [2022-10-07 09:43:51] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #930416=IfcFace((#930415))
-[Warning] [2022-10-07 09:43:51] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #930448=IfcFace((#930447))
-[Warning] [2022-10-07 09:43:51] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #931222=IfcFace((#931221))
-[Warning] [2022-10-07 09:43:51] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #931596=IfcFace((#931595))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #932545=IfcFace((#932544))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #932550=IfcFace((#932549))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #932572=IfcFace((#932571))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #933381=IfcFace((#933380))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #941511=IfcFace((#941510))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #941703=IfcFace((#941702))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #941714=IfcFace((#941713))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #941774=IfcFace((#941773))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #941779=IfcFace((#941778))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #943915=IfcFace((#943914))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #943949=IfcFace((#943948))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #944161=IfcFace((#944160))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #944171=IfcFace((#944170))
-[Warning] [2022-10-07 09:43:52] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:26] {0qOSzz4qrCIO8I0BFBBwg9} Triangulating face boundaries for face
 #944176=IfcFace((#944175))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #951972=IfcFace((#951971))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #953246=IfcFace((#953245))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #953276=IfcFace((#953275))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #953688=IfcFace((#953687))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #954303=IfcFace((#954302))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #955037=IfcFace((#955036))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #955054=IfcFace((#955053))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #955076=IfcFace((#955075))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #956091=IfcFace((#956090))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #964084=IfcFace((#964083))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #964392=IfcFace((#964391))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #964423=IfcFace((#964422))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #964430=IfcFace((#964429))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #964435=IfcFace((#964434))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #966797=IfcFace((#966796))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #966827=IfcFace((#966826))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #966886=IfcFace((#966885))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #966891=IfcFace((#966890))
-[Warning] [2022-10-07 09:43:52] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:27] {11RySdoR58kP5miKc_WA6F} Triangulating face boundaries for face
 #966903=IfcFace((#966902))
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Intersecting boundaries
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:53] {3TK6FSuO9AVg4wHo$O3IN3} Processed fully in 2D
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Operand B creates a through hole
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Intersecting boundaries
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:43:53] {1hsZ5cIZbElRpA938d3ffl} Processed fully in 2D
-[Warning] [2022-10-07 09:43:53] {2rXlXcHhAzBlqGl0NV7Q3F} Triangulating face boundaries for face
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Intersecting boundaries
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:27] {3TK6FSuO9AVg4wHo$O3IN3} Processed fully in 2D
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Operand B creates a through hole
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Intersecting boundaries
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:48:27] {1hsZ5cIZbElRpA938d3ffl} Processed fully in 2D
+[Warning] [2023-01-31 18:48:28] {2rXlXcHhAzBlqGl0NV7Q3F} Triangulating face boundaries for face
 #992485=IfcFace((#992484))
-[Warning] [2022-10-07 09:43:53] {2SHvc$8U8cJSnQUCSt4zOj} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {2SHvc$8U8cJSnQUCSt4zOj} Triangulating face boundaries for face
 #996932=IfcFace((#996931))
-[Warning] [2022-10-07 09:43:53] {2$WAnIUvSuYSABwr$wMilZ} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {2$WAnIUvSuYSABwr$wMilZ} Triangulating face boundaries for face
 #997305=IfcFace((#997304))
-[Warning] [2022-10-07 09:43:53] {0piDoyjeO5MD6UbLVtaoqj} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0piDoyjeO5MD6UbLVtaoqj} Triangulating face boundaries for face
 #997406=IfcFace((#997405))
-[Warning] [2022-10-07 09:43:53] {2q5VX7kPjqCI_S8vB2W7Lw} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {2q5VX7kPjqCI_S8vB2W7Lw} Triangulating face boundaries for face
 #998459=IfcFace((#998458))
-[Warning] [2022-10-07 09:43:53] {2sqs_PC_DUNkfahjKhNrVn} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {2sqs_PC_DUNkfahjKhNrVn} Triangulating face boundaries for face
 #998588=IfcFace((#998587))
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Self-intersections with 2 cycles detected
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Self-intersections with 2 cycles detected
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Self-intersections with 2 cycles detected
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Self-intersections with 2 cycles detected
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
 #1009250=IfcFace((#1009249))
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
 #1009316=IfcFace((#1009315))
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
 #1009372=IfcFace((#1009371))
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
 #1009403=IfcFace((#1009402))
-[Warning] [2022-10-07 09:43:54] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {0_f7yvHAD4nwZoIARNjl1v} Triangulating face boundaries for face
 #1009413=IfcFace((#1009412))
-[Warning] [2022-10-07 09:43:54] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
 #871005=IfcFace((#871004))
-[Warning] [2022-10-07 09:43:54] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
 #871037=IfcFace((#871036))
-[Warning] [2022-10-07 09:43:54] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {3YMQjAo6T4sxpIeXuXsy3J} Triangulating face boundaries for face
 #871044=IfcFace((#871043))
-[Warning] [2022-10-07 09:43:54] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
 #871005=IfcFace((#871004))
-[Warning] [2022-10-07 09:43:54] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
 #871037=IfcFace((#871036))
-[Warning] [2022-10-07 09:43:54] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
+[Warning] [2023-01-31 18:48:28] {37NYNRiC58BPTi3UGx1Lg0} Triangulating face boundaries for face
 #871044=IfcFace((#871043))
 
 
-Conversion took 23 seconds
+Conversion took 24 seconds
 
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC2.3/Schependomlaan.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC2.3/Schependomlaan.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.xkt -l
-[convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 14790.33 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1684.78 kB
+[convert2xkt] XKT size: 1680.19 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 8.78
-[convert2xkt] Conversion time: 3.63 s
+[convert2xkt] Compression ratio: 8.80
+[convert2xkt] Conversion time: 3.89 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3504
@@ -1238,5 +1238,5 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 382038
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Schependomlaan/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.

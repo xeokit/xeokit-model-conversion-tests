@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
+# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
 #
 # Converting file: IfcOpenHouse4.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,82 +11,82 @@
 
 # IfcConvert
 
-~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/IfcOpenShell/IfcOpenHouse4.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/IfcOpenShell/IfcOpenHouse4.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (35 objects)                                
 
 Log:
-[Notice] [2022-10-07 09:37:54] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Deprecated usage of
+[Notice] [2023-01-31 18:42:11] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Intersecting boundaries
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3g46_woBL6sugXeY5_WP6n} Processed fully in 2D
-[Warning] [2022-10-07 09:37:54] {2W4bl$KK1Brv_UEOkAThqU} Deprecated usage of
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Intersecting boundaries
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Processed fully in 2D
+[Warning] [2023-01-31 18:42:11] {2W4bl$KK1Brv_UEOkAThqU} Deprecated usage of
 #97=IfcPresentationStyleAssignment((#96))
-[Warning] [2022-10-07 09:37:54] {2KoBar2pfAWBou8q$ldGHy} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {2KoBar2pfAWBou8q$ldGHy} Deprecated usage of
 #195=IfcPresentationStyleAssignment((#194))
-[Warning] [2022-10-07 09:37:54] {3xUPAVO39FGgNkCUQqf4JV} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {3xUPAVO39FGgNkCUQqf4JV} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/2 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B 2/2 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
-[Warning] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Deprecated usage of
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/2 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 2/2 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
+[Warning] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
-[Warning] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Deprecated usage of
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
+[Warning] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Operand A 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Operand B 1/1 is an extrusion
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Operand B creates a through hole
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Intersecting boundaries
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
-[Notice] [2022-10-07 09:37:54] {1hwEPyGUD1vwPpm508N9dQ} Processed fully in 2D
-[Warning] [2022-10-07 09:37:54] {3bqf5ZY_nDpfb1hfmOkxFk} Deprecated usage of
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand A 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand B 1/1 is an extrusion
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand B creates a through hole
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Intersecting boundaries
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
+[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Processed fully in 2D
+[Warning] [2023-01-31 18:42:11] {3bqf5ZY_nDpfb1hfmOkxFk} Deprecated usage of
 #2329=IfcPresentationStyleAssignment((#2328))
-[Warning] [2022-10-07 09:37:54] {2Ab2jpYsXCGu4_o2TnJmpB} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {2Ab2jpYsXCGu4_o2TnJmpB} Deprecated usage of
 #97=IfcPresentationStyleAssignment((#96))
-[Warning] [2022-10-07 09:37:54] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2022-10-07 09:37:54] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2022-10-07 09:37:54] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2022-10-07 09:37:54] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2022-10-07 09:37:54] {1DDgU0hLvBH8oWeOKX3GI2} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {1DDgU0hLvBH8oWeOKX3GI2} Deprecated usage of
 #2483=IfcPresentationStyleAssignment((#2482))
-[Warning] [2022-10-07 09:37:54] {2LgB4q_MXBK9HwUSNOlfaz} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {2LgB4q_MXBK9HwUSNOlfaz} Deprecated usage of
 #2483=IfcPresentationStyleAssignment((#2482))
-[Warning] [2022-10-07 09:37:54] {3wAl_gjCj9ZRWv12kmFW1U} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {3wAl_gjCj9ZRWv12kmFW1U} Deprecated usage of
 #2591=IfcPresentationStyleAssignment((#2590))
-[Warning] [2022-10-07 09:37:54] {0p8HXuwiD3yBz1RJLzKo7o} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0p8HXuwiD3yBz1RJLzKo7o} Deprecated usage of
 #2664=IfcPresentationStyleAssignment((#2663))
-[Warning] [2022-10-07 09:37:54] {23dVSDsxXCPhtqOSjMZ_H9} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {23dVSDsxXCPhtqOSjMZ_H9} Deprecated usage of
 #2737=IfcPresentationStyleAssignment((#2736))
-[Warning] [2022-10-07 09:37:54] {0JwnnKhZr3694nxJ1extNw} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {0JwnnKhZr3694nxJ1extNw} Deprecated usage of
 #2810=IfcPresentationStyleAssignment((#2809))
-[Warning] [2022-10-07 09:37:54] {3vhbFRmyXDouRftZl4AXgJ} Deprecated usage of
+[Warning] [2023-01-31 18:42:11] {3vhbFRmyXDouRftZl4AXgJ} Deprecated usage of
 #2883=IfcPresentationStyleAssignment((#2882))
 
 
@@ -95,26 +95,26 @@ Conversion took 0 seconds
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/IfcOpenShell/IfcOpenHouse4.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/IfcOpenShell/IfcOpenHouse4.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt -l
-[convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 79.31 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 13.37 kB
+[convert2xkt] XKT size: 13.32 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.93
-[convert2xkt] Conversion time: 0.11 s
+[convert2xkt] Compression ratio: 5.96
+[convert2xkt] Conversion time: 0.09 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 35
@@ -126,5 +126,5 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 2262
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.

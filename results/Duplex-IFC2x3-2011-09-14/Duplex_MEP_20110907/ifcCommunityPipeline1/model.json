@@ -1,0 +1,5854 @@
+{
+  "id": "0001",
+  "projectId": "0o8nNAbaT5OQLV8CAFemQP",
+  "author": "",
+  "createdAt": "2011-09-07T12:40:02",
+  "schema": "IFC2X3",
+  "creatingApplication": "20100326_1700",
+  "metaObjects": [
+    {
+      "id": "0o8nNAbaT5OQLV8CAFemQP",
+      "name": "0001",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "0o8nNAbaT5OQLV8CAFemQR",
+      "name": "Default",
+      "type": "IfcSite",
+      "parent": "0o8nNAbaT5OQLV8CAFemQP"
+    },
+    {
+      "id": "0o8nNAbaT5OQLV8CAFemQO",
+      "name": null,
+      "type": "IfcBuilding",
+      "parent": "0o8nNAbaT5OQLV8CAFemQR"
+    },
+    {
+      "id": "0o8nNAbaT5OQLV8C9mNFXU",
+      "name": "Level 1",
+      "type": "IfcBuildingStorey",
+      "parent": "0o8nNAbaT5OQLV8CAFemQO"
+    },
+    {
+      "id": "1h2HIdbwr3t8YhukuWVcPX",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:545367",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZtb",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:546380",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZto",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:546395",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZFn",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:546904",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2apNB0mXHB2QMfsfH8g5jg",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:546905",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZBY",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:547147",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZBa",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:547149",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2VQABYo2f7m9E2lWwAuu7N",
+      "name": "Pipe Types:Mechanical Pipe:547487",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3Lmaz4fj1EyB6By0_6$_I6",
+      "name": "Pipe Types:Mechanical Pipe:547595",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZ2A",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:547619",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0OVAices54qgFqzKdfsr1m",
+      "name": "Pipe Types:Mechanical Pipe:547742",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3e3_LUMhD4tuhgJZ$uIqSY",
+      "name": "Pipe Types:Mechanical Pipe:547802",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2fzO2h2Az5APKSrvbBj6nY",
+      "name": "Pipe Types:Mechanical Pipe:547856",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1Gc_MGv3PDAxYH_yXet1yo",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:547884",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2_K0IZMGf3t8zmcf79YX$H",
+      "name": "Pipe Types:Mechanical Pipe:547956",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1Ahmk4zEPCaB60aroK8iVk",
+      "name": "Pipe Types:Mechanical Pipe:548047",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZTH",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:548088",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZQp",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:548122",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZQ4",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:548141",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2N0HEBexr8OuOYHpRXqZQP",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:548144",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4vj",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:549959",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1MUPdIIA92WuICsfPH36qO",
+      "name": "Pipe Types:Mechanical Pipe:550028",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4wu",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:550034",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4wo",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:550040",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3Bgm$_YRP8LgYHNJgrLZmu",
+      "name": "Pipe Types:Mechanical Pipe:550077",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4xf",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:550083",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1NR_CPjqX9quifomqRoJkL",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:550223",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4zx",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:550225",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1AHRzWVPL7NevueyWjyIXq",
+      "name": "Pipe Types:Mechanical Pipe:554945",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3kxYCY4Tr3eubkaL1q7AO3",
+      "name": "Pipe Types:Mechanical Pipe:555449",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Tjs7l9CPAQxN9XnigQv$l",
+      "name": "Pipe Types:Mechanical Pipe:555856",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2mjdbLoPf1jw58bPI0GFwd",
+      "name": "Pipe Types:Mechanical Pipe:557530",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5A",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557546",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5B",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557547",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5F",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557551",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5I",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557554",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5K",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557556",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5M",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557558",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5T",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557565",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5U",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557566",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAa",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557572",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAb",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557573",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2jMqqlILz1GBKVUP$SpCSB",
+      "name": "Pipe Types:Mechanical Pipe:557596",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3mLgeEuJj3OfOk9ukRGKex",
+      "name": "Pipe Types:Mechanical Pipe:557597",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlA_",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557598",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2d5C19iSDBnR23cWctuEvZ",
+      "name": "Pipe Types:Mechanical Pipe:557601",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlA2",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557602",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0wg2cIhCT19AjKauI7g_oQ",
+      "name": "Pipe Types:Mechanical Pipe:557604",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3sG_XOiiDBjuHTacz8s7Hr",
+      "name": "Pipe Types:Mechanical Pipe:557605",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0qhCU2klz4GAVI0SV1Z_kT",
+      "name": "Pipe Types:Mechanical Pipe:557609",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "27fGOYnQj8MQqqFxq21fgv",
+      "name": "Pipe Types:Mechanical Pipe:557611",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAD",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557613",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAG",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557616",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAI",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557618",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAJ",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557619",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlBj",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557645",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2iLPlYAwr72RYoyPKzH9c3",
+      "name": "Pipe Types:Mechanical Pipe:557648",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlBp",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557651",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlBr",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:557653",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3ceK$znLL57OI6g$cGvHe2",
+      "name": "Pipe Types:Mechanical Pipe:557656",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlBy",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557660",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlB1",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:557665",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1qC2bRlaL2$xdtAlHUjqrH",
+      "name": "Pipe Types:Mechanical Pipe:557695",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3JKEL$AGX2dRsu6YXF7haW",
+      "name": "Pipe Types:Mechanical Pipe:557700",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "00NSjRT2577gZ8OnXCVnRD",
+      "name": "Pipe Types:Mechanical Pipe:557710",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "32xRaGYJbFGh4xQ87y84uw",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:575520",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4o0",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:575522",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOw6",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:577791",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOzj",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:577812",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOys",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:577871",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFp7m",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:577919",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFp4X",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:577966",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0ohin_b4j4eRTUPZimgBys",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:577990",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpAE",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578049",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0DsvbZ8G90Yu5pfQ2cPXMf",
+      "name": "Pipe Types:Mechanical Pipe:578143",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpBl",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578144",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0aVOuM1Z97KxWIKBNf6_PJ",
+      "name": "Pipe Types:Mechanical Pipe:578188",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFp82",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578189",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpFT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578386",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpFR",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578388",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpFv",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:578422",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0mWc3NzQr1qee65Y$8GfjK",
+      "name": "M_Ball Valve - 50-150 mm:50 mm:50 mm:578433",
+      "type": "IfcFlowController",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpCA",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578437",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpGS",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:578707",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpGu",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:578743",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2EXDOXwvjBzP6MG7UG1B23",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:578774",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2em0WWONX1aPizS$xeT1BR",
+      "name": "Pipe Types:Mechanical Pipe:578830",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpM0",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578831",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0e1qv$SeP4kvZRY8S5gxVK",
+      "name": "Pipe Types:Mechanical Pipe:578872",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpMs",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578873",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJyWK",
+      "name": "M_Ball Valve - 50-150 mm:50 mm:50 mm:579237",
+      "type": "IfcFlowController",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqs8",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580000",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqyN",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580415",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0xQ3f2TrrAbQJH707SXp06",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580429",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqeH",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:581177",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqeI",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:581178",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3T$kO2w2DDI8QpClf6eQBB",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582938",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1m8dAeHvDBxxrwZJ_6QGkg",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582939",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "06uxWXUlT4WwN22sA1Epss",
+      "name": "Pipe Types:Waste:582940",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3iwIK3bEj2cA88Ds0WqEw3",
+      "name": "Pipe Types:Waste:582941",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3eknGnFy5CJQhRXYLso9rx",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582943",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2ZEk5RUor3zvcmR2oNk33Q",
+      "name": "Pipe Types:Waste:582945",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0yKbtog$P1YxDyCk1qgYZf",
+      "name": "Pipe Types:Waste:582946",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3IeTC6sbv7_hqjhfjn$T5M",
+      "name": "Pipe Types:Waste:582947",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1SO1ux5hD1HBU4JXheRTqv",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582948",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kIh3MZ3j0KvYZZiPn1QmO",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582949",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0n2yQi$YDA28SFAcdqNtR_",
+      "name": "Pipe Types:Waste:582951",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0v0Mms3Db0pRvvHyIQCrE1",
+      "name": "Pipe Types:Waste:582952",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3eAA$CJlT1EeOPz$$sQNW2",
+      "name": "Pipe Types:Waste:582953",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0yIUDjMir0Uf4bkB$wjECb",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582954",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4T",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582955",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0$LNoCntTAthq5oMj33Z8K",
+      "name": "Pipe Types:Waste:582956",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2k4Olyy_HB9fuCzxjwspMs",
+      "name": "Pipe Types:Waste:582958",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3fo0d8AiP5_eueMjA3oF0Y",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582959",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2QfBzPgUD8GgqOnq7WKPOP",
+      "name": "Pipe Types:Waste:582960",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki47",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582961",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3OnxxtS5jAef2yqWa7uNK9",
+      "name": "Pipe Types:Waste:582962",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "26fwErs71CaPvzCQYGDAhC",
+      "name": "Pipe Types:Waste:582963",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3Xb$Vjn3LCevAK_atsXNZK",
+      "name": "Pipe Types:Waste:582967",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki48",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582974",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3EEUsdoeb9f8EThcDcbGyi",
+      "name": "Pipe Types:Waste:582975",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "00BuoG3xf1n8QElM_9VYaq",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582978",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5r",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582979",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5_",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582984",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5$",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:582985",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3aokjwAfT6AfCNyQ30cdBQ",
+      "name": "Pipe Types:Waste:582988",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0C3le$8kz2TRXfg7YEwnHk",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582993",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5a",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582994",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0quQz8L7D2gB0SDpzXgSjl",
+      "name": "Pipe Types:Waste:582999",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2MVmxBv81FPQBZsXh_XK9$",
+      "name": "Pipe Types:Waste:583001",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0E4mjlmTrB_gHQ5cS1q4RR",
+      "name": "Pipe Types:Waste:583003",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3CBsAX0aP3yPF7Ys4hYGod",
+      "name": "Pipe Types:Waste:583004",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0ByEBySwz3jvSlLfX2VHKk",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583005",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5e",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583006",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "10prxdW2b0lQqD7wNhsFCD",
+      "name": "Pipe Types:Waste:583008",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "32S5$lwL1C2wKWLnxix3to",
+      "name": "Pipe Types:Waste:583009",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5K",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583010",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5L",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583011",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3HquGGgdr1MBhgCmxgDRzk",
+      "name": "Pipe Types:Waste:583012",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1OqCVpkjL9of4Aw__FFabO",
+      "name": "Pipe Types:Waste:583014",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0n2SWiz1j44Oj5q69V92NS",
+      "name": "Pipe Types:Waste:583015",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5U",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583016",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5V",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583017",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "21SGviq55B1emGfBcfV0iO",
+      "name": "Pipe Types:Waste:583018",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki51",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583031",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3lseqHYInAMgugeam7QhMr",
+      "name": "Pipe Types:Waste:583032",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki5C",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583034",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0ji8ekfkf6ZBQZ7qgxqlqV",
+      "name": "Pipe Types:Waste:583035",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "16lIGYdp18FRS3rxWAB8KR",
+      "name": "Pipe Types:Waste:583037",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6s",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583040",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6r",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583043",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6o",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583044",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6_",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583048",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6$",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583049",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0LTXqUi09FNxSJ1LzZx80u",
+      "name": "Pipe Types:Cold Water:583054",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2zA8nJhRjBxuamoKqYCxbS",
+      "name": "Pipe Types:Cold Water:583055",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3LYK1avov8oB_KTnGz8R3x",
+      "name": "Pipe Types:Cold Water:583056",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3fXw$T4W993uTpDnaBqucZ",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583057",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6a",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583058",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0ufkjjBqHC_eia9fCFrpBQ",
+      "name": "Pipe Types:Cold Water:583059",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1LAty58CH48wt3FIOhfw0T",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583060",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1XvfWvgFP6gPrew2jqx$Dn",
+      "name": "Pipe Types:Cold Water:583061",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1OIVQOHS1AE8kz$ocqmDKV",
+      "name": "Pipe Types:Cold Water:583062",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6X",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583063",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6k",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583064",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1csNAsOdzEbfknTb6RaNAp",
+      "name": "Pipe Types:Cold Water:583065",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1xrXmBs2P5kxDWd6hFV1sa",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583066",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3mPE5k4Z1BMwNpizluRx2t",
+      "name": "Pipe Types:Cold Water:583067",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0s_hlmKKHAKuj$pmLmrrgr",
+      "name": "Pipe Types:Cold Water:583068",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "06t8p5K211UAFfw3ZlLcyL",
+      "name": "Pipe Types:Cold Water:583069",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3YfV03LG15ZQPMF5cDLV0u",
+      "name": "Pipe Types:Cold Water:583070",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6f",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583071",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0EIJaXv7P7o9GCWS2fgq1x",
+      "name": "Pipe Types:Cold Water:583072",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6N",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583073",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6K",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583074",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0qyc268mj0mPm65sywbJ_b",
+      "name": "Pipe Types:Cold Water:583075",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6V",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583081",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6O",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583086",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki65",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583091",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki62",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583092",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki60",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583094",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0TTnR0HPv689YKhEOEIpge",
+      "name": "Pipe Types:Cold Water:583099",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1PUyDXUGj34v2EdxSOY$fY",
+      "name": "Pipe Types:Cold Water:583107",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Dnw9wKzD6y98uZbgR6T92",
+      "name": "Pipe Types:Cold Water:583108",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7p",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583109",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7m",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583110",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7n",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583111",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0qR$qkBgn3zgly24zr$ZG6",
+      "name": "Pipe Types:Cold Water:583112",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1IZl4gDejBM9h7vr6IPfyn",
+      "name": "Pipe Types:Cold Water:583113",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7y",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583114",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7z",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583115",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "296bCWHgn0GeIjGnYNGgWj",
+      "name": "Pipe Types:Cold Water:583116",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7x",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583117",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1p3Bxu1Lf8wvecSDK0E7OL",
+      "name": "Pipe Types:Cold Water:583118",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0o4vggglbBJP$SdEhZ2yqy",
+      "name": "Pipe Types:Cold Water:583119",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0NRoIu$gXFp9C2UhV2ksO1",
+      "name": "Pipe Types:Cold Water:583120",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7d",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583121",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7a",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583122",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7b",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583123",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7Y",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583124",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1U5aUEYgXB$8ev78HwAxXX",
+      "name": "Pipe Types:Cold Water:583125",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7k",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583128",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "28AuHN3m5DqeVaKTktjgQx",
+      "name": "Pipe Types:Cold Water:583129",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7i",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583130",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7e",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583134",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7f",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583135",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7N",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583137",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0CiK5ixErEq9FfGEE3hk33",
+      "name": "Pipe Types:Cold Water:583140",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7J",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583141",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7U",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583144",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7V",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583145",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7S",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583146",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7Q",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583148",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7B",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583165",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki78",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583166",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8s",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583168",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8q",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583170",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8l",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583193",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8j",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583195",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0jBNUeKOz6pBo7$mYRZ0g7",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583198",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2DSxtP3Zr3px$0iQoS37wF",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583199",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8V",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583209",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8Q",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583212",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8F",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583225",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8D",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583227",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki88",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583230",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki89",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583231",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9t",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583233",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9_",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583240",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1nJRsVAJH6QRzFGkKuVkDD",
+      "name": "Pipe Types:Cold Water:583241",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1qy9gnvZf94BbO8d2EG9Hr",
+      "name": "Pipe Types:Cold Water:583242",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1X$a0PB4r7ewGUg0YeRMrE",
+      "name": "Pipe Types:Cold Water:583243",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2mLGk7etb8Og24lfLqv04j",
+      "name": "Pipe Types:Cold Water:583244",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9x",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583245",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9u",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583246",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9v",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583247",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9c",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583248",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "35yfwKgAH3iwZJV8BemDZ5",
+      "name": "Pipe Types:Hot Water:583249",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0om3aDojLBqfjTmuSq5xHa",
+      "name": "Pipe Types:Hot Water:583250",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Auv1yUubE5gma8z0Si4q2",
+      "name": "Pipe Types:Hot Water:583251",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9Y",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583252",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9Z",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583253",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9W",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583254",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9X",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583255",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3YExq0knnCdOI4v_2AwiRZ",
+      "name": "Pipe Types:Hot Water:583256",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3RFivECV9DwBQ6rpapK$BK",
+      "name": "Pipe Types:Hot Water:583257",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9j",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583259",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9h",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583261",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2342ihXWr1r9_X6QQS1COO",
+      "name": "Pipe Types:Hot Water:583262",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "15IqI2zUDDSvoEufYlgGGS",
+      "name": "Pipe Types:Hot Water:583263",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9M",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583264",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9N",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583265",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9K",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583266",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1mnU$3L4j2cRLGliOVAGaS",
+      "name": "Pipe Types:Hot Water:583267",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2efnvc23P8TO7mc1iO9h_8",
+      "name": "Pipe Types:Hot Water:583268",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9G",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583270",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9U",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583272",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9V",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583273",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9S",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583274",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "07bKDBIH95Dhi6THf$PjG3",
+      "name": "Pipe Types:Hot Water:583276",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9R",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583277",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2641906Gn6WP3Plq76wck5",
+      "name": "Pipe Types:Hot Water:583278",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9P",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583279",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3RjTvhvnD6zxgtsDrZBzQa",
+      "name": "Pipe Types:Hot Water:583280",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki97",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583281",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3tMhzXDWDAa8vvTfJxuPT7",
+      "name": "Pipe Types:Hot Water:583282",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki95",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583283",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0uHJtyP_jAGAHPThWj87pq",
+      "name": "Pipe Types:Hot Water:583284",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki93",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583285",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0t5Il02n51tQ1GK4OsvuEB",
+      "name": "Pipe Types:Hot Water:583286",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki91",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583287",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9B",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583293",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki98",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583294",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0tjLhfGDnDKfGi3dqDWNIh",
+      "name": "Pipe Types:Hot Water:583296",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAt",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583297",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1_5DeGvTjDrxobUcFJFoJB",
+      "name": "Pipe Types:Hot Water:583298",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1KQk2kPOb2lRaeDTHcSljP",
+      "name": "Pipe Types:Hot Water:583299",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "18XZ0YHfH6zub4t1JlL0lZ",
+      "name": "Pipe Types:Hot Water:583306",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAz",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583307",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAw",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583308",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "15$tmU0G9ARvozWPzAruwE",
+      "name": "Pipe Types:Hot Water:583309",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAv",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583311",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAc",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583312",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAd",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583313",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "28grkpRoP0Cx41sgXPZMzB",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583314",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAb",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583315",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAk",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583320",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAl",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583321",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAj",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583323",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3FjsrjaEnBHwKQ7H9Ag1N$",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583324",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiAe",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583326",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2$tUCPoMP0oP$boQkvupXF",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583327",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "38siAa2vX2LumgLbdVv2vT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:584031",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "38siAa2vX2LumgLbdVv2vp",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:584049",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFuWn",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:593589",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfej",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:594871",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0f9KwjuGbB3Bk56rNJOALp",
+      "name": "Pipe Types:Waste:594985",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfrF",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:595157",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1O6$uN68HApvZEI4JwRGN4",
+      "name": "Pipe Types:Mechanical Pipe:595210",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfoA",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:595216",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3hhELAyD977h$k0f3WYxG1",
+      "name": "Pipe Types:Mechanical Pipe:595217",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfoF",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:595221",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0R$S79jeD6nxpFXMN2GFf0",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:599189",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "17qNSF4KPAM8Mzmh7LJ0sj",
+      "name": "Pipe Types:Waste:599698",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0R8SYRRjr0phQqxAfZ2wYs",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:599704",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2iyg057qb90hXw6evhH$cz",
+      "name": "Pipe Types:Waste:599705",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2eCigizHrDoO2cHRWm8enf",
+      "name": "Pipe Types:Hot Water:599791",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0Pe0aRvD552ukSE2WQfwwc",
+      "name": "Pipe Types:Hot Water:599795",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQlwD",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:599803",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3CbbWwO_X30BPuH$6FPNge",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:599804",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0QJhdzOuHDZRLam63dWKnP",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600013",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2IPEdiDeTByvAGqAJdlvnY",
+      "name": "Pipe Types:Cold Water:600106",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1BOgnFIYD9uuqLda4M8vg_",
+      "name": "Pipe Types:Cold Water:600107",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl16",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600112",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl14",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600114",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl15",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:600115",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2tbKXRBs18EwrVsKoiqIs_",
+      "name": "Pipe Types:Hot Water:600129",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2n3HiZ3U57NOfBrFnKsqSC",
+      "name": "Pipe Types:Hot Water:600130",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl0$",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600137",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl0y",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:600138",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3XblX3",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600233",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3XblWZ",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:600265",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0ymjm9KhL4AgAstMnE6MBu",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600269",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3XblWy",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:600278",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1z0tpvsXL6tvyub5XcJTbB",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600282",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3_OzfJeOj3eh$HaoPjll8e",
+      "name": "Pipe Types:Mechanical Pipe:600381",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "36FlDzkQP8Lfc6DI3ndsUf",
+      "name": "Pipe Types:Waste:600449",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0RruiTkA57Qx9i3Y5ma7_5",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600493",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0pzLWJilH7xO6Gd4GQfQSF",
+      "name": "Pipe Types:Waste:600503",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "14DhnURbT9ZAylm8UYUmGb",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600509",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblal",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600517",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1vFudeHNH6kfVLksPjvO1s",
+      "name": "Pipe Types:Waste:600555",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2svZZfUfX3r9WCwxDkZ3mT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600581",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1RMb18Ts1CPujMeuORti2z",
+      "name": "Pipe Types:Waste:600584",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblha",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600590",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblhz",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600599",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1fe28NFJ976Bg2JXkUAjqX",
+      "name": "Pipe Types:Waste:600695",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3XblgH",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600699",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2J0irIs9DDHenzzZ_L40xG",
+      "name": "Pipe Types:Waste:600701",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblfi",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600710",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xbllq",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600862",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "08iHUx7lP8mffm9w1odMPJ",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600907",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblka",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:600910",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblkm",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600922",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblks",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:600924",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1TzbsD5UHF6AUJTKVr1IR4",
+      "name": "Pipe Types:Mechanical Pipe:600952",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0w7iMWrrn2ch6O_KPmj3Ee",
+      "name": "Pipe Types:Waste:601015",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0x8B$HiG56NgBKY4Lhjxhb",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601021",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2r0DGzBAnB_eOrOts4sJrJ",
+      "name": "Pipe Types:Waste:601031",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblid",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601037",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2oyb$TyZH3MvEdsOvAfTf9",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601051",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "18GbQmoZ1A2gRZM1uxGos7",
+      "name": "Pipe Types:Mechanical Pipe:601142",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2q8Ajz8zz7iuTH31zZSLW1",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601157",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2Es21WECPBGApdqWOSxBrm",
+      "name": "Pipe Types:Mechanical Pipe:601282",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3Xblmf",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601283",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1dlrsgUIvFQ9c1SAnnlPLO",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:601285",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2L092XWcn0RxVZVA3XblmY",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601288",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1fJrYuA6n4mAJ2VVdhy47o",
+      "name": "Pipe Types:Mechanical Pipe:601371",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "32t38825H4mhG7RfE173OQ",
+      "name": "Pipe Types:Mechanical Pipe:601377",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2C1x5E2Mv1Rfhlj5LVW9IM",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601382",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2C1x5E2Mv1Rfhlj5LVW9IO",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601384",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1ikdaHeMH9tQH7ZRIx2Ou6",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):601543",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0_vO1$t1LDEf3FoeUjGLcU",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:601701",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2LfaOr26XADvR5_fysmGQf",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):601746",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3oHfnTBz5C$R5u3CRLsoEW",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:601849",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0bFT1Z4ejDJeGGQDPfutuq",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):601926",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3ZpZg5x6L8RhsGp3tg8aGD",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):601940",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3oHfnTBz5C$R5u3CRLso8C",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:601941",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3oHfnTBz5C$R5u3CRLso8F",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:601942",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0yftsu3wL2hhDH1KFXfYIs",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):602008",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2T9Z_3Tzn6KQmOy4nAhq7v",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):602019",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3oHfnTBz5C$R5u3CRLsoBz",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:602020",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3oHfnTBz5C$R5u3CRLsoBy",
+      "name": "M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:602021",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1Pcs6ln2DE5Bd8Czt1STyq",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:604456",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "17LbZ$bTD9DAdkz6AWExLn",
+      "name": "Pipe Types:PVC:604577",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1zKaZ_JrfEMueroYicWc2b",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:604623",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1zKaZ_JrfEMueroYicWc2w",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:604624",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3vN63EePX0s8ogIeII55Gt",
+      "name": "Pipe Types:Cold Water:604652",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1lXgZta8zBCP$Yifbh3K$B",
+      "name": "Pipe Types:Cold Water:604653",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2JG6d2VXj0ARi_it8Hzeux",
+      "name": "Pipe Types:Cold Water:604659",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1zKaZ_JrfEMueroYicWc2I",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:604664",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1zKaZ_JrfEMueroYicWc2G",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:604666",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3biqfQtEvADwzkHXc2hpit",
+      "name": "Pipe Types:Cold Water:604667",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1zKaZ_JrfEMueroYicWc2K",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:604670",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "06tz$4Kfr6hxOdBtBn_Zg8",
+      "name": "Pipe Types:PVC:604739",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jfuKVLvDAvujmZd$g5KIv",
+      "name": "Pipe Types:PVC:605354",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3OvFxniMHB1hJTYExaq2kx",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605365",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1qiGQkCYX6vh_nqz1DzDoq",
+      "name": "Pipe Types:PVC:605366",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3FeF1QhavDjhYq8NY8wJX0",
+      "name": "Pipe Types:PVC:605375",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1IZLDqpSH0Bftkn$oLUU0O",
+      "name": "Pipe Types:PVC:605397",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1uUs2cHDPBOxkzgUctDpHW",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605398",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1uUs2cHDPBOxkzgUctDpHX",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605399",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "23I41MKIf4Ae3VYQIx$rQw",
+      "name": "Pipe Types:PVC:605401",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1uUs2cHDPBOxkzgUctDpNI",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605540",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1uUs2cHDPBOxkzgUctDpNJ",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605541",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "08zr6JNBDBDATCIEkAVgHh",
+      "name": "Pipe Types:PVC:605583",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0oo3qdwTX8NORD4EhixxV1",
+      "name": "Pipe Types:PVC:605592",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0G8kZRylf43vPOOL1z1YRR",
+      "name": "Pipe Types:PVC:605599",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3a6ndo_ET6V9uIH8SrRBzb",
+      "name": "Pipe Types:PVC:605615",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1ezehqTWzEAOCZ6I_hanYV",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605616",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1ezehqTWzEAOCZ6I_hanYU",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605617",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1oEf",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606495",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1oFi",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606554",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "13fBLqU9PCth6P9Ip3QJQo",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606592",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3Z9JJWMY118fRquEO2VLD$",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606628",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o2o",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606724",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o0p",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606853",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o00",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606902",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0TaaQqRmbBOxZmV0aBfEju",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:610174",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "3z7$ANK7PCff_FQHVjuQv1",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:612458",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2yZypBm1P0Geeej3iv6nOx",
+      "name": "Pipe Types:Waste:612522",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1$u7MiY0DDQOUEWYE6GMLn",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:612528",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "31$Ea0Wy14ohAZ$7J3UZgS",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:612647",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "15Lp1Ca2nEFexULDVEwwSd",
+      "name": "Pipe Types:Waste:612648",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "01S9djs61BFfnHKPIUF5My",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:612985",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "01S9djs61BFfnHKPIUF5LT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:613016",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2g_GQE15DDyQ_rkHyy4$eb",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:613017",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2crQZN_qT6JfzoVwnn5j7r",
+      "name": "M_Fire Alarm Control Panel:400x475:Fire Alarm Panel:617780",
+      "type": "IfcFlowTerminal",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0LKhur6rD1_voREOiUHLZi",
+      "name": "M_Telephone Terminal Board:TTB 300x300:TTB1:618690",
+      "type": "IfcFlowTerminal",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqP",
+      "name": "A101-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqS",
+      "name": "A102-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqV",
+      "name": "A103-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqI",
+      "name": "A104-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqL",
+      "name": "A105-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqD",
+      "name": "B101-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFq3",
+      "name": "B102-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFq6",
+      "name": "B103-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqv",
+      "name": "B104-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1sxdtdrqb56BEe6diZkFqy",
+      "name": "B105-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwCz",
+      "name": "A102",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "300Pty59r6xB$nuduvUeBQ",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:536919",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "09LXvibln0YPNmPO49mD6k",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575380",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DF",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575469",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DC",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575470",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DD",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575471",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DP",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575483",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "0TaaQqRmbBOxZmV0aBfEk9",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:610191",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4CvkY",
+      "name": "M_Thermostat:Thermostat:Thermostat:610734",
+      "type": "IfcDistributionControlElement",
+      "parent": "0CRPz_SEr94Ah74P8LhwCz"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwC_",
+      "name": "A103",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "2f8GAP3Wb6_RpjhBiN7Zoq",
+      "name": "M_Refrigerator:850 x 760mm:850 x 760mm:575374",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DA",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575464",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4D8",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575466",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DE",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575468",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4od",
+      "name": "M_Range:760 x 650mm:760 x 650mm:575493",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4ob",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575495",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "37TXYoMojAaPHjgvmWpTIt",
+      "name": "M_Sink - Island - Single:455 mmx455 mm - Private:455 mmx455 mm - Private:582920",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "02liIsPa19NBjvPRMDBtvv",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:599801",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1ezehqTWzEAOCZ6I_hanYu",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605591",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1ezehqTWzEAOCZ6I_hanYn",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605598",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "3ffkyt4A92pAkW8PI4iuU$",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:606293",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "1pq8_0PnP2dxhiUN2win6E",
+      "name": "M_Telephone Outlet:Telophone Outlet:Telophone Outlet:611904",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "0BXZ22CoT4Qw2YCiUW32ZF",
+      "name": "M_Microwave:760 x 400 x 450mm:760 x 400 x 450mm:615603",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "3kSHn3rCT2Mgjzvy7hm5ie",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:615696",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC_"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwC$",
+      "name": "A104",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "19uVH5FVv15vAtBGL$Wezi",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:548240",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dy",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575454",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4D2",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575456",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DU",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575484",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4oY",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575488",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "3YwYaskHb9bvjoDfW05AdE",
+      "name": "M_Shower Stall - Rectangular:865 mmx815 mm - Private:865 mmx815 mm - Private:582914",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "02A38ateT5NgmAdzUlg9_5",
+      "name": "M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582915",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "1uhDdJFhH79efaAOyK3eAf",
+      "name": "M_Lavatory - Oval:535 mmx485 mm - Private:535 mmx485 mm - Private:582916",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9J",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583269",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwC$"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD0",
+      "name": "A101",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1Ce$bjdiv8XhtGsitreEeZ",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:538847",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "29iJ3Qorb7pw3KGs9fdkw3",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575376",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DJ",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575473",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DH",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575475",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DM",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575476",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DK",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575478",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "0dJKPQcDL7OOA9T2YsJr1q",
+      "name": "M_Lighting and Appliance Panelboard - 208V MLO:400 A:Unit A Panelboard:575479",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "1d7reBWpf0fORIZse0_foY",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610280",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwD0"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD1",
+      "name": "B102",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5m",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557520",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cq",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575382",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dm",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575442",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Ds",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575444",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dt",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575445",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DS",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575486",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "2LxXBHLLv7BeFlYOC_wtRJ",
+      "name": "M_Thermostat:Thermostat:Thermostat:610678",
+      "type": "IfcDistributionControlElement",
+      "parent": "0CRPz_SEr94Ah74P8LhwD1"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD2",
+      "name": "B103",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cj",
+      "name": "M_Refrigerator:850 x 760mm:850 x 760mm:575375",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dp",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575441",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4D6",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575460",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4D4",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575462",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1KqYAj00bE8PYy0bzaxy9l",
+      "name": "M_Range:760 x 650mm:760 x 650mm:575492",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4oa",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575494",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4y",
+      "name": "M_Sink - Island - Single:455 mmx455 mm - Private:455 mmx455 mm - Private:582922",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "3vbdROJTj6exgKEqnbQl0n",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600135",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1uUs2cHDPBOxkzgUctDpG8",
+      "name": "M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605374",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "3ffkyt4A92pAkW8PI4iuUP",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:606323",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4CvoP",
+      "name": "M_Telephone Outlet:Telophone Outlet:Telophone Outlet:611989",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "30wAmTVov8$h_Num9pR67y",
+      "name": "M_Microwave:760 x 400 x 450mm:760 x 400 x 450mm:615600",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "3kSHn3rCT2Mgjzvy7hm5jq",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:615756",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD2"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD3",
+      "name": "B104",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAK",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557620",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dx",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575449",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dv",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575451",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DV",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575485",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4oW",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575490",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4p",
+      "name": "M_Shower Stall - Rectangular:865 mmx815 mm - Private:865 mmx815 mm - Private:582917",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4m",
+      "name": "M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582918",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4n",
+      "name": "M_Lavatory - Oval:535 mmx485 mm - Private:535 mmx485 mm - Private:582919",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9i",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583258",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwD3"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD4",
+      "name": "B101",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5q",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557524",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cm",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575378",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dq",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575446",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dw",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575448",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DN",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575477",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DR",
+      "name": "M_Lighting and Appliance Panelboard - 208V MLO:400 A:Unit B Panelboard:575481",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DT",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575487",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cvhw",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610550",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwD4"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD5",
+      "name": "A105",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4op",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575505",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD5"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwD6",
+      "name": "B105",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFXU"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4os",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575508",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwD6"
+    },
+    {
+      "id": "0o8nNAbaT5OQLV8C9mNFlV",
+      "name": "Level 2",
+      "type": "IfcBuildingStorey",
+      "parent": "0o8nNAbaT5OQLV8CAFemQO"
+    },
+    {
+      "id": "37cVMrcF54ifKYyIewWagr",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:538562",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2oaOKyFkjASv$DFXNZi1XR",
+      "name": "Pipe Types:Mechanical Pipe:540160",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3VsCnxi31AcAk$fl3uHbrB",
+      "name": "Pipe Types:Mechanical Pipe:540175",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0TXUcI1zf2ugojmp5tOpDA",
+      "name": "Pipe Types:Mechanical Pipe:540182",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3N_mtG4Zf6BxUhd1a5x60b",
+      "name": "Pipe Types:Mechanical Pipe:540200",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2_nWSI38z1MQowEuvpwI2C",
+      "name": "Pipe Types:Mechanical Pipe:545888",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1AE8TeH3D87eRKclepfjI5",
+      "name": "Pipe Types:Mechanical Pipe:546125",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3AGn3GHBHBhOuunhh8DI0V",
+      "name": "Pipe Types:Mechanical Pipe:546131",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2TAzfNf1j94uj2yMPneX4$",
+      "name": "Pipe Types:Mechanical Pipe:546374",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2v7aWlr81F3QCYw4ARyl59",
+      "name": "Pipe Types:Mechanical Pipe:546381",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0hY0vT6Vz4nxMCCb3T1qvc",
+      "name": "Pipe Types:Mechanical Pipe:546819",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1Fpxgqrq99_uInI$jluizm",
+      "name": "Pipe Types:Mechanical Pipe:546826",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0UI$jRcKv7zfHlDEgoW7T1",
+      "name": "Pipe Types:Mechanical Pipe:546828",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "22H_5eZdr3lu0kYPWZJYAi",
+      "name": "Pipe Types:Mechanical Pipe:546906",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2HOGb9bdzAb9AUEEN$ghTe",
+      "name": "Pipe Types:Mechanical Pipe:546969",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3rU2zn_7T9UfE_jkGSicuJ",
+      "name": "Pipe Types:Mechanical Pipe:547114",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3CuIt5o5T3SelpawPJprX4",
+      "name": "Pipe Types:Mechanical Pipe:547121",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0viCR3s9j0_Bkcfp8_q2eb",
+      "name": "Pipe Types:Mechanical Pipe:547146",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2p9JDBhtDAQghqGqOm_Pfy",
+      "name": "Pipe Types:Mechanical Pipe:547150",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "35Nu9O3dH9p8ptQmbytvw5",
+      "name": "Pipe Types:Mechanical Pipe:547183",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1WLHAo2Kz1Nhew2M61UKOr",
+      "name": "Pipe Types:Mechanical Pipe:547247",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3ejtggBon8bh6Rk9nDc4va",
+      "name": "Pipe Types:Mechanical Pipe:547266",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Nr2tZN4n3LxOZ$BUCsRw4",
+      "name": "Pipe Types:Mechanical Pipe:547273",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2oUDfYEAjDzQSvWL1eupfi",
+      "name": "Pipe Types:Mechanical Pipe:547286",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "24dhWsJoPFtwoqYmwS19st",
+      "name": "Pipe Types:Mechanical Pipe:547784",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3D7$N30LL0pBnXNmQY36yU",
+      "name": "Pipe Types:Mechanical Pipe:548082",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "39uRbNnz16PuVI9nFtOtMv",
+      "name": "Pipe Types:Mechanical Pipe:548089",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3$vb6Q6kn7WgZjsp0FVge0",
+      "name": "Pipe Types:Mechanical Pipe:548116",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2tdZyjNpL6MRk8JEw$tAK5",
+      "name": "Pipe Types:Mechanical Pipe:548123",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2_ELuVkGH0h8jOrTvH_E9R",
+      "name": "Pipe Types:Mechanical Pipe:548835",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3FSPUCH2b1bQ6bBes3CUN3",
+      "name": "Pipe Types:Mechanical Pipe:549038",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4aA",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:549664",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4br",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:549727",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "13kXneVBL8egWoGKRJw4uT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:549943",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "08bJ5GciX44RctWg3I8Yp1",
+      "name": "Pipe Types:Mechanical Pipe:549955",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3ZepOPxpT4RRRCiax9L$Mi",
+      "name": "Pipe Types:Mechanical Pipe:549960",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0pAp3Xisv7QvVlEvVGjK9c",
+      "name": "Pipe Types:Mechanical Pipe:550018",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3DEl$KiKD1zPxe_IwB_wTI",
+      "name": "Pipe Types:Mechanical Pipe:550036",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0A7GgHTNL3DA8CJTRc8weE",
+      "name": "Pipe Types:Mechanical Pipe:550041",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1Y$oFh_$r3dPM7OOLmcHOD",
+      "name": "Pipe Types:Mechanical Pipe:550067",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3W4WKpCun37PHbrhZhNWkc",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:550098",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "33c0eBIxXAgewxREc0_hQQ",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:554027",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3vCdMq0XDDR8A6p6uFO0$2",
+      "name": "Pipe Types:Mechanical Pipe:554197",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "00prB3yifE$u8WoFy$oURN",
+      "name": "Pipe Types:Mechanical Pipe:554437",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2Oggvo5dj9Mh8Lx$RM6t_p",
+      "name": "Pipe Types:Mechanical Pipe:554580",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5j",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557517",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3I67m5tBb4_eTkiIIv3WpS",
+      "name": "Pipe Types:Mechanical Pipe:557526",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "030QVxOLj4aBLvuEjJ7Zln",
+      "name": "Pipe Types:Mechanical Pipe:557527",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "10lCgO_ZrAU9GUM32N0h5A",
+      "name": "Pipe Types:Mechanical Pipe:557528",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2cBXEHhbv7WxAj1MwZ5Ik2",
+      "name": "Round Duct:Taps:557534",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2XLUWQjcT5TP2MvyGtLx_j",
+      "name": "Pipe Types:Mechanical Pipe:557550",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3HFPIdLfvCXAet8_9zF6DF",
+      "name": "Pipe Types:Mechanical Pipe:557552",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3zL8RCRFfExPh7HhsIIU83",
+      "name": "Pipe Types:Mechanical Pipe:557553",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2SoPeCb2D87xSg3et19Mx1",
+      "name": "Pipe Types:Mechanical Pipe:557555",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "06CUoaeF1B6wv_rVmaqG6N",
+      "name": "Pipe Types:Mechanical Pipe:557557",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0nUiP$svvDax3McTF43HGM",
+      "name": "Pipe Types:Mechanical Pipe:557563",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1D20BVAET2g9SqdmnMPjeD",
+      "name": "Pipe Types:Mechanical Pipe:557564",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0riNFIYnD1fB_lVbFirz9d",
+      "name": "Pipe Types:Mechanical Pipe:557567",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3BVrrghCL3oB6uRwRoDt28",
+      "name": "Pipe Types:Mechanical Pipe:557568",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2gXbQL2afEI966_gTAbR91",
+      "name": "Pipe Types:Mechanical Pipe:557569",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "26PM7OANDAXwg24TtV3Ff1",
+      "name": "Pipe Types:Mechanical Pipe:557570",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3u9e_sIhj5883FEdG7hbex",
+      "name": "Pipe Types:Mechanical Pipe:557571",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3LWmRznCL9FxG4pMSxiTQR",
+      "name": "Pipe Types:Mechanical Pipe:557574",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2irfcYB8z5ffc0_CnerY91",
+      "name": "Pipe Types:Mechanical Pipe:557576",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1xtfyUl7TDzuHsgAvJTR2z",
+      "name": "Pipe Types:Mechanical Pipe:557586",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2dZMkVj3LEauhoD2ZJQVkK",
+      "name": "Pipe Types:Mechanical Pipe:557587",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2_y20Tjd1Epu$NEFGGH1gW",
+      "name": "Pipe Types:Mechanical Pipe:557590",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "214kk$_0PEUvVStO70oaMy",
+      "name": "Pipe Types:Mechanical Pipe:557599",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "27slASTjv7TuQWj9HTpun$",
+      "name": "Pipe Types:Mechanical Pipe:557603",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3T5Rd$BhX5YQB2DUuD6Yfm",
+      "name": "Pipe Types:Mechanical Pipe:557612",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0XZwkvjjz3183yhicqoMA8",
+      "name": "Pipe Types:Mechanical Pipe:557614",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2oAfOEvA99JRVmUqudH3m0",
+      "name": "Pipe Types:Mechanical Pipe:557615",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1KuvkDw2PEZg1ZKt6YDd56",
+      "name": "Pipe Types:Mechanical Pipe:557617",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0erN3TECf869hXR0Ykwkgo",
+      "name": "Pipe Types:Mechanical Pipe:557622",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1HHjB0S9PA6g1N3zlzvNzT",
+      "name": "Pipe Types:Mechanical Pipe:557623",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3SxW3p0SzBdhood6G7P9qz",
+      "name": "Pipe Types:Mechanical Pipe:557644",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0q9XTE50T49AsHaUumGxpG",
+      "name": "Pipe Types:Mechanical Pipe:557646",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3WPhAcJVf6iO7Y1t_js2Y7",
+      "name": "Pipe Types:Mechanical Pipe:557647",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1xIskSQZnFpRaR6aoN0XSe",
+      "name": "Pipe Types:Mechanical Pipe:557652",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1j4drxiKLEhOwM0cdg7d4u",
+      "name": "Pipe Types:Mechanical Pipe:557654",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jM$idYtH0Wfvjr2fV6BBx",
+      "name": "Pipe Types:Mechanical Pipe:557655",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2LkamInGP6mBOvqiGU$SRb",
+      "name": "Pipe Types:Mechanical Pipe:557685",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1dJr$RIh11nxIKXRX1NUNl",
+      "name": "Pipe Types:Mechanical Pipe:557689",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3qI03Xhmj12QySDYgBoGRD",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):575511",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3UJys$fvDFAR7_oHXTr0Fc",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):575516",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "30KevaMOLEsvGHQA3InAqv",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):575519",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0KkRFcXTHDp84XnNw18d9r",
+      "name": "Conduit with Fittings:Electrical Metallic Tubing (EMT):575521",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2s_4D89lT8egiIk3HdWxbS",
+      "name": "Pipe Types:Mechanical Pipe:577748",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1yYwYL_irExf916vZONIdA",
+      "name": "Pipe Types:Mechanical Pipe:577808",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOzh",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:577810",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3_kpKzKjv5SRTJR6fNjaAE",
+      "name": "Pipe Types:Mechanical Pipe:577813",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "35Ap0tADT17v7zYDOdUmlm",
+      "name": "Pipe Types:Mechanical Pipe:577870",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3fq8s9NyLB19dgP900nV9R",
+      "name": "Pipe Types:Mechanical Pipe:577872",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOyg",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:577875",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LorUkoirEpRE75085bOyj",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:577876",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3SjNOa1Aj1NQy_HHBUTvTT",
+      "name": "Pipe Types:Mechanical Pipe:577911",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "02h8$yBYrFAPFGyaiB9iMU",
+      "name": "Pipe Types:Mechanical Pipe:577920",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3nc3ucFDTC$wIRWWTb0ut1",
+      "name": "Pipe Types:Mechanical Pipe:577991",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFp8S",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578195",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2R2I0lOjT7mxlwV4JPEHEJ",
+      "name": "Pipe Types:Mechanical Pipe:578228",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFp8w",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:578229",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3N2d4GRXPAtBHoc6HeN65G",
+      "name": "Pipe Types:Mechanical Pipe:578230",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "08kYZ9hyn0qwD8PuqkbtES",
+      "name": "Pipe Types:Mechanical Pipe:578268",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0_ccBL7l551P25IPB$TjrZ",
+      "name": "Pipe Types:Mechanical Pipe:578279",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2nZovNVmnF3OR5R2OEJA0F",
+      "name": "Pipe Types:Mechanical Pipe:578403",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1IPmKXj8TDgvz__QSZOT3e",
+      "name": "Pipe Types:Mechanical Pipe:578423",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1BGyu5IDLCYffY4GD4_4TO",
+      "name": "Pipe Types:Mechanical Pipe:578435",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3$Q_eopYf9Hgxm2njargEh",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578436",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0CeyDLQ_17uf3YsBD7Eca8",
+      "name": "Pipe Types:Mechanical Pipe:578472",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2RVsaznezAYAtSEKTcNKKo",
+      "name": "Pipe Types:Mechanical Pipe:578485",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpCv",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578486",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Aqh$4I6n3eQBHSiWmJfdG",
+      "name": "Pipe Types:Mechanical Pipe:578532",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0_0aSTMV1Fb9uohXNefF1S",
+      "name": "Pipe Types:Mechanical Pipe:578609",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2NQw8HfS53fROY3xPF1Mox",
+      "name": "Pipe Types:Mechanical Pipe:578656",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3T238pTfL7fuhwRyMYREa4",
+      "name": "Pipe Types:Mechanical Pipe:578706",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3FcWWRQlbAtwsfoH23EZ4W",
+      "name": "Pipe Types:Mechanical Pipe:578708",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpGN",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578712",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0wuQBfnsH7I8cPgE51nip1",
+      "name": "Pipe Types:Mechanical Pipe:578742",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "08ayqJVPzCnPvZ0wv8Gs_7",
+      "name": "Pipe Types:Mechanical Pipe:578744",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpGp",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578748",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Juo5RdLjDzvD5r1MK1W2_",
+      "name": "Pipe Types:Mechanical Pipe:578775",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0c8ED9w7XAgv_evno6JLQk",
+      "name": "Pipe Types:Mechanical Pipe:579139",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1O4mCSncb3zPBNljqto35I",
+      "name": "Pipe Types:Mechanical Pipe:579140",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3fc6g1ZjD15whAruJ8HY3D",
+      "name": "Pipe Types:Mechanical Pipe:579151",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3fiSTwEwT9YB503IyGqznM",
+      "name": "Pipe Types:Mechanical Pipe:579262",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJych",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:579354",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJycB",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:579386",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJydc",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:579415",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJyaB",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:579514",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "14m9_MpzbAsPRKwqT$IDkP",
+      "name": "Pipe Types:Mechanical Pipe:579977",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0skLjJmiP57OGJMoljVHcV",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580397",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3JatDj1MD9r8HV09G81JEZ",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:580417",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1QDX2veKP7l9dnnGCFmZ6z",
+      "name": "Pipe Types:Mechanical Pipe:580418",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1orA7_GjLF2OvIsVTs6V1t",
+      "name": "Pipe Types:Mechanical Pipe:581020",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1impmxYP17IAv8I4ViRatb",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:581027",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2QlU7TDun2uQvt5YtxL2L7",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:581029",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1x1QcZ3O5E2PqXAPJsRt_i",
+      "name": "Pipe Types:Mechanical Pipe:581037",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqcU",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:581046",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1uIiQKQhrCBQXbE5317n3i",
+      "name": "Pipe Types:Mechanical Pipe:581158",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1XuxOcRG159earAXQVVAkc",
+      "name": "Pipe Types:Mechanical Pipe:581159",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "39q5k6Nav0gAnvdmCXpvoC",
+      "name": "Pipe Types:Mechanical Pipe:581179",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3VRdkguH533PKN7CamRiSe",
+      "name": "Pipe Types:Waste:582976",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0VntA578bFqxwwiiNQwPHi",
+      "name": "Pipe Types:Waste:582977",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0k2HCeKr1DJAq7xOJGpDhR",
+      "name": "Pipe Types:Waste:582980",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2Qqpm1NrP2OhaZv7qVKD60",
+      "name": "Pipe Types:Waste:582982",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "27lEnIl4b3GQecRkcS06lq",
+      "name": "Pipe Types:Waste:582983",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1ke1AN57X8oPMxa1D5wkk_",
+      "name": "Pipe Types:Waste:582986",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2zBavrf4H0$vUGejezuG6q",
+      "name": "Pipe Types:Waste:582987",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0LloZmIUbAIw6u_Vj1njdl",
+      "name": "Pipe Types:Waste:582989",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0UuARtNK51tRgTS3KA5as_",
+      "name": "Pipe Types:Waste:582990",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "315btgnV5ARxjkFHf92BPk",
+      "name": "Pipe Types:Waste:582991",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "08K0x7KyT9yw3T_wxwfYy6",
+      "name": "Pipe Types:Waste:582992",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "336ajHRPXDE8$eoXtNDAE2",
+      "name": "Pipe Types:Waste:583033",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1bF3JYdJ13BA_bNkmerM4P",
+      "name": "Pipe Types:Waste:583036",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2pc9B6lHv8cecVUCalIrxk",
+      "name": "Pipe Types:Waste:583038",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1aJsVWmH54i9k72wRq_6ka",
+      "name": "Pipe Types:Waste:583039",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3mR31R5pz3Qw$gjC2sQBj2",
+      "name": "Pipe Types:Waste:583041",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1uJpO2SfX2pg64mSimnBXT",
+      "name": "Pipe Types:Waste:583042",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0Cuj5gcEX9KviI6$ll$8$j",
+      "name": "Pipe Types:Waste:583045",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1HYydAUW55lQIF6TQNDUVy",
+      "name": "Pipe Types:Waste:583046",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0WmmZdfRTDOB6MqWWFJR5M",
+      "name": "Pipe Types:Waste:583047",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3gDsPJQIP7HOn$wh2K4DS8",
+      "name": "Pipe Types:Waste:583050",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1mtb34kP5FWAXHJrWUAkDc",
+      "name": "Pipe Types:Waste:583052",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "14P5tYm2r0Dw3JAA_w383A",
+      "name": "Pipe Types:Waste:583053",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2mAcKs5Fj7NwAeOcUWniDf",
+      "name": "Pipe Types:Cold Water:583082",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0UXjgAgML1Ou1115qS8AcU",
+      "name": "Pipe Types:Cold Water:583083",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0M4$H6OqL328l0plxSr09b",
+      "name": "Pipe Types:Cold Water:583084",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki6R",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583085",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3x345hEjD5Fwqx3XS5FoX6",
+      "name": "Pipe Types:Cold Water:583087",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki66",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583088",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3aAgj4w_P2Ne$smzggfnTl",
+      "name": "Pipe Types:Cold Water:583089",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2ieBG4Gh1DIQa7ZXb2oi8o",
+      "name": "Pipe Types:Cold Water:583090",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0XPS3KWmHC7OC$i1ctlY9O",
+      "name": "Pipe Types:Cold Water:583093",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1SRq3HuE13pwZnBXRGgeGt",
+      "name": "Pipe Types:Cold Water:583095",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1UVmT7BTf8QheAEp5dDVTa",
+      "name": "Pipe Types:Cold Water:583096",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0NtcwyHBzBVA6ASoO0BEYM",
+      "name": "Pipe Types:Cold Water:583126",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "334F$_1ATFcOEnhkHXpF8H",
+      "name": "Pipe Types:Cold Water:583127",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3jkeV3AD1BMx8x7G7zTl1H",
+      "name": "Pipe Types:Cold Water:583131",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3_Z$pynDvE9R1ReSaOKaWp",
+      "name": "Pipe Types:Cold Water:583132",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "29A8gevCH65fKb8h6P5mf7",
+      "name": "Pipe Types:Cold Water:583133",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1OEyTFSO5C2eJSasvNDPGj",
+      "name": "Pipe Types:Cold Water:583136",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2YDJEXMqn31fFl22fTcFt2",
+      "name": "Pipe Types:Cold Water:583138",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2qY7ewS_f2yO5fwTEJS58Q",
+      "name": "Pipe Types:Cold Water:583139",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0IamzRD8T2oA1LsIMfP1fJ",
+      "name": "Pipe Types:Cold Water:583142",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2H$8dpDQb3D9SaQ0b8sxE8",
+      "name": "Pipe Types:Cold Water:583143",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3PJiYqXsT02Oi0kQwwGOhc",
+      "name": "Pipe Types:Cold Water:583147",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0I8PbhOvv2HRuGyQC86cre",
+      "name": "Pipe Types:Hot Water:583151",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0l$q_Q7p10DxHIVAvJHlH0",
+      "name": "Pipe Types:Hot Water:583152",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2Y0g0bCIvFP9HX$f5qUZmD",
+      "name": "Pipe Types:Hot Water:583153",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "02N2wL9krBovm5M3KwOR4A",
+      "name": "Pipe Types:Hot Water:583154",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki75",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583155",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki72",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583156",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki73",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583157",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1RvOZVitDEYBVRCEmMn7V3",
+      "name": "Pipe Types:Hot Water:583158",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0gzYXUxDHFqP7b5JH$mCUh",
+      "name": "Pipe Types:Hot Water:583159",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1bWBnyQc59uvKcINVKH5wW",
+      "name": "Pipe Types:Hot Water:583160",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7F",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583161",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7C",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583162",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1VJ$xWvaDCyPV7JxB0awL4",
+      "name": "Pipe Types:Hot Water:583163",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki7A",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583164",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jxYYryxX4Fuq2XyYJ40FG",
+      "name": "Pipe Types:Cold Water:583167",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2umlh9lKHAwBNvLxxvJyxO",
+      "name": "Pipe Types:Cold Water:583169",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0CrVss1BzB4POjRRWkdj3Q",
+      "name": "Pipe Types:Hot Water:583171",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8o",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583172",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2c2qQiAPX9qP3KOI2fPxwl",
+      "name": "Pipe Types:Hot Water:583173",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0$pISesULANgmZSER6w8NA",
+      "name": "Pipe Types:Hot Water:583174",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kjLzEw29FmhXtTK5sjrgr",
+      "name": "Pipe Types:Hot Water:583175",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0A4u4G9Ef3ORVLMRMVjs02",
+      "name": "Pipe Types:Hot Water:583176",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3KC8GoNgD7Fwxg2bXu7reP",
+      "name": "Pipe Types:Hot Water:583177",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8y",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583178",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8z",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583179",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1gDZrw9Nn4GxLJcoro8gId",
+      "name": "Pipe Types:Hot Water:583180",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8x",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583181",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0FWWM4w3b0LBoFb2Ao1juD",
+      "name": "Pipe Types:Hot Water:583182",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3$DOuaWIHDVOLLBabXA$Bh",
+      "name": "Pipe Types:Hot Water:583183",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0SLx5vyQn038d$CEUBbn2J",
+      "name": "Pipe Types:Hot Water:583184",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8d",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583185",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8a",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583186",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2tmq6WQ3rAthTqrGKhtTpX",
+      "name": "Pipe Types:Hot Water:583187",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8Y",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583188",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2MNce606nCzQA7ApC1a9BN",
+      "name": "Pipe Types:Hot Water:583189",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2eeC3YALXF0g8DTx8tHuXy",
+      "name": "Pipe Types:Hot Water:583190",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8X",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583191",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0PXULpczX64PIKCoo0SraV",
+      "name": "Pipe Types:Cold Water:583192",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2ENiXkHcfFlv4go_J8fjOL",
+      "name": "Pipe Types:Cold Water:583194",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2ESy7Y9wzBB9$344X35PG4",
+      "name": "Pipe Types:Cold Water:583196",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Vq1KlUuj7HuLAJ5WqQ1mo",
+      "name": "Pipe Types:Cold Water:583197",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8M",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583200",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2uvbtoNsfBCQXSSATcKQRq",
+      "name": "Pipe Types:Hot Water:583201",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "39mjb7pdb5oRud77XyTXvK",
+      "name": "Pipe Types:Hot Water:583202",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8L",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583203",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8I",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583204",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8J",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583205",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Q0Lq9XfP6IBr_jflKsK4x",
+      "name": "Pipe Types:Cold Water:583206",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1kMaLwobf4HhndwKS2Ki$E",
+      "name": "Pipe Types:Cold Water:583207",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8U",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583208",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3xeF1Tm_D1CAw4QIY7PCUj",
+      "name": "Pipe Types:Cold Water:583210",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8T",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583211",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki8R",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583213",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0LI9E9W69F6AsjSiFfBneB",
+      "name": "Pipe Types:Hot Water:583214",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2g_vxJmqvDS9fa2D9cHuDj",
+      "name": "Pipe Types:Hot Water:583215",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki86",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583216",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3qAFcfi2vFBPft_dJaYPki",
+      "name": "Pipe Types:Hot Water:583217",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki84",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583218",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2VSZV6Pib1TOA1hUz_bVeI",
+      "name": "Pipe Types:Hot Water:583219",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0ARvFE$bLBcuhuNPJ$uK9D",
+      "name": "Pipe Types:Hot Water:583220",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki83",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583221",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki80",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:583222",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki81",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583223",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0rX2FMEGD9bQax1$5lHJEw",
+      "name": "Pipe Types:Cold Water:583224",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "20wTHbnKb9EA4fwB8VzeL$",
+      "name": "Pipe Types:Cold Water:583226",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "31ps69C8n1zPZRB5_DM5yf",
+      "name": "Pipe Types:Cold Water:583228",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1zczzqrir4exXBJzm_Ub2n",
+      "name": "Pipe Types:Cold Water:583229",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9s",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583232",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki9q",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:583234",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1vUeTstH91wexhDsZmvmo8",
+      "name": "Pipe Types:Hot Water:583235",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "30bD7R9311sxlOoRUzrO_L",
+      "name": "Pipe Types:Hot Water:583236",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2LJM_NvS9Bog1qxuJBGQgU",
+      "name": "Pipe Types:Hot Water:583237",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2CYG4Q0Gb7IR_YPkZ96g4V",
+      "name": "Pipe Types:Hot Water:583238",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0$NxBsKq91n8kPqH4KSep1",
+      "name": "Pipe Types:Hot Water:583239",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "31JVWdXP55_QPhWbr39bcg",
+      "name": "Pipe Types:Hot Water:583260",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3R7niF3uX3JvDDRguizdLG",
+      "name": "Pipe Types:Hot Water:583271",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0IWYz6Nx91YhGoaGRcM9Mo",
+      "name": "Pipe Types:Hot Water:583275",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0wUNSm2pv6Kht8HNjOuY2m",
+      "name": "Pipe Types:Hot Water:583295",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5kiA$",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583305",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2qXGXPmQL9D8lj59cp7uxz",
+      "name": "Pipe Types:Hot Water:583310",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2$kWvGjlnF5ee4F23d4sPx",
+      "name": "Pipe Types:Waste:583316",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1SEEl_3N1649G1FNumeBoq",
+      "name": "Pipe Types:Waste:583318",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0tdBYZ_1n4Hwqj0yrnFuz$",
+      "name": "Pipe Types:Waste:583319",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3dGHknFZr6jx2fputwRzpC",
+      "name": "Pipe Types:Waste:583328",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0_dkc9hC11lA4ntVXLyrTT",
+      "name": "Pipe Types:Waste:583332",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1sBpwf_5X5n90HmDYYs$tL",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583536",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "26v8LPLIj65uwlGFWXmFen",
+      "name": "Pipe Types:Hot Water:583544",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1RJe5jpWPALRg1$IKf$Uxg",
+      "name": "Pipe Types:Hot Water:583550",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1sBpwf_5X5n90HmDYYs$qX",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583556",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "24OMkR39L9Zw3MH3ZMFXF_",
+      "name": "Pipe Types:Hot Water:583557",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1sBpwf_5X5n90HmDYYs$qi",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583561",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3zr$u_m2n0jxBYbV00XNqy",
+      "name": "Pipe Types:Hot Water:583610",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0QFgPCxTb72Q4HC6mNIsLy",
+      "name": "Pipe Types:Mechanical Pipe:583745",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3QSoqSDyr33uVQw6Mv4VdG",
+      "name": "Pipe Types:Hot Water:583768",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3xpTxwXl1BHfneBXVqZ5Rl",
+      "name": "Pipe Types:Cold Water:584025",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0EK93A_kr8ju8dLI2XD2lp",
+      "name": "Pipe Types:Cold Water:584048",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1wdfJQuND5cOAzi5rutOTL",
+      "name": "Pipe Types:Mechanical Pipe:584238",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2I6NCAsgrBi8XalP6nyNnI",
+      "name": "Pipe Types:Mechanical Pipe:590599",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGH7C",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:591305",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2FUwszRDj3m8Q_WHiC2wfg",
+      "name": "Pipe Types:Mechanical Pipe:593060",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1nHMR2_t1E38SmHhAQFP1I",
+      "name": "Pipe Types:Mechanical Pipe:593062",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGHYj",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:593064",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "05mq62iBb15hPsYptkXa23",
+      "name": "Pipe Types:Mechanical Pipe:593065",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3xhoSJVrH0iRTALnk5Clh4",
+      "name": "Pipe Types:Cold Water:593072",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGHYn",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:593076",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3Yc7I_f_PDff1FgIkvg84z",
+      "name": "Pipe Types:Hot Water:593196",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGHcT",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:593304",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "12lyffCPD6KATEL_f41LIm",
+      "name": "Pipe Types:Mechanical Pipe:593349",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3dASY0vqTFWOYMHvyqaONI",
+      "name": "Pipe Types:Cold Water:593581",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0FXeTSpnLCUxAk611r0UpS",
+      "name": "Pipe Types:Cold Water:593588",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "103_MwI25DYh9ATqzebEmq",
+      "name": "Pipe Types:Hot Water:593619",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0hrw2POlb2owajHHkf31hs",
+      "name": "Pipe Types:Hot Water:593630",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3UaUDVsHnAEe2eiB_c_KI$",
+      "name": "Pipe Types:Mechanical Pipe:593706",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFuaV",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:593819",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFuaP",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:593821",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "06ulJ2Oc50IxrobZv0yVSR",
+      "name": "Pipe Types:Mechanical Pipe:593822",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1Is120G6v7xOKxTVARBumb",
+      "name": "Pipe Types:Cold Water:593893",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1VltIYtz91U9QZX8sofKE$",
+      "name": "Pipe Types:Hot Water:594105",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFvU5",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:594177",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1nXoYPr3b2CPbRTACmN7Zo",
+      "name": "Pipe Types:Mechanical Pipe:594583",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0WKnW3$Uz7jwk4ZUy10L6u",
+      "name": "Pipe Types:Mechanical Pipe:594590",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0uq3rG9sb5iPszypOTBXZb",
+      "name": "Pipe Types:Mechanical Pipe:594663",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfjo",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:594664",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2qfLXG3Hb148syasj_6_yc",
+      "name": "Pipe Types:Mechanical Pipe:594853",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1VhKqbhf10zhSZj1P_$5Gd",
+      "name": "Pipe Types:Mechanical Pipe:595074",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "04OAg5Hg10Ug3c4kXimFMg",
+      "name": "Pipe Types:Mechanical Pipe:595083",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0xlnP96b11J867b1SiV9ic",
+      "name": "Pipe Types:Mechanical Pipe:595141",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "235DtGn3D5J8_g$P9SiyZe",
+      "name": "Pipe Types:Mechanical Pipe:595154",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfr9",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:595155",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0FE2Puj$T4GgGqrvAsvCB$",
+      "name": "Pipe Types:Waste:600257",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3O0RmHD2f5PRTJ3v1J2h5F",
+      "name": "Pipe Types:Mechanical Pipe:600266",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2xA$eu03z7_AE20NBY7Mer",
+      "name": "Pipe Types:Waste:600272",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "36PHY8l$rBmPsWvnnIIhcd",
+      "name": "Pipe Types:Mechanical Pipe:600279",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0w7dmnzoX3We9JxBx2tEoX",
+      "name": "Pipe Types:Mechanical Pipe:600783",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1Ot3HCb6H0HOhuByNp9ADb",
+      "name": "Pipe Types:Mechanical Pipe:600787",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3ibEvfnB59$hkzExQthg8y",
+      "name": "Pipe Types:Waste:600896",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2zJ3WP6bzE_u5MgDrNcyfs",
+      "name": "Pipe Types:Mechanical Pipe:600911",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "29E4m67s91eu23bfdJvWF$",
+      "name": "Pipe Types:Waste:600913",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1_D4E4zq1Bg9zNGCWzdrEm",
+      "name": "Pipe Types:Mechanical Pipe:600925",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1wNHkBhyD6Kxz6J98Pr8bt",
+      "name": "Pipe Types:Mechanical Pipe:601286",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0ouKetrN53JBNttVyfGkD7",
+      "name": "Pipe Types:PVC:604332",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0wir8qpa98c8is0nQvQCmE",
+      "name": "Pipe Types:PVC:604361",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3j7DiZ01XBivFgt$SbPApz",
+      "name": "Pipe Types:PVC:604556",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o94",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606450",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1oED",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606523",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1oFk",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606552",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1oDk",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606680",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o2N",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606753",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o3m",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606790",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3bKjiAXy59_vE_roBOSCvj",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606821",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0kad3Qs5P7DPrbWgfM1o12",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606964",
+      "type": "IfcFlowFitting",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3iNAWQNdn7O9r5HFShMufP",
+      "name": "Pipe Types:Mechanical Pipe:612977",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1QqjG5BwX7Bu1fwK1U8NdF",
+      "name": "Pipe Types:Mechanical Pipe:612986",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeU",
+      "name": "A201-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeT",
+      "name": "A202-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeO",
+      "name": "A203-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeN",
+      "name": "A204-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeI",
+      "name": "A205-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeH",
+      "name": "B201-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDei",
+      "name": "B202-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeh",
+      "name": "B203-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDec",
+      "name": "B204-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDeb",
+      "name": "B205-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwKv",
+      "name": "A201",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0BnK3jR6z4peLnWdLNz6Ud",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:536357",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwKv"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Da",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575430",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKv"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dg",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575432",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKv"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4on",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575507",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKv"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwKw",
+      "name": "A204",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "0LIWuJDFbE_8GuQmuu68xn",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:549304",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4C_",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575388",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4C4",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575398",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CG",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575410",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "1YLPoi73z0fvdanmaXQreg",
+      "name": "M_Bath Tub:1525 mmx760 mm - Private:1525 mmx760 mm - Private:582924",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4x",
+      "name": "M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582925",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "0Pz783AEDBOhI4t6HcCeBV",
+      "name": "M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582926",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4v",
+      "name": "M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582927",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKw"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwKx",
+      "name": "A203",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "2W7U6tKFT4vf9lgsJlEr9H",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:535063",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cx",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575385",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4C8",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575402",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4De",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575434",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Df",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575435",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Do",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575440",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cve3",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610319",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwKx"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwKy",
+      "name": "A202",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cu",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575386",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1BZbxAG8L6z9EEpSZfugOW",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575392",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "2IG0VrX6zB1x1jfqawxCAz",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575405",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CC",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575406",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CD",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575407",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CJ",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575409",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cvg_",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610482",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cvrw",
+      "name": "M_Telephone Outlet:Telophone Outlet:Telophone Outlet:612214",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKy"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwKz",
+      "name": "B201",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5l",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557519",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwKz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DW",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575426",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dc",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575428",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKz"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4oq",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575510",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwKz"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwK_",
+      "name": "B204",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13FlAS",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557628",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cy",
+      "name": "M_Sconce Light - Sphere:100W - 120V:100W - 120V:575390",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4C6",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575396",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CP",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575419",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4c",
+      "name": "M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582928",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4d",
+      "name": "M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582929",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4a",
+      "name": "M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582930",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "2h405XijT83A$BX7w5ki4b",
+      "name": "M_Bath Tub:1525 mmx760 mm - Private:1525 mmx760 mm - Private:582931",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK_"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwK$",
+      "name": "B203",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cv",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575387",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4C0",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575394",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CS",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575422",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DY",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575424",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4DZ",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575425",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cvgf",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610469",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwK$"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwL0",
+      "name": "B202",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5o",
+      "name": "M_Radiator - Hosted:Readiator - 25:Readiator - 25:557522",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Cr",
+      "name": "M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575383",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4CA",
+      "name": "M_Lighting Switches:Single Pole:Single Pole:575400",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dk",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575436",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Di",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575438",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1K7eM1Qof1dOc9$mY9I4Dj",
+      "name": "M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575439",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4Cvfs",
+      "name": "M_Smoke Detector:Smoke Detector:Smoke Detector:610426",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "1l2cgO2D5FS9t6u8i4CvtJ",
+      "name": "M_Telephone Outlet:Telophone Outlet:Telophone Outlet:612319",
+      "type": "IfcFlowTerminal",
+      "parent": "0CRPz_SEr94Ah74P8LhwL0"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwL1",
+      "name": "A205",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1ZpBelQPb2z91uXg6Q1dzp",
+      "name": "M_Hot Water Boiler - 59-440 kW:147 kW:147 kW:530072",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "221cXITd58Levm6cfe2TIz",
+      "name": "M_Inline Pump - Circulator:3.9 LPS - 0.8 Meter Head:3.9 LPS - 0.8 Meter Head:550094",
+      "type": "IfcFlowMovingDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "0kaVCm0DbBMeMk$CEuGibb",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578414",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpFx",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578420",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIh",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578596",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIf",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:578598",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIe",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578599",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIW",
+      "name": "M_Ball Valve - 50-150 mm:50 mm:50 mm:578607",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIz",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578610",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "09MuOLFfP2PBERh1jIFpIy",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:578611",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFucj",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:593705",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFvQn",
+      "name": "M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:593973",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFvPM",
+      "name": "M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:594130",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "2gWwY8cwDExg6tt0HBFvPt",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:594163",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfqD",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:595095",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL1"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwL2",
+      "name": "B205",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mNFlV"
+    },
+    {
+      "id": "1jQu9wkdr0iwNuem13Fl5i",
+      "name": "M_Hot Water Boiler - 59-440 kW:147 kW:147 kW:557516",
+      "type": "IfcEnergyConversionDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJyZi",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:579165",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJyWD",
+      "name": "M_Ball Valve - 50-150 mm:50 mm:50 mm:579260",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "2lNhgfRZ1DQuhMBHCrJyWE",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:579263",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "2$dTH4D0v6UvzO4e0uyqX5",
+      "name": "M_Inline Pump - Circulator:3.9 LPS - 0.8 Meter Head:3.9 LPS - 0.8 Meter Head:580717",
+      "type": "IfcFlowMovingDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0_PXghGjL3Gw9UlmLSUuaI",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:581164",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0qyCvw_7DFevbJit6TEzge",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:584239",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0qyCvw_7DFevbJit6TEzgt",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:584240",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0qyCvw_7DFevbJit6TEzgs",
+      "name": "M_Transition - Generic:Transition - Generic:Transition - Generic:584241",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "26ty8B$lz1swFlcL0yiXHe",
+      "name": "M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:591225",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGH7F",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:591306",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "2C96hP40rDfhbyo7cW92Jn",
+      "name": "M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:593194",
+      "type": "IfcFlowController",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGHd7",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:593346",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "1LtcpI2_z96RTwNHGZGHd1",
+      "name": "M_Tee - Generic:Tee - Generic:Tee - Generic:593348",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0Rt1BXEtP6E8c0r6LHZfiy",
+      "name": "M_Elbow - Generic:Elbow - Generic:Elbow - Generic:594598",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwL2"
+    },
+    {
+      "id": "0o8nNAbaT5OQLV8C9mLSZW",
+      "name": "Roof",
+      "type": "IfcBuildingStorey",
+      "parent": "0o8nNAbaT5OQLV8CAFemQO"
+    },
+    {
+      "id": "3pumjEMRj8WfnEQMDxBrk9",
+      "name": "Round Duct:Taps:603399",
+      "type": "IfcFlowSegment",
+      "parent": "0o8nNAbaT5OQLV8C9mLSZW"
+    },
+    {
+      "id": "3YWx8nQAj0DhPfgLl9dDey",
+      "name": "R301-M",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mLSZW"
+    },
+    {
+      "id": "0CRPz_SEr94Ah74P8LhwLP",
+      "name": "R301",
+      "type": "IfcSpace",
+      "parent": "0o8nNAbaT5OQLV8C9mLSZW"
+    },
+    {
+      "id": "3RBA0TgZf479N6ijjYOyFM",
+      "name": "M_Centrifugal Fan -  Rooftop  - Upblast:991-1905 LPS:991-1905 LPS:602113",
+      "type": "IfcFlowMovingDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    },
+    {
+      "id": "1IsRfR0mPFRvgUDp4w57dD",
+      "name": "M_Centrifugal Fan -  Rooftop  - Upblast:991-1905 LPS:991-1905 LPS:602396",
+      "type": "IfcFlowMovingDevice",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    },
+    {
+      "id": "31siXJVEj1gxTKyEHEwcIO",
+      "name": "M_Rectangular to Round Transition - Angle:45 Degree:45 Degree:602990",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    },
+    {
+      "id": "3KNPGroYLBcOSeaFL19y9c",
+      "name": "M_Rectangular to Round Transition - Angle:45 Degree:45 Degree:603490",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    },
+    {
+      "id": "1v5KPRBUvBaQIesqxyQrjw",
+      "name": "M_Roof Drain:380 mm Strainer - 25 mm Drain:380 mm Strainer - 25 mm Drain:610131",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    },
+    {
+      "id": "0TaaQqRmbBOxZmV0aBfEjd",
+      "name": "M_Roof Drain:380 mm Strainer - 25 mm Drain:380 mm Strainer - 25 mm Drain:610145",
+      "type": "IfcFlowFitting",
+      "parent": "0CRPz_SEr94Ah74P8LhwLP"
+    }
+  ]
+}

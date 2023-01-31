@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
+# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
 #
 # Converting file: beam-standard-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,76 +11,76 @@
 
 # IfcConvert
 
-~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/beam-standard-case.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/beam-standard-case.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (18 objects)                                
 
 Log:
-[Notice] [2022-10-07 09:44:27] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20Qwnsj} No material and surface styles for:
+[Notice] [2023-01-31 18:49:05] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-01-31 18:49:05] {0juf4qyggSI8rxA20Qwnsj} No material and surface styles for:
 #1000=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnsj',$,'A-1','IPE220','Beam',#1001,#1010,'A-1',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20sznsj} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8rxA20sznsj} No material and surface styles for:
 #1100=IfcBeamStandardCase('0juf4qyggSI8rxA20sznsj',$,'A-2','IPE220','Beam',#1101,#1110,'A-2',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8s4A20sznsj} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8s4A20sznsj} No material and surface styles for:
 #1200=IfcBeamStandardCase('0juf4qyggSI8s4A20sznsj',$,'A-3','IPE220','Beam',#1201,#1210,'A-3',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8s4A20sznw6} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8s4A20sznw6} No material and surface styles for:
 #1300=IfcBeamStandardCase('0juf4qyggSI8s4A20sznw6',$,'A-4','IPE220','Beam',#1301,#1310,'A-4',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20Qwnab} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8rxA20Qwnab} No material and surface styles for:
 #1400=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnab',$,'A-5','IPE220','Beam',#1401,#1410,'A-5',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20Qwng1} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8rxA20Qwng1} No material and surface styles for:
 #1500=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwng1',$,'A-6','IPE220','Beam',#1501,#1510,'A-6',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20Qwn3s} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8rxA20Qwn3s} No material and surface styles for:
 #1600=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwn3s',$,'A-7','IPE220','Beam',#1601,#1610,'A-7',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8rxA20Qwnlq} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8rxA20Qwnlq} No material and surface styles for:
 #1700=IfcBeamStandardCase('0juf4qyggSI8rxA20Qwnlq',$,'A-8','IPE220','Beam',#1701,#1710,'A-8',$)
-[Warning] [2022-10-07 09:44:27] {0juf4qyggSI8s4A20sznrt} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {0juf4qyggSI8s4A20sznrt} No material and surface styles for:
 #1800=IfcBeamStandardCase('0juf4qyggSI8s4A20sznrt',$,'A-9','IPE220','Beam',#1801,#1810,'A-9',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYoB7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYoB7Hvx$4VHzijYi} No material and surface styles for:
 #2000=IfcBeamStandardCase('3QbcAsYoB7Hvx$4VHzijYi',$,'B-1','1/2IPE300','Beam',#2001,#2010,'B-1',$)
-[Warning] [2022-10-07 09:44:27] {3Qb5gsYoB7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3Qb5gsYoB7Hvx$4VHzijYi} No material and surface styles for:
 #2100=IfcBeamStandardCase('3Qb5gsYoB7Hvx$4VHzijYi',$,'B-2','1/2IPE300','Beam',#2101,#2110,'B-2',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzijYi} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzijYi} No material and surface styles for:
 #2200=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijYi',$,'B-3','1/2IPE300','Beam',#2201,#2210,'B-3',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzijGT} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzijGT} No material and surface styles for:
 #2300=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijGT',$,'B-4','1/2IPE300','Beam',#2301,#2310,'B-4',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzijdF} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzijdF} No material and surface styles for:
 #2400=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijdF',$,'B-5','1/2IPE300','Beam',#2401,#2410,'B-5',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzij3V} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzij3V} No material and surface styles for:
 #2500=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzij3V',$,'B-6','1/2IPE300','Beam',#2501,#2510,'B-6',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzij71} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzij71} No material and surface styles for:
 #2600=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzij71',$,'B-7','1/2IPE300','Beam',#2601,#2610,'B-7',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzijvb} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzijvb} No material and surface styles for:
 #2700=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijvb',$,'B-8','1/2IPE300','Beam',#2701,#2710,'B-8',$)
-[Warning] [2022-10-07 09:44:27] {3QbcAsYsg7Hvx$4VHzijp1} No material and surface styles for:
+[Warning] [2023-01-31 18:49:06] {3QbcAsYsg7Hvx$4VHzijp1} No material and surface styles for:
 #2800=IfcBeamStandardCase('3QbcAsYsg7Hvx$4VHzijp1',$,'B-9','1/2IPE300','Beam',#2801,#2810,'B-9',$)
 
 
-Conversion took 0 seconds
+Conversion took 1 second
 
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/beam-standard-case.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/beam-standard-case.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.xkt -l
-[convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 103.82 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 10.88 kB
+[convert2xkt] XKT size: 9.05 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 9.54
-[convert2xkt] Conversion time: 0.11 s
+[convert2xkt] Compression ratio: 11.47
+[convert2xkt] Conversion time: 0.10 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 18
@@ -92,5 +92,5 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 2700
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-standard-case/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.

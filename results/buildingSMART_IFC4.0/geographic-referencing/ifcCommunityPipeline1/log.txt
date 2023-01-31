@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Fri Oct 07 2022 09:34:21 GMT+0200 (Central European Summer Time)
+# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
 #
 # Converting file: geographic-referencing.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -11,14 +11,14 @@
 
 # IfcConvert
 
-~/xeolabs/xeokit/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
+~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb --use-element-guids --no-progress  --force-space-transparency 0.4
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2022-10-07 09:44:49] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2022-10-07 09:44:49] {0rBru4syGxGOZb$M8kVJuS} No material and surface styles for:
+[Notice] [2023-01-31 18:49:32] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-01-31 18:49:32] {0rBru4syGxGOZb$M8kVJuS} No material and surface styles for:
 #149=IfcBuildingElementProxy('0rBru4syGxGOZb$M8kVJuS',#100005,'Geographic Position',$,$,#121,#5037,$,$)
 
 
@@ -27,26 +27,26 @@ Conversion took 0 seconds
 
 # xeokit-metadata
 
-xeokit-metadata /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json
+xeokit-metadata /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json
 
 
 # convert2xkt
 
-node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.xkt -l
-[convert2xkt] Running convert2xkt v1.1.4...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb
+node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.xkt -l
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.glb
 [convert2xkt] Input file size: 26.86 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 10.26 kB
+[convert2xkt] XKT size: 8.06 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.62
-[convert2xkt] Conversion time: 0.08 s
+[convert2xkt] Compression ratio: 3.33
+[convert2xkt] Conversion time: 0.13 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -58,5 +58,5 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 593
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit/xeokit-model-conversion-tests/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCommunityPipeline1/model.xkt
 [convert2xkt] Done.
