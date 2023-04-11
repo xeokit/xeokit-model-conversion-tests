@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-straight-i-shape-tessellated.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,7 +17,7 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:07] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2023-04-11 18:59:29] exclude entities IfcOpeningElement IfcSpace
 
 
 Conversion took 1 second
@@ -44,7 +44,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] XKT size: 42.54 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 7.72
-[convert2xkt] Conversion time: 0.26 s
+[convert2xkt] Conversion time: 0.23 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

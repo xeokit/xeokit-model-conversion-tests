@@ -1,0 +1,14 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Revit/rme_advanced_sample_project.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "2.7.6",
+    "conversionDate": "2023-04-11 18:53:31",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model_1.json"
+    ]
+}

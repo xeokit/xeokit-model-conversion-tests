@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: air-terminal-element.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,13 +17,13 @@ Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:48:48] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:48:48] No plane angle unit encountered
-[Error] [2023-01-31 18:48:48] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
-[Error] [2023-01-31 18:48:48] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
-[Warning] [2023-01-31 18:48:48] {1mF0_JbLzBtAZ0GUOlCFEx} No material and surface styles for:
+[Notice] [2023-04-11 18:59:10] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:59:10] No plane angle unit encountered
+[Error] [2023-04-11 18:59:10] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
+[Error] [2023-04-11 18:59:10] {1mF0_JbLzBtAZ0GUOlCFEx} Failed to process profile fillets
+[Warning] [2023-04-11 18:59:10] {1mF0_JbLzBtAZ0GUOlCFEx} No material and surface styles for:
 #331=IfcAirTerminal('1mF0_JbLzBtAZ0GUOlCFEx',#209,$,$,$,#376,#336,$,.NOTDEFINED.)
-[Warning] [2023-01-31 18:48:48] {3T2CbFzwP0jP3Q12nB1pFu} No material and surface styles for:
+[Warning] [2023-04-11 18:59:10] {3T2CbFzwP0jP3Q12nB1pFu} No material and surface styles for:
 #381=IfcDuctSegment('3T2CbFzwP0jP3Q12nB1pFu',#209,'Duct Segment #1',$,$,#388,#395,$,.FLEXIBLESEGMENT.)
 
 

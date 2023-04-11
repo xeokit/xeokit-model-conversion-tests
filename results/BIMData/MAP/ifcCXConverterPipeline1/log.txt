@@ -3,32 +3,33 @@
 #
 # Converting file: MAP.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
 # ifc2gltf
 
-~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/BIMData/MAP.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.json
+~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/BIMData/MAP.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.json
 
--- IFC to GLTF converter -- version: 2.6.5 ------------
-Loading file "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/BIMData/MAP.ifc":   
-Converting IFC geometry: 
-Exporting to gltf: 
-Coordinates accessors: 3320, reused: 2241
-Indices accessors: 137, reused: 5424
-Exporting meta data: 
-done in 12 seconds
+__ IFC to GLTF converter __ version: 2.7.6 ____________
+Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc"Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 5%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 6%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 7%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 8%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 9%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 10%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 11%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 12%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 13%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 14%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 15%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 16%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 17%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 18%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 19%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 20%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 21%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 22%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 23%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 24%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 30%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 33%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 36%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 39%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 42%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 45%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 48%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 52%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 55%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 58%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 61%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 64%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 67%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 69%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 72%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 75%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 78%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 81%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 85%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 88%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 100%
+Accessors: 2558, reused: 4955
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 100%
+Accessors: 461, reused: 664
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 152 seconds, using 32 threads
 
 
 
 # convert2xkt
 
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.xkt -l 
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb.xkt -l 
 [convert2xkt] Running convert2xkt v1.1.7...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 8969.21 kB
+[convert2xkt] Input file size: 7001.84 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -36,20 +37,52 @@ done in 12 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2079.70 kB
+[convert2xkt] XKT size: 1959.05 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.31
-[convert2xkt] Conversion time: 4.01 s
+[convert2xkt] Compression ratio: 3.57
+[convert2xkt] Conversion time: 3.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1950
-[convert2xkt] Converted geometries: 5561
+[convert2xkt] Converted drawable objects: 1781
+[convert2xkt] Converted geometries: 5067
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 255042
-[convert2xkt] Converted vertices: 765126
+[convert2xkt] Converted triangles: 229404
+[convert2xkt] Converted vertices: 688212
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb.xkt
+[convert2xkt] Done.
+
+
+# convert2xkt
+
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.glb.xkt -l 
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.glb
+[convert2xkt] Input file size: 1286.48 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 424.56 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.03
+[convert2xkt] Conversion time: 0.86 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 363
+[convert2xkt] Converted geometries: 696
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 33886
+[convert2xkt] Converted vertices: 101658
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/MAP/ifcCXConverterPipeline1/model_1.glb.xkt
 [convert2xkt] Done.

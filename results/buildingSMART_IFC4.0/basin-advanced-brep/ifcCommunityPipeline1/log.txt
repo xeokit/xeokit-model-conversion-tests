@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: basin-advanced-brep.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,12 +17,12 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:48:50] exclude entities IfcOpeningElement IfcSpace
-[Notice] [2023-01-31 18:48:50] {1li7KIQzH9cPSAQD2J80Oc} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2023-04-11 18:59:13] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2023-04-11 18:59:13] {1li7KIQzH9cPSAQD2J80Oc} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #265=IfcAdvancedFace((#247),#248,.F.)
-[Notice] [2023-01-31 18:48:50] {1li7KIQzH9cPSAQD2J80Oc} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
+[Notice] [2023-04-11 18:59:13] {1li7KIQzH9cPSAQD2J80Oc} Unknown message invoked with the keyword FixAdvFace.FixOrientation.MSG5
 #289=IfcAdvancedFace((#271),#272,.F.)
-[Warning] [2023-01-31 18:48:50] {1li7KIQzH9cPSAQD2J80Oc} No material and surface styles for:
+[Warning] [2023-04-11 18:59:13] {1li7KIQzH9cPSAQD2J80Oc} No material and surface styles for:
 #328=IfcSanitaryTerminal('1li7KIQzH9cPSAQD2J80Oc',$,$,$,$,#55,#329,$,.NOTDEFINED.)
 
 

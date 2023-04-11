@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-extrusion-paths.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,12 +17,12 @@ Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:13] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:49:13] {00CM__ZyPDwgWTGJSh5i9o} No material and surface styles for:
+[Notice] [2023-04-11 18:59:34] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:59:34] {00CM__ZyPDwgWTGJSh5i9o} No material and surface styles for:
 #210=IfcBeamStandardCase('00CM__ZyPDwgWTGJSh5i9o',$,'Extrusion',$,$,#211,#229,$,$)
-[Warning] [2023-01-31 18:49:13] {3HvTzTCuD1eO$PIsKnJzHR} Warning Axis and SweptArea intersecting
+[Warning] [2023-04-11 18:59:34] {3HvTzTCuD1eO$PIsKnJzHR} Warning Axis and SweptArea intersecting
 #245=IfcRevolvedAreaSolid(#203,#246,#250,0.789582239399523)
-[Warning] [2023-01-31 18:49:13] {3HvTzTCuD1eO$PIsKnJzHR} No material and surface styles for:
+[Warning] [2023-04-11 18:59:34] {3HvTzTCuD1eO$PIsKnJzHR} No material and surface styles for:
 #230=IfcBeamStandardCase('3HvTzTCuD1eO$PIsKnJzHR',$,'Revolution',$,$,#231,#254,$,$)
 
 
@@ -50,7 +50,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] XKT size: 11.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.92
-[convert2xkt] Conversion time: 0.09 s
+[convert2xkt] Conversion time: 0.08 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2

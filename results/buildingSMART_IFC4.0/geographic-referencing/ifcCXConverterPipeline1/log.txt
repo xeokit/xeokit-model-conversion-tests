@@ -3,29 +3,28 @@
 #
 # Converting file: geographic-referencing.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
 # ifc2gltf
 
-~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.json
+~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.json
 
--- IFC to GLTF converter -- version: 2.6.5 ------------
-Loading file "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/geographic-referencing.ifc":   
-Converting IFC geometry: 
-Exporting to gltf: 
-Coordinates accessors: 2, reused: 0
-Indices accessors: 2, reused: 0
-Exporting meta data: 
-done in 2 seconds
+__ IFC to GLTF converter __ version: 2.7.6 ____________
+Loading file "/home/lindsay/xe...hic-referencing.ifc"Loading file "/home/lindsay/xe...hic-referencing.ifc": 5%Loading file "/home/lindsay/xe...hic-referencing.ifc": 30%Loading file "/home/lindsay/xe...hic-referencing.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 59%Exporting to gltf: 68%Exporting to gltf: 77%Exporting to gltf: 86%Exporting to gltf: 95%Exporting to gltf: 100%
+Accessors: 4, reused: 0
+Exporting meta dataExporting meta data: 100%
+done in 2 seconds, using 32 threads
 
 
 
 # convert2xkt
 
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.xkt -l 
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb.xkt -l 
 [convert2xkt] Running convert2xkt v1.1.7...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb
 [convert2xkt] Input file size: 5.40 kB
@@ -36,10 +35,10 @@ done in 2 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1.34 kB
+[convert2xkt] XKT size: 1.35 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.01
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Compression ratio: 4.00
+[convert2xkt] Conversion time: 0.03 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -51,5 +50,5 @@ done in 2 seconds
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/model.glb.xkt
 [convert2xkt] Done.

@@ -3,29 +3,28 @@
 #
 # Converting file: column-extruded-solid.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
 # ifc2gltf
 
-~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.json
+~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.json
 
--- IFC to GLTF converter -- version: 2.6.5 ------------
-Loading file "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc":   
-Converting IFC geometry: 
-Exporting to gltf: 
-Coordinates accessors: 0, reused: 0
-Indices accessors: 0, reused: 0
-Exporting meta data: 
-done in 2 seconds
+__ IFC to GLTF converter __ version: 2.7.6 ____________
+Loading file "/home/lindsay/xe...-extruded-solid.ifc"Loading file "/home/lindsay/xe...-extruded-solid.ifc": 5%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 30%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 100%
+Accessors: 0, reused: 0
+Exporting meta dataExporting meta data: 100%
+done in 1 seconds, using 32 threads
 
 
 
 # convert2xkt
 
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.xkt -l 
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb.xkt -l 
 [convert2xkt] Running convert2xkt v1.1.7...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb
 [convert2xkt] Input file size: 0.64 kB
@@ -36,10 +35,10 @@ done in 2 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 0.53 kB
+[convert2xkt] XKT size: 0.52 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.23
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Conversion time: 0.02 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -51,5 +50,5 @@ done in 2 seconds
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/model.glb.xkt
 [convert2xkt] Done.

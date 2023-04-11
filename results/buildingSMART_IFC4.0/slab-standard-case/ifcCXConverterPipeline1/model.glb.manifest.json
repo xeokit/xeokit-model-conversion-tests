@@ -1,0 +1,12 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/slab-standard-case.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "2.7.6",
+    "conversionDate": "2023-04-11 19:00:07",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/slab-standard-case/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/slab-standard-case/ifcCXConverterPipeline1/model.json"
+    ]
+}

@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: wall-standard-case.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:50:09] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:50:09] {0czCsOQ5z4dg8QGBRFInu2} No material and surface styles for:
+[Notice] [2023-04-11 19:00:22] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 19:00:22] {0czCsOQ5z4dg8QGBRFInu2} No material and surface styles for:
 #302=IfcWallStandardCase('0czCsOQ5z4dg8QGBRFInu2',$,$,$,$,#305,#320,$,$)
 
 

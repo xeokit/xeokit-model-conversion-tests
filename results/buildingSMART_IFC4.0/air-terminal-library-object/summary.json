@@ -1,1 +1,1 @@
-{"pipelines":{"ifcCommunityPipeline1":{"xktConvertedOK":false,"glbConvertedOK":false,"jsonConvertedOK":false},"ifcCXConverterPipeline1":{"xktConvertedOK":false,"glbConvertedOK":false,"jsonConvertedOK":false}}}
+{"pipelines":{"ifcCommunityPipeline1":{"xktConvertedOK":false,"glbConvertedOK":false,"jsonConvertedOK":false,"xktManifest":{"xktFiles":[],"glbFiles":[],"metadataFiles":[]}},"ifcCXConverterPipeline1":{"xktConvertedOK":true,"glbConvertedOK":true,"jsonConvertedOK":true,"xktManifest":{"xktFiles":["model.glb.xkt"],"glbFiles":["model.glb"],"metadataFiles":["model.json"]}}}}

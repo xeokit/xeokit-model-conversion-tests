@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: auto-geolocation.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,13 +17,13 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:44:41] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:44:41] {0F$Pk9LP57qh205akVlNyn} No material and surface styles for:
+[Notice] [2023-04-11 18:53:51] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:53:51] {0F$Pk9LP57qh205akVlNyn} No material and surface styles for:
 #63=IfcPlate('0F$Pk9LP57qh205akVlNyn',#5,'1780 x 270 PRECAST WALL','None','PLATE',#47,#62,$)
-[Notice] [2023-01-31 18:44:41] {0F$Pk9LP57qh205akVlNyn} Used fuzziness: 0.000100
-[Notice] [2023-01-31 18:44:41] {0F$Pk9LP57qh205akVlNyn} Operand A 1/1 is an extrusion
-[Notice] [2023-01-31 18:44:41] {0F$Pk9LP57qh205akVlNyn} Operand B 1/1 is an extrusion
-[Notice] [2023-01-31 18:44:41] {0F$Pk9LP57qh205akVlNyn} No second operands can be processed as 2D inner bounds. Retrying in 3D.
+[Notice] [2023-04-11 18:53:51] {0F$Pk9LP57qh205akVlNyn} Used fuzziness: 0.000100
+[Notice] [2023-04-11 18:53:51] {0F$Pk9LP57qh205akVlNyn} Operand A 1/1 is an extrusion
+[Notice] [2023-04-11 18:53:51] {0F$Pk9LP57qh205akVlNyn} Operand B 1/1 is an extrusion
+[Notice] [2023-04-11 18:53:51] {0F$Pk9LP57qh205akVlNyn} No second operands can be processed as 2D inner bounds. Retrying in 3D.
 
 
 Conversion took 0 seconds

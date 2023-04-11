@@ -3,32 +3,31 @@
 #
 # Converting file: Duplex_MEP_20110907_optimized.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
 # ifc2gltf
 
-~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.json
+~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.json
 
--- IFC to GLTF converter -- version: 2.6.5 ------------
-Loading file "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized.ifc":   
-Converting IFC geometry: 
-Exporting to gltf: 
-Coordinates accessors: 470, reused: 567
-Indices accessors: 47, reused: 990
-Exporting meta data: 
-done in 7 seconds
+__ IFC to GLTF converter __ version: 2.7.6 ____________
+Loading file "/home/lindsay/xe...10907_optimized.ifc"Loading file "/home/lindsay/xe...10907_optimized.ifc": 5%Loading file "/home/lindsay/xe...10907_optimized.ifc": 6%Loading file "/home/lindsay/xe...10907_optimized.ifc": 7%Loading file "/home/lindsay/xe...10907_optimized.ifc": 8%Loading file "/home/lindsay/xe...10907_optimized.ifc": 9%Loading file "/home/lindsay/xe...10907_optimized.ifc": 10%Loading file "/home/lindsay/xe...10907_optimized.ifc": 11%Loading file "/home/lindsay/xe...10907_optimized.ifc": 12%Loading file "/home/lindsay/xe...10907_optimized.ifc": 13%Loading file "/home/lindsay/xe...10907_optimized.ifc": 14%Loading file "/home/lindsay/xe...10907_optimized.ifc": 15%Loading file "/home/lindsay/xe...10907_optimized.ifc": 16%Loading file "/home/lindsay/xe...10907_optimized.ifc": 17%Loading file "/home/lindsay/xe...10907_optimized.ifc": 18%Loading file "/home/lindsay/xe...10907_optimized.ifc": 19%Loading file "/home/lindsay/xe...10907_optimized.ifc": 20%Loading file "/home/lindsay/xe...10907_optimized.ifc": 21%Loading file "/home/lindsay/xe...10907_optimized.ifc": 22%Loading file "/home/lindsay/xe...10907_optimized.ifc": 23%Loading file "/home/lindsay/xe...10907_optimized.ifc": 24%Loading file "/home/lindsay/xe...10907_optimized.ifc": 30%Loading file "/home/lindsay/xe...10907_optimized.ifc": 33%Loading file "/home/lindsay/xe...10907_optimized.ifc": 35%Loading file "/home/lindsay/xe...10907_optimized.ifc": 39%Loading file "/home/lindsay/xe...10907_optimized.ifc": 42%Loading file "/home/lindsay/xe...10907_optimized.ifc": 45%Loading file "/home/lindsay/xe...10907_optimized.ifc": 47%Loading file "/home/lindsay/xe...10907_optimized.ifc": 50%Loading file "/home/lindsay/xe...10907_optimized.ifc": 53%Loading file "/home/lindsay/xe...10907_optimized.ifc": 55%Loading file "/home/lindsay/xe...10907_optimized.ifc": 58%Loading file "/home/lindsay/xe...10907_optimized.ifc": 61%Loading file "/home/lindsay/xe...10907_optimized.ifc": 63%Loading file "/home/lindsay/xe...10907_optimized.ifc": 67%Loading file "/home/lindsay/xe...10907_optimized.ifc": 70%Loading file "/home/lindsay/xe...10907_optimized.ifc": 72%Loading file "/home/lindsay/xe...10907_optimized.ifc": 75%Loading file "/home/lindsay/xe...10907_optimized.ifc": 78%Loading file "/home/lindsay/xe...10907_optimized.ifc": 81%Loading file "/home/lindsay/xe...10907_optimized.ifc": 83%Loading file "/home/lindsay/xe...10907_optimized.ifc": 86%Loading file "/home/lindsay/xe...10907_optimized.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 29%Converting IFC geometry: 33%Converting IFC geometry: 42%Converting IFC geometry: 47%Converting IFC geometry: 53%Converting IFC geometry: 57%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 100%
+Accessors: 508, reused: 997
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 15 seconds, using 32 threads
 
 
 
 # convert2xkt
 
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.xkt -l 
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb.xkt -l 
 [convert2xkt] Running convert2xkt v1.1.7...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 3938.94 kB
+[convert2xkt] Input file size: 3970.54 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -36,20 +35,20 @@ done in 7 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1572.58 kB
+[convert2xkt] XKT size: 1571.85 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.50
-[convert2xkt] Conversion time: 2.95 s
+[convert2xkt] Compression ratio: 2.53
+[convert2xkt] Conversion time: 2.57 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 947
 [convert2xkt] Converted geometries: 1037
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 333634
-[convert2xkt] Converted vertices: 1000902
+[convert2xkt] Converted triangles: 336512
+[convert2xkt] Converted vertices: 1009536
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/model.glb.xkt
 [convert2xkt] Done.

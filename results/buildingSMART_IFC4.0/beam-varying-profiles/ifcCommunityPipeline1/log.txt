@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-profiles.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,10 +17,10 @@ Creating geometry...
 Done creating geometry (2 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:15] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:49:15] {3jBl1CX_54IhgRT3DV2Tbh} No material and surface styles for:
+[Notice] [2023-04-11 18:59:36] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:59:36] {3jBl1CX_54IhgRT3DV2Tbh} No material and surface styles for:
 #210=IfcBeamStandardCase('3jBl1CX_54IhgRT3DV2Tbh',$,'IPE200',$,$,#211,#225,$,$)
-[Warning] [2023-01-31 18:49:15] {1jfH$sd7T6QP28910X4fYG} No material and surface styles for:
+[Warning] [2023-04-11 18:59:36] {1jfH$sd7T6QP28910X4fYG} No material and surface styles for:
 #307=IfcBeamStandardCase('1jfH$sd7T6QP28910X4fYG',$,'CHS219.1x6.3',$,$,#308,#322,$,$)
 
 
@@ -48,7 +48,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] XKT size: 4.17 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.23
-[convert2xkt] Conversion time: 0.09 s
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2

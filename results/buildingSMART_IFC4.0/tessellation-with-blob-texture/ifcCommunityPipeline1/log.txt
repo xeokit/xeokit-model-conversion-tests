@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: tessellation-with-blob-texture.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,7 +17,7 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:59] exclude entities IfcOpeningElement IfcSpace
+[Notice] [2023-04-11 19:00:13] exclude entities IfcOpeningElement IfcSpace
 
 
 Conversion took 0 seconds

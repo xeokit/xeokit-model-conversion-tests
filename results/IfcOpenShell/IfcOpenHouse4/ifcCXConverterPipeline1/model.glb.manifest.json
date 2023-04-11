@@ -1,0 +1,12 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/IfcOpenShell/IfcOpenHouse4.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "2.7.6",
+    "conversionDate": "2023-04-11 18:51:24",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse4/ifcCXConverterPipeline1/model.json"
+    ]
+}

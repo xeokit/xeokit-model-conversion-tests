@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: structural-curve-member.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -15,16 +15,16 @@
 IfcOpenShell IfcConvert v0.7.0-e508fb44 (OCC 7.5.3)
 
 Log:
-[Notice] [2023-01-31 18:49:55] exclude entities IfcOpeningElement IfcSpace
-[Error] [2023-01-31 18:49:55] {3539fAVu96i8mFr0cgUqeI} No operation defined for:
+[Notice] [2023-04-11 19:00:09] exclude entities IfcOpeningElement IfcSpace
+[Error] [2023-04-11 19:00:09] {3539fAVu96i8mFr0cgUqeI} No operation defined for:
 #233=IfcVertexPoint(#232)
-[Error] [2023-01-31 18:49:55] {2mc6ibF258HPIpTmqg6DSl} No operation defined for:
+[Error] [2023-04-11 19:00:09] {2mc6ibF258HPIpTmqg6DSl} No operation defined for:
 #244=IfcVertexPoint(#243)
-[Error] [2023-01-31 18:49:55] {1dqi3aUQP3yeww5muaF15h} No operation defined for:
+[Error] [2023-04-11 19:00:09] {1dqi3aUQP3yeww5muaF15h} No operation defined for:
 #268=IfcVertexPoint(#267)
-[Error] [2023-01-31 18:49:55] {0IHrRf6abAZwDys7n7fbS2} No operation defined for:
+[Error] [2023-04-11 19:00:09] {0IHrRf6abAZwDys7n7fbS2} No operation defined for:
 #277=IfcVertexPoint(#276)
-[Notice] [2023-01-31 18:49:55] No geometrical elements found or none succesfully converted
+[Notice] [2023-04-11 19:00:09] No geometrical elements found or none succesfully converted
 
 
 

@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: IfcOpenHouse4.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,76 +17,76 @@ Creating geometry...
 Done creating geometry (35 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:42:11] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Deprecated usage of
+[Notice] [2023-04-11 18:51:23] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand A 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B 1/2 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B 2/2 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Intersecting boundaries
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3g46_woBL6sugXeY5_WP6n} Processed fully in 2D
-[Warning] [2023-01-31 18:42:11] {2W4bl$KK1Brv_UEOkAThqU} Deprecated usage of
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Operand A 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Operand B 1/2 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Operand B 2/2 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Intersecting boundaries
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3g46_woBL6sugXeY5_WP6n} Processed fully in 2D
+[Warning] [2023-04-11 18:51:23] {2W4bl$KK1Brv_UEOkAThqU} Deprecated usage of
 #97=IfcPresentationStyleAssignment((#96))
-[Warning] [2023-01-31 18:42:11] {2KoBar2pfAWBou8q$ldGHy} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {2KoBar2pfAWBou8q$ldGHy} Deprecated usage of
 #195=IfcPresentationStyleAssignment((#194))
-[Warning] [2023-01-31 18:42:11] {3xUPAVO39FGgNkCUQqf4JV} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {3xUPAVO39FGgNkCUQqf4JV} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/2 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 2/2 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
-[Warning] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Deprecated usage of
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/2 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B 2/2 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
+[Warning] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
-[Warning] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Deprecated usage of
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand A 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Intersecting boundaries
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {3hw7qrktPAl8j6w3qKhwKm} Processed fully in 2D
+[Warning] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Deprecated usage of
 #69=IfcPresentationStyleAssignment((#68))
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand A 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand B 1/1 is an extrusion
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Operand B creates a through hole
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Intersecting boundaries
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
-[Notice] [2023-01-31 18:42:11] {1hwEPyGUD1vwPpm508N9dQ} Processed fully in 2D
-[Warning] [2023-01-31 18:42:11] {3bqf5ZY_nDpfb1hfmOkxFk} Deprecated usage of
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Operand A 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Operand B 1/1 is an extrusion
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Operand B creates a through hole
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Intersecting boundaries
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Used fuzziness: 0.000000
+[Notice] [2023-04-11 18:51:23] {1hwEPyGUD1vwPpm508N9dQ} Processed fully in 2D
+[Warning] [2023-04-11 18:51:23] {3bqf5ZY_nDpfb1hfmOkxFk} Deprecated usage of
 #2329=IfcPresentationStyleAssignment((#2328))
-[Warning] [2023-01-31 18:42:11] {2Ab2jpYsXCGu4_o2TnJmpB} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {2Ab2jpYsXCGu4_o2TnJmpB} Deprecated usage of
 #97=IfcPresentationStyleAssignment((#96))
-[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2023-01-31 18:42:11] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0Tif_$wI1FwAwq$OJt24I8} Deprecated usage of
 #2446=IfcPresentationStyleAssignment((#2445))
-[Warning] [2023-01-31 18:42:11] {1DDgU0hLvBH8oWeOKX3GI2} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {1DDgU0hLvBH8oWeOKX3GI2} Deprecated usage of
 #2483=IfcPresentationStyleAssignment((#2482))
-[Warning] [2023-01-31 18:42:11] {2LgB4q_MXBK9HwUSNOlfaz} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {2LgB4q_MXBK9HwUSNOlfaz} Deprecated usage of
 #2483=IfcPresentationStyleAssignment((#2482))
-[Warning] [2023-01-31 18:42:11] {3wAl_gjCj9ZRWv12kmFW1U} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {3wAl_gjCj9ZRWv12kmFW1U} Deprecated usage of
 #2591=IfcPresentationStyleAssignment((#2590))
-[Warning] [2023-01-31 18:42:11] {0p8HXuwiD3yBz1RJLzKo7o} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0p8HXuwiD3yBz1RJLzKo7o} Deprecated usage of
 #2664=IfcPresentationStyleAssignment((#2663))
-[Warning] [2023-01-31 18:42:11] {23dVSDsxXCPhtqOSjMZ_H9} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {23dVSDsxXCPhtqOSjMZ_H9} Deprecated usage of
 #2737=IfcPresentationStyleAssignment((#2736))
-[Warning] [2023-01-31 18:42:11] {0JwnnKhZr3694nxJ1extNw} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {0JwnnKhZr3694nxJ1extNw} Deprecated usage of
 #2810=IfcPresentationStyleAssignment((#2809))
-[Warning] [2023-01-31 18:42:11] {3vhbFRmyXDouRftZl4AXgJ} Deprecated usage of
+[Warning] [2023-04-11 18:51:23] {3vhbFRmyXDouRftZl4AXgJ} Deprecated usage of
 #2883=IfcPresentationStyleAssignment((#2882))
 
 

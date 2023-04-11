@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: Duplex_MEP_20110907.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,1060 +17,1060 @@ Creating geometry...
 Done creating geometry (926 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:41:21] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:41:22] Precision lower than 0.0000001 meter not enforced
-[Warning] [2023-01-31 18:41:22] {1ZpBelQPb2z91uXg6Q1dzp} No material and surface styles for:
+[Notice] [2023-04-11 18:49:57] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:49:58] Precision lower than 0.0000001 meter not enforced
+[Warning] [2023-04-11 18:49:58] {1ZpBelQPb2z91uXg6Q1dzp} No material and surface styles for:
 #9993=IfcEnergyConversionDevice('1ZpBelQPb2z91uXg6Q1dzp',#33,'M_Hot Water Boiler - 59-440 kW:147 kW:147 kW:530072',$,'147 kW',#9992,#9986,'530072')
-[Warning] [2023-01-31 18:41:22] {2W7U6tKFT4vf9lgsJlEr9H} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2W7U6tKFT4vf9lgsJlEr9H} No material and surface styles for:
 #10390=IfcEnergyConversionDevice('2W7U6tKFT4vf9lgsJlEr9H',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:535063',$,'Readiator - 25',#10389,#10383,'535063')
-[Warning] [2023-01-31 18:41:22] {0BnK3jR6z4peLnWdLNz6Ud} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0BnK3jR6z4peLnWdLNz6Ud} No material and surface styles for:
 #10765=IfcEnergyConversionDevice('0BnK3jR6z4peLnWdLNz6Ud',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:536357',$,'Readiator - 25',#10764,#10758,'536357')
-[Warning] [2023-01-31 18:41:22] {37cVMrcF54ifKYyIewWagr} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {37cVMrcF54ifKYyIewWagr} No material and surface styles for:
 #11138=IfcEnergyConversionDevice('37cVMrcF54ifKYyIewWagr',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:538562',$,'Readiator - 25',#11137,#11134,'538562')
-[Warning] [2023-01-31 18:41:22] {1Ce$bjdiv8XhtGsitreEeZ} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1Ce$bjdiv8XhtGsitreEeZ} No material and surface styles for:
 #11472=IfcEnergyConversionDevice('1Ce$bjdiv8XhtGsitreEeZ',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:538847',$,'Readiator - 25',#11471,#11465,'538847')
-[Warning] [2023-01-31 18:41:22] {2oaOKyFkjASv$DFXNZi1XR} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2oaOKyFkjASv$DFXNZi1XR} No material and surface styles for:
 #11645=IfcFlowSegment('2oaOKyFkjASv$DFXNZi1XR',#33,'Pipe Types:Mechanical Pipe:540160',$,'Pipe Types:Mechanical Pipe',#11508,#11644,'540160')
-[Warning] [2023-01-31 18:41:22] {3VsCnxi31AcAk$fl3uHbrB} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3VsCnxi31AcAk$fl3uHbrB} No material and surface styles for:
 #11879=IfcFlowSegment('3VsCnxi31AcAk$fl3uHbrB',#33,'Pipe Types:Mechanical Pipe:540175',$,'Pipe Types:Mechanical Pipe',#11742,#11878,'540175')
-[Warning] [2023-01-31 18:41:22] {0TXUcI1zf2ugojmp5tOpDA} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0TXUcI1zf2ugojmp5tOpDA} No material and surface styles for:
 #12066=IfcFlowSegment('0TXUcI1zf2ugojmp5tOpDA',#33,'Pipe Types:Mechanical Pipe:540182',$,'Pipe Types:Mechanical Pipe',#11929,#12065,'540182')
-[Warning] [2023-01-31 18:41:22] {3N_mtG4Zf6BxUhd1a5x60b} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3N_mtG4Zf6BxUhd1a5x60b} No material and surface styles for:
 #12253=IfcFlowSegment('3N_mtG4Zf6BxUhd1a5x60b',#33,'Pipe Types:Mechanical Pipe:540200',$,'Pipe Types:Mechanical Pipe',#12116,#12252,'540200')
-[Warning] [2023-01-31 18:41:22] {1h2HIdbwr3t8YhukuWVcPX} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1h2HIdbwr3t8YhukuWVcPX} No material and surface styles for:
 #14661=IfcFlowFitting('1h2HIdbwr3t8YhukuWVcPX',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:545367',$,'Elbow - Generic',#14660,#14657,'545367')
-[Warning] [2023-01-31 18:41:22] {2_nWSI38z1MQowEuvpwI2C} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2_nWSI38z1MQowEuvpwI2C} No material and surface styles for:
 #14881=IfcFlowSegment('2_nWSI38z1MQowEuvpwI2C',#33,'Pipe Types:Mechanical Pipe:545888',$,'Pipe Types:Mechanical Pipe',#14744,#14880,'545888')
-[Warning] [2023-01-31 18:41:22] {1AE8TeH3D87eRKclepfjI5} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1AE8TeH3D87eRKclepfjI5} No material and surface styles for:
 #15067=IfcFlowSegment('1AE8TeH3D87eRKclepfjI5',#33,'Pipe Types:Mechanical Pipe:546125',$,'Pipe Types:Mechanical Pipe',#14930,#15066,'546125')
-[Warning] [2023-01-31 18:41:22] {3AGn3GHBHBhOuunhh8DI0V} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3AGn3GHBHBhOuunhh8DI0V} No material and surface styles for:
 #15253=IfcFlowSegment('3AGn3GHBHBhOuunhh8DI0V',#33,'Pipe Types:Mechanical Pipe:546131',$,'Pipe Types:Mechanical Pipe',#15116,#15252,'546131')
-[Warning] [2023-01-31 18:41:22] {2TAzfNf1j94uj2yMPneX4$} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2TAzfNf1j94uj2yMPneX4$} No material and surface styles for:
 #15439=IfcFlowSegment('2TAzfNf1j94uj2yMPneX4$',#33,'Pipe Types:Mechanical Pipe:546374',$,'Pipe Types:Mechanical Pipe',#15302,#15438,'546374')
-[Warning] [2023-01-31 18:41:22] {2v7aWlr81F3QCYw4ARyl59} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2v7aWlr81F3QCYw4ARyl59} No material and surface styles for:
 #15673=IfcFlowSegment('2v7aWlr81F3QCYw4ARyl59',#33,'Pipe Types:Mechanical Pipe:546381',$,'Pipe Types:Mechanical Pipe',#15536,#15672,'546381')
-[Warning] [2023-01-31 18:41:22] {0hY0vT6Vz4nxMCCb3T1qvc} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0hY0vT6Vz4nxMCCb3T1qvc} No material and surface styles for:
 #15907=IfcFlowSegment('0hY0vT6Vz4nxMCCb3T1qvc',#33,'Pipe Types:Mechanical Pipe:546819',$,'Pipe Types:Mechanical Pipe',#15770,#15906,'546819')
-[Warning] [2023-01-31 18:41:22] {1Fpxgqrq99_uInI$jluizm} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1Fpxgqrq99_uInI$jluizm} No material and surface styles for:
 #16135=IfcFlowSegment('1Fpxgqrq99_uInI$jluizm',#33,'Pipe Types:Mechanical Pipe:546826',$,'Pipe Types:Mechanical Pipe',#15956,#16134,'546826')
-[Warning] [2023-01-31 18:41:22] {0UI$jRcKv7zfHlDEgoW7T1} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0UI$jRcKv7zfHlDEgoW7T1} No material and surface styles for:
 #16320=IfcFlowSegment('0UI$jRcKv7zfHlDEgoW7T1',#33,'Pipe Types:Mechanical Pipe:546828',$,'Pipe Types:Mechanical Pipe',#16183,#16319,'546828')
-[Warning] [2023-01-31 18:41:23] {2apNB0mXHB2QMfsfH8g5jg} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2apNB0mXHB2QMfsfH8g5jg} No material and surface styles for:
 #17408=IfcFlowFitting('2apNB0mXHB2QMfsfH8g5jg',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:546905',$,'Tee - Generic',#17407,#17404,'546905')
-[Warning] [2023-01-31 18:41:23] {22H_5eZdr3lu0kYPWZJYAi} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {22H_5eZdr3lu0kYPWZJYAi} No material and surface styles for:
 #17628=IfcFlowSegment('22H_5eZdr3lu0kYPWZJYAi',#33,'Pipe Types:Mechanical Pipe:546906',$,'Pipe Types:Mechanical Pipe',#17491,#17627,'546906')
-[Warning] [2023-01-31 18:41:23] {2HOGb9bdzAb9AUEEN$ghTe} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2HOGb9bdzAb9AUEEN$ghTe} No material and surface styles for:
 #17814=IfcFlowSegment('2HOGb9bdzAb9AUEEN$ghTe',#33,'Pipe Types:Mechanical Pipe:546969',$,'Pipe Types:Mechanical Pipe',#17677,#17813,'546969')
-[Warning] [2023-01-31 18:41:23] {3rU2zn_7T9UfE_jkGSicuJ} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3rU2zn_7T9UfE_jkGSicuJ} No material and surface styles for:
 #18001=IfcFlowSegment('3rU2zn_7T9UfE_jkGSicuJ',#33,'Pipe Types:Mechanical Pipe:547114',$,'Pipe Types:Mechanical Pipe',#17864,#18000,'547114')
-[Warning] [2023-01-31 18:41:23] {3CuIt5o5T3SelpawPJprX4} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3CuIt5o5T3SelpawPJprX4} No material and surface styles for:
 #18188=IfcFlowSegment('3CuIt5o5T3SelpawPJprX4',#33,'Pipe Types:Mechanical Pipe:547121',$,'Pipe Types:Mechanical Pipe',#18051,#18187,'547121')
-[Warning] [2023-01-31 18:41:23] {0viCR3s9j0_Bkcfp8_q2eb} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0viCR3s9j0_Bkcfp8_q2eb} No material and surface styles for:
 #18374=IfcFlowSegment('0viCR3s9j0_Bkcfp8_q2eb',#33,'Pipe Types:Mechanical Pipe:547146',$,'Pipe Types:Mechanical Pipe',#18237,#18373,'547146')
-[Warning] [2023-01-31 18:41:23] {2p9JDBhtDAQghqGqOm_Pfy} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2p9JDBhtDAQghqGqOm_Pfy} No material and surface styles for:
 #18657=IfcFlowSegment('2p9JDBhtDAQghqGqOm_Pfy',#33,'Pipe Types:Mechanical Pipe:547150',$,'Pipe Types:Mechanical Pipe',#18520,#18656,'547150')
-[Warning] [2023-01-31 18:41:23] {35Nu9O3dH9p8ptQmbytvw5} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {35Nu9O3dH9p8ptQmbytvw5} No material and surface styles for:
 #18843=IfcFlowSegment('35Nu9O3dH9p8ptQmbytvw5',#33,'Pipe Types:Mechanical Pipe:547183',$,'Pipe Types:Mechanical Pipe',#18706,#18842,'547183')
-[Warning] [2023-01-31 18:41:23] {1WLHAo2Kz1Nhew2M61UKOr} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1WLHAo2Kz1Nhew2M61UKOr} No material and surface styles for:
 #19060=IfcFlowSegment('1WLHAo2Kz1Nhew2M61UKOr',#33,'Pipe Types:Mechanical Pipe:547247',$,'Pipe Types:Mechanical Pipe',#18893,#19059,'547247')
-[Warning] [2023-01-31 18:41:23] {3ejtggBon8bh6Rk9nDc4va} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3ejtggBon8bh6Rk9nDc4va} No material and surface styles for:
 #19246=IfcFlowSegment('3ejtggBon8bh6Rk9nDc4va',#33,'Pipe Types:Mechanical Pipe:547266',$,'Pipe Types:Mechanical Pipe',#19109,#19245,'547266')
-[Warning] [2023-01-31 18:41:23] {3Nr2tZN4n3LxOZ$BUCsRw4} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3Nr2tZN4n3LxOZ$BUCsRw4} No material and surface styles for:
 #19457=IfcFlowSegment('3Nr2tZN4n3LxOZ$BUCsRw4',#33,'Pipe Types:Mechanical Pipe:547273',$,'Pipe Types:Mechanical Pipe',#19296,#19456,'547273')
-[Warning] [2023-01-31 18:41:23] {2oUDfYEAjDzQSvWL1eupfi} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2oUDfYEAjDzQSvWL1eupfi} No material and surface styles for:
 #19679=IfcFlowSegment('2oUDfYEAjDzQSvWL1eupfi',#33,'Pipe Types:Mechanical Pipe:547286',$,'Pipe Types:Mechanical Pipe',#19506,#19678,'547286')
-[Warning] [2023-01-31 18:41:23] {2VQABYo2f7m9E2lWwAuu7N} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2VQABYo2f7m9E2lWwAuu7N} No material and surface styles for:
 #19866=IfcFlowSegment('2VQABYo2f7m9E2lWwAuu7N',#33,'Pipe Types:Mechanical Pipe:547487',$,'Pipe Types:Mechanical Pipe',#19729,#19865,'547487')
-[Warning] [2023-01-31 18:41:23] {3Lmaz4fj1EyB6By0_6$_I6} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3Lmaz4fj1EyB6By0_6$_I6} No material and surface styles for:
 #20089=IfcFlowSegment('3Lmaz4fj1EyB6By0_6$_I6',#33,'Pipe Types:Mechanical Pipe:547595',$,'Pipe Types:Mechanical Pipe',#19916,#20088,'547595')
-[Warning] [2023-01-31 18:41:23] {0OVAices54qgFqzKdfsr1m} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0OVAices54qgFqzKdfsr1m} No material and surface styles for:
 #20324=IfcFlowSegment('0OVAices54qgFqzKdfsr1m',#33,'Pipe Types:Mechanical Pipe:547742',$,'Pipe Types:Mechanical Pipe',#20187,#20323,'547742')
-[Warning] [2023-01-31 18:41:23] {24dhWsJoPFtwoqYmwS19st} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {24dhWsJoPFtwoqYmwS19st} No material and surface styles for:
 #20510=IfcFlowSegment('24dhWsJoPFtwoqYmwS19st',#33,'Pipe Types:Mechanical Pipe:547784',$,'Pipe Types:Mechanical Pipe',#20373,#20509,'547784')
-[Warning] [2023-01-31 18:41:23] {3e3_LUMhD4tuhgJZ$uIqSY} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3e3_LUMhD4tuhgJZ$uIqSY} No material and surface styles for:
 #20696=IfcFlowSegment('3e3_LUMhD4tuhgJZ$uIqSY',#33,'Pipe Types:Mechanical Pipe:547802',$,'Pipe Types:Mechanical Pipe',#20559,#20695,'547802')
-[Warning] [2023-01-31 18:41:23] {2fzO2h2Az5APKSrvbBj6nY} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2fzO2h2Az5APKSrvbBj6nY} No material and surface styles for:
 #20883=IfcFlowSegment('2fzO2h2Az5APKSrvbBj6nY',#33,'Pipe Types:Mechanical Pipe:547856',$,'Pipe Types:Mechanical Pipe',#20746,#20882,'547856')
-[Warning] [2023-01-31 18:41:23] {1Gc_MGv3PDAxYH_yXet1yo} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1Gc_MGv3PDAxYH_yXet1yo} No material and surface styles for:
 #21924=IfcFlowFitting('1Gc_MGv3PDAxYH_yXet1yo',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:547884',$,'Tee - Generic',#21923,#21919,'547884')
-[Warning] [2023-01-31 18:41:23] {2_K0IZMGf3t8zmcf79YX$H} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2_K0IZMGf3t8zmcf79YX$H} No material and surface styles for:
 #22107=IfcFlowSegment('2_K0IZMGf3t8zmcf79YX$H',#33,'Pipe Types:Mechanical Pipe:547956',$,'Pipe Types:Mechanical Pipe',#21970,#22106,'547956')
-[Warning] [2023-01-31 18:41:23] {1Ahmk4zEPCaB60aroK8iVk} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1Ahmk4zEPCaB60aroK8iVk} No material and surface styles for:
 #22293=IfcFlowSegment('1Ahmk4zEPCaB60aroK8iVk',#33,'Pipe Types:Mechanical Pipe:548047',$,'Pipe Types:Mechanical Pipe',#22156,#22292,'548047')
-[Warning] [2023-01-31 18:41:23] {3D7$N30LL0pBnXNmQY36yU} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3D7$N30LL0pBnXNmQY36yU} No material and surface styles for:
 #22479=IfcFlowSegment('3D7$N30LL0pBnXNmQY36yU',#33,'Pipe Types:Mechanical Pipe:548082',$,'Pipe Types:Mechanical Pipe',#22342,#22478,'548082')
-[Warning] [2023-01-31 18:41:23] {39uRbNnz16PuVI9nFtOtMv} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {39uRbNnz16PuVI9nFtOtMv} No material and surface styles for:
 #22715=IfcFlowSegment('39uRbNnz16PuVI9nFtOtMv',#33,'Pipe Types:Mechanical Pipe:548089',$,'Pipe Types:Mechanical Pipe',#22578,#22714,'548089')
-[Warning] [2023-01-31 18:41:23] {3$vb6Q6kn7WgZjsp0FVge0} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3$vb6Q6kn7WgZjsp0FVge0} No material and surface styles for:
 #22901=IfcFlowSegment('3$vb6Q6kn7WgZjsp0FVge0',#33,'Pipe Types:Mechanical Pipe:548116',$,'Pipe Types:Mechanical Pipe',#22764,#22900,'548116')
-[Warning] [2023-01-31 18:41:23] {2tdZyjNpL6MRk8JEw$tAK5} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2tdZyjNpL6MRk8JEw$tAK5} No material and surface styles for:
 #23137=IfcFlowSegment('2tdZyjNpL6MRk8JEw$tAK5',#33,'Pipe Types:Mechanical Pipe:548123',$,'Pipe Types:Mechanical Pipe',#23000,#23136,'548123')
-[Warning] [2023-01-31 18:41:23] {19uVH5FVv15vAtBGL$Wezi} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {19uVH5FVv15vAtBGL$Wezi} No material and surface styles for:
 #23580=IfcEnergyConversionDevice('19uVH5FVv15vAtBGL$Wezi',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:548240',$,'Readiator - 25',#23579,#23573,'548240')
-[Warning] [2023-01-31 18:41:23] {2_ELuVkGH0h8jOrTvH_E9R} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {2_ELuVkGH0h8jOrTvH_E9R} No material and surface styles for:
 #23751=IfcFlowSegment('2_ELuVkGH0h8jOrTvH_E9R',#33,'Pipe Types:Mechanical Pipe:548835',$,'Pipe Types:Mechanical Pipe',#23614,#23750,'548835')
-[Warning] [2023-01-31 18:41:23] {3FSPUCH2b1bQ6bBes3CUN3} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3FSPUCH2b1bQ6bBes3CUN3} No material and surface styles for:
 #23938=IfcFlowSegment('3FSPUCH2b1bQ6bBes3CUN3',#33,'Pipe Types:Mechanical Pipe:549038',$,'Pipe Types:Mechanical Pipe',#23801,#23937,'549038')
-[Warning] [2023-01-31 18:41:23] {0LIWuJDFbE_8GuQmuu68xn} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0LIWuJDFbE_8GuQmuu68xn} No material and surface styles for:
 #24286=IfcEnergyConversionDevice('0LIWuJDFbE_8GuQmuu68xn',#33,'M_Radiator - Hosted:Readiator - 25:Readiator - 25:549304',$,'Readiator - 25',#24285,#24279,'549304')
-[Warning] [2023-01-31 18:41:23] {08bJ5GciX44RctWg3I8Yp1} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {08bJ5GciX44RctWg3I8Yp1} No material and surface styles for:
 #24603=IfcFlowSegment('08bJ5GciX44RctWg3I8Yp1',#33,'Pipe Types:Mechanical Pipe:549955',$,'Pipe Types:Mechanical Pipe',#24466,#24602,'549955')
-[Warning] [2023-01-31 18:41:23] {3ZepOPxpT4RRRCiax9L$Mi} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3ZepOPxpT4RRRCiax9L$Mi} No material and surface styles for:
 #24839=IfcFlowSegment('3ZepOPxpT4RRRCiax9L$Mi',#33,'Pipe Types:Mechanical Pipe:549960',$,'Pipe Types:Mechanical Pipe',#24702,#24838,'549960')
-[Warning] [2023-01-31 18:41:23] {0pAp3Xisv7QvVlEvVGjK9c} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0pAp3Xisv7QvVlEvVGjK9c} No material and surface styles for:
 #25025=IfcFlowSegment('0pAp3Xisv7QvVlEvVGjK9c',#33,'Pipe Types:Mechanical Pipe:550018',$,'Pipe Types:Mechanical Pipe',#24888,#25024,'550018')
-[Warning] [2023-01-31 18:41:23] {1MUPdIIA92WuICsfPH36qO} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1MUPdIIA92WuICsfPH36qO} No material and surface styles for:
 #25212=IfcFlowSegment('1MUPdIIA92WuICsfPH36qO',#33,'Pipe Types:Mechanical Pipe:550028',$,'Pipe Types:Mechanical Pipe',#25075,#25211,'550028')
-[Warning] [2023-01-31 18:41:23] {3DEl$KiKD1zPxe_IwB_wTI} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3DEl$KiKD1zPxe_IwB_wTI} No material and surface styles for:
 #25447=IfcFlowSegment('3DEl$KiKD1zPxe_IwB_wTI',#33,'Pipe Types:Mechanical Pipe:550036',$,'Pipe Types:Mechanical Pipe',#25310,#25446,'550036')
-[Warning] [2023-01-31 18:41:23] {0A7GgHTNL3DA8CJTRc8weE} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {0A7GgHTNL3DA8CJTRc8weE} No material and surface styles for:
 #25683=IfcFlowSegment('0A7GgHTNL3DA8CJTRc8weE',#33,'Pipe Types:Mechanical Pipe:550041',$,'Pipe Types:Mechanical Pipe',#25546,#25682,'550041')
-[Warning] [2023-01-31 18:41:23] {1Y$oFh_$r3dPM7OOLmcHOD} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {1Y$oFh_$r3dPM7OOLmcHOD} No material and surface styles for:
 #25869=IfcFlowSegment('1Y$oFh_$r3dPM7OOLmcHOD',#33,'Pipe Types:Mechanical Pipe:550067',$,'Pipe Types:Mechanical Pipe',#25732,#25868,'550067')
-[Warning] [2023-01-31 18:41:23] {3Bgm$_YRP8LgYHNJgrLZmu} No material and surface styles for:
+[Warning] [2023-04-11 18:49:58] {3Bgm$_YRP8LgYHNJgrLZmu} No material and surface styles for:
 #26056=IfcFlowSegment('3Bgm$_YRP8LgYHNJgrLZmu',#33,'Pipe Types:Mechanical Pipe:550077',$,'Pipe Types:Mechanical Pipe',#25919,#26055,'550077')
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} 1 duplicate faces removed, 0 degenerate loops eliminated and 1687 non-manifold edges
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:58] {221cXITd58Levm6cfe2TIz} 1 duplicate faces removed, 0 degenerate loops eliminated and 1687 non-manifold edges
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #34773=IfcFace((#34772))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #34776=IfcFace((#34775))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #35036=IfcFace((#35035))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Face boundary loop not included
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Face boundary loop not included
 #35159=IfcPolyLoop((#34528,#34318,#34529))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Face with no boundaries
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Face with no boundaries
 #35161=IfcFace((#35160))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Failed to convert face:
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Failed to convert face:
 #35161=IfcFace((#35160))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Degenerate face:
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Degenerate face:
 #36174=IfcFace((#36173))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #38452=IfcFace((#38451))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #38507=IfcFace((#38506))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Triangulating face boundaries for face
 #38707=IfcFace((#38706))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} Degenerate face:
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Self-intersections with 2 cycles detected
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} Degenerate face:
 #39801=IfcFace((#39800))
-[Warning] [2023-01-31 18:41:23] {221cXITd58Levm6cfe2TIz} No material and surface styles for:
+[Warning] [2023-04-11 18:49:59] {221cXITd58Levm6cfe2TIz} No material and surface styles for:
 #47131=IfcFlowMovingDevice('221cXITd58Levm6cfe2TIz',#33,'M_Inline Pump - Circulator:3.9 LPS - 0.8 Meter Head:3.9 LPS - 0.8 Meter Head:550094',$,'3.9 LPS - 0.8 Meter Head',#47130,#47124,'550094')
-[Warning] [2023-01-31 18:41:24] {3W4WKpCun37PHbrhZhNWkc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3W4WKpCun37PHbrhZhNWkc} No material and surface styles for:
 #49567=IfcFlowFitting('3W4WKpCun37PHbrhZhNWkc',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:550098',$,'Transition - Generic',#49566,#49563,'550098')
-[Warning] [2023-01-31 18:41:24] {1NR_CPjqX9quifomqRoJkL} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1NR_CPjqX9quifomqRoJkL} No material and surface styles for:
 #52016=IfcFlowFitting('1NR_CPjqX9quifomqRoJkL',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:550223',$,'Elbow - Generic',#52015,#52012,'550223')
-[Warning] [2023-01-31 18:41:24] {33c0eBIxXAgewxREc0_hQQ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {33c0eBIxXAgewxREc0_hQQ} No material and surface styles for:
 #54445=IfcFlowFitting('33c0eBIxXAgewxREc0_hQQ',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:554027',$,'Transition - Generic',#54444,#54441,'554027')
-[Warning] [2023-01-31 18:41:24] {3vCdMq0XDDR8A6p6uFO0$2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3vCdMq0XDDR8A6p6uFO0$2} No material and surface styles for:
 #54636=IfcFlowSegment('3vCdMq0XDDR8A6p6uFO0$2',#33,'Pipe Types:Mechanical Pipe:554197',$,'Pipe Types:Mechanical Pipe',#54499,#54635,'554197')
-[Warning] [2023-01-31 18:41:24] {00prB3yifE$u8WoFy$oURN} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {00prB3yifE$u8WoFy$oURN} No material and surface styles for:
 #54822=IfcFlowSegment('00prB3yifE$u8WoFy$oURN',#33,'Pipe Types:Mechanical Pipe:554437',$,'Pipe Types:Mechanical Pipe',#54685,#54821,'554437')
-[Warning] [2023-01-31 18:41:24] {2Oggvo5dj9Mh8Lx$RM6t_p} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2Oggvo5dj9Mh8Lx$RM6t_p} No material and surface styles for:
 #55009=IfcFlowSegment('2Oggvo5dj9Mh8Lx$RM6t_p',#33,'Pipe Types:Mechanical Pipe:554580',$,'Pipe Types:Mechanical Pipe',#54872,#55008,'554580')
-[Warning] [2023-01-31 18:41:24] {1AHRzWVPL7NevueyWjyIXq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1AHRzWVPL7NevueyWjyIXq} No material and surface styles for:
 #55196=IfcFlowSegment('1AHRzWVPL7NevueyWjyIXq',#33,'Pipe Types:Mechanical Pipe:554945',$,'Pipe Types:Mechanical Pipe',#55059,#55195,'554945')
-[Warning] [2023-01-31 18:41:24] {3kxYCY4Tr3eubkaL1q7AO3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3kxYCY4Tr3eubkaL1q7AO3} No material and surface styles for:
 #55389=IfcFlowSegment('3kxYCY4Tr3eubkaL1q7AO3',#33,'Pipe Types:Mechanical Pipe:555449',$,'Pipe Types:Mechanical Pipe',#55246,#55388,'555449')
-[Warning] [2023-01-31 18:41:24] {0Tjs7l9CPAQxN9XnigQv$l} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0Tjs7l9CPAQxN9XnigQv$l} No material and surface styles for:
 #55576=IfcFlowSegment('0Tjs7l9CPAQxN9XnigQv$l',#33,'Pipe Types:Mechanical Pipe:555856',$,'Pipe Types:Mechanical Pipe',#55439,#55575,'555856')
-[Warning] [2023-01-31 18:41:24] {3I67m5tBb4_eTkiIIv3WpS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3I67m5tBb4_eTkiIIv3WpS} No material and surface styles for:
 #56004=IfcFlowSegment('3I67m5tBb4_eTkiIIv3WpS',#33,'Pipe Types:Mechanical Pipe:557526',$,'Pipe Types:Mechanical Pipe',#55867,#56003,'557526')
-[Warning] [2023-01-31 18:41:24] {030QVxOLj4aBLvuEjJ7Zln} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {030QVxOLj4aBLvuEjJ7Zln} No material and surface styles for:
 #56190=IfcFlowSegment('030QVxOLj4aBLvuEjJ7Zln',#33,'Pipe Types:Mechanical Pipe:557527',$,'Pipe Types:Mechanical Pipe',#56053,#56189,'557527')
-[Warning] [2023-01-31 18:41:24] {10lCgO_ZrAU9GUM32N0h5A} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {10lCgO_ZrAU9GUM32N0h5A} No material and surface styles for:
 #56377=IfcFlowSegment('10lCgO_ZrAU9GUM32N0h5A',#33,'Pipe Types:Mechanical Pipe:557528',$,'Pipe Types:Mechanical Pipe',#56240,#56376,'557528')
-[Warning] [2023-01-31 18:41:24] {2mjdbLoPf1jw58bPI0GFwd} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2mjdbLoPf1jw58bPI0GFwd} No material and surface styles for:
 #56564=IfcFlowSegment('2mjdbLoPf1jw58bPI0GFwd',#33,'Pipe Types:Mechanical Pipe:557530',$,'Pipe Types:Mechanical Pipe',#56427,#56563,'557530')
-[Warning] [2023-01-31 18:41:24] {2cBXEHhbv7WxAj1MwZ5Ik2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2cBXEHhbv7WxAj1MwZ5Ik2} No material and surface styles for:
 #56750=IfcFlowSegment('2cBXEHhbv7WxAj1MwZ5Ik2',#33,'Round Duct:Taps:557534',$,'Round Duct:Taps',#56613,#56749,'557534')
-[Warning] [2023-01-31 18:41:24] {2XLUWQjcT5TP2MvyGtLx_j} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2XLUWQjcT5TP2MvyGtLx_j} No material and surface styles for:
 #57080=IfcFlowSegment('2XLUWQjcT5TP2MvyGtLx_j',#33,'Pipe Types:Mechanical Pipe:557550',$,'Pipe Types:Mechanical Pipe',#56943,#57079,'557550')
-[Warning] [2023-01-31 18:41:24] {3HFPIdLfvCXAet8_9zF6DF} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3HFPIdLfvCXAet8_9zF6DF} No material and surface styles for:
 #57326=IfcFlowSegment('3HFPIdLfvCXAet8_9zF6DF',#33,'Pipe Types:Mechanical Pipe:557552',$,'Pipe Types:Mechanical Pipe',#57177,#57325,'557552')
-[Warning] [2023-01-31 18:41:24] {3zL8RCRFfExPh7HhsIIU83} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3zL8RCRFfExPh7HhsIIU83} No material and surface styles for:
 #57512=IfcFlowSegment('3zL8RCRFfExPh7HhsIIU83',#33,'Pipe Types:Mechanical Pipe:557553',$,'Pipe Types:Mechanical Pipe',#57375,#57511,'557553')
-[Warning] [2023-01-31 18:41:24] {2SoPeCb2D87xSg3et19Mx1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2SoPeCb2D87xSg3et19Mx1} No material and surface styles for:
 #57746=IfcFlowSegment('2SoPeCb2D87xSg3et19Mx1',#33,'Pipe Types:Mechanical Pipe:557555',$,'Pipe Types:Mechanical Pipe',#57609,#57745,'557555')
-[Warning] [2023-01-31 18:41:24] {06CUoaeF1B6wv_rVmaqG6N} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {06CUoaeF1B6wv_rVmaqG6N} No material and surface styles for:
 #57980=IfcFlowSegment('06CUoaeF1B6wv_rVmaqG6N',#33,'Pipe Types:Mechanical Pipe:557557',$,'Pipe Types:Mechanical Pipe',#57843,#57979,'557557')
-[Warning] [2023-01-31 18:41:24] {0nUiP$svvDax3McTF43HGM} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0nUiP$svvDax3McTF43HGM} No material and surface styles for:
 #58232=IfcFlowSegment('0nUiP$svvDax3McTF43HGM',#33,'Pipe Types:Mechanical Pipe:557563',$,'Pipe Types:Mechanical Pipe',#58077,#58231,'557563')
-[Warning] [2023-01-31 18:41:24] {1D20BVAET2g9SqdmnMPjeD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1D20BVAET2g9SqdmnMPjeD} No material and surface styles for:
 #58417=IfcFlowSegment('1D20BVAET2g9SqdmnMPjeD',#33,'Pipe Types:Mechanical Pipe:557564',$,'Pipe Types:Mechanical Pipe',#58280,#58416,'557564')
-[Warning] [2023-01-31 18:41:24] {0riNFIYnD1fB_lVbFirz9d} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0riNFIYnD1fB_lVbFirz9d} No material and surface styles for:
 #58700=IfcFlowSegment('0riNFIYnD1fB_lVbFirz9d',#33,'Pipe Types:Mechanical Pipe:557567',$,'Pipe Types:Mechanical Pipe',#58563,#58699,'557567')
-[Warning] [2023-01-31 18:41:24] {3BVrrghCL3oB6uRwRoDt28} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3BVrrghCL3oB6uRwRoDt28} No material and surface styles for:
 #58886=IfcFlowSegment('3BVrrghCL3oB6uRwRoDt28',#33,'Pipe Types:Mechanical Pipe:557568',$,'Pipe Types:Mechanical Pipe',#58749,#58885,'557568')
-[Warning] [2023-01-31 18:41:24] {2gXbQL2afEI966_gTAbR91} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2gXbQL2afEI966_gTAbR91} No material and surface styles for:
 #59073=IfcFlowSegment('2gXbQL2afEI966_gTAbR91',#33,'Pipe Types:Mechanical Pipe:557569',$,'Pipe Types:Mechanical Pipe',#58936,#59072,'557569')
-[Warning] [2023-01-31 18:41:24] {26PM7OANDAXwg24TtV3Ff1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {26PM7OANDAXwg24TtV3Ff1} No material and surface styles for:
 #59260=IfcFlowSegment('26PM7OANDAXwg24TtV3Ff1',#33,'Pipe Types:Mechanical Pipe:557570',$,'Pipe Types:Mechanical Pipe',#59123,#59259,'557570')
-[Warning] [2023-01-31 18:41:24] {3u9e_sIhj5883FEdG7hbex} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3u9e_sIhj5883FEdG7hbex} No material and surface styles for:
 #59446=IfcFlowSegment('3u9e_sIhj5883FEdG7hbex',#33,'Pipe Types:Mechanical Pipe:557571',$,'Pipe Types:Mechanical Pipe',#59309,#59445,'557571')
-[Warning] [2023-01-31 18:41:24] {3LWmRznCL9FxG4pMSxiTQR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3LWmRznCL9FxG4pMSxiTQR} No material and surface styles for:
 #59729=IfcFlowSegment('3LWmRznCL9FxG4pMSxiTQR',#33,'Pipe Types:Mechanical Pipe:557574',$,'Pipe Types:Mechanical Pipe',#59592,#59728,'557574')
-[Warning] [2023-01-31 18:41:24] {2irfcYB8z5ffc0_CnerY91} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2irfcYB8z5ffc0_CnerY91} No material and surface styles for:
 #59915=IfcFlowSegment('2irfcYB8z5ffc0_CnerY91',#33,'Pipe Types:Mechanical Pipe:557576',$,'Pipe Types:Mechanical Pipe',#59778,#59914,'557576')
-[Warning] [2023-01-31 18:41:24] {1xtfyUl7TDzuHsgAvJTR2z} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1xtfyUl7TDzuHsgAvJTR2z} No material and surface styles for:
 #60156=IfcFlowSegment('1xtfyUl7TDzuHsgAvJTR2z',#33,'Pipe Types:Mechanical Pipe:557586',$,'Pipe Types:Mechanical Pipe',#59965,#60155,'557586')
-[Warning] [2023-01-31 18:41:24] {2dZMkVj3LEauhoD2ZJQVkK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2dZMkVj3LEauhoD2ZJQVkK} No material and surface styles for:
 #60379=IfcFlowSegment('2dZMkVj3LEauhoD2ZJQVkK',#33,'Pipe Types:Mechanical Pipe:557587',$,'Pipe Types:Mechanical Pipe',#60206,#60378,'557587')
-[Warning] [2023-01-31 18:41:24] {2_y20Tjd1Epu$NEFGGH1gW} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2_y20Tjd1Epu$NEFGGH1gW} No material and surface styles for:
 #60616=IfcFlowSegment('2_y20Tjd1Epu$NEFGGH1gW',#33,'Pipe Types:Mechanical Pipe:557590',$,'Pipe Types:Mechanical Pipe',#60428,#60615,'557590')
-[Warning] [2023-01-31 18:41:24] {2jMqqlILz1GBKVUP$SpCSB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2jMqqlILz1GBKVUP$SpCSB} No material and surface styles for:
 #60844=IfcFlowSegment('2jMqqlILz1GBKVUP$SpCSB',#33,'Pipe Types:Mechanical Pipe:557596',$,'Pipe Types:Mechanical Pipe',#60665,#60843,'557596')
-[Warning] [2023-01-31 18:41:24] {3mLgeEuJj3OfOk9ukRGKex} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3mLgeEuJj3OfOk9ukRGKex} No material and surface styles for:
 #61070=IfcFlowSegment('3mLgeEuJj3OfOk9ukRGKex',#33,'Pipe Types:Mechanical Pipe:557597',$,'Pipe Types:Mechanical Pipe',#60894,#61069,'557597')
-[Warning] [2023-01-31 18:41:24] {214kk$_0PEUvVStO70oaMy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {214kk$_0PEUvVStO70oaMy} No material and surface styles for:
 #61353=IfcFlowSegment('214kk$_0PEUvVStO70oaMy',#33,'Pipe Types:Mechanical Pipe:557599',$,'Pipe Types:Mechanical Pipe',#61168,#61352,'557599')
-[Warning] [2023-01-31 18:41:24] {2d5C19iSDBnR23cWctuEvZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2d5C19iSDBnR23cWctuEvZ} No material and surface styles for:
 #61563=IfcFlowSegment('2d5C19iSDBnR23cWctuEvZ',#33,'Pipe Types:Mechanical Pipe:557601',$,'Pipe Types:Mechanical Pipe',#61402,#61562,'557601')
-[Warning] [2023-01-31 18:41:24] {27slASTjv7TuQWj9HTpun$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {27slASTjv7TuQWj9HTpun$} No material and surface styles for:
 #61811=IfcFlowSegment('27slASTjv7TuQWj9HTpun$',#33,'Pipe Types:Mechanical Pipe:557603',$,'Pipe Types:Mechanical Pipe',#61662,#61810,'557603')
-[Warning] [2023-01-31 18:41:25] {0wg2cIhCT19AjKauI7g_oQ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0wg2cIhCT19AjKauI7g_oQ} No material and surface styles for:
 #61997=IfcFlowSegment('0wg2cIhCT19AjKauI7g_oQ',#33,'Pipe Types:Mechanical Pipe:557604',$,'Pipe Types:Mechanical Pipe',#61860,#61996,'557604')
-[Warning] [2023-01-31 18:41:25] {3sG_XOiiDBjuHTacz8s7Hr} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3sG_XOiiDBjuHTacz8s7Hr} No material and surface styles for:
 #62184=IfcFlowSegment('3sG_XOiiDBjuHTacz8s7Hr',#33,'Pipe Types:Mechanical Pipe:557605',$,'Pipe Types:Mechanical Pipe',#62047,#62183,'557605')
-[Warning] [2023-01-31 18:41:25] {0qhCU2klz4GAVI0SV1Z_kT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0qhCU2klz4GAVI0SV1Z_kT} No material and surface styles for:
 #62370=IfcFlowSegment('0qhCU2klz4GAVI0SV1Z_kT',#33,'Pipe Types:Mechanical Pipe:557609',$,'Pipe Types:Mechanical Pipe',#62233,#62369,'557609')
-[Warning] [2023-01-31 18:41:25] {27fGOYnQj8MQqqFxq21fgv} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {27fGOYnQj8MQqqFxq21fgv} No material and surface styles for:
 #62556=IfcFlowSegment('27fGOYnQj8MQqqFxq21fgv',#33,'Pipe Types:Mechanical Pipe:557611',$,'Pipe Types:Mechanical Pipe',#62419,#62555,'557611')
-[Warning] [2023-01-31 18:41:25] {3T5Rd$BhX5YQB2DUuD6Yfm} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3T5Rd$BhX5YQB2DUuD6Yfm} No material and surface styles for:
 #62742=IfcFlowSegment('3T5Rd$BhX5YQB2DUuD6Yfm',#33,'Pipe Types:Mechanical Pipe:557612',$,'Pipe Types:Mechanical Pipe',#62605,#62741,'557612')
-[Warning] [2023-01-31 18:41:25] {0XZwkvjjz3183yhicqoMA8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0XZwkvjjz3183yhicqoMA8} No material and surface styles for:
 #62978=IfcFlowSegment('0XZwkvjjz3183yhicqoMA8',#33,'Pipe Types:Mechanical Pipe:557614',$,'Pipe Types:Mechanical Pipe',#62841,#62977,'557614')
-[Warning] [2023-01-31 18:41:25] {2oAfOEvA99JRVmUqudH3m0} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2oAfOEvA99JRVmUqudH3m0} No material and surface styles for:
 #63164=IfcFlowSegment('2oAfOEvA99JRVmUqudH3m0',#33,'Pipe Types:Mechanical Pipe:557615',$,'Pipe Types:Mechanical Pipe',#63027,#63163,'557615')
-[Warning] [2023-01-31 18:41:25] {1KuvkDw2PEZg1ZKt6YDd56} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1KuvkDw2PEZg1ZKt6YDd56} No material and surface styles for:
 #63400=IfcFlowSegment('1KuvkDw2PEZg1ZKt6YDd56',#33,'Pipe Types:Mechanical Pipe:557617',$,'Pipe Types:Mechanical Pipe',#63263,#63399,'557617')
-[Warning] [2023-01-31 18:41:25] {0erN3TECf869hXR0Ykwkgo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0erN3TECf869hXR0Ykwkgo} No material and surface styles for:
 #63722=IfcFlowSegment('0erN3TECf869hXR0Ykwkgo',#33,'Pipe Types:Mechanical Pipe:557622',$,'Pipe Types:Mechanical Pipe',#63585,#63721,'557622')
-[Warning] [2023-01-31 18:41:25] {1HHjB0S9PA6g1N3zlzvNzT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1HHjB0S9PA6g1N3zlzvNzT} No material and surface styles for:
 #63909=IfcFlowSegment('1HHjB0S9PA6g1N3zlzvNzT',#33,'Pipe Types:Mechanical Pipe:557623',$,'Pipe Types:Mechanical Pipe',#63772,#63908,'557623')
-[Warning] [2023-01-31 18:41:25] {3SxW3p0SzBdhood6G7P9qz} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3SxW3p0SzBdhood6G7P9qz} No material and surface styles for:
 #64138=IfcFlowSegment('3SxW3p0SzBdhood6G7P9qz',#33,'Pipe Types:Mechanical Pipe:557644',$,'Pipe Types:Mechanical Pipe',#64001,#64137,'557644')
-[Warning] [2023-01-31 18:41:25] {0q9XTE50T49AsHaUumGxpG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {0q9XTE50T49AsHaUumGxpG} No material and surface styles for:
 #64374=IfcFlowSegment('0q9XTE50T49AsHaUumGxpG',#33,'Pipe Types:Mechanical Pipe:557646',$,'Pipe Types:Mechanical Pipe',#64237,#64373,'557646')
-[Warning] [2023-01-31 18:41:25] {3WPhAcJVf6iO7Y1t_js2Y7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3WPhAcJVf6iO7Y1t_js2Y7} No material and surface styles for:
 #64560=IfcFlowSegment('3WPhAcJVf6iO7Y1t_js2Y7',#33,'Pipe Types:Mechanical Pipe:557647',$,'Pipe Types:Mechanical Pipe',#64423,#64559,'557647')
-[Warning] [2023-01-31 18:41:25] {2iLPlYAwr72RYoyPKzH9c3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2iLPlYAwr72RYoyPKzH9c3} No material and surface styles for:
 #64747=IfcFlowSegment('2iLPlYAwr72RYoyPKzH9c3',#33,'Pipe Types:Mechanical Pipe:557648',$,'Pipe Types:Mechanical Pipe',#64610,#64746,'557648')
-[Warning] [2023-01-31 18:41:25] {1xIskSQZnFpRaR6aoN0XSe} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1xIskSQZnFpRaR6aoN0XSe} No material and surface styles for:
 #64982=IfcFlowSegment('1xIskSQZnFpRaR6aoN0XSe',#33,'Pipe Types:Mechanical Pipe:557652',$,'Pipe Types:Mechanical Pipe',#64845,#64981,'557652')
-[Warning] [2023-01-31 18:41:25] {1j4drxiKLEhOwM0cdg7d4u} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1j4drxiKLEhOwM0cdg7d4u} No material and surface styles for:
 #65218=IfcFlowSegment('1j4drxiKLEhOwM0cdg7d4u',#33,'Pipe Types:Mechanical Pipe:557654',$,'Pipe Types:Mechanical Pipe',#65081,#65217,'557654')
-[Warning] [2023-01-31 18:41:25] {1jM$idYtH0Wfvjr2fV6BBx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1jM$idYtH0Wfvjr2fV6BBx} No material and surface styles for:
 #65404=IfcFlowSegment('1jM$idYtH0Wfvjr2fV6BBx',#33,'Pipe Types:Mechanical Pipe:557655',$,'Pipe Types:Mechanical Pipe',#65267,#65403,'557655')
-[Warning] [2023-01-31 18:41:25] {3ceK$znLL57OI6g$cGvHe2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3ceK$znLL57OI6g$cGvHe2} No material and surface styles for:
 #65591=IfcFlowSegment('3ceK$znLL57OI6g$cGvHe2',#33,'Pipe Types:Mechanical Pipe:557656',$,'Pipe Types:Mechanical Pipe',#65454,#65590,'557656')
-[Warning] [2023-01-31 18:41:25] {2LkamInGP6mBOvqiGU$SRb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2LkamInGP6mBOvqiGU$SRb} No material and surface styles for:
 #65876=IfcFlowSegment('2LkamInGP6mBOvqiGU$SRb',#33,'Pipe Types:Mechanical Pipe:557685',$,'Pipe Types:Mechanical Pipe',#65739,#65875,'557685')
-[Warning] [2023-01-31 18:41:25] {1dJr$RIh11nxIKXRX1NUNl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1dJr$RIh11nxIKXRX1NUNl} No material and surface styles for:
 #66063=IfcFlowSegment('1dJr$RIh11nxIKXRX1NUNl',#33,'Pipe Types:Mechanical Pipe:557689',$,'Pipe Types:Mechanical Pipe',#65926,#66062,'557689')
-[Warning] [2023-01-31 18:41:25] {1qC2bRlaL2$xdtAlHUjqrH} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {1qC2bRlaL2$xdtAlHUjqrH} No material and surface styles for:
 #66250=IfcFlowSegment('1qC2bRlaL2$xdtAlHUjqrH',#33,'Pipe Types:Mechanical Pipe:557695',$,'Pipe Types:Mechanical Pipe',#66113,#66249,'557695')
-[Warning] [2023-01-31 18:41:25] {3JKEL$AGX2dRsu6YXF7haW} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {3JKEL$AGX2dRsu6YXF7haW} No material and surface styles for:
 #66467=IfcFlowSegment('3JKEL$AGX2dRsu6YXF7haW',#33,'Pipe Types:Mechanical Pipe:557700',$,'Pipe Types:Mechanical Pipe',#66300,#66466,'557700')
-[Warning] [2023-01-31 18:41:25] {00NSjRT2577gZ8OnXCVnRD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {00NSjRT2577gZ8OnXCVnRD} No material and surface styles for:
 #66654=IfcFlowSegment('00NSjRT2577gZ8OnXCVnRD',#33,'Pipe Types:Mechanical Pipe:557710',$,'Pipe Types:Mechanical Pipe',#66517,#66653,'557710')
-[Warning] [2023-01-31 18:41:25] {2f8GAP3Wb6_RpjhBiN7Zoq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {2f8GAP3Wb6_RpjhBiN7Zoq} No material and surface styles for:
 #67710=IfcFlowTerminal('2f8GAP3Wb6_RpjhBiN7Zoq',#33,'M_Refrigerator:850 x 760mm:850 x 760mm:575374',$,'850 x 760mm',#67709,#67703,'575374')
-[Warning] [2023-01-31 18:41:25] {29iJ3Qorb7pw3KGs9fdkw3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:00] {29iJ3Qorb7pw3KGs9fdkw3} No material and surface styles for:
 #72376=IfcFlowTerminal('29iJ3Qorb7pw3KGs9fdkw3',#33,'M_Sconce Light - Sphere:100W - 120V:100W - 120V:575376',$,'100W - 120V',#72375,#72369,'575376')
-[Warning] [2023-01-31 18:41:25] {09LXvibln0YPNmPO49mD6k} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {09LXvibln0YPNmPO49mD6k} No material and surface styles for:
 #76736=IfcFlowTerminal('09LXvibln0YPNmPO49mD6k',#33,'M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575380',$,'150W - 120V',#76735,#76729,'575380')
-[Warning] [2023-01-31 18:41:25] {1BZbxAG8L6z9EEpSZfugOW} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {1BZbxAG8L6z9EEpSZfugOW} No material and surface styles for:
 #77098=IfcFlowTerminal('1BZbxAG8L6z9EEpSZfugOW',#33,'M_Lighting Switches:Single Pole:Single Pole:575392',$,'Single Pole',#77097,#77091,'575392')
-[Warning] [2023-01-31 18:41:25] {2IG0VrX6zB1x1jfqawxCAz} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {2IG0VrX6zB1x1jfqawxCAz} No material and surface styles for:
 #77363=IfcFlowTerminal('2IG0VrX6zB1x1jfqawxCAz',#33,'M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575405',$,'Duplex Receptacle',#77362,#77356,'575405')
-[Warning] [2023-01-31 18:41:25] {0dJKPQcDL7OOA9T2YsJr1q} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0dJKPQcDL7OOA9T2YsJr1q} No material and surface styles for:
 #78884=IfcFlowTerminal('0dJKPQcDL7OOA9T2YsJr1q',#33,'M_Lighting and Appliance Panelboard - 208V MLO:400 A:Unit A Panelboard:575479',$,'400 A',#78883,#78877,'575479')
-[Warning] [2023-01-31 18:41:25] {1KqYAj00bE8PYy0bzaxy9l} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {1KqYAj00bE8PYy0bzaxy9l} No material and surface styles for:
 #80335=IfcFlowTerminal('1KqYAj00bE8PYy0bzaxy9l',#33,'M_Range:760 x 650mm:760 x 650mm:575492',$,'760 x 650mm',#80334,#80328,'575492')
-[Warning] [2023-01-31 18:41:25] {3qI03Xhmj12QySDYgBoGRD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3qI03Xhmj12QySDYgBoGRD} No material and surface styles for:
 #80786=IfcFlowSegment('3qI03Xhmj12QySDYgBoGRD',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):575511',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#80649,#80785,'575511')
-[Warning] [2023-01-31 18:41:25] {3UJys$fvDFAR7_oHXTr0Fc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3UJys$fvDFAR7_oHXTr0Fc} No material and surface styles for:
 #81000=IfcFlowSegment('3UJys$fvDFAR7_oHXTr0Fc',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):575516',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#80863,#80999,'575516')
-[Warning] [2023-01-31 18:41:25] {30KevaMOLEsvGHQA3InAqv} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {30KevaMOLEsvGHQA3InAqv} No material and surface styles for:
 #81197=IfcFlowSegment('30KevaMOLEsvGHQA3InAqv',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):575519',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#81036,#81196,'575519')
-[Warning] [2023-01-31 18:41:25] {32xRaGYJbFGh4xQ87y84uw} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {32xRaGYJbFGh4xQ87y84uw} No material and surface styles for:
 #82708=IfcFlowSegment('32xRaGYJbFGh4xQ87y84uw',#33,'M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:575520',$,'Conduit Elbow - Steel',#82707,#82704,'575520')
-[Warning] [2023-01-31 18:41:25] {0KkRFcXTHDp84XnNw18d9r} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0KkRFcXTHDp84XnNw18d9r} No material and surface styles for:
 #82919=IfcFlowSegment('0KkRFcXTHDp84XnNw18d9r',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):575521',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#82782,#82918,'575521')
-[Warning] [2023-01-31 18:41:25] {2s_4D89lT8egiIk3HdWxbS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {2s_4D89lT8egiIk3HdWxbS} No material and surface styles for:
 #83159=IfcFlowSegment('2s_4D89lT8egiIk3HdWxbS',#33,'Pipe Types:Mechanical Pipe:577748',$,'Pipe Types:Mechanical Pipe',#82998,#83158,'577748')
-[Warning] [2023-01-31 18:41:25] {1yYwYL_irExf916vZONIdA} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {1yYwYL_irExf916vZONIdA} No material and surface styles for:
 #83393=IfcFlowSegment('1yYwYL_irExf916vZONIdA',#33,'Pipe Types:Mechanical Pipe:577808',$,'Pipe Types:Mechanical Pipe',#83256,#83392,'577808')
-[Warning] [2023-01-31 18:41:25] {3_kpKzKjv5SRTJR6fNjaAE} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3_kpKzKjv5SRTJR6fNjaAE} No material and surface styles for:
 #83676=IfcFlowSegment('3_kpKzKjv5SRTJR6fNjaAE',#33,'Pipe Types:Mechanical Pipe:577813',$,'Pipe Types:Mechanical Pipe',#83539,#83675,'577813')
-[Warning] [2023-01-31 18:41:25] {35Ap0tADT17v7zYDOdUmlm} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {35Ap0tADT17v7zYDOdUmlm} No material and surface styles for:
 #83862=IfcFlowSegment('35Ap0tADT17v7zYDOdUmlm',#33,'Pipe Types:Mechanical Pipe:577870',$,'Pipe Types:Mechanical Pipe',#83725,#83861,'577870')
-[Warning] [2023-01-31 18:41:25] {3fq8s9NyLB19dgP900nV9R} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3fq8s9NyLB19dgP900nV9R} No material and surface styles for:
 #84097=IfcFlowSegment('3fq8s9NyLB19dgP900nV9R',#33,'Pipe Types:Mechanical Pipe:577872',$,'Pipe Types:Mechanical Pipe',#83960,#84096,'577872')
-[Warning] [2023-01-31 18:41:25] {3SjNOa1Aj1NQy_HHBUTvTT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3SjNOa1Aj1NQy_HHBUTvTT} No material and surface styles for:
 #84409=IfcFlowSegment('3SjNOa1Aj1NQy_HHBUTvTT',#33,'Pipe Types:Mechanical Pipe:577911',$,'Pipe Types:Mechanical Pipe',#84242,#84408,'577911')
-[Warning] [2023-01-31 18:41:25] {02h8$yBYrFAPFGyaiB9iMU} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {02h8$yBYrFAPFGyaiB9iMU} No material and surface styles for:
 #84675=IfcFlowSegment('02h8$yBYrFAPFGyaiB9iMU',#33,'Pipe Types:Mechanical Pipe:577920',$,'Pipe Types:Mechanical Pipe',#84508,#84674,'577920')
-[Warning] [2023-01-31 18:41:25] {0ohin_b4j4eRTUPZimgBys} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0ohin_b4j4eRTUPZimgBys} No material and surface styles for:
 #85766=IfcFlowFitting('0ohin_b4j4eRTUPZimgBys',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:577990',$,'Tee - Generic',#85765,#85761,'577990')
-[Warning] [2023-01-31 18:41:25] {3nc3ucFDTC$wIRWWTb0ut1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3nc3ucFDTC$wIRWWTb0ut1} No material and surface styles for:
 #85949=IfcFlowSegment('3nc3ucFDTC$wIRWWTb0ut1',#33,'Pipe Types:Mechanical Pipe:577991',$,'Pipe Types:Mechanical Pipe',#85812,#85948,'577991')
-[Warning] [2023-01-31 18:41:25] {0DsvbZ8G90Yu5pfQ2cPXMf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0DsvbZ8G90Yu5pfQ2cPXMf} No material and surface styles for:
 #86184=IfcFlowSegment('0DsvbZ8G90Yu5pfQ2cPXMf',#33,'Pipe Types:Mechanical Pipe:578143',$,'Pipe Types:Mechanical Pipe',#86047,#86183,'578143')
-[Warning] [2023-01-31 18:41:25] {0aVOuM1Z97KxWIKBNf6_PJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0aVOuM1Z97KxWIKBNf6_PJ} No material and surface styles for:
 #86418=IfcFlowSegment('0aVOuM1Z97KxWIKBNf6_PJ',#33,'Pipe Types:Mechanical Pipe:578188',$,'Pipe Types:Mechanical Pipe',#86281,#86417,'578188')
-[Warning] [2023-01-31 18:41:25] {2R2I0lOjT7mxlwV4JPEHEJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {2R2I0lOjT7mxlwV4JPEHEJ} No material and surface styles for:
 #86700=IfcFlowSegment('2R2I0lOjT7mxlwV4JPEHEJ',#33,'Pipe Types:Mechanical Pipe:578228',$,'Pipe Types:Mechanical Pipe',#86563,#86699,'578228')
-[Warning] [2023-01-31 18:41:25] {3N2d4GRXPAtBHoc6HeN65G} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3N2d4GRXPAtBHoc6HeN65G} No material and surface styles for:
 #86934=IfcFlowSegment('3N2d4GRXPAtBHoc6HeN65G',#33,'Pipe Types:Mechanical Pipe:578230',$,'Pipe Types:Mechanical Pipe',#86797,#86933,'578230')
-[Warning] [2023-01-31 18:41:25] {08kYZ9hyn0qwD8PuqkbtES} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {08kYZ9hyn0qwD8PuqkbtES} No material and surface styles for:
 #87120=IfcFlowSegment('08kYZ9hyn0qwD8PuqkbtES',#33,'Pipe Types:Mechanical Pipe:578268',$,'Pipe Types:Mechanical Pipe',#86983,#87119,'578268')
-[Warning] [2023-01-31 18:41:25] {0_ccBL7l551P25IPB$TjrZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0_ccBL7l551P25IPB$TjrZ} No material and surface styles for:
 #87306=IfcFlowSegment('0_ccBL7l551P25IPB$TjrZ',#33,'Pipe Types:Mechanical Pipe:578279',$,'Pipe Types:Mechanical Pipe',#87169,#87305,'578279')
-[Warning] [2023-01-31 18:41:25] {2nZovNVmnF3OR5R2OEJA0F} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {2nZovNVmnF3OR5R2OEJA0F} No material and surface styles for:
 #87587=IfcFlowSegment('2nZovNVmnF3OR5R2OEJA0F',#33,'Pipe Types:Mechanical Pipe:578403',$,'Pipe Types:Mechanical Pipe',#87450,#87586,'578403')
-[Warning] [2023-01-31 18:41:26] {0kaVCm0DbBMeMk$CEuGibb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0kaVCm0DbBMeMk$CEuGibb} No material and surface styles for:
 #90481=IfcFlowFitting('0kaVCm0DbBMeMk$CEuGibb',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:578414',$,'Transition - Generic',#90480,#90474,'578414')
-[Warning] [2023-01-31 18:41:26] {1IPmKXj8TDgvz__QSZOT3e} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {1IPmKXj8TDgvz__QSZOT3e} No material and surface styles for:
 #90772=IfcFlowSegment('1IPmKXj8TDgvz__QSZOT3e',#33,'Pipe Types:Mechanical Pipe:578423',$,'Pipe Types:Mechanical Pipe',#90635,#90771,'578423')
-[Warning] [2023-01-31 18:41:26] {0mWc3NzQr1qee65Y$8GfjK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0mWc3NzQr1qee65Y$8GfjK} No material and surface styles for:
 #93072=IfcFlowController('0mWc3NzQr1qee65Y$8GfjK',#33,'M_Ball Valve - 50-150 mm:50 mm:50 mm:578433',$,'50 mm',#93071,#93068,'578433')
-[Warning] [2023-01-31 18:41:26] {1BGyu5IDLCYffY4GD4_4TO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {1BGyu5IDLCYffY4GD4_4TO} No material and surface styles for:
 #93302=IfcFlowSegment('1BGyu5IDLCYffY4GD4_4TO',#33,'Pipe Types:Mechanical Pipe:578435',$,'Pipe Types:Mechanical Pipe',#93165,#93301,'578435')
-[Warning] [2023-01-31 18:41:26] {3$Q_eopYf9Hgxm2njargEh} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3$Q_eopYf9Hgxm2njargEh} No material and surface styles for:
 #96192=IfcFlowFitting('3$Q_eopYf9Hgxm2njargEh',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:578436',$,'Transition - Generic',#96191,#96188,'578436')
-[Warning] [2023-01-31 18:41:26] {0CeyDLQ_17uf3YsBD7Eca8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {0CeyDLQ_17uf3YsBD7Eca8} No material and surface styles for:
 #96440=IfcFlowSegment('0CeyDLQ_17uf3YsBD7Eca8',#33,'Pipe Types:Mechanical Pipe:578472',$,'Pipe Types:Mechanical Pipe',#96303,#96439,'578472')
-[Warning] [2023-01-31 18:41:26] {2RVsaznezAYAtSEKTcNKKo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {2RVsaznezAYAtSEKTcNKKo} No material and surface styles for:
 #96626=IfcFlowSegment('2RVsaznezAYAtSEKTcNKKo',#33,'Pipe Types:Mechanical Pipe:578485',$,'Pipe Types:Mechanical Pipe',#96489,#96625,'578485')
-[Warning] [2023-01-31 18:41:26] {3Aqh$4I6n3eQBHSiWmJfdG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:01] {3Aqh$4I6n3eQBHSiWmJfdG} No material and surface styles for:
 #96859=IfcFlowSegment('3Aqh$4I6n3eQBHSiWmJfdG',#33,'Pipe Types:Mechanical Pipe:578532',$,'Pipe Types:Mechanical Pipe',#96722,#96858,'578532')
-[Warning] [2023-01-31 18:41:26] {0_0aSTMV1Fb9uohXNefF1S} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0_0aSTMV1Fb9uohXNefF1S} No material and surface styles for:
 #97247=IfcFlowSegment('0_0aSTMV1Fb9uohXNefF1S',#33,'Pipe Types:Mechanical Pipe:578609',$,'Pipe Types:Mechanical Pipe',#97110,#97246,'578609')
-[Warning] [2023-01-31 18:41:26] {2NQw8HfS53fROY3xPF1Mox} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {2NQw8HfS53fROY3xPF1Mox} No material and surface styles for:
 #97552=IfcFlowSegment('2NQw8HfS53fROY3xPF1Mox',#33,'Pipe Types:Mechanical Pipe:578656',$,'Pipe Types:Mechanical Pipe',#97415,#97551,'578656')
-[Warning] [2023-01-31 18:41:26] {3T238pTfL7fuhwRyMYREa4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3T238pTfL7fuhwRyMYREa4} No material and surface styles for:
 #97737=IfcFlowSegment('3T238pTfL7fuhwRyMYREa4',#33,'Pipe Types:Mechanical Pipe:578706',$,'Pipe Types:Mechanical Pipe',#97600,#97736,'578706')
-[Warning] [2023-01-31 18:41:26] {3FcWWRQlbAtwsfoH23EZ4W} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3FcWWRQlbAtwsfoH23EZ4W} No material and surface styles for:
 #97972=IfcFlowSegment('3FcWWRQlbAtwsfoH23EZ4W',#33,'Pipe Types:Mechanical Pipe:578708',$,'Pipe Types:Mechanical Pipe',#97835,#97971,'578708')
-[Warning] [2023-01-31 18:41:26] {0wuQBfnsH7I8cPgE51nip1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0wuQBfnsH7I8cPgE51nip1} No material and surface styles for:
 #98206=IfcFlowSegment('0wuQBfnsH7I8cPgE51nip1',#33,'Pipe Types:Mechanical Pipe:578742',$,'Pipe Types:Mechanical Pipe',#98069,#98205,'578742')
-[Warning] [2023-01-31 18:41:26] {08ayqJVPzCnPvZ0wv8Gs_7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {08ayqJVPzCnPvZ0wv8Gs_7} No material and surface styles for:
 #98441=IfcFlowSegment('08ayqJVPzCnPvZ0wv8Gs_7',#33,'Pipe Types:Mechanical Pipe:578744',$,'Pipe Types:Mechanical Pipe',#98304,#98440,'578744')
-[Warning] [2023-01-31 18:41:26] {2EXDOXwvjBzP6MG7UG1B23} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {2EXDOXwvjBzP6MG7UG1B23} No material and surface styles for:
 #99531=IfcFlowFitting('2EXDOXwvjBzP6MG7UG1B23',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:578774',$,'Tee - Generic',#99530,#99525,'578774')
-[Warning] [2023-01-31 18:41:26] {3Juo5RdLjDzvD5r1MK1W2_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3Juo5RdLjDzvD5r1MK1W2_} No material and surface styles for:
 #99714=IfcFlowSegment('3Juo5RdLjDzvD5r1MK1W2_',#33,'Pipe Types:Mechanical Pipe:578775',$,'Pipe Types:Mechanical Pipe',#99577,#99713,'578775')
-[Warning] [2023-01-31 18:41:26] {2em0WWONX1aPizS$xeT1BR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {2em0WWONX1aPizS$xeT1BR} No material and surface styles for:
 #99900=IfcFlowSegment('2em0WWONX1aPizS$xeT1BR',#33,'Pipe Types:Mechanical Pipe:578830',$,'Pipe Types:Mechanical Pipe',#99763,#99899,'578830')
-[Warning] [2023-01-31 18:41:26] {0e1qv$SeP4kvZRY8S5gxVK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0e1qv$SeP4kvZRY8S5gxVK} No material and surface styles for:
 #100134=IfcFlowSegment('0e1qv$SeP4kvZRY8S5gxVK',#33,'Pipe Types:Mechanical Pipe:578872',$,'Pipe Types:Mechanical Pipe',#99997,#100133,'578872')
-[Warning] [2023-01-31 18:41:26] {0c8ED9w7XAgv_evno6JLQk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0c8ED9w7XAgv_evno6JLQk} No material and surface styles for:
 #100368=IfcFlowSegment('0c8ED9w7XAgv_evno6JLQk',#33,'Pipe Types:Mechanical Pipe:579139',$,'Pipe Types:Mechanical Pipe',#100231,#100367,'579139')
-[Warning] [2023-01-31 18:41:26] {1O4mCSncb3zPBNljqto35I} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1O4mCSncb3zPBNljqto35I} No material and surface styles for:
 #100554=IfcFlowSegment('1O4mCSncb3zPBNljqto35I',#33,'Pipe Types:Mechanical Pipe:579140',$,'Pipe Types:Mechanical Pipe',#100417,#100553,'579140')
-[Warning] [2023-01-31 18:41:26] {3fc6g1ZjD15whAruJ8HY3D} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3fc6g1ZjD15whAruJ8HY3D} No material and surface styles for:
 #100739=IfcFlowSegment('3fc6g1ZjD15whAruJ8HY3D',#33,'Pipe Types:Mechanical Pipe:579151',$,'Pipe Types:Mechanical Pipe',#100602,#100738,'579151')
-[Warning] [2023-01-31 18:41:26] {3fiSTwEwT9YB503IyGqznM} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3fiSTwEwT9YB503IyGqznM} No material and surface styles for:
 #101062=IfcFlowSegment('3fiSTwEwT9YB503IyGqznM',#33,'Pipe Types:Mechanical Pipe:579262',$,'Pipe Types:Mechanical Pipe',#100925,#101061,'579262')
-[Warning] [2023-01-31 18:41:26] {14m9_MpzbAsPRKwqT$IDkP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {14m9_MpzbAsPRKwqT$IDkP} No material and surface styles for:
 #101499=IfcFlowSegment('14m9_MpzbAsPRKwqT$IDkP',#33,'Pipe Types:Mechanical Pipe:579977',$,'Pipe Types:Mechanical Pipe',#101362,#101498,'579977')
-[Warning] [2023-01-31 18:41:26] {0skLjJmiP57OGJMoljVHcV} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0skLjJmiP57OGJMoljVHcV} No material and surface styles for:
 #103955=IfcFlowFitting('0skLjJmiP57OGJMoljVHcV',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580397',$,'Elbow - Generic',#103954,#103951,'580397')
-[Warning] [2023-01-31 18:41:26] {3JatDj1MD9r8HV09G81JEZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3JatDj1MD9r8HV09G81JEZ} No material and surface styles for:
 #105040=IfcFlowFitting('3JatDj1MD9r8HV09G81JEZ',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:580417',$,'Tee - Generic',#105039,#105035,'580417')
-[Warning] [2023-01-31 18:41:26] {1QDX2veKP7l9dnnGCFmZ6z} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1QDX2veKP7l9dnnGCFmZ6z} No material and surface styles for:
 #105223=IfcFlowSegment('1QDX2veKP7l9dnnGCFmZ6z',#33,'Pipe Types:Mechanical Pipe:580418',$,'Pipe Types:Mechanical Pipe',#105086,#105222,'580418')
-[Warning] [2023-01-31 18:41:26] {0xQ3f2TrrAbQJH707SXp06} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0xQ3f2TrrAbQJH707SXp06} No material and surface styles for:
 #107632=IfcFlowFitting('0xQ3f2TrrAbQJH707SXp06',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:580429',$,'Elbow - Generic',#107631,#107627,'580429')
-[Warning] [2023-01-31 18:41:26] {1orA7_GjLF2OvIsVTs6V1t} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1orA7_GjLF2OvIsVTs6V1t} No material and surface styles for:
 #107853=IfcFlowSegment('1orA7_GjLF2OvIsVTs6V1t',#33,'Pipe Types:Mechanical Pipe:581020',$,'Pipe Types:Mechanical Pipe',#107716,#107852,'581020')
-[Warning] [2023-01-31 18:41:26] {1impmxYP17IAv8I4ViRatb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1impmxYP17IAv8I4ViRatb} No material and surface styles for:
 #110742=IfcFlowFitting('1impmxYP17IAv8I4ViRatb',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:581027',$,'Transition - Generic',#110741,#110738,'581027')
-[Warning] [2023-01-31 18:41:27] {2QlU7TDun2uQvt5YtxL2L7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {2QlU7TDun2uQvt5YtxL2L7} No material and surface styles for:
 #113156=IfcFlowFitting('2QlU7TDun2uQvt5YtxL2L7',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:581029',$,'Elbow - Generic',#113155,#113151,'581029')
-[Warning] [2023-01-31 18:41:27] {1x1QcZ3O5E2PqXAPJsRt_i} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1x1QcZ3O5E2PqXAPJsRt_i} No material and surface styles for:
 #113338=IfcFlowSegment('1x1QcZ3O5E2PqXAPJsRt_i',#33,'Pipe Types:Mechanical Pipe:581037',$,'Pipe Types:Mechanical Pipe',#113201,#113337,'581037')
-[Warning] [2023-01-31 18:41:27] {1uIiQKQhrCBQXbE5317n3i} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1uIiQKQhrCBQXbE5317n3i} No material and surface styles for:
 #113581=IfcFlowSegment('1uIiQKQhrCBQXbE5317n3i',#33,'Pipe Types:Mechanical Pipe:581158',$,'Pipe Types:Mechanical Pipe',#113444,#113580,'581158')
-[Warning] [2023-01-31 18:41:27] {1XuxOcRG159earAXQVVAkc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {1XuxOcRG159earAXQVVAkc} No material and surface styles for:
 #113767=IfcFlowSegment('1XuxOcRG159earAXQVVAkc',#33,'Pipe Types:Mechanical Pipe:581159',$,'Pipe Types:Mechanical Pipe',#113630,#113766,'581159')
-[Warning] [2023-01-31 18:41:27] {0_PXghGjL3Gw9UlmLSUuaI} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {0_PXghGjL3Gw9UlmLSUuaI} No material and surface styles for:
 #116178=IfcFlowFitting('0_PXghGjL3Gw9UlmLSUuaI',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:581164',$,'Elbow - Generic',#116177,#116171,'581164')
-[Warning] [2023-01-31 18:41:27] {39q5k6Nav0gAnvdmCXpvoC} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {39q5k6Nav0gAnvdmCXpvoC} No material and surface styles for:
 #116466=IfcFlowSegment('39q5k6Nav0gAnvdmCXpvoC',#33,'Pipe Types:Mechanical Pipe:581179',$,'Pipe Types:Mechanical Pipe',#116329,#116465,'581179')
-[Warning] [2023-01-31 18:41:27] {3YwYaskHb9bvjoDfW05AdE} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {3YwYaskHb9bvjoDfW05AdE} No material and surface styles for:
 #116851=IfcFlowTerminal('3YwYaskHb9bvjoDfW05AdE',#33,'M_Shower Stall - Rectangular:865 mmx815 mm - Private:865 mmx815 mm - Private:582914',$,'865 mmx815 mm - Private',#116850,#116844,'582914')
-[Warning] [2023-01-31 18:41:27] {02A38ateT5NgmAdzUlg9_5} No material and surface styles for:
+[Warning] [2023-04-11 18:50:02] {02A38ateT5NgmAdzUlg9_5} No material and surface styles for:
 #118498=IfcFlowTerminal('02A38ateT5NgmAdzUlg9_5',#33,'M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582915',$,'Private - 6.1 Lpf',#118497,#118491,'582915')
-[Warning] [2023-01-31 18:41:27] {1uhDdJFhH79efaAOyK3eAf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {1uhDdJFhH79efaAOyK3eAf} No material and surface styles for:
 #120371=IfcFlowTerminal('1uhDdJFhH79efaAOyK3eAf',#33,'M_Lavatory - Oval:535 mmx485 mm - Private:535 mmx485 mm - Private:582916',$,'535 mmx485 mm - Private',#120370,#120364,'582916')
-[Warning] [2023-01-31 18:41:27] {37TXYoMojAaPHjgvmWpTIt} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {37TXYoMojAaPHjgvmWpTIt} No material and surface styles for:
 #124829=IfcFlowTerminal('37TXYoMojAaPHjgvmWpTIt',#33,'M_Sink - Island - Single:455 mmx455 mm - Private:455 mmx455 mm - Private:582920',$,'455 mmx455 mm - Private',#124828,#124822,'582920')
-[Warning] [2023-01-31 18:41:27] {1YLPoi73z0fvdanmaXQreg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {1YLPoi73z0fvdanmaXQreg} No material and surface styles for:
 #125949=IfcFlowTerminal('1YLPoi73z0fvdanmaXQreg',#33,'M_Bath Tub:1525 mmx760 mm - Private:1525 mmx760 mm - Private:582924',$,'1525 mmx760 mm - Private',#125948,#125942,'582924')
-[Warning] [2023-01-31 18:41:27] {0Pz783AEDBOhI4t6HcCeBV} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {0Pz783AEDBOhI4t6HcCeBV} No material and surface styles for:
 #127865=IfcFlowTerminal('0Pz783AEDBOhI4t6HcCeBV',#33,'M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582926',$,'650 mmx485 mm - Private',#127864,#127858,'582926')
-[Warning] [2023-01-31 18:41:27] {3T$kO2w2DDI8QpClf6eQBB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {3T$kO2w2DDI8QpClf6eQBB} No material and surface styles for:
 #130616=IfcFlowFitting('3T$kO2w2DDI8QpClf6eQBB',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582938',$,'Elbow - Generic',#130615,#130610,'582938')
-[Warning] [2023-01-31 18:41:27] {1m8dAeHvDBxxrwZJ_6QGkg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {1m8dAeHvDBxxrwZJ_6QGkg} No material and surface styles for:
 #133105=IfcFlowFitting('1m8dAeHvDBxxrwZJ_6QGkg',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582939',$,'Elbow - Generic',#133104,#133100,'582939')
-[Warning] [2023-01-31 18:41:28] {06uxWXUlT4WwN22sA1Epss} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {06uxWXUlT4WwN22sA1Epss} No material and surface styles for:
 #133287=IfcFlowSegment('06uxWXUlT4WwN22sA1Epss',#33,'Pipe Types:Waste:582940',$,'Pipe Types:Waste',#133150,#133286,'582940')
-[Warning] [2023-01-31 18:41:28] {3iwIK3bEj2cA88Ds0WqEw3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {3iwIK3bEj2cA88Ds0WqEw3} No material and surface styles for:
 #133509=IfcFlowSegment('3iwIK3bEj2cA88Ds0WqEw3',#33,'Pipe Types:Waste:582941',$,'Pipe Types:Waste',#133372,#133508,'582941')
-[Warning] [2023-01-31 18:41:28] {3eknGnFy5CJQhRXYLso9rx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {3eknGnFy5CJQhRXYLso9rx} No material and surface styles for:
 #136038=IfcFlowFitting('3eknGnFy5CJQhRXYLso9rx',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582943',$,'Elbow - Generic',#136037,#136034,'582943')
-[Warning] [2023-01-31 18:41:28] {2ZEk5RUor3zvcmR2oNk33Q} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {2ZEk5RUor3zvcmR2oNk33Q} No material and surface styles for:
 #136220=IfcFlowSegment('2ZEk5RUor3zvcmR2oNk33Q',#33,'Pipe Types:Waste:582945',$,'Pipe Types:Waste',#136083,#136219,'582945')
-[Warning] [2023-01-31 18:41:28] {0yKbtog$P1YxDyCk1qgYZf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {0yKbtog$P1YxDyCk1qgYZf} No material and surface styles for:
 #136398=IfcFlowSegment('0yKbtog$P1YxDyCk1qgYZf',#33,'Pipe Types:Waste:582946',$,'Pipe Types:Waste',#136261,#136397,'582946')
-[Warning] [2023-01-31 18:41:28] {3IeTC6sbv7_hqjhfjn$T5M} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {3IeTC6sbv7_hqjhfjn$T5M} No material and surface styles for:
 #136601=IfcFlowSegment('3IeTC6sbv7_hqjhfjn$T5M',#33,'Pipe Types:Waste:582947',$,'Pipe Types:Waste',#136440,#136600,'582947')
-[Warning] [2023-01-31 18:41:28] {1SO1ux5hD1HBU4JXheRTqv} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {1SO1ux5hD1HBU4JXheRTqv} No material and surface styles for:
 #139060=IfcFlowFitting('1SO1ux5hD1HBU4JXheRTqv',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582948',$,'Elbow - Generic',#139059,#139056,'582948')
-[Warning] [2023-01-31 18:41:28] {0kIh3MZ3j0KvYZZiPn1QmO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {0kIh3MZ3j0KvYZZiPn1QmO} No material and surface styles for:
 #140520=IfcFlowFitting('0kIh3MZ3j0KvYZZiPn1QmO',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:582949',$,'Tee - Generic',#140519,#140514,'582949')
-[Warning] [2023-01-31 18:41:28] {0n2yQi$YDA28SFAcdqNtR_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {0n2yQi$YDA28SFAcdqNtR_} No material and surface styles for:
 #140703=IfcFlowSegment('0n2yQi$YDA28SFAcdqNtR_',#33,'Pipe Types:Waste:582951',$,'Pipe Types:Waste',#140566,#140702,'582951')
-[Warning] [2023-01-31 18:41:28] {0v0Mms3Db0pRvvHyIQCrE1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:03] {0v0Mms3Db0pRvvHyIQCrE1} No material and surface styles for:
 #140879=IfcFlowSegment('0v0Mms3Db0pRvvHyIQCrE1',#33,'Pipe Types:Waste:582952',$,'Pipe Types:Waste',#140742,#140878,'582952')
-[Warning] [2023-01-31 18:41:28] {3eAA$CJlT1EeOPz$$sQNW2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3eAA$CJlT1EeOPz$$sQNW2} No material and surface styles for:
 #141070=IfcFlowSegment('3eAA$CJlT1EeOPz$$sQNW2',#33,'Pipe Types:Waste:582953',$,'Pipe Types:Waste',#140921,#141069,'582953')
-[Warning] [2023-01-31 18:41:28] {0yIUDjMir0Uf4bkB$wjECb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0yIUDjMir0Uf4bkB$wjECb} No material and surface styles for:
 #143595=IfcFlowFitting('0yIUDjMir0Uf4bkB$wjECb',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582954',$,'Elbow - Generic',#143594,#143591,'582954')
-[Warning] [2023-01-31 18:41:28] {0$LNoCntTAthq5oMj33Z8K} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0$LNoCntTAthq5oMj33Z8K} No material and surface styles for:
 #143861=IfcFlowSegment('0$LNoCntTAthq5oMj33Z8K',#33,'Pipe Types:Waste:582956',$,'Pipe Types:Waste',#143691,#143860,'582956')
-[Warning] [2023-01-31 18:41:28] {2k4Olyy_HB9fuCzxjwspMs} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2k4Olyy_HB9fuCzxjwspMs} No material and surface styles for:
 #144070=IfcFlowSegment('2k4Olyy_HB9fuCzxjwspMs',#33,'Pipe Types:Waste:582958',$,'Pipe Types:Waste',#143903,#144069,'582958')
-[Warning] [2023-01-31 18:41:28] {3fo0d8AiP5_eueMjA3oF0Y} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3fo0d8AiP5_eueMjA3oF0Y} No material and surface styles for:
 #145513=IfcFlowFitting('3fo0d8AiP5_eueMjA3oF0Y',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:582959',$,'Tee - Generic',#145512,#145509,'582959')
-[Warning] [2023-01-31 18:41:28] {2QfBzPgUD8GgqOnq7WKPOP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2QfBzPgUD8GgqOnq7WKPOP} No material and surface styles for:
 #145696=IfcFlowSegment('2QfBzPgUD8GgqOnq7WKPOP',#33,'Pipe Types:Waste:582960',$,'Pipe Types:Waste',#145559,#145695,'582960')
-[Warning] [2023-01-31 18:41:28] {3OnxxtS5jAef2yqWa7uNK9} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3OnxxtS5jAef2yqWa7uNK9} No material and surface styles for:
 #145924=IfcFlowSegment('3OnxxtS5jAef2yqWa7uNK9',#33,'Pipe Types:Waste:582962',$,'Pipe Types:Waste',#145787,#145923,'582962')
-[Warning] [2023-01-31 18:41:28] {26fwErs71CaPvzCQYGDAhC} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {26fwErs71CaPvzCQYGDAhC} No material and surface styles for:
 #146171=IfcFlowSegment('26fwErs71CaPvzCQYGDAhC',#33,'Pipe Types:Waste:582963',$,'Pipe Types:Waste',#145965,#146170,'582963')
-[Warning] [2023-01-31 18:41:28] {3Xb$Vjn3LCevAK_atsXNZK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3Xb$Vjn3LCevAK_atsXNZK} No material and surface styles for:
 #146396=IfcFlowSegment('3Xb$Vjn3LCevAK_atsXNZK',#33,'Pipe Types:Waste:582967',$,'Pipe Types:Waste',#146213,#146395,'582967')
-[Warning] [2023-01-31 18:41:28] {3EEUsdoeb9f8EThcDcbGyi} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3EEUsdoeb9f8EThcDcbGyi} No material and surface styles for:
 #146654=IfcFlowSegment('3EEUsdoeb9f8EThcDcbGyi',#33,'Pipe Types:Waste:582975',$,'Pipe Types:Waste',#146487,#146653,'582975')
-[Warning] [2023-01-31 18:41:28] {3VRdkguH533PKN7CamRiSe} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3VRdkguH533PKN7CamRiSe} No material and surface styles for:
 #146886=IfcFlowSegment('3VRdkguH533PKN7CamRiSe',#33,'Pipe Types:Waste:582976',$,'Pipe Types:Waste',#146695,#146885,'582976')
-[Warning] [2023-01-31 18:41:28] {0VntA578bFqxwwiiNQwPHi} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0VntA578bFqxwwiiNQwPHi} No material and surface styles for:
 #147064=IfcFlowSegment('0VntA578bFqxwwiiNQwPHi',#33,'Pipe Types:Waste:582977',$,'Pipe Types:Waste',#146927,#147063,'582977')
-[Warning] [2023-01-31 18:41:28] {00BuoG3xf1n8QElM_9VYaq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {00BuoG3xf1n8QElM_9VYaq} No material and surface styles for:
 #149523=IfcFlowFitting('00BuoG3xf1n8QElM_9VYaq',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582978',$,'Elbow - Generic',#149522,#149519,'582978')
-[Warning] [2023-01-31 18:41:28] {0k2HCeKr1DJAq7xOJGpDhR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0k2HCeKr1DJAq7xOJGpDhR} No material and surface styles for:
 #149786=IfcFlowSegment('0k2HCeKr1DJAq7xOJGpDhR',#33,'Pipe Types:Waste:582980',$,'Pipe Types:Waste',#149619,#149785,'582980')
-[Warning] [2023-01-31 18:41:28] {2Qqpm1NrP2OhaZv7qVKD60} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2Qqpm1NrP2OhaZv7qVKD60} No material and surface styles for:
 #150025=IfcFlowSegment('2Qqpm1NrP2OhaZv7qVKD60',#33,'Pipe Types:Waste:582982',$,'Pipe Types:Waste',#149828,#150024,'582982')
-[Warning] [2023-01-31 18:41:28] {27lEnIl4b3GQecRkcS06lq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {27lEnIl4b3GQecRkcS06lq} No material and surface styles for:
 #150201=IfcFlowSegment('27lEnIl4b3GQecRkcS06lq',#33,'Pipe Types:Waste:582983',$,'Pipe Types:Waste',#150064,#150200,'582983')
-[Warning] [2023-01-31 18:41:28] {1ke1AN57X8oPMxa1D5wkk_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1ke1AN57X8oPMxa1D5wkk_} No material and surface styles for:
 #150509=IfcFlowSegment('1ke1AN57X8oPMxa1D5wkk_',#33,'Pipe Types:Waste:582986',$,'Pipe Types:Waste',#150342,#150508,'582986')
-[Warning] [2023-01-31 18:41:28] {2zBavrf4H0$vUGejezuG6q} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2zBavrf4H0$vUGejezuG6q} No material and surface styles for:
 #150730=IfcFlowSegment('2zBavrf4H0$vUGejezuG6q',#33,'Pipe Types:Waste:582987',$,'Pipe Types:Waste',#150551,#150729,'582987')
-[Warning] [2023-01-31 18:41:28] {3aokjwAfT6AfCNyQ30cdBQ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3aokjwAfT6AfCNyQ30cdBQ} No material and surface styles for:
 #150963=IfcFlowSegment('3aokjwAfT6AfCNyQ30cdBQ',#33,'Pipe Types:Waste:582988',$,'Pipe Types:Waste',#150772,#150962,'582988')
-[Warning] [2023-01-31 18:41:28] {0LloZmIUbAIw6u_Vj1njdl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0LloZmIUbAIw6u_Vj1njdl} No material and surface styles for:
 #151141=IfcFlowSegment('0LloZmIUbAIw6u_Vj1njdl',#33,'Pipe Types:Waste:582989',$,'Pipe Types:Waste',#151004,#151140,'582989')
-[Warning] [2023-01-31 18:41:28] {0UuARtNK51tRgTS3KA5as_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0UuARtNK51tRgTS3KA5as_} No material and surface styles for:
 #151355=IfcFlowSegment('0UuARtNK51tRgTS3KA5as_',#33,'Pipe Types:Waste:582990',$,'Pipe Types:Waste',#151182,#151354,'582990')
-[Warning] [2023-01-31 18:41:28] {315btgnV5ARxjkFHf92BPk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {315btgnV5ARxjkFHf92BPk} No material and surface styles for:
 #151534=IfcFlowSegment('315btgnV5ARxjkFHf92BPk',#33,'Pipe Types:Waste:582991',$,'Pipe Types:Waste',#151397,#151533,'582991')
-[Warning] [2023-01-31 18:41:28] {08K0x7KyT9yw3T_wxwfYy6} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {08K0x7KyT9yw3T_wxwfYy6} No material and surface styles for:
 #151764=IfcFlowSegment('08K0x7KyT9yw3T_wxwfYy6',#33,'Pipe Types:Waste:582992',$,'Pipe Types:Waste',#151573,#151763,'582992')
-[Warning] [2023-01-31 18:41:28] {0C3le$8kz2TRXfg7YEwnHk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0C3le$8kz2TRXfg7YEwnHk} No material and surface styles for:
 #154093=IfcFlowFitting('0C3le$8kz2TRXfg7YEwnHk',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:582993',$,'Elbow - Generic',#154092,#154089,'582993')
-[Warning] [2023-01-31 18:41:29] {0quQz8L7D2gB0SDpzXgSjl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0quQz8L7D2gB0SDpzXgSjl} No material and surface styles for:
 #154401=IfcFlowSegment('0quQz8L7D2gB0SDpzXgSjl',#33,'Pipe Types:Waste:582999',$,'Pipe Types:Waste',#154188,#154400,'582999')
-[Warning] [2023-01-31 18:41:29] {2MVmxBv81FPQBZsXh_XK9$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2MVmxBv81FPQBZsXh_XK9$} No material and surface styles for:
 #154622=IfcFlowSegment('2MVmxBv81FPQBZsXh_XK9$',#33,'Pipe Types:Waste:583001',$,'Pipe Types:Waste',#154443,#154621,'583001')
-[Warning] [2023-01-31 18:41:29] {0E4mjlmTrB_gHQ5cS1q4RR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0E4mjlmTrB_gHQ5cS1q4RR} No material and surface styles for:
 #154801=IfcFlowSegment('0E4mjlmTrB_gHQ5cS1q4RR',#33,'Pipe Types:Waste:583003',$,'Pipe Types:Waste',#154664,#154800,'583003')
-[Warning] [2023-01-31 18:41:29] {3CBsAX0aP3yPF7Ys4hYGod} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3CBsAX0aP3yPF7Ys4hYGod} No material and surface styles for:
 #154977=IfcFlowSegment('3CBsAX0aP3yPF7Ys4hYGod',#33,'Pipe Types:Waste:583004',$,'Pipe Types:Waste',#154840,#154976,'583004')
-[Warning] [2023-01-31 18:41:29] {0ByEBySwz3jvSlLfX2VHKk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0ByEBySwz3jvSlLfX2VHKk} No material and surface styles for:
 #157502=IfcFlowFitting('0ByEBySwz3jvSlLfX2VHKk',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583005',$,'Elbow - Generic',#157501,#157498,'583005')
-[Warning] [2023-01-31 18:41:29] {10prxdW2b0lQqD7wNhsFCD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {10prxdW2b0lQqD7wNhsFCD} No material and surface styles for:
 #157733=IfcFlowSegment('10prxdW2b0lQqD7wNhsFCD',#33,'Pipe Types:Waste:583008',$,'Pipe Types:Waste',#157596,#157732,'583008')
-[Warning] [2023-01-31 18:41:29] {32S5$lwL1C2wKWLnxix3to} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {32S5$lwL1C2wKWLnxix3to} No material and surface styles for:
 #157911=IfcFlowSegment('32S5$lwL1C2wKWLnxix3to',#33,'Pipe Types:Waste:583009',$,'Pipe Types:Waste',#157774,#157910,'583009')
-[Warning] [2023-01-31 18:41:29] {3HquGGgdr1MBhgCmxgDRzk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3HquGGgdr1MBhgCmxgDRzk} No material and surface styles for:
 #158219=IfcFlowSegment('3HquGGgdr1MBhgCmxgDRzk',#33,'Pipe Types:Waste:583012',$,'Pipe Types:Waste',#158052,#158218,'583012')
-[Warning] [2023-01-31 18:41:29] {1OqCVpkjL9of4Aw__FFabO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1OqCVpkjL9of4Aw__FFabO} No material and surface styles for:
 #158398=IfcFlowSegment('1OqCVpkjL9of4Aw__FFabO',#33,'Pipe Types:Waste:583014',$,'Pipe Types:Waste',#158261,#158397,'583014')
-[Warning] [2023-01-31 18:41:29] {0n2SWiz1j44Oj5q69V92NS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0n2SWiz1j44Oj5q69V92NS} No material and surface styles for:
 #158574=IfcFlowSegment('0n2SWiz1j44Oj5q69V92NS',#33,'Pipe Types:Waste:583015',$,'Pipe Types:Waste',#158437,#158573,'583015')
-[Warning] [2023-01-31 18:41:29] {21SGviq55B1emGfBcfV0iO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {21SGviq55B1emGfBcfV0iO} No material and surface styles for:
 #158882=IfcFlowSegment('21SGviq55B1emGfBcfV0iO',#33,'Pipe Types:Waste:583018',$,'Pipe Types:Waste',#158715,#158881,'583018')
-[Warning] [2023-01-31 18:41:29] {3lseqHYInAMgugeam7QhMr} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3lseqHYInAMgugeam7QhMr} No material and surface styles for:
 #159141=IfcFlowSegment('3lseqHYInAMgugeam7QhMr',#33,'Pipe Types:Waste:583032',$,'Pipe Types:Waste',#158974,#159140,'583032')
-[Warning] [2023-01-31 18:41:29] {336ajHRPXDE8$eoXtNDAE2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {336ajHRPXDE8$eoXtNDAE2} No material and surface styles for:
 #159344=IfcFlowSegment('336ajHRPXDE8$eoXtNDAE2',#33,'Pipe Types:Waste:583033',$,'Pipe Types:Waste',#159183,#159343,'583033')
-[Warning] [2023-01-31 18:41:29] {0ji8ekfkf6ZBQZ7qgxqlqV} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0ji8ekfkf6ZBQZ7qgxqlqV} No material and surface styles for:
 #159614=IfcFlowSegment('0ji8ekfkf6ZBQZ7qgxqlqV',#33,'Pipe Types:Waste:583035',$,'Pipe Types:Waste',#159435,#159613,'583035')
-[Warning] [2023-01-31 18:41:29] {1bF3JYdJ13BA_bNkmerM4P} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1bF3JYdJ13BA_bNkmerM4P} No material and surface styles for:
 #159816=IfcFlowSegment('1bF3JYdJ13BA_bNkmerM4P',#33,'Pipe Types:Waste:583036',$,'Pipe Types:Waste',#159655,#159815,'583036')
-[Warning] [2023-01-31 18:41:29] {16lIGYdp18FRS3rxWAB8KR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {16lIGYdp18FRS3rxWAB8KR} No material and surface styles for:
 #160037=IfcFlowSegment('16lIGYdp18FRS3rxWAB8KR',#33,'Pipe Types:Waste:583037',$,'Pipe Types:Waste',#159858,#160036,'583037')
-[Warning] [2023-01-31 18:41:29] {2pc9B6lHv8cecVUCalIrxk} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2pc9B6lHv8cecVUCalIrxk} No material and surface styles for:
 #160239=IfcFlowSegment('2pc9B6lHv8cecVUCalIrxk',#33,'Pipe Types:Waste:583038',$,'Pipe Types:Waste',#160078,#160238,'583038')
-[Warning] [2023-01-31 18:41:29] {1aJsVWmH54i9k72wRq_6ka} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1aJsVWmH54i9k72wRq_6ka} No material and surface styles for:
 #160415=IfcFlowSegment('1aJsVWmH54i9k72wRq_6ka',#33,'Pipe Types:Waste:583039',$,'Pipe Types:Waste',#160278,#160414,'583039')
-[Warning] [2023-01-31 18:41:29] {3mR31R5pz3Qw$gjC2sQBj2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3mR31R5pz3Qw$gjC2sQBj2} No material and surface styles for:
 #160696=IfcFlowSegment('3mR31R5pz3Qw$gjC2sQBj2',#33,'Pipe Types:Waste:583041',$,'Pipe Types:Waste',#160505,#160695,'583041')
-[Warning] [2023-01-31 18:41:29] {1uJpO2SfX2pg64mSimnBXT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1uJpO2SfX2pg64mSimnBXT} No material and surface styles for:
 #160872=IfcFlowSegment('1uJpO2SfX2pg64mSimnBXT',#33,'Pipe Types:Waste:583042',$,'Pipe Types:Waste',#160735,#160871,'583042')
-[Warning] [2023-01-31 18:41:29] {0Cuj5gcEX9KviI6$ll$8$j} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0Cuj5gcEX9KviI6$ll$8$j} No material and surface styles for:
 #161216=IfcFlowSegment('0Cuj5gcEX9KviI6$ll$8$j',#33,'Pipe Types:Waste:583045',$,'Pipe Types:Waste',#161013,#161215,'583045')
-[Warning] [2023-01-31 18:41:29] {1HYydAUW55lQIF6TQNDUVy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1HYydAUW55lQIF6TQNDUVy} No material and surface styles for:
 #161395=IfcFlowSegment('1HYydAUW55lQIF6TQNDUVy',#33,'Pipe Types:Waste:583046',$,'Pipe Types:Waste',#161258,#161394,'583046')
-[Warning] [2023-01-31 18:41:29] {0WmmZdfRTDOB6MqWWFJR5M} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0WmmZdfRTDOB6MqWWFJR5M} No material and surface styles for:
 #161573=IfcFlowSegment('0WmmZdfRTDOB6MqWWFJR5M',#33,'Pipe Types:Waste:583047',$,'Pipe Types:Waste',#161436,#161572,'583047')
-[Warning] [2023-01-31 18:41:29] {3gDsPJQIP7HOn$wh2K4DS8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3gDsPJQIP7HOn$wh2K4DS8} No material and surface styles for:
 #161869=IfcFlowSegment('3gDsPJQIP7HOn$wh2K4DS8',#33,'Pipe Types:Waste:583050',$,'Pipe Types:Waste',#161714,#161868,'583050')
-[Warning] [2023-01-31 18:41:29] {1mtb34kP5FWAXHJrWUAkDc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {1mtb34kP5FWAXHJrWUAkDc} No material and surface styles for:
 #162060=IfcFlowSegment('1mtb34kP5FWAXHJrWUAkDc',#33,'Pipe Types:Waste:583052',$,'Pipe Types:Waste',#161911,#162059,'583052')
-[Warning] [2023-01-31 18:41:29] {14P5tYm2r0Dw3JAA_w383A} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {14P5tYm2r0Dw3JAA_w383A} No material and surface styles for:
 #162304=IfcFlowSegment('14P5tYm2r0Dw3JAA_w383A',#33,'Pipe Types:Waste:583053',$,'Pipe Types:Waste',#162101,#162303,'583053')
-[Warning] [2023-01-31 18:41:29] {0LTXqUi09FNxSJ1LzZx80u} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {0LTXqUi09FNxSJ1LzZx80u} No material and surface styles for:
 #162483=IfcFlowSegment('0LTXqUi09FNxSJ1LzZx80u',#33,'Pipe Types:Cold Water:583054',$,'Pipe Types:Cold Water',#162346,#162482,'583054')
-[Warning] [2023-01-31 18:41:29] {2zA8nJhRjBxuamoKqYCxbS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {2zA8nJhRjBxuamoKqYCxbS} No material and surface styles for:
 #162715=IfcFlowSegment('2zA8nJhRjBxuamoKqYCxbS',#33,'Pipe Types:Cold Water:583055',$,'Pipe Types:Cold Water',#162578,#162714,'583055')
-[Warning] [2023-01-31 18:41:29] {3LYK1avov8oB_KTnGz8R3x} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3LYK1avov8oB_KTnGz8R3x} No material and surface styles for:
 #162902=IfcFlowSegment('3LYK1avov8oB_KTnGz8R3x',#33,'Pipe Types:Cold Water:583056',$,'Pipe Types:Cold Water',#162765,#162901,'583056')
-[Warning] [2023-01-31 18:41:29] {3fXw$T4W993uTpDnaBqucZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:04] {3fXw$T4W993uTpDnaBqucZ} No material and surface styles for:
 #163798=IfcFlowFitting('3fXw$T4W993uTpDnaBqucZ',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583057',$,'Elbow - Generic',#163797,#163794,'583057')
-[Warning] [2023-01-31 18:41:29] {0ufkjjBqHC_eia9fCFrpBQ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0ufkjjBqHC_eia9fCFrpBQ} No material and surface styles for:
 #164029=IfcFlowSegment('0ufkjjBqHC_eia9fCFrpBQ',#33,'Pipe Types:Cold Water:583059',$,'Pipe Types:Cold Water',#163892,#164028,'583059')
-[Warning] [2023-01-31 18:41:29] {1LAty58CH48wt3FIOhfw0T} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1LAty58CH48wt3FIOhfw0T} No material and surface styles for:
 #164676=IfcFlowFitting('1LAty58CH48wt3FIOhfw0T',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:583060',$,'Transition - Generic',#164675,#164672,'583060')
-[Warning] [2023-01-31 18:41:29] {1XvfWvgFP6gPrew2jqx$Dn} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1XvfWvgFP6gPrew2jqx$Dn} No material and surface styles for:
 #164867=IfcFlowSegment('1XvfWvgFP6gPrew2jqx$Dn',#33,'Pipe Types:Cold Water:583061',$,'Pipe Types:Cold Water',#164730,#164866,'583061')
-[Warning] [2023-01-31 18:41:29] {1OIVQOHS1AE8kz$ocqmDKV} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1OIVQOHS1AE8kz$ocqmDKV} No material and surface styles for:
 #165055=IfcFlowSegment('1OIVQOHS1AE8kz$ocqmDKV',#33,'Pipe Types:Cold Water:583062',$,'Pipe Types:Cold Water',#164918,#165054,'583062')
-[Warning] [2023-01-31 18:41:29] {1csNAsOdzEbfknTb6RaNAp} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1csNAsOdzEbfknTb6RaNAp} No material and surface styles for:
 #165339=IfcFlowSegment('1csNAsOdzEbfknTb6RaNAp',#33,'Pipe Types:Cold Water:583065',$,'Pipe Types:Cold Water',#165202,#165338,'583065')
-[Warning] [2023-01-31 18:41:29] {1xrXmBs2P5kxDWd6hFV1sa} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1xrXmBs2P5kxDWd6hFV1sa} No material and surface styles for:
 #165985=IfcFlowFitting('1xrXmBs2P5kxDWd6hFV1sa',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:583066',$,'Transition - Generic',#165984,#165981,'583066')
-[Warning] [2023-01-31 18:41:29] {3mPE5k4Z1BMwNpizluRx2t} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3mPE5k4Z1BMwNpizluRx2t} No material and surface styles for:
 #166176=IfcFlowSegment('3mPE5k4Z1BMwNpizluRx2t',#33,'Pipe Types:Cold Water:583067',$,'Pipe Types:Cold Water',#166039,#166175,'583067')
-[Warning] [2023-01-31 18:41:29] {0s_hlmKKHAKuj$pmLmrrgr} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0s_hlmKKHAKuj$pmLmrrgr} No material and surface styles for:
 #166363=IfcFlowSegment('0s_hlmKKHAKuj$pmLmrrgr',#33,'Pipe Types:Cold Water:583068',$,'Pipe Types:Cold Water',#166226,#166362,'583068')
-[Warning] [2023-01-31 18:41:29] {06t8p5K211UAFfw3ZlLcyL} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {06t8p5K211UAFfw3ZlLcyL} No material and surface styles for:
 #166551=IfcFlowSegment('06t8p5K211UAFfw3ZlLcyL',#33,'Pipe Types:Cold Water:583069',$,'Pipe Types:Cold Water',#166414,#166550,'583069')
-[Warning] [2023-01-31 18:41:29] {3YfV03LG15ZQPMF5cDLV0u} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3YfV03LG15ZQPMF5cDLV0u} No material and surface styles for:
 #166739=IfcFlowSegment('3YfV03LG15ZQPMF5cDLV0u',#33,'Pipe Types:Cold Water:583070',$,'Pipe Types:Cold Water',#166602,#166738,'583070')
-[Warning] [2023-01-31 18:41:29] {0EIJaXv7P7o9GCWS2fgq1x} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0EIJaXv7P7o9GCWS2fgq1x} No material and surface styles for:
 #166974=IfcFlowSegment('0EIJaXv7P7o9GCWS2fgq1x',#33,'Pipe Types:Cold Water:583072',$,'Pipe Types:Cold Water',#166837,#166973,'583072')
-[Warning] [2023-01-31 18:41:29] {0qyc268mj0mPm65sywbJ_b} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0qyc268mj0mPm65sywbJ_b} No material and surface styles for:
 #167257=IfcFlowSegment('0qyc268mj0mPm65sywbJ_b',#33,'Pipe Types:Cold Water:583075',$,'Pipe Types:Cold Water',#167120,#167256,'583075')
-[Warning] [2023-01-31 18:41:29] {2mAcKs5Fj7NwAeOcUWniDf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2mAcKs5Fj7NwAeOcUWniDf} No material and surface styles for:
 #167492=IfcFlowSegment('2mAcKs5Fj7NwAeOcUWniDf',#33,'Pipe Types:Cold Water:583082',$,'Pipe Types:Cold Water',#167355,#167491,'583082')
-[Warning] [2023-01-31 18:41:29] {0UXjgAgML1Ou1115qS8AcU} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0UXjgAgML1Ou1115qS8AcU} No material and surface styles for:
 #167680=IfcFlowSegment('0UXjgAgML1Ou1115qS8AcU',#33,'Pipe Types:Cold Water:583083',$,'Pipe Types:Cold Water',#167543,#167679,'583083')
-[Warning] [2023-01-31 18:41:29] {0M4$H6OqL328l0plxSr09b} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0M4$H6OqL328l0plxSr09b} No material and surface styles for:
 #167868=IfcFlowSegment('0M4$H6OqL328l0plxSr09b',#33,'Pipe Types:Cold Water:583084',$,'Pipe Types:Cold Water',#167731,#167867,'583084')
-[Warning] [2023-01-31 18:41:29] {3x345hEjD5Fwqx3XS5FoX6} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3x345hEjD5Fwqx3XS5FoX6} No material and surface styles for:
 #168152=IfcFlowSegment('3x345hEjD5Fwqx3XS5FoX6',#33,'Pipe Types:Cold Water:583087',$,'Pipe Types:Cold Water',#168015,#168151,'583087')
-[Warning] [2023-01-31 18:41:29] {3aAgj4w_P2Ne$smzggfnTl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3aAgj4w_P2Ne$smzggfnTl} No material and surface styles for:
 #168396=IfcFlowSegment('3aAgj4w_P2Ne$smzggfnTl',#33,'Pipe Types:Cold Water:583089',$,'Pipe Types:Cold Water',#168259,#168395,'583089')
-[Warning] [2023-01-31 18:41:29] {2ieBG4Gh1DIQa7ZXb2oi8o} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2ieBG4Gh1DIQa7ZXb2oi8o} No material and surface styles for:
 #168583=IfcFlowSegment('2ieBG4Gh1DIQa7ZXb2oi8o',#33,'Pipe Types:Cold Water:583090',$,'Pipe Types:Cold Water',#168446,#168582,'583090')
-[Warning] [2023-01-31 18:41:29] {0XPS3KWmHC7OC$i1ctlY9O} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0XPS3KWmHC7OC$i1ctlY9O} No material and surface styles for:
 #168868=IfcFlowSegment('0XPS3KWmHC7OC$i1ctlY9O',#33,'Pipe Types:Cold Water:583093',$,'Pipe Types:Cold Water',#168731,#168867,'583093')
-[Warning] [2023-01-31 18:41:29] {1SRq3HuE13pwZnBXRGgeGt} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1SRq3HuE13pwZnBXRGgeGt} No material and surface styles for:
 #169112=IfcFlowSegment('1SRq3HuE13pwZnBXRGgeGt',#33,'Pipe Types:Cold Water:583095',$,'Pipe Types:Cold Water',#168975,#169111,'583095')
-[Warning] [2023-01-31 18:41:29] {1UVmT7BTf8QheAEp5dDVTa} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1UVmT7BTf8QheAEp5dDVTa} No material and surface styles for:
 #169299=IfcFlowSegment('1UVmT7BTf8QheAEp5dDVTa',#33,'Pipe Types:Cold Water:583096',$,'Pipe Types:Cold Water',#169162,#169298,'583096')
-[Warning] [2023-01-31 18:41:29] {0TTnR0HPv689YKhEOEIpge} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0TTnR0HPv689YKhEOEIpge} No material and surface styles for:
 #169487=IfcFlowSegment('0TTnR0HPv689YKhEOEIpge',#33,'Pipe Types:Cold Water:583099',$,'Pipe Types:Cold Water',#169350,#169486,'583099')
-[Warning] [2023-01-31 18:41:29] {1PUyDXUGj34v2EdxSOY$fY} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1PUyDXUGj34v2EdxSOY$fY} No material and surface styles for:
 #169675=IfcFlowSegment('1PUyDXUGj34v2EdxSOY$fY',#33,'Pipe Types:Cold Water:583107',$,'Pipe Types:Cold Water',#169538,#169674,'583107')
-[Warning] [2023-01-31 18:41:29] {0Dnw9wKzD6y98uZbgR6T92} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0Dnw9wKzD6y98uZbgR6T92} No material and surface styles for:
 #169863=IfcFlowSegment('0Dnw9wKzD6y98uZbgR6T92',#33,'Pipe Types:Cold Water:583108',$,'Pipe Types:Cold Water',#169726,#169862,'583108')
-[Warning] [2023-01-31 18:41:29] {0qR$qkBgn3zgly24zr$ZG6} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0qR$qkBgn3zgly24zr$ZG6} No material and surface styles for:
 #170204=IfcFlowSegment('0qR$qkBgn3zgly24zr$ZG6',#33,'Pipe Types:Cold Water:583112',$,'Pipe Types:Cold Water',#170067,#170203,'583112')
-[Warning] [2023-01-31 18:41:29] {1IZl4gDejBM9h7vr6IPfyn} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1IZl4gDejBM9h7vr6IPfyn} No material and surface styles for:
 #170391=IfcFlowSegment('1IZl4gDejBM9h7vr6IPfyn',#33,'Pipe Types:Cold Water:583113',$,'Pipe Types:Cold Water',#170254,#170390,'583113')
-[Warning] [2023-01-31 18:41:29] {296bCWHgn0GeIjGnYNGgWj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {296bCWHgn0GeIjGnYNGgWj} No material and surface styles for:
 #170676=IfcFlowSegment('296bCWHgn0GeIjGnYNGgWj',#33,'Pipe Types:Cold Water:583116',$,'Pipe Types:Cold Water',#170539,#170675,'583116')
-[Warning] [2023-01-31 18:41:29] {1p3Bxu1Lf8wvecSDK0E7OL} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1p3Bxu1Lf8wvecSDK0E7OL} No material and surface styles for:
 #170921=IfcFlowSegment('1p3Bxu1Lf8wvecSDK0E7OL',#33,'Pipe Types:Cold Water:583118',$,'Pipe Types:Cold Water',#170784,#170920,'583118')
-[Warning] [2023-01-31 18:41:29] {0o4vggglbBJP$SdEhZ2yqy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0o4vggglbBJP$SdEhZ2yqy} No material and surface styles for:
 #171109=IfcFlowSegment('0o4vggglbBJP$SdEhZ2yqy',#33,'Pipe Types:Cold Water:583119',$,'Pipe Types:Cold Water',#170972,#171108,'583119')
-[Warning] [2023-01-31 18:41:29] {0NRoIu$gXFp9C2UhV2ksO1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0NRoIu$gXFp9C2UhV2ksO1} No material and surface styles for:
 #171297=IfcFlowSegment('0NRoIu$gXFp9C2UhV2ksO1',#33,'Pipe Types:Cold Water:583120',$,'Pipe Types:Cold Water',#171160,#171296,'583120')
-[Warning] [2023-01-31 18:41:29] {1U5aUEYgXB$8ev78HwAxXX} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1U5aUEYgXB$8ev78HwAxXX} No material and surface styles for:
 #171685=IfcFlowSegment('1U5aUEYgXB$8ev78HwAxXX',#33,'Pipe Types:Cold Water:583125',$,'Pipe Types:Cold Water',#171548,#171684,'583125')
-[Warning] [2023-01-31 18:41:29] {0NtcwyHBzBVA6ASoO0BEYM} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0NtcwyHBzBVA6ASoO0BEYM} No material and surface styles for:
 #171873=IfcFlowSegment('0NtcwyHBzBVA6ASoO0BEYM',#33,'Pipe Types:Cold Water:583126',$,'Pipe Types:Cold Water',#171736,#171872,'583126')
-[Warning] [2023-01-31 18:41:29] {334F$_1ATFcOEnhkHXpF8H} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {334F$_1ATFcOEnhkHXpF8H} No material and surface styles for:
 #172059=IfcFlowSegment('334F$_1ATFcOEnhkHXpF8H',#33,'Pipe Types:Cold Water:583127',$,'Pipe Types:Cold Water',#171922,#172058,'583127')
-[Warning] [2023-01-31 18:41:29] {28AuHN3m5DqeVaKTktjgQx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {28AuHN3m5DqeVaKTktjgQx} No material and surface styles for:
 #172295=IfcFlowSegment('28AuHN3m5DqeVaKTktjgQx',#33,'Pipe Types:Cold Water:583129',$,'Pipe Types:Cold Water',#172158,#172294,'583129')
-[Warning] [2023-01-31 18:41:29] {3jkeV3AD1BMx8x7G7zTl1H} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3jkeV3AD1BMx8x7G7zTl1H} No material and surface styles for:
 #172531=IfcFlowSegment('3jkeV3AD1BMx8x7G7zTl1H',#33,'Pipe Types:Cold Water:583131',$,'Pipe Types:Cold Water',#172394,#172530,'583131')
-[Warning] [2023-01-31 18:41:29] {3_Z$pynDvE9R1ReSaOKaWp} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3_Z$pynDvE9R1ReSaOKaWp} No material and surface styles for:
 #172719=IfcFlowSegment('3_Z$pynDvE9R1ReSaOKaWp',#33,'Pipe Types:Cold Water:583132',$,'Pipe Types:Cold Water',#172582,#172718,'583132')
-[Warning] [2023-01-31 18:41:29] {29A8gevCH65fKb8h6P5mf7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {29A8gevCH65fKb8h6P5mf7} No material and surface styles for:
 #172906=IfcFlowSegment('29A8gevCH65fKb8h6P5mf7',#33,'Pipe Types:Cold Water:583133',$,'Pipe Types:Cold Water',#172769,#172905,'583133')
-[Warning] [2023-01-31 18:41:29] {1OEyTFSO5C2eJSasvNDPGj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1OEyTFSO5C2eJSasvNDPGj} No material and surface styles for:
 #173191=IfcFlowSegment('1OEyTFSO5C2eJSasvNDPGj',#33,'Pipe Types:Cold Water:583136',$,'Pipe Types:Cold Water',#173054,#173190,'583136')
-[Warning] [2023-01-31 18:41:29] {2YDJEXMqn31fFl22fTcFt2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2YDJEXMqn31fFl22fTcFt2} No material and surface styles for:
 #173435=IfcFlowSegment('2YDJEXMqn31fFl22fTcFt2',#33,'Pipe Types:Cold Water:583138',$,'Pipe Types:Cold Water',#173298,#173434,'583138')
-[Warning] [2023-01-31 18:41:29] {2qY7ewS_f2yO5fwTEJS58Q} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2qY7ewS_f2yO5fwTEJS58Q} No material and surface styles for:
 #173622=IfcFlowSegment('2qY7ewS_f2yO5fwTEJS58Q',#33,'Pipe Types:Cold Water:583139',$,'Pipe Types:Cold Water',#173485,#173621,'583139')
-[Warning] [2023-01-31 18:41:29] {0CiK5ixErEq9FfGEE3hk33} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0CiK5ixErEq9FfGEE3hk33} No material and surface styles for:
 #173810=IfcFlowSegment('0CiK5ixErEq9FfGEE3hk33',#33,'Pipe Types:Cold Water:583140',$,'Pipe Types:Cold Water',#173673,#173809,'583140')
-[Warning] [2023-01-31 18:41:29] {0IamzRD8T2oA1LsIMfP1fJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0IamzRD8T2oA1LsIMfP1fJ} No material and surface styles for:
 #174045=IfcFlowSegment('0IamzRD8T2oA1LsIMfP1fJ',#33,'Pipe Types:Cold Water:583142',$,'Pipe Types:Cold Water',#173908,#174044,'583142')
-[Warning] [2023-01-31 18:41:29] {2H$8dpDQb3D9SaQ0b8sxE8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2H$8dpDQb3D9SaQ0b8sxE8} No material and surface styles for:
 #174232=IfcFlowSegment('2H$8dpDQb3D9SaQ0b8sxE8',#33,'Pipe Types:Cold Water:583143',$,'Pipe Types:Cold Water',#174095,#174231,'583143')
-[Warning] [2023-01-31 18:41:29] {3PJiYqXsT02Oi0kQwwGOhc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3PJiYqXsT02Oi0kQwwGOhc} No material and surface styles for:
 #174564=IfcFlowSegment('3PJiYqXsT02Oi0kQwwGOhc',#33,'Pipe Types:Cold Water:583147',$,'Pipe Types:Cold Water',#174427,#174563,'583147')
-[Warning] [2023-01-31 18:41:29] {0I8PbhOvv2HRuGyQC86cre} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0I8PbhOvv2HRuGyQC86cre} No material and surface styles for:
 #174808=IfcFlowSegment('0I8PbhOvv2HRuGyQC86cre',#33,'Pipe Types:Hot Water:583151',$,'Pipe Types:Hot Water',#174671,#174807,'583151')
-[Warning] [2023-01-31 18:41:29] {0l$q_Q7p10DxHIVAvJHlH0} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0l$q_Q7p10DxHIVAvJHlH0} No material and surface styles for:
 #175040=IfcFlowSegment('0l$q_Q7p10DxHIVAvJHlH0',#33,'Pipe Types:Hot Water:583152',$,'Pipe Types:Hot Water',#174903,#175039,'583152')
-[Warning] [2023-01-31 18:41:29] {2Y0g0bCIvFP9HX$f5qUZmD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2Y0g0bCIvFP9HX$f5qUZmD} No material and surface styles for:
 #175227=IfcFlowSegment('2Y0g0bCIvFP9HX$f5qUZmD',#33,'Pipe Types:Hot Water:583153',$,'Pipe Types:Hot Water',#175090,#175226,'583153')
-[Warning] [2023-01-31 18:41:29] {02N2wL9krBovm5M3KwOR4A} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {02N2wL9krBovm5M3KwOR4A} No material and surface styles for:
 #175413=IfcFlowSegment('02N2wL9krBovm5M3KwOR4A',#33,'Pipe Types:Hot Water:583154',$,'Pipe Types:Hot Water',#175276,#175412,'583154')
-[Warning] [2023-01-31 18:41:29] {1RvOZVitDEYBVRCEmMn7V3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1RvOZVitDEYBVRCEmMn7V3} No material and surface styles for:
 #175749=IfcFlowSegment('1RvOZVitDEYBVRCEmMn7V3',#33,'Pipe Types:Hot Water:583158',$,'Pipe Types:Hot Water',#175612,#175748,'583158')
-[Warning] [2023-01-31 18:41:29] {0gzYXUxDHFqP7b5JH$mCUh} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0gzYXUxDHFqP7b5JH$mCUh} No material and surface styles for:
 #175936=IfcFlowSegment('0gzYXUxDHFqP7b5JH$mCUh',#33,'Pipe Types:Hot Water:583159',$,'Pipe Types:Hot Water',#175799,#175935,'583159')
-[Warning] [2023-01-31 18:41:29] {1bWBnyQc59uvKcINVKH5wW} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1bWBnyQc59uvKcINVKH5wW} No material and surface styles for:
 #176121=IfcFlowSegment('1bWBnyQc59uvKcINVKH5wW',#33,'Pipe Types:Hot Water:583160',$,'Pipe Types:Hot Water',#175984,#176120,'583160')
-[Warning] [2023-01-31 18:41:29] {1VJ$xWvaDCyPV7JxB0awL4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1VJ$xWvaDCyPV7JxB0awL4} No material and surface styles for:
 #176401=IfcFlowSegment('1VJ$xWvaDCyPV7JxB0awL4',#33,'Pipe Types:Hot Water:583163',$,'Pipe Types:Hot Water',#176264,#176400,'583163')
-[Warning] [2023-01-31 18:41:29] {1jxYYryxX4Fuq2XyYJ40FG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1jxYYryxX4Fuq2XyYJ40FG} No material and surface styles for:
 #176739=IfcFlowSegment('1jxYYryxX4Fuq2XyYJ40FG',#33,'Pipe Types:Cold Water:583167',$,'Pipe Types:Cold Water',#176602,#176738,'583167')
-[Warning] [2023-01-31 18:41:29] {2umlh9lKHAwBNvLxxvJyxO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2umlh9lKHAwBNvLxxvJyxO} No material and surface styles for:
 #176983=IfcFlowSegment('2umlh9lKHAwBNvLxxvJyxO',#33,'Pipe Types:Cold Water:583169',$,'Pipe Types:Cold Water',#176846,#176982,'583169')
-[Warning] [2023-01-31 18:41:29] {0CrVss1BzB4POjRRWkdj3Q} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0CrVss1BzB4POjRRWkdj3Q} No material and surface styles for:
 #177218=IfcFlowSegment('0CrVss1BzB4POjRRWkdj3Q',#33,'Pipe Types:Hot Water:583171',$,'Pipe Types:Hot Water',#177081,#177217,'583171')
-[Warning] [2023-01-31 18:41:29] {2c2qQiAPX9qP3KOI2fPxwl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2c2qQiAPX9qP3KOI2fPxwl} No material and surface styles for:
 #177450=IfcFlowSegment('2c2qQiAPX9qP3KOI2fPxwl',#33,'Pipe Types:Hot Water:583173',$,'Pipe Types:Hot Water',#177313,#177449,'583173')
-[Warning] [2023-01-31 18:41:29] {0$pISesULANgmZSER6w8NA} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0$pISesULANgmZSER6w8NA} No material and surface styles for:
 #177638=IfcFlowSegment('0$pISesULANgmZSER6w8NA',#33,'Pipe Types:Hot Water:583174',$,'Pipe Types:Hot Water',#177501,#177637,'583174')
-[Warning] [2023-01-31 18:41:29] {0kjLzEw29FmhXtTK5sjrgr} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0kjLzEw29FmhXtTK5sjrgr} No material and surface styles for:
 #177825=IfcFlowSegment('0kjLzEw29FmhXtTK5sjrgr',#33,'Pipe Types:Hot Water:583175',$,'Pipe Types:Hot Water',#177688,#177824,'583175')
-[Warning] [2023-01-31 18:41:29] {0A4u4G9Ef3ORVLMRMVjs02} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0A4u4G9Ef3ORVLMRMVjs02} No material and surface styles for:
 #178013=IfcFlowSegment('0A4u4G9Ef3ORVLMRMVjs02',#33,'Pipe Types:Hot Water:583176',$,'Pipe Types:Hot Water',#177876,#178012,'583176')
-[Warning] [2023-01-31 18:41:29] {3KC8GoNgD7Fwxg2bXu7reP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3KC8GoNgD7Fwxg2bXu7reP} No material and surface styles for:
 #178200=IfcFlowSegment('3KC8GoNgD7Fwxg2bXu7reP',#33,'Pipe Types:Hot Water:583177',$,'Pipe Types:Hot Water',#178063,#178199,'583177')
-[Warning] [2023-01-31 18:41:29] {1gDZrw9Nn4GxLJcoro8gId} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1gDZrw9Nn4GxLJcoro8gId} No material and surface styles for:
 #178480=IfcFlowSegment('1gDZrw9Nn4GxLJcoro8gId',#33,'Pipe Types:Hot Water:583180',$,'Pipe Types:Hot Water',#178343,#178479,'583180')
-[Warning] [2023-01-31 18:41:30] {0FWWM4w3b0LBoFb2Ao1juD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0FWWM4w3b0LBoFb2Ao1juD} No material and surface styles for:
 #178721=IfcFlowSegment('0FWWM4w3b0LBoFb2Ao1juD',#33,'Pipe Types:Hot Water:583182',$,'Pipe Types:Hot Water',#178584,#178720,'583182')
-[Warning] [2023-01-31 18:41:30] {3$DOuaWIHDVOLLBabXA$Bh} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3$DOuaWIHDVOLLBabXA$Bh} No material and surface styles for:
 #178908=IfcFlowSegment('3$DOuaWIHDVOLLBabXA$Bh',#33,'Pipe Types:Hot Water:583183',$,'Pipe Types:Hot Water',#178771,#178907,'583183')
-[Warning] [2023-01-31 18:41:30] {0SLx5vyQn038d$CEUBbn2J} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0SLx5vyQn038d$CEUBbn2J} No material and surface styles for:
 #179093=IfcFlowSegment('0SLx5vyQn038d$CEUBbn2J',#33,'Pipe Types:Hot Water:583184',$,'Pipe Types:Hot Water',#178956,#179092,'583184')
-[Warning] [2023-01-31 18:41:30] {2tmq6WQ3rAthTqrGKhtTpX} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2tmq6WQ3rAthTqrGKhtTpX} No material and surface styles for:
 #179373=IfcFlowSegment('2tmq6WQ3rAthTqrGKhtTpX',#33,'Pipe Types:Hot Water:583187',$,'Pipe Types:Hot Water',#179236,#179372,'583187')
-[Warning] [2023-01-31 18:41:30] {2MNce606nCzQA7ApC1a9BN} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2MNce606nCzQA7ApC1a9BN} No material and surface styles for:
 #179614=IfcFlowSegment('2MNce606nCzQA7ApC1a9BN',#33,'Pipe Types:Hot Water:583189',$,'Pipe Types:Hot Water',#179477,#179613,'583189')
-[Warning] [2023-01-31 18:41:30] {2eeC3YALXF0g8DTx8tHuXy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2eeC3YALXF0g8DTx8tHuXy} No material and surface styles for:
 #179799=IfcFlowSegment('2eeC3YALXF0g8DTx8tHuXy',#33,'Pipe Types:Hot Water:583190',$,'Pipe Types:Hot Water',#179662,#179798,'583190')
-[Warning] [2023-01-31 18:41:30] {0PXULpczX64PIKCoo0SraV} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0PXULpczX64PIKCoo0SraV} No material and surface styles for:
 #180031=IfcFlowSegment('0PXULpczX64PIKCoo0SraV',#33,'Pipe Types:Cold Water:583192',$,'Pipe Types:Cold Water',#179894,#180030,'583192')
-[Warning] [2023-01-31 18:41:30] {2ENiXkHcfFlv4go_J8fjOL} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2ENiXkHcfFlv4go_J8fjOL} No material and surface styles for:
 #180267=IfcFlowSegment('2ENiXkHcfFlv4go_J8fjOL',#33,'Pipe Types:Cold Water:583194',$,'Pipe Types:Cold Water',#180130,#180266,'583194')
-[Warning] [2023-01-31 18:41:30] {2ESy7Y9wzBB9$344X35PG4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2ESy7Y9wzBB9$344X35PG4} No material and surface styles for:
 #180503=IfcFlowSegment('2ESy7Y9wzBB9$344X35PG4',#33,'Pipe Types:Cold Water:583196',$,'Pipe Types:Cold Water',#180366,#180502,'583196')
-[Warning] [2023-01-31 18:41:30] {3Vq1KlUuj7HuLAJ5WqQ1mo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3Vq1KlUuj7HuLAJ5WqQ1mo} No material and surface styles for:
 #180691=IfcFlowSegment('3Vq1KlUuj7HuLAJ5WqQ1mo',#33,'Pipe Types:Cold Water:583197',$,'Pipe Types:Cold Water',#180554,#180690,'583197')
-[Warning] [2023-01-31 18:41:30] {0jBNUeKOz6pBo7$mYRZ0g7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0jBNUeKOz6pBo7$mYRZ0g7} No material and surface styles for:
 #181184=IfcFlowFitting('0jBNUeKOz6pBo7$mYRZ0g7',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583198',$,'Elbow - Generic',#181183,#181180,'583198')
-[Warning] [2023-01-31 18:41:30] {2DSxtP3Zr3px$0iQoS37wF} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2DSxtP3Zr3px$0iQoS37wF} No material and surface styles for:
 #181465=IfcFlowFitting('2DSxtP3Zr3px$0iQoS37wF',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:583199',$,'Transition - Generic',#181464,#181461,'583199')
-[Warning] [2023-01-31 18:41:30] {2uvbtoNsfBCQXSSATcKQRq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2uvbtoNsfBCQXSSATcKQRq} No material and surface styles for:
 #181704=IfcFlowSegment('2uvbtoNsfBCQXSSATcKQRq',#33,'Pipe Types:Hot Water:583201',$,'Pipe Types:Hot Water',#181567,#181703,'583201')
-[Warning] [2023-01-31 18:41:30] {39mjb7pdb5oRud77XyTXvK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {39mjb7pdb5oRud77XyTXvK} No material and surface styles for:
 #181892=IfcFlowSegment('39mjb7pdb5oRud77XyTXvK',#33,'Pipe Types:Hot Water:583202',$,'Pipe Types:Hot Water',#181755,#181891,'583202')
-[Warning] [2023-01-31 18:41:30] {3Q0Lq9XfP6IBr_jflKsK4x} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3Q0Lq9XfP6IBr_jflKsK4x} No material and surface styles for:
 #182230=IfcFlowSegment('3Q0Lq9XfP6IBr_jflKsK4x',#33,'Pipe Types:Cold Water:583206',$,'Pipe Types:Cold Water',#182093,#182229,'583206')
-[Warning] [2023-01-31 18:41:30] {1kMaLwobf4HhndwKS2Ki$E} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1kMaLwobf4HhndwKS2Ki$E} No material and surface styles for:
 #182418=IfcFlowSegment('1kMaLwobf4HhndwKS2Ki$E',#33,'Pipe Types:Cold Water:583207',$,'Pipe Types:Cold Water',#182281,#182417,'583207')
-[Warning] [2023-01-31 18:41:30] {3xeF1Tm_D1CAw4QIY7PCUj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3xeF1Tm_D1CAw4QIY7PCUj} No material and surface styles for:
 #182702=IfcFlowSegment('3xeF1Tm_D1CAw4QIY7PCUj',#33,'Pipe Types:Cold Water:583210',$,'Pipe Types:Cold Water',#182565,#182701,'583210')
-[Warning] [2023-01-31 18:41:30] {0LI9E9W69F6AsjSiFfBneB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0LI9E9W69F6AsjSiFfBneB} No material and surface styles for:
 #183042=IfcFlowSegment('0LI9E9W69F6AsjSiFfBneB',#33,'Pipe Types:Hot Water:583214',$,'Pipe Types:Hot Water',#182905,#183041,'583214')
-[Warning] [2023-01-31 18:41:30] {2g_vxJmqvDS9fa2D9cHuDj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2g_vxJmqvDS9fa2D9cHuDj} No material and surface styles for:
 #183227=IfcFlowSegment('2g_vxJmqvDS9fa2D9cHuDj',#33,'Pipe Types:Hot Water:583215',$,'Pipe Types:Hot Water',#183090,#183226,'583215')
-[Warning] [2023-01-31 18:41:30] {3qAFcfi2vFBPft_dJaYPki} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3qAFcfi2vFBPft_dJaYPki} No material and surface styles for:
 #183459=IfcFlowSegment('3qAFcfi2vFBPft_dJaYPki',#33,'Pipe Types:Hot Water:583217',$,'Pipe Types:Hot Water',#183322,#183458,'583217')
-[Warning] [2023-01-31 18:41:30] {2VSZV6Pib1TOA1hUz_bVeI} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2VSZV6Pib1TOA1hUz_bVeI} No material and surface styles for:
 #183691=IfcFlowSegment('2VSZV6Pib1TOA1hUz_bVeI',#33,'Pipe Types:Hot Water:583219',$,'Pipe Types:Hot Water',#183554,#183690,'583219')
-[Warning] [2023-01-31 18:41:30] {0ARvFE$bLBcuhuNPJ$uK9D} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0ARvFE$bLBcuhuNPJ$uK9D} No material and surface styles for:
 #183879=IfcFlowSegment('0ARvFE$bLBcuhuNPJ$uK9D',#33,'Pipe Types:Hot Water:583220',$,'Pipe Types:Hot Water',#183742,#183878,'583220')
-[Warning] [2023-01-31 18:41:30] {0rX2FMEGD9bQax1$5lHJEw} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0rX2FMEGD9bQax1$5lHJEw} No material and surface styles for:
 #184217=IfcFlowSegment('0rX2FMEGD9bQax1$5lHJEw',#33,'Pipe Types:Cold Water:583224',$,'Pipe Types:Cold Water',#184080,#184216,'583224')
-[Warning] [2023-01-31 18:41:30] {20wTHbnKb9EA4fwB8VzeL$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {20wTHbnKb9EA4fwB8VzeL$} No material and surface styles for:
 #184453=IfcFlowSegment('20wTHbnKb9EA4fwB8VzeL$',#33,'Pipe Types:Cold Water:583226',$,'Pipe Types:Cold Water',#184316,#184452,'583226')
-[Warning] [2023-01-31 18:41:30] {31ps69C8n1zPZRB5_DM5yf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {31ps69C8n1zPZRB5_DM5yf} No material and surface styles for:
 #184689=IfcFlowSegment('31ps69C8n1zPZRB5_DM5yf',#33,'Pipe Types:Cold Water:583228',$,'Pipe Types:Cold Water',#184552,#184688,'583228')
-[Warning] [2023-01-31 18:41:30] {1zczzqrir4exXBJzm_Ub2n} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1zczzqrir4exXBJzm_Ub2n} No material and surface styles for:
 #184877=IfcFlowSegment('1zczzqrir4exXBJzm_Ub2n',#33,'Pipe Types:Cold Water:583229',$,'Pipe Types:Cold Water',#184740,#184876,'583229')
-[Warning] [2023-01-31 18:41:30] {1vUeTstH91wexhDsZmvmo8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1vUeTstH91wexhDsZmvmo8} No material and surface styles for:
 #185313=IfcFlowSegment('1vUeTstH91wexhDsZmvmo8',#33,'Pipe Types:Hot Water:583235',$,'Pipe Types:Hot Water',#185176,#185312,'583235')
-[Warning] [2023-01-31 18:41:30] {30bD7R9311sxlOoRUzrO_L} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {30bD7R9311sxlOoRUzrO_L} No material and surface styles for:
 #185498=IfcFlowSegment('30bD7R9311sxlOoRUzrO_L',#33,'Pipe Types:Hot Water:583236',$,'Pipe Types:Hot Water',#185361,#185497,'583236')
-[Warning] [2023-01-31 18:41:30] {2LJM_NvS9Bog1qxuJBGQgU} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2LJM_NvS9Bog1qxuJBGQgU} No material and surface styles for:
 #185686=IfcFlowSegment('2LJM_NvS9Bog1qxuJBGQgU',#33,'Pipe Types:Hot Water:583237',$,'Pipe Types:Hot Water',#185549,#185685,'583237')
-[Warning] [2023-01-31 18:41:30] {2CYG4Q0Gb7IR_YPkZ96g4V} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2CYG4Q0Gb7IR_YPkZ96g4V} No material and surface styles for:
 #185873=IfcFlowSegment('2CYG4Q0Gb7IR_YPkZ96g4V',#33,'Pipe Types:Hot Water:583238',$,'Pipe Types:Hot Water',#185736,#185872,'583238')
-[Warning] [2023-01-31 18:41:30] {0$NxBsKq91n8kPqH4KSep1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0$NxBsKq91n8kPqH4KSep1} No material and surface styles for:
 #186061=IfcFlowSegment('0$NxBsKq91n8kPqH4KSep1',#33,'Pipe Types:Hot Water:583239',$,'Pipe Types:Hot Water',#185924,#186060,'583239')
-[Warning] [2023-01-31 18:41:30] {1nJRsVAJH6QRzFGkKuVkDD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1nJRsVAJH6QRzFGkKuVkDD} No material and surface styles for:
 #186297=IfcFlowSegment('1nJRsVAJH6QRzFGkKuVkDD',#33,'Pipe Types:Cold Water:583241',$,'Pipe Types:Cold Water',#186160,#186296,'583241')
-[Warning] [2023-01-31 18:41:30] {1qy9gnvZf94BbO8d2EG9Hr} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1qy9gnvZf94BbO8d2EG9Hr} No material and surface styles for:
 #186484=IfcFlowSegment('1qy9gnvZf94BbO8d2EG9Hr',#33,'Pipe Types:Cold Water:583242',$,'Pipe Types:Cold Water',#186347,#186483,'583242')
-[Warning] [2023-01-31 18:41:30] {1X$a0PB4r7ewGUg0YeRMrE} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1X$a0PB4r7ewGUg0YeRMrE} No material and surface styles for:
 #186672=IfcFlowSegment('1X$a0PB4r7ewGUg0YeRMrE',#33,'Pipe Types:Cold Water:583243',$,'Pipe Types:Cold Water',#186535,#186671,'583243')
-[Warning] [2023-01-31 18:41:30] {2mLGk7etb8Og24lfLqv04j} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2mLGk7etb8Og24lfLqv04j} No material and surface styles for:
 #186860=IfcFlowSegment('2mLGk7etb8Og24lfLqv04j',#33,'Pipe Types:Cold Water:583244',$,'Pipe Types:Cold Water',#186723,#186859,'583244')
-[Warning] [2023-01-31 18:41:30] {35yfwKgAH3iwZJV8BemDZ5} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {35yfwKgAH3iwZJV8BemDZ5} No material and surface styles for:
 #187248=IfcFlowSegment('35yfwKgAH3iwZJV8BemDZ5',#33,'Pipe Types:Hot Water:583249',$,'Pipe Types:Hot Water',#187111,#187247,'583249')
-[Warning] [2023-01-31 18:41:30] {0om3aDojLBqfjTmuSq5xHa} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0om3aDojLBqfjTmuSq5xHa} No material and surface styles for:
 #187436=IfcFlowSegment('0om3aDojLBqfjTmuSq5xHa',#33,'Pipe Types:Hot Water:583250',$,'Pipe Types:Hot Water',#187299,#187435,'583250')
-[Warning] [2023-01-31 18:41:30] {0Auv1yUubE5gma8z0Si4q2} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0Auv1yUubE5gma8z0Si4q2} No material and surface styles for:
 #187624=IfcFlowSegment('0Auv1yUubE5gma8z0Si4q2',#33,'Pipe Types:Hot Water:583251',$,'Pipe Types:Hot Water',#187487,#187623,'583251')
-[Warning] [2023-01-31 18:41:30] {3YExq0knnCdOI4v_2AwiRZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3YExq0knnCdOI4v_2AwiRZ} No material and surface styles for:
 #188012=IfcFlowSegment('3YExq0knnCdOI4v_2AwiRZ',#33,'Pipe Types:Hot Water:583256',$,'Pipe Types:Hot Water',#187875,#188011,'583256')
-[Warning] [2023-01-31 18:41:30] {3RFivECV9DwBQ6rpapK$BK} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3RFivECV9DwBQ6rpapK$BK} No material and surface styles for:
 #188199=IfcFlowSegment('3RFivECV9DwBQ6rpapK$BK',#33,'Pipe Types:Hot Water:583257',$,'Pipe Types:Hot Water',#188062,#188198,'583257')
-[Warning] [2023-01-31 18:41:30] {31JVWdXP55_QPhWbr39bcg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {31JVWdXP55_QPhWbr39bcg} No material and surface styles for:
 #188487=IfcFlowSegment('31JVWdXP55_QPhWbr39bcg',#33,'Pipe Types:Hot Water:583260',$,'Pipe Types:Hot Water',#188350,#188486,'583260')
-[Warning] [2023-01-31 18:41:30] {2342ihXWr1r9_X6QQS1COO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2342ihXWr1r9_X6QQS1COO} No material and surface styles for:
 #188732=IfcFlowSegment('2342ihXWr1r9_X6QQS1COO',#33,'Pipe Types:Hot Water:583262',$,'Pipe Types:Hot Water',#188595,#188731,'583262')
-[Warning] [2023-01-31 18:41:30] {15IqI2zUDDSvoEufYlgGGS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {15IqI2zUDDSvoEufYlgGGS} No material and surface styles for:
 #188920=IfcFlowSegment('15IqI2zUDDSvoEufYlgGGS',#33,'Pipe Types:Hot Water:583263',$,'Pipe Types:Hot Water',#188783,#188919,'583263')
-[Warning] [2023-01-31 18:41:30] {1mnU$3L4j2cRLGliOVAGaS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1mnU$3L4j2cRLGliOVAGaS} No material and surface styles for:
 #189260=IfcFlowSegment('1mnU$3L4j2cRLGliOVAGaS',#33,'Pipe Types:Hot Water:583267',$,'Pipe Types:Hot Water',#189123,#189259,'583267')
-[Warning] [2023-01-31 18:41:30] {2efnvc23P8TO7mc1iO9h_8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2efnvc23P8TO7mc1iO9h_8} No material and surface styles for:
 #189447=IfcFlowSegment('2efnvc23P8TO7mc1iO9h_8',#33,'Pipe Types:Hot Water:583268',$,'Pipe Types:Hot Water',#189310,#189446,'583268')
-[Warning] [2023-01-31 18:41:30] {3R7niF3uX3JvDDRguizdLG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3R7niF3uX3JvDDRguizdLG} No material and surface styles for:
 #189735=IfcFlowSegment('3R7niF3uX3JvDDRguizdLG',#33,'Pipe Types:Hot Water:583271',$,'Pipe Types:Hot Water',#189598,#189734,'583271')
-[Warning] [2023-01-31 18:41:30] {0IWYz6Nx91YhGoaGRcM9Mo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0IWYz6Nx91YhGoaGRcM9Mo} No material and surface styles for:
 #190077=IfcFlowSegment('0IWYz6Nx91YhGoaGRcM9Mo',#33,'Pipe Types:Hot Water:583275',$,'Pipe Types:Hot Water',#189940,#190076,'583275')
-[Warning] [2023-01-31 18:41:30] {07bKDBIH95Dhi6THf$PjG3} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {07bKDBIH95Dhi6THf$PjG3} No material and surface styles for:
 #190264=IfcFlowSegment('07bKDBIH95Dhi6THf$PjG3',#33,'Pipe Types:Hot Water:583276',$,'Pipe Types:Hot Water',#190127,#190263,'583276')
-[Warning] [2023-01-31 18:41:30] {2641906Gn6WP3Plq76wck5} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {2641906Gn6WP3Plq76wck5} No material and surface styles for:
 #190500=IfcFlowSegment('2641906Gn6WP3Plq76wck5',#33,'Pipe Types:Hot Water:583278',$,'Pipe Types:Hot Water',#190363,#190499,'583278')
-[Warning] [2023-01-31 18:41:30] {3RjTvhvnD6zxgtsDrZBzQa} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3RjTvhvnD6zxgtsDrZBzQa} No material and surface styles for:
 #190736=IfcFlowSegment('3RjTvhvnD6zxgtsDrZBzQa',#33,'Pipe Types:Hot Water:583280',$,'Pipe Types:Hot Water',#190599,#190735,'583280')
-[Warning] [2023-01-31 18:41:30] {3tMhzXDWDAa8vvTfJxuPT7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {3tMhzXDWDAa8vvTfJxuPT7} No material and surface styles for:
 #190972=IfcFlowSegment('3tMhzXDWDAa8vvTfJxuPT7',#33,'Pipe Types:Hot Water:583282',$,'Pipe Types:Hot Water',#190835,#190971,'583282')
-[Warning] [2023-01-31 18:41:30] {0uHJtyP_jAGAHPThWj87pq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0uHJtyP_jAGAHPThWj87pq} No material and surface styles for:
 #191208=IfcFlowSegment('0uHJtyP_jAGAHPThWj87pq',#33,'Pipe Types:Hot Water:583284',$,'Pipe Types:Hot Water',#191071,#191207,'583284')
-[Warning] [2023-01-31 18:41:30] {0t5Il02n51tQ1GK4OsvuEB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0t5Il02n51tQ1GK4OsvuEB} No material and surface styles for:
 #191444=IfcFlowSegment('0t5Il02n51tQ1GK4OsvuEB',#33,'Pipe Types:Hot Water:583286',$,'Pipe Types:Hot Water',#191307,#191443,'583286')
-[Warning] [2023-01-31 18:41:30] {0wUNSm2pv6Kht8HNjOuY2m} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0wUNSm2pv6Kht8HNjOuY2m} No material and surface styles for:
 #191777=IfcFlowSegment('0wUNSm2pv6Kht8HNjOuY2m',#33,'Pipe Types:Hot Water:583295',$,'Pipe Types:Hot Water',#191640,#191776,'583295')
-[Warning] [2023-01-31 18:41:30] {0tjLhfGDnDKfGi3dqDWNIh} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {0tjLhfGDnDKfGi3dqDWNIh} No material and surface styles for:
 #191965=IfcFlowSegment('0tjLhfGDnDKfGi3dqDWNIh',#33,'Pipe Types:Hot Water:583296',$,'Pipe Types:Hot Water',#191828,#191964,'583296')
-[Warning] [2023-01-31 18:41:30] {1_5DeGvTjDrxobUcFJFoJB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1_5DeGvTjDrxobUcFJFoJB} No material and surface styles for:
 #192200=IfcFlowSegment('1_5DeGvTjDrxobUcFJFoJB',#33,'Pipe Types:Hot Water:583298',$,'Pipe Types:Hot Water',#192063,#192199,'583298')
-[Warning] [2023-01-31 18:41:30] {1KQk2kPOb2lRaeDTHcSljP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {1KQk2kPOb2lRaeDTHcSljP} No material and surface styles for:
 #192388=IfcFlowSegment('1KQk2kPOb2lRaeDTHcSljP',#33,'Pipe Types:Hot Water:583299',$,'Pipe Types:Hot Water',#192251,#192387,'583299')
-[Warning] [2023-01-31 18:41:30] {18XZ0YHfH6zub4t1JlL0lZ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {18XZ0YHfH6zub4t1JlL0lZ} No material and surface styles for:
 #192623=IfcFlowSegment('18XZ0YHfH6zub4t1JlL0lZ',#33,'Pipe Types:Hot Water:583306',$,'Pipe Types:Hot Water',#192486,#192622,'583306')
-[Warning] [2023-01-31 18:41:30] {15$tmU0G9ARvozWPzAruwE} No material and surface styles for:
+[Warning] [2023-04-11 18:50:05] {15$tmU0G9ARvozWPzAruwE} No material and surface styles for:
 #192907=IfcFlowSegment('15$tmU0G9ARvozWPzAruwE',#33,'Pipe Types:Hot Water:583309',$,'Pipe Types:Hot Water',#192770,#192906,'583309')
-[Warning] [2023-01-31 18:41:30] {2qXGXPmQL9D8lj59cp7uxz} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {2qXGXPmQL9D8lj59cp7uxz} No material and surface styles for:
 #193095=IfcFlowSegment('2qXGXPmQL9D8lj59cp7uxz',#33,'Pipe Types:Hot Water:583310',$,'Pipe Types:Hot Water',#192958,#193094,'583310')
-[Warning] [2023-01-31 18:41:30] {28grkpRoP0Cx41sgXPZMzB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {28grkpRoP0Cx41sgXPZMzB} No material and surface styles for:
 #195707=IfcFlowFitting('28grkpRoP0Cx41sgXPZMzB',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583314',$,'Elbow - Generic',#195706,#195703,'583314')
-[Warning] [2023-01-31 18:41:30] {2$kWvGjlnF5ee4F23d4sPx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {2$kWvGjlnF5ee4F23d4sPx} No material and surface styles for:
 #195970=IfcFlowSegment('2$kWvGjlnF5ee4F23d4sPx',#33,'Pipe Types:Waste:583316',$,'Pipe Types:Waste',#195803,#195969,'583316')
-[Warning] [2023-01-31 18:41:30] {1SEEl_3N1649G1FNumeBoq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {1SEEl_3N1649G1FNumeBoq} No material and surface styles for:
 #196185=IfcFlowSegment('1SEEl_3N1649G1FNumeBoq',#33,'Pipe Types:Waste:583318',$,'Pipe Types:Waste',#196012,#196184,'583318')
-[Warning] [2023-01-31 18:41:30] {0tdBYZ_1n4Hwqj0yrnFuz$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {0tdBYZ_1n4Hwqj0yrnFuz$} No material and surface styles for:
 #196364=IfcFlowSegment('0tdBYZ_1n4Hwqj0yrnFuz$',#33,'Pipe Types:Waste:583319',$,'Pipe Types:Waste',#196227,#196363,'583319')
-[Warning] [2023-01-31 18:41:30] {3FjsrjaEnBHwKQ7H9Ag1N$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3FjsrjaEnBHwKQ7H9Ag1N$} No material and surface styles for:
 #198839=IfcFlowFitting('3FjsrjaEnBHwKQ7H9Ag1N$',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:583324',$,'Elbow - Generic',#198838,#198835,'583324')
-[Warning] [2023-01-31 18:41:30] {2$tUCPoMP0oP$boQkvupXF} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {2$tUCPoMP0oP$boQkvupXF} No material and surface styles for:
 #200349=IfcFlowFitting('2$tUCPoMP0oP$boQkvupXF',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:583327',$,'Tee - Generic',#200348,#200343,'583327')
-[Warning] [2023-01-31 18:41:30] {3dGHknFZr6jx2fputwRzpC} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3dGHknFZr6jx2fputwRzpC} No material and surface styles for:
 #200574=IfcFlowSegment('3dGHknFZr6jx2fputwRzpC',#33,'Pipe Types:Waste:583328',$,'Pipe Types:Waste',#200395,#200573,'583328')
-[Warning] [2023-01-31 18:41:30] {0_dkc9hC11lA4ntVXLyrTT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {0_dkc9hC11lA4ntVXLyrTT} No material and surface styles for:
 #200795=IfcFlowSegment('0_dkc9hC11lA4ntVXLyrTT',#33,'Pipe Types:Waste:583332',$,'Pipe Types:Waste',#200616,#200794,'583332')
-[Warning] [2023-01-31 18:41:30] {26v8LPLIj65uwlGFWXmFen} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {26v8LPLIj65uwlGFWXmFen} No material and surface styles for:
 #201021=IfcFlowSegment('26v8LPLIj65uwlGFWXmFen',#33,'Pipe Types:Hot Water:583544',$,'Pipe Types:Hot Water',#200884,#201020,'583544')
-[Warning] [2023-01-31 18:41:30] {1RJe5jpWPALRg1$IKf$Uxg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {1RJe5jpWPALRg1$IKf$Uxg} No material and surface styles for:
 #201206=IfcFlowSegment('1RJe5jpWPALRg1$IKf$Uxg',#33,'Pipe Types:Hot Water:583550',$,'Pipe Types:Hot Water',#201069,#201205,'583550')
-[Warning] [2023-01-31 18:41:30] {24OMkR39L9Zw3MH3ZMFXF_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {24OMkR39L9Zw3MH3ZMFXF_} No material and surface styles for:
 #201438=IfcFlowSegment('24OMkR39L9Zw3MH3ZMFXF_',#33,'Pipe Types:Hot Water:583557',$,'Pipe Types:Hot Water',#201301,#201437,'583557')
-[Warning] [2023-01-31 18:41:30] {3zr$u_m2n0jxBYbV00XNqy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3zr$u_m2n0jxBYbV00XNqy} No material and surface styles for:
 #201670=IfcFlowSegment('3zr$u_m2n0jxBYbV00XNqy',#33,'Pipe Types:Hot Water:583610',$,'Pipe Types:Hot Water',#201533,#201669,'583610')
-[Warning] [2023-01-31 18:41:30] {0QFgPCxTb72Q4HC6mNIsLy} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {0QFgPCxTb72Q4HC6mNIsLy} No material and surface styles for:
 #201856=IfcFlowSegment('0QFgPCxTb72Q4HC6mNIsLy',#33,'Pipe Types:Mechanical Pipe:583745',$,'Pipe Types:Mechanical Pipe',#201719,#201855,'583745')
-[Warning] [2023-01-31 18:41:30] {3QSoqSDyr33uVQw6Mv4VdG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3QSoqSDyr33uVQw6Mv4VdG} No material and surface styles for:
 #202041=IfcFlowSegment('3QSoqSDyr33uVQw6Mv4VdG',#33,'Pipe Types:Hot Water:583768',$,'Pipe Types:Hot Water',#201904,#202040,'583768')
-[Warning] [2023-01-31 18:41:30] {3xpTxwXl1BHfneBXVqZ5Rl} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3xpTxwXl1BHfneBXVqZ5Rl} No material and surface styles for:
 #202226=IfcFlowSegment('3xpTxwXl1BHfneBXVqZ5Rl',#33,'Pipe Types:Cold Water:584025',$,'Pipe Types:Cold Water',#202089,#202225,'584025')
-[Warning] [2023-01-31 18:41:30] {0EK93A_kr8ju8dLI2XD2lp} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {0EK93A_kr8ju8dLI2XD2lp} No material and surface styles for:
 #202461=IfcFlowSegment('0EK93A_kr8ju8dLI2XD2lp',#33,'Pipe Types:Cold Water:584048',$,'Pipe Types:Cold Water',#202324,#202460,'584048')
-[Warning] [2023-01-31 18:41:30] {1wdfJQuND5cOAzi5rutOTL} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {1wdfJQuND5cOAzi5rutOTL} No material and surface styles for:
 #202695=IfcFlowSegment('1wdfJQuND5cOAzi5rutOTL',#33,'Pipe Types:Mechanical Pipe:584238',$,'Pipe Types:Mechanical Pipe',#202558,#202694,'584238')
-[Warning] [2023-01-31 18:41:30] {2I6NCAsgrBi8XalP6nyNnI} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {2I6NCAsgrBi8XalP6nyNnI} No material and surface styles for:
 #203051=IfcFlowSegment('2I6NCAsgrBi8XalP6nyNnI',#33,'Pipe Types:Mechanical Pipe:590599',$,'Pipe Types:Mechanical Pipe',#202914,#203050,'590599')
-[Warning] [2023-01-31 18:41:31] {26ty8B$lz1swFlcL0yiXHe} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {26ty8B$lz1swFlcL0yiXHe} No material and surface styles for:
 #214389=IfcFlowController('26ty8B$lz1swFlcL0yiXHe',#33,'M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:591225',$,'25 mm',#214388,#214382,'591225')
-[Warning] [2023-01-31 18:41:31] {2FUwszRDj3m8Q_WHiC2wfg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {2FUwszRDj3m8Q_WHiC2wfg} No material and surface styles for:
 #214743=IfcFlowSegment('2FUwszRDj3m8Q_WHiC2wfg',#33,'Pipe Types:Mechanical Pipe:593060',$,'Pipe Types:Mechanical Pipe',#214606,#214742,'593060')
-[Warning] [2023-01-31 18:41:31] {1nHMR2_t1E38SmHhAQFP1I} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {1nHMR2_t1E38SmHhAQFP1I} No material and surface styles for:
 #214929=IfcFlowSegment('1nHMR2_t1E38SmHhAQFP1I',#33,'Pipe Types:Mechanical Pipe:593062',$,'Pipe Types:Mechanical Pipe',#214792,#214928,'593062')
-[Warning] [2023-01-31 18:41:31] {05mq62iBb15hPsYptkXa23} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {05mq62iBb15hPsYptkXa23} No material and surface styles for:
 #215163=IfcFlowSegment('05mq62iBb15hPsYptkXa23',#33,'Pipe Types:Mechanical Pipe:593065',$,'Pipe Types:Mechanical Pipe',#215026,#215162,'593065')
-[Warning] [2023-01-31 18:41:31] {3xhoSJVrH0iRTALnk5Clh4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:06] {3xhoSJVrH0iRTALnk5Clh4} No material and surface styles for:
 #215348=IfcFlowSegment('3xhoSJVrH0iRTALnk5Clh4',#33,'Pipe Types:Cold Water:593072',$,'Pipe Types:Cold Water',#215211,#215347,'593072')
-[Warning] [2023-01-31 18:41:31] {2C96hP40rDfhbyo7cW92Jn} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {2C96hP40rDfhbyo7cW92Jn} No material and surface styles for:
 #226736=IfcFlowController('2C96hP40rDfhbyo7cW92Jn',#33,'M_Backflow Preventer_ DCW to Hydronic Supply_15-50 mm_:25 mm:25 mm:593194',$,'25 mm',#226735,#226729,'593194')
-[Warning] [2023-01-31 18:41:31] {3Yc7I_f_PDff1FgIkvg84z} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {3Yc7I_f_PDff1FgIkvg84z} No material and surface styles for:
 #226908=IfcFlowSegment('3Yc7I_f_PDff1FgIkvg84z',#33,'Pipe Types:Hot Water:593196',$,'Pipe Types:Hot Water',#226771,#226907,'593196')
-[Warning] [2023-01-31 18:41:32] {12lyffCPD6KATEL_f41LIm} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {12lyffCPD6KATEL_f41LIm} No material and surface styles for:
 #227245=IfcFlowSegment('12lyffCPD6KATEL_f41LIm',#33,'Pipe Types:Mechanical Pipe:593349',$,'Pipe Types:Mechanical Pipe',#227108,#227244,'593349')
-[Warning] [2023-01-31 18:41:32] {3dASY0vqTFWOYMHvyqaONI} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {3dASY0vqTFWOYMHvyqaONI} No material and surface styles for:
 #227460=IfcFlowSegment('3dASY0vqTFWOYMHvyqaONI',#33,'Pipe Types:Cold Water:593581',$,'Pipe Types:Cold Water',#227293,#227459,'593581')
-[Warning] [2023-01-31 18:41:32] {0FXeTSpnLCUxAk611r0UpS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0FXeTSpnLCUxAk611r0UpS} No material and surface styles for:
 #227700=IfcFlowSegment('0FXeTSpnLCUxAk611r0UpS',#33,'Pipe Types:Cold Water:593588',$,'Pipe Types:Cold Water',#227509,#227699,'593588')
-[Warning] [2023-01-31 18:41:32] {103_MwI25DYh9ATqzebEmq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {103_MwI25DYh9ATqzebEmq} No material and surface styles for:
 #227934=IfcFlowSegment('103_MwI25DYh9ATqzebEmq',#33,'Pipe Types:Hot Water:593619',$,'Pipe Types:Hot Water',#227797,#227933,'593619')
-[Warning] [2023-01-31 18:41:32] {0hrw2POlb2owajHHkf31hs} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0hrw2POlb2owajHHkf31hs} No material and surface styles for:
 #228120=IfcFlowSegment('0hrw2POlb2owajHHkf31hs',#33,'Pipe Types:Hot Water:593630',$,'Pipe Types:Hot Water',#227983,#228119,'593630')
-[Warning] [2023-01-31 18:41:32] {3UaUDVsHnAEe2eiB_c_KI$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {3UaUDVsHnAEe2eiB_c_KI$} No material and surface styles for:
 #228357=IfcFlowSegment('3UaUDVsHnAEe2eiB_c_KI$',#33,'Pipe Types:Mechanical Pipe:593706',$,'Pipe Types:Mechanical Pipe',#228220,#228356,'593706')
-[Warning] [2023-01-31 18:41:32] {06ulJ2Oc50IxrobZv0yVSR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {06ulJ2Oc50IxrobZv0yVSR} No material and surface styles for:
 #228641=IfcFlowSegment('06ulJ2Oc50IxrobZv0yVSR',#33,'Pipe Types:Mechanical Pipe:593822',$,'Pipe Types:Mechanical Pipe',#228504,#228640,'593822')
-[Warning] [2023-01-31 18:41:32] {1Is120G6v7xOKxTVARBumb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {1Is120G6v7xOKxTVARBumb} No material and surface styles for:
 #228826=IfcFlowSegment('1Is120G6v7xOKxTVARBumb',#33,'Pipe Types:Cold Water:593893',$,'Pipe Types:Cold Water',#228689,#228825,'593893')
-[Warning] [2023-01-31 18:41:32] {1VltIYtz91U9QZX8sofKE$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {1VltIYtz91U9QZX8sofKE$} No material and surface styles for:
 #229055=IfcFlowSegment('1VltIYtz91U9QZX8sofKE$',#33,'Pipe Types:Hot Water:594105',$,'Pipe Types:Hot Water',#228918,#229054,'594105')
-[Warning] [2023-01-31 18:41:32] {1nXoYPr3b2CPbRTACmN7Zo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {1nXoYPr3b2CPbRTACmN7Zo} No material and surface styles for:
 #229381=IfcFlowSegment('1nXoYPr3b2CPbRTACmN7Zo',#33,'Pipe Types:Mechanical Pipe:594583',$,'Pipe Types:Mechanical Pipe',#229244,#229380,'594583')
-[Warning] [2023-01-31 18:41:32] {0WKnW3$Uz7jwk4ZUy10L6u} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0WKnW3$Uz7jwk4ZUy10L6u} No material and surface styles for:
 #229559=IfcFlowSegment('0WKnW3$Uz7jwk4ZUy10L6u',#33,'Pipe Types:Mechanical Pipe:594590',$,'Pipe Types:Mechanical Pipe',#229422,#229558,'594590')
-[Warning] [2023-01-31 18:41:32] {0uq3rG9sb5iPszypOTBXZb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0uq3rG9sb5iPszypOTBXZb} No material and surface styles for:
 #229788=IfcFlowSegment('0uq3rG9sb5iPszypOTBXZb',#33,'Pipe Types:Mechanical Pipe:594663',$,'Pipe Types:Mechanical Pipe',#229651,#229787,'594663')
-[Warning] [2023-01-31 18:41:32] {2qfLXG3Hb148syasj_6_yc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {2qfLXG3Hb148syasj_6_yc} No material and surface styles for:
 #230013=IfcFlowSegment('2qfLXG3Hb148syasj_6_yc',#33,'Pipe Types:Mechanical Pipe:594853',$,'Pipe Types:Mechanical Pipe',#229876,#230012,'594853')
-[Warning] [2023-01-31 18:41:32] {0f9KwjuGbB3Bk56rNJOALp} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0f9KwjuGbB3Bk56rNJOALp} No material and surface styles for:
 #230309=IfcFlowSegment('0f9KwjuGbB3Bk56rNJOALp',#33,'Pipe Types:Waste:594985',$,'Pipe Types:Waste',#230102,#230308,'594985')
-[Warning] [2023-01-31 18:41:32] {1VhKqbhf10zhSZj1P_$5Gd} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {1VhKqbhf10zhSZj1P_$5Gd} No material and surface styles for:
 #230488=IfcFlowSegment('1VhKqbhf10zhSZj1P_$5Gd',#33,'Pipe Types:Mechanical Pipe:595074',$,'Pipe Types:Mechanical Pipe',#230351,#230487,'595074')
-[Warning] [2023-01-31 18:41:32] {04OAg5Hg10Ug3c4kXimFMg} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {04OAg5Hg10Ug3c4kXimFMg} No material and surface styles for:
 #230666=IfcFlowSegment('04OAg5Hg10Ug3c4kXimFMg',#33,'Pipe Types:Mechanical Pipe:595083',$,'Pipe Types:Mechanical Pipe',#230529,#230665,'595083')
-[Warning] [2023-01-31 18:41:32] {0xlnP96b11J867b1SiV9ic} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0xlnP96b11J867b1SiV9ic} No material and surface styles for:
 #230895=IfcFlowSegment('0xlnP96b11J867b1SiV9ic',#33,'Pipe Types:Mechanical Pipe:595141',$,'Pipe Types:Mechanical Pipe',#230758,#230894,'595141')
-[Warning] [2023-01-31 18:41:32] {235DtGn3D5J8_g$P9SiyZe} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {235DtGn3D5J8_g$P9SiyZe} No material and surface styles for:
 #231073=IfcFlowSegment('235DtGn3D5J8_g$P9SiyZe',#33,'Pipe Types:Mechanical Pipe:595154',$,'Pipe Types:Mechanical Pipe',#230936,#231072,'595154')
-[Warning] [2023-01-31 18:41:32] {1O6$uN68HApvZEI4JwRGN4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {1O6$uN68HApvZEI4JwRGN4} No material and surface styles for:
 #231346=IfcFlowSegment('1O6$uN68HApvZEI4JwRGN4',#33,'Pipe Types:Mechanical Pipe:595210',$,'Pipe Types:Mechanical Pipe',#231209,#231345,'595210')
-[Warning] [2023-01-31 18:41:32] {3hhELAyD977h$k0f3WYxG1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {3hhELAyD977h$k0f3WYxG1} No material and surface styles for:
 #231572=IfcFlowSegment('3hhELAyD977h$k0f3WYxG1',#33,'Pipe Types:Mechanical Pipe:595217',$,'Pipe Types:Mechanical Pipe',#231435,#231571,'595217')
-[Warning] [2023-01-31 18:41:32] {0R$S79jeD6nxpFXMN2GFf0} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0R$S79jeD6nxpFXMN2GFf0} No material and surface styles for:
 #234022=IfcFlowFitting('0R$S79jeD6nxpFXMN2GFf0',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:599189',$,'Elbow - Generic',#234021,#234016,'599189')
-[Warning] [2023-01-31 18:41:32] {17qNSF4KPAM8Mzmh7LJ0sj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {17qNSF4KPAM8Mzmh7LJ0sj} No material and surface styles for:
 #234204=IfcFlowSegment('17qNSF4KPAM8Mzmh7LJ0sj',#33,'Pipe Types:Waste:599698',$,'Pipe Types:Waste',#234067,#234203,'599698')
-[Warning] [2023-01-31 18:41:32] {0R8SYRRjr0phQqxAfZ2wYs} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0R8SYRRjr0phQqxAfZ2wYs} No material and surface styles for:
 #235239=IfcFlowFitting('0R8SYRRjr0phQqxAfZ2wYs',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:599704',$,'Tee - Generic',#235238,#235233,'599704')
-[Warning] [2023-01-31 18:41:32] {2iyg057qb90hXw6evhH$cz} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {2iyg057qb90hXw6evhH$cz} No material and surface styles for:
 #235482=IfcFlowSegment('2iyg057qb90hXw6evhH$cz',#33,'Pipe Types:Waste:599705',$,'Pipe Types:Waste',#235285,#235481,'599705')
-[Warning] [2023-01-31 18:41:32] {2eCigizHrDoO2cHRWm8enf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {2eCigizHrDoO2cHRWm8enf} No material and surface styles for:
 #235661=IfcFlowSegment('2eCigizHrDoO2cHRWm8enf',#33,'Pipe Types:Hot Water:599791',$,'Pipe Types:Hot Water',#235524,#235660,'599791')
-[Warning] [2023-01-31 18:41:32] {0Pe0aRvD552ukSE2WQfwwc} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {0Pe0aRvD552ukSE2WQfwwc} No material and surface styles for:
 #235848=IfcFlowSegment('0Pe0aRvD552ukSE2WQfwwc',#33,'Pipe Types:Hot Water:599795',$,'Pipe Types:Hot Water',#235711,#235847,'599795')
-[Warning] [2023-01-31 18:41:32] {02liIsPa19NBjvPRMDBtvv} No material and surface styles for:
+[Warning] [2023-04-11 18:50:07] {02liIsPa19NBjvPRMDBtvv} No material and surface styles for:
 #238261=IfcFlowFitting('02liIsPa19NBjvPRMDBtvv',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:599801',$,'Elbow - Generic',#238260,#238254,'599801')
-[Warning] [2023-01-31 18:41:32] {3CbbWwO_X30BPuH$6FPNge} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {3CbbWwO_X30BPuH$6FPNge} No material and surface styles for:
 #241196=IfcFlowFitting('3CbbWwO_X30BPuH$6FPNge',#33,'M_Transition - Generic:Transition - Generic:Transition - Generic:599804',$,'Transition - Generic',#241195,#241192,'599804')
-[Warning] [2023-01-31 18:41:32] {0QJhdzOuHDZRLam63dWKnP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0QJhdzOuHDZRLam63dWKnP} No material and surface styles for:
 #243611=IfcFlowFitting('0QJhdzOuHDZRLam63dWKnP',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600013',$,'Elbow - Generic',#243610,#243605,'600013')
-[Warning] [2023-01-31 18:41:32] {2IPEdiDeTByvAGqAJdlvnY} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2IPEdiDeTByvAGqAJdlvnY} No material and surface styles for:
 #243793=IfcFlowSegment('2IPEdiDeTByvAGqAJdlvnY',#33,'Pipe Types:Cold Water:600106',$,'Pipe Types:Cold Water',#243656,#243792,'600106')
-[Warning] [2023-01-31 18:41:32] {1BOgnFIYD9uuqLda4M8vg_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1BOgnFIYD9uuqLda4M8vg_} No material and surface styles for:
 #243980=IfcFlowSegment('1BOgnFIYD9uuqLda4M8vg_',#33,'Pipe Types:Cold Water:600107',$,'Pipe Types:Cold Water',#243843,#243979,'600107')
-[Warning] [2023-01-31 18:41:32] {2tbKXRBs18EwrVsKoiqIs_} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2tbKXRBs18EwrVsKoiqIs_} No material and surface styles for:
 #244321=IfcFlowSegment('2tbKXRBs18EwrVsKoiqIs_',#33,'Pipe Types:Hot Water:600129',$,'Pipe Types:Hot Water',#244184,#244320,'600129')
-[Warning] [2023-01-31 18:41:32] {2n3HiZ3U57NOfBrFnKsqSC} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2n3HiZ3U57NOfBrFnKsqSC} No material and surface styles for:
 #244508=IfcFlowSegment('2n3HiZ3U57NOfBrFnKsqSC',#33,'Pipe Types:Hot Water:600130',$,'Pipe Types:Hot Water',#244371,#244507,'600130')
-[Warning] [2023-01-31 18:41:32] {0FE2Puj$T4GgGqrvAsvCB$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0FE2Puj$T4GgGqrvAsvCB$} No material and surface styles for:
 #244930=IfcFlowSegment('0FE2Puj$T4GgGqrvAsvCB$',#33,'Pipe Types:Waste:600257',$,'Pipe Types:Waste',#244763,#244929,'600257')
-[Warning] [2023-01-31 18:41:32] {3O0RmHD2f5PRTJ3v1J2h5F} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {3O0RmHD2f5PRTJ3v1J2h5F} No material and surface styles for:
 #245168=IfcFlowSegment('3O0RmHD2f5PRTJ3v1J2h5F',#33,'Pipe Types:Mechanical Pipe:600266',$,'Pipe Types:Mechanical Pipe',#245031,#245167,'600266')
-[Warning] [2023-01-31 18:41:32] {0ymjm9KhL4AgAstMnE6MBu} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0ymjm9KhL4AgAstMnE6MBu} No material and surface styles for:
 #247576=IfcFlowFitting('0ymjm9KhL4AgAstMnE6MBu',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600269',$,'Elbow - Generic',#247575,#247572,'600269')
-[Warning] [2023-01-31 18:41:32] {2xA$eu03z7_AE20NBY7Mer} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2xA$eu03z7_AE20NBY7Mer} No material and surface styles for:
 #247812=IfcFlowSegment('2xA$eu03z7_AE20NBY7Mer',#33,'Pipe Types:Waste:600272',$,'Pipe Types:Waste',#247621,#247811,'600272')
-[Warning] [2023-01-31 18:41:32] {36PHY8l$rBmPsWvnnIIhcd} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {36PHY8l$rBmPsWvnnIIhcd} No material and surface styles for:
 #248050=IfcFlowSegment('36PHY8l$rBmPsWvnnIIhcd',#33,'Pipe Types:Mechanical Pipe:600279',$,'Pipe Types:Mechanical Pipe',#247913,#248049,'600279')
-[Warning] [2023-01-31 18:41:32] {1z0tpvsXL6tvyub5XcJTbB} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1z0tpvsXL6tvyub5XcJTbB} No material and surface styles for:
 #250452=IfcFlowFitting('1z0tpvsXL6tvyub5XcJTbB',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600282',$,'Elbow - Generic',#250451,#250448,'600282')
-[Warning] [2023-01-31 18:41:32] {3_OzfJeOj3eh$HaoPjll8e} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {3_OzfJeOj3eh$HaoPjll8e} No material and surface styles for:
 #250634=IfcFlowSegment('3_OzfJeOj3eh$HaoPjll8e',#33,'Pipe Types:Mechanical Pipe:600381',$,'Pipe Types:Mechanical Pipe',#250497,#250633,'600381')
-[Warning] [2023-01-31 18:41:32] {36FlDzkQP8Lfc6DI3ndsUf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {36FlDzkQP8Lfc6DI3ndsUf} No material and surface styles for:
 #250821=IfcFlowSegment('36FlDzkQP8Lfc6DI3ndsUf',#33,'Pipe Types:Waste:600449',$,'Pipe Types:Waste',#250684,#250820,'600449')
-[Warning] [2023-01-31 18:41:33] {0RruiTkA57Qx9i3Y5ma7_5} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0RruiTkA57Qx9i3Y5ma7_5} No material and surface styles for:
 #253232=IfcFlowFitting('0RruiTkA57Qx9i3Y5ma7_5',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600493',$,'Elbow - Generic',#253231,#253227,'600493')
-[Warning] [2023-01-31 18:41:33] {0pzLWJilH7xO6Gd4GQfQSF} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0pzLWJilH7xO6Gd4GQfQSF} No material and surface styles for:
 #253414=IfcFlowSegment('0pzLWJilH7xO6Gd4GQfQSF',#33,'Pipe Types:Waste:600503',$,'Pipe Types:Waste',#253277,#253413,'600503')
-[Warning] [2023-01-31 18:41:33] {14DhnURbT9ZAylm8UYUmGb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {14DhnURbT9ZAylm8UYUmGb} No material and surface styles for:
 #255826=IfcFlowFitting('14DhnURbT9ZAylm8UYUmGb',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600509',$,'Elbow - Generic',#255825,#255821,'600509')
-[Warning] [2023-01-31 18:41:33] {1vFudeHNH6kfVLksPjvO1s} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1vFudeHNH6kfVLksPjvO1s} No material and surface styles for:
 #256057=IfcFlowSegment('1vFudeHNH6kfVLksPjvO1s',#33,'Pipe Types:Waste:600555',$,'Pipe Types:Waste',#255920,#256056,'600555')
-[Warning] [2023-01-31 18:41:33] {2svZZfUfX3r9WCwxDkZ3mT} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2svZZfUfX3r9WCwxDkZ3mT} No material and surface styles for:
 #258468=IfcFlowFitting('2svZZfUfX3r9WCwxDkZ3mT',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600581',$,'Elbow - Generic',#258467,#258464,'600581')
-[Warning] [2023-01-31 18:41:33] {1RMb18Ts1CPujMeuORti2z} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1RMb18Ts1CPujMeuORti2z} No material and surface styles for:
 #258650=IfcFlowSegment('1RMb18Ts1CPujMeuORti2z',#33,'Pipe Types:Waste:600584',$,'Pipe Types:Waste',#258513,#258649,'600584')
-[Warning] [2023-01-31 18:41:33] {1fe28NFJ976Bg2JXkUAjqX} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1fe28NFJ976Bg2JXkUAjqX} No material and surface styles for:
 #258933=IfcFlowSegment('1fe28NFJ976Bg2JXkUAjqX',#33,'Pipe Types:Waste:600695',$,'Pipe Types:Waste',#258796,#258932,'600695')
-[Warning] [2023-01-31 18:41:33] {2J0irIs9DDHenzzZ_L40xG} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {2J0irIs9DDHenzzZ_L40xG} No material and surface styles for:
 #259168=IfcFlowSegment('2J0irIs9DDHenzzZ_L40xG',#33,'Pipe Types:Waste:600701',$,'Pipe Types:Waste',#259031,#259167,'600701')
-[Warning] [2023-01-31 18:41:33] {0w7dmnzoX3We9JxBx2tEoX} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {0w7dmnzoX3We9JxBx2tEoX} No material and surface styles for:
 #259415=IfcFlowSegment('0w7dmnzoX3We9JxBx2tEoX',#33,'Pipe Types:Mechanical Pipe:600783',$,'Pipe Types:Mechanical Pipe',#259266,#259414,'600783')
-[Warning] [2023-01-31 18:41:33] {1Ot3HCb6H0HOhuByNp9ADb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {1Ot3HCb6H0HOhuByNp9ADb} No material and surface styles for:
 #259601=IfcFlowSegment('1Ot3HCb6H0HOhuByNp9ADb',#33,'Pipe Types:Mechanical Pipe:600787',$,'Pipe Types:Mechanical Pipe',#259464,#259600,'600787')
-[Warning] [2023-01-31 18:41:33] {3ibEvfnB59$hkzExQthg8y} No material and surface styles for:
+[Warning] [2023-04-11 18:50:08] {3ibEvfnB59$hkzExQthg8y} No material and surface styles for:
 #259885=IfcFlowSegment('3ibEvfnB59$hkzExQthg8y',#33,'Pipe Types:Waste:600896',$,'Pipe Types:Waste',#259700,#259884,'600896')
-[Warning] [2023-01-31 18:41:33] {08iHUx7lP8mffm9w1odMPJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {08iHUx7lP8mffm9w1odMPJ} No material and surface styles for:
 #262294=IfcFlowFitting('08iHUx7lP8mffm9w1odMPJ',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:600907',$,'Elbow - Generic',#262293,#262290,'600907')
-[Warning] [2023-01-31 18:41:33] {2zJ3WP6bzE_u5MgDrNcyfs} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2zJ3WP6bzE_u5MgDrNcyfs} No material and surface styles for:
 #262556=IfcFlowSegment('2zJ3WP6bzE_u5MgDrNcyfs',#33,'Pipe Types:Mechanical Pipe:600911',$,'Pipe Types:Mechanical Pipe',#262389,#262555,'600911')
-[Warning] [2023-01-31 18:41:33] {29E4m67s91eu23bfdJvWF$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {29E4m67s91eu23bfdJvWF$} No material and surface styles for:
 #262796=IfcFlowSegment('29E4m67s91eu23bfdJvWF$',#33,'Pipe Types:Waste:600913',$,'Pipe Types:Waste',#262605,#262795,'600913')
-[Warning] [2023-01-31 18:41:33] {1_D4E4zq1Bg9zNGCWzdrEm} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1_D4E4zq1Bg9zNGCWzdrEm} No material and surface styles for:
 #263111=IfcFlowSegment('1_D4E4zq1Bg9zNGCWzdrEm',#33,'Pipe Types:Mechanical Pipe:600925',$,'Pipe Types:Mechanical Pipe',#262944,#263110,'600925')
-[Warning] [2023-01-31 18:41:33] {1TzbsD5UHF6AUJTKVr1IR4} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1TzbsD5UHF6AUJTKVr1IR4} No material and surface styles for:
 #263339=IfcFlowSegment('1TzbsD5UHF6AUJTKVr1IR4',#33,'Pipe Types:Mechanical Pipe:600952',$,'Pipe Types:Mechanical Pipe',#263160,#263338,'600952')
-[Warning] [2023-01-31 18:41:33] {0w7iMWrrn2ch6O_KPmj3Ee} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0w7iMWrrn2ch6O_KPmj3Ee} No material and surface styles for:
 #263526=IfcFlowSegment('0w7iMWrrn2ch6O_KPmj3Ee',#33,'Pipe Types:Waste:601015',$,'Pipe Types:Waste',#263389,#263525,'601015')
-[Warning] [2023-01-31 18:41:33] {0x8B$HiG56NgBKY4Lhjxhb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0x8B$HiG56NgBKY4Lhjxhb} No material and surface styles for:
 #265936=IfcFlowFitting('0x8B$HiG56NgBKY4Lhjxhb',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601021',$,'Elbow - Generic',#265935,#265931,'601021')
-[Warning] [2023-01-31 18:41:33] {2r0DGzBAnB_eOrOts4sJrJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2r0DGzBAnB_eOrOts4sJrJ} No material and surface styles for:
 #266118=IfcFlowSegment('2r0DGzBAnB_eOrOts4sJrJ',#33,'Pipe Types:Waste:601031',$,'Pipe Types:Waste',#265981,#266117,'601031')
-[Warning] [2023-01-31 18:41:33] {2oyb$TyZH3MvEdsOvAfTf9} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2oyb$TyZH3MvEdsOvAfTf9} No material and surface styles for:
 #268577=IfcFlowFitting('2oyb$TyZH3MvEdsOvAfTf9',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601051',$,'Elbow - Generic',#268576,#268572,'601051')
-[Warning] [2023-01-31 18:41:33] {18GbQmoZ1A2gRZM1uxGos7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {18GbQmoZ1A2gRZM1uxGos7} No material and surface styles for:
 #268759=IfcFlowSegment('18GbQmoZ1A2gRZM1uxGos7',#33,'Pipe Types:Mechanical Pipe:601142',$,'Pipe Types:Mechanical Pipe',#268622,#268758,'601142')
-[Warning] [2023-01-31 18:41:33] {2q8Ajz8zz7iuTH31zZSLW1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2q8Ajz8zz7iuTH31zZSLW1} No material and surface styles for:
 #271170=IfcFlowFitting('2q8Ajz8zz7iuTH31zZSLW1',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:601157',$,'Elbow - Generic',#271169,#271164,'601157')
-[Warning] [2023-01-31 18:41:33] {2Es21WECPBGApdqWOSxBrm} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2Es21WECPBGApdqWOSxBrm} No material and surface styles for:
 #271352=IfcFlowSegment('2Es21WECPBGApdqWOSxBrm',#33,'Pipe Types:Mechanical Pipe:601282',$,'Pipe Types:Mechanical Pipe',#271215,#271351,'601282')
-[Warning] [2023-01-31 18:41:33] {1dlrsgUIvFQ9c1SAnnlPLO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1dlrsgUIvFQ9c1SAnnlPLO} No material and surface styles for:
 #272444=IfcFlowFitting('1dlrsgUIvFQ9c1SAnnlPLO',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:601285',$,'Tee - Generic',#272443,#272439,'601285')
-[Warning] [2023-01-31 18:41:33] {1wNHkBhyD6Kxz6J98Pr8bt} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1wNHkBhyD6Kxz6J98Pr8bt} No material and surface styles for:
 #272663=IfcFlowSegment('1wNHkBhyD6Kxz6J98Pr8bt',#33,'Pipe Types:Mechanical Pipe:601286',$,'Pipe Types:Mechanical Pipe',#272490,#272662,'601286')
-[Warning] [2023-01-31 18:41:33] {1fJrYuA6n4mAJ2VVdhy47o} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1fJrYuA6n4mAJ2VVdhy47o} No material and surface styles for:
 #272897=IfcFlowSegment('1fJrYuA6n4mAJ2VVdhy47o',#33,'Pipe Types:Mechanical Pipe:601371',$,'Pipe Types:Mechanical Pipe',#272760,#272896,'601371')
-[Warning] [2023-01-31 18:41:33] {32t38825H4mhG7RfE173OQ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {32t38825H4mhG7RfE173OQ} No material and surface styles for:
 #273084=IfcFlowSegment('32t38825H4mhG7RfE173OQ',#33,'Pipe Types:Mechanical Pipe:601377',$,'Pipe Types:Mechanical Pipe',#272947,#273083,'601377')
-[Warning] [2023-01-31 18:41:33] {1ikdaHeMH9tQH7ZRIx2Ou6} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1ikdaHeMH9tQH7ZRIx2Ou6} No material and surface styles for:
 #273367=IfcFlowSegment('1ikdaHeMH9tQH7ZRIx2Ou6',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):601543',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#273230,#273366,'601543')
-[Warning] [2023-01-31 18:41:33] {0_vO1$t1LDEf3FoeUjGLcU} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0_vO1$t1LDEf3FoeUjGLcU} No material and surface styles for:
 #274003=IfcFlowSegment('0_vO1$t1LDEf3FoeUjGLcU',#33,'M_Conduit Elbow - Steel:Conduit Elbow - Steel:Conduit Elbow - Steel:601701',$,'Conduit Elbow - Steel',#274002,#273999,'601701')
-[Warning] [2023-01-31 18:41:33] {2LfaOr26XADvR5_fysmGQf} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2LfaOr26XADvR5_fysmGQf} No material and surface styles for:
 #274179=IfcFlowSegment('2LfaOr26XADvR5_fysmGQf',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):601746',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#274042,#274178,'601746')
-[Warning] [2023-01-31 18:41:33] {0bFT1Z4ejDJeGGQDPfutuq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0bFT1Z4ejDJeGGQDPfutuq} No material and surface styles for:
 #274394=IfcFlowSegment('0bFT1Z4ejDJeGGQDPfutuq',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):601926',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#274257,#274393,'601926')
-[Warning] [2023-01-31 18:41:34] {3ZpZg5x6L8RhsGp3tg8aGD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {3ZpZg5x6L8RhsGp3tg8aGD} No material and surface styles for:
 #274567=IfcFlowSegment('3ZpZg5x6L8RhsGp3tg8aGD',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):601940',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#274430,#274566,'601940')
-[Warning] [2023-01-31 18:41:34] {0yftsu3wL2hhDH1KFXfYIs} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0yftsu3wL2hhDH1KFXfYIs} No material and surface styles for:
 #274824=IfcFlowSegment('0yftsu3wL2hhDH1KFXfYIs',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):602008',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#274687,#274823,'602008')
-[Warning] [2023-01-31 18:41:34] {2T9Z_3Tzn6KQmOy4nAhq7v} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {2T9Z_3Tzn6KQmOy4nAhq7v} No material and surface styles for:
 #274997=IfcFlowSegment('2T9Z_3Tzn6KQmOy4nAhq7v',#33,'Conduit with Fittings:Electrical Metallic Tubing (EMT):602019',$,'Conduit with Fittings:Electrical Metallic Tubing (EMT)',#274860,#274996,'602019')
-[Warning] [2023-01-31 18:41:34] {3RBA0TgZf479N6ijjYOyFM} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {3RBA0TgZf479N6ijjYOyFM} No material and surface styles for:
 #276835=IfcFlowMovingDevice('3RBA0TgZf479N6ijjYOyFM',#33,'M_Centrifugal Fan -  Rooftop  - Upblast:991-1905 LPS:991-1905 LPS:602113',$,'991-1905 LPS',#276834,#276828,'602113')
-[Warning] [2023-01-31 18:41:34] {1IsRfR0mPFRvgUDp4w57dD} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1IsRfR0mPFRvgUDp4w57dD} No material and surface styles for:
 #278648=IfcFlowMovingDevice('1IsRfR0mPFRvgUDp4w57dD',#33,'M_Centrifugal Fan -  Rooftop  - Upblast:991-1905 LPS:991-1905 LPS:602396',$,'991-1905 LPS',#278647,#278641,'602396')
-[Warning] [2023-01-31 18:41:34] {31siXJVEj1gxTKyEHEwcIO} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {31siXJVEj1gxTKyEHEwcIO} No material and surface styles for:
 #279063=IfcFlowFitting('31siXJVEj1gxTKyEHEwcIO',#33,'M_Rectangular to Round Transition - Angle:45 Degree:45 Degree:602990',$,'45 Degree',#279062,#279056,'602990')
-[Warning] [2023-01-31 18:41:34] {3pumjEMRj8WfnEQMDxBrk9} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {3pumjEMRj8WfnEQMDxBrk9} No material and surface styles for:
 #279311=IfcFlowSegment('3pumjEMRj8WfnEQMDxBrk9',#33,'Round Duct:Taps:603399',$,'Round Duct:Taps',#279174,#279310,'603399')
-[Warning] [2023-01-31 18:41:34] {0ouKetrN53JBNttVyfGkD7} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0ouKetrN53JBNttVyfGkD7} No material and surface styles for:
 #279581=IfcFlowSegment('0ouKetrN53JBNttVyfGkD7',#33,'Pipe Types:PVC:604332',$,'Pipe Types:PVC',#279444,#279580,'604332')
-[Warning] [2023-01-31 18:41:34] {0wir8qpa98c8is0nQvQCmE} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {0wir8qpa98c8is0nQvQCmE} No material and surface styles for:
 #279805=IfcFlowSegment('0wir8qpa98c8is0nQvQCmE',#33,'Pipe Types:PVC:604361',$,'Pipe Types:PVC',#279668,#279804,'604361')
-[Warning] [2023-01-31 18:41:34] {1Pcs6ln2DE5Bd8Czt1STyq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:09] {1Pcs6ln2DE5Bd8Czt1STyq} No material and surface styles for:
 #282206=IfcFlowFitting('1Pcs6ln2DE5Bd8Czt1STyq',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:604456',$,'Elbow - Generic',#282205,#282201,'604456')
-[Warning] [2023-01-31 18:41:34] {3j7DiZ01XBivFgt$SbPApz} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3j7DiZ01XBivFgt$SbPApz} No material and surface styles for:
 #282388=IfcFlowSegment('3j7DiZ01XBivFgt$SbPApz',#33,'Pipe Types:PVC:604556',$,'Pipe Types:PVC',#282251,#282387,'604556')
-[Warning] [2023-01-31 18:41:34] {17LbZ$bTD9DAdkz6AWExLn} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {17LbZ$bTD9DAdkz6AWExLn} No material and surface styles for:
 #282566=IfcFlowSegment('17LbZ$bTD9DAdkz6AWExLn',#33,'Pipe Types:PVC:604577',$,'Pipe Types:PVC',#282429,#282565,'604577')
-[Warning] [2023-01-31 18:41:34] {3vN63EePX0s8ogIeII55Gt} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3vN63EePX0s8ogIeII55Gt} No material and surface styles for:
 #282841=IfcFlowSegment('3vN63EePX0s8ogIeII55Gt',#33,'Pipe Types:Cold Water:604652',$,'Pipe Types:Cold Water',#282704,#282840,'604652')
-[Warning] [2023-01-31 18:41:34] {1lXgZta8zBCP$Yifbh3K$B} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1lXgZta8zBCP$Yifbh3K$B} No material and surface styles for:
 #283028=IfcFlowSegment('1lXgZta8zBCP$Yifbh3K$B',#33,'Pipe Types:Cold Water:604653',$,'Pipe Types:Cold Water',#282891,#283027,'604653')
-[Warning] [2023-01-31 18:41:34] {2JG6d2VXj0ARi_it8Hzeux} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {2JG6d2VXj0ARi_it8Hzeux} No material and surface styles for:
 #283216=IfcFlowSegment('2JG6d2VXj0ARi_it8Hzeux',#33,'Pipe Types:Cold Water:604659',$,'Pipe Types:Cold Water',#283079,#283215,'604659')
-[Warning] [2023-01-31 18:41:34] {3biqfQtEvADwzkHXc2hpit} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3biqfQtEvADwzkHXc2hpit} No material and surface styles for:
 #283500=IfcFlowSegment('3biqfQtEvADwzkHXc2hpit',#33,'Pipe Types:Cold Water:604667',$,'Pipe Types:Cold Water',#283363,#283499,'604667')
-[Warning] [2023-01-31 18:41:34] {06tz$4Kfr6hxOdBtBn_Zg8} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {06tz$4Kfr6hxOdBtBn_Zg8} No material and surface styles for:
 #283744=IfcFlowSegment('06tz$4Kfr6hxOdBtBn_Zg8',#33,'Pipe Types:PVC:604739',$,'Pipe Types:PVC',#283607,#283743,'604739')
-[Warning] [2023-01-31 18:41:34] {1jfuKVLvDAvujmZd$g5KIv} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1jfuKVLvDAvujmZd$g5KIv} No material and surface styles for:
 #283947=IfcFlowSegment('1jfuKVLvDAvujmZd$g5KIv',#33,'Pipe Types:PVC:605354',$,'Pipe Types:PVC',#283786,#283946,'605354')
-[Warning] [2023-01-31 18:41:34] {3OvFxniMHB1hJTYExaq2kx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3OvFxniMHB1hJTYExaq2kx} No material and surface styles for:
 #287026=IfcFlowFitting('3OvFxniMHB1hJTYExaq2kx',#33,'M_Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:Bend - PVC - Sch 40 - DWV:605365',$,'Bend - PVC - Sch 40 - DWV',#287025,#287022,'605365')
-[Warning] [2023-01-31 18:41:34] {1qiGQkCYX6vh_nqz1DzDoq} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1qiGQkCYX6vh_nqz1DzDoq} No material and surface styles for:
 #287256=IfcFlowSegment('1qiGQkCYX6vh_nqz1DzDoq',#33,'Pipe Types:PVC:605366',$,'Pipe Types:PVC',#287119,#287255,'605366')
-[Warning] [2023-01-31 18:41:34] {3FeF1QhavDjhYq8NY8wJX0} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3FeF1QhavDjhYq8NY8wJX0} No material and surface styles for:
 #287500=IfcFlowSegment('3FeF1QhavDjhYq8NY8wJX0',#33,'Pipe Types:PVC:605375',$,'Pipe Types:PVC',#287363,#287499,'605375')
-[Warning] [2023-01-31 18:41:34] {1IZLDqpSH0Bftkn$oLUU0O} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1IZLDqpSH0Bftkn$oLUU0O} No material and surface styles for:
 #287679=IfcFlowSegment('1IZLDqpSH0Bftkn$oLUU0O',#33,'Pipe Types:PVC:605397',$,'Pipe Types:PVC',#287542,#287678,'605397')
-[Warning] [2023-01-31 18:41:34] {23I41MKIf4Ae3VYQIx$rQw} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {23I41MKIf4Ae3VYQIx$rQw} No material and surface styles for:
 #287977=IfcFlowSegment('23I41MKIf4Ae3VYQIx$rQw',#33,'Pipe Types:PVC:605401',$,'Pipe Types:PVC',#287840,#287976,'605401')
-[Warning] [2023-01-31 18:41:34] {08zr6JNBDBDATCIEkAVgHh} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {08zr6JNBDBDATCIEkAVgHh} No material and surface styles for:
 #288324=IfcFlowSegment('08zr6JNBDBDATCIEkAVgHh',#33,'Pipe Types:PVC:605583',$,'Pipe Types:PVC',#288139,#288323,'605583')
-[Warning] [2023-01-31 18:41:34] {0oo3qdwTX8NORD4EhixxV1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {0oo3qdwTX8NORD4EhixxV1} No material and surface styles for:
 #288566=IfcFlowSegment('0oo3qdwTX8NORD4EhixxV1',#33,'Pipe Types:PVC:605592',$,'Pipe Types:PVC',#288429,#288565,'605592')
-[Warning] [2023-01-31 18:41:34] {0G8kZRylf43vPOOL1z1YRR} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {0G8kZRylf43vPOOL1z1YRR} No material and surface styles for:
 #288809=IfcFlowSegment('0G8kZRylf43vPOOL1z1YRR',#33,'Pipe Types:PVC:605599',$,'Pipe Types:PVC',#288672,#288808,'605599')
-[Warning] [2023-01-31 18:41:34] {3a6ndo_ET6V9uIH8SrRBzb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3a6ndo_ET6V9uIH8SrRBzb} No material and surface styles for:
 #288988=IfcFlowSegment('3a6ndo_ET6V9uIH8SrRBzb',#33,'Pipe Types:PVC:605615',$,'Pipe Types:PVC',#288851,#288987,'605615')
-[Warning] [2023-01-31 18:41:34] {13fBLqU9PCth6P9Ip3QJQo} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {13fBLqU9PCth6P9Ip3QJQo} No material and surface styles for:
 #291820=IfcFlowFitting('13fBLqU9PCth6P9Ip3QJQo',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606592',$,'Elbow - Generic',#291819,#291814,'606592')
-[Warning] [2023-01-31 18:41:34] {3Z9JJWMY118fRquEO2VLD$} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3Z9JJWMY118fRquEO2VLD$} No material and surface styles for:
 #294226=IfcFlowFitting('3Z9JJWMY118fRquEO2VLD$',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606628',$,'Elbow - Generic',#294225,#294220,'606628')
-[Warning] [2023-01-31 18:41:34] {3bKjiAXy59_vE_roBOSCvj} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3bKjiAXy59_vE_roBOSCvj} No material and surface styles for:
 #296823=IfcFlowFitting('3bKjiAXy59_vE_roBOSCvj',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:606821',$,'Elbow - Generic',#296822,#296818,'606821')
-[Warning] [2023-01-31 18:41:35] {1v5KPRBUvBaQIesqxyQrjw} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1v5KPRBUvBaQIesqxyQrjw} No material and surface styles for:
 #299126=IfcFlowFitting('1v5KPRBUvBaQIesqxyQrjw',#33,'M_Roof Drain:380 mm Strainer - 25 mm Drain:380 mm Strainer - 25 mm Drain:610131',$,'380 mm Strainer - 25 mm Drain',#299125,#299119,'610131')
-[Warning] [2023-01-31 18:41:35] {1d7reBWpf0fORIZse0_foY} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1d7reBWpf0fORIZse0_foY} No material and surface styles for:
 #299989=IfcFlowController('1d7reBWpf0fORIZse0_foY',#33,'M_Smoke Detector:Smoke Detector:Smoke Detector:610280',$,'Smoke Detector',#299988,#299982,'610280')
-[Warning] [2023-01-31 18:41:35] {2LxXBHLLv7BeFlYOC_wtRJ} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {2LxXBHLLv7BeFlYOC_wtRJ} No material and surface styles for:
 #300243=IfcDistributionControlElement('2LxXBHLLv7BeFlYOC_wtRJ',#33,'M_Thermostat:Thermostat:Thermostat:610678',$,'Thermostat',#300242,#300236,'610678',$)
-[Warning] [2023-01-31 18:41:35] {1pq8_0PnP2dxhiUN2win6E} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1pq8_0PnP2dxhiUN2win6E} No material and surface styles for:
 #300366=IfcFlowTerminal('1pq8_0PnP2dxhiUN2win6E',#33,'M_Telephone Outlet:Telophone Outlet:Telophone Outlet:611904',$,'Telophone Outlet',#300365,#300359,'611904')
-[Warning] [2023-01-31 18:41:35] {3z7$ANK7PCff_FQHVjuQv1} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {3z7$ANK7PCff_FQHVjuQv1} No material and surface styles for:
 #302881=IfcFlowFitting('3z7$ANK7PCff_FQHVjuQv1',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:612458',$,'Elbow - Generic',#302880,#302875,'612458')
-[Warning] [2023-01-31 18:41:35] {2yZypBm1P0Geeej3iv6nOx} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {2yZypBm1P0Geeej3iv6nOx} No material and surface styles for:
 #303093=IfcFlowSegment('2yZypBm1P0Geeej3iv6nOx',#33,'Pipe Types:Waste:612522',$,'Pipe Types:Waste',#302926,#303092,'612522')
-[Warning] [2023-01-31 18:41:35] {1$u7MiY0DDQOUEWYE6GMLn} No material and surface styles for:
+[Warning] [2023-04-11 18:50:10] {1$u7MiY0DDQOUEWYE6GMLn} No material and surface styles for:
 #305494=IfcFlowFitting('1$u7MiY0DDQOUEWYE6GMLn',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:612528',$,'Elbow - Generic',#305493,#305489,'612528')
-[Warning] [2023-01-31 18:41:35] {31$Ea0Wy14ohAZ$7J3UZgS} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {31$Ea0Wy14ohAZ$7J3UZgS} No material and surface styles for:
 #306532=IfcFlowFitting('31$Ea0Wy14ohAZ$7J3UZgS',#33,'M_Tee - Generic:Tee - Generic:Tee - Generic:612647',$,'Tee - Generic',#306531,#306526,'612647')
-[Warning] [2023-01-31 18:41:35] {15Lp1Ca2nEFexULDVEwwSd} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {15Lp1Ca2nEFexULDVEwwSd} No material and surface styles for:
 #306763=IfcFlowSegment('15Lp1Ca2nEFexULDVEwwSd',#33,'Pipe Types:Waste:612648',$,'Pipe Types:Waste',#306578,#306762,'612648')
-[Warning] [2023-01-31 18:41:35] {3iNAWQNdn7O9r5HFShMufP} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {3iNAWQNdn7O9r5HFShMufP} No material and surface styles for:
 #306990=IfcFlowSegment('3iNAWQNdn7O9r5HFShMufP',#33,'Pipe Types:Mechanical Pipe:612977',$,'Pipe Types:Mechanical Pipe',#306805,#306989,'612977')
-[Warning] [2023-01-31 18:41:35] {1QqjG5BwX7Bu1fwK1U8NdF} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {1QqjG5BwX7Bu1fwK1U8NdF} No material and surface styles for:
 #307279=IfcFlowSegment('1QqjG5BwX7Bu1fwK1U8NdF',#33,'Pipe Types:Mechanical Pipe:612986',$,'Pipe Types:Mechanical Pipe',#307088,#307278,'612986')
-[Warning] [2023-01-31 18:41:35] {2g_GQE15DDyQ_rkHyy4$eb} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {2g_GQE15DDyQ_rkHyy4$eb} No material and surface styles for:
 #309737=IfcFlowFitting('2g_GQE15DDyQ_rkHyy4$eb',#33,'M_Elbow - Generic:Elbow - Generic:Elbow - Generic:613017',$,'Elbow - Generic',#309736,#309731,'613017')
-[Warning] [2023-01-31 18:41:35] {30wAmTVov8$h_Num9pR67y} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {30wAmTVov8$h_Num9pR67y} No material and surface styles for:
 #310099=IfcFlowTerminal('30wAmTVov8$h_Num9pR67y',#33,'M_Microwave:760 x 400 x 450mm:760 x 400 x 450mm:615600',$,'760 x 400 x 450mm',#310098,#310092,'615600')
-[Warning] [2023-01-31 18:41:35] {2crQZN_qT6JfzoVwnn5j7r} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {2crQZN_qT6JfzoVwnn5j7r} No material and surface styles for:
 #310291=IfcFlowTerminal('2crQZN_qT6JfzoVwnn5j7r',#33,'M_Fire Alarm Control Panel:400x475:Fire Alarm Panel:617780',$,'400x475',#310290,#310287,'617780')
-[Warning] [2023-01-31 18:41:35] {0LKhur6rD1_voREOiUHLZi} No material and surface styles for:
+[Warning] [2023-04-11 18:50:11] {0LKhur6rD1_voREOiUHLZi} No material and surface styles for:
 #310396=IfcFlowTerminal('0LKhur6rD1_voREOiUHLZi',#33,'M_Telephone Terminal Board:TTB 300x300:TTB1:618690',$,'TTB 300x300',#310395,#310392,'618690')
 
 
@@ -1098,7 +1098,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] XKT size: 909.59 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 8.17
-[convert2xkt] Conversion time: 1.87 s
+[convert2xkt] Conversion time: 1.79 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 926

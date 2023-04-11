@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-extruded-solid.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,8 +17,8 @@ Creating geometry...
 Done creating geometry (1 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:02] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:49:02] {3v1174zor6w9secwnbuYk1} No material and surface styles for:
+[Notice] [2023-04-11 18:59:24] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:59:24] {3v1174zor6w9secwnbuYk1} No material and surface styles for:
 #70=IfcBeamStandardCase('3v1174zor6w9secwnbuYk1',#6,$,$,$,#73,#81,$,$)
 
 
@@ -46,7 +46,7 @@ node ~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeo
 [convert2xkt] XKT size: 2.02 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.73
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

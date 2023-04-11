@@ -3,36 +3,33 @@
 #
 # Converting file: Archicad-Demoprojekt.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
 # ifc2gltf
 
-~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Archicad/Archicad-Demoprojekt.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.json
+~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Archicad/Archicad-Demoprojekt.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.json
 
--- IFC to GLTF converter -- version: 2.6.5 ------------
-Loading file "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/Archicad/Archicad-Demoprojekt.ifc":   
-Converting IFC geometry: faceOnEdge not found in setAllFaces
-faceOnEdge not found in setAllFaces
-faceOnEdge not found in setAllFaces
-faceOnEdge not found in setAllFaces
-
-Exporting to gltf: 
-Coordinates accessors: 5164, reused: 1981
-Indices accessors: 135, reused: 7010
-Exporting meta data: 
-done in 20 seconds
+__ IFC to GLTF converter __ version: 2.7.6 ____________
+Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc"Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 5%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 6%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 7%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 8%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 9%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 10%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 11%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 12%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 13%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 14%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 15%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 16%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 17%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 18%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 19%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 20%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 21%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 22%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 23%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 24%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 30%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 33%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 35%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 38%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 41%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 44%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 47%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 50%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 53%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 56%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 59%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 62%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 65%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 68%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 71%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 75%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 78%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 81%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 84%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 87%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 5%Converting IFC geometry: 8%Converting IFC geometry: 9%Converting IFC geometry: 11%Converting IFC geometry: 13%Converting IFC geometry: 15%Converting IFC geometry: 17%Converting IFC geometry: 19%Converting IFC geometry: 21%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 30%Converting IFC geometry: 33%Converting IFC geometry: 35%Converting IFC geometry: 39%Converting IFC geometry: 42%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 50%Converting IFC geometry: 51%Converting IFC geometry: 53%Converting IFC geometry: 65%Converting IFC geometry: 70%Converting IFC geometry: 74%Converting IFC geometry: 76%Converting IFC geometry: 79%Converting IFC geometry: 88%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 84%Exporting to gltf: 100%
+Accessors: 3923, reused: 6113
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 100%
+Accessors: 814, reused: 958
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 99 seconds, using 32 threads
 
 
 
 # convert2xkt
 
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.xkt -l 
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb.xkt -l 
 [convert2xkt] Running convert2xkt v1.1.7...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 10813.41 kB
+[convert2xkt] Input file size: 7728.62 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -40,20 +37,52 @@ done in 20 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4643.47 kB
+[convert2xkt] XKT size: 5579.90 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.33
-[convert2xkt] Conversion time: 7.14 s
+[convert2xkt] Compression ratio: 1.39
+[convert2xkt] Conversion time: 8.37 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 4578
-[convert2xkt] Converted geometries: 7145
+[convert2xkt] Converted drawable objects: 3820
+[convert2xkt] Converted geometries: 6198
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 232690
-[convert2xkt] Converted vertices: 698070
+[convert2xkt] Converted triangles: 175610
+[convert2xkt] Converted vertices: 526830
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model.glb.xkt
+[convert2xkt] Done.
+
+
+# convert2xkt
+
+~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.glb.xkt -l 
+[convert2xkt] Running convert2xkt v1.1.7...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.glb
+[convert2xkt] Input file size: 2602.19 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 1336.16 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.95
+[convert2xkt] Conversion time: 1.83 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 822
+[convert2xkt] Converted geometries: 1011
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 61349
+[convert2xkt] Converted vertices: 184047
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/model_1.glb.xkt
 [convert2xkt] Done.

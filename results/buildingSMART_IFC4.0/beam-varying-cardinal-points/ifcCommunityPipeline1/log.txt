@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Community IFC Conversion Pipeline Log
 #
-# Tue Jan 31 2023 18:37:17 GMT+0100 (Central European Standard Time)
+# Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
 #
 # Converting file: beam-varying-cardinal-points.ifc
 # Using tools: IfcConvert, xeokit-metadata and convert2xkt
@@ -17,14 +17,14 @@ Creating geometry...
 Done creating geometry (4 objects)                                
 
 Log:
-[Notice] [2023-01-31 18:49:11] exclude entities IfcOpeningElement IfcSpace
-[Warning] [2023-01-31 18:49:11] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
+[Notice] [2023-04-11 18:59:32] exclude entities IfcOpeningElement IfcSpace
+[Warning] [2023-04-11 18:59:32] {06uVDzM0j8rugiazVexGkx} No material and surface styles for:
 #210=IfcBeamStandardCase('06uVDzM0j8rugiazVexGkx',$,'TopMid',$,$,#211,#229,$,$)
-[Warning] [2023-01-31 18:49:11] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
+[Warning] [2023-04-11 18:59:32] {3Cyaczln1DyfCVyfoF1Fyl} No material and surface styles for:
 #230=IfcBeamStandardCase('3Cyaczln1DyfCVyfoF1Fyl',$,'BotMid',$,$,#231,#249,$,$)
-[Warning] [2023-01-31 18:49:11] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
+[Warning] [2023-04-11 18:59:32] {3_uWum$4vBjQ8_adQlTox1} No material and surface styles for:
 #250=IfcBeamStandardCase('3_uWum$4vBjQ8_adQlTox1',$,'BotLeft',$,$,#251,#269,$,$)
-[Warning] [2023-01-31 18:49:11] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
+[Warning] [2023-04-11 18:59:32] {3QKYtgM_1EtekuZgGn_XdM} No material and surface styles for:
 #270=IfcBeamStandardCase('3QKYtgM_1EtekuZgGn_XdM',$,'TopRight',$,$,#271,#289,$,$)
 
 
