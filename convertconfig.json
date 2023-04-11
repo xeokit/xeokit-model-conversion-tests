@@ -3,6 +3,6 @@
     "IfcConvert": "~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert",
     "xeokit-metadata": "xeokit-metadata",
     "convert2xkt": "~/xeolabs/xeokit/xeokit-convert/convert2xkt.js",
-    "ifc2gltf": "~/xeolabs/xeokit/ifc2gltf/2_6_5/ifc2gltfcxconverter-2.6.5/linux/build/Release/ifc2gltfcxconverter"
+    "ifc2gltf": "~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter"
   }
 }
