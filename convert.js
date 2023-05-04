@@ -138,7 +138,8 @@ function addHtmlTableFooter() {
  */
 function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
-    const pipelineName = "CommunityPipeline";
+    // NOTE: The name must match the pipeline name in viewer.html !!!
+    const pipelineName = "ifcCommunityPipeline1";
 
     let startDate = new Date();
 
@@ -225,6 +226,7 @@ function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, con
  */
 function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
+    // NOTE: The name must match the pipeline name in viewer.html !!!
     const pipelineName = "CxConverterPipeline";
 
     let startDate = new Date();
@@ -325,7 +327,8 @@ function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, c
  */
 function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
-    const pipelineName = "MultiFormatPipeline";
+    // NOTE: The name must match the pipeline name in viewer.html !!!
+    const pipelineName = "ifcMultiFormatPipeline1";
 
     let startDate = new Date();
 
