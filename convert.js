@@ -138,14 +138,14 @@ function addHtmlTableFooter() {
  */
 function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
-    // NOTE: The name must match the pipeline name in viewer.html !!!
-    const pipelineName = "ifcCommunityPipeline1";
+    // NOTE: The pipelineId must match the pipelineId in viewer.html !!!
+    const pipelineId = "ifcCommunityPipeline1";
 
     let startDate = new Date();
 
-    console.log(` - Running pipeline: ${pipelineName}`);
+    console.log(`- Running pipeline: ${pipelineId}`);
 
-    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineName}`;
+    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineId}`;
 
     const glbPath = path.join(pipelineResultsPath, `model.glb`);
     const glbPathAbs = `${__dirname}/${glbPath}`;
@@ -166,7 +166,8 @@ function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, con
         metadataFiles: []
     };
 
-    console.log(` - Logging to: ${logPath}`);
+    console.log(`  Logging to:`);
+    console.log(`  ${logPath}`);
 
     fs.mkdirSync(pipelineResultsPath);
     fs.writeFileSync(logPathAbs, `#----------------------------------------------------------------------------
@@ -202,14 +203,14 @@ function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, con
         let endDate = new Date();
         let duration = endDate.getTime() - startDate.getTime();
 
-        console.log(` - Finished pipeline '${pipelineName}' in ${duration} ms`);
+        console.log(`  Finished in ${duration} ms`);
 
     } catch (e) {
         fs.appendFileSync(logPathAbs, `\n\n[Error]: ${e}\n`);
         console.error(e);
     }
 
-    conversionSummary.pipelines[pipelineName] = {
+    conversionSummary.pipelines[pipelineId] = {
         "xktConvertedOK": xktConvertedOK,
         "glbConvertedOK": glbConvertedOK,
         "jsonConvertedOK": jsonConvertedOK,
@@ -226,14 +227,14 @@ function runCommunityPipeline(modelResultsDirPath, inputFile, inputFilePath, con
  */
 function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
-    // NOTE: The name must match the pipeline name in viewer.html !!!
-    const pipelineName = "CxConverterPipeline";
+    // NOTE: The pipelineId must match the pipelineId in viewer.html !!!
+    const pipelineId = "ifcCXConverterPipeline1";
 
     let startDate = new Date();
 
-    console.log(` - Running pipeline: ${pipelineName}`);
+    console.log(`- Running pipeline: ${pipelineId}`);
 
-    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineName}`;
+    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineId}`;
 
     const manifestPath = path.join(pipelineResultsPath, `model.glb.manifest.json`);
 
@@ -254,7 +255,8 @@ function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, c
         metadataFiles: []
     };
 
-    console.log(` - Logging to: ${logPath}`);
+    console.log(`  Logging to:`);
+    console.log(`  ${logPath}`);
 
     fs.mkdirSync(pipelineResultsPath);
     fs.writeFileSync(logPathAbs, `#----------------------------------------------------------------------------
@@ -308,9 +310,9 @@ function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, c
     let endDate = new Date();
     let duration = endDate.getTime() - startDate.getTime();
 
-    console.log(` - Finished pipeline '${pipelineName}' in ${duration} ms`);
+    console.log(`  Finished in ${duration} ms`);
 
-    conversionSummary.pipelines[pipelineName] = {
+    conversionSummary.pipelines[pipelineId] = {
         "xktConvertedOK": xktConvertedOK,
         "glbConvertedOK": glbConvertedOK,
         "jsonConvertedOK": jsonConvertedOK,
@@ -327,14 +329,14 @@ function runCxConverterPipeline(modelResultsDirPath, inputFile, inputFilePath, c
  */
 function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary) {
 
-    // NOTE: The name must match the pipeline name in viewer.html !!!
-    const pipelineName = "ifcMultiFormatPipeline1";
+    // NOTE: The pipelineId must match the pipelineId in viewer.html !!!
+    const pipelineId = "ifcMultiFormatPipeline1";
 
     let startDate = new Date();
 
-    console.log(` - Running pipeline: ${pipelineName}`);
+    console.log(`- Running pipeline: ${pipelineId}`);
 
-    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineName}`;
+    const pipelineResultsPath = `${modelResultsDirPath}/${pipelineId}`;
 
     const xktPath = path.join(pipelineResultsPath, `model.xkt`);
     const xktPathAbs = `${__dirname}/${xktPath}`;
@@ -351,7 +353,8 @@ function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, c
         metadataFiles: []
     };
 
-    console.log(` - Logging to: ${logPath}`);
+    console.log(`  Logging to:`);
+    console.log(`  ${logPath}`);
 
     fs.mkdirSync(pipelineResultsPath);
     fs.writeFileSync(logPathAbs, `#----------------------------------------------------------------------------
@@ -367,6 +370,8 @@ function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, c
     try {
         fs.appendFileSync(logPathAbs, `\n\n# convert2xkt\n\n${tools.convert2xkt} -s ${inputFilePath} -o ${xktPathAbs} -l \n`);
         execSync(`node --max-old-space-size=24000 ${tools.convert2xkt} -s ${inputFilePath} -o ${xktPathAbs} -l >> ${logPathAbs}`, {stdio: 'inherit'});
+
+        xktManifest.xktFiles.push(xktPathAbs.replace(/^.*[\\\/]/, ''));
         xktConvertedOK = true;
     } catch (e) {
         fs.appendFileSync(logPathAbs, `\n\n[Error]: ${e}\n`);
@@ -375,9 +380,9 @@ function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, c
     let endDate = new Date();
     let duration = endDate.getTime() - startDate.getTime();
 
-    console.log(` - Finished pipeline '${pipelineName}' in ${duration} ms`);
+    console.log(`  Finished in ${duration} ms`);
 
-    conversionSummary.pipelines[pipelineName] = {
+    conversionSummary.pipelines[pipelineId] = {
         "xktConvertedOK": xktConvertedOK,
         "glbConvertedOK": glbConvertedOK,
         "jsonConvertedOK": jsonConvertedOK,
@@ -461,7 +466,7 @@ function runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, c
 
                     //-------------------------------------------------------------------------------------------------------------------------------------
 
-                    //runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary);
+                    runMultiFormatPipeline(modelResultsDirPath, inputFile, inputFilePath, conversionSummary);
 
                     //-------------------------------------------------------------------------------------------------------------------------------------
 
