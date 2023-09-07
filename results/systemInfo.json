@@ -1,8 +1,8 @@
 {
-	"version": "5.17.8",
+	"version": "5.21.4",
 	"time": {
-		"current": 1681231439612,
-		"uptime": 2617209.61,
+		"current": 1694087826118,
+		"uptime": 2843194.35,
 		"timezone": "GMT+0200",
 		"timezoneName": "Europe/Berlin"
 	},
@@ -36,29 +36,46 @@
 		}
 	},
 	"mem": {
-		"total": 134860914688,
-		"free": 64732061696,
-		"used": 70128852992,
-		"active": 27831418880,
-		"available": 107029495808,
-		"buffers": 966754304,
-		"cached": 41231708160,
-		"slab": 2868031488,
-		"buffcache": 45066493952,
+		"total": 134848323584,
+		"free": 44558217216,
+		"used": 90290106368,
+		"active": 40864829440,
+		"available": 93983494144,
+		"buffers": 924807168,
+		"cached": 46924382208,
+		"slab": 3953246208,
+		"buffcache": 51802435584,
 		"swaptotal": 2147479552,
-		"swapused": 0,
-		"swapfree": 2147479552
+		"swapused": 152313856,
+		"swapfree": 1995165696,
+		"writeback": 0,
+		"dirty": 13578240
 	},
 	"graphics": {
 		"controllers": [
 			{
 				"vendor": "NVIDIA Corporation",
-				"model": "Device 2507 ",
+				"subVendor": "",
+				"model": "Device 2507",
 				"bus": "Onboard",
 				"busAddress": "2d:00.0",
-				"vram": 32,
+				"vram": 7959,
 				"vramDynamic": false,
-				"pciID": ""
+				"pciID": "",
+				"driverVersion": "470.199.02",
+				"subDeviceId": "0x887C1043",
+				"name": "NVIDIA GeForce RTX 3050",
+				"pciBus": "00000000:2D:00.0",
+				"memoryTotal": 7959,
+				"memoryUsed": 1955,
+				"memoryFree": 6004,
+				"utilizationGpu": 31,
+				"utilizationMemory": 30,
+				"temperatureGpu": 50,
+				"powerDraw": 17.5,
+				"powerLimit": 130,
+				"clockCore": 622,
+				"clockMemory": 810
 			}
 		],
 		"displays": [
@@ -104,7 +121,7 @@
 		"distro": "Ubuntu",
 		"release": "22.04.1 LTS",
 		"codename": "Jammy Jellyfish",
-		"kernel": "5.19.0-35-generic",
+		"kernel": "5.19.0-50-generic",
 		"arch": "x64",
 		"hostname": "mousebear",
 		"fqdn": "mousebear",

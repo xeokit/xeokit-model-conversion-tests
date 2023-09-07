@@ -87,8 +87,6 @@ const configs = JSON.parse(configsData);
                         pipelines: {}
                     };
 
-                    let xktManifest;
-
                     try {
 
                         const inputFileName = path.parse(inputFile).name;
@@ -100,11 +98,6 @@ const configs = JSON.parse(configsData);
                         }
 
                         fs.mkdirSync(modelResultsDirPath);
-                        fs.copyFileSync(inputFilePath, `${modelResultsDirPath}/model.ifc`);
-
-                        //-------------------------------------------------------------------------------------------------------------------------------------
-                        //
-                        //-------------------------------------------------------------------------------------------------------------------------------------
 
                         const community1Path = `${modelResultsDirPath}/ifcCommunityPipeline1`;
                         const glbCommunity1Path = path.join(community1Path, `model.glb`);
@@ -120,45 +113,36 @@ const configs = JSON.parse(configsData);
 
                         console.log("Logging to: " + logCommunity1Path);
 
-                        fs.mkdirSync(community1Path);
-                        fs.writeFileSync(logCommunity1PathAbs, `#----------------------------------------------------------------------------
-# Community IFC Conversion Pipeline Log
-#
-# ${date}
-#
-# Converting file: ${inputFile}
-# Using tools: IfcConvert, xeokit-metadata and convert2xkt
-# More info: 
-#----------------------------------------------------------------------------\n`, {encoding: 'utf8'});
+//                         fs.mkdirSync(community1Path);
+//                         fs.writeFileSync(logCommunity1PathAbs, `#----------------------------------------------------------------------------
+// # Community IFC Conversion Pipeline Log
+// #
+// # ${date}
+// #
+// # Converting file: ${inputFile}
+// # Using tools: IfcConvert, xeokit-metadata and convert2xkt
+// # More info:
+// #----------------------------------------------------------------------------\n`, {encoding: 'utf8'});
 
                         let glbConvertedOK = false;
                         let xktConvertedOK = false;
                         let jsonConvertedOK = false;
 
-                        xktManifest = {
-                            xktFiles: [],
-                            glbFiles: [],
-                            metadataFiles: []
-                        };
-
                         try {
-                            fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress  --force-space-transparency 0.4\n`);
-                            execSync(`${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
-
-                            xktManifest.glbFiles.push(glbCommunity1PathAbs.replace(/^.*[\\\/]/, ''));
-                            glbConvertedOK = true;
-
-                            fs.appendFileSync(logCommunity1PathAbs, `\n\n# xeokit-metadata\n\n${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs}\n`);
-                            execSync(`${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs} >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
-
-                            xktManifest.metadataFiles.push(jsonCommunity1PathAbs.replace(/^.*[\\\/]/, ''));
-                            jsonConvertedOK = true;
-
-                            fs.appendFileSync(logCommunity1PathAbs, `\n\n# convert2xkt\n\nnode ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l\n`);
-                            execSync(`node --max-old-space-size=12000 ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
-
-                            xktManifest.xktFiles.push(xktCommunity1PathAbs.replace(/^.*[\\\/]/, ''));
-                            xktConvertedOK = true;
+                            // fs.appendFileSync(logCommunity1PathAbs, `\n\n# IfcConvert\n\n${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress  --force-space-transparency 0.4\n`);
+                            // execSync(`${configs.paths["IfcConvert"]} ${inputFilePath} ${glbCommunity1PathAbs} --use-element-guids --no-progress --force-space-transparency 0.4 -v >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                            //
+                            // glbConvertedOK = true;
+                            //
+                            // fs.appendFileSync(logCommunity1PathAbs, `\n\n# xeokit-metadata\n\n${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs}\n`);
+                            // execSync(`${configs.paths["xeokit-metadata"]} ${inputFilePath} ${jsonCommunity1PathAbs} >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                            //
+                            // jsonConvertedOK = true;
+                            //
+                            // fs.appendFileSync(logCommunity1PathAbs, `\n\n# convert2xkt\n\nnode ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l\n`);
+                            // execSync(`node --max-old-space-size=12000 ${configs.paths["convert2xkt"]} -s ${glbCommunity1PathAbs} -m ${jsonCommunity1PathAbs} -o ${xktCommunity1PathAbs} -l >> ${logCommunity1PathAbs}`, {stdio: 'inherit'});
+                            //
+                            // xktConvertedOK = true;
 
                         } catch (e) {
                             fs.appendFileSync(logCommunity1PathAbs, `\n\n[Error]: ${e}\n`);
@@ -167,25 +151,20 @@ const configs = JSON.parse(configsData);
                         conversionSummary.pipelines["ifcCommunityPipeline1"] = {
                             "xktConvertedOK": xktConvertedOK,
                             "glbConvertedOK": glbConvertedOK,
-                            "jsonConvertedOK": jsonConvertedOK,
-                            "xktManifest": xktManifest
+                            "jsonConvertedOK": jsonConvertedOK
                         };
 
-                        //-------------------------------------------------------------------------------------------------------------------------------------
-                        //
-                        //-------------------------------------------------------------------------------------------------------------------------------------
-
                         const enterprise1DirPath = `${modelResultsDirPath}/ifcCXConverterPipeline1`;
-                        const manifestEnterprise1Path = path.join(enterprise1DirPath, `model.glb.manifest.json`);
-                        //
                         const glbEnterprise1Path = path.join(enterprise1DirPath, `model.glb`);
                         const glbEnterprise1PathAbs = `${__dirname}/${glbEnterprise1Path}`;
                         const jsonEnterprise1Path = path.join(enterprise1DirPath, `model.json`);
                         const jsonEnterprise1PathAbs = `${__dirname}/${jsonEnterprise1Path}`;
-                        // const xktEnterprise1Path = path.join(enterprise1DirPath, `model.xkt`);
-                        // const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
+                        const xktEnterprise1Path = path.join(enterprise1DirPath, `model.xkt`);
+                        const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
                         const logEnterprise1Path = path.join(enterprise1DirPath, `log.txt`);
                         const logEnterprise1PathAbs = `${__dirname}/${logEnterprise1Path}`;
+                        const jsonManifestPath = path.join(enterprise1DirPath, `model.glb.manifest.json`);
+                        const xktManifestPath = path.join(enterprise1DirPath, `model.xkt.manifest.json`);
 
                         console.log("Logging to: " + logEnterprise1Path);
 
@@ -202,63 +181,89 @@ const configs = JSON.parse(configsData);
                         xktConvertedOK = false;
                         jsonConvertedOK = false;
 
-
                         try {
-                            fs.appendFileSync(logEnterprise1PathAbs, `\n\n# ifc2gltf\n\n${configs.paths["ifc2gltf"]} -s 5 -i ${inputFilePath} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs}\n`);
-                            execSync(`${configs.paths["ifc2gltf"]} -s 5 -i ${inputFilePath} -o ${glbEnterprise1PathAbs} -m ${jsonEnterprise1PathAbs} >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
+
+                            /*
+                             *  ifc2x -i: [path to .ifc]
+                             *  -o: [output file path] Possible file types: gltf/glb/html
+                             *  -m: [metadata file path]
+                             *  -s: maximum gltf file size in megabyte. Once the size is reached, all following objects will be written into the next file, with _1, _2 etc. appended to the file name.
+                             *  -e: [1/2/3]  1 (default): embed buffers into gltf file up to a file size of 32 MByte, separate .bin files otherwise. 2: always embed buffers. 3: never embed buffers
+                             *  -t: tile size in [m]. -1 to turn off splitting geometry into tiles
+                             *  -v: print version number
+                             *  -h: print help/usage
+                             */
+
+                            const ifc2gltfCmd = `${configs.paths["ifc2gltf"]} ` +
+                                `-i ${inputFilePath} ` +
+                                `-o ${glbEnterprise1PathAbs} ` +
+                                `-m ${jsonEnterprise1PathAbs} ` +
+                                `-s 10 ` +
+                                `-e 3 >> ${logEnterprise1PathAbs}`;
+
+                            fs.appendFileSync(logEnterprise1PathAbs, `\n\n# ${ifc2gltfCmd}\n`);
+
+                            execSync(ifc2gltfCmd, {stdio: 'inherit'});
+
                             glbConvertedOK = true;
+
+                            const cmd1 = `node --max-old-space-size=24000`+
+                                ` ${configs.paths["convert2xkt"]} -t `+
+                                `-n `+
+                                `-a ${jsonManifestPath} `+
+                                `-o ${xktManifestPath} `+
+                                `-l >> ${logEnterprise1PathAbs}`
+
+                            execSync(cmd1, {stdio: 'inherit'});
+
+                            fs.appendFileSync(logEnterprise1PathAbs, cmd1 + "\n")
+                            //
+                            // let manifestData = fs.readFileSync(jsonManifestPath);
+                            //
+                            // let manifest = JSON.parse(manifestData);
+                            // const xktManifest = {
+                            //     xktFiles: []
+                            // };
+                            //
+                            // for (let i = 0, len = manifest.gltfOutFiles.length; i < len; i++) {
+                            //
+                            //     const gltfFilePath = manifest.gltfOutFiles[i];
+                            //     const jsonFilePath = manifest.metadataOutFiles[i];
+                            //     const xktEnterprisePath = path.join(enterprise1DirPath, `model${i}.xkt`);
+                            //     const xktEnterprisePathAbs = `${__dirname}/${xktEnterprisePath}`;
+                            //
+                            //     const cmd = `node ` +
+                            //         `--max-old-space-size=24000 ${configs.paths["convert2xkt"]} ` +
+                            //         `-s ${gltfFilePath} ` +
+                            //         `-m ${jsonFilePath} ` +
+                            //         `-o ${xktEnterprisePathAbs} ` +
+                            //         `-l >> ${logEnterprise1PathAbs}`
+                            //
+                            //     execSync(cmd, {stdio: 'inherit'});
+                            //
+                            //     fs.appendFileSync(logEnterprise1PathAbs, cmd + "\n");
+                            //
+                            //     xktManifest.xktFiles.push(`model${i}.xkt`);
+                            // }
+
+                            xktConvertedOK = true;
+                            jsonConvertedOK = true;
+
+                         //   fs.writeFileSync(xktManifestPath, JSON.stringify(xktManifest));
+
                         } catch (e) {
                             fs.appendFileSync(logEnterprise1PathAbs, `\n\n[Error]: ${e}\n`);
-                        }
-
-                        try {
-                            const manifest = JSON.parse(fs.readFileSync(manifestEnterprise1Path));
-                            const gltfOutFiles = manifest.gltfOutFiles || [];
-                            const metadataOutFiles = manifest.metadataOutFiles || [];
-
-                            xktManifest = {
-                                xktFiles: [],
-                                glbFiles: [],
-                                metadataFiles: []
-                            };
-
-                            for (let i = 0, len = gltfOutFiles.length; i < len; i++) {
-
-                                const gltfFilePath = gltfOutFiles[i]; // Absolute
-                                const metadataFilePath = metadataOutFiles[i]; // Absolute
-                                const xktFilePath = gltfFilePath + ".xkt";
-
-                                xktManifest.glbFiles.push(gltfFilePath.replace(/^.*[\\\/]/, ''));
-                                xktManifest.metadataFiles.push(metadataFilePath.replace(/^.*[\\\/]/, ''));
-                                xktManifest.xktFiles.push(xktFilePath.replace(/^.*[\\\/]/, ''));
-
-                                try {
-                                    fs.appendFileSync(logEnterprise1PathAbs, `\n\n# convert2xkt\n\n${configs.paths["convert2xkt"]} -s ${gltfFilePath} -m ${metadataFilePath} -o ${xktFilePath} -l \n`);
-                                    execSync(`node --max-old-space-size=24000 ${configs.paths["convert2xkt"]} -s ${gltfFilePath} -m ${metadataFilePath} -o ${xktFilePath} -l >> ${logEnterprise1PathAbs}`, {stdio: 'inherit'});
-                                    xktConvertedOK = true;
-                                    jsonConvertedOK = true;
-                                } catch (e) {
-                                    fs.appendFileSync(logEnterprise1PathAbs, `\n\n[Error]: ${e}\n`);
-                                }
-                            }
-
-                        } catch (e) {
-                            log(`Error parsing manifest JSON: ${e}`);
-                            return;
                         }
 
                         conversionSummary.pipelines["ifcCXConverterPipeline1"] = {
                             "xktConvertedOK": xktConvertedOK,
                             "glbConvertedOK": glbConvertedOK,
-                            "jsonConvertedOK": jsonConvertedOK,
-                            "xktManifest": xktManifest
+                            "jsonConvertedOK": jsonConvertedOK
                         };
-
 
                         conversionResultsHTML.push(`@@include('../_includes/modelConversionResults.html', { "batchId": "${inputBatchDir}", "modelId": "${inputFileName}" })`);
 
                         fs.writeFileSync(`${modelResultsDirPath}/summary.json`, JSON.stringify(conversionSummary));
-
                     } catch (e) {
                         console.error("[Error]", e);
                     }
@@ -278,4 +283,4 @@ const configs = JSON.parse(configsData);
         console.error("[Error] ", e);
     }
 
-})(); 
+})();

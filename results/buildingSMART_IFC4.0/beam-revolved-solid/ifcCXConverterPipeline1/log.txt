@@ -3,52 +3,48 @@
 #
 # Converting file: beam-revolved-solid.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
+# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
-# ifc2gltf
+# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/log.txt
 
-~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.json
-
-__ IFC to GLTF converter __ version: 2.7.6 ____________
+__ IFC to GLTF converter __ version: 2.8.6 ____________
 Loading file "/home/lindsay/xe...-revolved-solid.ifc"Loading file "/home/lindsay/xe...-revolved-solid.ifc": 5%Loading file "/home/lindsay/xe...-revolved-solid.ifc": 30%Loading file "/home/lindsay/xe...-revolved-solid.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
-Accessors: 2, reused: 0
+Accessors: 3, reused: 0
 Exporting meta dataExporting meta data: 100%
 done in 1 seconds, using 32 threads
 
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 22.56 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.json
+[convert2xkt] Running convert2xkt v1.1.10...
+[convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb.manifest.json...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb
+[convert2xkt] Input file size: 23.14 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3.79 kB
+[convert2xkt] XKT size: 3.82 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.95
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Compression ratio: 6.06
+[convert2xkt] Conversion time: 0.06 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
-[convert2xkt] Converted geometries: 1
+[convert2xkt] Converted geometries: 2
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 444
-[convert2xkt] Converted vertices: 1332
+[convert2xkt] Converted vertices: 1337
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb.xkt
+[convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.
+node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-revolved-solid/ifcCXConverterPipeline1/log.txt

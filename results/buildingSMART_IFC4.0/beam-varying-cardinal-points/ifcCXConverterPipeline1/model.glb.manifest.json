@@ -1,12 +1,12 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.7.6",
-    "conversionDate": "2023-04-11 18:59:33",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-09-07 14:15:14",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-varying-cardinal-points/ifcCXConverterPipeline1/model.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-varying-cardinal-points/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/beam-varying-cardinal-points/ifcCXConverterPipeline1/model.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-varying-cardinal-points/ifcCXConverterPipeline1/model.json"
     ]
 }

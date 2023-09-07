@@ -1,12 +1,12 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.7.6",
-    "conversionDate": "2023-04-11 18:48:06",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-09-07 14:01:00",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/model.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/model.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/model.json"
     ]
 }

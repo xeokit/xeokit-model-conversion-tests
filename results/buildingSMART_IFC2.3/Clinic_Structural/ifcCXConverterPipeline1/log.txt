@@ -3,52 +3,48 @@
 #
 # Converting file: Clinic_Structural.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
+# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
-# ifc2gltf
+# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Structural.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/log.txt
 
-~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC2.3/Clinic_Structural.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.json
-
-__ IFC to GLTF converter __ version: 2.7.6 ____________
-Loading file "/home/lindsay/xe...inic_Structural.ifc"Loading file "/home/lindsay/xe...inic_Structural.ifc": 5%Loading file "/home/lindsay/xe...inic_Structural.ifc": 6%Loading file "/home/lindsay/xe...inic_Structural.ifc": 7%Loading file "/home/lindsay/xe...inic_Structural.ifc": 8%Loading file "/home/lindsay/xe...inic_Structural.ifc": 9%Loading file "/home/lindsay/xe...inic_Structural.ifc": 10%Loading file "/home/lindsay/xe...inic_Structural.ifc": 11%Loading file "/home/lindsay/xe...inic_Structural.ifc": 12%Loading file "/home/lindsay/xe...inic_Structural.ifc": 13%Loading file "/home/lindsay/xe...inic_Structural.ifc": 14%Loading file "/home/lindsay/xe...inic_Structural.ifc": 15%Loading file "/home/lindsay/xe...inic_Structural.ifc": 16%Loading file "/home/lindsay/xe...inic_Structural.ifc": 17%Loading file "/home/lindsay/xe...inic_Structural.ifc": 18%Loading file "/home/lindsay/xe...inic_Structural.ifc": 19%Loading file "/home/lindsay/xe...inic_Structural.ifc": 20%Loading file "/home/lindsay/xe...inic_Structural.ifc": 21%Loading file "/home/lindsay/xe...inic_Structural.ifc": 22%Loading file "/home/lindsay/xe...inic_Structural.ifc": 23%Loading file "/home/lindsay/xe...inic_Structural.ifc": 24%Loading file "/home/lindsay/xe...inic_Structural.ifc": 30%Loading file "/home/lindsay/xe...inic_Structural.ifc": 33%Loading file "/home/lindsay/xe...inic_Structural.ifc": 37%Loading file "/home/lindsay/xe...inic_Structural.ifc": 40%Loading file "/home/lindsay/xe...inic_Structural.ifc": 44%Loading file "/home/lindsay/xe...inic_Structural.ifc": 47%Loading file "/home/lindsay/xe...inic_Structural.ifc": 50%Loading file "/home/lindsay/xe...inic_Structural.ifc": 52%Loading file "/home/lindsay/xe...inic_Structural.ifc": 55%Loading file "/home/lindsay/xe...inic_Structural.ifc": 58%Loading file "/home/lindsay/xe...inic_Structural.ifc": 61%Loading file "/home/lindsay/xe...inic_Structural.ifc": 64%Loading file "/home/lindsay/xe...inic_Structural.ifc": 67%Loading file "/home/lindsay/xe...inic_Structural.ifc": 70%Loading file "/home/lindsay/xe...inic_Structural.ifc": 73%Loading file "/home/lindsay/xe...inic_Structural.ifc": 76%Loading file "/home/lindsay/xe...inic_Structural.ifc": 79%Loading file "/home/lindsay/xe...inic_Structural.ifc": 82%Loading file "/home/lindsay/xe...inic_Structural.ifc": 86%Loading file "/home/lindsay/xe...inic_Structural.ifc": 89%Loading file "/home/lindsay/xe...inic_Structural.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 3%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 30%Converting IFC geometry: 35%Converting IFC geometry: 54%Converting IFC geometry: 64%Converting IFC geometry: 66%Converting IFC geometry: 83%Converting IFC geometry: 86%Converting IFC geometry: 100%
+__ IFC to GLTF converter __ version: 2.8.6 ____________
+Loading file "/home/lindsay/xe...inic_Structural.ifc"Loading file "/home/lindsay/xe...inic_Structural.ifc": 5%Loading file "/home/lindsay/xe...inic_Structural.ifc": 6%Loading file "/home/lindsay/xe...inic_Structural.ifc": 7%Loading file "/home/lindsay/xe...inic_Structural.ifc": 8%Loading file "/home/lindsay/xe...inic_Structural.ifc": 9%Loading file "/home/lindsay/xe...inic_Structural.ifc": 10%Loading file "/home/lindsay/xe...inic_Structural.ifc": 11%Loading file "/home/lindsay/xe...inic_Structural.ifc": 12%Loading file "/home/lindsay/xe...inic_Structural.ifc": 13%Loading file "/home/lindsay/xe...inic_Structural.ifc": 14%Loading file "/home/lindsay/xe...inic_Structural.ifc": 15%Loading file "/home/lindsay/xe...inic_Structural.ifc": 16%Loading file "/home/lindsay/xe...inic_Structural.ifc": 17%Loading file "/home/lindsay/xe...inic_Structural.ifc": 18%Loading file "/home/lindsay/xe...inic_Structural.ifc": 19%Loading file "/home/lindsay/xe...inic_Structural.ifc": 20%Loading file "/home/lindsay/xe...inic_Structural.ifc": 21%Loading file "/home/lindsay/xe...inic_Structural.ifc": 22%Loading file "/home/lindsay/xe...inic_Structural.ifc": 23%Loading file "/home/lindsay/xe...inic_Structural.ifc": 24%Loading file "/home/lindsay/xe...inic_Structural.ifc": 30%Loading file "/home/lindsay/xe...inic_Structural.ifc": 33%Loading file "/home/lindsay/xe...inic_Structural.ifc": 36%Loading file "/home/lindsay/xe...inic_Structural.ifc": 38%Loading file "/home/lindsay/xe...inic_Structural.ifc": 42%Loading file "/home/lindsay/xe...inic_Structural.ifc": 45%Loading file "/home/lindsay/xe...inic_Structural.ifc": 48%Loading file "/home/lindsay/xe...inic_Structural.ifc": 51%Loading file "/home/lindsay/xe...inic_Structural.ifc": 54%Loading file "/home/lindsay/xe...inic_Structural.ifc": 57%Loading file "/home/lindsay/xe...inic_Structural.ifc": 60%Loading file "/home/lindsay/xe...inic_Structural.ifc": 63%Loading file "/home/lindsay/xe...inic_Structural.ifc": 65%Loading file "/home/lindsay/xe...inic_Structural.ifc": 68%Loading file "/home/lindsay/xe...inic_Structural.ifc": 72%Loading file "/home/lindsay/xe...inic_Structural.ifc": 75%Loading file "/home/lindsay/xe...inic_Structural.ifc": 78%Loading file "/home/lindsay/xe...inic_Structural.ifc": 82%Loading file "/home/lindsay/xe...inic_Structural.ifc": 85%Loading file "/home/lindsay/xe...inic_Structural.ifc": 88%Loading file "/home/lindsay/xe...inic_Structural.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 28%Converting IFC geometry: 31%Converting IFC geometry: 36%Converting IFC geometry: 54%Converting IFC geometry: 64%Converting IFC geometry: 66%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 87%Exporting to gltf: 89%Exporting to gltf: 90%Exporting to gltf: 92%Exporting to gltf: 100%
-Accessors: 406, reused: 1048
+Accessors: 1180, reused: 1048
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 1011 seconds, using 32 threads
+done in 39 seconds, using 32 threads
 
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 2019.63 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.json
+[convert2xkt] Running convert2xkt v1.1.10...
+[convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb.manifest.json...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb
+[convert2xkt] Input file size: 2387.50 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1137.52 kB
+[convert2xkt] XKT size: 1144.69 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.78
-[convert2xkt] Conversion time: 2.45 s
+[convert2xkt] Compression ratio: 2.09
+[convert2xkt] Conversion time: 3.45 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1078
-[convert2xkt] Converted geometries: 1078
+[convert2xkt] Converted geometries: 1852
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 343379
-[convert2xkt] Converted vertices: 1030137
+[convert2xkt] Converted triangles: 343273
+[convert2xkt] Converted vertices: 1031367
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb.xkt
+[convert2xkt] Writing XKT file: results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.
+node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/log.txt

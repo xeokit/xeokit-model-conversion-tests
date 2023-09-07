@@ -3,154 +3,76 @@
 #
 # Converting file: Clinic_Plumbing.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Apr 11 2023 18:43:59 GMT+0200 (Central European Summer Time)
+# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
 
-# ifc2gltf
+# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/log.txt
 
-~/xeolabs/xeokit/ifc2gltf/mar-24-2023/linux/build/Release/ifc2gltfcxconverter -s 5 -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json
-
-__ IFC to GLTF converter __ version: 2.7.6 ____________
-Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc"Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 6%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 7%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 8%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 9%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 10%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 11%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 12%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 13%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 14%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 15%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 16%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 17%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 18%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 19%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 20%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 21%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 22%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 23%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 24%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 33%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 39%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 41%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 44%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 48%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 51%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 54%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 57%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 60%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 63%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 66%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 69%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 72%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 75%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 78%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 81%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 84%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 87%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 4%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 14%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 68%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 82%Converting IFC geometry: 84%Converting IFC geometry: 86%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 100%
-Accessors: 1079, reused: 3693
-Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 100%
-Accessors: 1641, reused: 4023
-Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 100%
-Accessors: 423, reused: 845
+__ IFC to GLTF converter __ version: 2.8.6 ____________
+Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc"Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 6%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 7%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 8%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 9%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 10%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 11%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 12%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 13%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 14%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 15%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 16%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 17%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 18%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 19%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 20%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 21%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 22%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 23%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 24%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 33%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 39%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 42%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 45%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 48%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 51%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 54%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 57%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 60%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 63%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 66%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 69%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 72%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 75%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 78%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 81%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 87%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 89%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 13%Converting IFC geometry: 14%Converting IFC geometry: 17%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 82%Converting IFC geometry: 84%Converting IFC geometry: 86%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 100%
+Accessors: 2584, reused: 7780
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 100%
-Accessors: 930, reused: 1415
+Accessors: 1333, reused: 2269
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 854 seconds, using 32 threads
+done in 222 seconds, using 32 threads
 
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 6104.56 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json
+[convert2xkt] Running convert2xkt v1.1.10...
+[convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb.manifest.json...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb
+[convert2xkt] Input file size: 12565.34 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4368.53 kB
+[convert2xkt] XKT size: 8623.45 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.40
-[convert2xkt] Conversion time: 6.58 s
+[convert2xkt] Compression ratio: 1.46
+[convert2xkt] Conversion time: 13.77 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2248
-[convert2xkt] Converted geometries: 3777
+[convert2xkt] Converted drawable objects: 4910
+[convert2xkt] Converted geometries: 7930
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 825139
-[convert2xkt] Converted vertices: 2475417
+[convert2xkt] Converted triangles: 1556452
+[convert2xkt] Converted vertices: 4669692
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb.xkt
-[convert2xkt] Done.
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb
-[convert2xkt] Input file size: 6217.33 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.json
+[convert2xkt] Writing XKT file: results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 2)
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb
+[convert2xkt] Input file size: 7440.82 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
 [convert2xkt] Parsing textures: enabled
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4307.43 kB
+[convert2xkt] XKT size: 12883.50 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.44
-[convert2xkt] Conversion time: 6.00 s
+[convert2xkt] Compression ratio: 0.58
+[convert2xkt] Conversion time: 15.65 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2653
-[convert2xkt] Converted geometries: 4097
+[convert2xkt] Converted drawable objects: 1677
+[convert2xkt] Converted geometries: 2355
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 694063
-[convert2xkt] Converted vertices: 2082189
+[convert2xkt] Converted triangles: 1656481
+[convert2xkt] Converted vertices: 4969579
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb.xkt
+[convert2xkt] Writing XKT file: results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 2)
 [convert2xkt] Done.
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.glb
-[convert2xkt] Input file size: 5494.67 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 8248.16 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 0.67
-[convert2xkt] Conversion time: 8.79 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 600
-[convert2xkt] Converted geometries: 876
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1011144
-[convert2xkt] Converted vertices: 3033432
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_2.glb.xkt
-[convert2xkt] Done.
-
-
-# convert2xkt
-
-~/xeolabs/xeokit/xeokit-convert/convert2xkt.js -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.json -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.glb.xkt -l 
-[convert2xkt] Running convert2xkt v1.1.7...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.glb
-[convert2xkt] Input file size: 5347.75 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 5887.46 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 6.62 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1086
-[convert2xkt] Converted geometries: 1455
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 682575
-[convert2xkt] Converted vertices: 2047725
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_3.glb.xkt
-[convert2xkt] Done.
+node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/log.txt

@@ -1,14 +1,12 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC2.3/Clinic_HVAC.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_HVAC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.7.6",
-    "conversionDate": "2023-04-11 18:54:54",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-09-07 14:13:46",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model_1.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model_1.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model.json"
     ]
 }

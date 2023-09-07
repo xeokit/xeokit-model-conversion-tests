@@ -1,12 +1,12 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/IfcOpenShell/IfcOpenHouse2x3.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/IfcOpenShell/IfcOpenHouse2x3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.7.6",
-    "conversionDate": "2023-04-11 18:51:21",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-09-07 14:01:35",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse2x3/ifcCXConverterPipeline1/model.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/IfcOpenShell/IfcOpenHouse2x3/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/IfcOpenShell/IfcOpenHouse2x3/ifcCXConverterPipeline1/model.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/IfcOpenShell/IfcOpenHouse2x3/ifcCXConverterPipeline1/model.json"
     ]
 }

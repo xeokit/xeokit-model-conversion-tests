@@ -1,12 +1,12 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/inputFiles/buildingSMART_IFC4.0/grid-placement.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/grid-placement.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.7.6",
-    "conversionDate": "2023-04-11 18:59:52",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-09-07 14:15:23",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/grid-placement/ifcCXConverterPipeline1/model.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/grid-placement/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan/results/buildingSMART_IFC4.0/grid-placement/ifcCXConverterPipeline1/model.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/grid-placement/ifcCXConverterPipeline1/model.json"
     ]
 }

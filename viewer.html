@@ -119,46 +119,20 @@
     <tr>
         <th scope="col" class="align-middle pl-3">Conversion Pipeline</th>
         <th scope="col" class="align-middle pl-2">View Files</th>
-        <th scope="col" class="align-middle pl-2">Download Files</th>
         <th scope="col" class="align-middle pl-2">Conversion Logs</th>
     </tr>
     </thead>
     <tbody>
-    <!-- IfcCommunityPipeline1 -->
-    <tr>
-        <td class="align-middle pl-3">
-            <a href="index.html#ifcCommunityPipeline1"><p>Community IFC Conversion Pipeline #1</p></a>
-        </td>
-        <td class="align-middle pl-2">
-            <a href="javascript:loadXKT('ifcCommunityPipeline1');"><button id="load_ifcCommunityPipeline1_xkt" type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
-              <a href="javascript:loadGLB('ifcCommunityPipeline1');"><button id="load_ifcCommunityPipeline1_glb"  type="button" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
-            <a href="javascript:loadGLBAndJSON('ifcCommunityPipeline1');"><button id="load_ifcCommunityPipeline1_glb_and_json" type="button" class="btn btn-secondary btn-sm btn-success">GLB + JSON</button></a>
-        </td>
-        <td class="align-middle pl-2">
-            <a href="./results/${batchId}/${modelId}/ifcCommunityPipeline1/model.xkt"><button id="download_ifcCommunityPipeline1_xkt" type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
-            <a href="./results/${batchId}/${modelId}/model.ifc"><button  id="download_ifcCommunityPipeline1_ifc" type="button" class="btn btn-secondary btn-sm btn-success">IFC</button></a>
-            <a href="./results/${batchId}/${modelId}/ifcCommunityPipeline1/model.glb"><button id="download_ifcCommunityPipeline1_glb" type="button" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
-            <a href="./results/${batchId}/${modelId}/ifcCommunityPipeline1/model.json"><button id="download_ifcCommunityPipeline1_json" type="button" class="btn btn-secondary btn-sm btn-success">JSON</button></a>
-        </td>
-        <td class="align-middle pl-2">
-            <a href="./results/${batchId}/${modelId}/ifcCommunityPipeline1/log.txt"><button type="button" class="btn btn-secondary btn-sm btn-success">Log</button></a>
-        </td>
-    </tr>
-    <!-- CxConverter IFC Conversion Pipeline -->
+
     <tr>
         <td class="align-middle pl-3">
             <a href="index.html#ifcCXConverterPipeline1"><p>CxConverter IFC Conversion Pipeline</p></a>
         </td>
         <td class="align-middle pl-2">
-            <a href="javascript:loadXKT('ifcCXConverterPipeline1');"><button id="load_ifcCXConverterPipeline1_xkt" type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
-           <a href="javascript:loadGLB('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
-            <a href="javascript:loadGLBAndJSON('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb_and_json" class="btn btn-secondary btn-sm btn-success">GLB + JSON</button></a>
-        </td>
-        <td class="align-middle pl-2">
-            <a href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/model.xkt"><button  id="download_ifcCXConverterPipeline1_xkt"  type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
-            <a href="./results/${batchId}/${modelId}/model.ifc"><button id="download_ifcCXConverterPipeline1_ifc"  type="button" class="btn btn-secondary btn-sm btn-success">IFC</button></a>
-            <a href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/model.glb"><button  id="download_ifcCXConverterPipeline1_glb" type="button" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
-            <a href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/model.json"><button  id="download_ifcCXConverterPipeline1_json" type="button" class="btn btn-secondary btn-sm btn-success">JSON</button></a>
+            <a href="javascript:loadSplitXKT('ifcCXConverterPipeline1');"><button id="load_ifcCXConverterPipeline1_xkt" type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
+            <a href="javascript:loadManifestXKT('ifcCXConverterPipeline1');"><button id="load_ifcCXConverterPipeline1_xktManifest" type="button" class="btn btn-secondary btn-sm btn-success">XKT Manifest</button></a>
+           <a href="javascript:loadSplitGLB('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
+            <a href="javascript:loadSplitGLBAndJSON('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb_and_json" class="btn btn-secondary btn-sm btn-success">GLB + JSON</button></a>
         </td>
         <td class="align-middle pl-2">
           <a href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt"><button type="button" class="btn btn-secondary btn-sm btn-success">Log</button></a>
@@ -170,7 +144,7 @@
 
     import {createViewer} from "./lib/viewer.js";
 
-    const {viewer, gltfLoader, cityJSONLoader, xktLoader} = createViewer({
+    const {viewer, gltfLoader,  xktLoader} = createViewer({
         canvasId: "viewerCanvas",
         navCubeCanvasId: "navCubeCanvas",
         treeViewContainerId: "treeViewContainer"
@@ -240,6 +214,56 @@
         }
     }
 
+    window.loadSplitXKT = function (pipelineId) {
+        setButtonDown(`load_${pipelineId}_xkt`);
+        cancelModelLoad();
+        viewer.scene.once("tick", () => {
+
+            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`)
+                .then(res => res.json())
+                .then((manifest) => {
+
+                    let xktFiles = manifest.xktFiles;
+
+                    function loadNext() {
+                        if (xktFiles.length === 0) {
+                            viewer.camera.eye = [0, 0, 1];
+                            viewer.camera.look = [0, 0, 0];
+                            viewer.camera.up = [0, 1, 0];
+                            viewer.cameraFlight.jumpTo(viewer.scene);
+                        } else {
+                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${xktFiles.pop()}`;
+                            const model = xktLoader.load({id: 'myModel' + xktFiles.length, src});
+                            model.on("loaded", () => {
+                                loadNext();
+                            });
+                        }
+                    }
+
+                    loadNext();
+                });
+
+
+        });
+    }
+
+    window.loadManifestXKT = function (pipelineId) {
+        setButtonDown(`load_${pipelineId}_xktManifest`);
+        cancelModelLoad();
+        const sceneModel = xktLoader.load({
+            manifestSrc: `./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`,
+            id: "myModel",
+            edges: true,
+            saoEnabled: true
+        });
+        sceneModel.on("loaded", () =>{
+            viewer.camera.eye = [0, 0, 1];
+            viewer.camera.look = [0, 0, 0];
+            viewer.camera.up = [0, 1, 0];
+            viewer.cameraFlight.jumpTo(viewer.scene);
+        });
+    }
+
     window.loadXKT = function (pipelineId) {
 
         setButtonDown(`load_${pipelineId}_xkt`);
@@ -271,6 +295,38 @@
         loadNext();
 
         alignCameraOnModelLoad(true);
+    }
+
+    window.loadSplitGLB = function (pipelineId) {
+        setButtonDown(`load_${pipelineId}_glb`);
+        cancelModelLoad();
+        viewer.scene.once("tick", () => {
+
+            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
+                .then(res => res.json())
+                .then((manifest) => {
+
+                    let glbFiles = manifest.gltfOutFiles;
+
+                    function loadNext() {
+                        if (glbFiles.length === 0) {
+                            viewer.camera.eye = [0, 0, 1];
+                            viewer.camera.look = [0, 0, 0];
+                            viewer.camera.up = [0, 1, 0];
+                            viewer.cameraFlight.jumpTo(viewer.scene);
+                        } else {
+                            const glbFileName = getFileNameFromPath(glbFiles.pop());
+                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
+                            const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src});
+                            model.on("loaded", () => {
+                                loadNext();
+                            });
+                        }
+                    }
+
+                    loadNext();
+                });
+        });
     }
 
     window.loadGLB = function (pipelineId) {
@@ -305,6 +361,50 @@
         loadNext();
 
         alignCameraOnModelLoad(true);
+    }
+
+    window.loadSplitGLBAndJSON = function (pipelineId) {
+        setButtonDown(`load_${pipelineId}_glb`);
+        cancelModelLoad();
+        viewer.scene.once("tick", () => {
+
+            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
+                .then(res => res.json())
+                .then((manifest) => {
+
+                    let glbFiles = manifest.gltfOutFiles;
+                    let jsonFiles = manifest.metadataOutFiles;
+
+                    function loadNext() {
+                        if (glbFiles.length === 0) {
+                            viewer.camera.eye = [0, 0, 1];
+                            viewer.camera.look = [0, 0, 0];
+                            viewer.camera.up = [0, 1, 0];
+                            viewer.cameraFlight.jumpTo(viewer.scene);
+                        } else {
+                            const glbFileName = getFileNameFromPath(glbFiles.pop());
+                            const jsonFileName = getFileNameFromPath(jsonFiles.pop());
+                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
+                            const metaModelSrc = `./results/${batchId}/${modelId}/${pipelineId}/${jsonFileName}`;
+                            const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src, metaModelSrc});
+                            model.on("loaded", () => {
+                                loadNext();
+                            });
+                        }
+                    }
+
+                    loadNext();
+                });
+
+
+        });
+    }
+
+
+    function getFileNameFromPath(filePath) {
+        const segments = filePath.split('/');
+        const fileName = segments[segments.length - 1];
+        return fileName;
     }
 
     window.loadGLBAndJSON = function (pipelineId) {
@@ -357,6 +457,7 @@
                 const jsonOK = !!pipeline.jsonConvertedOK;
 
                 setButtonEnabled(`load_${pipelineId}_xkt`, xktOK);
+                setButtonEnabled(`load_${pipelineId}_xktManifest`, xktOK);
                 setButtonEnabled(`load_${pipelineId}_glb`, glbOK);
                 setButtonEnabled(`load_${pipelineId}_glb_and_json`, glbOK && jsonOK);
             }
