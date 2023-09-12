@@ -87,6 +87,12 @@
     </div>
     <div class="row no-gutters">
         <div class="col-3 pl-2">
+            <div class="input-group mb-3">
+                <input type="text" id="isolateInput" class="form-control" placeholder="Isolate...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="isolateButton">Isolate object</button>
+                </div>
+            </div>
             <h5 class="pt-2 pl-2" id="infoArea">IFC Types:</h5>
             <div id="treeViewContainer"></div>
         </div>
@@ -139,12 +145,13 @@
         </td>
     </tr>
       </tbody>
-</table>`;
+</table>
+`;
 
 
-    import {createViewer} from "./lib/viewer.js";
+    import {createViewer, isolateObject} from "./lib/viewer.js";
 
-    const {viewer, gltfLoader,  xktLoader} = createViewer({
+    const {viewer, gltfLoader, xktLoader} = createViewer({
         canvasId: "viewerCanvas",
         navCubeCanvasId: "navCubeCanvas",
         treeViewContainerId: "treeViewContainer"
@@ -256,7 +263,7 @@
             edges: true,
             saoEnabled: true
         });
-        sceneModel.on("loaded", () =>{
+        sceneModel.on("loaded", () => {
             viewer.camera.eye = [0, 0, 1];
             viewer.camera.look = [0, 0, 0];
             viewer.camera.up = [0, 1, 0];
@@ -462,6 +469,19 @@
                 setButtonEnabled(`load_${pipelineId}_glb_and_json`, glbOK && jsonOK);
             }
         }).catch(err => console.error(err));
+
+
+    function doIsolate() {
+        const searchText = document.getElementById('isolateInput').value.trim();
+        if (searchText.trim() === '') {
+            // document.getElementById('searchResults').innerHTML = '';
+            return;
+        }
+        isolateObject(searchText)
+    }
+
+    document.getElementById('isolateButton').addEventListener('click', doIsolate);
+
 
     window.viewer = viewer;
 
