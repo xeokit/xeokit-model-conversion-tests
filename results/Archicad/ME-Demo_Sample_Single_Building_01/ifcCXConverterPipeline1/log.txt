@@ -1,0 +1,53 @@
+#----------------------------------------------------------------------------
+# CxConverter IFC Conversion Pipeline Log
+#
+# Converting file: ME-Demo_Sample_Single_Building_01.ifc
+# Using tools: ifc2gltf and convert2xkt
+# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
+#----------------------------------------------------------------------------
+
+
+
+# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Archicad/ME-Demo_Sample_Single_Building_01.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt
+
+__ IFC to GLTF converter __ version: 2.8.6 ____________
+Loading file "/home/lindsay/xe...gle_Building_01.ifc"Loading file "/home/lindsay/xe...gle_Building_01.ifc": 5%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 6%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 7%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 8%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 9%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 10%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 11%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 12%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 13%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 14%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 15%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 16%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 17%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 18%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 19%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 20%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 21%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 22%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 23%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 24%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 30%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 33%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 36%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 38%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 41%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 44%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 47%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 50%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 53%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 56%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 59%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 62%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 65%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 68%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 71%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 74%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 77%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 80%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 83%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 86%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 89%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 7%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 13%Converting IFC geometry: 15%Converting IFC geometry: 17%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 23%Converting IFC geometry: 30%Converting IFC geometry: 32%Converting IFC geometry: 38%Converting IFC geometry: 40%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 49%Converting IFC geometry: 51%Converting IFC geometry: 53%Converting IFC geometry: 55%Converting IFC geometry: 58%Converting IFC geometry: 60%Converting IFC geometry: 63%Converting IFC geometry: 65%Converting IFC geometry: 68%Converting IFC geometry: 70%Converting IFC geometry: 72%Converting IFC geometry: 75%Converting IFC geometry: 77%Converting IFC geometry: 79%Converting IFC geometry: 83%Converting IFC geometry: 86%Converting IFC geometry: 88%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 100%
+Accessors: 2023, reused: 8720
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 211 seconds, using 32 threads
+
+
+
+# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb.manifest.json -o results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt
+[convert2xkt] Running convert2xkt v1.1.10...
+[convert2xkt] Converting glTF files in manifest results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb.manifest.json...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb
+[convert2xkt] Input file size: 4223.38 kB
+[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 1976.98 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.14
+[convert2xkt] Conversion time: 5.65 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 4102
+[convert2xkt] Converted geometries: 8756
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 210817
+[convert2xkt] Converted vertices: 632451
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.
+node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb.manifest.json -o results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt

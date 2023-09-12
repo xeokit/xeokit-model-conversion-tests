@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Structural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-12 15:17:40",
+    "conversionDate": "2023-09-13 00:46:28",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/model.glb"
     ],

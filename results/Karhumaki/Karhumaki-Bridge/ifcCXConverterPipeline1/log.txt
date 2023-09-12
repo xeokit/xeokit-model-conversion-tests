@@ -3,7 +3,7 @@
 #
 # Converting file: Karhumaki-Bridge.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,8 +11,8 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Bridge.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 6%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 7%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 8%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 9%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 10%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 11%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 12%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 13%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 14%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 15%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 16%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 17%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 18%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 19%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 20%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 21%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 22%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 23%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 24%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 30%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 33%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 36%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 39%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 42%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 45%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 48%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 51%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 53%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 56%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 59%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 62%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 65%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 68%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 71%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 74%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 77%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 80%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 83%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 86%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 89%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 8%Converting IFC geometry: 9%Converting IFC geometry: 11%Converting IFC geometry: 13%Converting IFC geometry: 14%Converting IFC geometry: 77%Converting IFC geometry: 80%Converting IFC geometry: 82%Converting IFC geometry: 85%Converting IFC geometry: 87%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 6%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 7%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 8%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 9%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 10%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 11%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 12%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 13%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 14%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 15%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 16%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 17%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 18%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 19%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 20%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 21%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 22%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 23%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 24%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 30%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 33%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 36%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 39%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 42%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 45%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 48%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 51%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 54%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 57%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 60%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 63%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 66%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 69%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 72%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 75%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 78%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 81%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 84%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 87%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 6%Converting IFC geometry: 8%Converting IFC geometry: 10%Converting IFC geometry: 14%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 100%
 Accessors: 2893, reused: 3981
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 100%
@@ -26,7 +26,7 @@ Accessors: 1487, reused: 1852
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 100%
 Accessors: 1928, reused: 4564
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 100%
-Accessors: 1264, reused: 2448
+Accessors: 1265, reused: 2447
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 100%
 Accessors: 4563, reused: 5773
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 100%
@@ -34,7 +34,7 @@ Accessors: 692, reused: 848
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 85%Exporting meta data: 86%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%
 Accessors: 1196, reused: 1525
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 395 seconds, using 32 threads
+done in 3226 seconds, using 32 threads
 
 
 
@@ -42,7 +42,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 11755.88 kB
+[convert2xkt] Input file size: 11756.23 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -50,18 +50,18 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2034.34 kB
+[convert2xkt] XKT size: 2034.35 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.78
-[convert2xkt] Conversion time: 5.49 s
+[convert2xkt] Conversion time: 6.82 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1467
 [convert2xkt] Converted geometries: 4019
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 546886
-[convert2xkt] Converted vertices: 1640658
+[convert2xkt] Converted triangles: 546888
+[convert2xkt] Converted vertices: 1640664
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
@@ -79,7 +79,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 695.54 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 16.37
-[convert2xkt] Conversion time: 2.78 s
+[convert2xkt] Conversion time: 2.71 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 57
@@ -105,7 +105,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 689.05 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 16.35
-[convert2xkt] Conversion time: 2.77 s
+[convert2xkt] Conversion time: 2.92 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 172
@@ -131,7 +131,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 736.43 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 14.77
-[convert2xkt] Conversion time: 2.87 s
+[convert2xkt] Conversion time: 2.93 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 322
@@ -157,7 +157,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 728.86 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 15.09
-[convert2xkt] Conversion time: 2.72 s
+[convert2xkt] Conversion time: 2.78 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 190
@@ -180,10 +180,10 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1937.75 kB
+[convert2xkt] XKT size: 1937.76 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.05
-[convert2xkt] Conversion time: 5.40 s
+[convert2xkt] Conversion time: 5.12 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1719
@@ -198,7 +198,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Writing XKT file: results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_5.xkt
 [convert2xkt] Converted model6.xkt (6 of 10)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_6.glb
-[convert2xkt] Input file size: 11130.97 kB
+[convert2xkt] Input file size: 11131.83 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_6.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -206,18 +206,18 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1672.81 kB
+[convert2xkt] XKT size: 1672.80 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.65
-[convert2xkt] Conversion time: 4.09 s
+[convert2xkt] Conversion time: 4.31 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1407
 [convert2xkt] Converted geometries: 2476
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 491223
-[convert2xkt] Converted vertices: 1473669
+[convert2xkt] Converted triangles: 491224
+[convert2xkt] Converted vertices: 1473672
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
@@ -232,10 +232,10 @@ done in 395 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1108.79 kB
+[convert2xkt] XKT size: 1108.77 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 11.07
-[convert2xkt] Conversion time: 3.47 s
+[convert2xkt] Conversion time: 3.94 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 413
@@ -261,7 +261,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 988.28 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 11.15
-[convert2xkt] Conversion time: 3.04 s
+[convert2xkt] Conversion time: 2.82 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 12
@@ -287,7 +287,7 @@ done in 395 seconds, using 32 threads
 [convert2xkt] XKT size: 1030.31 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.81
-[convert2xkt] Conversion time: 1.86 s
+[convert2xkt] Conversion time: 1.90 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 219

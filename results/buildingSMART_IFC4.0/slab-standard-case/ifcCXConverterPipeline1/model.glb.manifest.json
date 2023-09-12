@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/slab-standard-case.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-12 15:18:26",
+    "conversionDate": "2023-09-13 00:47:15",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/slab-standard-case/ifcCXConverterPipeline1/model.glb"
     ],

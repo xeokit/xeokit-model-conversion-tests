@@ -3,7 +3,7 @@
 #
 # Converting file: basin-faceted-brep.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,7 +11,7 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/basin-faceted-brep.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/basin-faceted-brep/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/basin-faceted-brep/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/basin-faceted-brep/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...in-faceted-brep.ifc"Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 5%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 8%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 13%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 15%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 17%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 19%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 21%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 23%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 30%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 47%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 50%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 100%
+Loading file "/home/lindsay/xe...in-faceted-brep.ifc"Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 5%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 8%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 13%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 15%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 17%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 19%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 21%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 23%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 30%Loading file "/home/lindsay/xe...in-faceted-brep.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
 Accessors: 2, reused: 0
@@ -35,7 +35,7 @@ done in 2 seconds, using 32 threads
 [convert2xkt] XKT size: 3.20 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.09
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

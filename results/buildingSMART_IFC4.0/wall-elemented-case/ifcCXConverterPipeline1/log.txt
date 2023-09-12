@@ -3,7 +3,7 @@
 #
 # Converting file: wall-elemented-case.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 100%
 Accessors: 1, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 3 seconds, using 32 threads
+done in 1 seconds, using 32 threads
 
 
 
