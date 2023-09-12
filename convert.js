@@ -207,16 +207,18 @@ const configs = JSON.parse(configsData);
 
                             glbConvertedOK = true;
 
-                            const cmd1 = `node --max-old-space-size=24000`+
+                            const convert2xktCmd = `node --max-old-space-size=24000`+
                                 ` ${configs.paths["convert2xkt"]} -t `+
                                 `-n `+
                                 `-a ${jsonManifestPath} `+
                                 `-o ${xktManifestPath} `+
                                 `-l >> ${logEnterprise1PathAbs}`
 
-                            execSync(cmd1, {stdio: 'inherit'});
+                            fs.appendFileSync(logEnterprise1PathAbs, `\n\n# ${convert2xktCmd}\n`);
 
-                            fs.appendFileSync(logEnterprise1PathAbs, cmd1 + "\n")
+                            execSync(convert2xktCmd, {stdio: 'inherit'});
+
+                            fs.appendFileSync(logEnterprise1PathAbs, convert2xktCmd + "\n")
                             //
                             // let manifestData = fs.readFileSync(jsonManifestPath);
                             //
