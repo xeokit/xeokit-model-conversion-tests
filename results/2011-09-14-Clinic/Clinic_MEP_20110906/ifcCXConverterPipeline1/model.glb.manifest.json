@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-07 13:57:22",
+    "conversionDate": "2023-09-12 14:59:31",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_1.glb",

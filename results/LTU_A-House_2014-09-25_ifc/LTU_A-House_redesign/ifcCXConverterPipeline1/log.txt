@@ -3,7 +3,7 @@
 #
 # Converting file: LTU_A-House_redesign.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
+# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,8 +11,8 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...-House_redesign.ifc"Loading file "/home/lindsay/xe...-House_redesign.ifc": 5%Loading file "/home/lindsay/xe...-House_redesign.ifc": 6%Loading file "/home/lindsay/xe...-House_redesign.ifc": 7%Loading file "/home/lindsay/xe...-House_redesign.ifc": 8%Loading file "/home/lindsay/xe...-House_redesign.ifc": 9%Loading file "/home/lindsay/xe...-House_redesign.ifc": 10%Loading file "/home/lindsay/xe...-House_redesign.ifc": 11%Loading file "/home/lindsay/xe...-House_redesign.ifc": 12%Loading file "/home/lindsay/xe...-House_redesign.ifc": 13%Loading file "/home/lindsay/xe...-House_redesign.ifc": 14%Loading file "/home/lindsay/xe...-House_redesign.ifc": 15%Loading file "/home/lindsay/xe...-House_redesign.ifc": 16%Loading file "/home/lindsay/xe...-House_redesign.ifc": 17%Loading file "/home/lindsay/xe...-House_redesign.ifc": 18%Loading file "/home/lindsay/xe...-House_redesign.ifc": 19%Loading file "/home/lindsay/xe...-House_redesign.ifc": 20%Loading file "/home/lindsay/xe...-House_redesign.ifc": 21%Loading file "/home/lindsay/xe...-House_redesign.ifc": 22%Loading file "/home/lindsay/xe...-House_redesign.ifc": 23%Loading file "/home/lindsay/xe...-House_redesign.ifc": 30%Loading file "/home/lindsay/xe...-House_redesign.ifc": 33%Loading file "/home/lindsay/xe...-House_redesign.ifc": 36%Loading file "/home/lindsay/xe...-House_redesign.ifc": 39%Loading file "/home/lindsay/xe...-House_redesign.ifc": 42%Loading file "/home/lindsay/xe...-House_redesign.ifc": 45%Loading file "/home/lindsay/xe...-House_redesign.ifc": 48%Loading file "/home/lindsay/xe...-House_redesign.ifc": 51%Loading file "/home/lindsay/xe...-House_redesign.ifc": 54%Loading file "/home/lindsay/xe...-House_redesign.ifc": 57%Loading file "/home/lindsay/xe...-House_redesign.ifc": 60%Loading file "/home/lindsay/xe...-House_redesign.ifc": 63%Loading file "/home/lindsay/xe...-House_redesign.ifc": 66%Loading file "/home/lindsay/xe...-House_redesign.ifc": 69%Loading file "/home/lindsay/xe...-House_redesign.ifc": 72%Loading file "/home/lindsay/xe...-House_redesign.ifc": 75%Loading file "/home/lindsay/xe...-House_redesign.ifc": 78%Loading file "/home/lindsay/xe...-House_redesign.ifc": 81%Loading file "/home/lindsay/xe...-House_redesign.ifc": 84%Loading file "/home/lindsay/xe...-House_redesign.ifc": 87%Loading file "/home/lindsay/xe...-House_redesign.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 11%Converting IFC geometry: 12%Converting IFC geometry: 14%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 31%Converting IFC geometry: 32%Converting IFC geometry: 34%Converting IFC geometry: 35%Converting IFC geometry: 37%Converting IFC geometry: 39%Converting IFC geometry: 43%Converting IFC geometry: 45%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 51%Converting IFC geometry: 52%Converting IFC geometry: 54%Converting IFC geometry: 56%Converting IFC geometry: 60%Converting IFC geometry: 62%Converting IFC geometry: 65%Converting IFC geometry: 67%Converting IFC geometry: 70%Converting IFC geometry: 72%Converting IFC geometry: 76%Converting IFC geometry: 78%Converting IFC geometry: 84%Converting IFC geometry: 86%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...-House_redesign.ifc"Loading file "/home/lindsay/xe...-House_redesign.ifc": 5%Loading file "/home/lindsay/xe...-House_redesign.ifc": 6%Loading file "/home/lindsay/xe...-House_redesign.ifc": 7%Loading file "/home/lindsay/xe...-House_redesign.ifc": 8%Loading file "/home/lindsay/xe...-House_redesign.ifc": 9%Loading file "/home/lindsay/xe...-House_redesign.ifc": 10%Loading file "/home/lindsay/xe...-House_redesign.ifc": 11%Loading file "/home/lindsay/xe...-House_redesign.ifc": 12%Loading file "/home/lindsay/xe...-House_redesign.ifc": 13%Loading file "/home/lindsay/xe...-House_redesign.ifc": 14%Loading file "/home/lindsay/xe...-House_redesign.ifc": 15%Loading file "/home/lindsay/xe...-House_redesign.ifc": 16%Loading file "/home/lindsay/xe...-House_redesign.ifc": 17%Loading file "/home/lindsay/xe...-House_redesign.ifc": 18%Loading file "/home/lindsay/xe...-House_redesign.ifc": 19%Loading file "/home/lindsay/xe...-House_redesign.ifc": 20%Loading file "/home/lindsay/xe...-House_redesign.ifc": 21%Loading file "/home/lindsay/xe...-House_redesign.ifc": 22%Loading file "/home/lindsay/xe...-House_redesign.ifc": 23%Loading file "/home/lindsay/xe...-House_redesign.ifc": 30%Loading file "/home/lindsay/xe...-House_redesign.ifc": 33%Loading file "/home/lindsay/xe...-House_redesign.ifc": 36%Loading file "/home/lindsay/xe...-House_redesign.ifc": 39%Loading file "/home/lindsay/xe...-House_redesign.ifc": 42%Loading file "/home/lindsay/xe...-House_redesign.ifc": 44%Loading file "/home/lindsay/xe...-House_redesign.ifc": 47%Loading file "/home/lindsay/xe...-House_redesign.ifc": 50%Loading file "/home/lindsay/xe...-House_redesign.ifc": 53%Loading file "/home/lindsay/xe...-House_redesign.ifc": 56%Loading file "/home/lindsay/xe...-House_redesign.ifc": 59%Loading file "/home/lindsay/xe...-House_redesign.ifc": 62%Loading file "/home/lindsay/xe...-House_redesign.ifc": 66%Loading file "/home/lindsay/xe...-House_redesign.ifc": 69%Loading file "/home/lindsay/xe...-House_redesign.ifc": 72%Loading file "/home/lindsay/xe...-House_redesign.ifc": 75%Loading file "/home/lindsay/xe...-House_redesign.ifc": 78%Loading file "/home/lindsay/xe...-House_redesign.ifc": 81%Loading file "/home/lindsay/xe...-House_redesign.ifc": 84%Loading file "/home/lindsay/xe...-House_redesign.ifc": 87%Loading file "/home/lindsay/xe...-House_redesign.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
 Accessors: 22, reused: 7
 Exporting meta dataExporting meta data: 75%Exporting meta data: 85%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 100%
@@ -214,8 +214,11 @@ Accessors: 0, reused: 0
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 100%
 Accessors: 0, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 210 seconds, using 32 threads
+done in 195 seconds, using 32 threads
 
+
+
+# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb.manifest.json -o results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb
@@ -334,7 +337,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.02 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -802,7 +805,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1036,7 +1039,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1088,7 +1091,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1114,7 +1117,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1296,7 +1299,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1348,7 +1351,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1634,7 +1637,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1686,7 +1689,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1764,7 +1767,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1790,7 +1793,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1894,7 +1897,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1972,7 +1975,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2024,7 +2027,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2076,7 +2079,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2284,7 +2287,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2310,7 +2313,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2414,7 +2417,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2440,7 +2443,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2518,7 +2521,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2544,7 +2547,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2648,7 +2651,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2674,7 +2677,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2726,7 +2729,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2778,7 +2781,7 @@ done in 210 seconds, using 32 threads
 [convert2xkt] XKT size: 0.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.91
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0

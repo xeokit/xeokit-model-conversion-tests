@@ -3,7 +3,7 @@
 #
 # Converting file: tessellated-item.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
+# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,8 +16,11 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 95%Exporting to gltf: 100%
 Accessors: 2, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 2 seconds, using 32 threads
+done in 1 seconds, using 32 threads
 
+
+
+# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/model.glb

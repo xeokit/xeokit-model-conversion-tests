@@ -3,7 +3,7 @@
 #
 # Converting file: air-terminal-element.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Thu Sep 07 2023 13:57:06 GMT+0200 (Central European Summer Time)
+# Date: Tue Sep 12 2023 14:59:09 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,8 +16,11 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 54%Exporting to gltf: 58%Exporting to gltf: 62%Exporting to gltf: 66%Exporting to gltf: 100%
 Accessors: 5, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 2 seconds, using 32 threads
+done in 4 seconds, using 32 threads
 
+
+
+# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/model.glb
@@ -32,7 +35,7 @@ done in 2 seconds, using 32 threads
 [convert2xkt] XKT size: 2.04 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.92
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2
