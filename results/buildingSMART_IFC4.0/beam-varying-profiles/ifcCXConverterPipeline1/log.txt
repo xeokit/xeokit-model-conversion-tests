@@ -3,7 +3,7 @@
 #
 # Converting file: beam-varying-profiles.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 57%Exporting to gltf: 65%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 100%
 Accessors: 6, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 2 seconds, using 32 threads
+done in 1 seconds, using 32 threads
 
 
 

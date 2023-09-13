@@ -3,7 +3,7 @@
 #
 # Converting file: tessellation-with-image-texture.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,7 +11,7 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...h-image-texture.ifc"Loading file "/home/lindsay/xe...h-image-texture.ifc": 5%Loading file "/home/lindsay/xe...h-image-texture.ifc": 10%Loading file "/home/lindsay/xe...h-image-texture.ifc": 14%Loading file "/home/lindsay/xe...h-image-texture.ifc": 30%Loading file "/home/lindsay/xe...h-image-texture.ifc": 35%Loading file "/home/lindsay/xe...h-image-texture.ifc": 100%
+Loading file "/home/lindsay/xe...h-image-texture.ifc"Loading file "/home/lindsay/xe...h-image-texture.ifc": 5%Loading file "/home/lindsay/xe...h-image-texture.ifc": 10%Loading file "/home/lindsay/xe...h-image-texture.ifc": 14%Loading file "/home/lindsay/xe...h-image-texture.ifc": 30%Loading file "/home/lindsay/xe...h-image-texture.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
 Accessors: 3, reused: 0

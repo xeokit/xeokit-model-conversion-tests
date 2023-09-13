@@ -3,7 +3,7 @@
 #
 # Converting file: LTU_A-House_Plumbing.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,26 +11,26 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 6%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 7%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 8%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 9%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 10%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 11%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 12%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 13%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 14%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 15%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 16%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 17%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 18%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 19%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 20%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 21%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 22%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 23%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 33%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 39%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 42%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 44%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 48%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 51%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 54%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 57%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 60%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 63%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 66%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 69%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 72%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 75%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 78%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 81%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 84%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 87%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 2%Converting IFC geometry: 2%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 11%Converting IFC geometry: 12%Converting IFC geometry: 13%Converting IFC geometry: 14%Converting IFC geometry: 15%Converting IFC geometry: 17%Converting IFC geometry: 18%Converting IFC geometry: 19%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 30%Converting IFC geometry: 31%Converting IFC geometry: 33%Converting IFC geometry: 34%Converting IFC geometry: 35%Converting IFC geometry: 36%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 40%Converting IFC geometry: 41%Converting IFC geometry: 42%Converting IFC geometry: 44%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 50%Converting IFC geometry: 51%Converting IFC geometry: 53%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 82%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 86%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 6%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 7%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 8%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 9%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 10%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 11%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 12%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 13%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 14%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 15%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 16%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 17%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 18%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 19%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 20%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 21%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 22%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 23%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 33%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 39%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 42%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 45%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 48%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 51%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 54%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 57%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 60%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 63%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 66%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 69%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 72%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 75%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 78%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 81%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 84%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 87%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 8%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 13%Converting IFC geometry: 14%Converting IFC geometry: 15%Converting IFC geometry: 16%Converting IFC geometry: 17%Converting IFC geometry: 19%Converting IFC geometry: 20%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 31%Converting IFC geometry: 32%Converting IFC geometry: 33%Converting IFC geometry: 34%Converting IFC geometry: 36%Converting IFC geometry: 37%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 40%Converting IFC geometry: 41%Converting IFC geometry: 42%Converting IFC geometry: 43%Converting IFC geometry: 44%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 51%Converting IFC geometry: 52%Converting IFC geometry: 53%Converting IFC geometry: 54%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 83%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 86%Converting IFC geometry: 88%Converting IFC geometry: 89%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 100%
-Accessors: 2931, reused: 6000
+Accessors: 2932, reused: 6000
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 100%
 Accessors: 2526, reused: 5482
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 100%
 Accessors: 2474, reused: 6560
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 85%Exporting meta data: 86%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 100%
-Accessors: 2624, reused: 7197
+Accessors: 2625, reused: 7202
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 82%Exporting meta data: 83%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 100%
-Accessors: 2662, reused: 9464
+Accessors: 2659, reused: 9461
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 100%
-Accessors: 2507, reused: 12486
+Accessors: 2508, reused: 12493
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 100%
-Accessors: 2864, reused: 11974
+Accessors: 2865, reused: 12065
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 100%
-Accessors: 421, reused: 1493
+Accessors: 418, reused: 1393
 Exporting meta dataExporting meta data: 100%
-done in 5323 seconds, using 32 threads
+done in 3277 seconds, using 32 threads
 
 
 
@@ -38,7 +38,7 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 12121.32 kB
+[convert2xkt] Input file size: 12122.06 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -46,10 +46,10 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1767.89 kB
+[convert2xkt] XKT size: 1767.88 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.86
-[convert2xkt] Conversion time: 5.89 s
+[convert2xkt] Conversion time: 5.47 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6039
@@ -64,7 +64,7 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_1.glb
-[convert2xkt] Input file size: 12348.14 kB
+[convert2xkt] Input file size: 12348.15 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -72,10 +72,10 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2040.39 kB
+[convert2xkt] XKT size: 2040.33 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.05
-[convert2xkt] Conversion time: 5.37 s
+[convert2xkt] Conversion time: 6.32 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5497
@@ -90,7 +90,7 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_1.xkt
 [convert2xkt] Converted model2.xkt (2 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_2.glb
-[convert2xkt] Input file size: 12677.72 kB
+[convert2xkt] Input file size: 12677.73 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_2.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -98,10 +98,10 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2497.07 kB
+[convert2xkt] XKT size: 2497.00 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.08
-[convert2xkt] Conversion time: 6.22 s
+[convert2xkt] Conversion time: 6.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6578
@@ -116,7 +116,7 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_2.xkt
 [convert2xkt] Converted model3.xkt (3 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_3.glb
-[convert2xkt] Input file size: 13119.44 kB
+[convert2xkt] Input file size: 13119.92 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_3.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -124,25 +124,25 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2378.49 kB
+[convert2xkt] XKT size: 2379.68 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.52
-[convert2xkt] Conversion time: 5.66 s
+[convert2xkt] Compression ratio: 5.51
+[convert2xkt] Conversion time: 6.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 7229
-[convert2xkt] Converted geometries: 7229
+[convert2xkt] Converted drawable objects: 7234
+[convert2xkt] Converted geometries: 7234
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 790853
-[convert2xkt] Converted vertices: 2372559
+[convert2xkt] Converted triangles: 791317
+[convert2xkt] Converted vertices: 2373951
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_3.xkt
 [convert2xkt] Converted model4.xkt (4 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_4.glb
-[convert2xkt] Input file size: 14054.32 kB
+[convert2xkt] Input file size: 14024.49 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_4.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -150,25 +150,25 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3372.06 kB
+[convert2xkt] XKT size: 3371.54 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.17
-[convert2xkt] Conversion time: 8.13 s
+[convert2xkt] Compression ratio: 4.16
+[convert2xkt] Conversion time: 7.55 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 9506
-[convert2xkt] Converted geometries: 9506
+[convert2xkt] Converted drawable objects: 9503
+[convert2xkt] Converted geometries: 9503
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1047382
-[convert2xkt] Converted vertices: 3142146
+[convert2xkt] Converted triangles: 1047142
+[convert2xkt] Converted vertices: 3141426
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_4.xkt
 [convert2xkt] Converted model5.xkt (5 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_5.glb
-[convert2xkt] Input file size: 15194.62 kB
+[convert2xkt] Input file size: 15195.62 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_5.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -176,25 +176,25 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4185.70 kB
+[convert2xkt] XKT size: 4187.11 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.63
-[convert2xkt] Conversion time: 11.46 s
+[convert2xkt] Conversion time: 9.87 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 12521
-[convert2xkt] Converted geometries: 12521
+[convert2xkt] Converted drawable objects: 12528
+[convert2xkt] Converted geometries: 12528
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1467981
-[convert2xkt] Converted vertices: 4403943
+[convert2xkt] Converted triangles: 1468621
+[convert2xkt] Converted vertices: 4405863
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_5.xkt
 [convert2xkt] Converted model6.xkt (6 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_6.glb
-[convert2xkt] Input file size: 15636.79 kB
+[convert2xkt] Input file size: 15662.03 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_6.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -202,25 +202,25 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 4106.04 kB
+[convert2xkt] XKT size: 4134.43 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.81
-[convert2xkt] Conversion time: 11.41 s
+[convert2xkt] Compression ratio: 3.79
+[convert2xkt] Conversion time: 9.81 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 12013
-[convert2xkt] Converted geometries: 12013
+[convert2xkt] Converted drawable objects: 12104
+[convert2xkt] Converted geometries: 12104
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1294539
-[convert2xkt] Converted vertices: 3883617
+[convert2xkt] Converted triangles: 1306699
+[convert2xkt] Converted vertices: 3920097
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_6.xkt
 [convert2xkt] Converted model7.xkt (7 of 8)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_7.glb
-[convert2xkt] Input file size: 4524.43 kB
+[convert2xkt] Input file size: 4487.26 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_7.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -228,18 +228,18 @@ done in 5323 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1555.57 kB
+[convert2xkt] XKT size: 1525.17 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.91
-[convert2xkt] Conversion time: 3.30 s
+[convert2xkt] Compression ratio: 2.94
+[convert2xkt] Conversion time: 2.42 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1501
-[convert2xkt] Converted geometries: 1501
+[convert2xkt] Converted drawable objects: 1401
+[convert2xkt] Converted geometries: 1401
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 169254
-[convert2xkt] Converted vertices: 507762
+[convert2xkt] Converted triangles: 156230
+[convert2xkt] Converted vertices: 468690
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

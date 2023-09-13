@@ -3,7 +3,7 @@
 #
 # Converting file: MAP.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 00:22:55 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,12 +11,12 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/MAP.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc"Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 5%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 6%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 7%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 8%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 9%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 10%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 11%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 12%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 13%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 14%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 15%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 16%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 17%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 18%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 19%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 20%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 21%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 22%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 23%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 24%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 30%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 33%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 35%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 39%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 42%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 45%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 48%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 51%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 55%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 57%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 60%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 63%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 67%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 69%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 73%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 76%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 79%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 82%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 85%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 88%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 10%Converting IFC geometry: 11%Converting IFC geometry: 13%Converting IFC geometry: 18%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 27%Converting IFC geometry: 30%Converting IFC geometry: 35%Converting IFC geometry: 45%Converting IFC geometry: 48%Converting IFC geometry: 51%Converting IFC geometry: 59%Converting IFC geometry: 79%Converting IFC geometry: 85%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc"Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 5%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 6%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 7%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 8%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 9%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 10%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 11%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 12%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 13%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 14%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 15%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 16%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 17%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 18%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 19%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 20%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 21%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 22%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 23%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 24%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 30%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 33%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 36%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 39%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 42%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 45%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 48%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 51%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 55%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 58%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 61%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 64%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 67%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 70%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 73%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 76%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 79%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 82%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 86%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 88%Loading file "/home/lindsay/xe...les/BIMData/MAP.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 6%Converting IFC geometry: 10%Converting IFC geometry: 11%Converting IFC geometry: 13%Converting IFC geometry: 18%Converting IFC geometry: 21%Converting IFC geometry: 23%Converting IFC geometry: 28%Converting IFC geometry: 30%Converting IFC geometry: 37%Converting IFC geometry: 58%Converting IFC geometry: 60%Converting IFC geometry: 64%Converting IFC geometry: 68%Converting IFC geometry: 84%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 100%
-Accessors: 3362, reused: 5435
+Accessors: 3360, reused: 5436
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 72 seconds, using 32 threads
+done in 59 seconds, using 32 threads
 
 
 
@@ -24,7 +24,7 @@ done in 72 seconds, using 32 threads
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/BIMData/MAP/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 8053.10 kB
+[convert2xkt] Input file size: 8049.16 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -32,10 +32,10 @@ done in 72 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2221.11 kB
+[convert2xkt] XKT size: 2221.70 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.63
-[convert2xkt] Conversion time: 5.03 s
+[convert2xkt] Compression ratio: 3.62
+[convert2xkt] Conversion time: 4.82 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1942
