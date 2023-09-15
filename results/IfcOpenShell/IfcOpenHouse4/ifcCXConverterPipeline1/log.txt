@@ -3,7 +3,7 @@
 #
 # Converting file: IfcOpenHouse4.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 58%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 64%Exporting to gltf: 65%Exporting to gltf: 67%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 73%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 79%Exporting to gltf: 80%Exporting to gltf: 82%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 88%Exporting to gltf: 90%Exporting to gltf: 100%
 Accessors: 25, reused: 32
 Exporting meta dataExporting meta data: 100%
-done in 13 seconds, using 32 threads
+done in 2 seconds, using 32 threads
 
 
 

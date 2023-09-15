@@ -3,7 +3,7 @@
 #
 # Converting file: rac_advanced_sample_project.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,14 +11,14 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Revit/rac_advanced_sample_project.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe..._sample_project.ifc"Loading file "/home/lindsay/xe..._sample_project.ifc": 5%Loading file "/home/lindsay/xe..._sample_project.ifc": 6%Loading file "/home/lindsay/xe..._sample_project.ifc": 7%Loading file "/home/lindsay/xe..._sample_project.ifc": 8%Loading file "/home/lindsay/xe..._sample_project.ifc": 9%Loading file "/home/lindsay/xe..._sample_project.ifc": 10%Loading file "/home/lindsay/xe..._sample_project.ifc": 11%Loading file "/home/lindsay/xe..._sample_project.ifc": 12%Loading file "/home/lindsay/xe..._sample_project.ifc": 13%Loading file "/home/lindsay/xe..._sample_project.ifc": 14%Loading file "/home/lindsay/xe..._sample_project.ifc": 15%Loading file "/home/lindsay/xe..._sample_project.ifc": 16%Loading file "/home/lindsay/xe..._sample_project.ifc": 17%Loading file "/home/lindsay/xe..._sample_project.ifc": 18%Loading file "/home/lindsay/xe..._sample_project.ifc": 19%Loading file "/home/lindsay/xe..._sample_project.ifc": 20%Loading file "/home/lindsay/xe..._sample_project.ifc": 21%Loading file "/home/lindsay/xe..._sample_project.ifc": 22%Loading file "/home/lindsay/xe..._sample_project.ifc": 23%Loading file "/home/lindsay/xe..._sample_project.ifc": 24%Loading file "/home/lindsay/xe..._sample_project.ifc": 30%Loading file "/home/lindsay/xe..._sample_project.ifc": 33%Loading file "/home/lindsay/xe..._sample_project.ifc": 35%Loading file "/home/lindsay/xe..._sample_project.ifc": 38%Loading file "/home/lindsay/xe..._sample_project.ifc": 42%Loading file "/home/lindsay/xe..._sample_project.ifc": 44%Loading file "/home/lindsay/xe..._sample_project.ifc": 47%Loading file "/home/lindsay/xe..._sample_project.ifc": 51%Loading file "/home/lindsay/xe..._sample_project.ifc": 54%Loading file "/home/lindsay/xe..._sample_project.ifc": 57%Loading file "/home/lindsay/xe..._sample_project.ifc": 60%Loading file "/home/lindsay/xe..._sample_project.ifc": 62%Loading file "/home/lindsay/xe..._sample_project.ifc": 66%Loading file "/home/lindsay/xe..._sample_project.ifc": 69%Loading file "/home/lindsay/xe..._sample_project.ifc": 72%Loading file "/home/lindsay/xe..._sample_project.ifc": 75%Loading file "/home/lindsay/xe..._sample_project.ifc": 78%Loading file "/home/lindsay/xe..._sample_project.ifc": 81%Loading file "/home/lindsay/xe..._sample_project.ifc": 84%Loading file "/home/lindsay/xe..._sample_project.ifc": 87%Loading file "/home/lindsay/xe..._sample_project.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 7%Converting IFC geometry: 8%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 15%Converting IFC geometry: 18%Converting IFC geometry: 19%Converting IFC geometry: 23%Converting IFC geometry: 26%Converting IFC geometry: 29%Converting IFC geometry: 33%Converting IFC geometry: 35%Converting IFC geometry: 39%Converting IFC geometry: 43%Converting IFC geometry: 47%Converting IFC geometry: 51%Converting IFC geometry: 55%Converting IFC geometry: 59%Converting IFC geometry: 64%Converting IFC geometry: 67%Converting IFC geometry: 71%Converting IFC geometry: 75%Converting IFC geometry: 79%Converting IFC geometry: 83%Converting IFC geometry: 86%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe..._sample_project.ifc"Loading file "/home/lindsay/xe..._sample_project.ifc": 5%Loading file "/home/lindsay/xe..._sample_project.ifc": 6%Loading file "/home/lindsay/xe..._sample_project.ifc": 7%Loading file "/home/lindsay/xe..._sample_project.ifc": 8%Loading file "/home/lindsay/xe..._sample_project.ifc": 9%Loading file "/home/lindsay/xe..._sample_project.ifc": 10%Loading file "/home/lindsay/xe..._sample_project.ifc": 11%Loading file "/home/lindsay/xe..._sample_project.ifc": 12%Loading file "/home/lindsay/xe..._sample_project.ifc": 13%Loading file "/home/lindsay/xe..._sample_project.ifc": 14%Loading file "/home/lindsay/xe..._sample_project.ifc": 15%Loading file "/home/lindsay/xe..._sample_project.ifc": 16%Loading file "/home/lindsay/xe..._sample_project.ifc": 17%Loading file "/home/lindsay/xe..._sample_project.ifc": 18%Loading file "/home/lindsay/xe..._sample_project.ifc": 19%Loading file "/home/lindsay/xe..._sample_project.ifc": 20%Loading file "/home/lindsay/xe..._sample_project.ifc": 21%Loading file "/home/lindsay/xe..._sample_project.ifc": 22%Loading file "/home/lindsay/xe..._sample_project.ifc": 23%Loading file "/home/lindsay/xe..._sample_project.ifc": 24%Loading file "/home/lindsay/xe..._sample_project.ifc": 30%Loading file "/home/lindsay/xe..._sample_project.ifc": 32%Loading file "/home/lindsay/xe..._sample_project.ifc": 36%Loading file "/home/lindsay/xe..._sample_project.ifc": 39%Loading file "/home/lindsay/xe..._sample_project.ifc": 42%Loading file "/home/lindsay/xe..._sample_project.ifc": 45%Loading file "/home/lindsay/xe..._sample_project.ifc": 48%Loading file "/home/lindsay/xe..._sample_project.ifc": 51%Loading file "/home/lindsay/xe..._sample_project.ifc": 54%Loading file "/home/lindsay/xe..._sample_project.ifc": 57%Loading file "/home/lindsay/xe..._sample_project.ifc": 60%Loading file "/home/lindsay/xe..._sample_project.ifc": 63%Loading file "/home/lindsay/xe..._sample_project.ifc": 66%Loading file "/home/lindsay/xe..._sample_project.ifc": 69%Loading file "/home/lindsay/xe..._sample_project.ifc": 72%Loading file "/home/lindsay/xe..._sample_project.ifc": 75%Loading file "/home/lindsay/xe..._sample_project.ifc": 78%Loading file "/home/lindsay/xe..._sample_project.ifc": 81%Loading file "/home/lindsay/xe..._sample_project.ifc": 84%Loading file "/home/lindsay/xe..._sample_project.ifc": 87%Loading file "/home/lindsay/xe..._sample_project.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 21%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 30%Converting IFC geometry: 33%Converting IFC geometry: 36%Converting IFC geometry: 39%Converting IFC geometry: 43%Converting IFC geometry: 46%Converting IFC geometry: 50%Converting IFC geometry: 57%Converting IFC geometry: 61%Converting IFC geometry: 66%Converting IFC geometry: 70%Converting IFC geometry: 73%Converting IFC geometry: 77%Converting IFC geometry: 81%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 100%
 Accessors: 2892, reused: 8661
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 100%
-Accessors: 59, reused: 155
+Accessors: 56, reused: 155
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%
-done in 117 seconds, using 32 threads
+done in 122 seconds, using 32 threads
 
 
 
@@ -26,7 +26,7 @@ done in 117 seconds, using 32 threads
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 13588.66 kB
+[convert2xkt] Input file size: 13588.62 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -34,25 +34,25 @@ done in 117 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2845.77 kB
+[convert2xkt] XKT size: 2845.81 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.78
-[convert2xkt] Conversion time: 7.43 s
+[convert2xkt] Compression ratio: 4.77
+[convert2xkt] Conversion time: 8.15 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5348
 [convert2xkt] Converted geometries: 9260
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 574351
-[convert2xkt] Converted vertices: 1723995
+[convert2xkt] Converted triangles: 574350
+[convert2xkt] Converted vertices: 1723992
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model_1.glb
-[convert2xkt] Input file size: 1524.53 kB
+[convert2xkt] Input file size: 1522.24 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -60,18 +60,18 @@ done in 117 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 377.69 kB
+[convert2xkt] XKT size: 377.73 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.04
-[convert2xkt] Conversion time: 0.55 s
+[convert2xkt] Compression ratio: 4.03
+[convert2xkt] Conversion time: 0.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 164
 [convert2xkt] Converted geometries: 164
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 27537
-[convert2xkt] Converted vertices: 82611
+[convert2xkt] Converted triangles: 27538
+[convert2xkt] Converted vertices: 82614
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

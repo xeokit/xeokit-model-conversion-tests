@@ -3,7 +3,7 @@
 #
 # Converting file: column-straight-rectangle-tessellation.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,7 +11,7 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/column-straight-rectangle-tessellation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/column-straight-rectangle-tessellation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/column-straight-rectangle-tessellation/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...le-tessellation.ifc"Loading file "/home/lindsay/xe...le-tessellation.ifc": 6%Loading file "/home/lindsay/xe...le-tessellation.ifc": 30%Loading file "/home/lindsay/xe...le-tessellation.ifc": 100%
+Loading file "/home/lindsay/xe...le-tessellation.ifc"Loading file "/home/lindsay/xe...le-tessellation.ifc": 6%Loading file "/home/lindsay/xe...le-tessellation.ifc": 30%Loading file "/home/lindsay/xe...le-tessellation.ifc": 53%Loading file "/home/lindsay/xe...le-tessellation.ifc": 76%Loading file "/home/lindsay/xe...le-tessellation.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 95%Exporting to gltf: 100%
 Accessors: 2, reused: 0

@@ -3,7 +3,7 @@
 #
 # Converting file: wall-elemented-case.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -12,7 +12,7 @@
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
 Loading file "/home/lindsay/xe...-elemented-case.ifc"Loading file "/home/lindsay/xe...-elemented-case.ifc": 5%Loading file "/home/lindsay/xe...-elemented-case.ifc": 8%Loading file "/home/lindsay/xe...-elemented-case.ifc": 13%Loading file "/home/lindsay/xe...-elemented-case.ifc": 16%Loading file "/home/lindsay/xe...-elemented-case.ifc": 20%Loading file "/home/lindsay/xe...-elemented-case.ifc": 30%Loading file "/home/lindsay/xe...-elemented-case.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 8%Converting IFC geometry: 12%Converting IFC geometry: 17%Converting IFC geometry: 21%Converting IFC geometry: 25%Converting IFC geometry: 30%Converting IFC geometry: 34%Converting IFC geometry: 38%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 100%
 Accessors: 1, reused: 0
 Exporting meta dataExporting meta data: 100%

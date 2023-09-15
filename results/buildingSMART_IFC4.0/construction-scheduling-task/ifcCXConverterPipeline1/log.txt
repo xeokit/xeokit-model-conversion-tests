@@ -3,7 +3,7 @@
 #
 # Converting file: construction-scheduling-task.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 02:22:46 GMT+0200 (Central European Summer Time)
+# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 61%Exporting to gltf: 64%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 100%
 Accessors: 11, reused: 4
 Exporting meta dataExporting meta data: 100%
-done in 1 seconds, using 32 threads
+done in 3 seconds, using 32 threads
 
 
 
