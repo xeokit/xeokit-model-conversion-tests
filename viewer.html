@@ -88,7 +88,7 @@
     <div class="row no-gutters">
         <div class="col-3 pl-2">
             <div class="input-group mb-3">
-                <input type="text" id="isolateInput" class="form-control" placeholder="Isolate...">
+                <input type="text" id="isolateInput" class="form-control" placeholder="Enter object ID...">
                 <div class="input-group-append">
                     <button class="btn btn-primary" type="button" id="isolateButton">Isolate object</button>
                 </div>
@@ -163,15 +163,18 @@
     let models = [];
     let buttonDownId;
 
-    function cancelModelLoad() {
-        if (models) {
+    function cancelModelLoad(done) {
+        if (models && models.length > 0) {
             for (let i = 0, len = models.length; i < len; i++) {
                 const model = models[i];
                 model.on("loaded", () => {
                     model.destroy();
+                    done();
                 });
             }
             models = [];
+        } else {
+            done();
         }
     }
 
@@ -200,11 +203,17 @@
     function setButtonDown(id) {
         setLastButtonUp();
         buttonDownId = id;
-        document.getElementById(id).classList.add("active");
+        const button = document.getElementById(id);
+        if (button) {
+            button.classList.add("active");
+        }
     }
 
     function setButtonUp(id) {
-        document.getElementById(id).classList.remove("active");
+        const button = document.getElementById(id);
+        if (button) {
+            button.classList.remove("active");
+        }
     }
 
     function setButtonEnabled(id, enabled) {
@@ -223,187 +232,207 @@
 
     window.loadSplitXKT = function (pipelineId) {
         setButtonDown(`load_${pipelineId}_xkt`);
-        cancelModelLoad();
-        viewer.scene.once("tick", () => {
+        setButtonsDown();
+        cancelModelLoad(() => {
+            viewer.scene.once("tick", () => {
 
-            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`)
-                .then(res => res.json())
-                .then((manifest) => {
+                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`)
+                    .then(res => res.json())
+                    .then((manifest) => {
 
-                    let xktFiles = manifest.xktFiles;
+                        let xktFiles = manifest.xktFiles;
 
-                    function loadNext() {
-                        if (xktFiles.length === 0) {
-                            viewer.camera.eye = [0, 0, 1];
-                            viewer.camera.look = [0, 0, 0];
-                            viewer.camera.up = [0, 1, 0];
-                            viewer.cameraFlight.jumpTo(viewer.scene);
-                        } else {
-                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${xktFiles.pop()}`;
-                            const model = xktLoader.load({id: 'myModel' + xktFiles.length, src});
-                            model.on("loaded", () => {
-                                loadNext();
-                            });
+                        function loadNext() {
+                            if (xktFiles.length === 0) {
+                                viewer.camera.eye = [0, 0, 1];
+                                viewer.camera.look = [0, 0, 0];
+                                viewer.camera.up = [0, 1, 0];
+                                viewer.cameraFlight.jumpTo(viewer.scene);
+                                setButtonsUp();
+                            } else {
+                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${xktFiles.pop()}`;
+                                const model = xktLoader.load({id: 'myModel' + xktFiles.length, src});
+                                models.push(model);
+                                model.on("loaded", () => {
+                                    loadNext();
+                                });
+                            }
                         }
-                    }
 
-                    loadNext();
-                });
-
-
+                        loadNext();
+                    });
+            });
         });
     }
 
     window.loadManifestXKT = function (pipelineId) {
         setButtonDown(`load_${pipelineId}_xktManifest`);
-        cancelModelLoad();
-        const sceneModel = xktLoader.load({
-            manifestSrc: `./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`,
-            id: "myModel",
-            edges: true,
-            saoEnabled: true
-        });
-        sceneModel.on("loaded", () => {
-            viewer.camera.eye = [0, 0, 1];
-            viewer.camera.look = [0, 0, 0];
-            viewer.camera.up = [0, 1, 0];
-            viewer.cameraFlight.jumpTo(viewer.scene);
+        setButtonsDown();
+        cancelModelLoad(() => {
+            const model = xktLoader.load({
+                manifestSrc: `./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`,
+                id: "myModel",
+                edges: true,
+                saoEnabled: true
+            });
+            models.push(model);
+            model.on("loaded", () => {
+                viewer.camera.eye = [0, 0, 1];
+                viewer.camera.look = [0, 0, 0];
+                viewer.camera.up = [0, 1, 0];
+                viewer.cameraFlight.jumpTo(viewer.scene);
+                setButtonsUp();
+            });
         });
     }
 
     window.loadXKT = function (pipelineId) {
 
         setButtonDown(`load_${pipelineId}_xkt`);
-        cancelModelLoad();
+        setButtonsDown();
+        cancelModelLoad(() => {
 
-        if (!summary) {
-            return;
-        }
-
-        let i = 0;
-        const xktFiles = summary.pipelines[pipelineId].xktManifest.xktFiles;
-
-        function loadNext() {
-            if (i >= xktFiles.length) {
+            if (!summary) {
                 return;
             }
-            const xktFileName = xktFiles[i];
-            const model = xktLoader.load({
-                id: 'myModel',
-                src: `./results/${batchId}/${modelId}/${pipelineId}/${xktFileName}`
-            });
-            models.push(model);
-            model.on("loaded", () => {
-                i++;
-                loadNext();
-            })
-        }
 
-        loadNext();
+            let i = 0;
+            const xktFiles = summary.pipelines[pipelineId].xktManifest.xktFiles;
 
-        alignCameraOnModelLoad(true);
+            function loadNext() {
+                if (i >= xktFiles.length) {
+                    setButtonsUp();
+                    return;
+                }
+                const xktFileName = xktFiles[i];
+                const model = xktLoader.load({
+                    id: 'myModel',
+                    src: `./results/${batchId}/${modelId}/${pipelineId}/${xktFileName}`
+                });
+                models.push(model);
+                model.on("loaded", () => {
+                    i++;
+                    loadNext();
+                })
+            }
+
+            loadNext();
+
+            alignCameraOnModelLoad(true);
+        });
     }
 
     window.loadSplitGLB = function (pipelineId) {
         setButtonDown(`load_${pipelineId}_glb`);
-        cancelModelLoad();
-        viewer.scene.once("tick", () => {
+        setButtonsDown();
+        cancelModelLoad(() => {
+            viewer.scene.once("tick", () => {
 
-            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
-                .then(res => res.json())
-                .then((manifest) => {
+                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
+                    .then(res => res.json())
+                    .then((manifest) => {
 
-                    let glbFiles = manifest.gltfOutFiles;
+                        let glbFiles = manifest.gltfOutFiles;
 
-                    function loadNext() {
-                        if (glbFiles.length === 0) {
-                            viewer.camera.eye = [0, 0, 1];
-                            viewer.camera.look = [0, 0, 0];
-                            viewer.camera.up = [0, 1, 0];
-                            viewer.cameraFlight.jumpTo(viewer.scene);
-                        } else {
-                            const glbFileName = getFileNameFromPath(glbFiles.pop());
-                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
-                            const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src});
-                            model.on("loaded", () => {
-                                loadNext();
-                            });
+                        function loadNext() {
+                            if (glbFiles.length === 0) {
+                                viewer.camera.eye = [0, 0, 1];
+                                viewer.camera.look = [0, 0, 0];
+                                viewer.camera.up = [0, 1, 0];
+                                viewer.cameraFlight.jumpTo(viewer.scene);
+                                setButtonsUp();
+                            } else {
+                                const glbFileName = getFileNameFromPath(glbFiles.pop());
+                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
+                                const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src});
+                                models.push(model);
+                                model.on("loaded", () => {
+                                    loadNext();
+                                });
+                            }
                         }
-                    }
 
-                    loadNext();
-                });
+                        loadNext();
+                    });
+            });
         });
     }
 
     window.loadGLB = function (pipelineId) {
 
         setButtonDown(`load_${pipelineId}_glb`);
-        cancelModelLoad();
+        setButtonsDown();
+        cancelModelLoad(() => {
 
-        if (!summary) {
-            return;
-        }
-
-        let i = 0;
-        const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
-
-        function loadNext() {
-            if (i >= glbFiles.length) {
+            if (!summary) {
                 return;
             }
-            const glbFileName = glbFiles[i];
-            const model = gltfLoader.load({
-                id: 'glbModel',
-                src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
-                edges: true
-            });
-            models.push(model);
-            model.on("loaded", () => {
-                i++;
-                loadNext();
-            })
-        }
 
-        loadNext();
+            let i = 0;
+            const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
 
-        alignCameraOnModelLoad(true);
+            function loadNext() {
+                if (i >= glbFiles.length) {
+                    setButtonsUp();
+                    return;
+                }
+                const glbFileName = glbFiles[i];
+                const model = gltfLoader.load({
+                    id: 'myModel' + i,
+                    src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
+                    edges: true
+                });
+                models.push(model);
+                model.on("loaded", () => {
+                    i++;
+                    loadNext();
+                })
+            }
+
+            loadNext();
+
+            alignCameraOnModelLoad(true);
+        });
     }
 
     window.loadSplitGLBAndJSON = function (pipelineId) {
         setButtonDown(`load_${pipelineId}_glb`);
-        cancelModelLoad();
-        viewer.scene.once("tick", () => {
+        setButtonsDown();
+        cancelModelLoad(() => {
+            viewer.scene.once("tick", () => {
 
-            fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
-                .then(res => res.json())
-                .then((manifest) => {
+                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
+                    .then(res => res.json())
+                    .then((manifest) => {
 
-                    let glbFiles = manifest.gltfOutFiles;
-                    let jsonFiles = manifest.metadataOutFiles;
+                        let glbFiles = manifest.gltfOutFiles;
+                        let jsonFiles = manifest.metadataOutFiles;
 
-                    function loadNext() {
-                        if (glbFiles.length === 0) {
-                            viewer.camera.eye = [0, 0, 1];
-                            viewer.camera.look = [0, 0, 0];
-                            viewer.camera.up = [0, 1, 0];
-                            viewer.cameraFlight.jumpTo(viewer.scene);
-                        } else {
-                            const glbFileName = getFileNameFromPath(glbFiles.pop());
-                            const jsonFileName = getFileNameFromPath(jsonFiles.pop());
-                            const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
-                            const metaModelSrc = `./results/${batchId}/${modelId}/${pipelineId}/${jsonFileName}`;
-                            const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src, metaModelSrc});
-                            model.on("loaded", () => {
-                                loadNext();
-                            });
+                        function loadNext() {
+                            if (glbFiles.length === 0) {
+                                viewer.camera.eye = [0, 0, 1];
+                                viewer.camera.look = [0, 0, 0];
+                                viewer.camera.up = [0, 1, 0];
+                                viewer.cameraFlight.jumpTo(viewer.scene);
+                                setButtonsUp();
+                            } else {
+                                const glbFileName = getFileNameFromPath(glbFiles.pop());
+                                const jsonFileName = getFileNameFromPath(jsonFiles.pop());
+                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
+                                const metaModelSrc = `./results/${batchId}/${modelId}/${pipelineId}/${jsonFileName}`;
+                                const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src, metaModelSrc});
+                                models.push(model);
+                                model.on("loaded", () => {
+                                    loadNext();
+                                });
+                            }
                         }
-                    }
 
-                    loadNext();
-                });
+                        loadNext();
+                    });
 
 
+            });
         });
     }
 
@@ -416,59 +445,83 @@
 
     window.loadGLBAndJSON = function (pipelineId) {
         setButtonDown(`load_${pipelineId}_glb_and_json`);
-        cancelModelLoad();
+        setButtonsDown();
+        cancelModelLoad(() => {
 
-        if (!summary) {
-            return;
-        }
-
-        let i = 0;
-        const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
-        const jsonFiles = summary.pipelines[pipelineId].xktManifest.metadataFiles;
-
-        function loadNext() {
-            if (i >= glbFiles.length) {
+            if (!summary) {
                 return;
             }
-            const glbFileName = glbFiles[i];
-            const metadataFileName = jsonFiles[i];
 
-            const model = gltfLoader.load({
-                id: 'glbModel',
-                src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
-                metaModelSrc: `./results/${batchId}/${modelId}/${pipelineId}/${metadataFileName}`,
-                edges: true
-            });
-            models.push(model);
-            model.on("loaded", () => {
-                i++;
-                loadNext();
-            })
-        }
+            let i = 0;
+            const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
+            const jsonFiles = summary.pipelines[pipelineId].xktManifest.metadataFiles;
 
-        loadNext();
+            function loadNext() {
+                if (i >= glbFiles.length) {
+                    setButtonsUp();
+                    return;
+                }
+                const glbFileName = glbFiles[i];
+                const metadataFileName = jsonFiles[i];
 
-        alignCameraOnModelLoad(true);
+                const model = gltfLoader.load({
+                    id: 'glbModel' + i,
+                    src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
+                    metaModelSrc: `./results/${batchId}/${modelId}/${pipelineId}/${metadataFileName}`,
+                    edges: true
+                });
+                models.push(model);
+                model.on("loaded", () => {
+                    i++;
+                    loadNext();
+                })
+            }
+
+            loadNext();
+
+            alignCameraOnModelLoad(true);
+        });
     }
 
     fetch(`./results/${batchId}/${modelId}/summary.json`)
         .then(res => res.json())
         .then((_summary) => {
             summary = _summary;
-            for (let pipelineId in summary.pipelines) {
-
-                const pipeline = summary.pipelines[pipelineId];
-
-                const xktOK = !!pipeline.xktConvertedOK;
-                const glbOK = !!pipeline.glbConvertedOK;
-                const jsonOK = !!pipeline.jsonConvertedOK;
-
-                setButtonEnabled(`load_${pipelineId}_xkt`, xktOK);
-                setButtonEnabled(`load_${pipelineId}_xktManifest`, xktOK);
-                setButtonEnabled(`load_${pipelineId}_glb`, glbOK);
-                setButtonEnabled(`load_${pipelineId}_glb_and_json`, glbOK && jsonOK);
-            }
+            enableLoadButtons();
         }).catch(err => console.error(err));
+
+
+    function enableLoadButtons() {
+        for (let pipelineId in summary.pipelines) {
+            const pipeline = summary.pipelines[pipelineId];
+            const xktOK = !!pipeline.xktConvertedOK;
+            const glbOK = !!pipeline.glbConvertedOK;
+            const jsonOK = !!pipeline.jsonConvertedOK;
+            setButtonEnabled(`load_${pipelineId}_xkt`, xktOK);
+            setButtonEnabled(`load_${pipelineId}_xktManifest`, xktOK);
+            setButtonEnabled(`load_${pipelineId}_glb`, glbOK);
+            setButtonEnabled(`load_${pipelineId}_glb_and_json`, glbOK && jsonOK);
+        }
+    }
+
+
+    function setButtonsDown() {
+        for (let pipelineId in summary.pipelines) {
+            setButtonDown(`load_${pipelineId}_xkt`);
+            setButtonDown(`load_${pipelineId}_xktManifest`);
+            setButtonDown(`load_${pipelineId}_glb`);
+            setButtonDown(`load_${pipelineId}_glb_and_json`);
+        }
+    }
+
+    function setButtonsUp() {
+        for (let pipelineId in summary.pipelines) {
+            setButtonUp(`load_${pipelineId}_xkt`);
+            setButtonUp(`load_${pipelineId}_xktManifest`);
+            setButtonUp(`load_${pipelineId}_glb`);
+            setButtonUp(`load_${pipelineId}_glb_and_json`);
+        }
+    }
 
 
     function doIsolate() {
