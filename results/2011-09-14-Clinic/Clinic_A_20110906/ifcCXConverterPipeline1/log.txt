@@ -3,7 +3,7 @@
 #
 # Converting file: Clinic_A_20110906.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,12 +11,12 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/2011-09-14-Clinic/Clinic_A_20110906.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...inic_A_20110906.ifc"Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 5%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 6%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 7%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 8%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 9%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 10%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 11%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 12%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 13%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 14%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 15%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 16%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 17%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 18%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 19%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 20%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 21%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 22%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 23%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 30%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 33%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 36%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 39%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 41%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 45%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 48%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 51%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 55%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 57%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 60%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 63%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 66%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 69%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 72%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 74%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 77%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 80%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 83%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 87%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 89%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 7%Converting IFC geometry: 12%Converting IFC geometry: 16%Converting IFC geometry: 23%Converting IFC geometry: 26%Converting IFC geometry: 29%Converting IFC geometry: 34%Converting IFC geometry: 41%Converting IFC geometry: 45%Converting IFC geometry: 49%Converting IFC geometry: 55%Converting IFC geometry: 62%Converting IFC geometry: 67%Converting IFC geometry: 74%Converting IFC geometry: 83%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...inic_A_20110906.ifc"Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 5%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 6%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 7%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 8%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 9%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 10%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 11%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 12%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 13%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 14%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 15%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 16%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 17%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 18%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 19%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 20%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 21%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 22%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 23%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 30%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 33%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 36%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 39%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 42%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 46%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 49%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 52%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 55%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 58%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 61%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 64%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 67%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 70%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 73%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 76%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 79%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 82%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 85%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 88%Loading file "/home/lindsay/xe...inic_A_20110906.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 7%Converting IFC geometry: 15%Converting IFC geometry: 19%Converting IFC geometry: 34%Converting IFC geometry: 39%Converting IFC geometry: 42%Converting IFC geometry: 45%Converting IFC geometry: 50%Converting IFC geometry: 57%Converting IFC geometry: 62%Converting IFC geometry: 66%Converting IFC geometry: 72%Converting IFC geometry: 77%Converting IFC geometry: 84%Converting IFC geometry: 89%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 100%
-Accessors: 5970, reused: 3614
+Accessors: 5969, reused: 3615
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 316 seconds, using 32 threads
+done in 44 seconds, using 32 threads
 
 
 
@@ -24,7 +24,7 @@ done in 316 seconds, using 32 threads
 [convert2xkt] Running convert2xkt v1.1.10...
 [convert2xkt] Converting glTF files in manifest results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 6569.45 kB
+[convert2xkt] Input file size: 6569.00 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -32,18 +32,18 @@ done in 316 seconds, using 32 threads
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1643.41 kB
+[convert2xkt] XKT size: 1643.39 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.00
-[convert2xkt] Conversion time: 4.35 s
+[convert2xkt] Conversion time: 3.77 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2779
 [convert2xkt] Converted geometries: 7722
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 175293
-[convert2xkt] Converted vertices: 536205
+[convert2xkt] Converted triangles: 175297
+[convert2xkt] Converted vertices: 536217
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

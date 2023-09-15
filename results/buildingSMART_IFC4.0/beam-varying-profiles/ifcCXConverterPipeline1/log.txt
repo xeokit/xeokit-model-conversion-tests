@@ -3,7 +3,7 @@
 #
 # Converting file: beam-varying-profiles.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -35,7 +35,7 @@ done in 1 seconds, using 32 threads
 [convert2xkt] XKT size: 2.02 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.84
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2

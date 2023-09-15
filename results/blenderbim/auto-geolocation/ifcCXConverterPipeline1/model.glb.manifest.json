@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/blenderbim/auto-geolocation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-13 05:00:14",
+    "conversionDate": "2023-09-15 11:54:41",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/model.glb"
     ],

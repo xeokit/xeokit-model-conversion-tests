@@ -3,7 +3,7 @@
 #
 # Converting file: beam-varying-cardinal-points.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 

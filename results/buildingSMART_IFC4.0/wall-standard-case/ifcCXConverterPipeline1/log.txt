@@ -3,7 +3,7 @@
 #
 # Converting file: wall-standard-case.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
 Accessors: 3, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 4 seconds, using 32 threads
+done in 1 seconds, using 32 threads
 
 
 

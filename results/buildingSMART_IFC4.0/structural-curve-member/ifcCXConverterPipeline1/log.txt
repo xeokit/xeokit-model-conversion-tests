@@ -3,7 +3,7 @@
 #
 # Converting file: structural-curve-member.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -11,14 +11,14 @@
 # ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/structural-curve-member/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/structural-curve-member/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/structural-curve-member/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...al-curve-member.ifc"Loading file "/home/lindsay/xe...al-curve-member.ifc": 5%Loading file "/home/lindsay/xe...al-curve-member.ifc": 12%Loading file "/home/lindsay/xe...al-curve-member.ifc": 30%Loading file "/home/lindsay/xe...al-curve-member.ifc": 61%Loading file "/home/lindsay/xe...al-curve-member.ifc": 65%Loading file "/home/lindsay/xe...al-curve-member.ifc": 68%Loading file "/home/lindsay/xe...al-curve-member.ifc": 71%Loading file "/home/lindsay/xe...al-curve-member.ifc": 74%Loading file "/home/lindsay/xe...al-curve-member.ifc": 77%Loading file "/home/lindsay/xe...al-curve-member.ifc": 81%Loading file "/home/lindsay/xe...al-curve-member.ifc": 84%Loading file "/home/lindsay/xe...al-curve-member.ifc": 87%Loading file "/home/lindsay/xe...al-curve-member.ifc": 100%
+Loading file "/home/lindsay/xe...al-curve-member.ifc"Loading file "/home/lindsay/xe...al-curve-member.ifc": 5%Loading file "/home/lindsay/xe...al-curve-member.ifc": 12%Loading file "/home/lindsay/xe...al-curve-member.ifc": 30%Loading file "/home/lindsay/xe...al-curve-member.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 52%Exporting to gltf: 100%IFC item #280 has no parent in tree: IfcStructuralPointConnection
 IFC item #296 has no parent in tree: IfcStructuralCurveMember
 
 Accessors: 0, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 1 seconds, using 32 threads
+done in 2 seconds, using 32 threads
 
 
 

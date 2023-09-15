@@ -3,7 +3,7 @@
 #
 # Converting file: reinforcing-stirrup.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Sep 13 2023 04:42:15 GMT+0200 (Central European Summer Time)
+# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
 #----------------------------------------------------------------------------
 
 
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
 Accessors: 2, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 3 seconds, using 32 threads
+done in 1 seconds, using 32 threads
 
 
 
@@ -35,7 +35,7 @@ done in 3 seconds, using 32 threads
 [convert2xkt] XKT size: 4.36 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.87
-[convert2xkt] Conversion time: 0.11 s
+[convert2xkt] Conversion time: 0.06 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
