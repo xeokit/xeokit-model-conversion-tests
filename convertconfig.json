@@ -7,6 +7,6 @@
 
     "convert2xkt": "~/xeolabs/xeokit-convert-aug9/convert2xkt.js",
 
-    "ifc2gltf": "~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter"
+    "ifc2gltf": "~/xeolabs/xeokit/ifc2gltf/3_0_3_beta/linux/build/ubuntu/ifc2gltfcxconverter"
   }
 }
