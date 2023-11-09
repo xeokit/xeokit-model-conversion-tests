@@ -1,12 +1,17 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Archicad/AR-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:42:09",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:34:21",
     "gltfOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model_1.glb"
     ],
     "metadataOutFiles": [
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.json"
-    ]
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model_1.json"
+    ],
+    "numCreatedGltfMeshes": 9396,
+    "numCreatedMetaObjects": 11934,
+    "numExportedPropertySetsOrElementQuantities": 61215
 }

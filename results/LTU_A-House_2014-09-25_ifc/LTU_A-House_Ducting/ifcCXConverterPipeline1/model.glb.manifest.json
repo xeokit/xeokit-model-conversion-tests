@@ -1,12 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:45:49",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:38:09",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting/ifcCXConverterPipeline1/model.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 4067,
+    "numCreatedMetaObjects": 4073,
+    "numExportedPropertySetsOrElementQuantities": 914
 }

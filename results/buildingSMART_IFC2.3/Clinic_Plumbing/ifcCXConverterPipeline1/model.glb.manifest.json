@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:55:09",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:45:50",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb"
@@ -10,5 +10,8 @@
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 10203,
+    "numCreatedMetaObjects": 11509,
+    "numExportedPropertySetsOrElementQuantities": 58500
 }

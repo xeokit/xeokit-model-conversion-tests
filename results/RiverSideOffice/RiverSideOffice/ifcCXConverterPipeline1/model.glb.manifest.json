@@ -1,12 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:53:08",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:44:11",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/RiverSideOffice/RiverSideOffice/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/RiverSideOffice/RiverSideOffice/ifcCXConverterPipeline1/model.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 753,
+    "numCreatedMetaObjects": 368,
+    "numExportedPropertySetsOrElementQuantities": 437
 }

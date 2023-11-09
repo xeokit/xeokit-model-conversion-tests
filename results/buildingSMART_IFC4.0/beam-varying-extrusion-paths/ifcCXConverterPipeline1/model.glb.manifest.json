@@ -1,12 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:56:25",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:47:02",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCXConverterPipeline1/model.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 2,
+    "numCreatedMetaObjects": 4,
+    "numExportedPropertySetsOrElementQuantities": 0
 }

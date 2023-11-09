@@ -1,12 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/2011-09-14-Clinic/Clinic_S_20110715_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:42:03",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:34:15",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_S_20110715_optimized/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_S_20110715_optimized/ifcCXConverterPipeline1/model.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 1078,
+    "numCreatedMetaObjects": 1094,
+    "numExportedPropertySetsOrElementQuantities": 9588
 }

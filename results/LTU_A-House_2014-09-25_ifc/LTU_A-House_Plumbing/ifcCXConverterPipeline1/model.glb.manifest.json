@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:46:45",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:39:05",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_1.glb",
@@ -22,5 +22,8 @@
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_5.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_6.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/model_7.json"
-    ]
+    ],
+    "numCreatedGltfMeshes": 60863,
+    "numCreatedMetaObjects": 263562,
+    "numExportedPropertySetsOrElementQuantities": 577
 }

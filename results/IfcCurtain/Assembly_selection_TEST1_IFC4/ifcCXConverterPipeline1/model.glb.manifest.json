@@ -1,0 +1,12 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/IfcCurtain/Assembly_selection_TEST1_IFC4.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "2.8.6",
+    "conversionDate": "2023-10-09 14:26:08",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/IfcCurtain/Assembly_selection_TEST1_IFC4/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/IfcCurtain/Assembly_selection_TEST1_IFC4/ifcCXConverterPipeline1/model.json"
+    ]
+}

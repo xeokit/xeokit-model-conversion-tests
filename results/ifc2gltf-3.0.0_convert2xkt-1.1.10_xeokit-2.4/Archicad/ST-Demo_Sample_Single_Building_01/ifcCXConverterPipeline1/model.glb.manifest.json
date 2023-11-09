@@ -1,0 +1,15 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Archicad/ST-Demo_Sample_Single_Building_01.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.0",
+    "conversionDate": "2023-10-03 15:11:37",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-3.0.0_convert2xkt-1.1.10_xeokit-2.4/Archicad/ST-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-3.0.0_convert2xkt-1.1.10_xeokit-2.4/Archicad/ST-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/model.json"
+    ],
+    "numCreatedGltfMeshes": 1218,
+    "numCreatedMetaObjects": 1038,
+    "numExportedPropertySetsOrElementQuantities": 13406
+}

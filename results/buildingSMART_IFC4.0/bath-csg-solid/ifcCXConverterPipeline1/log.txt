@@ -3,25 +3,25 @@
 #
 # Converting file: bath-csg-solid.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Fri Sep 15 2023 11:38:23 GMT+0200 (Central European Summer Time)
+# Date: Thu Nov 09 2023 19:31:26 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/bath-csg-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_3_beta/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/bath-csg-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt
 
-__ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe.../bath-csg-solid.ifc"Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 5%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 30%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 100%
+__ IFC to GLTF converter __ version: 3.0.3 ____________
+Loading file "/home/lindsay/xe.../bath-csg-solid.ifc"Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 5%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 30%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 33%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 36%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 39%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 42%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 45%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 48%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 52%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 55%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 58%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 61%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 64%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 67%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 71%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 74%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 77%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 80%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 83%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 86%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 22%Converting IFC geometry: 45%Converting IFC geometry: 67%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
 Accessors: 2, reused: 0
 Exporting meta dataExporting meta data: 100%
-done in 2 seconds, using 32 threads
+done in 1 seconds
 
 
 
 # node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt
-[convert2xkt] Running convert2xkt v1.1.10...
+[convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb
 [convert2xkt] Input file size: 4.40 kB
@@ -46,6 +46,7 @@ done in 2 seconds, using 32 threads
 [convert2xkt] Converted vertices: 204
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
+[convert2xkt] Number of tiles: 1
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)

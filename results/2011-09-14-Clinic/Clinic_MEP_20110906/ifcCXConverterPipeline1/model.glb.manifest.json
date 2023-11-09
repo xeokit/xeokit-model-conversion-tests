@@ -1,20 +1,21 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "2.8.6",
-    "conversionDate": "2023-09-15 11:38:51",
+    "converterApplicationVersion": "3.0.3",
+    "conversionDate": "2023-11-09 19:31:42",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_1.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_2.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_3.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_4.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_3.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_1.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_2.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_3.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_4.json"
-    ]
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/model_3.json"
+    ],
+    "numCreatedGltfMeshes": 21418,
+    "numCreatedMetaObjects": 43495,
+    "numExportedPropertySetsOrElementQuantities": 111260
 }
