@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Revit/rac_advanced_sample_project.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:43:35",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:05:39",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/model_1.glb"
@@ -13,5 +13,15 @@
     ],
     "numCreatedGltfMeshes": 8958,
     "numCreatedMetaObjects": 10973,
-    "numExportedPropertySetsOrElementQuantities": 11387
+    "numExportedPropertySetsOrElementQuantities": 11387,
+    "modelBoundsMax": [
+        211.59105979315856,
+        98.3637552643392,
+        13.608482285678017
+    ],
+    "modelBoundsMin": [
+        -107.47427411797449,
+        -53.398860385074926,
+        -1.8287999999999993
+    ]
 }

@@ -3,14 +3,14 @@
 #
 # Converting file: tessellation-with-individual-colors.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Thu Nov 09 2023 19:31:26 GMT+0100 (Central European Standard Time)
+# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_3_beta/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.3 ____________
+__ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...dividual-colors.ifc"Loading file "/home/lindsay/xe...dividual-colors.ifc": 5%Loading file "/home/lindsay/xe...dividual-colors.ifc": 30%Loading file "/home/lindsay/xe...dividual-colors.ifc": 33%Loading file "/home/lindsay/xe...dividual-colors.ifc": 37%Loading file "/home/lindsay/xe...dividual-colors.ifc": 40%Loading file "/home/lindsay/xe...dividual-colors.ifc": 44%Loading file "/home/lindsay/xe...dividual-colors.ifc": 47%Loading file "/home/lindsay/xe...dividual-colors.ifc": 51%Loading file "/home/lindsay/xe...dividual-colors.ifc": 54%Loading file "/home/lindsay/xe...dividual-colors.ifc": 58%Loading file "/home/lindsay/xe...dividual-colors.ifc": 61%Loading file "/home/lindsay/xe...dividual-colors.ifc": 65%Loading file "/home/lindsay/xe...dividual-colors.ifc": 68%Loading file "/home/lindsay/xe...dividual-colors.ifc": 72%Loading file "/home/lindsay/xe...dividual-colors.ifc": 75%Loading file "/home/lindsay/xe...dividual-colors.ifc": 79%Loading file "/home/lindsay/xe...dividual-colors.ifc": 82%Loading file "/home/lindsay/xe...dividual-colors.ifc": 86%Loading file "/home/lindsay/xe...dividual-colors.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 30%Converting IFC geometry: 60%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 95%Exporting to gltf: 100%
@@ -47,7 +47,7 @@ done in 1 seconds
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1
-[convert2xkt] minTileSize: 200
+[convert2xkt] minTileSize: 500
 [convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Arch-3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:44:43",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:06:41",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-3/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 5349,
     "numCreatedMetaObjects": 5132,
-    "numExportedPropertySetsOrElementQuantities": 4614
+    "numExportedPropertySetsOrElementQuantities": 4614,
+    "modelBoundsMax": [
+        82.1786,
+        76.08111500000001,
+        69.73599997
+    ],
+    "modelBoundsMin": [
+        9.284154199999989,
+        -4.133743950000095,
+        53.64
+    ]
 }

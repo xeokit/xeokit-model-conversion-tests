@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Terrains.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:37:03",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 15:59:26",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 10148,
     "numCreatedMetaObjects": 10152,
-    "numExportedPropertySetsOrElementQuantities": 40592
+    "numExportedPropertySetsOrElementQuantities": 40592,
+    "modelBoundsMax": [
+        1.7651386943578586,
+        161.72871910732954,
+        58.39100322177485
+    ],
+    "modelBoundsMin": [
+        -163.42813587032396,
+        -30.955714588972,
+        16.354386592864998
+    ]
 }

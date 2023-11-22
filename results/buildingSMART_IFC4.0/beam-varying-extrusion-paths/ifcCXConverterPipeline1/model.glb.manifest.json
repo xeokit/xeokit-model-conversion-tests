@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:47:02",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:08:56",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 2,
     "numCreatedMetaObjects": 4,
-    "numExportedPropertySetsOrElementQuantities": 0
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.22125626011449165,
+        0.6135411925772906,
+        0.4
+    ],
+    "modelBoundsMin": [
+        -0.2485662250926088,
+        0.4,
+        -0.6
+    ]
 }

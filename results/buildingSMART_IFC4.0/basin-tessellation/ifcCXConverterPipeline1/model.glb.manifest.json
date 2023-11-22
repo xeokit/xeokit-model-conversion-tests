@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/basin-tessellation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:46:56",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:08:50",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/basin-tessellation/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 1,
     "numCreatedMetaObjects": 3,
-    "numExportedPropertySetsOrElementQuantities": 0
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.3011217500000001,
+        0.2688395310000001,
+        0.0
+    ],
+    "modelBoundsMin": [
+        -0.3012465000000001,
+        -0.153498641,
+        -0.09400000000000001
+    ]
 }

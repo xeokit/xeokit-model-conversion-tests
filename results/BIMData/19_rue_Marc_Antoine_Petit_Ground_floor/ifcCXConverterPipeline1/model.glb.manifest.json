@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:35:33",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 15:57:58",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 1203,
     "numCreatedMetaObjects": 307,
-    "numExportedPropertySetsOrElementQuantities": 1258
+    "numExportedPropertySetsOrElementQuantities": 1258,
+    "modelBoundsMax": [
+        1842046.0960415585,
+        5173320.898022424,
+        171.0619067530708
+    ],
+    "modelBoundsMin": [
+        1842005.887952225,
+        5173283.543400396,
+        166.5499999999999
+    ]
 }

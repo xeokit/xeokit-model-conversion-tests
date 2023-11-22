@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_HVAC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:45:38",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:07:35",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 5515,
     "numCreatedMetaObjects": 3974,
-    "numExportedPropertySetsOrElementQuantities": 30734
+    "numExportedPropertySetsOrElementQuantities": 30734,
+    "modelBoundsMax": [
+        0.6985443840308179,
+        56.79997858916765,
+        11.250000000000004
+    ],
+    "modelBoundsMin": [
+        -52.01300000000082,
+        -9.554161741302565,
+        -1.0
+    ]
 }

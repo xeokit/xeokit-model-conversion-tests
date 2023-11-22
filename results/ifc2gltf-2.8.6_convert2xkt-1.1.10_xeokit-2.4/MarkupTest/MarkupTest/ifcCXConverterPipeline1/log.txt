@@ -1,53 +1,0 @@
-#----------------------------------------------------------------------------
-# CxConverter IFC Conversion Pipeline Log
-#
-# Converting file: MarkupTest.ifc
-# Using tools: ifc2gltf and convert2xkt
-# Date: Tue Oct 03 2023 15:09:24 GMT+0200 (Central European Summer Time)
-#----------------------------------------------------------------------------
-
-
-
-# ~/xeolabs/xeokit/ifc2gltf/2_8_6/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/MarkupTest/MarkupTest.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/log.txt
-
-__ IFC to GLTF converter __ version: 2.8.6 ____________
-Loading file "/home/lindsay/xe...Test/MarkupTest.ifc"Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 5%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 6%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 7%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 8%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 9%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 10%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 11%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 12%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 13%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 14%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 15%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 17%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 18%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 19%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 20%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 21%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 22%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 23%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 30%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 46%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 37%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 46%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 46%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 46%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 55%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 74%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 74%Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 55%Exporting to gltf: 56%Exporting to gltf: 58%Exporting to gltf: 59%Exporting to gltf: 61%Exporting to gltf: 63%Exporting to gltf: 64%Exporting to gltf: 66%Exporting to gltf: 67%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 76%Exporting to gltf: 77%Exporting to gltf: 79%Exporting to gltf: 80%Exporting to gltf: 82%Exporting to gltf: 84%Exporting to gltf: 85%Exporting to gltf: 87%Exporting to gltf: 88%Exporting to gltf: 90%Exporting to gltf: 92%Exporting to gltf: 93%Exporting to gltf: 100%
-Accessors: 258, reused: 115
-Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 28 seconds, using 32 threads
-
-
-
-# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb.manifest.json -o results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/log.txt
-[convert2xkt] Running convert2xkt v1.1.10...
-[convert2xkt] Converting glTF files in manifest results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb.manifest.json...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 196.18 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 34.03 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.76
-[convert2xkt] Conversion time: 0.34 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 210
-[convert2xkt] Converted geometries: 293
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2189
-[convert2xkt] Converted vertices: 6919
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.
-node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb.manifest.json -o results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/ifc2gltf-2.8.6_convert2xkt-1.1.10_xeokit-2.4/MarkupTest/MarkupTest/ifcCXConverterPipeline1/log.txt

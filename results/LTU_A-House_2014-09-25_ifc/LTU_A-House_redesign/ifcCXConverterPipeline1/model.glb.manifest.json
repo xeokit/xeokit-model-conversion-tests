@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:42:32",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:04:42",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_1.glb",
@@ -17,7 +17,17 @@
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_3.json",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_4.json"
     ],
-    "numCreatedGltfMeshes": 35542,
-    "numCreatedMetaObjects": 18531,
-    "numExportedPropertySetsOrElementQuantities": 12501
+    "numCreatedGltfMeshes": 35534,
+    "numCreatedMetaObjects": 18494,
+    "numExportedPropertySetsOrElementQuantities": 12501,
+    "modelBoundsMax": [
+        151.39723354505,
+        84.89402254830003,
+        18.000000000000004
+    ],
+    "modelBoundsMin": [
+        -28.235600697899997,
+        -79.2696089845,
+        0.6999999999999993
+    ]
 }

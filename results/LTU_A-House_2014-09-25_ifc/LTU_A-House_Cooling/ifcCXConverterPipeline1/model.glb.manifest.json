@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:37:38",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:00:02",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling/ifcCXConverterPipeline1/model_1.glb"
@@ -13,5 +13,15 @@
     ],
     "numCreatedGltfMeshes": 20978,
     "numCreatedMetaObjects": 33260,
-    "numExportedPropertySetsOrElementQuantities": 0
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        127.13964360308142,
+        61.347571099999996,
+        15.379808230000002
+    ],
+    "modelBoundsMin": [
+        -10.281522667049103,
+        -57.860934560000004,
+        2.6799999999999997
+    ]
 }

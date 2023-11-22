@@ -3,14 +3,14 @@
 #
 # Converting file: wall-elemented-case.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Thu Nov 09 2023 19:31:26 GMT+0100 (Central European Standard Time)
+# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_3_beta/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/wall-elemented-case.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/wall-elemented-case.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.3 ____________
+__ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...-elemented-case.ifc"Loading file "/home/lindsay/xe...-elemented-case.ifc": 5%Loading file "/home/lindsay/xe...-elemented-case.ifc": 8%Loading file "/home/lindsay/xe...-elemented-case.ifc": 13%Loading file "/home/lindsay/xe...-elemented-case.ifc": 16%Loading file "/home/lindsay/xe...-elemented-case.ifc": 20%Loading file "/home/lindsay/xe...-elemented-case.ifc": 30%Loading file "/home/lindsay/xe...-elemented-case.ifc": 33%Loading file "/home/lindsay/xe...-elemented-case.ifc": 36%Loading file "/home/lindsay/xe...-elemented-case.ifc": 39%Loading file "/home/lindsay/xe...-elemented-case.ifc": 42%Loading file "/home/lindsay/xe...-elemented-case.ifc": 45%Loading file "/home/lindsay/xe...-elemented-case.ifc": 48%Loading file "/home/lindsay/xe...-elemented-case.ifc": 51%Loading file "/home/lindsay/xe...-elemented-case.ifc": 54%Loading file "/home/lindsay/xe...-elemented-case.ifc": 57%Loading file "/home/lindsay/xe...-elemented-case.ifc": 60%Loading file "/home/lindsay/xe...-elemented-case.ifc": 63%Loading file "/home/lindsay/xe...-elemented-case.ifc": 67%Loading file "/home/lindsay/xe...-elemented-case.ifc": 70%Loading file "/home/lindsay/xe...-elemented-case.ifc": 73%Loading file "/home/lindsay/xe...-elemented-case.ifc": 76%Loading file "/home/lindsay/xe...-elemented-case.ifc": 79%Loading file "/home/lindsay/xe...-elemented-case.ifc": 82%Loading file "/home/lindsay/xe...-elemented-case.ifc": 85%Loading file "/home/lindsay/xe...-elemented-case.ifc": 88%Loading file "/home/lindsay/xe...-elemented-case.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 8%Converting IFC geometry: 12%Converting IFC geometry: 17%Converting IFC geometry: 21%Converting IFC geometry: 25%Converting IFC geometry: 30%Converting IFC geometry: 34%Converting IFC geometry: 38%Converting IFC geometry: 42%Converting IFC geometry: 47%Converting IFC geometry: 51%Converting IFC geometry: 55%Converting IFC geometry: 60%Converting IFC geometry: 64%Converting IFC geometry: 68%Converting IFC geometry: 72%Converting IFC geometry: 77%Converting IFC geometry: 81%Converting IFC geometry: 85%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 100%
@@ -35,7 +35,7 @@ done in 1 seconds
 [convert2xkt] XKT size: 0.61 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.96
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Conversion time: 0.03 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -47,7 +47,7 @@ done in 1 seconds
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] minTileSize: 500
 [convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

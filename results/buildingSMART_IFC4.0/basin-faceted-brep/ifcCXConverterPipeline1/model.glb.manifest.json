@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/basin-faceted-brep.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.3",
-    "conversionDate": "2023-11-09 19:46:55",
+    "converterApplicationVersion": "3.0.4",
+    "conversionDate": "2023-11-22 16:08:49",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/basin-faceted-brep/ifcCXConverterPipeline1/model.glb"
     ],
@@ -11,5 +11,15 @@
     ],
     "numCreatedGltfMeshes": 1,
     "numCreatedMetaObjects": 3,
-    "numExportedPropertySetsOrElementQuantities": 0
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.3034853683510881,
+        0.26870681233191307,
+        0.0
+    ],
+    "modelBoundsMin": [
+        -0.30489107130749615,
+        -0.15312166036323605,
+        -0.09399999999999911
+    ]
 }
