@@ -3,12 +3,12 @@
 #
 # Converting file: reinforcing-stirrup.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/reinforcing-stirrup.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/reinforcing-stirrup.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...forcing-stirrup.ifc"Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 5%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 30%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 33%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 37%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 41%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 44%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 48%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 52%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 55%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 59%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 63%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 66%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 70%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 74%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 77%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 81%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 85%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 88%Loading file "/home/lindsay/xe...forcing-stirrup.ifc": 100%

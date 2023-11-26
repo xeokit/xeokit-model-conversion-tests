@@ -3,12 +3,12 @@
 #
 # Converting file: Karhumaki-Terrains.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Terrains.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Terrains.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...humaki-Terrains.ifc"Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 5%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 6%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 7%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 8%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 9%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 10%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 11%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 12%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 13%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 14%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 15%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 16%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 17%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 18%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 19%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 20%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 21%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 22%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 23%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 24%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 30%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 33%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 36%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 39%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 42%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 45%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 48%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 51%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 54%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 57%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 60%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 63%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 66%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 69%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 72%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 75%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 78%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 81%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 84%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 87%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 100%
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 100%
 Accessors: 9665, reused: 10147
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 9 seconds
+done in 8 seconds
 
 
 
@@ -35,7 +35,7 @@ done in 9 seconds
 [convert2xkt] XKT size: 3326.88 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.68
-[convert2xkt] Conversion time: 7.03 s
+[convert2xkt] Conversion time: 6.88 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 10148

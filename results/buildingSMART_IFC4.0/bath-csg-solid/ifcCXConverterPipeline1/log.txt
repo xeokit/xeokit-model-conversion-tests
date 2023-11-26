@@ -3,12 +3,12 @@
 #
 # Converting file: bath-csg-solid.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/bath-csg-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/bath-csg-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe.../bath-csg-solid.ifc"Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 5%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 30%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 33%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 36%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 39%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 42%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 45%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 48%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 52%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 55%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 58%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 61%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 64%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 67%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 71%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 74%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 77%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 80%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 83%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 86%Loading file "/home/lindsay/xe.../bath-csg-solid.ifc": 100%

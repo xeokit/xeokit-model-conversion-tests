@@ -3,12 +3,12 @@
 #
 # Converting file: auto-geolocation.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/blenderbim/auto-geolocation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/blenderbim/auto-geolocation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...uto-geolocation.ifc"Loading file "/home/lindsay/xe...uto-geolocation.ifc": 5%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 22%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 30%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 33%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 36%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 40%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 43%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 47%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 50%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 54%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 57%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 60%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 64%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 67%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 71%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 74%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 78%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 81%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 84%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 88%Loading file "/home/lindsay/xe...uto-geolocation.ifc": 100%

@@ -3,12 +3,12 @@
 #
 # Converting file: SGD_BODO_Arch-2.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc"Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 5%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 6%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 7%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 8%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 9%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 10%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 11%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 12%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 13%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 14%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 15%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 16%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 17%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 18%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 19%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 20%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 21%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 22%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 23%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 24%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 30%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 33%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 36%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 39%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 42%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 45%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 48%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 51%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 54%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 57%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 60%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 63%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 66%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 69%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 72%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 75%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 78%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 81%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 84%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 87%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 100%
@@ -16,7 +16,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
 Accessors: 2, reused: 0
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 100%
-Accessors: 2572, reused: 17027
+Accessors: 2571, reused: 17028
 Exporting meta dataExporting meta data: 100%
 done in 15 seconds
 
@@ -53,7 +53,7 @@ done in 15 seconds
 [convert2xkt] Writing XKT file: results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model_1.glb
-[convert2xkt] Input file size: 10806.62 kB
+[convert2xkt] Input file size: 10806.43 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Arch-2/ifcCXConverterPipeline1/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -61,18 +61,18 @@ done in 15 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 5372.92 kB
+[convert2xkt] XKT size: 5372.90 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.01
-[convert2xkt] Conversion time: 10.33 s
+[convert2xkt] Conversion time: 11.65 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2335
 [convert2xkt] Converted geometries: 17169
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1569772
-[convert2xkt] Converted vertices: 4709316
+[convert2xkt] Converted triangles: 1569780
+[convert2xkt] Converted vertices: 4709340
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1

@@ -1,8 +1,8 @@
 {
 	"version": "5.21.4",
 	"time": {
-		"current": 1700664837194,
-		"uptime": 1379573.87,
+		"current": 1701018785082,
+		"uptime": 91989.08,
 		"timezone": "GMT+0100",
 		"timezoneName": "Europe/Berlin"
 	},
@@ -36,20 +36,20 @@
 		}
 	},
 	"mem": {
-		"total": 134843932672,
-		"free": 60874543104,
-		"used": 73969389568,
-		"active": 42049826816,
-		"available": 92794105856,
-		"buffers": 539054080,
-		"cached": 32292601856,
-		"slab": 2192060416,
-		"buffcache": 35023716352,
+		"total": 134843944960,
+		"free": 87418060800,
+		"used": 47425884160,
+		"active": 27008065536,
+		"available": 107835879424,
+		"buffers": 1394868224,
+		"cached": 18384052224,
+		"slab": 2662637568,
+		"buffcache": 22441558016,
 		"swaptotal": 2147479552,
 		"swapused": 0,
 		"swapfree": 2147479552,
 		"writeback": 0,
-		"dirty": 2465792
+		"dirty": 2572288
 	},
 	"graphics": {
 		"controllers": [
@@ -66,16 +66,17 @@
 				"subDeviceId": "0x887C1043",
 				"name": "NVIDIA GeForce RTX 3050",
 				"pciBus": "00000000:2D:00.0",
+				"fanSpeed": 53,
 				"memoryTotal": 7948,
-				"memoryUsed": 3521,
-				"memoryFree": 4427,
-				"utilizationGpu": 23,
-				"utilizationMemory": 25,
-				"temperatureGpu": 51,
-				"powerDraw": 16.98,
+				"memoryUsed": 1126,
+				"memoryFree": 6822,
+				"utilizationGpu": 6,
+				"utilizationMemory": 3,
+				"temperatureGpu": 46,
+				"powerDraw": 33.9,
 				"powerLimit": 130,
-				"clockCore": 510,
-				"clockMemory": 810
+				"clockCore": 630,
+				"clockMemory": 5000
 			}
 		],
 		"displays": [
@@ -119,9 +120,9 @@
 	"os": {
 		"platform": "linux",
 		"distro": "Ubuntu",
-		"release": "22.04.1 LTS",
+		"release": "22.04.3 LTS",
 		"codename": "Jammy Jellyfish",
-		"kernel": "6.2.0-36-generic",
+		"kernel": "6.2.0-37-generic",
 		"arch": "x64",
 		"hostname": "mousebear",
 		"fqdn": "mousebear",

@@ -3,12 +3,12 @@
 #
 # Converting file: cube-advanced-brep.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/cube-advanced-brep.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/cube-advanced-brep.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...e-advanced-brep.ifc"Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 5%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 13%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 30%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 33%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 36%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 39%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 43%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 46%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 49%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 53%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 56%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 59%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 62%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 66%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 69%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 72%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 76%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 79%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 82%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 86%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 89%Loading file "/home/lindsay/xe...e-advanced-brep.ifc": 100%

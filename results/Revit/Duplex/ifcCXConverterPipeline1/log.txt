@@ -3,12 +3,12 @@
 #
 # Converting file: Duplex.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Revit/Duplex.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Revit/Duplex.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc"Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 5%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 6%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 7%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 8%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 9%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 10%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 11%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 12%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 13%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 14%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 15%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 16%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 17%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 18%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 19%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 20%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 21%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 22%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 23%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 30%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 33%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 36%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 39%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 42%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 45%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 48%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 51%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 54%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 57%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 60%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 63%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 66%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 69%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 72%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 75%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 78%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 81%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 84%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 87%Loading file "/home/lindsay/xe...es/Revit/Duplex.ifc": 100%
@@ -24,7 +24,7 @@ done in 1 seconds
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/Revit/Duplex/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 668.44 kB
+[convert2xkt] Input file size: 668.46 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/Duplex/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -35,7 +35,7 @@ done in 1 seconds
 [convert2xkt] XKT size: 165.06 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.05
-[convert2xkt] Conversion time: 0.69 s
+[convert2xkt] Conversion time: 0.56 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 212

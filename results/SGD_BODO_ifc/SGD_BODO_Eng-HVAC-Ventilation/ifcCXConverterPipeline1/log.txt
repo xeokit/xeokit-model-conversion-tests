@@ -3,12 +3,12 @@
 #
 # Converting file: SGD_BODO_Eng-HVAC-Ventilation.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...VAC-Ventilation.ifc"Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 5%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 6%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 7%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 8%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 9%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 10%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 11%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 12%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 13%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 14%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 15%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 16%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 17%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 18%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 19%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 20%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 21%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 22%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 23%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 24%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 30%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 33%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 36%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 39%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 42%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 45%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 48%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 51%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 54%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 57%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 60%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 63%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 66%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 69%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 72%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 75%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 78%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 81%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 84%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 87%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 100%
@@ -35,7 +35,7 @@ done in 7 seconds
 [convert2xkt] XKT size: 993.72 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.61
-[convert2xkt] Conversion time: 2.77 s
+[convert2xkt] Conversion time: 2.64 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3906

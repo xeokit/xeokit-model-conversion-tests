@@ -3,12 +3,12 @@
 #
 # Converting file: brep-model.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/linux/build/ubuntu/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/brep-model.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/brep-model.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.4 ____________
 Loading file "/home/lindsay/xe...C4.0/brep-model.ifc"Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 6%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 30%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 33%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 37%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 41%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 45%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 49%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 53%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 57%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 61%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 65%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 69%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 73%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 77%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 81%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 85%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 89%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 100%

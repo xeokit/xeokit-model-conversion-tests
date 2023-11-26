@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.4",
-    "conversionDate": "2023-11-22 16:06:53",
+    "conversionDate": "2023-11-26 18:22:06",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing/ifcCXConverterPipeline1/model_1.glb"
@@ -12,7 +12,7 @@
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing/ifcCXConverterPipeline1/model_1.json"
     ],
     "numCreatedGltfMeshes": 4164,
-    "numCreatedMetaObjects": 18698,
+    "numCreatedMetaObjects": 18628,
     "numExportedPropertySetsOrElementQuantities": 2244,
     "modelBoundsMax": [
         81.95999755933595,

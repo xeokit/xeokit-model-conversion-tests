@@ -3,7 +3,7 @@
 #
 # Converting file: LTU_A-House_Heating.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Wed Nov 22 2023 15:53:57 GMT+0100 (Central European Standard Time)
+# Date: Wed Nov 22 2023 23:26:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -37,7 +37,7 @@ done in 16 seconds
 [convert2xkt] XKT size: 5164.47 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.27
-[convert2xkt] Conversion time: 15.15 s
+[convert2xkt] Conversion time: 13.27 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 21959
@@ -64,7 +64,7 @@ done in 16 seconds
 [convert2xkt] XKT size: 870.21 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.73
-[convert2xkt] Conversion time: 1.04 s
+[convert2xkt] Conversion time: 1.02 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 543
