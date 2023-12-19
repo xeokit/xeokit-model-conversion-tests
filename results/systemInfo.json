@@ -1,8 +1,8 @@
 {
 	"version": "5.21.4",
 	"time": {
-		"current": 1701018785082,
-		"uptime": 91989.08,
+		"current": 1702995112657,
+		"uptime": 241458.36,
 		"timezone": "GMT+0100",
 		"timezoneName": "Europe/Berlin"
 	},
@@ -37,19 +37,19 @@
 	},
 	"mem": {
 		"total": 134843944960,
-		"free": 87418060800,
-		"used": 47425884160,
-		"active": 27008065536,
-		"available": 107835879424,
-		"buffers": 1394868224,
-		"cached": 18384052224,
-		"slab": 2662637568,
-		"buffcache": 22441558016,
+		"free": 91446390784,
+		"used": 43397554176,
+		"active": 26373840896,
+		"available": 108470104064,
+		"buffers": 1396858880,
+		"cached": 16173731840,
+		"slab": 1351950336,
+		"buffcache": 18922541056,
 		"swaptotal": 2147479552,
 		"swapused": 0,
 		"swapfree": 2147479552,
 		"writeback": 0,
-		"dirty": 2572288
+		"dirty": 8314880
 	},
 	"graphics": {
 		"controllers": [
@@ -66,17 +66,16 @@
 				"subDeviceId": "0x887C1043",
 				"name": "NVIDIA GeForce RTX 3050",
 				"pciBus": "00000000:2D:00.0",
-				"fanSpeed": 53,
 				"memoryTotal": 7948,
-				"memoryUsed": 1126,
-				"memoryFree": 6822,
-				"utilizationGpu": 6,
-				"utilizationMemory": 3,
-				"temperatureGpu": 46,
-				"powerDraw": 33.9,
+				"memoryUsed": 2003,
+				"memoryFree": 5945,
+				"utilizationGpu": 17,
+				"utilizationMemory": 9,
+				"temperatureGpu": 57,
+				"powerDraw": 29.88,
 				"powerLimit": 130,
-				"clockCore": 630,
-				"clockMemory": 5000
+				"clockCore": 607,
+				"clockMemory": 7000
 			}
 		],
 		"displays": [
@@ -84,7 +83,7 @@
 				"vendor": "",
 				"model": "LG Ultra HD",
 				"deviceName": "",
-				"main": true,
+				"main": false,
 				"builtin": false,
 				"connection": "HDMI-0",
 				"sizeX": 600,
@@ -101,6 +100,23 @@
 			{
 				"vendor": "",
 				"model": "LG Ultra HD",
+				"main": true,
+				"builtin": false,
+				"connection": "DP-0",
+				"sizeX": 600,
+				"sizeY": 340,
+				"pixelDepth": 24,
+				"resolutionX": 3840,
+				"resolutionY": 2160,
+				"currentResX": 3840,
+				"currentResY": 2160,
+				"positionX": 0,
+				"positionY": 0,
+				"currentRefreshRate": 60
+			},
+			{
+				"vendor": "",
+				"model": "LG Ultra HD",
 				"main": false,
 				"builtin": false,
 				"connection": "DP-2",
@@ -109,11 +125,11 @@
 				"pixelDepth": 24,
 				"resolutionX": 3840,
 				"resolutionY": 2160,
-				"currentResX": 2560,
-				"currentResY": 1440,
+				"currentResX": 3840,
+				"currentResY": 2160,
 				"positionX": 0,
 				"positionY": 0,
-				"currentRefreshRate": 59
+				"currentRefreshRate": 60
 			}
 		]
 	},
@@ -122,7 +138,7 @@
 		"distro": "Ubuntu",
 		"release": "22.04.3 LTS",
 		"codename": "Jammy Jellyfish",
-		"kernel": "6.2.0-37-generic",
+		"kernel": "6.2.0-39-generic",
 		"arch": "x64",
 		"hostname": "mousebear",
 		"fqdn": "mousebear",

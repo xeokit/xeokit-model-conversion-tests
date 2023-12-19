@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/MAP.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.4",
-    "conversionDate": "2023-11-26 18:17:15",
+    "converterApplicationVersion": "3.0.6",
+    "conversionDate": "2023-12-19 15:15:27",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/BIMData/MAP/ifcCXConverterPipeline1/model.json"
     ],
-    "numCreatedGltfMeshes": 5561,
+    "numCreatedGltfMeshes": 5331,
     "numCreatedMetaObjects": 2017,
     "numExportedPropertySetsOrElementQuantities": 16954,
     "modelBoundsMax": [

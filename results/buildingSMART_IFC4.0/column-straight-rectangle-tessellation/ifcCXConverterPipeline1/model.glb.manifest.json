@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.4",
-    "conversionDate": "2023-11-26 18:24:14",
+    "converterApplicationVersion": "3.0.6",
+    "conversionDate": "2023-12-19 15:27:05",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/column-straight-rectangle-tessellation/ifcCXConverterPipeline1/model.glb"
     ],

@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.4",
-    "conversionDate": "2023-11-26 18:22:40",
+    "converterApplicationVersion": "3.0.6",
+    "conversionDate": "2023-12-19 15:25:48",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Electrical/ifcCXConverterPipeline1/model.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC2.3/Clinic_Electrical/ifcCXConverterPipeline1/model.json"
     ],
-    "numCreatedGltfMeshes": 6358,
+    "numCreatedGltfMeshes": 6092,
     "numCreatedMetaObjects": 2390,
     "numExportedPropertySetsOrElementQuantities": 15962,
     "modelBoundsMax": [

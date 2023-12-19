@@ -3,14 +3,14 @@
 #
 # Converting file: surface-model.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Sun Nov 26 2023 18:13:05 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_4/build/Release/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/surface-model.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/log.txt
+# ~/xeolabs/xeokit/ifc2gltf/3_0_6/ifc2gltfcxconverter-3.0.6/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/surface-model.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.4 ____________
+__ IFC to GLTF converter __ version: 3.0.6 ____________
 Loading file "/home/lindsay/xe...0/surface-model.ifc"Loading file "/home/lindsay/xe...0/surface-model.ifc": 6%Loading file "/home/lindsay/xe...0/surface-model.ifc": 30%Loading file "/home/lindsay/xe...0/surface-model.ifc": 33%Loading file "/home/lindsay/xe...0/surface-model.ifc": 37%Loading file "/home/lindsay/xe...0/surface-model.ifc": 41%Loading file "/home/lindsay/xe...0/surface-model.ifc": 45%Loading file "/home/lindsay/xe...0/surface-model.ifc": 49%Loading file "/home/lindsay/xe...0/surface-model.ifc": 53%Loading file "/home/lindsay/xe...0/surface-model.ifc": 57%Loading file "/home/lindsay/xe...0/surface-model.ifc": 61%Loading file "/home/lindsay/xe...0/surface-model.ifc": 65%Loading file "/home/lindsay/xe...0/surface-model.ifc": 69%Loading file "/home/lindsay/xe...0/surface-model.ifc": 73%Loading file "/home/lindsay/xe...0/surface-model.ifc": 77%Loading file "/home/lindsay/xe...0/surface-model.ifc": 81%Loading file "/home/lindsay/xe...0/surface-model.ifc": 85%Loading file "/home/lindsay/xe...0/surface-model.ifc": 89%Loading file "/home/lindsay/xe...0/surface-model.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 30%Converting IFC geometry: 60%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 95%Exporting to gltf: 100%
