@@ -3,7 +3,7 @@
 #
 # Converting file: SGD_BODO_Eng-HVAC-Plumbing.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -34,10 +34,10 @@ done in 13 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1230.01 kB
+[convert2xkt] XKT size: 1229.85 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 9.12
-[convert2xkt] Conversion time: 3.25 s
+[convert2xkt] Conversion time: 3.23 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2535
@@ -64,7 +64,7 @@ done in 13 seconds
 [convert2xkt] XKT size: 741.83 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 8.31
-[convert2xkt] Conversion time: 1.72 s
+[convert2xkt] Conversion time: 1.61 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1187

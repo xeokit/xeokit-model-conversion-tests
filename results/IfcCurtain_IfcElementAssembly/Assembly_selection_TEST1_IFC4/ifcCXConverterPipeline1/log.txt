@@ -3,7 +3,7 @@
 #
 # Converting file: Assembly_selection_TEST1_IFC4.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -35,7 +35,7 @@ done in 1 seconds
 [convert2xkt] XKT size: 508.69 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.07
-[convert2xkt] Conversion time: 0.84 s
+[convert2xkt] Conversion time: 0.79 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 524

@@ -1,0 +1,27 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Clinic/Clinic_Plumbing.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.6",
+    "conversionDate": "2023-12-19 17:12:32",
+    "gltfOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_Plumbing/ifcCXConverterPipeline1/model.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_Plumbing/ifcCXConverterPipeline1/model.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_Plumbing/ifcCXConverterPipeline1/model_1.json"
+    ],
+    "numCreatedGltfMeshes": 10203,
+    "numCreatedMetaObjects": 11509,
+    "numExportedPropertySetsOrElementQuantities": 58500,
+    "modelBoundsMax": [
+        0.4347990361710643,
+        57.96081873996157,
+        9.52875
+    ],
+    "modelBoundsMin": [
+        -53.75757441741111,
+        -7.018405914463685,
+        -0.6820279972111987
+    ]
+}

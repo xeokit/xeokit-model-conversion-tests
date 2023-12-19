@@ -3,7 +3,7 @@
 #
 # Converting file: Clinic_MEP_20110906.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -22,7 +22,7 @@ Accessors: 1787, reused: 5806
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 100%
 Accessors: 1502, reused: 3216
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 32 seconds
+done in 30 seconds
 
 
 
@@ -41,7 +41,7 @@ done in 32 seconds
 [convert2xkt] XKT size: 7774.52 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.58
-[convert2xkt] Conversion time: 11.16 s
+[convert2xkt] Conversion time: 11.40 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5323
@@ -95,7 +95,7 @@ done in 32 seconds
 [convert2xkt] XKT size: 5973.03 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.99
-[convert2xkt] Conversion time: 8.30 s
+[convert2xkt] Conversion time: 8.34 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4492
@@ -122,7 +122,7 @@ done in 32 seconds
 [convert2xkt] XKT size: 4734.42 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.13
-[convert2xkt] Conversion time: 6.90 s
+[convert2xkt] Conversion time: 6.88 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3233

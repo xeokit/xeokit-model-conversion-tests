@@ -3,7 +3,7 @@
 #
 # Converting file: LTU_A-House_Cooling.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -18,7 +18,7 @@ Accessors: 3582, reused: 12231
 Exporting meta dataExporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 100%
 Accessors: 1944, reused: 8693
 Exporting meta dataExporting meta data: 100%
-done in 16 seconds
+done in 12 seconds
 
 
 
@@ -37,7 +37,7 @@ done in 16 seconds
 [convert2xkt] XKT size: 4940.56 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.83
-[convert2xkt] Conversion time: 9.12 s
+[convert2xkt] Conversion time: 9.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 12268
@@ -64,7 +64,7 @@ done in 16 seconds
 [convert2xkt] XKT size: 2547.98 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.65
-[convert2xkt] Conversion time: 4.99 s
+[convert2xkt] Conversion time: 4.78 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 8710

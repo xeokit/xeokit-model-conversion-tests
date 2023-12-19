@@ -3,7 +3,7 @@
 #
 # Converting file: eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 

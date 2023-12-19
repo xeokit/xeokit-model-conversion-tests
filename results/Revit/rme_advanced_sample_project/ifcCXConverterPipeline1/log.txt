@@ -3,7 +3,7 @@
 #
 # Converting file: rme_advanced_sample_project.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -24,7 +24,7 @@ done in 8 seconds
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 12423.49 kB
+[convert2xkt] Input file size: 12423.82 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -32,10 +32,10 @@ done in 8 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3839.59 kB
+[convert2xkt] XKT size: 3839.73 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.24
-[convert2xkt] Conversion time: 8.10 s
+[convert2xkt] Conversion time: 8.31 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6401

@@ -3,7 +3,7 @@
 #
 # Converting file: Karhumaki-Bridge.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 15:11:52 GMT+0100 (Central European Standard Time)
+# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
@@ -26,7 +26,7 @@ Accessors: 1697, reused: 3676
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 100%
 Accessors: 1512, reused: 2561
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 100%
-Accessors: 3955, reused: 5520
+Accessors: 3956, reused: 5520
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 100%
 Accessors: 1985, reused: 2092
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%
@@ -40,7 +40,7 @@ done in 15 seconds
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 11781.90 kB
+[convert2xkt] Input file size: 11781.78 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -48,18 +48,18 @@ done in 15 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1691.39 kB
+[convert2xkt] XKT size: 1691.43 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.97
-[convert2xkt] Conversion time: 4.40 s
+[convert2xkt] Conversion time: 4.78 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1467
 [convert2xkt] Converted geometries: 4019
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 550580
-[convert2xkt] Converted vertices: 1651740
+[convert2xkt] Converted triangles: 550577
+[convert2xkt] Converted vertices: 1651731
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1
@@ -78,7 +78,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 572.98 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 19.76
-[convert2xkt] Conversion time: 2.44 s
+[convert2xkt] Conversion time: 2.54 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 56
@@ -105,7 +105,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 577.76 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 19.77
-[convert2xkt] Conversion time: 2.44 s
+[convert2xkt] Conversion time: 2.35 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 172
@@ -132,7 +132,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 678.55 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 16.02
-[convert2xkt] Conversion time: 2.90 s
+[convert2xkt] Conversion time: 3.25 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 460
@@ -186,7 +186,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 1078.84 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 10.40
-[convert2xkt] Conversion time: 3.57 s
+[convert2xkt] Conversion time: 3.49 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 539
@@ -202,7 +202,7 @@ done in 15 seconds
 [convert2xkt] Writing XKT file: results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_5.xkt
 [convert2xkt] Converted model6.xkt (6 of 9)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_6.glb
-[convert2xkt] Input file size: 12212.28 kB
+[convert2xkt] Input file size: 12214.63 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_6.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -210,18 +210,18 @@ done in 15 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1044.15 kB
+[convert2xkt] XKT size: 1044.32 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 11.70
-[convert2xkt] Conversion time: 3.52 s
+[convert2xkt] Conversion time: 3.44 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1501
 [convert2xkt] Converted geometries: 5558
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 403026
-[convert2xkt] Converted vertices: 1209078
+[convert2xkt] Converted triangles: 403025
+[convert2xkt] Converted vertices: 1209075
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1
@@ -240,7 +240,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 581.74 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 18.82
-[convert2xkt] Conversion time: 2.47 s
+[convert2xkt] Conversion time: 2.63 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 108
@@ -267,7 +267,7 @@ done in 15 seconds
 [convert2xkt] XKT size: 731.65 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 12.90
-[convert2xkt] Conversion time: 2.33 s
+[convert2xkt] Conversion time: 2.48 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 228
