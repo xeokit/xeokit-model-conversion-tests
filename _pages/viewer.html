@@ -488,6 +488,7 @@
         .then((_summary) => {
             summary = _summary;
             enableLoadButtons();
+            loadSplitXKT('ifcCXConverterPipeline1');
         }).catch(err => console.error(err));
 
 
@@ -534,6 +535,8 @@
     }
 
     document.getElementById('isolateButton').addEventListener('click', doIsolate);
+
+
 
 
     window.viewer = viewer;
