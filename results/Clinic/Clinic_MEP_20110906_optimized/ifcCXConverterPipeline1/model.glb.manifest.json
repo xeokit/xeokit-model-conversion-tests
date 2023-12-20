@@ -1,22 +1,18 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Clinic/Clinic_MEP_20110906_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.6",
-    "conversionDate": "2023-12-19 17:11:29",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-20 11:57:10",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_1.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_2.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_3.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_1.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_1.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_2.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_3.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/model_1.json"
     ],
-    "numCreatedGltfMeshes": 18383,
-    "numCreatedMetaObjects": 44080,
+    "numCreatedGltfMeshes": 18385,
+    "numCreatedMetaObjects": 30493,
     "numExportedPropertySetsOrElementQuantities": 111260,
     "modelBoundsMax": [
         0.4347990361710643,
@@ -24,7 +20,7 @@
         13.250000000004665
     ],
     "modelBoundsMin": [
-        -54.842066221295,
+        -54.84206622129499,
         -7.018405914463685,
         -0.684137500000011
     ]

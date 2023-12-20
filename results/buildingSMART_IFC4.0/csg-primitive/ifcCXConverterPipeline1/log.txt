@@ -3,14 +3,15 @@
 #
 # Converting file: csg-primitive.ifc
 # Using tools: ifc2gltf and convert2xkt
-# Date: Tue Dec 19 2023 17:07:32 GMT+0100 (Central European Standard Time)
+# Date: Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)
 #----------------------------------------------------------------------------
 
 
 
-# ~/xeolabs/xeokit/ifc2gltf/3_0_6/ifc2gltfcxconverter-3.0.6/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/csg-primitive.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/log.txt
+# /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/csg-primitive.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.6 ____________
+__ IFC to GLTF converter __ version: 3.0.7 ____________
+Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...0/csg-primitive.ifc"Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 6%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 30%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 33%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 36%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 39%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 42%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 46%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 49%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 52%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 55%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 59%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 62%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 65%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 68%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 72%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 75%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 78%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 81%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 85%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 88%Loading file "/home/lindsay/xe...0/csg-primitive.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 30%Converting IFC geometry: 60%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 65%Exporting to gltf: 80%Exporting to gltf: 95%Exporting to gltf: 100%
@@ -24,7 +25,7 @@ done in 1 seconds
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 1.72 kB
+[convert2xkt] Input file size: 1.38 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -32,9 +33,9 @@ done in 1 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 0.85 kB
+[convert2xkt] XKT size: 0.86 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.02
+[convert2xkt] Compression ratio: 1.61
 [convert2xkt] Conversion time: 0.03 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
@@ -43,7 +44,7 @@ done in 1 seconds
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 12
-[convert2xkt] Converted vertices: 36
+[convert2xkt] Converted vertices: 8
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1

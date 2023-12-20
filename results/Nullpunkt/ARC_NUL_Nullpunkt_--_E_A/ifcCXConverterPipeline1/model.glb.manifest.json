@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.6",
-    "conversionDate": "2023-12-19 17:22:18",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-20 12:09:49",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A/ifcCXConverterPipeline1/model.glb"
     ],

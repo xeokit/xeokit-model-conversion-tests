@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Clinic/Clinic_S_20110715_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.6",
-    "conversionDate": "2023-12-19 17:13:12",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-20 11:59:26",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Clinic/Clinic_S_20110715_optimized/ifcCXConverterPipeline1/model.glb"
     ],
