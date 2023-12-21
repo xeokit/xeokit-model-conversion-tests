@@ -1,8 +1,8 @@
 {
 	"version": "5.21.4",
 	"time": {
-		"current": 1703069571930,
-		"uptime": 1149.02,
+		"current": 1703122314381,
+		"uptime": 53891.47,
 		"timezone": "GMT+0100",
 		"timezoneName": "Europe/Berlin"
 	},
@@ -37,19 +37,19 @@
 	},
 	"mem": {
 		"total": 134843949056,
-		"free": 118225698816,
-		"used": 16618250240,
-		"active": 14084759552,
-		"available": 120759189504,
-		"buffers": 236978176,
-		"cached": 3179311104,
-		"slab": 530989056,
-		"buffcache": 3947278336,
+		"free": 81713238016,
+		"used": 53130711040,
+		"active": 34684366848,
+		"available": 100159582208,
+		"buffers": 1440288768,
+		"cached": 16519962624,
+		"slab": 2468683776,
+		"buffcache": 20428935168,
 		"swaptotal": 2147479552,
 		"swapused": 0,
 		"swapfree": 2147479552,
 		"writeback": 0,
-		"dirty": 6983680
+		"dirty": 26173440
 	},
 	"graphics": {
 		"controllers": [
@@ -66,15 +66,16 @@
 				"subDeviceId": "0x887C1043",
 				"name": "NVIDIA GeForce RTX 3050",
 				"pciBus": "00000000:2D:00.0",
+				"fanSpeed": 53,
 				"memoryTotal": 7948,
-				"memoryUsed": 1436,
-				"memoryFree": 6512,
-				"utilizationGpu": 12,
+				"memoryUsed": 2307,
+				"memoryFree": 5641,
+				"utilizationGpu": 22,
 				"utilizationMemory": 8,
-				"temperatureGpu": 49,
-				"powerDraw": 28.03,
+				"temperatureGpu": 46,
+				"powerDraw": 27.33,
 				"powerLimit": 130,
-				"clockCore": 840,
+				"clockCore": 345,
 				"clockMemory": 7000
 			}
 		],
