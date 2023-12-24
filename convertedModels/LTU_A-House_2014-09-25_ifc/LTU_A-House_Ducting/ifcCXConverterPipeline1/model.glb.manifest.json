@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 17:04:30",
+    "gltfOutFiles": [
+        "convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting/ifcCXConverterPipeline1/model.json"
+    ],
+    "numCreatedGltfMeshes": 4067,
+    "numCreatedMetaObjects": 4073,
+    "numExportedPropertySetsOrElementQuantities": 914,
+    "modelBoundsMax": [
+        140.70000000000002,
+        61.49772281,
+        13.149000000000001
+    ],
+    "modelBoundsMin": [
+        -21.950000000000017,
+        -57.06684335000001,
+        1.5999999999999996
+    ]
+}

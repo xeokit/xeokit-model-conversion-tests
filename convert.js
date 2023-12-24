@@ -6,17 +6,20 @@ const axios = require('axios');
 
 const {ChartJSNodeCanvas} = require('chartjs-node-canvas');
 
-const inputFilesDir = "./inputFiles/";
-const resultsDir = "./results/";
+const puppeteer = require('puppeteer');
 
 const configsData = fs.readFileSync("./convertconfig.json");
 const configs = JSON.parse(configsData);
+
+const inputFilesDir = "./inputFiles/";
+const convertedModelsDir = "./convertedModels/";
 
 const ifcSizes = {};
 const xktSizes = {};
 const conversionTimes = {};
 const ifcAttributionPaths = {};
 const errors = {};
+
 
 (async () => {
     try {
@@ -52,6 +55,9 @@ const errors = {};
             }
         }
 
+        // const browser = await puppeteer.launch({ headless: false });
+        // const browserPage = await browser.newPage();
+
         const xeokitVersion = await fetchPackageVersion('@xeokit/xeokit-sdk');
         const xeokitConvertVersion = await fetchPackageVersion('@xeokit/xeokit-convert');
         const cxConvertVersion = await getLatestReleaseVersion("Creoox", "creoox-ifc2gltfcxconverter");
@@ -80,7 +86,7 @@ const errors = {};
             "ifc2gltfTileSize":"${configs.ifc2gltf.options.t}"
             })`);
 
-        fs.writeFileSync("./results/systemInfo.json", JSON.stringify(systemInfo, null, "\t"), {encoding: 'utf8'});
+        fs.writeFileSync(`${convertedModelsDir}/systemInfo.json`, JSON.stringify(systemInfo, null, "\t"), {encoding: 'utf8'});
 
         fs.writeFileSync("./_includes/systemInfo.html",
             `@@include('../_includes/systemInfoCard.html', { 
@@ -112,7 +118,7 @@ const errors = {};
 
             if (isDir) {
                 console.log("Converting batch: " + inputBatchDirPath);
-                const outputBatchDirPath = path.join(resultsDir, inputBatchDir);
+                const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
                 if (fs.existsSync(outputBatchDirPath)) {
                     fs.rmSync(outputBatchDirPath, {recursive: true, force: true});
                 }
@@ -134,41 +140,38 @@ const errors = {};
                     console.log("Converting file: " + inputFile);
 
                     const inputFileName = path.parse(inputFile).name;
-                    const inputFilePath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
-                    const modelResultsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
-                    const modelOutPath = `${modelResultsDirPath}/ifcCXConverterPipeline1`;
-                    const glbPath = path.join(modelOutPath, `model.glb`);
-                    const glbPathAbs = `${__dirname}/${glbPath}`;
-                    const jsonPath = path.join(modelOutPath, `model.json`);
-                    const jsonPathAbs = `${__dirname}/${jsonPath}`;
-                    const xktEnterprise1Path = path.join(modelOutPath, `model.xkt`);
-                    const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
-                    const logEnterprise1Path = path.join(modelOutPath, `log.txt`);
-                    const logPath = `${__dirname}/${logEnterprise1Path}`;
+                    const ifcInputPath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
+                    const modelConvertedModelsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
+                    const modelOutPath = `${modelConvertedModelsDirPath}/ifcCXConverterPipeline1`;
+
+                    const glbOutputPath = path.join(modelOutPath, `model.glb`);
+                    const jsonOutputPath = path.join(modelOutPath, `model.json`);
+                    const logPath = path.join(modelOutPath, `log.txt`);
+
                     const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
                     const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
 
-                    if (fs.existsSync(modelResultsDirPath)) {
-                        fs.rmSync(modelResultsDirPath, {recursive: true, force: true});
+                    if (fs.existsSync(modelConvertedModelsDirPath)) {
+                        fs.rmSync(modelConvertedModelsDirPath, {recursive: true, force: true});
                     }
 
-                    fs.mkdirSync(modelResultsDirPath);
+                    fs.mkdirSync(modelConvertedModelsDirPath);
                     fs.mkdirSync(modelOutPath);
 
-                    ifcSizes[inputFilePath] = (getFileSize(inputFilePath) / 1000000).toFixed(4);
+                    ifcSizes[ifcInputPath] = (getFileSize(ifcInputPath) / 1000000).toFixed(4);
 
                     const startTime = performance.now();
 
                     try {
                         const ifc2gltfCmd = `${configs.ifc2gltf.path} \
-                        -i ${inputFilePath} \
-                        -o ${glbPathAbs} \
-                        -m ${jsonPathAbs} \
+                        -i ${ifcInputPath} \
+                        -o ${glbOutputPath} \
+                        -m ${jsonOutputPath} \
                         -s ${configs.ifc2gltf.options.s} \
                         -t ${configs.ifc2gltf.options.t} \
                         -e 3 >> ${logPath}`;
 
-                        fs.appendFileSync(logEnterprise1Path, ifc2gltfCmd + "\n");
+                        fs.appendFileSync(logPath, ifc2gltfCmd + "\n");
 
                         execSync(ifc2gltfCmd, {stdio: 'inherit'});
 
@@ -179,22 +182,22 @@ const errors = {};
                         -o ${xktManifestPath} \
                         -l >> ${logPath}`;
 
-                        fs.appendFileSync(logEnterprise1Path, convert2xktCmd + "\n\n");
+                        fs.appendFileSync(logPath, convert2xktCmd + "\n\n");
 
                         execSync(convert2xktCmd, {stdio: 'inherit'});
 
-                        xktSizes[inputFilePath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
+                        xktSizes[ifcInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
 
-                        console.log("xktSize = " + xktSizes[inputFilePath])
+                        console.log("xktSize = " + xktSizes[ifcInputPath])
                     } catch (e) {
-                        xktSizes[inputFilePath] = 0;
-                        errors[inputFilePath] = e;
+                        xktSizes[ifcInputPath] = 0;
+                        errors[ifcInputPath] = e;
                     }
 
                     const endTime = performance.now();
-                    conversionTimes[inputFilePath] = ((endTime - startTime) / 1000).toFixed(2);
+                    conversionTimes[ifcInputPath] = ((endTime - startTime) / 1000).toFixed(2);
 
-                    ifcAttributionPaths[inputFilePath] = attributionData.link;
+                    ifcAttributionPaths[ifcInputPath] = attributionData.link;
                 }
             }
         }
@@ -241,7 +244,7 @@ const errors = {};
                         <div class="row">
                             <div class="col-lg-12">
                                 <table class="table table-sm table-hover  table-bordered mb-0">
-                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>IFC File</th><th style="text-align:right;">IFC Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="2">View Results</th></tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>IFC File</th><th style="text-align:right;">IFC Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="3">Converted XKT</th></tr>
                                 <tbody>`);
 
         for (const inputBatchDir of inputBatchDirs) { // BIMData, IfcOpenShell etc
@@ -251,8 +254,8 @@ const errors = {};
             const inputBatchDirPath = path.join(inputFilesDir, inputBatchDir);
             const isDir = fs.lstatSync(inputBatchDirPath).isDirectory();
             if (isDir) {
-                const outputBatchDirPath = path.join(resultsDir, inputBatchDir);
-                conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="2"></td></tr>`);
+                const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
+                conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="3"></td></tr>`);
                 const inputFiles = await fs.promises.readdir(inputBatchDirPath);
                 for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
                     const ext = inputFile.split('.').pop();
@@ -261,9 +264,9 @@ const errors = {};
                     }
                     console.log("Converting file: " + inputFile);
                     const inputFileName = path.parse(inputFile).name;
-                    const inputFilePath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
-                    const modelResultsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
-                    const community1Path = `${modelResultsDirPath}/ifcCommunityPipeline1`;
+                    const ifcInputPath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
+                    const modelConvertedModelsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
+                    const community1Path = `${modelConvertedModelsDirPath}/ifcCommunityPipeline1`;
                     const glbCommunity1Path = path.join(community1Path, `model.glb`);
                     const glbCommunity1PathAbs = `${__dirname}/${glbCommunity1Path}`;
                     const jsonCommunity1Path = path.join(community1Path, `model.json`);
@@ -275,11 +278,11 @@ const errors = {};
                     const summaryCommunity1Path = path.join(community1Path, `summary.json`);
                     const summaryCommunity1PathAbs = `${__dirname}/${summaryCommunity1Path}`;
 
-                    const modelOutPath = `${modelResultsDirPath}/ifcCXConverterPipeline1`;
-                    const glbPath = path.join(modelOutPath, `model.glb`);
-                    const glbPathAbs = `${__dirname}/${glbPath}`;
-                    const jsonPath = path.join(modelOutPath, `model.json`);
-                    const jsonPathAbs = `${__dirname}/${jsonPath}`;
+                    const modelOutPath = `${modelConvertedModelsDirPath}/ifcCXConverterPipeline1`;
+                    const glbOutputPath = path.join(modelOutPath, `model.glb`);
+                    const glbOutputPathAbs = `${__dirname}/${glbOutputPath}`;
+                    const jsonOutputPath = path.join(modelOutPath, `model.json`);
+                    const jsonOutputPathAbs = `${__dirname}/${jsonOutputPath}`;
                     const xktEnterprise1Path = path.join(modelOutPath, `model.xkt`);
                     const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
                     const logEnterprise1Path = path.join(modelOutPath, `log.txt`);
@@ -287,17 +290,19 @@ const errors = {};
                     const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
                     const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
 
-                    if (errors[inputFilePath]) {
+                    if (errors[ifcInputPath]) {
                         // TODO
                     } else {
+
                         conversionResultsHTML.push(`@@include('../_includes/modelConversionResults.html', { 
                             "batchId": "${inputBatchDir}", 
                             "modelId": "${inputFileName}", 
-                            "sourceFileSize": "${ifcSizes[inputFilePath]}", 
-                            "xktFileSize":"${xktSizes[inputFilePath]}", 
-                            "conversionTime": "${conversionTimes[inputFilePath]}",
-                            "attributionPath": "${ifcAttributionPaths[inputFilePath]}",
-                            "logPath": "./results/${inputBatchDir}/${inputFileName}/ifcCXConverterPipeline1/log.txt"
+                            "sourceFileSize": "${ifcSizes[ifcInputPath]}", 
+                            "xktFileSize":"${xktSizes[ifcInputPath]}", 
+                            "conversionTime": "${conversionTimes[ifcInputPath]}",
+                            "attributionPath": "${ifcAttributionPaths[ifcInputPath]}",
+                            "logPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/ifcCXConverterPipeline1/log.txt",
+                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/ifcCXConverterPipeline1/model.xkt.manifest.json"
                         })`);
                     }
                 }

@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Revit/Duplex.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 17:09:33",
+    "gltfOutFiles": [
+        "convertedModels/Revit/Duplex/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/Revit/Duplex/ifcCXConverterPipeline1/model.json"
+    ],
+    "numCreatedGltfMeshes": 405,
+    "numCreatedMetaObjects": 233,
+    "numExportedPropertySetsOrElementQuantities": 1387,
+    "modelBoundsMax": [
+        17.491499999999988,
+        2.8139435602124365,
+        6.634800000000003
+    ],
+    "modelBoundsMin": [
+        -8.691499999999987,
+        -20.613943560212455,
+        -1.5499999999999998
+    ]
+}

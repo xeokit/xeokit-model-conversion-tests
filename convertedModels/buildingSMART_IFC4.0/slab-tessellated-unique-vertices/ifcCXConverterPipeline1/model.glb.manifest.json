@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/slab-tessellated-unique-vertices.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 17:21:13",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/slab-tessellated-unique-vertices/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/slab-tessellated-unique-vertices/ifcCXConverterPipeline1/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        10.0,
+        8.66025352478027,
+        0.0
+    ],
+    "modelBoundsMin": [
+        -10.0,
+        -8.66025352478027,
+        -0.300000011920929
+    ]
+}

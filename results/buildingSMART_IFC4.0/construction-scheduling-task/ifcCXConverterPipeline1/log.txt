@@ -1,43 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/construction-scheduling-task.ifc                         -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.glb                         -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/log.txt
-
-__ IFC to GLTF converter __ version: 3.0.7 ____________
-Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...scheduling-task.ifc"Loading file "/home/lindsay/xe...scheduling-task.ifc": 5%Loading file "/home/lindsay/xe...scheduling-task.ifc": 10%Loading file "/home/lindsay/xe...scheduling-task.ifc": 15%Loading file "/home/lindsay/xe...scheduling-task.ifc": 30%Loading file "/home/lindsay/xe...scheduling-task.ifc": 33%Loading file "/home/lindsay/xe...scheduling-task.ifc": 36%Loading file "/home/lindsay/xe...scheduling-task.ifc": 39%Loading file "/home/lindsay/xe...scheduling-task.ifc": 42%Loading file "/home/lindsay/xe...scheduling-task.ifc": 45%Loading file "/home/lindsay/xe...scheduling-task.ifc": 49%Loading file "/home/lindsay/xe...scheduling-task.ifc": 52%Loading file "/home/lindsay/xe...scheduling-task.ifc": 55%Loading file "/home/lindsay/xe...scheduling-task.ifc": 58%Loading file "/home/lindsay/xe...scheduling-task.ifc": 61%Loading file "/home/lindsay/xe...scheduling-task.ifc": 65%Loading file "/home/lindsay/xe...scheduling-task.ifc": 68%Loading file "/home/lindsay/xe...scheduling-task.ifc": 71%Loading file "/home/lindsay/xe...scheduling-task.ifc": 74%Loading file "/home/lindsay/xe...scheduling-task.ifc": 77%Loading file "/home/lindsay/xe...scheduling-task.ifc": 80%Loading file "/home/lindsay/xe...scheduling-task.ifc": 84%Loading file "/home/lindsay/xe...scheduling-task.ifc": 87%Loading file "/home/lindsay/xe...scheduling-task.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 9%Converting IFC geometry: 14%Converting IFC geometry: 18%Converting IFC geometry: 23%Converting IFC geometry: 28%Converting IFC geometry: 33%Converting IFC geometry: 37%Converting IFC geometry: 42%Converting IFC geometry: 47%Converting IFC geometry: 52%Converting IFC geometry: 56%Converting IFC geometry: 61%Converting IFC geometry: 66%Converting IFC geometry: 71%Converting IFC geometry: 75%Converting IFC geometry: 80%Converting IFC geometry: 85%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 61%Exporting to gltf: 64%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 100%
-Accessors: 4, reused: 4
-Exporting meta dataExporting meta data: 100%
-done in 1 seconds
-
-node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.glb.manifest.json                         -o results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.xkt.manifest.json                         -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.11...
-[convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.glb.manifest.json...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 2.91 kB
-[convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1.24 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.34
-[convert2xkt] Conversion time: 0.03 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 4
-[convert2xkt] Converted geometries: 5
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 60
-[convert2xkt] Converted vertices: 40
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Number of tiles: 1
-[convert2xkt] minTileSize: 500
-[convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/reinforcing-assembly.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 17:21:10",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/reinforcing-assembly/ifcCXConverterPipeline1/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/reinforcing-assembly/ifcCXConverterPipeline1/model.json"
+    ],
+    "numCreatedGltfMeshes": 35,
+    "numCreatedMetaObjects": 38,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.1,
+        4.992909924696856,
+        2.3
+    ],
+    "modelBoundsMin": [
+        -0.1,
+        0.01899999999999924,
+        -2.7
+    ]
+}

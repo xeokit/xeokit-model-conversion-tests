@@ -13,7 +13,7 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
-                <h1 class="text-white mt-5 mb-2">CxConverter Pipeline #1 Tests</h1>
+                <h1 class="text-white mt-5 mb-2">CxConverter Pipeline #1</h1>
                 <p class="lead mb-5 text-white">Check the health of our IFC file conversion tools</p>
             </div>
         </div>
@@ -34,28 +34,27 @@
         <!--        </div>-->
         <div class="row">
             <div class="col-12 mx-auto left-text">
-                <p>The xeokit SDK allows us to load large, full-precision IFC models over the Web in seconds and view
-                    them in the browser. To do that, we use our CLI tools to pre-convert the IFC models to xeokit's
-                    compact
-                    and fast-loading native XKT
-                    format.</p>
-                <p>Periodically, we test the latest versions of our conversion tools with xeokit's
-                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a>, which
-                    batch-converts a set of selected IFC test models. That
-                    generates test results, which you can find at the
-                    bottom of this page. In this page
-                    we also provide comprehensive details on how we run the tests, and the system on which we run them,
-                    which can help you to set up your own IFC conversion pipeline for xeokit.
-                </p>
+                <p>The xeokit SDK empowers us to quickly load large, full-precision IFC models on the Web, enabling
+                    seamless browser viewing within seconds. To achieve this, we use our CLI tools to
+                    pre-convert IFC models into xeokit's efficient and fast-loading native XKT format.</p>
+
+                <p>We routinely validate the effectiveness of our conversion tools through tests with xeokit's
+                    conversion test suite. This suite performs batch conversions on a selected set of IFC
+                    models, resulting in the XKT models listed in the "Converted IFC Models" section below.</p>
+                <p>In this page, you'll also find
+                    detailed information on how we configure and execute the conversion process, providing
+                    insights for establishing your own IFC conversion pipeline with xeokit.</p>
+
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-12 mx-auto" style=" justify-content: center; align-items:center">
                 <div style="width:300px; margin: auto;">
                     <ul>
-                        <li><a href="#systemInfo">System Configuration</a></li>
-                        <li><a href="#testMethod">Pipeline Setup</a></li>
-                        <li><a href="#testResults">Test Results</a></li>
+                        <li><a href="#testResults">Converted IFC Models</a></li>
+                        <li><a href="#systemInfo">Conversion System Configuration</a></li>
+                        <li><a href="#testMethod">Conversion Pipeline Setup</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -63,19 +62,41 @@
     </div>
 </section>
 
+<section id="testResults" class="test-results-section">
+    <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Converted IFC Models</h1>
+            </div>
+        </div>
+        <div class="row  left-text">
+            <div class="col-lg-12">
+                <p>In the table below are the results from our most recent IFC conversion run. On the far right, select "View" to
+                    observe the converted model in a xeokit web viewer. Choose "Log" to inspect the conversion log
+                    associated with that model. Additionally, "Link" provides a link through which you can hot-load the
+                    converted model into a xeokit web viewer.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include('../_includes/conversionResults.html')
+
+<br><br><br>
 
 <section id="systemInfo" class="system-info-section">
     <div class="container pt-0 pb-0">
 
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>System Configuration</h1>
+                <h1>Conversion System Configuration</h1>
             </div>
         </div>
 
         <div class="row testimonial-row left-text">
             <div class="col-lg-12">
-                <p>We're running our tests on a fairly well-specced system, which keeps the office cat warm on a cold
+                <p>We're running our converter on a fairly well-specced system, which keeps the office cat warm on a
+                    cold
                     day. Below is a summary of our system
                     specifications, along with the versions of the CLI converter tools and xeokit SDK we used. In this
                     case,
@@ -106,12 +127,11 @@
     <div class="container pt-6 pb-0">
         <div class="row center-text mb-5">
             <div class="col-lg-12">
-                <h1> Pipeline Setup</h1>
+                <h1>Conversion Pipeline Setup</h1>
             </div>
         </div>
         <div class="row  mb-5">
             <div class="col-12 mx-auto left-text">
-
 
                 <p>We ran our converter tools on each IFC file in our test collection using the CLI commands shown
                     below.
@@ -173,40 +193,6 @@
     </div>
 </section>
 
-<section id="testResults" class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row testimonial-row center-text">
-            <div class="col-lg-12">
-                <h1>Test Results</h1>
-            </div>
-        </div>
-        <div class="row  left-text">
-            <div class="col-lg-12">
-                <p>Below are the results of our latest conversion test run. Click the XKT links on the right to view the
-                    results for each IFC conversion in a xeokit web viewer.
-                    Click the Log links to view the output that was logged by the converter tools while processing
-                    the IFC.</p>
-                <p>Notice how fast those XKT files load - much faster than if we were parsing IFC in the web viewer
-                    itself. Also note how much smaller the XKT files are than the IFC.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--<section class="test-results-section">-->
-<!--    <div class="container pt-6 pb-0">-->
-<!--        <div class="row testimonial-row center-text">-->
-<!--            <div class="col-lg-12">-->
-<!--                <img src="./graph.png">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-
-@@include('../_includes/conversionResults.html')
-
-<br><br><br>
 
 @@include('../_includes/footer.html')
 
