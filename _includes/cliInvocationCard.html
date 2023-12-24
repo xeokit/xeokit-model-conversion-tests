@@ -1,15 +1,18 @@
-<p>First, we convert each IFC file using our <code>ifc2gltfcxconverter</code> tool. Contact us <a
+<p>The <code>ifc2gltfcxconverter</code> tool is the first stage of our pipeline and converts IFC into
+    glTF and JSON-encoded IFC metadata. Contact us <a
         href="https://xeokit.io/for-business">here</a> if you would like to evaluate this tool.</p>
 
 <pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">ifc2gltfcxconverter -i model.ifc -o model.glb -m model.json -s @@ifc2gltfFileSize -t @@ifc2gltfTileSize -e 3
 </pre>
 
-<p>This creates a set of <code>glb</code> and JSON files that contain the IFC geometry and metadata, along with a JSON manifest that
+<p>This creates a set of <code>glb</code> and JSON files that contain the IFC geometry and metadata, along with a JSON
+    manifest that
     lists them, as shown below. The
-    tool splits the IFC into a
-    set of files like this so that they are processed more reliably by the next step, and ulltimately loaded more reliably into
+    tool splits the IFC into multiple files like this so that they may be processed more reliably by the next step, and ulltimately loaded more
+    reliably into
     xeokit's browser-based viewer.</p>
-<p>Note the tool's <code>-s</code> option, which specifies that output <code>glb</code> files should be a maximum of <code>@@ifc2gltfFileSize</code>Mb
+<p>Note the tool's <code>-s</code> option, which specifies that output <code>glb</code> files should be a maximum of
+    <code>@@ifc2gltfFileSize</code>Mb
     each, in this case. Also, the <code>-t</code> option splits the 3D geometry coordinates into tiled regions of size
     <code>@@ifc2gltfFileSize x @@ifc2gltfFileSize x @@ifc2gltfFileSize</code>. That enables
     the xeokit viewer to render the geometry accurately without rounding jitter. </p>
@@ -27,7 +30,11 @@
 └── model.json
 </pre>
 
-<p>Next, we process that manifest using <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a>. This is a
+<h2 style="margin-bottom: 1em">convert2xkt</h2>
+
+<p>The <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> tool is the second stage of our pipeline, and
+    converts glTF into XKT,
+    which we can view in the browser with xeokit. This is a
     NodeJS-based CLI tool often needs us to allocate it some extra memory. Thanks to splitting our files, our NodeJS
     process is not overwhelmed by any memory stress!</p>
 
@@ -35,7 +42,8 @@
 node --max-old-space-size=14000 convert2xkt -n -a model.glb.manifest.json -o model.xkt.manifest.json</pre>
 
 <p>That converts the <code>glb</code> and JSON files into a set of XKT files, along with a JSON manifest that
-    lists them, as shown below. XKT is xeokit's web-friendly native binary model format, designed to load quickly into its web viewer.
+    lists them, as shown below. XKT is xeokit's web-friendly native binary model format, designed to load quickly into
+    its web viewer.
 </p>
 
 <pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
