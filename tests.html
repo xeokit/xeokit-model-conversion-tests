@@ -101,12 +101,14 @@
         <!--        </div>-->
         <div class="row">
             <div class="col-12 mx-auto left-text">
-                <p>Periodically, we run our
-                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to
-                    batch-convert our set of IFC test models through the latest versions of xeokit's IFC conversion
-                    tools. That
+                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view
+                    them in the browser. To do that, we use our CLI tools to pre-convert our models to xeokit's fast-loading native XKT
+                    format.</p>
+                <p>Periodically, we test the latest versions of our conversion tools with xeokit's
+                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a>, which
+                    batch-converts a set of selected IFC test models. That
                     generates test results, which you can find at the
-                    bottom of this page, so that you can quickly check to see if the tools are working OK. In this page
+                    bottom of this page. In this page
                     we also provide comprehensive details on how we run the tests, and the system on which we run them,
                     which can help you to set up your own IFC conversion pipeline for xeokit.
                 </p>
@@ -228,7 +230,7 @@
                 <p>We ran our converter tools on each IFC file in our test collection using the CLI commands shown
                     below.
                     For each IFC file, we substitute "model" with the name of that file.</p>
-<br>
+                <br>
                 <h2 style="margin-bottom: 1em">ifc2gltfcxconverter</h2>
 
                 <p>The <code>ifc2gltfcxconverter</code> tool is the first stage of our pipeline and converts IFC into
