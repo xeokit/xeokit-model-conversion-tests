@@ -72,8 +72,6 @@
         }
     }
 
-    const xeokitVersion = await getXeokitVersion();
-
     const reqParams = getRequestParams();
 
     const batchId = reqParams.batchId;
@@ -106,9 +104,9 @@
     //                     </tr>
     //                     </tbody>
     //                 </table>
-    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3">${modelId}</h1>
+    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1>
 
-    <a  class="pl-3" href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt">Conversion Log</a>
+    <a class="pl-3" href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt">Conversion Log</a>
     <br><br>
 
 `;
