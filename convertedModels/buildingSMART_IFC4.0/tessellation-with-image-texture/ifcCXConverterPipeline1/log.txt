@@ -1,43 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc                         -o convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.glb                         -m convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/log.txt
-
-__ IFC to GLTF converter __ version: 3.0.7 ____________
-Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...h-image-texture.ifc"Loading file "/home/lindsay/xe...h-image-texture.ifc": 5%Loading file "/home/lindsay/xe...h-image-texture.ifc": 10%Loading file "/home/lindsay/xe...h-image-texture.ifc": 14%Loading file "/home/lindsay/xe...h-image-texture.ifc": 30%Loading file "/home/lindsay/xe...h-image-texture.ifc": 33%Loading file "/home/lindsay/xe...h-image-texture.ifc": 36%Loading file "/home/lindsay/xe...h-image-texture.ifc": 39%Loading file "/home/lindsay/xe...h-image-texture.ifc": 42%Loading file "/home/lindsay/xe...h-image-texture.ifc": 45%Loading file "/home/lindsay/xe...h-image-texture.ifc": 48%Loading file "/home/lindsay/xe...h-image-texture.ifc": 51%Loading file "/home/lindsay/xe...h-image-texture.ifc": 55%Loading file "/home/lindsay/xe...h-image-texture.ifc": 58%Loading file "/home/lindsay/xe...h-image-texture.ifc": 61%Loading file "/home/lindsay/xe...h-image-texture.ifc": 64%Loading file "/home/lindsay/xe...h-image-texture.ifc": 67%Loading file "/home/lindsay/xe...h-image-texture.ifc": 70%Loading file "/home/lindsay/xe...h-image-texture.ifc": 73%Loading file "/home/lindsay/xe...h-image-texture.ifc": 76%Loading file "/home/lindsay/xe...h-image-texture.ifc": 80%Loading file "/home/lindsay/xe...h-image-texture.ifc": 83%Loading file "/home/lindsay/xe...h-image-texture.ifc": 86%Loading file "/home/lindsay/xe...h-image-texture.ifc": 89%Loading file "/home/lindsay/xe...h-image-texture.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 22%Converting IFC geometry: 45%Converting IFC geometry: 67%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 61%Exporting to gltf: 72%Exporting to gltf: 83%Exporting to gltf: 100%
-Accessors: 2, reused: 0
-Exporting meta dataExporting meta data: 100%
-done in 1 seconds
-
-node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.glb.manifest.json                         -o convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.xkt.manifest.json                         -l >> convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.11...
-[convert2xkt] Converting glTF files in manifest convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.glb.manifest.json...
-[convert2xkt] Reading input file: convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.glb
-[convert2xkt] Input file size: 2.45 kB
-[convert2xkt] Reading input metadata file: convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1.13 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.16
-[convert2xkt] Conversion time: 0.03 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1
-[convert2xkt] Converted geometries: 1
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 64
-[convert2xkt] Converted vertices: 34
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Number of tiles: 1
-[convert2xkt] minTileSize: 500
-[convert2xkt] Writing XKT file: convertedModels/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

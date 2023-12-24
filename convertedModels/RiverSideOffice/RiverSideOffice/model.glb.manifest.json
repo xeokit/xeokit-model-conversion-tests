@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/RiverSideOffice/RiverSideOffice.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 20:01:13",
+    "gltfOutFiles": [
+        "convertedModels/RiverSideOffice/RiverSideOffice/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/RiverSideOffice/RiverSideOffice/model.json"
+    ],
+    "numCreatedGltfMeshes": 774,
+    "numCreatedMetaObjects": 369,
+    "numExportedPropertySetsOrElementQuantities": 438,
+    "modelBoundsMax": [
+        42.76335178219155,
+        9.901346346518075,
+        8.90133406320728
+    ],
+    "modelBoundsMin": [
+        17.115851782213895,
+        -8.6915625,
+        -2.3000000000000007
+    ]
+}

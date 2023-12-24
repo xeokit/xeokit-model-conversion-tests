@@ -57,25 +57,7 @@
 
 <script type="module">
 
-    async function getXeokitVersion() {
-        try {
-            const response = await fetch(`https://registry.npmjs.org/@xeokit/xeokit-sdk/latest`);
-            const data = await response.json();
-            if (data && data.version) {
-                return data.version;
-            } else {
-                return "";
-            }
-        } catch (error) {
-            console.error(`Error: ${error.message}`);
-            return "";
-        }
-    }
-
-    const reqParams = getRequestParams();
-
-    const batchId = reqParams.batchId;
-    const modelId = reqParams.modelId;
+    import {createViewer, isolateObject} from "./lib/viewer.js";
 
     function getRequestParams() {
         const vars = {};
@@ -85,33 +67,14 @@
         return vars;
     }
 
-    // <table class="table table-sm table-hover table-striped table-bordered mb-0">
-    //                     <tbody>
-    //                     <tr>
-    //                         <td>Converted with</td>
-    //
-    //                         <td><a href="#ifcCommunityPipeline1"> <a href="index.html#ifcCXConverterPipeline1">CxConverter IFC Pipeline #1</a></a></td>
-    //                     </tr>
-    //                     <tr>
-    //                         <td>Viewing with</td>
-    //
-    //                         <td><a href="https://github.com/xeokit/xeokit-sdk"><a href="https://github.com/xeokit/xeokit-sdk">@xeokit/xeokit-sdk ${xeokitVersion}</a></a></td>
-    //                     </tr>
-    //
-    //                     <tr>
-    //                         <td>Conversion Logs</td>
-    //                         <td><a href="#ifcCXConverterPipeline2">CxConverter IFC Conversion Pipeline #2</a></td>
-    //                     </tr>
-    //                     </tbody>
-    //                 </table>
+    const reqParams = getRequestParams();
+
+    const batchId = reqParams.batchId;
+    const modelId = reqParams.modelId;
+
     document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1>
 
-    <a class="pl-3" href="./convertedModels/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt">Conversion Log</a>
-    <br><br>
-
-`;
-
-    import {createViewer, isolateObject} from "./lib/viewer.js";
+    <a class="pl-3" href="./convertedModels/${batchId}/${modelId}/log.txt">Conversion Log</a><br><br>`;
 
     const {viewer, xktLoader} = createViewer({
         canvasId: "viewerCanvas",
@@ -119,19 +82,18 @@
         treeViewContainerId: "treeViewContainer"
     });
 
-    document.getElementById("body").style.visibility = "visible";
-
-    const model = xktLoader.load({
-        manifestSrc: `./convertedModels/${batchId}/${modelId}/ifcCXConverterPipeline1/model.xkt.manifest.json`,
+    const sceneModel = xktLoader.load({
+        manifestSrc: `./convertedModels/${batchId}/${modelId}/model.xkt.manifest.json`,
         id: "myModel",
         edges: true,
         saoEnabled: true
     });
-    model.on("loaded", () => {
+
+    sceneModel.on("loaded", () => {
         viewer.camera.eye = [0, 0, 1];
         viewer.camera.look = [0, 0, 0];
         viewer.camera.up = [0, 1, 0];
-        viewer. camera.orbitYaw(40.0);
+        viewer.camera.orbitYaw(40.0);
         viewer.camera.orbitPitch(40.0);
         viewer.cameraFlight.jumpTo(viewer.scene);
     });
@@ -139,15 +101,12 @@
     function doIsolate() {
         const searchText = document.getElementById('isolateInput').value.trim();
         if (searchText.trim() === '') {
-            // document.getElementById('searchResults').innerHTML = '';
             return;
         }
         isolateObject(searchText)
     }
 
     document.getElementById('isolateButton').addEventListener('click', doIsolate);
-
-    window.viewer = viewer;
 
 </script>
 

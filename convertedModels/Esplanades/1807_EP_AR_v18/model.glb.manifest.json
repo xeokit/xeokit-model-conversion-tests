@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Esplanades/1807_EP_AR_v18.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 19:52:02",
+    "gltfOutFiles": [
+        "convertedModels/Esplanades/1807_EP_AR_v18/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/Esplanades/1807_EP_AR_v18/model.json"
+    ],
+    "numCreatedGltfMeshes": 9350,
+    "numCreatedMetaObjects": 2260,
+    "numExportedPropertySetsOrElementQuantities": 11328,
+    "modelBoundsMax": [
+        538513.8998987526,
+        6591627.454918777,
+        32.268287086534
+    ],
+    "modelBoundsMin": [
+        538446.5626784125,
+        6591584.116159587,
+        12.530000000000001
+    ]
+}

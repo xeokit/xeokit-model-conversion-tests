@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/grid-placement.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 20:12:14",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/grid-placement/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/grid-placement/model.json"
+    ],
+    "numCreatedGltfMeshes": 35,
+    "numCreatedMetaObjects": 40,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2.0999999999999996,
+        24.0,
+        2.8000000000000003
+    ],
+    "modelBoundsMin": [
+        -14.1,
+        -4.0,
+        0.0
+    ]
+}

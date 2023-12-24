@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 20:12:07",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.10999999940395401,
+        10.0,
+        0.30000001192092907
+    ],
+    "modelBoundsMin": [
+        -0.10999999940395401,
+        0.0,
+        -0.30000001192092907
+    ]
+}

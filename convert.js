@@ -4,10 +4,6 @@ const execSync = require('child_process').execSync;
 const si = require('systeminformation');
 const axios = require('axios');
 
-const {ChartJSNodeCanvas} = require('chartjs-node-canvas');
-
-const puppeteer = require('puppeteer');
-
 const configsData = fs.readFileSync("./convertconfig.json");
 const configs = JSON.parse(configsData);
 
@@ -142,7 +138,7 @@ const errors = {};
                     const inputFileName = path.parse(inputFile).name;
                     const ifcInputPath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
                     const modelConvertedModelsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
-                    const modelOutPath = `${modelConvertedModelsDirPath}/ifcCXConverterPipeline1`;
+                    const modelOutPath = modelConvertedModelsDirPath;
 
                     const glbOutputPath = path.join(modelOutPath, `model.glb`);
                     const jsonOutputPath = path.join(modelOutPath, `model.json`);
@@ -154,8 +150,11 @@ const errors = {};
                     if (fs.existsSync(modelConvertedModelsDirPath)) {
                         fs.rmSync(modelConvertedModelsDirPath, {recursive: true, force: true});
                     }
-
                     fs.mkdirSync(modelConvertedModelsDirPath);
+
+                    if (fs.existsSync(modelOutPath)) {
+                        fs.rmSync(modelOutPath, {recursive: true, force: true});
+                    }
                     fs.mkdirSync(modelOutPath);
 
                     ifcSizes[ifcInputPath] = (getFileSize(ifcInputPath) / 1000000).toFixed(4);
@@ -198,6 +197,7 @@ const errors = {};
                     conversionTimes[ifcInputPath] = ((endTime - startTime) / 1000).toFixed(2);
 
                     ifcAttributionPaths[ifcInputPath] = attributionData.link;
+
                 }
             }
         }
@@ -239,6 +239,10 @@ const errors = {};
 
         const conversionResultsHTML = [];
 
+        const convertedModelsIndex = {
+            batches: {}
+        };
+
         conversionResultsHTML.push(`<section class="test-results-section">
                     <div class="container pt-6 pb-0">
                         <div class="row">
@@ -254,6 +258,12 @@ const errors = {};
             const inputBatchDirPath = path.join(inputFilesDir, inputBatchDir);
             const isDir = fs.lstatSync(inputBatchDirPath).isDirectory();
             if (isDir) {
+
+                const batchData = {
+                    models: {}
+                }
+                convertedModelsIndex.batches[inputBatchDir] = batchData;
+
                 const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
                 conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="3"></td></tr>`);
                 const inputFiles = await fs.promises.readdir(inputBatchDirPath);
@@ -278,7 +288,7 @@ const errors = {};
                     const summaryCommunity1Path = path.join(community1Path, `summary.json`);
                     const summaryCommunity1PathAbs = `${__dirname}/${summaryCommunity1Path}`;
 
-                    const modelOutPath = `${modelConvertedModelsDirPath}/ifcCXConverterPipeline1`;
+                    const modelOutPath = modelConvertedModelsDirPath;
                     const glbOutputPath = path.join(modelOutPath, `model.glb`);
                     const glbOutputPathAbs = `${__dirname}/${glbOutputPath}`;
                     const jsonOutputPath = path.join(modelOutPath, `model.json`);
@@ -301,9 +311,20 @@ const errors = {};
                             "xktFileSize":"${xktSizes[ifcInputPath]}", 
                             "conversionTime": "${conversionTimes[ifcInputPath]}",
                             "attributionPath": "${ifcAttributionPaths[ifcInputPath]}",
-                            "logPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/ifcCXConverterPipeline1/log.txt",
-                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/ifcCXConverterPipeline1/model.xkt.manifest.json"
+                            "logPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/log.txt",
+                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/model.xkt.manifest.json"
                         })`);
+
+                        batchData.models[inputFileName] = {
+                            pipelineId: "CxConverter1",
+                            batchId: inputBatchDir,
+                            modelId: inputFileName,
+                            ifcFileSize: ifcSizes[ifcInputPath],
+                            xktFileSize: xktSizes[ifcInputPath],
+                            conversionTime: conversionTimes[ifcInputPath],
+                            manifestPath: `./convertedModels/${inputBatchDir}/${inputFileName}/model.xkt.manifest.json`,
+                            logPath: `./convertedModels/${inputBatchDir}/${inputFileName}/log.txt`
+                        }
                     }
                 }
             }
@@ -313,68 +334,13 @@ const errors = {};
 
         fs.writeFileSync("./_includes/conversionResults.html", conversionResultsHTML.join("\n"), {encoding: 'utf8'});
 
+        fs.writeFileSync("./convertedModels/systemInfo.json", JSON.stringify(systemInfo), {encoding: 'utf8'});
+        fs.writeFileSync("./convertedModels/index.json", JSON.stringify(convertedModelsIndex), {encoding: 'utf8'});
+
         console.log("HTML test page written.");
 
     } catch (e) {
         console.error("[Error] ", e);
     }
-
-
-//-------------------------------------------------------------
-    // Plot a chart
-    //--------------------------------------------------------------
-
-
-    async function createGraph() {
-        const ifcSizesList = Object.values(ifcSizes);
-        const xktSizesList = Object.values(xktSizes);
-        const conversionTimesList = Object.values(conversionTimes)
-        const width = 800; //px
-        const height = 400; //px
-        const backgroundColour = 'white'; // Uses https://www.w3schools.com/tags/canvas_fillstyle.asp
-        const chartJSNodeCanvas = new ChartJSNodeCanvas({width, height, backgroundColour});
-        const dataUrl = await chartJSNodeCanvas.renderToDataURL({
-            type: 'line',   // for line chart
-            data: {
-                labels: ifcSizesList,
-                datasets: [
-                    {
-                        label: "XKT Sizes (Mb)",
-                        data: xktSizesList,
-                        fill: false,
-                        borderColor: ['rgb(51, 204, 204)'],
-                        borderWidth: 1,
-                        xAxisID: 'xAxis1' //define top or bottom axis ,modifies on scale
-                    }
-                    // ,
-                    //     {
-                    //         label: "Conversion Times (Secs)",
-                    //         data: conversionTimesList,
-                    //         fill: false,
-                    //         borderColor: ['rgb(255, 102, 255)'],
-                    //         borderWidth: 1,
-                    //         xAxisID: 'xAxis1'
-                    //     },
-                ],
-            },
-            options: {
-                scales: {
-                    y: {
-                        suggestedMin: 0,
-                    }
-                }
-            }
-        });
-        const base64Image = dataUrl
-        var base64Data = base64Image.replace(/^data:image\/png;base64,/, "");
-        fs.writeFile("graph.png", base64Data, 'base64', function (err) {
-            if (err) {
-                console.log(err);
-            }
-        });
-        return dataUrl;
-    }
-
-    await createGraph();
 
 })();

@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-24 20:00:36",
+    "gltfOutFiles": [
+        "convertedModels/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 6,
+    "numExportedPropertySetsOrElementQuantities": 1,
+    "modelBoundsMax": [
+        0.0,
+        1.0,
+        1.0
+    ],
+    "modelBoundsMin": [
+        -1.0,
+        0.0,
+        0.0
+    ]
+}
