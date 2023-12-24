@@ -102,7 +102,8 @@
         <div class="row">
             <div class="col-12 mx-auto left-text">
                 <p>The xeokit SDK allows us to load large, full-precision IFC models over the Web in seconds and view
-                    them in the browser. To do that, we use our CLI tools to pre-convert the IFC models to xeokit's compact
+                    them in the browser. To do that, we use our CLI tools to pre-convert the IFC models to xeokit's
+                    compact
                     and fast-loading native XKT
                     format.</p>
                 <p>Periodically, we test the latest versions of our conversion tools with xeokit's
@@ -429,6 +430,8 @@ node --max-old-space-size=14000 convert2xkt -n -a model.glb.manifest.json -o mod
                     results for each IFC conversion in a xeokit web viewer.
                     Click the Log links to view the output that was logged by the converter tools while processing
                     the IFC.</p>
+                <p>Notice how fast those XKT files load - much faster than if we were parsing IFC in the web viewer
+                    itself. Also note how much smaller the XKT files are than the IFC.</p>
             </div>
         </div>
     </div>
