@@ -1,14 +1,4 @@
-#----------------------------------------------------------------------------
-# CxConverter IFC Conversion Pipeline Log
-#
-# Converting file: Holter_Tower_10.ifc
-# Using tools: ifc2gltf and convert2xkt
-# Date: Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)
-#----------------------------------------------------------------------------
-
-
-
-# /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/HolterTower/Holter_Tower_10.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/HolterTower/Holter_Tower_10.ifc                         -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb                         -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -19,11 +9,10 @@ Accessors: 17, reused: 3
 Exporting meta dataExporting meta data: 75%Exporting meta data: 81%Exporting meta data: 88%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%
 Accessors: 36046, reused: 107878
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 85 seconds
+done in 88 seconds
 
+node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb.manifest.json                         -o results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.xkt.manifest.json                         -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt
 
-
-# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb.manifest.json -o results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb
@@ -54,7 +43,7 @@ done in 85 seconds
 [convert2xkt] Writing XKT file: results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model_1.glb
-[convert2xkt] Input file size: 36828.79 kB
+[convert2xkt] Input file size: 36831.87 kB
 [convert2xkt] Reading input metadata file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -62,17 +51,17 @@ done in 85 seconds
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 12071.97 kB
+[convert2xkt] XKT size: 12072.07 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.05
-[convert2xkt] Conversion time: 26.81 s
+[convert2xkt] Conversion time: 24.55 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 60283
 [convert2xkt] Converted geometries: 108514
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2241589
+[convert2xkt] Converted triangles: 2241622
 [convert2xkt] Converted vertices: 1395092
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
@@ -81,4 +70,3 @@ done in 85 seconds
 [convert2xkt] Writing XKT file: results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model_1.xkt
 [convert2xkt] Converted model2.xkt (2 of 2)
 [convert2xkt] Done.
-node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.glb.manifest.json -o results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt

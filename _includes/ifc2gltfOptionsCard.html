@@ -1,0 +1,65 @@
+<table class="table table-sm table-hover table-striped table-bordered mb-0">
+  <!--                    <tr style="background-color: rgba(0, 0, 0, 0.05);"><th><span class="nowrap">Option</span></th><th style="text-align:left;">Description</th></tr>-->
+  <tbody>
+  <tr>
+    <th>Option</th>
+    <th><span class="nowrap"  >Value</span></th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code class="nowrap" style="font-size: larger; font-weight: bold">-i</code></td>
+    <td></td>
+    <td>IFC file to convert.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-o</code></td>
+    <td></td>
+    <td>Name of binary glTF file(s) to create as output.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-m</code></td>
+    <td></td>
+    <td>Name of IFC metadata JSON file(s) to create as output.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-s</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">@@ifc2gltfFileSize</code></td>
+    <td><p>Maximum glTF file size in megabytes.</p><p>Once the size is reached, all following objects will be
+      written into the next file, with _1, _2 etc. appended to the file name.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-t</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">@@ifc2gltfTileSize</code></td>
+    <td><p>Geographical tile size in meters.</p><p>Sometimes, IFC models have objects that are so large that
+      double precision values on the GPU
+      are necessary to visualise it without distortion (for example infrastructure models). Double
+      precision coordinates require too much memory on the GPU. That's why xeokit SDK uses local
+      coordinate systems and single precision or even lower data types to optimise memory
+      consumption on the GPU and improve performance. The local coordinate systems are called a
+      tile.</p>
+      <p>This converter prepares and optimises large triangle meshes for improved usage of the tile
+      feature of xeokit. Without that, large meshes are rendered with significant distortions.
+      By default, tiles with a size of 200x200x200 meters are applied by the converter.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-e</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">3</code></td>
+    <td><p>Geometry embedding mode. Accepted values are:</p><ul><li>1 (default): Embed buffers into gltf file up to a file size of 32
+      Mb, separate .bin files
+      otherwise.</li><li>2: Always embed buffers.</li><li>3: Never embed buffers
+      Embedding buffers into the glTF file has one small advantage: fewer files (no separate .bin
+      file).
+      The disadvantage is a much bigger file, because writing float numbers into an ASCII file
+      takes
+      much more space than writing them into a binary file, which is basically raw memory, maximum
+      efficiency.</li></ul>
+      For small files, it does not make a big difference, but for big models it is significant.
+      So it depends on the use case: in an automated workflow, a separate <code>.bin</code> file is probably
+      not an
+      issue, so -e 3 (never embed buffers) is the best option.
+    </td>
+  </tr>
+  </tbody>
+</table>

@@ -26,57 +26,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
     <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent"
                                                                                                   href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a
-            class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">Tests</a>/</span><span
-        class="navbar-brand" href="./index.html">View IFC</span>
-    <!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
-    <!--        <span class="navbar-toggler-icon"></span>-->
-    <!--    </button>-->
-    <!--    <div class="collapse navbar-collapse" id="navbarResponsive">-->
-    <!--        <ul class="navbar-nav ml-auto">-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="./index.html?foo=0">Home</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item dropdown">-->
-    <!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>-->
-    <!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample IFC Model</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAP&tab=objects">Full-Precision IFC Model</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Conference Center Model</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan&tab=storeys">Schependomlaan Model</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan_selectedStorey&tab=storeys">Schependomlaan Ground Floor</a>-->
-    <!--                </div>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#features">Features</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#faq">FAQ</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item dropdown">-->
-    <!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>-->
-    <!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">-->
-    <!--                    <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/docs/" target="_docs">API Reference</a>-->
-    <!--                    <a class="dropdown-item" href="https://github.com/xeokit" target="_code">Source Code</a>-->
-    <!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>-->
-    <!--                </div>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="https://xeokit.io/download.html">Download</a>-->
-    <!--            </li>-->
-    <!--        </ul>-->
-    <!--    </div>-->
+            class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">CxConverter #1 Tests</a>/</span><span
+        class="navbar-brand" href="./index.html">View XKT</span>
 </nav>
 
 <div id="body">
@@ -106,6 +57,23 @@
 
 <script type="module">
 
+    async function getXeokitVersion() {
+        try {
+            const response = await fetch(`https://registry.npmjs.org/@xeokit/xeokit-sdk/latest`);
+            const data = await response.json();
+            if (data && data.version) {
+                return data.version;
+            } else {
+                return "";
+            }
+        } catch (error) {
+            console.error(`Error: ${error.message}`);
+            return "";
+        }
+    }
+
+    const xeokitVersion = await getXeokitVersion();
+
     const reqParams = getRequestParams();
 
     const batchId = reqParams.batchId;
@@ -119,39 +87,35 @@
         return vars;
     }
 
-    document.getElementById("modelConversionInfo").innerHTML = `<a href="./tests.html#${batchId}_${modelId}"><h1 class="pl-3">&lt;&lt;&nbsp;&nbsp;</a>${modelId}</h1>
-    <table class="table table-sm table-hover table-bordered align-middle mb-0 pl-2">
-    <thead>
-    <tr>
-        <th scope="col" class="align-middle pl-3">Conversion Pipeline</th>
-        <th scope="col" class="align-middle pl-2">View Files</th>
-        <th scope="col" class="align-middle pl-2">Conversion Logs</th>
-    </tr>
-    </thead>
-    <tbody>
+    // <table class="table table-sm table-hover table-striped table-bordered mb-0">
+    //                     <tbody>
+    //                     <tr>
+    //                         <td>Converted with</td>
+    //
+    //                         <td><a href="#ifcCommunityPipeline1"> <a href="index.html#ifcCXConverterPipeline1">CxConverter IFC Pipeline #1</a></a></td>
+    //                     </tr>
+    //                     <tr>
+    //                         <td>Viewing with</td>
+    //
+    //                         <td><a href="https://github.com/xeokit/xeokit-sdk"><a href="https://github.com/xeokit/xeokit-sdk">@xeokit/xeokit-sdk ${xeokitVersion}</a></a></td>
+    //                     </tr>
+    //
+    //                     <tr>
+    //                         <td>Conversion Logs</td>
+    //                         <td><a href="#ifcCXConverterPipeline2">CxConverter IFC Conversion Pipeline #2</a></td>
+    //                     </tr>
+    //                     </tbody>
+    //                 </table>
+    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3">${modelId}</h1>
 
-    <tr>
-        <td class="align-middle pl-3">
-            <a href="index.html#ifcCXConverterPipeline1"><p>CxConverter IFC Conversion Pipeline</p></a>
-        </td>
-        <td class="align-middle pl-2">
-            <a href="javascript:loadSplitXKT('ifcCXConverterPipeline1');"><button id="load_ifcCXConverterPipeline1_xkt" type="button" class="btn btn-secondary btn-sm btn-success">XKT</button></a>
-            <a href="javascript:loadManifestXKT('ifcCXConverterPipeline1');"><button id="load_ifcCXConverterPipeline1_xktManifest" type="button" class="btn btn-secondary btn-sm btn-success">XKT Manifest</button></a>
-           <a href="javascript:loadSplitGLB('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb" class="btn btn-secondary btn-sm btn-success">GLB</button></a>
-            <a href="javascript:loadSplitGLBAndJSON('ifcCXConverterPipeline1');"><button type="button" id="load_ifcCXConverterPipeline1_glb_and_json" class="btn btn-secondary btn-sm btn-success">GLB + JSON</button></a>
-        </td>
-        <td class="align-middle pl-2">
-          <a href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt"><button type="button" class="btn btn-secondary btn-sm btn-success">Log</button></a>
-        </td>
-    </tr>
-      </tbody>
-</table>
+    <a  class="pl-3" href="./results/${batchId}/${modelId}/ifcCXConverterPipeline1/log.txt">Conversion Log</a>
+    <br><br>
+
 `;
-
 
     import {createViewer, isolateObject} from "./lib/viewer.js";
 
-    const {viewer, gltfLoader, xktLoader} = createViewer({
+    const {viewer, xktLoader} = createViewer({
         canvasId: "viewerCanvas",
         navCubeCanvasId: "navCubeCanvas",
         treeViewContainerId: "treeViewContainer"
@@ -159,371 +123,20 @@
 
     document.getElementById("body").style.visibility = "visible";
 
-    let summary = null;
-    let models = [];
-    let buttonDownId;
-
-    function cancelModelLoad(done) {
-        if (models && models.length > 0) {
-            for (let i = 0, len = models.length; i < len; i++) {
-                const model = models[i];
-                model.on("loaded", () => {
-                    model.destroy();
-                    done();
-                });
-            }
-            models = [];
-        } else {
-            done();
-        }
-    }
-
-    function alignCameraOnModelLoad(showTree) {
-        if (models) {
-            for (let i = 0, len = models.length; i < len; i++) {
-                const model = models[i];
-                model.on("loaded", () => {
-                    viewer.camera.eye = [0, 0, 1];
-                    viewer.camera.look = [0, 0, 0];
-                    viewer.camera.up = [0, 1, 0];
-                    viewer.cameraFlight.jumpTo(viewer.scene.aabb);
-                    document.getElementById("infoArea").style.visibility = showTree ? "visible" : "hidden";
-                });
-            }
-        }
-    }
-
-    function setLastButtonUp() {
-        if (buttonDownId) {
-            setButtonUp(buttonDownId);
-            buttonDownId = null;
-        }
-    }
-
-    function setButtonDown(id) {
-        setLastButtonUp();
-        buttonDownId = id;
-        const button = document.getElementById(id);
-        if (button) {
-            button.classList.add("active");
-        }
-    }
-
-    function setButtonUp(id) {
-        const button = document.getElementById(id);
-        if (button) {
-            button.classList.remove("active");
-        }
-    }
-
-    function setButtonEnabled(id, enabled) {
-        const button = document.getElementById(id);
-        if (button) {
-            if (!enabled) {
-                button.classList.add("viewer-button-disabled");
-                button.classList.add("disabled");
-                const parent = button.parentElement;
-                if (parent) {
-                    parent.classList.add("disabled");
-                }
-            }
-        }
-    }
-
-    window.loadSplitXKT = function (pipelineId) {
-        setButtonDown(`load_${pipelineId}_xkt`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-            viewer.scene.once("tick", () => {
-
-                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`)
-                    .then(res => res.json())
-                    .then((manifest) => {
-
-                        let xktFiles = manifest.xktFiles;
-
-                        function loadNext() {
-                            if (xktFiles.length === 0) {
-                                viewer.camera.eye = [0, 0, 1];
-                                viewer.camera.look = [0, 0, 0];
-                                viewer.camera.up = [0, 1, 0];
-                                viewer.cameraFlight.jumpTo(viewer.scene);
-                                setButtonsUp();
-                            } else {
-                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${xktFiles.pop()}`;
-                                const model = xktLoader.load({id: 'myModel' + xktFiles.length, src});
-                                models.push(model);
-                                model.on("loaded", () => {
-                                    loadNext();
-                                });
-                            }
-                        }
-
-                        loadNext();
-                    });
-            });
-        });
-    }
-
-    window.loadManifestXKT = function (pipelineId) {
-        setButtonDown(`load_${pipelineId}_xktManifest`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-            const model = xktLoader.load({
-                manifestSrc: `./results/${batchId}/${modelId}/${pipelineId}/model.xkt.manifest.json`,
-                id: "myModel",
-                edges: true,
-                saoEnabled: true
-            });
-            models.push(model);
-            model.on("loaded", () => {
-                viewer.camera.eye = [0, 0, 1];
-                viewer.camera.look = [0, 0, 0];
-                viewer.camera.up = [0, 1, 0];
-                viewer.cameraFlight.jumpTo(viewer.scene);
-                setButtonsUp();
-            });
-        });
-    }
-
-    window.loadXKT = function (pipelineId) {
-
-        setButtonDown(`load_${pipelineId}_xkt`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-
-            if (!summary) {
-                return;
-            }
-
-            let i = 0;
-            const xktFiles = summary.pipelines[pipelineId].xktManifest.xktFiles;
-
-            function loadNext() {
-                if (i >= xktFiles.length) {
-                    setButtonsUp();
-                    return;
-                }
-                const xktFileName = xktFiles[i];
-                const model = xktLoader.load({
-                    id: 'myModel',
-                    src: `./results/${batchId}/${modelId}/${pipelineId}/${xktFileName}`
-                });
-                models.push(model);
-                model.on("loaded", () => {
-                    i++;
-                    loadNext();
-                })
-            }
-
-            loadNext();
-
-            alignCameraOnModelLoad(true);
-        });
-    }
-
-    window.loadSplitGLB = function (pipelineId) {
-        setButtonDown(`load_${pipelineId}_glb`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-            viewer.scene.once("tick", () => {
-
-                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
-                    .then(res => res.json())
-                    .then((manifest) => {
-
-                        let glbFiles = manifest.gltfOutFiles;
-
-                        function loadNext() {
-                            if (glbFiles.length === 0) {
-                                viewer.camera.eye = [0, 0, 1];
-                                viewer.camera.look = [0, 0, 0];
-                                viewer.camera.up = [0, 1, 0];
-                                viewer.cameraFlight.jumpTo(viewer.scene);
-                                setButtonsUp();
-                            } else {
-                                const glbFileName = getFileNameFromPath(glbFiles.pop());
-                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
-                                const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src});
-                                models.push(model);
-                                model.on("loaded", () => {
-                                    loadNext();
-                                });
-                            }
-                        }
-
-                        loadNext();
-                    });
-            });
-        });
-    }
-
-    window.loadGLB = function (pipelineId) {
-
-        setButtonDown(`load_${pipelineId}_glb`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-
-            if (!summary) {
-                return;
-            }
-
-            let i = 0;
-            const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
-
-            function loadNext() {
-                if (i >= glbFiles.length) {
-                    setButtonsUp();
-                    return;
-                }
-                const glbFileName = glbFiles[i];
-                const model = gltfLoader.load({
-                    id: 'myModel' + i,
-                    src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
-                    edges: true
-                });
-                models.push(model);
-                model.on("loaded", () => {
-                    i++;
-                    loadNext();
-                })
-            }
-
-            loadNext();
-
-            alignCameraOnModelLoad(true);
-        });
-    }
-
-    window.loadSplitGLBAndJSON = function (pipelineId) {
-        setButtonDown(`load_${pipelineId}_glb`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-            viewer.scene.once("tick", () => {
-
-                fetch(`./results/${batchId}/${modelId}/${pipelineId}/model.glb.manifest.json`)
-                    .then(res => res.json())
-                    .then((manifest) => {
-
-                        let glbFiles = manifest.gltfOutFiles;
-                        let jsonFiles = manifest.metadataOutFiles;
-
-                        function loadNext() {
-                            if (glbFiles.length === 0) {
-                                viewer.camera.eye = [0, 0, 1];
-                                viewer.camera.look = [0, 0, 0];
-                                viewer.camera.up = [0, 1, 0];
-                                viewer.cameraFlight.jumpTo(viewer.scene);
-                                setButtonsUp();
-                            } else {
-                                const glbFileName = getFileNameFromPath(glbFiles.pop());
-                                const jsonFileName = getFileNameFromPath(jsonFiles.pop());
-                                const src = `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`;
-                                const metaModelSrc = `./results/${batchId}/${modelId}/${pipelineId}/${jsonFileName}`;
-                                const model = gltfLoader.load({id: 'myModel' + glbFiles.length, src, metaModelSrc});
-                                models.push(model);
-                                model.on("loaded", () => {
-                                    loadNext();
-                                });
-                            }
-                        }
-
-                        loadNext();
-                    });
-
-
-            });
-        });
-    }
-
-
-    function getFileNameFromPath(filePath) {
-        const segments = filePath.split('/');
-        const fileName = segments[segments.length - 1];
-        return fileName;
-    }
-
-    window.loadGLBAndJSON = function (pipelineId) {
-        setButtonDown(`load_${pipelineId}_glb_and_json`);
-        setButtonsDown();
-        cancelModelLoad(() => {
-
-            if (!summary) {
-                return;
-            }
-
-            let i = 0;
-            const glbFiles = summary.pipelines[pipelineId].xktManifest.glbFiles;
-            const jsonFiles = summary.pipelines[pipelineId].xktManifest.metadataFiles;
-
-            function loadNext() {
-                if (i >= glbFiles.length) {
-                    setButtonsUp();
-                    return;
-                }
-                const glbFileName = glbFiles[i];
-                const metadataFileName = jsonFiles[i];
-
-                const model = gltfLoader.load({
-                    id: 'glbModel' + i,
-                    src: `./results/${batchId}/${modelId}/${pipelineId}/${glbFileName}`,
-                    metaModelSrc: `./results/${batchId}/${modelId}/${pipelineId}/${metadataFileName}`,
-                    edges: true
-                });
-                models.push(model);
-                model.on("loaded", () => {
-                    i++;
-                    loadNext();
-                })
-            }
-
-            loadNext();
-
-            alignCameraOnModelLoad(true);
-        });
-    }
-
-    fetch(`./results/${batchId}/${modelId}/summary.json`)
-        .then(res => res.json())
-        .then((_summary) => {
-            summary = _summary;
-            enableLoadButtons();
-            loadSplitXKT('ifcCXConverterPipeline1');
-        }).catch(err => console.error(err));
-
-
-    function enableLoadButtons() {
-        for (let pipelineId in summary.pipelines) {
-            const pipeline = summary.pipelines[pipelineId];
-            const xktOK = !!pipeline.xktConvertedOK;
-            const glbOK = !!pipeline.glbConvertedOK;
-            const jsonOK = !!pipeline.jsonConvertedOK;
-            setButtonEnabled(`load_${pipelineId}_xkt`, xktOK);
-            setButtonEnabled(`load_${pipelineId}_xktManifest`, xktOK);
-            setButtonEnabled(`load_${pipelineId}_glb`, glbOK);
-            setButtonEnabled(`load_${pipelineId}_glb_and_json`, glbOK && jsonOK);
-        }
-    }
-
-
-    function setButtonsDown() {
-        for (let pipelineId in summary.pipelines) {
-            setButtonDown(`load_${pipelineId}_xkt`);
-            setButtonDown(`load_${pipelineId}_xktManifest`);
-            setButtonDown(`load_${pipelineId}_glb`);
-            setButtonDown(`load_${pipelineId}_glb_and_json`);
-        }
-    }
-
-    function setButtonsUp() {
-        for (let pipelineId in summary.pipelines) {
-            setButtonUp(`load_${pipelineId}_xkt`);
-            setButtonUp(`load_${pipelineId}_xktManifest`);
-            setButtonUp(`load_${pipelineId}_glb`);
-            setButtonUp(`load_${pipelineId}_glb_and_json`);
-        }
-    }
-
+    const model = xktLoader.load({
+        manifestSrc: `./results/${batchId}/${modelId}/ifcCXConverterPipeline1/model.xkt.manifest.json`,
+        id: "myModel",
+        edges: true,
+        saoEnabled: true
+    });
+    model.on("loaded", () => {
+        viewer.camera.eye = [0, 0, 1];
+        viewer.camera.look = [0, 0, 0];
+        viewer.camera.up = [0, 1, 0];
+        viewer. camera.orbitYaw(40.0);
+        viewer.camera.orbitPitch(40.0);
+        viewer.cameraFlight.jumpTo(viewer.scene);
+    });
 
     function doIsolate() {
         const searchText = document.getElementById('isolateInput').value.trim();
@@ -535,9 +148,6 @@
     }
 
     document.getElementById('isolateButton').addEventListener('click', doIsolate);
-
-
-
 
     window.viewer = viewer;
 

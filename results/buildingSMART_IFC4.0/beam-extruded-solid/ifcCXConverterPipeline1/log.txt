@@ -1,18 +1,5 @@
-#----------------------------------------------------------------------------
-# CxConverter IFC Conversion Pipeline Log
-#
-# Converting file: beam-extruded-solid.ifc
-# Using tools: ifc2gltf and convert2xkt
-# Date: Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)
-#----------------------------------------------------------------------------
-
-
-
-# /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-extruded-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-extruded-solid.ifc                         -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.glb                         -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-extruded-solid.ifc"Loading file "/home/lindsay/xe...-extruded-solid.ifc": 5%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 30%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 33%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 37%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 41%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 45%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 49%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 52%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 56%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 60%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 64%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 68%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 72%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 75%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 79%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 83%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 87%Loading file "/home/lindsay/xe...-extruded-solid.ifc": 100%
-
-
-[Error]: Error: Command failed: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-extruded-solid.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/beam-extruded-solid/ifcCXConverterPipeline1/log.txt

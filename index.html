@@ -96,18 +96,123 @@
         </div>
         <div class="row">
             <div class="col-12 mx-auto">
-                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view them in the browser. To do that, we pre-convert our models to xeokit's fast-loading native
+                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view
+                    them in the browser. To do that, we pre-convert our models to xeokit's fast-loading native
                     <i>XKT</i> format.</p>
 
-                <p>Listed below are several pipelines we can use to convert AEC files to XKT. Each pipeline involves running the files through a chain of one or more CLI tools, in your local environment. The Community pipelines use exclusively open source tools, while the Enterprise pipeline includes a proprietary tool for which a commercial license is required.</p>
+                <p>Listed below are several pipelines we can use to convert AEC files to XKT. Each pipeline involves
+                    running the files through a chain of one or more CLI tools, in your local environment. The Community
+                    pipelines use exclusively open source tools, while the CxConverter pipelines use a proprietary
+                    tool for which a commercial license is required.</p>
                 <p>Periodically, we run our AEC test files through all the pipelines. That statically-generates the
-                    <a href="./tests.html">Model Conversion Tests</a> page, where you can check if the latest pipelines are converting our test models correctly.
+                    <a href="./tests.html">Model Conversion Tests</a> page, where you can check if the latest pipelines
+                    are converting our test models correctly.
                 </p>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
+    </div>
+</section>
+
+
+<section class="main-section" id="ifcCXConverterPipeline1">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter IFC Conversion Pipeline #1</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-ifc-enterprise1.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.ifc</code> files into <code>.xkt</code>, with
+                    two CLI tools, using intermediate <code>.glb</code> and <code>.json</code> files.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.ifc</code> files of many gigabytes</li>
+                    <li>Two CLI tools, written in C++ and JavaScript (NodeJS)</li>
+                    <li>Option to split output into multiple files for easy loading in browsers</li>
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files
+                    </li>
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">ifc2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-IFC-to-XKT-using-ifc2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            IFC to XKT using ifc2gltf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row  mb-5">
             <div class="col-sm-12 text-center">
-                <a class="btn btn-lg btn-outline-primary border-2" href="./tests.html">Model Conversion Tests &gt;&gt;</a>
+                <a class="btn btn-lg btn-outline-primary border-2" href="./tests.html">CxConverter Pipeline #1 Tests &gt;&gt;</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="main-section alabaster" id="ifcCXConverterPipeline2">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter IFC Conversion Pipeline #2</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-ifc-enterprise2.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.ifc</code> files directly into
+                    <code>.xkt</code>, using a single CLI tool and no intermediate formats.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.ifc</code> files of many gigabytes</li>
+                    <li>Converts <code>.ifc</code> directly into <code>.xkt</code>
+                    <li>A single CLI tool written in C++</li>
+                    <li>Option to split output into multiple <code>.xkt</code> files for easy loading in browsers</li>
+                    </li>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">ifc2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-IFC-to-XKT-using-ifc2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            IFC to XKT using ifc2gltf</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -135,8 +240,10 @@
                     <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files on disk
                     </li>
                     <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> with
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a> or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
                         <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
                     </li>
                 </ul>
@@ -155,58 +262,14 @@
                 <h5>More info</h5>
                 <ul>
                     <li>Tutorial:
-                        <a href="https://www.notion.so/xeokit/Converting-IFC-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting IFC Models to XKT using Open Source Tools - A Simpler Pipeline</a>
+                        <a href="https://www.notion.so/xeokit/Converting-IFC-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting
+                            IFC Models to XKT using Open Source Tools - A Simpler Pipeline</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>
-</section>
 
 
-<section class="main-section" id="ifcCXConverterPipeline1">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-md-12">
-                <h1 class="mb-4 text-center">CxConverter IFC Conversion Pipeline</h1>
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-md-5">
-                <img alt="..." class="card-img" src="./img/pipeline-ifc-enterprise1.png">
-            </div>
-            <div class="col-md-7">
-                <br><br>
-                <p>A high-performance pipeline that converts large <code>.ifc</code> files to <code>.xkt</code>.</p>
-                <h5>Features</h5>
-                <ul>
-                    <li>Converts huge <code>.ifc</code> files of many gigabytes</li>
-                    <li>Option to split output into multiple files for easy loading in browsers</li>
-                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files
-                    </li>
-                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> with
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a> or
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
-                    </li>
-                </ul>
-                <h5>Tools used</h5>
-                <ul>
-                    <li><a href="https://github.com/xeokit/xeokit-convert">ifc2gltf</a> (AGPL3, from
-                        <a href="https://creoox.com">Creoox AG</a>)
-                    </li>
-                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
-                        <a href="https://xeokit.io">xeokit SDK</a>)
-                    </li>
-                </ul>
-                <h5>More info</h5>
-                <ul>
-                    <li>Tutorial:
-                        <a href="https://www.notion.so/xeokit/Converting-IFC-to-XKT-using-ifc2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting IFC to XKT using ifc2gltf</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -214,7 +277,7 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col-md-12">
-                <h1 class="mb-4 center-text">xeokit Multi-Format Conversion Pipeline</h1>
+                <h1 class="mb-4 center-text">Community Multi-Format Conversion Pipeline</h1>
             </div>
         </div>
         <div class="row no-gutters">
@@ -230,10 +293,12 @@
                         <code>.laz</code>, CityJSON and small <code>.ifc</code> files to <code>.xkt</code></li>
                     <li>Don't use with large <code>.ifc</code> files</li>
                     <li>Open source under AGPL3</li>
-                    <li>Internally uses <a href="https://github.com/IFCjs/web-ifc">web-ifc</a> when converting <code>.ifc</code>.</li>
+                    <li>Internally uses <a href="https://github.com/IFCjs/web-ifc">web-ifc</a> when converting <code>.ifc</code>.
+                    </li>
                     <li>Creates no intermediate files</li>
                     <li>View the <code>.xkt</code> in a xeokit
-                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a> using an
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        using an
                         <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
                     </li>
                 </ul>
@@ -246,13 +311,17 @@
                 <h5>More info</h5>
                 <ul>
                     <li>Tutorial:
-                        <a href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting Models to XKT with convert2xkt</a>
+                        <a href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting
+                            Models to XKT with convert2xkt</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
+
+
+
 
 <footer class="py-5 bg-dark xeokit-footer">
     <div class="container pt-5">
@@ -311,9 +380,6 @@
                         <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                             <a href="https://www.linkedin.com/company/xeolabs"><i class="fa fa-linkedin mr-1"></i>
                                 LinkedIn</a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                            <a href="https://twitter.com/xeolabs"><i class="fa fa-twitter mr-1"></i> Twitter</a>
                         </li>
                         <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                             <a href="https://github.com/xeolabs" target="_code"><i class="fa fa-github mr-1"></i>

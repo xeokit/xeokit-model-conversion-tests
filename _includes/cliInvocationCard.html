@@ -1,0 +1,57 @@
+<p>First, we convert each IFC file using our <code>ifc2gltfcxconverter</code> tool. Contact us <a
+        href="https://xeokit.io/for-business">here</a> if you would like to evaluate this tool.</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">ifc2gltfcxconverter -i model.ifc -o model.glb -m model.json -s @@ifc2gltfFileSize -t @@ifc2gltfTileSize -e 3
+</pre>
+
+<p>This creates a set of <code>glb</code> and JSON files that contain the IFC geometry and metadata, along with a JSON manifest that
+    lists them, as shown below. The
+    tool splits the IFC into a
+    set of files like this so that they are processed more reliably by the next step, and ulltimately loaded more reliably into
+    xeokit's browser-based viewer.</p>
+<p>Note the tool's <code>-s</code> option, which specifies that output <code>glb</code> files should be a maximum of <code>@@ifc2gltfFileSize</code>Mb
+    each, in this case. Also, the <code>-t</code> option splits the 3D geometry coordinates into tiled regions of size
+    <code>@@ifc2gltfFileSize x @@ifc2gltfFileSize x @@ifc2gltfFileSize</code>. That enables
+    the xeokit viewer to render the geometry accurately without rounding jitter. </p>
+
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
+├── model.glb.manifest.json
+├── model_1.glb
+├── model_1.json
+├── model_2.glb
+├── model_2.json
+├── model_3.glb
+├── model_3.json
+├── model.glb
+└── model.json
+</pre>
+
+<p>Next, we process that manifest using <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a>. This is a
+    NodeJS-based CLI tool often needs us to allocate it some extra memory. Thanks to splitting our files, our NodeJS
+    process is not overwhelmed by any memory stress!</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">
+node --max-old-space-size=14000 convert2xkt -n -a model.glb.manifest.json -o model.xkt.manifest.json</pre>
+
+<p>That converts the <code>glb</code> and JSON files into a set of XKT files, along with a JSON manifest that
+    lists them, as shown below. XKT is xeokit's web-friendly native binary model format, designed to load quickly into its web viewer.
+</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
+├── model.xkt.manifest.json
+├── model_1.xkt
+├── model_2.xkt
+├── model_3.xkt
+└── model.xkt
+</pre>
+
+<p>Finally, we visualize our XKT files in the browser using xeokit's web viewer. In JavaScript, we simply create a <a
+        href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>,
+    add an <a
+            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html"><code>XKTLoaderPlugin</code></a>,
+    and then load our XKT file manifest.</p>
+
+<div style="width:100%; background-color: black;">
+    <img src="./img/xeokit-Viewer.svg"/>
+</div>

@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Molio/Molio_with_URIs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-20 12:09:20",
+    "conversionDate": "2023-12-24 05:01:11",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Molio/Molio_with_URIs/ifcCXConverterPipeline1/model.glb",
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Molio/Molio_with_URIs/ifcCXConverterPipeline1/model_1.glb"

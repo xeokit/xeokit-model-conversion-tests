@@ -2,17 +2,21 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-20 12:01:57",
+    "conversionDate": "2023-12-24 04:54:42",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_1.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_1.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_2.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_3.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_1.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_1.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_2.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/model_3.json"
     ],
-    "numCreatedGltfMeshes": 25556,
-    "numCreatedMetaObjects": 10788,
+    "numCreatedGltfMeshes": 25190,
+    "numCreatedMetaObjects": 17929,
     "numExportedPropertySetsOrElementQuantities": 23258,
     "modelBoundsMax": [
         -24.070384995577825,

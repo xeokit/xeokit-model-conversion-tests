@@ -1,14 +1,4 @@
-#----------------------------------------------------------------------------
-# CxConverter IFC Conversion Pipeline Log
-#
-# Converting file: LTU_A-House_Sanitation.ifc
-# Using tools: ifc2gltf and convert2xkt
-# Date: Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)
-#----------------------------------------------------------------------------
-
-
-
-# /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc                         -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb                         -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -19,9 +9,8 @@ Accessors: 5618, reused: 17930
 Exporting meta dataExporting meta data: 100%
 done in 11 seconds
 
+node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb.manifest.json                         -o results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.xkt.manifest.json                         -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt
 
-
-# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb.manifest.json -o results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb
@@ -36,7 +25,7 @@ done in 11 seconds
 [convert2xkt] XKT size: 4924.81 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.87
-[convert2xkt] Conversion time: 9.07 s
+[convert2xkt] Conversion time: 8.48 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 18266
@@ -52,4 +41,3 @@ done in 11 seconds
 [convert2xkt] Writing XKT file: results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.
-node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.glb.manifest.json -o results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt

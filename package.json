@@ -4,7 +4,7 @@
   "description": "Runs all our converter pipelines over a directory containing your IFC files and generates a nice report with Bootstrap, including logs and clickable links to view the converted XKT files ",
   "main": "index.js",
   "scripts": {
-    "build": "node convert.js; gulp build"
+    "build": "node --max-old-space-size=4076 convert.js; gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,11 @@
   },
   "homepage": "https://github.com/xeokit/xeokit-model-conversion-tests#readme",
   "dependencies": {
+    "axios": "^1.6.2",
+    "chartjs-node-canvas": "^4.1.6",
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.1.1",
+    "gulp-js-escape": "^1.0.1",
     "gulp4-run-sequence": "^1.0.1",
     "http-server": "^14.1.1",
     "markdown": "^0.5.0",

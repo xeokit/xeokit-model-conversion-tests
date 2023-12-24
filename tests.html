@@ -24,7 +24,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-brand" href="./tests.html">Tests</a></span>
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-brand" href="./tests.html">CxConverter Pipeline #1 Tests</a></span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,8 +80,8 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
-                <h1 class="text-white mt-5 mb-2">Model Conversion Tests </h1>
-                <p class="lead mb-5 text-white">Check the health of our AEC file conversion tools</p>
+                <h1 class="text-white mt-5 mb-2">CxConverter Pipeline #1 Tests</h1>
+                <p class="lead mb-5 text-white">Check the health of our IFC file conversion tools</p>
             </div>
         </div>
     </div>
@@ -100,33 +100,50 @@
         <!--            </div>-->
         <!--        </div>-->
         <div class="row">
-            <div class="col-12 mx-auto center-text">
+            <div class="col-12 mx-auto left-text">
                 <p>Periodically, we run our
-                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to batch-convert our AEC test models through each of our conversion pipelines. That generates this static page of test results, where you can quickly check if the pipelines are working OK. Scroll down to see how well the latest pipelines and tools are working.
+                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to
+                    batch-convert our set of IFC test models through the latest versions of xeokit's IFC conversion
+                    tools. That
+                    generates test results, which you can find at the
+                    bottom of this page, so that you can quickly check to see if the tools are working OK. In this page
+                    we also provide comprehensive details on how we run the tests, and the system on which we run them,
+                    which can help you to set up your own IFC conversion pipeline for xeokit.
                 </p>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-sm-12 text-center">
-                <a class="btn btn-lg btn-outline-primary border-2" href="./index.html">About Model Conversion &gt;&gt;</a>
+        <div class="row mt-5">
+            <div class="col-12 mx-auto" style=" justify-content: center; align-items:center">
+                <div style="width:300px; margin: auto;">
+                    <ul>
+                        <li><a href="#systemInfo">Our System Configuration</a></li>
+                        <li><a href="#testMethod">Our Test Pipeline</a></li>
+                        <li><a href="#testResults">Test Results</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section id="systemInfo" class="system-info-section">
     <div class="container pt-0 pb-0">
 
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>Conversion Test Setup</h1>
+                <h1>System Configuration</h1>
             </div>
         </div>
 
-        <div class="row testimonial-row center-text">
+        <div class="row testimonial-row left-text">
             <div class="col-lg-12">
-                <p>Below is a summary of the system we ran these conversion tests on - find the full system information
-                    <a href="./results/systemInfo.json">here</a>.</p>
+                <p>We're running our tests on a fairly well-specced system, which keeps the office cat warm on a cold
+                    day. Below is a summary of our system
+                    specifications, along with the versions of the CLI converter tools and xeokit SDK we used. In this
+                    case,
+                    we're running everything on Linux, but
+                    you can just as easily run it on Windows and Mac O/S.</p>
             </div>
         </div>
 
@@ -138,7 +155,7 @@
     <tbody>
     <tr>
         <td>Date</td>
-        <td>Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)</td>
+        <td>Sun Dec 24 2023 04:45:31 GMT+0100 (Central European Standard Time)</td>
     </tr>
     <tr>
         <td>CPU Manufacturer</td>
@@ -168,937 +185,1207 @@
         <td>Node.js</td>
         <td>v16.17.1</td>
     </tr>
-<!--    <tr>-->
-<!--        <td>xeokit-sdk</td>-->
-<!--        <td>Latest </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>xeokit-convert</td>-->
-<!--        <td>Latest </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>IfcConvert</td>-->
-<!--        <td>Latest </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>xeokit-metadata</td>-->
-<!--        <td>Latest </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>ifc2gltf</td>-->
-<!--        <td>Latest </td>-->
-<!--    </tr>-->
-
+    <tr>
+        <td>@xeokit/xeokit-sdk</td>
+        <td>2.5.2-beta-3</td>
+    </tr>
+    <tr>
+        <td>@xeokit/xeokit-convert</td>
+        <td>1.1.11</td>
+    </tr>
+    <tr>
+        <td>ifc2gltfcxconverter</td>
+        <td>3.0.4</td>
+    </tr>
     </tbody>
 </table>
             </div>
         </div>
+
+
+        <div class="row mt-5 mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./results/systemInfo.json">Full System
+                    Configuration
+                    &gt;&gt;</a>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="test-results-section">
+
+<section id="testMethod" class="test-results-section  mb-5">
+    <div class="container pt-6 pb-0">
+        <div class="row center-text mb-5">
+            <div class="col-lg-12">
+                <h1> Pipeline Setup</h1>
+            </div>
+        </div>
+        <div class="row  mb-5">
+            <div class="col-12 mx-auto left-text">
+                <h2 style="margin-bottom: 1em">CLI Tool Usage</h2>
+
+                <p>We ran our converter tools on each IFC file in our test collection using the CLI commands shown
+                    below.
+                    For each IFC file, we substitute "model" with the name of that file.</p>
+
+                <p>First, we convert each IFC file using our <code>ifc2gltfcxconverter</code> tool. Contact us <a
+        href="https://xeokit.io/for-business">here</a> if you would like to evaluate this tool.</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">ifc2gltfcxconverter -i model.ifc -o model.glb -m model.json -s 5 -t 200 -e 3
+</pre>
+
+<p>This creates a set of <code>glb</code> and JSON files that contain the IFC geometry and metadata, along with a JSON manifest that
+    lists them, as shown below. The
+    tool splits the IFC into a
+    set of files like this so that they are processed more reliably by the next step, and ulltimately loaded more reliably into
+    xeokit's browser-based viewer.</p>
+<p>Note the tool's <code>-s</code> option, which specifies that output <code>glb</code> files should be a maximum of <code>5</code>Mb
+    each, in this case. Also, the <code>-t</code> option splits the 3D geometry coordinates into tiled regions of size
+    <code>5 x 5 x 5</code>. That enables
+    the xeokit viewer to render the geometry accurately without rounding jitter. </p>
+
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
+├── model.glb.manifest.json
+├── model_1.glb
+├── model_1.json
+├── model_2.glb
+├── model_2.json
+├── model_3.glb
+├── model_3.json
+├── model.glb
+└── model.json
+</pre>
+
+<p>Next, we process that manifest using <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a>. This is a
+    NodeJS-based CLI tool often needs us to allocate it some extra memory. Thanks to splitting our files, our NodeJS
+    process is not overwhelmed by any memory stress!</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">
+node --max-old-space-size=14000 convert2xkt -n -a model.glb.manifest.json -o model.xkt.manifest.json</pre>
+
+<p>That converts the <code>glb</code> and JSON files into a set of XKT files, along with a JSON manifest that
+    lists them, as shown below. XKT is xeokit's web-friendly native binary model format, designed to load quickly into its web viewer.
+</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
+├── model.xkt.manifest.json
+├── model_1.xkt
+├── model_2.xkt
+├── model_3.xkt
+└── model.xkt
+</pre>
+
+<p>Finally, we visualize our XKT files in the browser using xeokit's web viewer. In JavaScript, we simply create a <a
+        href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>,
+    add an <a
+            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html"><code>XKTLoaderPlugin</code></a>,
+    and then load our XKT file manifest.</p>
+
+<div style="width:100%; background-color: black;">
+    <img src="./img/xeokit-Viewer.svg"/>
+</div>
+                <br>
+            </div>
+        </div>
+
+        <div class="row left-text mt-5">
+            <div class="col-md-6">
+                <h2 style="margin-bottom: 1em">ifc2gltfcxconverter Arguments</h2>
+                <p>The table below provides a comprehensive list of all arguments we're providing to <code>ifc2gltfcxconverter</code>.
+                </p>
+
+                <table class="table table-sm table-hover table-striped table-bordered mb-0">
+  <!--                    <tr style="background-color: rgba(0, 0, 0, 0.05);"><th><span class="nowrap">Option</span></th><th style="text-align:left;">Description</th></tr>-->
+  <tbody>
+  <tr>
+    <th>Option</th>
+    <th><span class="nowrap"  >Value</span></th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code class="nowrap" style="font-size: larger; font-weight: bold">-i</code></td>
+    <td></td>
+    <td>IFC file to convert.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-o</code></td>
+    <td></td>
+    <td>Name of binary glTF file(s) to create as output.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-m</code></td>
+    <td></td>
+    <td>Name of IFC metadata JSON file(s) to create as output.</td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-s</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">5</code></td>
+    <td><p>Maximum glTF file size in megabytes.</p><p>Once the size is reached, all following objects will be
+      written into the next file, with _1, _2 etc. appended to the file name.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-t</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">200</code></td>
+    <td><p>Geographical tile size in meters.</p><p>Sometimes, IFC models have objects that are so large that
+      double precision values on the GPU
+      are necessary to visualise it without distortion (for example infrastructure models). Double
+      precision coordinates require too much memory on the GPU. That's why xeokit SDK uses local
+      coordinate systems and single precision or even lower data types to optimise memory
+      consumption on the GPU and improve performance. The local coordinate systems are called a
+      tile.</p>
+      <p>This converter prepares and optimises large triangle meshes for improved usage of the tile
+      feature of xeokit. Without that, large meshes are rendered with significant distortions.
+      By default, tiles with a size of 200x200x200 meters are applied by the converter.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">-e</code></td>
+    <td><code class="nowrap"  style="font-size: larger; font-weight: bold">3</code></td>
+    <td><p>Geometry embedding mode. Accepted values are:</p><ul><li>1 (default): Embed buffers into gltf file up to a file size of 32
+      Mb, separate .bin files
+      otherwise.</li><li>2: Always embed buffers.</li><li>3: Never embed buffers
+      Embedding buffers into the glTF file has one small advantage: fewer files (no separate .bin
+      file).
+      The disadvantage is a much bigger file, because writing float numbers into an ASCII file
+      takes
+      much more space than writing them into a binary file, which is basically raw memory, maximum
+      efficiency.</li></ul>
+      For small files, it does not make a big difference, but for big models it is significant.
+      So it depends on the use case: in an automated workflow, a separate <code>.bin</code> file is probably
+      not an
+      issue, so -e 3 (never embed buffers) is the best option.
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+            </div>
+            <div class="col-md-6">
+
+
+                <h2 style="margin-bottom: 1em">convert2xkt Arguments</h2>
+
+                <p>The table below provides a compreensive list of the arguments we're providing to
+                    <code>convert2xkt</code>.</p>
+
+                <table class="table table-sm table-hover table-striped table-bordered mb-0">
+                    <!--                    <tr style="background-color: rgba(0, 0, 0, 0.05);"><th><span class="nowrap">Option</span></th><th style="text-align:left;">Description</th></tr>-->
+                    <tbody>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-n</code></td>
+                        <!--                        <td></td>-->
+                        <td>Don't convert geometry normal vectors.</td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-a</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the input manifest of glTF and JSON files created by
+                            <code>ifc2gltfcxconverter</code>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-o</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the manifest of XKT files to create as output.</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <img src="./img/pipeline-ifc-enterprise1.png" class="card-img" alt="...">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="testResults" class="test-results-section">
     <div class="container pt-6 pb-0">
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>Conversion Test Results</h1>
+                <h1>Test Results</h1>
             </div>
         </div>
-        <div class="row  center-text">
+        <div class="row  left-text">
             <div class="col-lg-12">
-                <p>Below are the results of our latest conversion tests. The tests have run our sample files through all our conversion pipelines, creating various XKT, glTF, JSON files that we can now view or download. Although the glTF and JSON are intermediate artifacts within our pipelines, the results provide them as useful debugging resources.</p>
+                <p>Below are the results of our latest conversion test run. Click the XKT links on the right to view the
+                    results for each IFC conversion in a xeokit web viewer.
+                    Click the Log links to view the output that was logged by the converter tools while processing
+                    the IFC.</p>
             </div>
         </div>
     </div>
 </section>
+
+<!--<section class="test-results-section">-->
+<!--    <div class="container pt-6 pb-0">-->
+<!--        <div class="row testimonial-row center-text">-->
+<!--            <div class="col-lg-12">-->
+<!--                <img src="./graph.png">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>2011-09-14-Clinic</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_A_20110906">Clinic_A_20110906</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_A_20110906_optimized">Clinic_A_20110906_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_MEP_20110906">Clinic_MEP_20110906</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_MEP_20110906_optimized">Clinic_MEP_20110906_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_S_20110715">Clinic_S_20110715</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_S_20110715_optimized">Clinic_S_20110715_optimized</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Archicad</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Archicad&modelId=AR-Demo_Sample_Single_Building_01">AR-Demo_Sample_Single_Building_01</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Archicad&modelId=Archicad-Demoprojekt">Archicad-Demoprojekt</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Archicad&modelId=ME-Demo_Sample_Single_Building_01">ME-Demo_Sample_Single_Building_01</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Archicad&modelId=ST-Demo_Sample_Single_Building_01">ST-Demo_Sample_Single_Building_01</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>BIM1</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=BIM1&modelId=BIM1841">BIM1841</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>BIM2</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=BIM2&modelId=bim1840">bim1840</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>BIMData</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=BIMData&modelId=19_rue_Marc_Antoine_Petit_Ground_floor">19_rue_Marc_Antoine_Petit_Ground_floor</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=BIMData&modelId=MAP">MAP</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Clinic</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_A_20110906_optimized">Clinic_A_20110906_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Architectural">Clinic_Architectural</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Electrical">Clinic_Electrical</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_HVAC">Clinic_HVAC</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_MEP_20110906_optimized">Clinic_MEP_20110906_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Plumbing">Clinic_Plumbing</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_S_20110715_optimized">Clinic_S_20110715_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Structural">Clinic_Structural</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Duplex</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex&modelId=Duplex">Duplex</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Duplex-IFC2x3-2011-05-05</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-05-05&modelId=Duplex_2x3_2011-05-05">Duplex_2x3_2011-05-05</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Duplex-IFC2x3-2011-09-07</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-07&modelId=Duplex_2x3_2011-09-07">Duplex_2x3_2011-09-07</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Duplex-IFC2x3-2011-09-14</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_A_20110907">Duplex_A_20110907</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_A_20110907_optimized">Duplex_A_20110907_optimized</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_MEP_20110907">Duplex_MEP_20110907</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_MEP_20110907_optimized">Duplex_MEP_20110907_optimized</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Esplanades</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Esplanades&modelId=1807_EP_AR_v18">1807_EP_AR_v18</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>HolterTower</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=HolterTower&modelId=Holter_Tower_10">Holter_Tower_10</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>IFCPlate_Color_Test</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=IFCPlate_Color_Test&modelId=eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01">eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>IfcCurtain_IfcElementAssembly</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=IfcCurtain_IfcElementAssembly&modelId=Assembly_selection_TEST1_IFC4">Assembly_selection_TEST1_IFC4</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>IfcOpenShell</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=IfcOpenShell&modelId=IfcOpenHouse2x3">IfcOpenHouse2x3</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=IfcOpenShell&modelId=IfcOpenHouse4">IfcOpenHouse4</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Karhumaki</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Karhumaki&modelId=Karhumaki-Bridge">Karhumaki-Bridge</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Karhumaki&modelId=Karhumaki-Terrains">Karhumaki-Terrains</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>LTU_A-House_2014-09-25_ifc</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Air">LTU_A-House_Air</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Cooling">LTU_A-House_Cooling</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Ducting">LTU_A-House_Ducting</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Heating">LTU_A-House_Heating</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_K-modell">LTU_A-House_K-modell</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Plumbing">LTU_A-House_Plumbing</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Sanitation">LTU_A-House_Sanitation</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_VOIDS">LTU_A-House_VOIDS</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_redesign">LTU_A-House_redesign</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>MarkupTest</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=MarkupTest&modelId=MarkupTest">MarkupTest</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Molio</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Molio&modelId=Molio_with_URIs">Molio_with_URIs</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Nullpunkt</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Nullpunkt&modelId=ARC_NUL_Nullpunkt_--_E_A">ARC_NUL_Nullpunkt_--_E_A</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Revit</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=Revit&modelId=Duplex">Duplex</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Revit&modelId=rac">rac</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Revit&modelId=rac_advanced_sample_project">rac_advanced_sample_project</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=Revit&modelId=rme_advanced_sample_project">rme_advanced_sample_project</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>RiverSideOffice</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=RiverSideOffice&modelId=RiverSideOffice">RiverSideOffice</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>SGD_BODO_ifc</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Arch-2">SGD_BODO_Arch-2</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Arch-3">SGD_BODO_Arch-3</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Eng-HVAC-Plumbing">SGD_BODO_Eng-HVAC-Plumbing</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Eng-HVAC-Ventilation">SGD_BODO_Eng-HVAC-Ventilation</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>blenderbim</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=blenderbim&modelId=auto-geolocation">auto-geolocation</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>buildingSMART_IFC2.3</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Architectural">Clinic_Architectural</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Electrical">Clinic_Electrical</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_HVAC">Clinic_HVAC</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Plumbing">Clinic_Plumbing</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Structural">Clinic_Structural</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Schependomlaan">Schependomlaan</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>buildingSMART_IFC4.0</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=air-terminal-element">air-terminal-element</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=air-terminal-library-object">air-terminal-library-object</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-advanced-brep">basin-advanced-brep</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-faceted-brep">basin-faceted-brep</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-tessellation">basin-tessellation</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=bath-csg-solid">bath-csg-solid</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-curved-i-shape-tessellated">beam-curved-i-shape-tessellated</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-extruded-solid">beam-extruded-solid</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-revolved-solid">beam-revolved-solid</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-standard-case">beam-standard-case</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-straight-i-shape-tessellated">beam-straight-i-shape-tessellated</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-varying-cardinal-points">beam-varying-cardinal-points</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-varying-extrusion-paths">beam-varying-extrusion-paths</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-varying-profiles">beam-varying-profiles</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=brep-model">brep-model</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=column-extruded-solid">column-extruded-solid</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=column-straight-rectangle-tessellation">column-straight-rectangle-tessellation</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=construction-scheduling-task">construction-scheduling-task</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=csg-primitive">csg-primitive</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=cube-advanced-brep">cube-advanced-brep</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=extruded-solid">extruded-solid</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=geographic-referencing">geographic-referencing</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=grid-placement">grid-placement</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=mapped-shape-with-multiple-items">mapped-shape-with-multiple-items</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=mapped-shape-with-transformation">mapped-shape-with-transformation</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=mapped-shape-without-transformation">mapped-shape-without-transformation</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=reinforcing-assembly">reinforcing-assembly</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=reinforcing-stirrup">reinforcing-stirrup</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-openings">slab-openings</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-standard-case">slab-standard-case</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-tessellated-unique-vertices">slab-tessellated-unique-vertices</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=structural-curve-member">structural-curve-member</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=surface-model">surface-model</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellated-item">tessellated-item</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-blob-texture">tessellation-with-blob-texture</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-image-texture">tessellation-with-image-texture</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-individual-colors">tessellation-with-individual-colors</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-pixel-texture">tessellation-with-pixel-texture</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=wall-elemented-case">wall-elemented-case</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=wall-standard-case">wall-standard-case</a></td>
-
-</tr>
-<tr>
-    <td><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=wall-with-opening-and-window">wall-with-opening-and-window</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="test-results-section">
-    <div class="container pt-6 pb-0">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>wefly</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-sm table-hover table-striped table-bordered mb-0">
-                    <tbody>
-<tr>
-    <td><a href="./viewer.html?batchId=wefly&modelId=wefly">wefly</a></td>
-
-</tr>
-</tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
+                    <div class="container pt-6 pb-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table class="table table-sm table-hover  table-bordered mb-0">
+                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>IFC File</th><th style="text-align:right;">IFC Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="2">View Results</th></tr>
+                                <tbody>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>2011-09-14-Clinic</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_A_20110906.ifc</a></td>-->
+    <td>Clinic_A_20110906.ifc</td>
+    <td style="text-align:right;">18.1414</td>
+    <td style="text-align:right;">1.3876</td>
+    <td style="text-align:right;">4.76</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_A_20110906">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_A_20110906/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_A_20110906_optimized.ifc</a></td>-->
+    <td>Clinic_A_20110906_optimized.ifc</td>
+    <td style="text-align:right;">13.2081</td>
+    <td style="text-align:right;">1.3951</td>
+    <td style="text-align:right;">4.63</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_A_20110906_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_A_20110906_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_MEP_20110906.ifc</a></td>-->
+    <td>Clinic_MEP_20110906.ifc</td>
+    <td style="text-align:right;">207.3372</td>
+    <td style="text-align:right;">21.3733</td>
+    <td style="text-align:right;">65.90</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_MEP_20110906">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_MEP_20110906/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_MEP_20110906_optimized.ifc</a></td>-->
+    <td>Clinic_MEP_20110906_optimized.ifc</td>
+    <td style="text-align:right;">125.7807</td>
+    <td style="text-align:right;">21.3893</td>
+    <td style="text-align:right;">67.60</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_MEP_20110906_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_S_20110715.ifc</a></td>-->
+    <td>Clinic_S_20110715.ifc</td>
+    <td style="text-align:right;">19.3760</td>
+    <td style="text-align:right;">1.0471</td>
+    <td style="text-align:right;">4.71</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_S_20110715">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_S_20110715/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_S_20110715_optimized.ifc</a></td>-->
+    <td>Clinic_S_20110715_optimized.ifc</td>
+    <td style="text-align:right;">19.3760</td>
+    <td style="text-align:right;">1.0471</td>
+    <td style="text-align:right;">4.74</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=2011-09-14-Clinic&modelId=Clinic_S_20110715_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/2011-09-14-Clinic/Clinic_S_20110715_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Archicad</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">AR-Demo_Sample_Single_Building_01.ifc</a></td>-->
+    <td>AR-Demo_Sample_Single_Building_01.ifc</td>
+    <td style="text-align:right;">59.6020</td>
+    <td style="text-align:right;">2.8761</td>
+    <td style="text-align:right;">20.49</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Archicad&modelId=AR-Demo_Sample_Single_Building_01">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Archicad/AR-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Archicad-Demoprojekt.ifc</a></td>-->
+    <td>Archicad-Demoprojekt.ifc</td>
+    <td style="text-align:right;">56.8785</td>
+    <td style="text-align:right;">2.5006</td>
+    <td style="text-align:right;">12.86</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Archicad&modelId=Archicad-Demoprojekt">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Archicad/Archicad-Demoprojekt/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">ME-Demo_Sample_Single_Building_01.ifc</a></td>-->
+    <td>ME-Demo_Sample_Single_Building_01.ifc</td>
+    <td style="text-align:right;">44.6952</td>
+    <td style="text-align:right;">2.1157</td>
+    <td style="text-align:right;">15.33</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Archicad&modelId=ME-Demo_Sample_Single_Building_01">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Archicad/ME-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">ST-Demo_Sample_Single_Building_01.ifc</a></td>-->
+    <td>ST-Demo_Sample_Single_Building_01.ifc</td>
+    <td style="text-align:right;">12.0577</td>
+    <td style="text-align:right;">0.5976</td>
+    <td style="text-align:right;">3.56</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Archicad&modelId=ST-Demo_Sample_Single_Building_01">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Archicad/ST-Demo_Sample_Single_Building_01/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>BIM1</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">BIM1841.ifc</a></td>-->
+    <td>BIM1841.ifc</td>
+    <td style="text-align:right;">30.9475</td>
+    <td style="text-align:right;">0.6605</td>
+    <td style="text-align:right;">5.04</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=BIM1&modelId=BIM1841">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/BIM1/BIM1841/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>BIM2</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">bim1840.ifc</a></td>-->
+    <td>bim1840.ifc</td>
+    <td style="text-align:right;">1.5403</td>
+    <td style="text-align:right;">0.0850</td>
+    <td style="text-align:right;">1.00</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=BIM2&modelId=bim1840">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/BIM2/bim1840/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>BIMData</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">19_rue_Marc_Antoine_Petit_Ground_floor.ifc</a></td>-->
+    <td>19_rue_Marc_Antoine_Petit_Ground_floor.ifc</td>
+    <td style="text-align:right;">4.1119</td>
+    <td style="text-align:right;">0.3395</td>
+    <td style="text-align:right;">1.91</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=BIMData&modelId=19_rue_Marc_Antoine_Petit_Ground_floor">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">MAP.ifc</a></td>-->
+    <td>MAP.ifc</td>
+    <td style="text-align:right;">28.7794</td>
+    <td style="text-align:right;">1.8799</td>
+    <td style="text-align:right;">7.23</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=BIMData&modelId=MAP">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/BIMData/MAP/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Clinic</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_A_20110906_optimized.ifc</a></td>-->
+    <td>Clinic_A_20110906_optimized.ifc</td>
+    <td style="text-align:right;">13.2081</td>
+    <td style="text-align:right;">1.3952</td>
+    <td style="text-align:right;">4.49</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_A_20110906_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_A_20110906_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Architectural.ifc</a></td>-->
+    <td>Clinic_Architectural.ifc</td>
+    <td style="text-align:right;">13.0032</td>
+    <td style="text-align:right;">1.3898</td>
+    <td style="text-align:right;">4.52</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Architectural">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_Architectural/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Electrical.ifc</a></td>-->
+    <td>Clinic_Electrical.ifc</td>
+    <td style="text-align:right;">6.8002</td>
+    <td style="text-align:right;">1.5268</td>
+    <td style="text-align:right;">4.98</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Electrical">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_Electrical/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_HVAC.ifc</a></td>-->
+    <td>Clinic_HVAC.ifc</td>
+    <td style="text-align:right;">26.9146</td>
+    <td style="text-align:right;">3.2490</td>
+    <td style="text-align:right;">9.25</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_HVAC">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_HVAC/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_MEP_20110906_optimized.ifc</a></td>-->
+    <td>Clinic_MEP_20110906_optimized.ifc</td>
+    <td style="text-align:right;">125.7807</td>
+    <td style="text-align:right;">21.3893</td>
+    <td style="text-align:right;">64.04</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_MEP_20110906_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_MEP_20110906_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Plumbing.ifc</a></td>-->
+    <td>Clinic_Plumbing.ifc</td>
+    <td style="text-align:right;">55.8345</td>
+    <td style="text-align:right;">19.5854</td>
+    <td style="text-align:right;">46.72</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Plumbing">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_Plumbing/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_S_20110715_optimized.ifc</a></td>-->
+    <td>Clinic_S_20110715_optimized.ifc</td>
+    <td style="text-align:right;">19.3760</td>
+    <td style="text-align:right;">1.0471</td>
+    <td style="text-align:right;">4.86</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_S_20110715_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_S_20110715_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Structural.ifc</a></td>-->
+    <td>Clinic_Structural.ifc</td>
+    <td style="text-align:right;">19.0582</td>
+    <td style="text-align:right;">1.0471</td>
+    <td style="text-align:right;">4.89</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Clinic&modelId=Clinic_Structural">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Clinic/Clinic_Structural/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>DigitalHub</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">DigitalHub_FM-ARC_v2.ifc</a></td>-->
+    <td>DigitalHub_FM-ARC_v2.ifc</td>
+    <td style="text-align:right;">9.0223</td>
+    <td style="text-align:right;">1.7253</td>
+    <td style="text-align:right;">6.68</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=DigitalHub&modelId=DigitalHub_FM-ARC_v2">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/DigitalHub/DigitalHub_FM-ARC_v2/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">DigitalHub_FM-HZG_v2.ifc</a></td>-->
+    <td>DigitalHub_FM-HZG_v2.ifc</td>
+    <td style="text-align:right;">20.8904</td>
+    <td style="text-align:right;">2.5640</td>
+    <td style="text-align:right;">7.85</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=DigitalHub&modelId=DigitalHub_FM-HZG_v2">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/DigitalHub/DigitalHub_FM-HZG_v2/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">DigitalHub_FM-LFT_v2.ifc</a></td>-->
+    <td>DigitalHub_FM-LFT_v2.ifc</td>
+    <td style="text-align:right;">12.7378</td>
+    <td style="text-align:right;">1.0289</td>
+    <td style="text-align:right;">3.86</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=DigitalHub&modelId=DigitalHub_FM-LFT_v2">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/DigitalHub/DigitalHub_FM-LFT_v2/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">DigitalHub_FM-SAN_v2.ifc</a></td>-->
+    <td>DigitalHub_FM-SAN_v2.ifc</td>
+    <td style="text-align:right;">25.1789</td>
+    <td style="text-align:right;">9.6592</td>
+    <td style="text-align:right;">28.85</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=DigitalHub&modelId=DigitalHub_FM-SAN_v2">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/DigitalHub/DigitalHub_FM-SAN_v2/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Duplex</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex.ifc</a></td>-->
+    <td>Duplex.ifc</td>
+    <td style="text-align:right;">1.2971</td>
+    <td style="text-align:right;">0.1204</td>
+    <td style="text-align:right;">1.27</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex&modelId=Duplex">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex/Duplex/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Duplex-IFC2x3-2011-05-05</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_2x3_2011-05-05.ifc</a></td>-->
+    <td>Duplex_2x3_2011-05-05.ifc</td>
+    <td style="text-align:right;">2.3278</td>
+    <td style="text-align:right;">0.1611</td>
+    <td style="text-align:right;">1.28</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-05-05&modelId=Duplex_2x3_2011-05-05">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-05-05/Duplex_2x3_2011-05-05/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Duplex-IFC2x3-2011-09-07</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_2x3_2011-09-07.ifc</a></td>-->
+    <td>Duplex_2x3_2011-09-07.ifc</td>
+    <td style="text-align:right;">2.3808</td>
+    <td style="text-align:right;">0.1659</td>
+    <td style="text-align:right;">1.29</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-07&modelId=Duplex_2x3_2011-09-07">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-09-07/Duplex_2x3_2011-09-07/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Duplex-IFC2x3-2011-09-14</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_A_20110907.ifc</a></td>-->
+    <td>Duplex_A_20110907.ifc</td>
+    <td style="text-align:right;">2.3808</td>
+    <td style="text-align:right;">0.1659</td>
+    <td style="text-align:right;">1.26</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_A_20110907">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_A_20110907_optimized.ifc</a></td>-->
+    <td>Duplex_A_20110907_optimized.ifc</td>
+    <td style="text-align:right;">1.6286</td>
+    <td style="text-align:right;">0.1665</td>
+    <td style="text-align:right;">1.22</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_A_20110907_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_MEP_20110907.ifc</a></td>-->
+    <td>Duplex_MEP_20110907.ifc</td>
+    <td style="text-align:right;">17.8714</td>
+    <td style="text-align:right;">1.4558</td>
+    <td style="text-align:right;">4.91</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_MEP_20110907">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex_MEP_20110907_optimized.ifc</a></td>-->
+    <td>Duplex_MEP_20110907_optimized.ifc</td>
+    <td style="text-align:right;">10.9338</td>
+    <td style="text-align:right;">1.4569</td>
+    <td style="text-align:right;">4.77</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Duplex-IFC2x3-2011-09-14&modelId=Duplex_MEP_20110907_optimized">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Esplanades</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">1807_EP_AR_v18.ifc</a></td>-->
+    <td>1807_EP_AR_v18.ifc</td>
+    <td style="text-align:right;">12.1092</td>
+    <td style="text-align:right;">1.3071</td>
+    <td style="text-align:right;">7.02</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Esplanades&modelId=1807_EP_AR_v18">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Esplanades/1807_EP_AR_v18/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>HolterTower</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Holter_Tower_10.ifc</a></td>-->
+    <td>Holter_Tower_10.ifc</td>
+    <td style="text-align:right;">177.4656</td>
+    <td style="text-align:right;">12.0746</td>
+    <td style="text-align:right;">112.84</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=HolterTower&modelId=Holter_Tower_10">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/HolterTower/Holter_Tower_10/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>IFCPlate_Color_Test</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc</a></td>-->
+    <td>eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc</td>
+    <td style="text-align:right;">0.0638</td>
+    <td style="text-align:right;">0.0044</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=IFCPlate_Color_Test&modelId=eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/IFCPlate_Color_Test/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>IfcCurtain_IfcElementAssembly</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Assembly_selection_TEST1_IFC4.ifc</a></td>-->
+    <td>Assembly_selection_TEST1_IFC4.ifc</td>
+    <td style="text-align:right;">2.7802</td>
+    <td style="text-align:right;">0.5124</td>
+    <td style="text-align:right;">2.14</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=IfcCurtain_IfcElementAssembly&modelId=Assembly_selection_TEST1_IFC4">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/IfcCurtain_IfcElementAssembly/Assembly_selection_TEST1_IFC4/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>IfcOpenShell</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">IfcOpenHouse2x3.ifc</a></td>-->
+    <td>IfcOpenHouse2x3.ifc</td>
+    <td style="text-align:right;">0.1128</td>
+    <td style="text-align:right;">0.0100</td>
+    <td style="text-align:right;">0.69</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=IfcOpenShell&modelId=IfcOpenHouse2x3">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/IfcOpenShell/IfcOpenHouse2x3/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">IfcOpenHouse4.ifc</a></td>-->
+    <td>IfcOpenHouse4.ifc</td>
+    <td style="text-align:right;">0.1133</td>
+    <td style="text-align:right;">0.0100</td>
+    <td style="text-align:right;">0.68</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=IfcOpenShell&modelId=IfcOpenHouse4">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/IfcOpenShell/IfcOpenHouse4/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Karhumaki</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Karhumaki-Bridge.ifc</a></td>-->
+    <td>Karhumaki-Bridge.ifc</td>
+    <td style="text-align:right;">67.7471</td>
+    <td style="text-align:right;">8.2391</td>
+    <td style="text-align:right;">37.86</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Karhumaki&modelId=Karhumaki-Bridge">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Karhumaki/Karhumaki-Bridge/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Karhumaki-Terrains.ifc</a></td>-->
+    <td>Karhumaki-Terrains.ifc</td>
+    <td style="text-align:right;">67.7162</td>
+    <td style="text-align:right;">3.3563</td>
+    <td style="text-align:right;">13.20</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Karhumaki&modelId=Karhumaki-Terrains">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Karhumaki/Karhumaki-Terrains/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>LTU_A-House_2014-09-25_ifc</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Air.ifc</a></td>-->
+    <td>LTU_A-House_Air.ifc</td>
+    <td style="text-align:right;">25.3529</td>
+    <td style="text-align:right;">3.6334</td>
+    <td style="text-align:right;">15.31</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Air">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Air/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Cooling.ifc</a></td>-->
+    <td>LTU_A-House_Cooling.ifc</td>
+    <td style="text-align:right;">32.2849</td>
+    <td style="text-align:right;">7.2854</td>
+    <td style="text-align:right;">27.31</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Cooling">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Ducting.ifc</a></td>-->
+    <td>LTU_A-House_Ducting.ifc</td>
+    <td style="text-align:right;">8.3809</td>
+    <td style="text-align:right;">1.8541</td>
+    <td style="text-align:right;">6.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Ducting">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Heating.ifc</a></td>-->
+    <td>LTU_A-House_Heating.ifc</td>
+    <td style="text-align:right;">34.2293</td>
+    <td style="text-align:right;">5.6335</td>
+    <td style="text-align:right;">24.57</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Heating">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_K-modell.ifc</a></td>-->
+    <td>LTU_A-House_K-modell.ifc</td>
+    <td style="text-align:right;">32.4027</td>
+    <td style="text-align:right;">4.1589</td>
+    <td style="text-align:right;">16.29</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_K-modell">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_K-modell/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Plumbing.ifc</a></td>-->
+    <td>LTU_A-House_Plumbing.ifc</td>
+    <td style="text-align:right;">72.9708</td>
+    <td style="text-align:right;">17.6525</td>
+    <td style="text-align:right;">157.15</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Plumbing">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_Sanitation.ifc</a></td>-->
+    <td>LTU_A-House_Sanitation.ifc</td>
+    <td style="text-align:right;">26.9642</td>
+    <td style="text-align:right;">4.9248</td>
+    <td style="text-align:right;">19.91</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_Sanitation">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_VOIDS.ifc</a></td>-->
+    <td>LTU_A-House_VOIDS.ifc</td>
+    <td style="text-align:right;">25.2962</td>
+    <td style="text-align:right;">3.6317</td>
+    <td style="text-align:right;">16.89</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_VOIDS">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">LTU_A-House_redesign.ifc</a></td>-->
+    <td>LTU_A-House_redesign.ifc</td>
+    <td style="text-align:right;">181.3144</td>
+    <td style="text-align:right;">9.5319</td>
+    <td style="text-align:right;">52.41</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=LTU_A-House_2014-09-25_ifc&modelId=LTU_A-House_redesign">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>MarkupTest</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">MarkupTest.ifc</a></td>-->
+    <td>MarkupTest.ifc</td>
+    <td style="text-align:right;">0.6405</td>
+    <td style="text-align:right;">0.0251</td>
+    <td style="text-align:right;">0.82</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=MarkupTest&modelId=MarkupTest">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/MarkupTest/MarkupTest/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Molio</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Molio_with_URIs.ifc</a></td>-->
+    <td>Molio_with_URIs.ifc</td>
+    <td style="text-align:right;">73.9451</td>
+    <td style="text-align:right;">3.8732</td>
+    <td style="text-align:right;">15.55</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Molio&modelId=Molio_with_URIs">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Molio/Molio_with_URIs/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Nullpunkt</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">ARC_NUL_Nullpunkt_--_E_A.ifc</a></td>-->
+    <td>ARC_NUL_Nullpunkt_--_E_A.ifc</td>
+    <td style="text-align:right;">0.0135</td>
+    <td style="text-align:right;">0.0012</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Nullpunkt&modelId=ARC_NUL_Nullpunkt_--_E_A">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Revit</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Duplex.ifc</a></td>-->
+    <td>Duplex.ifc</td>
+    <td style="text-align:right;">2.3278</td>
+    <td style="text-align:right;">0.1611</td>
+    <td style="text-align:right;">1.33</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Revit&modelId=Duplex">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Revit/Duplex/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">rac.ifc</a></td>-->
+    <td>rac.ifc</td>
+    <td style="text-align:right;">10.5307</td>
+    <td style="text-align:right;">0.6039</td>
+    <td style="text-align:right;">5.22</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Revit&modelId=rac">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Revit/rac/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">rac_advanced_sample_project.ifc</a></td>-->
+    <td>rac_advanced_sample_project.ifc</td>
+    <td style="text-align:right;">45.3167</td>
+    <td style="text-align:right;">2.8580</td>
+    <td style="text-align:right;">14.56</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Revit&modelId=rac_advanced_sample_project">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Revit/rac_advanced_sample_project/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">rme_advanced_sample_project.ifc</a></td>-->
+    <td>rme_advanced_sample_project.ifc</td>
+    <td style="text-align:right;">35.3099</td>
+    <td style="text-align:right;">3.8747</td>
+    <td style="text-align:right;">17.93</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=Revit&modelId=rme_advanced_sample_project">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/Revit/rme_advanced_sample_project/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>RiverSideOffice</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">RiverSideOffice.ifc</a></td>-->
+    <td>RiverSideOffice.ifc</td>
+    <td style="text-align:right;">3.5706</td>
+    <td style="text-align:right;">0.0813</td>
+    <td style="text-align:right;">1.30</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=RiverSideOffice&modelId=RiverSideOffice">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/RiverSideOffice/RiverSideOffice/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>SGD_BODO_ifc</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">SGD_BODO_Eng-HVAC-Plumbing.ifc</a></td>-->
+    <td>SGD_BODO_Eng-HVAC-Plumbing.ifc</td>
+    <td style="text-align:right;">72.8230</td>
+    <td style="text-align:right;">1.8392</td>
+    <td style="text-align:right;">16.50</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Eng-HVAC-Plumbing">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">SGD_BODO_Eng-HVAC-Ventilation.ifc</a></td>-->
+    <td>SGD_BODO_Eng-HVAC-Ventilation.ifc</td>
+    <td style="text-align:right;">47.2323</td>
+    <td style="text-align:right;">0.9965</td>
+    <td style="text-align:right;">9.57</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=SGD_BODO_ifc&modelId=SGD_BODO_Eng-HVAC-Ventilation">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>UpTown</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">UpTown.ifc</a></td>-->
+    <td>UpTown.ifc</td>
+    <td style="text-align:right;">252.7478</td>
+    <td style="text-align:right;">31.9563</td>
+    <td style="text-align:right;">528.22</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=UpTown&modelId=UpTown">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/UpTown/UpTown/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>blenderbim</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">auto-geolocation.ifc</a></td>-->
+    <td>auto-geolocation.ifc</td>
+    <td style="text-align:right;">0.0055</td>
+    <td style="text-align:right;">0.0010</td>
+    <td style="text-align:right;">0.65</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=blenderbim&modelId=auto-geolocation">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/blenderbim/auto-geolocation/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>buildingSMART_IFC2.3</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Architectural.ifc</a></td>-->
+    <td>Clinic_Architectural.ifc</td>
+    <td style="text-align:right;">13.0032</td>
+    <td style="text-align:right;">1.3899</td>
+    <td style="text-align:right;">4.40</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Architectural">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Clinic_Architectural/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Electrical.ifc</a></td>-->
+    <td>Clinic_Electrical.ifc</td>
+    <td style="text-align:right;">6.8002</td>
+    <td style="text-align:right;">1.5268</td>
+    <td style="text-align:right;">5.05</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Electrical">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Clinic_Electrical/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_HVAC.ifc</a></td>-->
+    <td>Clinic_HVAC.ifc</td>
+    <td style="text-align:right;">26.9146</td>
+    <td style="text-align:right;">3.2490</td>
+    <td style="text-align:right;">9.19</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_HVAC">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Clinic_HVAC/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Plumbing.ifc</a></td>-->
+    <td>Clinic_Plumbing.ifc</td>
+    <td style="text-align:right;">55.8345</td>
+    <td style="text-align:right;">19.5854</td>
+    <td style="text-align:right;">48.17</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Plumbing">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Clinic_Plumbing/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Clinic_Structural.ifc</a></td>-->
+    <td>Clinic_Structural.ifc</td>
+    <td style="text-align:right;">19.0582</td>
+    <td style="text-align:right;">1.0471</td>
+    <td style="text-align:right;">4.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Clinic_Structural">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Clinic_Structural/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">Schependomlaan.ifc</a></td>-->
+    <td>Schependomlaan.ifc</td>
+    <td style="text-align:right;">49.2870</td>
+    <td style="text-align:right;">2.7018</td>
+    <td style="text-align:right;">10.10</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC2.3&modelId=Schependomlaan">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC2.3/Schependomlaan/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>buildingSMART_IFC4.0</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">air-terminal-element.ifc</a></td>-->
+    <td>air-terminal-element.ifc</td>
+    <td style="text-align:right;">0.0145</td>
+    <td style="text-align:right;">0.0021</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=air-terminal-element">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/air-terminal-element/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">air-terminal-library-object.ifc</a></td>-->
+    <td>air-terminal-library-object.ifc</td>
+    <td style="text-align:right;">0.0257</td>
+    <td style="text-align:right;">0.0008</td>
+    <td style="text-align:right;">0.63</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=air-terminal-library-object">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/air-terminal-library-object/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">basin-advanced-brep.ifc</a></td>-->
+    <td>basin-advanced-brep.ifc</td>
+    <td style="text-align:right;">0.0100</td>
+    <td style="text-align:right;">0.0010</td>
+    <td style="text-align:right;">0.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-advanced-brep">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/basin-advanced-brep/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">basin-faceted-brep.ifc</a></td>-->
+    <td>basin-faceted-brep.ifc</td>
+    <td style="text-align:right;">0.0319</td>
+    <td style="text-align:right;">0.0031</td>
+    <td style="text-align:right;">0.72</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-faceted-brep">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/basin-faceted-brep/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">basin-tessellation.ifc</a></td>-->
+    <td>basin-tessellation.ifc</td>
+    <td style="text-align:right;">0.0122</td>
+    <td style="text-align:right;">0.0026</td>
+    <td style="text-align:right;">0.65</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=basin-tessellation">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/basin-tessellation/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">bath-csg-solid.ifc</a></td>-->
+    <td>bath-csg-solid.ifc</td>
+    <td style="text-align:right;">0.0035</td>
+    <td style="text-align:right;">0.0012</td>
+    <td style="text-align:right;">0.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=bath-csg-solid">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/bath-csg-solid/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">beam-curved-i-shape-tessellated.ifc</a></td>-->
+    <td>beam-curved-i-shape-tessellated.ifc</td>
+    <td style="text-align:right;">0.3569</td>
+    <td style="text-align:right;">0.0620</td>
+    <td style="text-align:right;">0.88</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-curved-i-shape-tessellated">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">beam-standard-case.ifc</a></td>-->
+    <td>beam-standard-case.ifc</td>
+    <td style="text-align:right;">0.0370</td>
+    <td style="text-align:right;">0.0057</td>
+    <td style="text-align:right;">0.70</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-standard-case">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/beam-standard-case/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">beam-straight-i-shape-tessellated.ifc</a></td>-->
+    <td>beam-straight-i-shape-tessellated.ifc</td>
+    <td style="text-align:right;">0.1514</td>
+    <td style="text-align:right;">0.0257</td>
+    <td style="text-align:right;">0.77</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-straight-i-shape-tessellated">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">beam-varying-cardinal-points.ifc</a></td>-->
+    <td>beam-varying-cardinal-points.ifc</td>
+    <td style="text-align:right;">0.0063</td>
+    <td style="text-align:right;">0.0022</td>
+    <td style="text-align:right;">0.65</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-varying-cardinal-points">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/beam-varying-cardinal-points/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">beam-varying-extrusion-paths.ifc</a></td>-->
+    <td>beam-varying-extrusion-paths.ifc</td>
+    <td style="text-align:right;">0.0046</td>
+    <td style="text-align:right;">0.0046</td>
+    <td style="text-align:right;">0.68</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=beam-varying-extrusion-paths">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/beam-varying-extrusion-paths/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">brep-model.ifc</a></td>-->
+    <td>brep-model.ifc</td>
+    <td style="text-align:right;">0.0062</td>
+    <td style="text-align:right;">0.0009</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=brep-model">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">column-extruded-solid.ifc</a></td>-->
+    <td>column-extruded-solid.ifc</td>
+    <td style="text-align:right;">0.0032</td>
+    <td style="text-align:right;">0.0005</td>
+    <td style="text-align:right;">0.63</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=column-extruded-solid">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/column-extruded-solid/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">column-straight-rectangle-tessellation.ifc</a></td>-->
+    <td>column-straight-rectangle-tessellation.ifc</td>
+    <td style="text-align:right;">0.0046</td>
+    <td style="text-align:right;">0.0009</td>
+    <td style="text-align:right;">0.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=column-straight-rectangle-tessellation">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/column-straight-rectangle-tessellation/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">construction-scheduling-task.ifc</a></td>-->
+    <td>construction-scheduling-task.ifc</td>
+    <td style="text-align:right;">0.0187</td>
+    <td style="text-align:right;">0.0012</td>
+    <td style="text-align:right;">0.65</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=construction-scheduling-task">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/construction-scheduling-task/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">csg-primitive.ifc</a></td>-->
+    <td>csg-primitive.ifc</td>
+    <td style="text-align:right;">0.0051</td>
+    <td style="text-align:right;">0.0009</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=csg-primitive">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/csg-primitive/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">cube-advanced-brep.ifc</a></td>-->
+    <td>cube-advanced-brep.ifc</td>
+    <td style="text-align:right;">0.0106</td>
+    <td style="text-align:right;">0.0008</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=cube-advanced-brep">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/cube-advanced-brep/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">geographic-referencing.ifc</a></td>-->
+    <td>geographic-referencing.ifc</td>
+    <td style="text-align:right;">0.0034</td>
+    <td style="text-align:right;">0.0013</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=geographic-referencing">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/geographic-referencing/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">grid-placement.ifc</a></td>-->
+    <td>grid-placement.ifc</td>
+    <td style="text-align:right;">0.0306</td>
+    <td style="text-align:right;">0.0029</td>
+    <td style="text-align:right;">0.70</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=grid-placement">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/grid-placement/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">reinforcing-assembly.ifc</a></td>-->
+    <td>reinforcing-assembly.ifc</td>
+    <td style="text-align:right;">0.0221</td>
+    <td style="text-align:right;">0.0366</td>
+    <td style="text-align:right;">0.88</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=reinforcing-assembly">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/reinforcing-assembly/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">reinforcing-stirrup.ifc</a></td>-->
+    <td>reinforcing-stirrup.ifc</td>
+    <td style="text-align:right;">0.0043</td>
+    <td style="text-align:right;">0.0044</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=reinforcing-stirrup">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/reinforcing-stirrup/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">slab-openings.ifc</a></td>-->
+    <td>slab-openings.ifc</td>
+    <td style="text-align:right;">0.0047</td>
+    <td style="text-align:right;">0.0005</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-openings">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/slab-openings/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">slab-standard-case.ifc</a></td>-->
+    <td>slab-standard-case.ifc</td>
+    <td style="text-align:right;">0.0035</td>
+    <td style="text-align:right;">0.0005</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-standard-case">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/slab-standard-case/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">slab-tessellated-unique-vertices.ifc</a></td>-->
+    <td>slab-tessellated-unique-vertices.ifc</td>
+    <td style="text-align:right;">0.0050</td>
+    <td style="text-align:right;">0.0008</td>
+    <td style="text-align:right;">0.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=slab-tessellated-unique-vertices">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/slab-tessellated-unique-vertices/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">structural-curve-member.ifc</a></td>-->
+    <td>structural-curve-member.ifc</td>
+    <td style="text-align:right;">0.0149</td>
+    <td style="text-align:right;">0.0006</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=structural-curve-member">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/structural-curve-member/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">surface-model.ifc</a></td>-->
+    <td>surface-model.ifc</td>
+    <td style="text-align:right;">0.0063</td>
+    <td style="text-align:right;">0.0009</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=surface-model">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/surface-model/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">tessellated-item.ifc</a></td>-->
+    <td>tessellated-item.ifc</td>
+    <td style="text-align:right;">0.0054</td>
+    <td style="text-align:right;">0.0009</td>
+    <td style="text-align:right;">0.64</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellated-item">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/tessellated-item/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">tessellation-with-blob-texture.ifc</a></td>-->
+    <td>tessellation-with-blob-texture.ifc</td>
+    <td style="text-align:right;">0.0319</td>
+    <td style="text-align:right;">0.0011</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-blob-texture">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/tessellation-with-blob-texture/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">tessellation-with-image-texture.ifc</a></td>-->
+    <td>tessellation-with-image-texture.ifc</td>
+    <td style="text-align:right;">0.0187</td>
+    <td style="text-align:right;">0.0011</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-image-texture">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/tessellation-with-image-texture/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">tessellation-with-individual-colors.ifc</a></td>-->
+    <td>tessellation-with-individual-colors.ifc</td>
+    <td style="text-align:right;">0.0027</td>
+    <td style="text-align:right;">0.0008</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-individual-colors">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/tessellation-with-individual-colors/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">tessellation-with-pixel-texture.ifc</a></td>-->
+    <td>tessellation-with-pixel-texture.ifc</td>
+    <td style="text-align:right;">0.8051</td>
+    <td style="text-align:right;">0.0011</td>
+    <td style="text-align:right;">0.67</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=tessellation-with-pixel-texture">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/tessellation-with-pixel-texture/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">wall-elemented-case.ifc</a></td>-->
+    <td>wall-elemented-case.ifc</td>
+    <td style="text-align:right;">0.0255</td>
+    <td style="text-align:right;">0.0006</td>
+    <td style="text-align:right;">0.68</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=wall-elemented-case">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/wall-elemented-case/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">wall-with-opening-and-window.ifc</a></td>-->
+    <td>wall-with-opening-and-window.ifc</td>
+    <td style="text-align:right;">0.0126</td>
+    <td style="text-align:right;">0.0017</td>
+    <td style="text-align:right;">0.66</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=buildingSMART_IFC4.0&modelId=wall-with-opening-and-window">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/buildingSMART_IFC4.0/wall-with-opening-and-window/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>wefly</td><td></td><td></td><td></td><td colspan="2"></td></tr>
+<tr>
+<!--    <td><a href="http://xeokit.io">wefly.ifc</a></td>-->
+    <td>wefly.ifc</td>
+    <td style="text-align:right;">0.0115</td>
+    <td style="text-align:right;">0.0016</td>
+    <td style="text-align:right;">0.63</td>
+    <td style="text-align:center;"><a href="./viewer.html?batchId=wefly&modelId=wefly">XKT</a> </td>
+    <td style="text-align:center;"><a href="./results/wefly/wefly/ifcCXConverterPipeline1/log.txt">Log</a></td>
+</tr>
+</tbody></table></div></div></div></section>
 
 <br><br><br>
 
@@ -1159,9 +1446,6 @@
                         <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                             <a href="https://www.linkedin.com/company/xeolabs"><i class="fa fa-linkedin mr-1"></i>
                                 LinkedIn</a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                            <a href="https://twitter.com/xeolabs"><i class="fa fa-twitter mr-1"></i> Twitter</a>
                         </li>
                         <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                             <a href="https://github.com/xeolabs" target="_code"><i class="fa fa-github mr-1"></i>

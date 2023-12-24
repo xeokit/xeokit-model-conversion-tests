@@ -1,14 +1,4 @@
-#----------------------------------------------------------------------------
-# CxConverter IFC Conversion Pipeline Log
-#
-# Converting file: brep-model.ifc
-# Using tools: ifc2gltf and convert2xkt
-# Date: Wed Dec 20 2023 11:52:51 GMT+0100 (Central European Standard Time)
-#----------------------------------------------------------------------------
-
-
-
-# /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/brep-model.ifc -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.json -s 10 -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/brep-model.ifc                         -o /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb                         -m /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.json                         -s 5                         -t 200                         -e 3 >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -19,9 +9,8 @@ Accessors: 2, reused: 0
 Exporting meta dataExporting meta data: 100%
 done in 1 seconds
 
+node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb.manifest.json                         -o results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.xkt.manifest.json                         -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
 
-
-# node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb.manifest.json...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb
@@ -52,4 +41,3 @@ done in 1 seconds
 [convert2xkt] Writing XKT file: results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.
-node --max-old-space-size=24000 ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t -n -a results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.glb.manifest.json -o results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/model.xkt.manifest.json -l >> /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/buildingSMART_IFC4.0/brep-model/ifcCXConverterPipeline1/log.txt

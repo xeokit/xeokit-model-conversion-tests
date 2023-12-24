@@ -13,8 +13,8 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
-                <h1 class="text-white mt-5 mb-2">Model Conversion Tests </h1>
-                <p class="lead mb-5 text-white">Check the health of our AEC file conversion tools</p>
+                <h1 class="text-white mt-5 mb-2">CxConverter Pipeline #1 Tests</h1>
+                <p class="lead mb-5 text-white">Check the health of our IFC file conversion tools</p>
             </div>
         </div>
     </div>
@@ -33,33 +33,50 @@
         <!--            </div>-->
         <!--        </div>-->
         <div class="row">
-            <div class="col-12 mx-auto center-text">
+            <div class="col-12 mx-auto left-text">
                 <p>Periodically, we run our
-                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to batch-convert our AEC test models through each of our conversion pipelines. That generates this static page of test results, where you can quickly check if the pipelines are working OK. Scroll down to see how well the latest pipelines and tools are working.
+                    <a href="https://github.com/xeokit/xeokit-model-conversion-tests">conversion test suite</a> to
+                    batch-convert our set of IFC test models through the latest versions of xeokit's IFC conversion
+                    tools. That
+                    generates test results, which you can find at the
+                    bottom of this page, so that you can quickly check to see if the tools are working OK. In this page
+                    we also provide comprehensive details on how we run the tests, and the system on which we run them,
+                    which can help you to set up your own IFC conversion pipeline for xeokit.
                 </p>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-sm-12 text-center">
-                <a class="btn btn-lg btn-outline-primary border-2" href="./index.html">About Model Conversion &gt;&gt;</a>
+        <div class="row mt-5">
+            <div class="col-12 mx-auto" style=" justify-content: center; align-items:center">
+                <div style="width:300px; margin: auto;">
+                    <ul>
+                        <li><a href="#systemInfo">Our System Configuration</a></li>
+                        <li><a href="#testMethod">Our Test Pipeline</a></li>
+                        <li><a href="#testResults">Test Results</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section id="systemInfo" class="system-info-section">
     <div class="container pt-0 pb-0">
 
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>Conversion Test Setup</h1>
+                <h1>System Configuration</h1>
             </div>
         </div>
 
-        <div class="row testimonial-row center-text">
+        <div class="row testimonial-row left-text">
             <div class="col-lg-12">
-                <p>Below is a summary of the system we ran these conversion tests on - find the full system information
-                    <a href="./results/systemInfo.json">here</a>.</p>
+                <p>We're running our tests on a fairly well-specced system, which keeps the office cat warm on a cold
+                    day. Below is a summary of our system
+                    specifications, along with the versions of the CLI converter tools and xeokit SDK we used. In this
+                    case,
+                    we're running everything on Linux, but
+                    you can just as easily run it on Windows and Mac O/S.</p>
             </div>
         </div>
 
@@ -68,23 +85,114 @@
                 @@include('../_includes/systemInfo.html')
             </div>
         </div>
+
+
+        <div class="row mt-5 mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./results/systemInfo.json">Full System
+                    Configuration
+                    &gt;&gt;</a>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="test-results-section">
+
+<section id="testMethod" class="test-results-section  mb-5">
+    <div class="container pt-6 pb-0">
+        <div class="row center-text mb-5">
+            <div class="col-lg-12">
+                <h1> Pipeline Setup</h1>
+            </div>
+        </div>
+        <div class="row  mb-5">
+            <div class="col-12 mx-auto left-text">
+                <h2 style="margin-bottom: 1em">CLI Tool Usage</h2>
+
+                <p>We ran our converter tools on each IFC file in our test collection using the CLI commands shown
+                    below.
+                    For each IFC file, we substitute "model" with the name of that file.</p>
+
+                @@include('../_includes/cliInvocation.html')
+                <br>
+            </div>
+        </div>
+
+        <div class="row left-text mt-5">
+            <div class="col-md-6">
+                <h2 style="margin-bottom: 1em">ifc2gltfcxconverter Arguments</h2>
+                <p>The table below provides a comprehensive list of all arguments we're providing to <code>ifc2gltfcxconverter</code>.
+                </p>
+
+                @@include('../_includes/ifc2gltfOptions.html')
+
+            </div>
+            <div class="col-md-6">
+
+
+                <h2 style="margin-bottom: 1em">convert2xkt Arguments</h2>
+
+                <p>The table below provides a compreensive list of the arguments we're providing to
+                    <code>convert2xkt</code>.</p>
+
+                <table class="table table-sm table-hover table-striped table-bordered mb-0">
+                    <!--                    <tr style="background-color: rgba(0, 0, 0, 0.05);"><th><span class="nowrap">Option</span></th><th style="text-align:left;">Description</th></tr>-->
+                    <tbody>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-n</code></td>
+                        <!--                        <td></td>-->
+                        <td>Don't convert geometry normal vectors.</td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-a</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the input manifest of glTF and JSON files created by
+                            <code>ifc2gltfcxconverter</code>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-o</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the manifest of XKT files to create as output.</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <img src="./img/pipeline-ifc-enterprise1.png" class="card-img" alt="...">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="testResults" class="test-results-section">
     <div class="container pt-6 pb-0">
         <div class="row testimonial-row center-text">
             <div class="col-lg-12">
-                <h1>Conversion Test Results</h1>
+                <h1>Test Results</h1>
             </div>
         </div>
-        <div class="row  center-text">
+        <div class="row  left-text">
             <div class="col-lg-12">
-                <p>Below are the results of our latest conversion tests. The tests have run our sample files through all our conversion pipelines, creating various XKT, glTF, JSON files that we can now view or download. Although the glTF and JSON are intermediate artifacts within our pipelines, the results provide them as useful debugging resources.</p>
+                <p>Below are the results of our latest conversion test run. Click the XKT links on the right to view the
+                    results for each IFC conversion in a xeokit web viewer.
+                    Click the Log links to view the output that was logged by the converter tools while processing
+                    the IFC.</p>
             </div>
         </div>
     </div>
 </section>
+
+<!--<section class="test-results-section">-->
+<!--    <div class="container pt-6 pb-0">-->
+<!--        <div class="row testimonial-row center-text">-->
+<!--            <div class="col-lg-12">-->
+<!--                <img src="./graph.png">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 @@include('../_includes/conversionResults.html')

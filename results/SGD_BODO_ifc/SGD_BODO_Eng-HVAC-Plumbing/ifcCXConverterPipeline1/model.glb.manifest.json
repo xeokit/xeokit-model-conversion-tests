@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-20 12:10:53",
+    "conversionDate": "2023-12-24 05:02:28",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing/ifcCXConverterPipeline1/model.glb"
     ],

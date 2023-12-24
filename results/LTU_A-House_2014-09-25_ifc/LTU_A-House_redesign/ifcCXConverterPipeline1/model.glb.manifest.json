@@ -2,17 +2,19 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-20 12:08:27",
+    "conversionDate": "2023-12-24 05:00:18",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.glb",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_1.glb"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_1.glb",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_2.glb"
     ],
     "metadataOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model.json",
-        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_1.json"
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_1.json",
+        "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/ifcCXConverterPipeline1/model_2.json"
     ],
-    "numCreatedGltfMeshes": 35554,
-    "numCreatedMetaObjects": 6951,
+    "numCreatedGltfMeshes": 35530,
+    "numCreatedMetaObjects": 11252,
     "numExportedPropertySetsOrElementQuantities": 12501,
     "modelBoundsMax": [
         151.39723354505,

@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/MarkupTest/MarkupTest.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-20 12:09:19",
+    "conversionDate": "2023-12-24 05:01:10",
     "gltfOutFiles": [
         "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/results/MarkupTest/MarkupTest/ifcCXConverterPipeline1/model.glb"
     ],

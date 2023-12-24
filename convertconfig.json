@@ -1,12 +1,12 @@
 {
-  "paths": {
-
-    "IfcConvert": "~/xeolabs/xeokit/IfcConvert/IfcConvert-v0.7.0-e508fb4-linux64/IfcConvert",
-
-    "xeokit-metadata": "xeokit-metadata",
-
-    "convert2xkt": "~/xeolabs/xeokit-convert-aug9/convert2xkt.js",
-
-    "ifc2gltf": "/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter"
+  "ifc2gltf": {
+    "path": "/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter",
+    "options": {
+      "s": 5,
+      "t": 200
+    }
+  },
+  "convert2xkt": {
+    "path": "~/xeolabs/xeokit-convert-aug9/convert2xkt.js"
   }
 }
