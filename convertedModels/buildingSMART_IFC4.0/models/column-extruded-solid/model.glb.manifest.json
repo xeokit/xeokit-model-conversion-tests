@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/column-extruded-solid.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-25 23:30:51",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/models/column-extruded-solid/model.json"
+    ],
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 2,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/DigitalHub/DigitalHub_FM-LFT_v2.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-25 23:10:27",
+    "gltfOutFiles": [
+        "convertedModels/DigitalHub/models/DigitalHub_FM-LFT_v2/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/DigitalHub/models/DigitalHub_FM-LFT_v2/model.json"
+    ],
+    "numCreatedGltfMeshes": 4111,
+    "numCreatedMetaObjects": 1316,
+    "numExportedPropertySetsOrElementQuantities": 20708,
+    "modelBoundsMax": [
+        69.86195470506699,
+        26.394980986871616,
+        8.935029069767445
+    ],
+    "modelBoundsMin": [
+        7.204954705066935,
+        7.1475341260542535,
+        -3.3000000000000007
+    ]
+}

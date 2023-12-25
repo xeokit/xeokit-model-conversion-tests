@@ -4,6 +4,7 @@
 <head>
     @@include('../_includes/head.html')
     <title></title>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
 </head>
 
@@ -66,6 +67,30 @@
                 console.error('Error during fetch:', error);
             });
     }
+
+    function createProjectZip(manifestPath, batchId, modelId) {
+        const modelPath = getPortionBeforeLastSlash(manifestPath);
+        fetch(manifestPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+
+            })
+            .then(data => {
+                const filesURLs = [manifestPath];
+                if (data.xktFiles)
+                    for (let i = 0, len = data.xktFiles.length; i < len; i++) {
+                        filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);
+                    }
+                createZip(filesURLs, `${batchId}_${modelId}`);
+            })
+            .catch(error => {
+                console.error('Error during fetch:', error);
+            });
+    }
+
 
 </script>
 

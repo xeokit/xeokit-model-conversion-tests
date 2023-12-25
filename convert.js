@@ -3,6 +3,8 @@ const path = require("path");
 const execSync = require('child_process').execSync;
 const si = require('systeminformation');
 const axios = require('axios');
+const {KDTree, math} = require('./lib/KDTree.js');
+
 
 const configsData = fs.readFileSync("./convertconfig.json");
 const configs = JSON.parse(configsData);
@@ -16,6 +18,7 @@ const conversionTimes = {};
 const ifcAttributionPaths = {};
 const errors = {};
 
+const kdTree = new KDTree();
 
 (async () => {
     try {
@@ -122,8 +125,14 @@ const errors = {};
 
                 const inputFiles = await fs.promises.readdir(inputBatchDirPath);
 
-                const attributionPath = `${__dirname}/${path.join(inputBatchDirPath, `attribution.json`)}`;
-                const attributionData = JSON.parse(fs.readFileSync(attributionPath));
+                //     const attributionPath = `${__dirname}/${path.join(inputBatchDirPath, `attribution.json`)}`;
+                //      const attributionData = JSON.parse(fs.readFileSync(attributionPath));
+
+                const convertedModelSetDir = `${outputBatchDirPath}/models/`;
+                if (fs.existsSync(convertedModelSetDir)) {
+                    fs.rmSync(convertedModelSetDir, {recursive: true, force: true});
+                }
+                fs.mkdirSync(convertedModelSetDir);
 
                 for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
 
@@ -137,8 +146,8 @@ const errors = {};
 
                     const inputFileName = path.parse(inputFile).name;
                     const ifcInputPath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
-                    const modelConvertedModelsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
-                    const modelOutPath = modelConvertedModelsDirPath;
+                    const convertedModelDir = `${outputBatchDirPath}/models/${inputFileName}/`;
+                    const modelOutPath = convertedModelDir;
 
                     const glbOutputPath = path.join(modelOutPath, `model.glb`);
                     const jsonOutputPath = path.join(modelOutPath, `model.json`);
@@ -147,10 +156,10 @@ const errors = {};
                     const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
                     const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
 
-                    if (fs.existsSync(modelConvertedModelsDirPath)) {
-                        fs.rmSync(modelConvertedModelsDirPath, {recursive: true, force: true});
+                    if (fs.existsSync(convertedModelDir)) {
+                        fs.rmSync(convertedModelDir, {recursive: true, force: true});
                     }
-                    fs.mkdirSync(modelConvertedModelsDirPath);
+                    fs.mkdirSync(convertedModelDir);
 
                     if (fs.existsSync(modelOutPath)) {
                         fs.rmSync(modelOutPath, {recursive: true, force: true});
@@ -188,6 +197,13 @@ const errors = {};
                         xktSizes[ifcInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
 
                         console.log("xktSize = " + xktSizes[ifcInputPath])
+
+                        const glbManifest = JSON.parse(fs.readFileSync(jsonManifestPath));
+                        const batchId = inputBatchDir;
+                        const modelId = path.parse(inputFile).name;
+
+                        kdTree.addModel(glbManifest, batchId, modelId);
+
                     } catch (e) {
                         xktSizes[ifcInputPath] = 0;
                         errors[ifcInputPath] = e;
@@ -196,7 +212,7 @@ const errors = {};
                     const endTime = performance.now();
                     conversionTimes[ifcInputPath] = ((endTime - startTime) / 1000).toFixed(2);
 
-                    ifcAttributionPaths[ifcInputPath] = attributionData.link;
+                    //        ifcAttributionPaths[ifcInputPath] = attributionData.link;
 
                 }
             }
@@ -262,6 +278,30 @@ const errors = {};
                 const batchData = {
                     models: {}
                 }
+
+                const projectIndex = {
+                    id: `${inputBatchDir}`,
+                    name: `${inputBatchDir}`,
+                    models: [],
+                    viewerConfigs: {
+                        backgroundColor: [
+                            0.95,
+                            0.95,
+                            1.0
+                        ]
+                    },
+                    viewerContent: {
+                        modelsLoaded: []
+                    },
+                    viewerState: {
+                        tabOpen: "models",
+                        expandObjectsTree: 3,
+                        expandClassesTree: 1,
+                        expandStoreysTree: 1,
+                        saoEnabled: "true"
+                    }
+                };
+
                 convertedModelsIndex.batches[inputBatchDir] = batchData;
 
                 const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
@@ -275,7 +315,7 @@ const errors = {};
                     console.log("Converting file: " + inputFile);
                     const inputFileName = path.parse(inputFile).name;
                     const ifcInputPath = `${__dirname}/${path.join(inputBatchDirPath, inputFile)}`;
-                    const modelConvertedModelsDirPath = `${outputBatchDirPath}/${inputFileName}/`;
+                    const modelConvertedModelsDirPath = `${outputBatchDirPath}/models/${inputFileName}/`;
                     const community1Path = `${modelConvertedModelsDirPath}/ifcCommunityPipeline1`;
                     const glbCommunity1Path = path.join(community1Path, `model.glb`);
                     const glbCommunity1PathAbs = `${__dirname}/${glbCommunity1Path}`;
@@ -310,9 +350,9 @@ const errors = {};
                             "sourceFileSize": "${ifcSizes[ifcInputPath]}", 
                             "xktFileSize":"${xktSizes[ifcInputPath]}", 
                             "conversionTime": "${conversionTimes[ifcInputPath]}",
-                            "attributionPath": "${ifcAttributionPaths[ifcInputPath]}",
-                            "logPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/log.txt",
-                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/${inputFileName}/model.xkt.manifest.json"
+                            "attributionPath": "",
+                            "logPath": "${convertedModelsDir}/${inputBatchDir}/models/${inputFileName}/log.txt",
+                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json"
                         })`);
 
                         batchData.models[inputFileName] = {
@@ -322,11 +362,19 @@ const errors = {};
                             ifcFileSize: ifcSizes[ifcInputPath],
                             xktFileSize: xktSizes[ifcInputPath],
                             conversionTime: conversionTimes[ifcInputPath],
-                            manifestPath: `./convertedModels/${inputBatchDir}/${inputFileName}/model.xkt.manifest.json`,
-                            logPath: `./convertedModels/${inputBatchDir}/${inputFileName}/log.txt`
+                            manifestPath: `./convertedModels/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json`,
+                            logPath: `./convertedModels/${inputBatchDir}/models/${inputFileName}/log.txt`
                         }
+
+                        projectIndex.models.push({
+                            id: `${inputFileName}`,
+                            name: `${inputFileName}`,
+                            manifest: "model.xkt.manifest.json"
+                        });
                     }
                 }
+
+                fs.writeFileSync(`${outputBatchDirPath}/index.json`, JSON.stringify(projectIndex), {encoding: 'utf8'});
             }
         }
 
@@ -336,6 +384,8 @@ const errors = {};
 
         fs.writeFileSync("./convertedModels/systemInfo.json", JSON.stringify(systemInfo), {encoding: 'utf8'});
         fs.writeFileSync("./convertedModels/index.json", JSON.stringify(convertedModelsIndex), {encoding: 'utf8'});
+
+        fs.writeFileSync("./convertedModels/kdtree.json", JSON.stringify(kdTree.root), {encoding: 'utf8'});
 
         console.log("HTML test page written.");
 

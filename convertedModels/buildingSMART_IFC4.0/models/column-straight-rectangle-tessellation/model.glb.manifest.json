@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-25 23:30:52",
+    "gltfOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/models/column-straight-rectangle-tessellation/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/buildingSMART_IFC4.0/models/column-straight-rectangle-tessellation/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        11.074399999999999,
+        7.4168,
+        4.2672
+    ],
+    "modelBoundsMin": [
+        10.8712,
+        7.2136,
+        1.2191999999999998
+    ]
+}
