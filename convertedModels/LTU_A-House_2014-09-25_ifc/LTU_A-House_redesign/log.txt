@@ -7,9 +7,9 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
 Accessors: 28, reused: 0
 Exporting meta dataExporting meta data: 75%Exporting meta data: 85%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 100%
-Accessors: 8172, reused: 24219
+Accessors: 8174, reused: 24214
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 100%
-Accessors: 3001, reused: 9731
+Accessors: 3003, reused: 9730
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
 done in 34 seconds
 
@@ -29,7 +29,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 3.01 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.74
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -45,7 +45,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Writing XKT file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 3)
 [convert2xkt] Reading input file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model_1.glb
-[convert2xkt] Input file size: 11639.19 kB
+[convert2xkt] Input file size: 11642.94 kB
 [convert2xkt] Reading input metadata file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -53,18 +53,18 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 7377.19 kB
+[convert2xkt] XKT size: 7376.74 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.58
-[convert2xkt] Conversion time: 12.37 s
+[convert2xkt] Conversion time: 12.22 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4287
 [convert2xkt] Converted geometries: 25232
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1926768
-[convert2xkt] Converted vertices: 1062936
+[convert2xkt] Converted triangles: 1926714
+[convert2xkt] Converted vertices: 1062908
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1
@@ -72,7 +72,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Writing XKT file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model_1.xkt
 [convert2xkt] Converted model2.xkt (2 of 3)
 [convert2xkt] Reading input file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model_2.glb
-[convert2xkt] Input file size: 4452.62 kB
+[convert2xkt] Input file size: 4455.94 kB
 [convert2xkt] Reading input metadata file: convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_redesign/model_2.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -80,17 +80,17 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2151.94 kB
+[convert2xkt] XKT size: 2151.18 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.07
-[convert2xkt] Conversion time: 3.37 s
+[convert2xkt] Conversion time: 3.23 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2638
 [convert2xkt] Converted geometries: 10284
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 473595
+[convert2xkt] Converted triangles: 473608
 [convert2xkt] Converted vertices: 268509
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

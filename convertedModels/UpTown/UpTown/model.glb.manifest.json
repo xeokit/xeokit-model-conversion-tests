@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/UpTown/UpTown.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 20:01:58",
+    "conversionDate": "2023-12-25 11:27:13",
     "gltfOutFiles": [
         "convertedModels/UpTown/UpTown/model.glb",
         "convertedModels/UpTown/UpTown/model_1.glb",
@@ -13,8 +13,8 @@
         "convertedModels/UpTown/UpTown/model_1.json",
         "convertedModels/UpTown/UpTown/model_2.json"
     ],
-    "numCreatedGltfMeshes": 61081,
-    "numCreatedMetaObjects": 60529,
+    "numCreatedGltfMeshes": 61088,
+    "numCreatedMetaObjects": 60538,
     "numExportedPropertySetsOrElementQuantities": 297217,
     "modelBoundsMax": [
         102.23200000000004,

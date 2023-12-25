@@ -248,7 +248,7 @@ const errors = {};
                         <div class="row">
                             <div class="col-lg-12">
                                 <table class="table table-sm table-hover  table-bordered mb-0">
-                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>IFC File</th><th style="text-align:right;">IFC Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="3">Converted XKT</th></tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>IFC File</th><th style="text-align:right;">IFC Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="4">Converted XKT</th></tr>
                                 <tbody>`);
 
         for (const inputBatchDir of inputBatchDirs) { // BIMData, IfcOpenShell etc
@@ -265,7 +265,7 @@ const errors = {};
                 convertedModelsIndex.batches[inputBatchDir] = batchData;
 
                 const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
-                conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="3"></td></tr>`);
+                conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="4"></td></tr>`);
                 const inputFiles = await fs.promises.readdir(inputBatchDirPath);
                 for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
                     const ext = inputFile.split('.').pop();

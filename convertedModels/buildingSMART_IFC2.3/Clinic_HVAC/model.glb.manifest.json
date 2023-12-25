@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_HVAC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 20:10:48",
+    "conversionDate": "2023-12-25 11:35:42",
     "gltfOutFiles": [
         "convertedModels/buildingSMART_IFC2.3/Clinic_HVAC/model.glb"
     ],

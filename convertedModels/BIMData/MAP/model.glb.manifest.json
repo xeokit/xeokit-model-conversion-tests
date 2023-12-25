@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/MAP.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 19:48:23",
+    "conversionDate": "2023-12-25 11:13:52",
     "gltfOutFiles": [
         "convertedModels/BIMData/MAP/model.glb"
     ],

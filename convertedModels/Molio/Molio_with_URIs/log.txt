@@ -43,7 +43,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Writing XKT file: convertedModels/Molio/Molio_with_URIs/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/Molio/Molio_with_URIs/model_1.glb
-[convert2xkt] Input file size: 3789.83 kB
+[convert2xkt] Input file size: 3789.96 kB
 [convert2xkt] Reading input metadata file: convertedModels/Molio/Molio_with_URIs/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -51,18 +51,18 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 3867.36 kB
+[convert2xkt] XKT size: 3867.35 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.98
-[convert2xkt] Conversion time: 5.04 s
+[convert2xkt] Conversion time: 5.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 918
 [convert2xkt] Converted geometries: 8039
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 725931
-[convert2xkt] Converted vertices: 385595
+[convert2xkt] Converted triangles: 725937
+[convert2xkt] Converted vertices: 385596
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1

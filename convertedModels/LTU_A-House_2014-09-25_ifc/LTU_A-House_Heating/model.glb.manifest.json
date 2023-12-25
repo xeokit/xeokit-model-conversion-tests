@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 19:55:40",
+    "conversionDate": "2023-12-25 11:21:05",
     "gltfOutFiles": [
         "convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating/model.glb"
     ],

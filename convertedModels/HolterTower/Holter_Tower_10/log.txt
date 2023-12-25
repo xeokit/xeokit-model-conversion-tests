@@ -7,9 +7,9 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
 Accessors: 17, reused: 3
 Exporting meta dataExporting meta data: 75%Exporting meta data: 81%Exporting meta data: 88%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 84%Exporting meta data: 86%Exporting meta data: 87%Exporting meta data: 89%Exporting meta data: 90%Exporting meta data: 92%Exporting meta data: 93%Exporting meta data: 100%
-Accessors: 36045, reused: 107879
+Accessors: 36047, reused: 107877
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 81 seconds
+done in 77 seconds
 
 node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/HolterTower/Holter_Tower_10/model.glb.manifest.json                         -o convertedModels/HolterTower/Holter_Tower_10/model.xkt.manifest.json                         -l >> convertedModels/HolterTower/Holter_Tower_10/log.txt
 
@@ -43,7 +43,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Writing XKT file: convertedModels/HolterTower/Holter_Tower_10/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/HolterTower/Holter_Tower_10/model_1.glb
-[convert2xkt] Input file size: 36831.52 kB
+[convert2xkt] Input file size: 36831.98 kB
 [convert2xkt] Reading input metadata file: convertedModels/HolterTower/Holter_Tower_10/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -51,17 +51,17 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 12071.95 kB
+[convert2xkt] XKT size: 12072.06 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.05
-[convert2xkt] Conversion time: 24.43 s
+[convert2xkt] Conversion time: 24.79 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 60283
 [convert2xkt] Converted geometries: 108514
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2241601
+[convert2xkt] Converted triangles: 2241610
 [convert2xkt] Converted vertices: 1395092
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

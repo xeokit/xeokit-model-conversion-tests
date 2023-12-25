@@ -7,7 +7,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 87%Exporting to gltf: 89%Exporting to gltf: 90%Exporting to gltf: 92%Exporting to gltf: 100%
 Accessors: 5239, reused: 22143
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 16 seconds
+done in 14 seconds
 
 node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating/model.glb.manifest.json                         -o convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating/model.xkt.manifest.json                         -l >> convertedModels/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating/log.txt
 
@@ -25,7 +25,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 5633.48 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.92
-[convert2xkt] Conversion time: 10.52 s
+[convert2xkt] Conversion time: 10.63 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 22503

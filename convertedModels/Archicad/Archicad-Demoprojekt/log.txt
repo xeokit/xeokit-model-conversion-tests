@@ -7,14 +7,14 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 87%Exporting to gltf: 89%Exporting to gltf: 90%Exporting to gltf: 100%
 Accessors: 5000, reused: 6345
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 9 seconds
+done in 10 seconds
 
 node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/Archicad/Archicad-Demoprojekt/model.glb.manifest.json                         -o convertedModels/Archicad/Archicad-Demoprojekt/model.xkt.manifest.json                         -l >> convertedModels/Archicad/Archicad-Demoprojekt/log.txt
 
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest convertedModels/Archicad/Archicad-Demoprojekt/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/Archicad/Archicad-Demoprojekt/model.glb
-[convert2xkt] Input file size: 5291.66 kB
+[convert2xkt] Input file size: 5292.03 kB
 [convert2xkt] Reading input metadata file: convertedModels/Archicad/Archicad-Demoprojekt/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -22,18 +22,18 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2500.89 kB
+[convert2xkt] XKT size: 2501.20 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.12
-[convert2xkt] Conversion time: 3.99 s
+[convert2xkt] Conversion time: 3.70 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4566
 [convert2xkt] Converted geometries: 7058
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 235654
-[convert2xkt] Converted vertices: 132424
+[convert2xkt] Converted triangles: 235678
+[convert2xkt] Converted vertices: 132425
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Number of tiles: 1

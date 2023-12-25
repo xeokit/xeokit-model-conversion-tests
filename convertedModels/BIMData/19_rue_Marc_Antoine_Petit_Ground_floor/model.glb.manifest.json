@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 19:48:21",
+    "conversionDate": "2023-12-25 11:13:51",
     "gltfOutFiles": [
         "convertedModels/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb"
     ],

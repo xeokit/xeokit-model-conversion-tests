@@ -7,7 +7,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
 Accessors: 8, reused: 0
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 83%Exporting meta data: 85%Exporting meta data: 86%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 81%Exporting meta data: 100%
-Accessors: 3530, reused: 8171
+Accessors: 3527, reused: 8178
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
 done in 16 seconds
 
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 187.60 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.48
-[convert2xkt] Conversion time: 0.46 s
+[convert2xkt] Conversion time: 0.47 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -43,7 +43,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Writing XKT file: convertedModels/Archicad/AR-Demo_Sample_Single_Building_01/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/Archicad/AR-Demo_Sample_Single_Building_01/model_1.glb
-[convert2xkt] Input file size: 6040.34 kB
+[convert2xkt] Input file size: 6014.87 kB
 [convert2xkt] Reading input metadata file: convertedModels/Archicad/AR-Demo_Sample_Single_Building_01/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -51,17 +51,17 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 2689.82 kB
+[convert2xkt] XKT size: 2690.35 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.25
-[convert2xkt] Conversion time: 4.11 s
+[convert2xkt] Compression ratio: 2.24
+[convert2xkt] Conversion time: 4.33 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5749
 [convert2xkt] Converted geometries: 9195
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 372091
+[convert2xkt] Converted triangles: 372096
 [convert2xkt] Converted vertices: 206973
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

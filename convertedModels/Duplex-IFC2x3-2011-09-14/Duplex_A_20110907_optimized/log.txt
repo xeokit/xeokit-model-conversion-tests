@@ -14,7 +14,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest convertedModels/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized/model.glb
-[convert2xkt] Input file size: 329.09 kB
+[convert2xkt] Input file size: 329.11 kB
 [convert2xkt] Reading input metadata file: convertedModels/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -25,7 +25,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 166.45 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.98
-[convert2xkt] Conversion time: 0.40 s
+[convert2xkt] Conversion time: 0.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 215

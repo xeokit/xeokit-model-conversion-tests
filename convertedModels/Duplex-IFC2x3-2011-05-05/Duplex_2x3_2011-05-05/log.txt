@@ -14,7 +14,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest convertedModels/Duplex-IFC2x3-2011-05-05/Duplex_2x3_2011-05-05/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/Duplex-IFC2x3-2011-05-05/Duplex_2x3_2011-05-05/model.glb
-[convert2xkt] Input file size: 323.41 kB
+[convert2xkt] Input file size: 323.43 kB
 [convert2xkt] Reading input metadata file: convertedModels/Duplex-IFC2x3-2011-05-05/Duplex_2x3_2011-05-05/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -22,17 +22,17 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 161.13 kB
+[convert2xkt] XKT size: 161.14 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.01
-[convert2xkt] Conversion time: 0.38 s
+[convert2xkt] Conversion time: 0.39 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 205
 [convert2xkt] Converted geometries: 405
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 24996
+[convert2xkt] Converted triangles: 24998
 [convert2xkt] Converted vertices: 14423
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

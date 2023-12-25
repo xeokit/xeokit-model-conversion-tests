@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/DigitalHub/DigitalHub_FM-ARC_v2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 19:50:58",
+    "conversionDate": "2023-12-25 11:16:24",
     "gltfOutFiles": [
         "convertedModels/DigitalHub/DigitalHub_FM-ARC_v2/model.glb"
     ],

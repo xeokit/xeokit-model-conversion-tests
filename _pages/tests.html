@@ -3,9 +3,71 @@
 
 <head>
     @@include('../_includes/head.html')
-    <title></title></head>
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+</head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<script>
+    function getPortionBeforeLastSlash(filePath) {
+        const lastSlashIndex = filePath.lastIndexOf('/');
+        if (lastSlashIndex !== -1) {
+            return filePath.substring(0, lastSlashIndex);
+        }
+    }
+
+    function createZip(files, zipFileName) {
+        const zip = new JSZip();
+        const promises = [];
+        function addFileToZip(url, fileName) {
+            return fetch(url)
+                .then(response => response.blob())
+                .then(blob => zip.file(fileName, blob));
+        }
+        files.forEach(function (url, index) {
+            promises.push(addFileToZip(url,  url.substring(url.lastIndexOf('/') + 1)));
+        });
+
+        Promise.all(promises)
+            .then(function () {
+                return zip.generateAsync({type: "blob"});
+            })
+            .then(function (blob) {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = zipFileName;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+    }
+
+    function createModelZip(manifestPath, batchId, modelId) {
+        const modelPath = getPortionBeforeLastSlash(manifestPath);
+        fetch(manifestPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+
+            })
+            .then(data => {
+                const filesURLs = [manifestPath];
+                if (data.xktFiles)
+                    for (let i = 0, len = data.xktFiles.length; i < len; i++) {
+                        filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);
+                    }
+                createZip(filesURLs, `${batchId}_${modelId}.zip`);
+            })
+            .catch(error => {
+                console.error('Error during fetch:', error);
+            });
+    }
+
+</script>
+
 
 @@include('../_includes/navigationTests.html')
 
@@ -71,7 +133,8 @@
         </div>
         <div class="row  left-text">
             <div class="col-lg-12">
-                <p>In the table below are the results from our most recent IFC conversion run. On the far right, select "View" to
+                <p>In the table below are the results from our most recent IFC conversion run. On the far right, select
+                    "View" to
                     observe the converted model in a xeokit web viewer. Choose "Log" to inspect the conversion log
                     associated with that model. Additionally, "Link" provides a link through which you can hot-load the
                     converted model into a xeokit web viewer.</p>

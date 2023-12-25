@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/air-terminal-library-object.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 20:12:01",
+    "conversionDate": "2023-12-25 11:36:55",
     "gltfOutFiles": [
         "convertedModels/buildingSMART_IFC4.0/air-terminal-library-object/model.glb"
     ],

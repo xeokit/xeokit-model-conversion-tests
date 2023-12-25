@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-24 20:10:57",
+    "conversionDate": "2023-12-25 11:35:51",
     "gltfOutFiles": [
         "convertedModels/buildingSMART_IFC2.3/Clinic_Plumbing/model.glb",
         "convertedModels/buildingSMART_IFC2.3/Clinic_Plumbing/model_1.glb"
@@ -11,8 +11,8 @@
         "convertedModels/buildingSMART_IFC2.3/Clinic_Plumbing/model.json",
         "convertedModels/buildingSMART_IFC2.3/Clinic_Plumbing/model_1.json"
     ],
-    "numCreatedGltfMeshes": 10200,
-    "numCreatedMetaObjects": 12753,
+    "numCreatedGltfMeshes": 10204,
+    "numCreatedMetaObjects": 13113,
     "numExportedPropertySetsOrElementQuantities": 58500,
     "modelBoundsMax": [
         0.4347990361710643,
