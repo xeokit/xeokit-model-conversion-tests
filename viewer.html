@@ -26,7 +26,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">CxConverter Pipeline #1 Tests</a>/</span><span class="navbar-brand" href="./index.html">View IFC</span>
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">CxConverter Pipeline #1 Tests</a>/</span><span class="navbar-brand" href="./index.html">View XKT</span>
 <!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
 <!--        <span class="navbar-toggler-icon"></span>-->
 <!--    </button>-->
@@ -78,7 +78,7 @@
 <!--    </div>-->
 </nav>
 <div class="row no-gutters">
-    <iframe id="embeddedViewer" class="embedded-viewer" src=""></iframe>
+    <iframe class="embedded-viewer" id="embeddedViewer" src=""></iframe>
 </div>
 
 </body>
@@ -90,6 +90,9 @@
         }
         const searchStr = window.location.search || "?projectId=Schependomlaan_selectedStorey&tab=storeys";
         iframeElement.src = "https://xeokit.github.io/xeokit-bim-viewer/app/index.html" + searchStr;
+        iframeElement.addEventListener('load', function () {
+            iframeElement.focus();
+        });
     };
 </script>
 </html>
