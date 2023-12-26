@@ -1,105 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <meta content="xeokit - SDK for Browser-Based 3D BIM Visualization" name="description">
-    <meta content="Lindsay Kay" name="author">
-    <meta content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer"
-          name="keywords">
-
-    <title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
-
-    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/business-frontpage.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/viewer.css" rel="stylesheet">
-
-    <script src="./vendor/jquery/jquery.min.js"></script>
-    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    @@include('../_includes/head.html')
+    <style>
+        body {
+            overflow-y: hidden !important;
+        }
+    </style>
 </head>
-
-<body data-offset="50" data-spy="scroll" data-target=".navbar">
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent"
-                                                                                                  href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a
-            class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">CxConverter #1 Tests</a>/</span><span
-        class="navbar-brand" href="./index.html">View XKT</span>
-</nav>
-
-<div id="body">
-    <div class="row  no-gutters pl-0">
-        <div class="col-12 pt-3">
-            <div id="modelConversionInfo"><h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading page...</h1>
-
-                <a class="pl-3" href="./convertedModels/projects/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br></div>
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col-3 pl-2">
-            <div class="input-group mb-3">
-                <input type="text" id="isolateInput" class="form-control" placeholder="Enter object ID...">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="isolateButton">Isolate object</button>
-                </div>
-            </div>
-            <h5 class="pt-2 pl-2" id="infoArea">IFC Types:</h5>
-            <div id="treeViewContainer"></div>
-        </div>
-        <div class="col-9 text-center">
-            <canvas id="viewerCanvas"/>
-        </div>
-    </div>
-    <canvas id="navCubeCanvas"></canvas>
+<body>
+@@include('../_includes/navigationViewer.html')
+<div class="row no-gutters">
+    <iframe id="embeddedViewer" class="embedded-viewer" src=""></iframe>
 </div>
+<!--@@include('../_includes/footer.html')-->
 </body>
-
-<script type="module">
-
-
-    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading scripts...</h1><a class="pl-3">Conversion Log</a><br><br>`;
-
-
-    const reqParams = getRequestParams();
-
-    const batchId = reqParams.batchId;
-    const modelId = reqParams.modelId;
-
-    import {createViewer, isolateObject} from "./lib/viewer.js";
-
-    function getRequestParams() {
-        const vars = {};
-        window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, (m, key, value) => {
-            vars[key] = value;
-        });
-        return vars;
-    }
-
-    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading model...</h1><a class="pl-3" href="">Conversion Log</a><br><br>`;
-
-    const {viewer, xktLoader} = createViewer({
-        canvasId: "viewerCanvas",
-        navCubeCanvasId: "navCubeCanvas",
-        treeViewContainerId: "treeViewContainer",
-        manifestSrc: `./convertedModels/projects/${batchId}/models/${modelId}/model.xkt.manifest.json`,
-        onLoaded:()=>{
-            document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1><a class="pl-3" href="./convertedModels/projects/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br>`;
+<script>
+    window.onload = function () {
+        const iframeElement = document.getElementById("embeddedViewer");
+        if (!iframeElement) {
+            throw "IFRAME not found";
         }
-    });
-
-    function doIsolate() {
-        const searchText = document.getElementById('isolateInput').value.trim();
-        if (searchText.trim() === '') {
-            return;
-        }
-        isolateObject(searchText)
-    }
-
-    document.getElementById('isolateButton').addEventListener('click', doIsolate);
-
+        const searchStr = window.location.search || "?projectId=Schependomlaan_selectedStorey&tab=storeys";
+        iframeElement.src = "https://xeokit.github.io/xeokit-bim-viewer/app/index.html" + searchStr;
+    };
 </script>
-
 </html>
