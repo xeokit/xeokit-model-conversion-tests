@@ -33,7 +33,7 @@
 <div id="body">
     <div class="row  no-gutters pl-0">
         <div class="col-12 pt-3">
-            <div id="modelConversionInfo"><h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading scripts...</h1>
+            <div id="modelConversionInfo"><h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading page...</h1>
 
                 <a class="pl-3" href="./convertedModels/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br></div>
         </div>
@@ -78,33 +78,16 @@
         return vars;
     }
 
+    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading model...</h1><a class="pl-3" href="">Conversion Log</a><br><br>`;
+
     const {viewer, xktLoader} = createViewer({
         canvasId: "viewerCanvas",
         navCubeCanvasId: "navCubeCanvas",
-        treeViewContainerId: "treeViewContainer"
-    });
-
-    const sceneModel = xktLoader.load({
+        treeViewContainerId: "treeViewContainer",
         manifestSrc: `./convertedModels/${batchId}/models/${modelId}/model.xkt.manifest.json`,
-        id: "myModel",
-        edges: true,
-        saoEnabled: true
-    });
-
-
-    document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading model...</h1><a class="pl-3" href="">Conversion Log</a><br><br>`;
-
-
-    sceneModel.on("loaded", () => {
-
-        document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1><a class="pl-3" href="./convertedModels/${batchId}/${modelId}/log.txt">Conversion Log</a><br><br>`;
-
-        viewer.camera.eye = [0, 0, 1];
-        viewer.camera.look = [0, 0, 0];
-        viewer.camera.up = [0, 1, 0];
-        viewer.camera.orbitYaw(40.0);
-        viewer.camera.orbitPitch(40.0);
-        viewer.cameraFlight.jumpTo(viewer.scene);
+        onLoaded:()=>{
+            document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1><a class="pl-3" href="./convertedModels/${batchId}/${modelId}/log.txt">Conversion Log</a><br><br>`;
+        }
     });
 
     function doIsolate() {
