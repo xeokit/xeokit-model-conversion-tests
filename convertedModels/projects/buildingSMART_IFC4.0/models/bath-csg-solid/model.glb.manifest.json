@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/bath-csg-solid.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:54:56",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/bath-csg-solid/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/bath-csg-solid/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        1.0,
+        0.40000000000000013,
+        0.40000000000000013
+    ],
+    "modelBoundsMin": [
+        -1.0,
+        -0.4,
+        -0.4
+    ]
+}

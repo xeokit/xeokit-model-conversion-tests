@@ -35,7 +35,7 @@
         <div class="col-12 pt-3">
             <div id="modelConversionInfo"><h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;Loading page...</h1>
 
-                <a class="pl-3" href="./convertedModels/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br></div>
+                <a class="pl-3" href="./convertedModels/projects/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br></div>
         </div>
     </div>
     <div class="row no-gutters">
@@ -84,9 +84,9 @@
         canvasId: "viewerCanvas",
         navCubeCanvasId: "navCubeCanvas",
         treeViewContainerId: "treeViewContainer",
-        manifestSrc: `./convertedModels/${batchId}/models/${modelId}/model.xkt.manifest.json`,
+        manifestSrc: `./convertedModels/projects/${batchId}/models/${modelId}/model.xkt.manifest.json`,
         onLoaded:()=>{
-            document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1><a class="pl-3" href="./convertedModels/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br>`;
+            document.getElementById("modelConversionInfo").innerHTML = `<h1 class="pl-3"><a href="./tests.html">&lt;&lt;</a>&nbsp;&nbsp;${modelId}</h1><a class="pl-3" href="./convertedModels/projects/${batchId}/models/${modelId}/log.txt">Conversion Log</a><br><br>`;
         }
     });
 

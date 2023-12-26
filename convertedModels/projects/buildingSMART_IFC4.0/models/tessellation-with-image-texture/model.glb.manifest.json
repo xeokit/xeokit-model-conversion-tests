@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:55:13",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/tessellation-with-image-texture/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/tessellation-with-image-texture/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        3.92970621585846,
+        3.9296875,
+        4.0
+    ],
+    "modelBoundsMin": [
+        -0.07029378414154008,
+        -0.0703125,
+        0.0
+    ]
+}

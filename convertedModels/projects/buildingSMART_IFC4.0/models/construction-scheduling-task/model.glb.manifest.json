@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:55:03",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.json"
+    ],
+    "numCreatedGltfMeshes": 5,
+    "numCreatedMetaObjects": 8,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        39.014399999999995,
+        19.507199999999997,
+        4.4196
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ]
+}

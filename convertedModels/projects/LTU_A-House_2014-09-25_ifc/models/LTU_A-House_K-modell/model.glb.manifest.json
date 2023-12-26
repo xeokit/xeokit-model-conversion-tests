@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/LTU_A-House_2014-09-25_ifc/LTU_A-House_K-modell.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:38:56",
+    "gltfOutFiles": [
+        "convertedModels/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_K-modell/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_K-modell/model.json"
+    ],
+    "numCreatedGltfMeshes": 7351,
+    "numCreatedMetaObjects": 6419,
+    "numExportedPropertySetsOrElementQuantities": 52269,
+    "modelBoundsMax": [
+        150.89678679656427,
+        67.48514294539909,
+        16.233905032081342
+    ],
+    "modelBoundsMin": [
+        -30.875000000000256,
+        -18.400000000000006,
+        0.6999999999999993
+    ]
+}

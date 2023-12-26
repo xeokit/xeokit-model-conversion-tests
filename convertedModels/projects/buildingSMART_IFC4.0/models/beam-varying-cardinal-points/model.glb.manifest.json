@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:54:59",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json"
+    ],
+    "numCreatedGltfMeshes": 4,
+    "numCreatedMetaObjects": 6,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.6000000000000001,
+        0.6,
+        0.6
+    ],
+    "modelBoundsMin": [
+        -0.050000000000000044,
+        0.4,
+        -0.6
+    ]
+}

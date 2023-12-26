@@ -1,43 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/wefly/wefly.ifc                         -o convertedModels/wefly/models/wefly/model.glb                         -m convertedModels/wefly/models/wefly/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/wefly/models/wefly/log.txt
-
-__ IFC to GLTF converter __ version: 3.0.7 ____________
-Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...les/wefly/wefly.ifc"Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 5%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 16%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 30%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 33%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 36%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 39%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 42%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 46%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 49%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 52%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 55%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 58%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 62%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 65%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 68%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 71%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 75%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 78%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 81%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 84%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 87%Loading file "/home/lindsay/xe...les/wefly/wefly.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 15%Converting IFC geometry: 30%Converting IFC geometry: 45%Converting IFC geometry: 60%Converting IFC geometry: 75%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 57%Exporting to gltf: 65%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 87%Exporting to gltf: 95%Exporting to gltf: 100%
-Accessors: 4, reused: 0
-Exporting meta dataExporting meta data: 100%
-done in 1 seconds
-
-node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/wefly/models/wefly/model.glb.manifest.json                         -o convertedModels/wefly/models/wefly/model.xkt.manifest.json                         -l >> convertedModels/wefly/models/wefly/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.11...
-[convert2xkt] Converting glTF files in manifest convertedModels/wefly/models/wefly/model.glb.manifest.json...
-[convert2xkt] Reading input file: convertedModels/wefly/models/wefly/model.glb
-[convert2xkt] Input file size: 3.36 kB
-[convert2xkt] Reading input metadata file: convertedModels/wefly/models/wefly/model.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 1.59 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.11
-[convert2xkt] Conversion time: 0.03 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2
-[convert2xkt] Converted geometries: 2
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 91
-[convert2xkt] Converted vertices: 48
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Number of tiles: 1
-[convert2xkt] minTileSize: 500
-[convert2xkt] Writing XKT file: convertedModels/wefly/models/wefly/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

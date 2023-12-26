@@ -1,0 +1,27 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/HolterTower/Holter_Tower_10.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:34:53",
+    "gltfOutFiles": [
+        "convertedModels/projects/HolterTower/models/Holter_Tower_10/model.glb",
+        "convertedModels/projects/HolterTower/models/Holter_Tower_10/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/HolterTower/models/Holter_Tower_10/model.json",
+        "convertedModels/projects/HolterTower/models/Holter_Tower_10/model_1.json"
+    ],
+    "numCreatedGltfMeshes": 108524,
+    "numCreatedMetaObjects": 60865,
+    "numExportedPropertySetsOrElementQuantities": 80128,
+    "modelBoundsMax": [
+        93.9908629681,
+        93.18865574109999,
+        190.00000000090003
+    ],
+    "modelBoundsMin": [
+        -47.6139850319,
+        -39.3193102421,
+        -10.0
+    ]
+}

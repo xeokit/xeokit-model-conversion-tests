@@ -1,0 +1,27 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Molio/Molio_with_URIs.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:43:09",
+    "gltfOutFiles": [
+        "convertedModels/projects/Molio/models/Molio_with_URIs/model.glb",
+        "convertedModels/projects/Molio/models/Molio_with_URIs/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/Molio/models/Molio_with_URIs/model.json",
+        "convertedModels/projects/Molio/models/Molio_with_URIs/model_1.json"
+    ],
+    "numCreatedGltfMeshes": 8042,
+    "numCreatedMetaObjects": 3810,
+    "numExportedPropertySetsOrElementQuantities": 20079,
+    "modelBoundsMax": [
+        39.024,
+        26.589187937300004,
+        23.960500000000003
+    ],
+    "modelBoundsMin": [
+        -10.302,
+        -10.538985617200005,
+        -5.020000000000003
+    ]
+}

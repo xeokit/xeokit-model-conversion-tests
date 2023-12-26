@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/csg-primitive.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:55:03",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/csg-primitive/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC4.0/models/csg-primitive/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        1.0,
+        0.0,
+        1.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        -1.0,
+        -1.0
+    ]
+}

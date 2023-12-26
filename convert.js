@@ -11,6 +11,7 @@ const configs = JSON.parse(configsData);
 
 const inputFilesDir = "./inputFiles/";
 const convertedModelsDir = "./convertedModels/";
+const convertedProjectsDir = "./convertedModels/projects/";
 
 const ifcSizes = {};
 const xktSizes = {};
@@ -22,6 +23,10 @@ const kdTree = new KDTree();
 
 (async () => {
     try {
+
+        if (!fs.existsSync(convertedProjectsDir)) {
+            fs.mkdirSync(convertedProjectsDir);
+        }
 
         const fetchPackageVersion = async (packageName) => {
             try {
@@ -117,7 +122,7 @@ const kdTree = new KDTree();
 
             if (isDir) {
                 console.log("Converting batch: " + inputBatchDirPath);
-                const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
+                const outputBatchDirPath = path.join(convertedProjectsDir, inputBatchDir);
                 if (fs.existsSync(outputBatchDirPath)) {
                     fs.rmSync(outputBatchDirPath, {recursive: true, force: true});
                 }
@@ -304,7 +309,7 @@ const kdTree = new KDTree();
 
                 convertedModelsIndex.batches[inputBatchDir] = batchData;
 
-                const outputBatchDirPath = path.join(convertedModelsDir, inputBatchDir);
+                const outputBatchDirPath = path.join(convertedProjectsDir, inputBatchDir);
                 conversionResultsHTML.push(`<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>${inputBatchDir}</td><td></td><td></td><td></td><td colspan="4"></td></tr>`);
                 const inputFiles = await fs.promises.readdir(inputBatchDirPath);
                 for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
@@ -351,8 +356,8 @@ const kdTree = new KDTree();
                             "xktFileSize":"${xktSizes[ifcInputPath]}", 
                             "conversionTime": "${conversionTimes[ifcInputPath]}",
                             "attributionPath": "",
-                            "logPath": "${convertedModelsDir}/${inputBatchDir}/models/${inputFileName}/log.txt",
-                            "modelLinkPath": "${convertedModelsDir}/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json"
+                            "logPath": "${convertedModelsDir}/projects/${inputBatchDir}/models/${inputFileName}/log.txt",
+                            "modelLinkPath": "${convertedModelsDir}/projects/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json"
                         })`);
 
                         batchData.models[inputFileName] = {
@@ -362,8 +367,8 @@ const kdTree = new KDTree();
                             ifcFileSize: ifcSizes[ifcInputPath],
                             xktFileSize: xktSizes[ifcInputPath],
                             conversionTime: conversionTimes[ifcInputPath],
-                            manifestPath: `./convertedModels/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json`,
-                            logPath: `./convertedModels/${inputBatchDir}/models/${inputFileName}/log.txt`
+                            manifestPath: `./convertedModels/projects/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json`,
+                            logPath: `./convertedModels/projects/${inputBatchDir}/models/${inputFileName}/log.txt`
                         }
 
                         projectIndex.models.push({
@@ -381,10 +386,8 @@ const kdTree = new KDTree();
         conversionResultsHTML.push(`</tbody></table></div></div></div></section>`);
 
         fs.writeFileSync("./_includes/conversionResults.html", conversionResultsHTML.join("\n"), {encoding: 'utf8'});
-
         fs.writeFileSync("./convertedModels/systemInfo.json", JSON.stringify(systemInfo), {encoding: 'utf8'});
         fs.writeFileSync("./convertedModels/index.json", JSON.stringify(convertedModelsIndex), {encoding: 'utf8'});
-
         fs.writeFileSync("./convertedModels/kdtree.json", JSON.stringify(kdTree.root), {encoding: 'utf8'});
 
         console.log("HTML test page written.");

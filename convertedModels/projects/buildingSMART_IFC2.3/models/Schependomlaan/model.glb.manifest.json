@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Schependomlaan.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-26 13:54:43",
+    "gltfOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json"
+    ],
+    "numCreatedGltfMeshes": 6033,
+    "numCreatedMetaObjects": 3730,
+    "numExportedPropertySetsOrElementQuantities": 18063,
+    "modelBoundsMax": [
+        26.270400946403157,
+        29.46,
+        13.349384701317
+    ],
+    "modelBoundsMin": [
+        -5.115266721966016,
+        -2.537192261834001,
+        -1.6999999999999993
+    ]
+}
