@@ -91,7 +91,19 @@
             });
     }
 
+    function storeScrollPosition() {
+        sessionStorage.setItem('scrollPosition', window.scrollY);
+    }
 
+    function getStoredScrollPosition() {
+        return parseInt(sessionStorage.getItem('scrollPosition')) || 0;
+    }
+
+    window.addEventListener('load', function () {
+        window.scrollTo(0, getStoredScrollPosition());
+    });
+
+    window.addEventListener('beforeunload', storeScrollPosition);
 </script>
 
 
