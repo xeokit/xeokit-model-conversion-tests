@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Autodesk_210King/Autodesk-Research_210-King.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-30 00:01:28",
+    "gltfOutFiles": [
+        "convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.json"
+    ],
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 2,
+    "numExportedPropertySetsOrElementQuantities": 74062,
+    "modelBoundsMax": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ]
+}

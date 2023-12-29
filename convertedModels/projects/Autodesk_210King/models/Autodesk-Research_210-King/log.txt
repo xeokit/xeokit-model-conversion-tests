@@ -1,0 +1,66 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Autodesk_210King/Autodesk-Research_210-King.ifc                         -o convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.glb                         -m convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.7 ____________
+Loading input config file: ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...search_210-King.ifc"Loading file "/home/lindsay/xe...search_210-King.ifc": 5%Loading file "/home/lindsay/xe...search_210-King.ifc": 6%Loading file "/home/lindsay/xe...search_210-King.ifc": 7%Loading file "/home/lindsay/xe...search_210-King.ifc": 8%Loading file "/home/lindsay/xe...search_210-King.ifc": 9%Loading file "/home/lindsay/xe...search_210-King.ifc": 10%Loading file "/home/lindsay/xe...search_210-King.ifc": 11%Loading file "/home/lindsay/xe...search_210-King.ifc": 12%Loading file "/home/lindsay/xe...search_210-King.ifc": 13%Loading file "/home/lindsay/xe...search_210-King.ifc": 14%Loading file "/home/lindsay/xe...search_210-King.ifc": 15%Loading file "/home/lindsay/xe...search_210-King.ifc": 16%Loading file "/home/lindsay/xe...search_210-King.ifc": 17%Loading file "/home/lindsay/xe...search_210-King.ifc": 18%Loading file "/home/lindsay/xe...search_210-King.ifc": 19%Loading file "/home/lindsay/xe...search_210-King.ifc": 20%Loading file "/home/lindsay/xe...search_210-King.ifc": 21%Loading file "/home/lindsay/xe...search_210-King.ifc": 22%Loading file "/home/lindsay/xe...search_210-King.ifc": 23%Loading file "/home/lindsay/xe...search_210-King.ifc": 30%Loading file "/home/lindsay/xe...search_210-King.ifc": 33%Loading file "/home/lindsay/xe...search_210-King.ifc": 36%Loading file "/home/lindsay/xe...search_210-King.ifc": 39%Loading file "/home/lindsay/xe...search_210-King.ifc": 42%Loading file "/home/lindsay/xe...search_210-King.ifc": 45%Loading file "/home/lindsay/xe...search_210-King.ifc": 48%Loading file "/home/lindsay/xe...search_210-King.ifc": 51%Loading file "/home/lindsay/xe...search_210-King.ifc": 54%Loading file "/home/lindsay/xe...search_210-King.ifc": 57%Loading file "/home/lindsay/xe...search_210-King.ifc": 60%Loading file "/home/lindsay/xe...search_210-King.ifc": 63%Loading file "/home/lindsay/xe...search_210-King.ifc": 66%Loading file "/home/lindsay/xe...search_210-King.ifc": 69%Loading file "/home/lindsay/xe...search_210-King.ifc": 72%Loading file "/home/lindsay/xe...search_210-King.ifc": 75%Loading file "/home/lindsay/xe...search_210-King.ifc": 78%Loading file "/home/lindsay/xe...search_210-King.ifc": 81%Loading file "/home/lindsay/xe...search_210-King.ifc": 84%Loading file "/home/lindsay/xe...search_210-King.ifc": 87%Loading file "/home/lindsay/xe...search_210-King.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 8%Converting IFC geometry: 9%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 11%Converting IFC geometry: 12%Converting IFC geometry: 13%Converting IFC geometry: 14%Converting IFC geometry: 15%Converting IFC geometry: 16%Converting IFC geometry: 17%Converting IFC geometry: 18%Converting IFC geometry: 18%Converting IFC geometry: 19%Converting IFC geometry: 20%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 30%Converting IFC geometry: 31%Converting IFC geometry: 32%Converting IFC geometry: 33%Converting IFC geometry: 34%Converting IFC geometry: 35%Converting IFC geometry: 36%Converting IFC geometry: 36%Converting IFC geometry: 37%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 40%Converting IFC geometry: 41%Converting IFC geometry: 42%Converting IFC geometry: 43%Converting IFC geometry: 44%Converting IFC geometry: 45%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 50%Converting IFC geometry: 51%Converting IFC geometry: 52%Converting IFC geometry: 53%Converting IFC geometry: 54%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 82%Converting IFC geometry: 82%Converting IFC geometry: 83%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 86%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 69%Exporting to gltf: 100%IFC item #3142038 has no parent in tree: IfcSpace
+IFC item #3148195 has no parent in tree: IfcBuildingElementProxy
+IFC item #3189699 has no parent in tree: IfcWall
+IFC item #3255436 has no parent in tree: IfcBeam
+IFC item #3265749 has no parent in tree: IfcColumn
+IFC item #3277763 has no parent in tree: IfcWindow
+IFC item #3375083 has no parent in tree: IfcWallStandardCase
+IFC item #3429282 has no parent in tree: IfcCovering
+IFC item #3483077 has no parent in tree: IfcFurnishingElement
+IFC item #3487661 has no parent in tree: IfcAnnotation
+IFC item #3502382 has no parent in tree: IfcDistributionControlElement
+IFC item #3513258 has no parent in tree: IfcDoor
+IFC item #3514073 has no parent in tree: IfcPlate
+IFC item #3515186 has no parent in tree: IfcMember
+IFC item #3519741 has no parent in tree: IfcSlab
+IFC item #3520003 has no parent in tree: IfcStairFlight
+IFC item #3573001 has no parent in tree: IfcRailing
+IFC item #4285449 has no parent in tree: IfcFlowTerminal
+IFC item #5603420 has no parent in tree: IfcFlowMovingDevice
+IFC item #5714795 has no parent in tree: IfcFlowFitting
+IFC item #5715174 has no parent in tree: IfcFlowSegment
+IFC item #5793142 has no parent in tree: IfcEnergyConversionDevice
+IFC item #5831815 has no parent in tree: IfcFlowController
+
+Accessors: 0, reused: 0
+Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 177 seconds
+
+node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.glb.manifest.json                         -o convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.xkt.manifest.json                         -l >> convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.11...
+[convert2xkt] Converting glTF files in manifest convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.glb
+[convert2xkt] Input file size: 0.59 kB
+[convert2xkt] Reading input metadata file: convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: enabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] XKT size: 2034.51 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.00
+[convert2xkt] Conversion time: 1.44 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 0
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 0
+[convert2xkt] Converted vertices: 0
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Number of tiles: 0
+[convert2xkt] minTileSize: 500
+[convert2xkt] Writing XKT file: convertedModels/projects/Autodesk_210King/models/Autodesk-Research_210-King/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

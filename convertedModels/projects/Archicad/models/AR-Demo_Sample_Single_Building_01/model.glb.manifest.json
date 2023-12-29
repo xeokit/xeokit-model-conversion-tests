@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Archicad/AR-Demo_Sample_Single_Building_01.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Archicad/AR-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:30:13",
+    "conversionDate": "2023-12-30 00:00:36",
     "gltfOutFiles": [
         "convertedModels/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb",
         "convertedModels/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model_1.glb"

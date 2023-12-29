@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/SGD_Munkerud/SGD_Munkerud_Arch-2.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-30 00:38:47",
+    "gltfOutFiles": [
+        "convertedModels/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.json"
+    ],
+    "numCreatedGltfMeshes": 2652,
+    "numCreatedMetaObjects": 542,
+    "numExportedPropertySetsOrElementQuantities": 722,
+    "modelBoundsMax": [
+        34.548870910497385,
+        22.13999988007467,
+        8.030125136980196
+    ],
+    "modelBoundsMin": [
+        -18.94619755623357,
+        -7.400000119925334,
+        -5.359999999999999
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/IfcOpenShell/IfcOpenHouse2x3.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/IfcOpenShell/IfcOpenHouse2x3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:36:43",
+    "conversionDate": "2023-12-30 00:29:55",
     "gltfOutFiles": [
         "convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb"
     ],

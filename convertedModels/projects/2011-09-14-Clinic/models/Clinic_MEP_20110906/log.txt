@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/2011-09-14-Clinic/Clinic_MEP_20110906.ifc                         -o convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb                         -m convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/2011-09-14-Clinic/Clinic_MEP_20110906.ifc                         -o convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb                         -m convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -13,7 +13,7 @@ Accessors: 3191, reused: 4733
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%Exporting meta data: 50%Exporting meta data: 51%Exporting meta data: 53%Exporting meta data: 54%Exporting meta data: 56%Exporting meta data: 57%Exporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%Exporting meta data: 63%Exporting meta data: 65%Exporting meta data: 66%Exporting meta data: 68%Exporting meta data: 69%Exporting meta data: 71%Exporting meta data: 72%Exporting meta data: 74%Exporting meta data: 75%Exporting meta data: 77%Exporting meta data: 78%Exporting meta data: 80%Exporting meta data: 100%
 Accessors: 249, reused: 1128
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 38 seconds
+done in 41 seconds
 
 node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb.manifest.json                         -o convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.xkt.manifest.json                         -l >> convertedModels/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 
@@ -31,7 +31,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 8276.00 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.89
-[convert2xkt] Conversion time: 9.85 s
+[convert2xkt] Conversion time: 10.11 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5534
@@ -58,7 +58,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 4884.36 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.23
-[convert2xkt] Conversion time: 5.98 s
+[convert2xkt] Conversion time: 5.95 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4628
@@ -85,7 +85,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 5340.31 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.30
-[convert2xkt] Conversion time: 6.38 s
+[convert2xkt] Conversion time: 6.46 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4636
@@ -112,7 +112,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 2872.66 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.61
-[convert2xkt] Conversion time: 3.34 s
+[convert2xkt] Conversion time: 3.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1212

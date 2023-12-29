@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC4.0/structural-curve-member.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:55:10",
+    "conversionDate": "2023-12-30 00:49:48",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC4.0/models/structural-curve-member/model.glb"
     ],

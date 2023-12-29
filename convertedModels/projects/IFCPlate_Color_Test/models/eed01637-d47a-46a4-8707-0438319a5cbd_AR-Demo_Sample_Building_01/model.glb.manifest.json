@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/IFCPlate_Color_Test/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/IFCPlate_Color_Test/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:36:40",
+    "conversionDate": "2023-12-30 00:29:52",
     "gltfOutFiles": [
         "convertedModels/projects/IFCPlate_Color_Test/models/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01/model.glb"
     ],

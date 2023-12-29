@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/grid-placement.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC4.0/grid-placement.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:55:05",
+    "conversionDate": "2023-12-30 00:49:44",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC4.0/models/grid-placement/model.glb"
     ],

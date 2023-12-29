@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/MarkupTest/MarkupTest.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/MarkupTest/MarkupTest.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:43:08",
+    "conversionDate": "2023-12-30 00:36:14",
     "gltfOutFiles": [
         "convertedModels/projects/MarkupTest/models/MarkupTest/model.glb"
     ],

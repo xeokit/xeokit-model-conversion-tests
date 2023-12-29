@@ -1,0 +1,29 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/CS_Auckland_AC_NZ/202101082003_casbah_alger.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-30 00:18:34",
+    "gltfOutFiles": [
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_1.glb",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_2.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.json",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_1.json",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_2.json"
+    ],
+    "numCreatedGltfMeshes": 17501,
+    "numCreatedMetaObjects": 5800,
+    "numExportedPropertySetsOrElementQuantities": 3616,
+    "modelBoundsMax": [
+        1951.3624813230003,
+        1900.2165445700002,
+        41.40023434359999
+    ],
+    "modelBoundsMin": [
+        418.8016453780001,
+        62.78609794199997,
+        -83.8863165195
+    ]
+}

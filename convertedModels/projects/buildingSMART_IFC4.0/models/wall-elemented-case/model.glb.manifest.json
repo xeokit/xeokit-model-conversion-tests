@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/wall-elemented-case.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC4.0/wall-elemented-case.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:55:15",
+    "conversionDate": "2023-12-30 00:49:53",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb"
     ],

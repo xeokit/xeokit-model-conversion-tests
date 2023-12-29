@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/HolterTower/Holter_Tower_10.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/HolterTower/Holter_Tower_10.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:34:53",
+    "conversionDate": "2023-12-30 00:27:59",
     "gltfOutFiles": [
         "convertedModels/projects/HolterTower/models/Holter_Tower_10/model.glb",
         "convertedModels/projects/HolterTower/models/Holter_Tower_10/model_1.glb"

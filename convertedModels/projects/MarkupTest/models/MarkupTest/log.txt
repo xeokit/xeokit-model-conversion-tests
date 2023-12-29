@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/MarkupTest/MarkupTest.ifc                         -o convertedModels/projects/MarkupTest/models/MarkupTest/model.glb                         -m convertedModels/projects/MarkupTest/models/MarkupTest/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/MarkupTest/models/MarkupTest/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/MarkupTest/MarkupTest.ifc                         -o convertedModels/projects/MarkupTest/models/MarkupTest/model.glb                         -m convertedModels/projects/MarkupTest/models/MarkupTest/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/MarkupTest/models/MarkupTest/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -14,7 +14,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest convertedModels/projects/MarkupTest/models/MarkupTest/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/projects/MarkupTest/models/MarkupTest/model.glb
-[convert2xkt] Input file size: 72.32 kB
+[convert2xkt] Input file size: 72.31 kB
 [convert2xkt] Reading input metadata file: convertedModels/projects/MarkupTest/models/MarkupTest/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled

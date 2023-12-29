@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/tessellation-with-pixel-texture.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC4.0/tessellation-with-pixel-texture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:55:14",
+    "conversionDate": "2023-12-30 00:49:52",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC4.0/models/tessellation-with-pixel-texture/model.glb"
     ],

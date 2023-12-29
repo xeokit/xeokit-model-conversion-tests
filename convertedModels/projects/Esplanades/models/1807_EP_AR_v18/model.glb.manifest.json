@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Esplanades/1807_EP_AR_v18.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:34:46",
+    "conversionDate": "2023-12-30 00:25:28",
     "gltfOutFiles": [
         "convertedModels/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],

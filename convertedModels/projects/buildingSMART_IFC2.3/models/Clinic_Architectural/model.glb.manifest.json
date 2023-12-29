@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC2.3/Clinic_Architectural.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC2.3/Clinic_Architectural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:53:29",
+    "conversionDate": "2023-12-30 00:48:05",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.glb"
     ],
@@ -13,7 +13,7 @@
     "numCreatedMetaObjects": 2896,
     "numExportedPropertySetsOrElementQuantities": 14701,
     "modelBoundsMax": [
-        10.296499999999426,
+        10.29649999999944,
         56.519999999999264,
         14.076432841787591
     ],

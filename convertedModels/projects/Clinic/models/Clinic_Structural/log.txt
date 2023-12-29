@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Clinic/Clinic_Structural.ifc                         -o convertedModels/projects/Clinic/models/Clinic_Structural/model.glb                         -m convertedModels/projects/Clinic/models/Clinic_Structural/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/Clinic/models/Clinic_Structural/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Clinic/Clinic_Structural.ifc                         -o convertedModels/projects/Clinic/models/Clinic_Structural/model.glb                         -m convertedModels/projects/Clinic/models/Clinic_Structural/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/Clinic/models/Clinic_Structural/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -25,7 +25,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 1047.15 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.78
-[convert2xkt] Conversion time: 1.86 s
+[convert2xkt] Conversion time: 2.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1078

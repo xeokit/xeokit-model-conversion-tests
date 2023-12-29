@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc                         -o convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb                         -m convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc                         -o convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb                         -m convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -14,7 +14,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Running convert2xkt v1.1.11...
 [convert2xkt] Converting glTF files in manifest convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb
-[convert2xkt] Input file size: 1011.52 kB
+[convert2xkt] Input file size: 1011.54 kB
 [convert2xkt] Reading input metadata file: convertedModels/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: enabled
@@ -22,7 +22,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 339.48 kB
+[convert2xkt] XKT size: 339.47 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.98
 [convert2xkt] Conversion time: 0.71 s
@@ -32,7 +32,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] Converted geometries: 1174
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 49143
+[convert2xkt] Converted triangles: 49144
 [convert2xkt] Converted vertices: 27131
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

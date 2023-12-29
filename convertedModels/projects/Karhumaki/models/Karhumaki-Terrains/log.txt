@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/Karhumaki/Karhumaki-Terrains.ifc                         -o convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.glb                         -m convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/Karhumaki/Karhumaki-Terrains.ifc                         -o convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.glb                         -m convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.7 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -7,7 +7,7 @@ Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 57%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 63%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 100%
 Accessors: 9666, reused: 10146
 Exporting meta dataExporting meta data: 75%Exporting meta data: 76%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
-done in 8 seconds
+done in 7 seconds
 
 node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.glb.manifest.json                         -o convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/model.xkt.manifest.json                         -l >> convertedModels/projects/Karhumaki/models/Karhumaki-Terrains/log.txt
 
@@ -25,7 +25,7 @@ node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert
 [convert2xkt] XKT size: 3356.35 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.04
-[convert2xkt] Conversion time: 5.77 s
+[convert2xkt] Conversion time: 5.71 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 10148

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/RiverSideOffice/RiverSideOffice.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:44:02",
+    "conversionDate": "2023-12-30 00:37:59",
     "gltfOutFiles": [
         "convertedModels/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],

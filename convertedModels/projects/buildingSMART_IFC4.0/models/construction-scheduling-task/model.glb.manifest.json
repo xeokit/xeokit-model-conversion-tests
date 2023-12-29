@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:55:03",
+    "conversionDate": "2023-12-30 00:49:41",
     "gltfOutFiles": [
         "convertedModels/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.glb"
     ],

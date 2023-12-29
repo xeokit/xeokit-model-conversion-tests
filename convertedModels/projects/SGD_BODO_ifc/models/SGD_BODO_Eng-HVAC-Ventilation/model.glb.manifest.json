@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:44:37",
+    "conversionDate": "2023-12-30 00:38:36",
     "gltfOutFiles": [
         "convertedModels/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb"
     ],

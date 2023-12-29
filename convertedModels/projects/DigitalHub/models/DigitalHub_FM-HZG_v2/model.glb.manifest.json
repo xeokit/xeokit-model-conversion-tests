@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-sep8/inputFiles/DigitalHub/DigitalHub_FM-HZG_v2.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/DigitalHub/DigitalHub_FM-HZG_v2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.7",
-    "conversionDate": "2023-12-26 13:33:49",
+    "conversionDate": "2023-12-30 00:24:25",
     "gltfOutFiles": [
         "convertedModels/projects/DigitalHub/models/DigitalHub_FM-HZG_v2/model.glb"
     ],

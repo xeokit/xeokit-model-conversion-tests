@@ -1,0 +1,31 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/CS_Auckland_AC_NZ/20200518Yangsan_Pr-HARDWARE.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.7",
+    "conversionDate": "2023-12-30 00:10:13",
+    "gltfOutFiles": [
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model.glb",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_1.glb",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_2.glb",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_3.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model.json",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_1.json",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_2.json",
+        "convertedModels/projects/CS_Auckland_AC_NZ/models/20200518Yangsan_Pr-HARDWARE/model_3.json"
+    ],
+    "numCreatedGltfMeshes": 79405,
+    "numCreatedMetaObjects": 461934,
+    "numExportedPropertySetsOrElementQuantities": 177628,
+    "modelBoundsMax": [
+        415.6,
+        92.5,
+        44.50000000000001
+    ],
+    "modelBoundsMin": [
+        275.03499999999997,
+        -0.6000000000000014,
+        -1.1700000000000017
+    ]
+}
