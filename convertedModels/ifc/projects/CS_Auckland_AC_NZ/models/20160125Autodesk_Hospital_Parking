@@ -1,0 +1,15 @@
+
+__ IFC to GLTF converter __ version: 3.0.11 ____________
+Loading input config file: ifc2gltfcxconverter.json
+
+Input file not found: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking
+ifc2gltfcxconverter: convert ifc to gltf
+ usage information:
+
+	 ifc2x -i: [path to .ifc] 
+	 -o: [output file path] Possible file types: gltf/glb/html
+	 -m: [metadata file path]
+	 -s: maximum gltf file size in megabyte. Once the size is reached, all following objects will be written into the next file, with _1, _2 etc. appended to the file name.
+	 -t: tile size in [m]. -1 to turn off splitting geometry into tiles
+	 -v: print version number
+	 -h: print help/usage

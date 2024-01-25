@@ -1,0 +1,27 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160124OTC-Conference_Center.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 15:54:51",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.glb",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.json",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model_1.json"
+    ],
+    "numCreatedGltfMeshes": 15977,
+    "numCreatedMetaObjects": 11091,
+    "numExportedPropertySetsOrElementQuantities": 11731,
+    "modelBoundsMax": [
+        101.03200061450883,
+        66.95439999999982,
+        27.465925367099317
+    ],
+    "modelBoundsMin": [
+        -28.79090000000008,
+        -7.977642873818212,
+        -8.99160000000002
+    ]
+}

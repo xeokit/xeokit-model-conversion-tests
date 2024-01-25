@@ -1,0 +1,131 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_MEP_20110906_optimized.ifc                         -o convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb                         -m convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.11 ____________
+Loading input config file: ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...10906_optimized.ifc"Loading file "/home/lindsay/xe...10906_optimized.ifc": 5%Loading file "/home/lindsay/xe...10906_optimized.ifc": 19%Loading file "/home/lindsay/xe...10906_optimized.ifc": 33%Loading file "/home/lindsay/xe...10906_optimized.ifc": 60%Loading file "/home/lindsay/xe...10906_optimized.ifc": 78%Loading file "/home/lindsay/xe...10906_optimized.ifc": 87%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 6%Converting IFC geometry: 15%Converting IFC geometry: 19%Converting IFC geometry: 24%Converting IFC geometry: 27%Converting IFC geometry: 31%Converting IFC geometry: 35%Converting IFC geometry: 43%Converting IFC geometry: 52%Converting IFC geometry: 59%Converting IFC geometry: 69%Converting IFC geometry: 80%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 53%Exporting to gltf: 57%
+Accessors: 2304, reused: 6309
+Exporting meta dataExporting meta data: 85%Exporting meta data: 63%Exporting meta data: 69%
+Accessors: 3185, reused: 4365
+Exporting meta dataExporting meta data: 84%Exporting meta data: 100%Exporting meta data: 72%Exporting meta data: 100%
+Accessors: 3191, reused: 4395
+Exporting meta dataExporting meta data: 82%Exporting meta data: 90%Exporting meta data: 94%Exporting meta data: 50%Exporting meta data: 100%
+Accessors: 249, reused: 1116
+Exporting meta dataExporting meta data: 82%Exporting meta data: 90%Exporting meta data: 94%
+done in 48 seconds
+
+node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb.manifest.json                         -o convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb
+[convert2xkt] Input file size: 7199.60 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 8383.52 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.86
+[convert2xkt] Conversion time: 10.24 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 5534
+[convert2xkt] Converted geometries: 6891
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1743846
+[convert2xkt] Converted vertices: 1048656
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 4)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_1.glb
+[convert2xkt] Input file size: 5968.90 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_1.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 7017.59 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.85
+[convert2xkt] Conversion time: 7.46 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 4628
+[convert2xkt] Converted geometries: 5114
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1012182
+[convert2xkt] Converted vertices: 595458
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 4)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_2.glb
+[convert2xkt] Input file size: 6876.04 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_2.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 8960.42 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.77
+[convert2xkt] Conversion time: 8.94 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 4636
+[convert2xkt] Converted geometries: 5144
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1121932
+[convert2xkt] Converted vertices: 684060
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 4)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_3.glb
+[convert2xkt] Input file size: 1755.83 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_3.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 8072.53 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.22
+[convert2xkt] Conversion time: 6.84 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 1212
+[convert2xkt] Converted geometries: 1235
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 696739
+[convert2xkt] Converted vertices: 475755
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_3.xkt
+[convert2xkt] Converted model4.xkt (4 of 4)
+[convert2xkt] Done.

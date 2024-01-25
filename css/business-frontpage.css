@@ -26,6 +26,17 @@ body {
 
 }
 
+.ifc-header {
+    height: 50vh;
+    min-height: 300px;
+    background: url('../img/systemMonitor.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
 .main-section.alabaster {
     background: #fafafa;
 
@@ -510,6 +521,20 @@ span.clients-name {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.home-header-ifc {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 600px;
+    /*background: linear-gradient(to right,  rgba(0, 0, 0, 0.6), rgba(0,0, 0, 0.0) ), url('../img/systemMonitor.png') center center no-repeat scroll;*/
+    background: linear-gradient(to right,  rgba(0, 0, 0.8, 0.99), rgba(0,0, 0, 0.2)  ), url('../img/autzen.png') center center no-repeat scroll;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .home-header h1 {
     font-weight: 600;

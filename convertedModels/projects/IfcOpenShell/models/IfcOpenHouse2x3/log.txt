@@ -1,43 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_7_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-dec29/inputFiles/IfcOpenShell/IfcOpenHouse2x3.ifc                         -o convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb                         -m convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
-
-__ IFC to GLTF converter __ version: 3.0.7 ____________
-Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc"Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 5%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 6%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 8%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 9%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 10%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 11%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 13%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 14%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 15%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 16%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 17%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 18%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 20%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 21%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 23%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 30%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 33%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 36%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 39%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 42%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 45%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 48%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 51%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 54%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 57%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 60%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 63%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 66%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 69%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 72%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 75%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 78%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 81%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 84%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 87%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 3%Converting IFC geometry: 5%Converting IFC geometry: 7%Converting IFC geometry: 9%Converting IFC geometry: 11%Converting IFC geometry: 13%Converting IFC geometry: 15%Converting IFC geometry: 16%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 22%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 28%Converting IFC geometry: 30%Converting IFC geometry: 31%Converting IFC geometry: 33%Converting IFC geometry: 35%Converting IFC geometry: 37%Converting IFC geometry: 39%Converting IFC geometry: 41%Converting IFC geometry: 43%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 48%Converting IFC geometry: 50%Converting IFC geometry: 52%Converting IFC geometry: 54%Converting IFC geometry: 56%Converting IFC geometry: 58%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 63%Converting IFC geometry: 65%Converting IFC geometry: 67%Converting IFC geometry: 69%Converting IFC geometry: 71%Converting IFC geometry: 73%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 78%Converting IFC geometry: 80%Converting IFC geometry: 82%Converting IFC geometry: 84%Converting IFC geometry: 86%Converting IFC geometry: 88%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 52%Exporting to gltf: 54%Exporting to gltf: 56%Exporting to gltf: 58%Exporting to gltf: 60%Exporting to gltf: 62%Exporting to gltf: 64%Exporting to gltf: 65%Exporting to gltf: 67%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 73%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 79%Exporting to gltf: 80%Exporting to gltf: 82%Exporting to gltf: 84%Exporting to gltf: 86%Exporting to gltf: 88%Exporting to gltf: 90%Exporting to gltf: 100%
-Accessors: 21, reused: 32
-Exporting meta dataExporting meta data: 100%
-done in 1 seconds
-
-node --max-old-space-size=14000                         ~/xeolabs/xeokit-convert-aug9/convert2xkt.js -t                         -n                         -a convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb.manifest.json                         -o convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.xkt.manifest.json                         -l >> convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.11...
-[convert2xkt] Converting glTF files in manifest convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb.manifest.json...
-[convert2xkt] Reading input file: convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb
-[convert2xkt] Input file size: 29.22 kB
-[convert2xkt] Reading input metadata file: convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: enabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 9.98 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.93
-[convert2xkt] Conversion time: 0.07 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 34
-[convert2xkt] Converted geometries: 38
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1193
-[convert2xkt] Converted vertices: 685
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Number of tiles: 1
-[convert2xkt] minTileSize: 500
-[convert2xkt] Writing XKT file: convertedModels/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

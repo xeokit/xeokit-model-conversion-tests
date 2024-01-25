@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/blenderbim/auto-geolocation.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 16:25:09",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/blenderbim/models/auto-geolocation/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/blenderbim/models/auto-geolocation/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        268383.1307772655,
+        5774489.580982747,
+        24.64255000337703
+    ],
+    "modelBoundsMin": [
+        268381.35077725456,
+        5774484.235982746,
+        24.372549996622897
+    ]
+}

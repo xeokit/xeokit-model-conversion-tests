@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 15:58:34",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json"
+    ],
+    "numCreatedGltfMeshes": 12282,
+    "numCreatedMetaObjects": 8534,
+    "numExportedPropertySetsOrElementQuantities": 8925,
+    "modelBoundsMax": [
+        78.26218609304921,
+        37.59027430769751,
+        12.346223464168462
+    ],
+    "modelBoundsMin": [
+        0.4797753912208549,
+        -0.05000000000001137,
+        -0.3164000000000051
+    ]
+}

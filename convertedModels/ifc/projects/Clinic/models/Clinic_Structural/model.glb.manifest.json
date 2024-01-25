@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_Structural.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 16:07:46",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_Structural/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_Structural/model.json"
+    ],
+    "numCreatedGltfMeshes": 1078,
+    "numCreatedMetaObjects": 1094,
+    "numExportedPropertySetsOrElementQuantities": 9588,
+    "modelBoundsMax": [
+        20.520999999999447,
+        59.55380000000007,
+        13.804972436794188
+    ],
+    "modelBoundsMin": [
+        -79.90800000000033,
+        -19.959503024258694,
+        -2.2150000000000025
+    ]
+}

@@ -1,0 +1,73 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Archicad/AR-Demo_Sample_Single_Building_01.ifc                         -o convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb                         -m convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.11 ____________
+Loading input config file: ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...gle_Building_01.ifc"Loading file "/home/lindsay/xe...gle_Building_01.ifc": 5%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 39%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 87%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 55%Converting IFC geometry: 58%Converting IFC geometry: 74%Converting IFC geometry: 87%Converting IFC geometry: 88%
+Exporting to gltf
+Accessors: 8, reused: 0
+Exporting meta dataExporting meta data: 74%
+Accessors: 3537, reused: 8178
+Exporting meta dataExporting meta data: 100%
+done in 16 seconds
+
+node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb.manifest.json                         -o convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb
+[convert2xkt] Input file size: 464.82 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 187.80 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.48
+[convert2xkt] Conversion time: 0.46 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 1
+[convert2xkt] Converted geometries: 4
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 25196
+[convert2xkt] Converted vertices: 13292
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 2)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model_1.glb
+[convert2xkt] Input file size: 6025.20 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model_1.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 2874.36 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.10
+[convert2xkt] Conversion time: 4.39 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 5749
+[convert2xkt] Converted geometries: 9195
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 372040
+[convert2xkt] Converted vertices: 206923
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 2)
+[convert2xkt] Done.

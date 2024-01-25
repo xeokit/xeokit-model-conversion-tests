@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="xeokit - SDK for Browser-Based 3D BIM Visualization">
+<meta name="author" content="Lindsay Kay">
+<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
+
+<title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
+
+<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/business-frontpage.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Bootstrap core JavaScript -->
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            overflow-y: hidden !important;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-parent" href="./tests.html">LAS Conversion Tests</a>/</span><span class="navbar-brand" href="./index.html">View XKT</span>
+<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+<!--    <div class="collapse navbar-collapse" id="navbarResponsive">-->
+<!--        <ul class="navbar-nav ml-auto">-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="./las-index.html?foo=0">Home</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item dropdown">-->
+<!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>-->
+<!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample LAS Model</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAP&tab=objects">Full-Precision LAS Model</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Conference Center Model</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan&tab=storeys">Schependomlaan Model</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan_selectedStorey&tab=storeys">Schependomlaan Ground Floor</a>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#features">Features</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#faq">FAQ</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item dropdown">-->
+<!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>-->
+<!--                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">-->
+<!--                    <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/docs/" target="_docs">API Reference</a>-->
+<!--                    <a class="dropdown-item" href="https://github.com/xeokit" target="_code">Source Code</a>-->
+<!--                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="https://xeokit.io/download.html">Download</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+</nav>
+<div class="row no-gutters">
+    <iframe class="embedded-viewer" id="embeddedViewer" src=""></iframe>
+</div>
+
+</body>
+<script>
+    window.onload = function () {
+        const iframeElement = document.getElementById("embeddedViewer");
+        if (!iframeElement) {
+            throw "IFRAME not found";
+        }
+        const searchStr = window.location.search || "?projectId=Schependomlaan_selectedStorey&tab=storeys";
+        iframeElement.src = "https://xeokit.github.io/xeokit-bim-viewer/app/index.html" + searchStr;
+        iframeElement.addEventListener('load', function () {
+            iframeElement.focus();
+        });
+    };
+</script>
+</html>

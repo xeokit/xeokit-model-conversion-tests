@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 15:55:18",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.json"
+    ],
+    "numCreatedGltfMeshes": 1021,
+    "numCreatedMetaObjects": 875,
+    "numExportedPropertySetsOrElementQuantities": 12,
+    "modelBoundsMax": [
+        86.7548975713294,
+        137.47820523966442,
+        189.62589881780008
+    ],
+    "modelBoundsMin": [
+        -9.791868581879086,
+        50.09211697913406,
+        165.83779881779998
+    ]
+}

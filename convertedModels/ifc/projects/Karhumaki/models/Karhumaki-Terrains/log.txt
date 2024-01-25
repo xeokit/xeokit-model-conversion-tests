@@ -1,0 +1,44 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Karhumaki/Karhumaki-Terrains.ifc                         -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb                         -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.11 ____________
+Loading input config file: ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...humaki-Terrains.ifc"Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 5%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 36%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 81%
+Converting IFC geometryConverting IFC geometry: 24%Converting IFC geometry: 85%
+Exporting to gltf
+Accessors: 9666, reused: 10146
+Exporting meta dataExporting meta data: 75%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
+done in 119 seconds
+
+node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb.manifest.json                         -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb
+[convert2xkt] Input file size: 6835.86 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3758.92 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.82
+[convert2xkt] Conversion time: 6.31 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 10148
+[convert2xkt] Converted geometries: 10148
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 81184
+[convert2xkt] Converted vertices: 60888
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

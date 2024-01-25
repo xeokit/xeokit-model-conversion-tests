@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="xeokit - SDK for Browser-Based 3D BIM Visualization">
+<meta name="author" content="Lindsay Kay">
+<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
+
+<title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
+
+<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/business-frontpage.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Bootstrap core JavaScript -->
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title></title></head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-brand" href="./index.html">Model Conversion</a></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html?foo=0">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample LAS Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAP&tab=objects">Full-Precision LAS Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Conference Center Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan&tab=storeys">Schependomlaan Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan_selectedStorey&tab=storeys">Schependomlaan Ground Floor</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#features">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
+                    <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/docs/" target="_docs">API Reference</a>
+                    <a class="dropdown-item" href="https://github.com/xeokit" target="_code">Source Code</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/download.html">Download</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="bg-primary py-5 pipelines-header bg-black">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-12">
+                <h1 class="text-white mt-5 mb-2">Model Conversion</h1>
+                <p class="lead mb-5 text-white">Recipes for importing AEC model files into xeokit</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="main-section  alabaster" id="intro">
+    <div class="container">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Introduction</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mx-auto">
+                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view
+                    them in the browser. To do that, we pre-convert our models to xeokit's fast-loading native
+                    <i>XKT</i> format.</p>
+
+                <p>Listed below are several pipelines we can use to convert AEC files to XKT. Each pipeline involves
+                    running the files through a chain of one or more CLI tools, in your local environment. The Community
+                    pipelines use exclusively open source tools, while the CxConverter pipelines use a proprietary
+                    tool for which a commercial license is required.</p>
+                <p>Periodically, we run our AEC test files through all the pipelines. That statically-generates the
+                    <a href="./las-tests.html">Model Conversion Tests</a> page, where you can check if the latest pipelines
+                    are converting our test models correctly.
+                </p>
+            </div>
+        </div>
+
+        <div class="row  mt-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./las-tests.html">LAS Conversion Tests &gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="main-section" id="lasCXConverterPipeline1">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter LAS Conversion Pipeline #1</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-las-enterprise1.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.las</code> files into <code>.xkt</code>, with
+                    two CLI tools, using intermediate <code>.glb</code> and <code>.json</code> files.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.las</code> files of many gigabytes</li>
+                    <li>Two CLI tools, written in C++ and JavaScript (NodeJS)</li>
+                    <li>Option to split output into multiple files for easy loading in browsers</li>
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files
+                    </li>
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">las2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-LAS-to-XKT-using-las2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            LAS to XKT using las2gltf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row  mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./las-tests.html">LAS Conversion Tests &gt;&gt;</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="main-section alabaster" id="lasCXConverterPipeline2">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter LAS Conversion Pipeline #2</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-las-enterprise2.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.las</code> files directly into
+                    <code>.xkt</code>, using a single CLI tool and no intermediate formats.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.las</code> files of many gigabytes</li>
+                    <li>Converts <code>.las</code> directly into <code>.xkt</code>
+                    <li>A single CLI tool written in C++</li>
+                    <li>Option to split output into multiple <code>.xkt</code> files for easy loading in browsers</li>
+                    </li>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">las2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-LAS-to-XKT-using-las2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            LAS to XKT using las2gltf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-section" id="lasCommunityPipeline1">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 center-text">Community LAS Conversion Pipeline</h1>
+            </div>
+        </div>
+        <div class="row testimonial-row">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-las-community1.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p class="mb-4">A pipeline of open source CLI tools that converts medium-to-large
+                    <code>.las</code> files to <code>.xkt</code>.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts medium-to-large <code>.las</code> files to <code>.xkt</code></li>
+                    <li>All tools open source under AGPL3 and MIT</li>
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files on disk
+                    </li>
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="http://lasopenshell.org/lasconvert">LasConvert</a> (MIT, from
+                        <a href="http://lasopenshell.org/">LasOpenShell</a>)
+                    </li>
+                    <li><a href="https://github.com/bimspot/xeokit-metadata">xeokit-metadata</a> <i>(MIT License, from
+                        <a href="https://bimspot.io">BIMSpot</a></i>)
+                    </li>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-LAS-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting
+                            LAS Models to XKT using Open Source Tools - A Simpler Pipeline</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="main-section alabaster" id="xeokitMultiFormatPipeline">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 center-text">Community Multi-Format Conversion Pipeline</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-las-community2.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p class="mb-4">Convert multiple source formats into <code>.xkt</code> in a single step.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts <code>.gltf</code>, <code>.glb</code>, <code>.las</code>,
+                        <code>.laz</code>, CityJSON and small <code>.las</code> files to <code>.xkt</code></li>
+                    <li>Don't use with large <code>.las</code> files</li>
+                    <li>Open source under AGPL3</li>
+                    <li>Internally uses <a href="https://github.com/LASjs/web-las">web-las</a> when converting <code>.las</code>.
+                    </li>
+                    <li>Creates no intermediate files</li>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        using an
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting
+                            Models to XKT with convert2xkt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer class="py-5 bg-dark xeokit-footer">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mb-3  text-left">
+                <h2>xeokit SDK</h2>
+                <p>Powering Engineering Graphics on the Web</p>
+                <img src="./img/xeokitLogoAlphaBG.png">
+            </div>
+            <div class="col-md-8 col-sm-12">
+
+                <div class="col-md-4 col-sm-6 col-6 p-0 float-left mb-3">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Learn</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#features">Features</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2 "><a
+                                href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Demo</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2 "><a
+                                href="https://xeokit.io/blog.html">Blog</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#pricing">Pricing</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#faq">FAQ</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-6 p-0 mb-3 float-left">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Develop</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/download.html">Download</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-sdk/examples/">Examples</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-sdk/docs/">API Docs</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://github.com/xeokit">Source Code</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://www.notion.so/xeokit">Tutorials</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://github.com/xeokit/xeokit-sdk/issues">Issues</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-6 mb-3 p-0 float-left">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Connect</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="http://www.xeolabs.com"><i class="fa fa-globe mr-1"></i>
+                                xeolabs.com</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://www.linkedin.com/company/xeolabs"><i class="fa fa-linkedin mr-1"></i>
+                                LinkedIn</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://github.com/xeolabs" target="_code"><i class="fa fa-github mr-1"></i>
+                                Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="py-4 d-flex justify-content-center align-items-center">
+                    <p class="m-0 text-center">Copyright &copy; <a href="http://xeolabs.com">xeolabs</a> 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
