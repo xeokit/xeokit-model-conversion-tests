@@ -4,6 +4,7 @@
   "description": "Runs all our converter pipelines over a directory containing your IFC files and generates a nice report with Bootstrap, including logs and clickable links to view the converted XKT files ",
   "main": "index.js",
   "scripts": {
+    "check-sizes": "./list_large_files.sh ./convertedModels",
     "convert-ifc": "node --max-old-space-size=4076 convert-ifc.js; gulp build",
     "convert-las": "node --max-old-space-size=4076 convert-las.js; gulp build",
     "convert": "node --max-old-space-size=4076 convert-las.js; node --max-old-space-size=4076 convert-ifc.js; gulp build"
