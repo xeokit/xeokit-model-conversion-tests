@@ -151,13 +151,13 @@ const errors = {};
                     const convertedModelDir = `${outputBatchDirPath}/models/${inputFileName}/`;
                     const modelOutPath = convertedModelDir;
 
-                    const xktOutputPath = path.join(modelOutPath, `model.xkt`);
+                    const xktOutputPath = path.join(modelOutPath, `geometry.xkt`);
                     // const glbOutputPath = path.join(modelOutPath, `model.glb`);
                     // const jsonOutputPath = path.join(modelOutPath, `model.json`);
                      const logPath = path.join(modelOutPath, `log.txt`);
                     //
                     // const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
-                    // const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
+                    // const xktManifestPath = path.join(modelOutPath, `geometry.xkt.manifest.json`);
 
                     if (fs.existsSync(convertedModelDir)) {
                         fs.rmSync(convertedModelDir, {recursive: true, force: true});
@@ -188,7 +188,7 @@ const errors = {};
 
                         console.log(convert2xktCmd)
 
-                    //    xktSizes[lasInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
+                    //    xktSizes[lasInputPath] = (getXKTSize(modelOutPath, `geometry.xkt.manifest.json`) / 1000000).toFixed(4);
 
                         xktSizes[lasInputPath] = 0;
 
@@ -294,7 +294,7 @@ const errors = {};
                     const glbCommunity1PathAbs = `${__dirname}/${glbCommunity1Path}`;
                     const jsonCommunity1Path = path.join(community1Path, `model.json`);
                     const jsonCommunity1PathAbs = `${__dirname}/${jsonCommunity1Path}`;
-                    const xktCommunity1Path = path.join(community1Path, `model.xkt`);
+                    const xktCommunity1Path = path.join(community1Path, `geometry.xkt`);
                     const xktCommunity1PathAbs = `${__dirname}/${xktCommunity1Path}`;
                     const logCommunity1Path = path.join(community1Path, `log.txt`);
                     const logCommunity1PathAbs = `${__dirname}/${logCommunity1Path}`;
@@ -306,12 +306,12 @@ const errors = {};
                     const glbOutputPathAbs = `${__dirname}/${glbOutputPath}`;
                     const jsonOutputPath = path.join(modelOutPath, `model.json`);
                     const jsonOutputPathAbs = `${__dirname}/${jsonOutputPath}`;
-                    const xktEnterprise1Path = path.join(modelOutPath, `model.xkt`);
+                    const xktEnterprise1Path = path.join(modelOutPath, `geometry.xkt`);
                     const xktEnterprise1PathAbs = `${__dirname}/${xktEnterprise1Path}`;
                     const logEnterprise1Path = path.join(modelOutPath, `log.txt`);
                     const logPath = `${__dirname}/${logEnterprise1Path}`;
                     const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
-                    const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
+                    const xktManifestPath = path.join(modelOutPath, `geometry.xkt.manifest.json`);
 
                     if (errors[lasInputPath]) {
                         // TODO
@@ -336,7 +336,7 @@ const errors = {};
                             lasFileSize: lasSizes[lasInputPath],
                             xktFileSize: xktSizes[lasInputPath],
                             conversionTime: conversionTimes[lasInputPath],
-                            manifestPath: `./convertedModels/las/projects/${inputBatchDir}/models/${inputFileName}/model.xkt.manifest.json`,
+                            manifestPath: `./convertedModels/las/projects/${inputBatchDir}/models/${inputFileName}/geometry.xkt.manifest.json`,
                             logPath: `./convertedModels/las/projects/${inputBatchDir}/models/${inputFileName}/log.txt`
                         }
 

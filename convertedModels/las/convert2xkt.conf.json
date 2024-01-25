@@ -10,7 +10,7 @@
             ],
             "colorDepth": "auto",
             "fp64": true,
-            "skip": 2,
+            "skip": 1,
             "minTileSize": 200
         },
         "laz": {
@@ -23,7 +23,7 @@
             ],
             "colorDepth": "auto",
             "fp64": true,
-            "skip": 2,
+            "skip": 1,
             "minTileSize": 200
         },
         "ifc": {
