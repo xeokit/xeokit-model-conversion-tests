@@ -2,16 +2,16 @@
 
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...A-House_Cooling.ifc"Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 5%Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 69%
-Converting IFC geometryConverting IFC geometry: 6%Converting IFC geometry: 23%Converting IFC geometry: 36%Converting IFC geometry: 47%Converting IFC geometry: 55%Converting IFC geometry: 63%Converting IFC geometry: 71%Converting IFC geometry: 78%Converting IFC geometry: 84%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 57%Exporting to gltf: 72%Exporting to gltf: 87%
+Loading file "/home/lindsay/xe...A-House_Cooling.ifc"Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 5%Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 66%
+Converting IFC geometryConverting IFC geometry: 4%Converting IFC geometry: 22%Converting IFC geometry: 37%Converting IFC geometry: 47%Converting IFC geometry: 58%Converting IFC geometry: 67%Converting IFC geometry: 74%Converting IFC geometry: 81%Converting IFC geometry: 86%
+Exporting to gltfExporting to gltf: 51%Exporting to gltf: 62%Exporting to gltf: 77%Exporting to gltf: 92%
 Accessors: 5274, reused: 20586
 Exporting meta data
 done in 16 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.glb.manifest.json                         -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.glb
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 7285.44 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.44
-[convert2xkt] Conversion time: 12.11 s
+[convert2xkt] Conversion time: 12.09 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 20979

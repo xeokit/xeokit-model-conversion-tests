@@ -2,20 +2,20 @@
 
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe.../Schependomlaan.ifc"Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 5%Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 45%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 65%
-Exporting to gltfExporting to gltf: 81%
+Loading file "/home/lindsay/xe.../Schependomlaan.ifc"Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 5%Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 39%Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 49%
+Exporting to gltfExporting to gltf: 68%
 Accessors: 3932, reused: 4980
-Exporting meta dataExporting meta data: 88%
-done in 7 seconds
+Exporting meta dataExporting meta data: 84%Exporting meta data: 93%
+done in 8 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb.manifest.json                         -o convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb
-[convert2xkt] Input file size: 3697.79 kB
+[convert2xkt] Input file size: 3700.38 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 2960.81 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.25
-[convert2xkt] Conversion time: 3.92 s
+[convert2xkt] Conversion time: 4.27 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3569

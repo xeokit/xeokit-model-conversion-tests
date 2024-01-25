@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_S_20110715_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:07:41",
+    "conversionDate": "2024-01-25 23:04:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/model.glb"
     ],

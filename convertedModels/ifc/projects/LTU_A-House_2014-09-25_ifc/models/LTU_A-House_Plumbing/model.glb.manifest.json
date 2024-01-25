@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:17:39",
+    "conversionDate": "2024-01-25 23:34:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb",
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb",
@@ -14,8 +14,8 @@
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.json"
     ],
     "numCreatedGltfMeshes": 60882,
-    "numCreatedMetaObjects": 113975,
-    "numExportedPropertySetsOrElementQuantities": 734,
+    "numCreatedMetaObjects": 112852,
+    "numExportedPropertySetsOrElementQuantities": 704,
     "modelBoundsMax": [
         236.56599998000002,
         198.984,

@@ -1,0 +1,39 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/HATTA/PO3091900054-02-O-BIM-10000_R21.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 23:13:28",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_1.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_2.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_3.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_4.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_5.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_6.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_7.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_1.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_2.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_3.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_4.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_5.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_6.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-O-BIM-10000_R21/model_7.json"
+    ],
+    "numCreatedGltfMeshes": 7443,
+    "numCreatedMetaObjects": 18004,
+    "numExportedPropertySetsOrElementQuantities": 136168,
+    "modelBoundsMax": [
+        581889.4012901179,
+        2743927.569137323,
+        444.8500000000002
+    ],
+    "modelBoundsMin": [
+        578396.5143441948,
+        2741881.320668847,
+        374.0499999999999
+    ]
+}

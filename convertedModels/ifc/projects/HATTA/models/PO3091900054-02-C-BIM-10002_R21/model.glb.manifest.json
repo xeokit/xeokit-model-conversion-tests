@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/HATTA/PO3091900054-02-C-BIM-10002_R21.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 23:08:29",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-C-BIM-10002_R21/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-C-BIM-10002_R21/model.json"
+    ],
+    "numCreatedGltfMeshes": 627,
+    "numCreatedMetaObjects": 189,
+    "numExportedPropertySetsOrElementQuantities": 1301,
+    "modelBoundsMax": [
+        578442.2744755996,
+        2741892.000042732,
+        428.2
+    ],
+    "modelBoundsMin": [
+        578394.5445565998,
+        2741853.439083323,
+        417.04999999999933
+    ]
+}

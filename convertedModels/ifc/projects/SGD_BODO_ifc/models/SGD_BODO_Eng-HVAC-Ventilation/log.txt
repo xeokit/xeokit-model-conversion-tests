@@ -2,16 +2,16 @@
 
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...VAC-Ventilation.ifc"Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 5%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 51%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 28%Converting IFC geometry: 53%Converting IFC geometry: 74%Converting IFC geometry: 89%
+Loading file "/home/lindsay/xe...VAC-Ventilation.ifc"Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 5%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 45%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 17%Converting IFC geometry: 39%Converting IFC geometry: 56%Converting IFC geometry: 71%Converting IFC geometry: 89%
 Exporting to gltf
 Accessors: 2271, reused: 3810
 Exporting meta data
-done in 8 seconds
+done in 9 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb.manifest.json                         -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 1001.58 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.47
-[convert2xkt] Conversion time: 2.00 s
+[convert2xkt] Conversion time: 2.19 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3906

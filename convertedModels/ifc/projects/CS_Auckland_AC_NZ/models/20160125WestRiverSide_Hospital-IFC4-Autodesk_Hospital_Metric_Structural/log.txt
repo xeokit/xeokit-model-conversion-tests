@@ -5,17 +5,17 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...tric_Structural.ifc"Loading file "/home/lindsay/xe...tric_Structural.ifc": 5%
 Converting IFC geometryConverting IFC geometry: 61%
 Exporting to gltf
-Accessors: 791, reused: 2850
+Accessors: 790, reused: 2851
 Exporting meta data
 done in 2 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb
-[convert2xkt] Input file size: 1756.84 kB
+[convert2xkt] Input file size: 1755.82 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,17 +24,17 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 891.07 kB
+[convert2xkt] XKT size: 891.10 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.97
-[convert2xkt] Conversion time: 1.85 s
+[convert2xkt] Conversion time: 1.96 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2827
 [convert2xkt] Converted geometries: 2925
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 302899
+[convert2xkt] Converted triangles: 302896
 [convert2xkt] Converted vertices: 157264
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

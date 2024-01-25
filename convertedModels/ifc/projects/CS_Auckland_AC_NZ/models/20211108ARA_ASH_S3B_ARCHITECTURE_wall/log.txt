@@ -3,19 +3,19 @@
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...CHITECTURE_wall.ifc"Loading file "/home/lindsay/xe...CHITECTURE_wall.ifc": 5%Loading file "/home/lindsay/xe...CHITECTURE_wall.ifc": 30%Loading file "/home/lindsay/xe...CHITECTURE_wall.ifc": 63%Loading file "/home/lindsay/xe...CHITECTURE_wall.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 2%Converting IFC geometry: 8%Converting IFC geometry: 15%Converting IFC geometry: 20%Converting IFC geometry: 29%Converting IFC geometry: 37%Converting IFC geometry: 46%Converting IFC geometry: 56%Converting IFC geometry: 66%Converting IFC geometry: 74%Converting IFC geometry: 81%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 57%Exporting to gltf: 71%Exporting to gltf: 100%
-Accessors: 8836, reused: 15138
-Exporting meta dataExporting meta data: 81%Exporting meta data: 85%Exporting meta data: 88%Exporting meta data: 91%Exporting meta data: 94%
-done in 29 seconds
+Converting IFC geometryConverting IFC geometry: 2%Converting IFC geometry: 8%Converting IFC geometry: 15%Converting IFC geometry: 19%Converting IFC geometry: 27%Converting IFC geometry: 36%Converting IFC geometry: 45%Converting IFC geometry: 54%Converting IFC geometry: 63%Converting IFC geometry: 69%Converting IFC geometry: 77%Converting IFC geometry: 82%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 57%Exporting to gltf: 69%Exporting to gltf: 80%
+Accessors: 8830, reused: 15144
+Exporting meta dataExporting meta data: 79%Exporting meta data: 84%Exporting meta data: 87%Exporting meta data: 90%Exporting meta data: 93%Exporting meta data: 100%
+done in 31 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb
-[convert2xkt] Input file size: 11359.77 kB
+[convert2xkt] Input file size: 11353.65 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,18 +24,18 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7523.86 kB
+[convert2xkt] XKT size: 7524.23 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.51
-[convert2xkt] Conversion time: 10.61 s
+[convert2xkt] Conversion time: 10.32 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 16881
 [convert2xkt] Converted geometries: 16952
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 467746
-[convert2xkt] Converted vertices: 273171
+[convert2xkt] Converted triangles: 467737
+[convert2xkt] Converted vertices: 273164
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

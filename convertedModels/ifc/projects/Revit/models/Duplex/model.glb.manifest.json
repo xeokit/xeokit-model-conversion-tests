@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Revit/Duplex.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:22:45",
+    "conversionDate": "2024-01-25 23:39:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.glb"
     ],

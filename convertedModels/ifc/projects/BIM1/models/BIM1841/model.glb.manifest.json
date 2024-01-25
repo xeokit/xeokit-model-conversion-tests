@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/BIM1/BIM1841.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 15:54:34",
+    "conversionDate": "2024-01-25 22:51:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIM1/models/BIM1841/model.glb"
     ],

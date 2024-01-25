@@ -1,0 +1,218 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/HATTA/PO3091900054-02-H-BIM-10000_R21.ifc                         -o convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.glb                         -m convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.11 ____________
+Loading input config file: ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc"Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 5%Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 30%Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 42%Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 51%Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 72%Loading file "/home/lindsay/xe...H-BIM-10000_R21.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 15%Converting IFC geometry: 16%Converting IFC geometry: 17%Converting IFC geometry: 32%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 50%Converting IFC geometry: 74%
+Exporting to gltfExporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 3158, reused: 10580
+Exporting meta dataExporting meta data: 100%Exporting meta data: 72%
+Accessors: 2108, reused: 2253
+Exporting meta dataExporting meta data: 84%Exporting meta data: 50%Exporting meta data: 100%
+Accessors: 1786, reused: 2474
+Exporting meta dataExporting meta data: 88%Exporting meta data: 75%
+Accessors: 2723, reused: 4524
+Exporting meta dataExporting meta data: 75%Exporting meta data: 88%Exporting meta data: 68%Exporting meta data: 100%
+Accessors: 1418, reused: 2844
+Exporting meta dataExporting meta data: 85%Exporting meta data: 100%Exporting meta data: 81%
+Accessors: 822, reused: 1368
+Exporting meta dataExporting meta data: 84%Exporting meta data: 94%
+Accessors: 109, reused: 125
+Exporting meta dataExporting meta data: 76%Exporting meta data: 88%Exporting meta data: 100%
+done in 120 seconds
+
+node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.glb.manifest.json                         -o convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.glb
+[convert2xkt] Input file size: 8765.58 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3159.71 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.77
+[convert2xkt] Conversion time: 6.25 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 9483
+[convert2xkt] Converted geometries: 11183
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 457294
+[convert2xkt] Converted vertices: 350809
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_1.glb
+[convert2xkt] Input file size: 6191.87 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_1.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3427.80 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.81
+[convert2xkt] Conversion time: 5.56 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 912
+[convert2xkt] Converted geometries: 3017
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 448587
+[convert2xkt] Converted vertices: 351580
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_2.glb
+[convert2xkt] Input file size: 5479.68 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_2.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3743.57 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.46
+[convert2xkt] Conversion time: 5.86 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 193
+[convert2xkt] Converted geometries: 2787
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 374080
+[convert2xkt] Converted vertices: 220460
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_3.glb
+[convert2xkt] Input file size: 6993.42 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_3.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3981.86 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.76
+[convert2xkt] Conversion time: 7.19 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 2340
+[convert2xkt] Converted geometries: 5267
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 502416
+[convert2xkt] Converted vertices: 386783
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_3.xkt
+[convert2xkt] Converted model4.xkt (4 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_4.glb
+[convert2xkt] Input file size: 5535.63 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_4.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4291.41 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.29
+[convert2xkt] Conversion time: 7.05 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 1095
+[convert2xkt] Converted geometries: 3282
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 463751
+[convert2xkt] Converted vertices: 279619
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_4.xkt
+[convert2xkt] Converted model5.xkt (5 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_5.glb
+[convert2xkt] Input file size: 5581.04 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_5.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5329.75 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.05
+[convert2xkt] Conversion time: 7.80 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 284
+[convert2xkt] Converted geometries: 1635
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 525572
+[convert2xkt] Converted vertices: 277550
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_5.xkt
+[convert2xkt] Converted model6.xkt (6 of 7)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_6.glb
+[convert2xkt] Input file size: 287.22 kB
+[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_6.json
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 1977.78 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.15
+[convert2xkt] Conversion time: 3.74 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 76
+[convert2xkt] Converted geometries: 155
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 38128
+[convert2xkt] Converted vertices: 19296
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] minTileSize: 200
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_6.xkt
+[convert2xkt] Converted model7.xkt (7 of 7)
+[convert2xkt] Done.

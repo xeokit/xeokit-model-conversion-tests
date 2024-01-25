@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Revit/rac.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:22:46",
+    "conversionDate": "2024-01-25 23:39:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rac/model.glb"
     ],

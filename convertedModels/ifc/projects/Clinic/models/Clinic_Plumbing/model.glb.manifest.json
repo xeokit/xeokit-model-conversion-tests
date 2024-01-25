@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:06:50",
+    "conversionDate": "2024-01-25 23:03:50",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb",
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model_1.glb"
@@ -11,9 +11,9 @@
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json",
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model_1.json"
     ],
-    "numCreatedGltfMeshes": 10200,
-    "numCreatedMetaObjects": 12753,
-    "numExportedPropertySetsOrElementQuantities": 113310,
+    "numCreatedGltfMeshes": 10204,
+    "numCreatedMetaObjects": 13113,
+    "numExportedPropertySetsOrElementQuantities": 116453,
     "modelBoundsMax": [
         0.4347990361710643,
         57.96081873996157,

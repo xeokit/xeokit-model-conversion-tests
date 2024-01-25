@@ -1,0 +1,37 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/HATTA/PO3091900054-02-H-BIM-10000_R21.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.11",
+    "conversionDate": "2024-01-25 23:10:44",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_1.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_2.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_3.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_4.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_5.glb",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_6.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_1.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_2.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_3.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_4.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_5.json",
+        "convertedModels/ifc/projects/HATTA/models/PO3091900054-02-H-BIM-10000_R21/model_6.json"
+    ],
+    "numCreatedGltfMeshes": 27326,
+    "numCreatedMetaObjects": 86269,
+    "numExportedPropertySetsOrElementQuantities": 580259,
+    "modelBoundsMax": [
+        578567.6005491846,
+        2742001.9188105143,
+        442.4318542647073
+    ],
+    "modelBoundsMin": [
+        578326.3376554014,
+        2741844.8339459565,
+        358.19025000005723
+    ]
+}

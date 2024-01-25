@@ -11,7 +11,7 @@ done in 1 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb.manifest.json                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.53 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.12
-[convert2xkt] Conversion time: 0.02 s
+[convert2xkt] Conversion time: 0.03 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0

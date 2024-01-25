@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/HolterTower/Holter_Tower_10.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 16:11:20",
+    "conversionDate": "2024-01-25 23:28:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.glb",
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_1.glb"

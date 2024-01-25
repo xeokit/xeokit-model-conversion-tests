@@ -3,15 +3,15 @@
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...chanical_Piping.ifc"Loading file "/home/lindsay/xe...chanical_Piping.ifc": 5%Loading file "/home/lindsay/xe...chanical_Piping.ifc": 60%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 11%Converting IFC geometry: 18%Converting IFC geometry: 26%Converting IFC geometry: 33%Converting IFC geometry: 63%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 57%Exporting to gltf: 65%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 11%Converting IFC geometry: 18%Converting IFC geometry: 25%Converting IFC geometry: 32%Converting IFC geometry: 56%Converting IFC geometry: 88%
+Exporting to gltfExporting to gltf: 56%Exporting to gltf: 62%
 Accessors: 5451, reused: 11661
 Exporting meta data
 done in 12 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 4738.60 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.68
-[convert2xkt] Conversion time: 7.72 s
+[convert2xkt] Conversion time: 7.87 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 8525

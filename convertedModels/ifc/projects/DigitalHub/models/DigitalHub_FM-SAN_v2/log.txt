@@ -3,7 +3,7 @@
 __ IFC to GLTF converter __ version: 3.0.11 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...alHub_FM-SAN_v2.ifc"Loading file "/home/lindsay/xe...alHub_FM-SAN_v2.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 13%Converting IFC geometry: 22%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 13%Converting IFC geometry: 19%
 Exporting to gltfExporting to gltf: 51%Exporting to gltf: 53%Exporting to gltf: 54%Exporting to gltf: 56%
 Accessors: 875, reused: 1393
 Exporting meta dataExporting meta data: 59%Exporting meta data: 60%Exporting meta data: 62%
@@ -13,7 +13,7 @@ done in 19 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/DigitalHub/models/DigitalHub_FM-SAN_v2/model.glb.manifest.json                         -o convertedModels/ifc/projects/DigitalHub/models/DigitalHub_FM-SAN_v2/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/DigitalHub/models/DigitalHub_FM-SAN_v2/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta...
+[convert2xkt] Running convert2xkt v1.1.15-beta-1...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/DigitalHub/models/DigitalHub_FM-SAN_v2/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/DigitalHub/models/DigitalHub_FM-SAN_v2/model.glb
@@ -29,7 +29,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 5825.43 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.96
-[convert2xkt] Conversion time: 6.53 s
+[convert2xkt] Conversion time: 6.51 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 623
@@ -56,7 +56,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 4120.28 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.51
-[convert2xkt] Conversion time: 4.42 s
+[convert2xkt] Conversion time: 4.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 386
