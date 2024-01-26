@@ -1,11 +1,11 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-2006_optimized.ifc"Loading file "/home/lindsay/xe...-2006_optimized.ifc": 5%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 39%
 Exporting to gltfExporting to gltf: 87%
-Accessors: 3970, reused: 4544
+Accessors: 3972, reused: 4543
 Exporting meta data
 done in 5 seconds
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb
-[convert2xkt] Input file size: 4086.72 kB
+[convert2xkt] Input file size: 4088.43 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,10 +24,10 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1182.31 kB
+[convert2xkt] XKT size: 1183.11 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.46
-[convert2xkt] Conversion time: 2.19 s
+[convert2xkt] Conversion time: 2.13 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3165
@@ -35,7 +35,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 195608
-[convert2xkt] Converted vertices: 118288
+[convert2xkt] Converted vertices: 118287
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

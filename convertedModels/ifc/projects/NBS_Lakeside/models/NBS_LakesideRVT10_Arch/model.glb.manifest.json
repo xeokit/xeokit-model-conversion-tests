@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT10_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 23:39:18",
+    "converterApplicationVersion": "3.0.12",
+    "conversionDate": "2024-01-26 04:42:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.glb"
     ],

@@ -1,15 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc"Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 84%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 9%Converting IFC geometry: 18%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 73%
+Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc"Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 87%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 6%Converting IFC geometry: 14%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 78%
 Exporting to gltfExporting to gltf: 51%Exporting to gltf: 56%Exporting to gltf: 62%
 Accessors: 4202, reused: 9439
-Exporting meta dataExporting meta data: 88%Exporting meta data: 100%
+Exporting meta dataExporting meta data: 87%Exporting meta data: 100%
 Accessors: 69, reused: 82
 Exporting meta dataExporting meta data: 100%
-done in 31 seconds
+done in 29 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb.manifest.json                         -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
 
@@ -29,7 +29,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 15860.24 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.51
-[convert2xkt] Conversion time: 19.27 s
+[convert2xkt] Conversion time: 17.84 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6513
@@ -56,7 +56,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 6733.86 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.15
-[convert2xkt] Conversion time: 5.87 s
+[convert2xkt] Conversion time: 5.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 73

@@ -1,9 +1,9 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_Architectural.ifc                         -o convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb                         -m convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_Architectural.ifc                         -o convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb                         -m convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...c_Architectural.ifc"Loading file "/home/lindsay/xe...c_Architectural.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 39%
+Converting IFC geometryConverting IFC geometry: 33%
 Exporting to gltf
 Accessors: 1917, reused: 3110
 Exporting meta data
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb
-[convert2xkt] Input file size: 2257.14 kB
+[convert2xkt] Input file size: 2257.20 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,14 +27,14 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 1436.11 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.57
-[convert2xkt] Conversion time: 2.12 s
+[convert2xkt] Conversion time: 2.25 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2586
 [convert2xkt] Converted geometries: 3439
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 169548
+[convert2xkt] Converted triangles: 169553
 [convert2xkt] Converted vertices: 95810
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

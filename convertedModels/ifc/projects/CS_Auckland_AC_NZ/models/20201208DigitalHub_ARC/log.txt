@@ -1,11 +1,11 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20201208DigitalHub_ARC.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20201208DigitalHub_ARC.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...8DigitalHub_ARC.ifc"Loading file "/home/lindsay/xe...8DigitalHub_ARC.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 29%Converting IFC geometry: 48%Converting IFC geometry: 63%Converting IFC geometry: 73%
+Converting IFC geometryConverting IFC geometry: 28%Converting IFC geometry: 48%Converting IFC geometry: 59%Converting IFC geometry: 65%Converting IFC geometry: 81%
 Exporting to gltf
-Accessors: 2227, reused: 3001
+Accessors: 2226, reused: 3002
 Exporting meta data
 done in 6 seconds
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb
-[convert2xkt] Input file size: 2311.54 kB
+[convert2xkt] Input file size: 2307.38 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,17 +24,17 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 602.34 kB
+[convert2xkt] XKT size: 602.49 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.84
-[convert2xkt] Conversion time: 1.48 s
+[convert2xkt] Compression ratio: 3.83
+[convert2xkt] Conversion time: 1.53 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 705
 [convert2xkt] Converted geometries: 3518
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 183765
+[convert2xkt] Converted triangles: 183766
 [convert2xkt] Converted vertices: 96841
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

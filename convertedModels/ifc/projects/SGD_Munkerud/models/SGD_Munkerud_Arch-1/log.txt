@@ -1,11 +1,11 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Arch-1.ifc                         -o convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.glb                         -m convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Arch-1.ifc                         -o convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.glb                         -m convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...Munkerud_Arch-1.ifc"Loading file "/home/lindsay/xe...Munkerud_Arch-1.ifc": 5%
 Converting IFC geometry
 Exporting to gltf
-Accessors: 662, reused: 1720
+Accessors: 661, reused: 1721
 Exporting meta data
 done in 1 seconds
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.glb
-[convert2xkt] Input file size: 806.38 kB
+[convert2xkt] Input file size: 806.05 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-1/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,14 +27,14 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 164.27 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.91
-[convert2xkt] Conversion time: 0.68 s
+[convert2xkt] Conversion time: 0.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 377
 [convert2xkt] Converted geometries: 1801
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 47366
+[convert2xkt] Converted triangles: 47365
 [convert2xkt] Converted vertices: 27134
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

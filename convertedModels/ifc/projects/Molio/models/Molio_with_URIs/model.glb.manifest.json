@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 23:38:32",
+    "converterApplicationVersion": "3.0.12",
+    "conversionDate": "2024-01-26 04:42:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb",
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model_1.glb"

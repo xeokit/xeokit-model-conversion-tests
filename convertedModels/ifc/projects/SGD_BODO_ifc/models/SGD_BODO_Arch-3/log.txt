@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-3.ifc                         -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb                         -m convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-3.ifc                         -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb                         -m convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc"Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 5%Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 30%Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 72%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 28%Converting IFC geometry: 57%
-Exporting to gltfExporting to gltf: 74%
+Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc"Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 5%Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 30%Loading file "/home/lindsay/xe...SGD_BODO_Arch-3.ifc": 75%
+Converting IFC geometryConverting IFC geometry: 2%Converting IFC geometry: 28%Converting IFC geometry: 65%
+Exporting to gltf
 Accessors: 2707, reused: 4828
-Exporting meta data
-done in 9 seconds
+Exporting meta dataExporting meta data: 87%
+done in 8 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb.manifest.json                         -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/log.txt
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb
-[convert2xkt] Input file size: 4566.50 kB
+[convert2xkt] Input file size: 4566.30 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,17 +24,17 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2051.35 kB
+[convert2xkt] XKT size: 2051.26 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.23
-[convert2xkt] Conversion time: 3.45 s
+[convert2xkt] Conversion time: 3.08 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1721
 [convert2xkt] Converted geometries: 5226
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 354149
+[convert2xkt] Converted triangles: 354134
 [convert2xkt] Converted vertices: 197418
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

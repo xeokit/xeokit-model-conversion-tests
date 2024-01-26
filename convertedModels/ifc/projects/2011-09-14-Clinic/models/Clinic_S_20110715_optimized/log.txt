@@ -1,12 +1,12 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/2011-09-14-Clinic/Clinic_S_20110715_optimized.ifc                         -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.glb                         -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/2011-09-14-Clinic/Clinic_S_20110715_optimized.ifc                         -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.glb                         -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...10715_optimized.ifc"Loading file "/home/lindsay/xe...10715_optimized.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 14%
+Converting IFC geometryConverting IFC geometry: 15%
 Exporting to gltf
 Accessors: 422, reused: 1032
-Exporting meta dataExporting meta data: 100%
+Exporting meta data
 done in 3 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.glb.manifest.json                         -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715_optimized/log.txt
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 1059.54 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.77
-[convert2xkt] Conversion time: 1.94 s
+[convert2xkt] Conversion time: 1.92 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1078

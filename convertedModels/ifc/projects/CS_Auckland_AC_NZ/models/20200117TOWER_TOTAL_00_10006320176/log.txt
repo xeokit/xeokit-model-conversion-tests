@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20200117TOWER_TOTAL_00_10006320176.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20200117TOWER_TOTAL_00_10006320176.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe..._00_10006320176.ifc"Loading file "/home/lindsay/xe..._00_10006320176.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 67%
-Exporting to gltfExporting to gltf: 59%
-Accessors: 1926, reused: 7034
+Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 65%
+Exporting to gltfExporting to gltf: 57%
+Accessors: 1927, reused: 7033
 Exporting meta data
-done in 6 seconds
+done in 7 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/log.txt
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb
-[convert2xkt] Input file size: 5318.53 kB
+[convert2xkt] Input file size: 5318.93 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,17 +24,17 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2523.44 kB
+[convert2xkt] XKT size: 2523.37 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.11
-[convert2xkt] Conversion time: 4.07 s
+[convert2xkt] Conversion time: 4.11 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 872
 [convert2xkt] Converted geometries: 7092
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 799014
+[convert2xkt] Converted triangles: 799011
 [convert2xkt] Converted vertices: 413343
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

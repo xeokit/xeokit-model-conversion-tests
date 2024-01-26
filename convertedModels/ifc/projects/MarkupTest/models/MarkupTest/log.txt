@@ -1,6 +1,6 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/MarkupTest/MarkupTest.ifc                         -o convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.glb                         -m convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/MarkupTest/models/MarkupTest/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/MarkupTest/MarkupTest.ifc                         -o convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.glb                         -m convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/MarkupTest/models/MarkupTest/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...Test/MarkupTest.ifc"Loading file "/home/lindsay/xe...Test/MarkupTest.ifc": 5%
 Converting IFC geometry

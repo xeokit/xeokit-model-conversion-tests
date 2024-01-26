@@ -1,19 +1,21 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 22:59:30",
+    "converterApplicationVersion": "3.0.12",
+    "conversionDate": "2024-01-26 04:22:58",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb",
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_1.glb"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_1.glb",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.json",
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_1.json"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_1.json",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_2.json"
     ],
-    "numCreatedGltfMeshes": 31968,
-    "numCreatedMetaObjects": 17060,
-    "numExportedPropertySetsOrElementQuantities": 91104,
+    "numCreatedGltfMeshes": 31957,
+    "numCreatedMetaObjects": 32489,
+    "numExportedPropertySetsOrElementQuantities": 173021,
     "modelBoundsMax": [
         116.50670688141082,
         145.73833887307958,

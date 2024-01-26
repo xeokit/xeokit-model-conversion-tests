@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.11",
-    "conversionDate": "2024-01-25 23:06:01",
+    "converterApplicationVersion": "3.0.12",
+    "conversionDate": "2024-01-26 04:29:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
@@ -14,12 +14,12 @@
     "numExportedPropertySetsOrElementQuantities": 11328,
     "modelBoundsMax": [
         538513.8998987526,
-        6591627.454918777,
+        6591627.454918778,
         32.268287086534
     ],
     "modelBoundsMin": [
         538446.5626784125,
-        6591584.116159587,
+        6591584.116159586,
         12.530000000000001
     ]
 }

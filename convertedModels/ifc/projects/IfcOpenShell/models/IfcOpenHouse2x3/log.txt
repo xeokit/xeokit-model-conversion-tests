@@ -1,6 +1,6 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc                         -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb                         -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc                         -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb                         -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc"Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 5%
 Converting IFC geometry

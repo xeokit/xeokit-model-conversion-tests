@@ -1,15 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Molio/Molio_with_URIs.ifc                         -o convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb                         -m convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Molio/models/Molio_with_URIs/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Molio/Molio_with_URIs.ifc                         -o convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb                         -m convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Molio/models/Molio_with_URIs/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...Molio_with_URIs.ifc"Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 5%Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 33%Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 75%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 48%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...Molio_with_URIs.ifc"Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 5%Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 33%Loading file "/home/lindsay/xe...Molio_with_URIs.ifc": 78%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 65%Converting IFC geometry: 100%
 Exporting to gltf
 Accessors: 6, reused: 0
-Exporting meta dataExporting meta data: 80%
-Accessors: 1747, reused: 7657
-Exporting meta dataExporting meta data: 85%
-done in 11 seconds
+Exporting meta dataExporting meta data: 83%
+Accessors: 1748, reused: 7656
+Exporting meta dataExporting meta data: 90%
+done in 10 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb.manifest.json                         -o convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Molio/models/Molio_with_URIs/log.txt
 
@@ -29,7 +29,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 5.83 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.48
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -44,7 +44,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model_1.glb
-[convert2xkt] Input file size: 3784.76 kB
+[convert2xkt] Input file size: 3787.27 kB
 [convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model_1.json
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -53,18 +53,18 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4191.44 kB
+[convert2xkt] XKT size: 4191.08 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.90
-[convert2xkt] Conversion time: 5.71 s
+[convert2xkt] Conversion time: 5.36 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 918
 [convert2xkt] Converted geometries: 8039
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 725939
-[convert2xkt] Converted vertices: 385596
+[convert2xkt] Converted triangles: 725934
+[convert2xkt] Converted vertices: 385595
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

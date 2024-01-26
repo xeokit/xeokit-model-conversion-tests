@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20201027Mechanical_Piping.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20201027Mechanical_Piping.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...chanical_Piping.ifc"Loading file "/home/lindsay/xe...chanical_Piping.ifc": 5%Loading file "/home/lindsay/xe...chanical_Piping.ifc": 57%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 11%Converting IFC geometry: 18%Converting IFC geometry: 25%Converting IFC geometry: 31%Converting IFC geometry: 52%Converting IFC geometry: 86%
-Exporting to gltfExporting to gltf: 56%Exporting to gltf: 62%
+Loading file "/home/lindsay/xe...chanical_Piping.ifc"Loading file "/home/lindsay/xe...chanical_Piping.ifc": 5%Loading file "/home/lindsay/xe...chanical_Piping.ifc": 60%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 11%Converting IFC geometry: 18%Converting IFC geometry: 25%Converting IFC geometry: 30%Converting IFC geometry: 44%Converting IFC geometry: 80%
+Exporting to gltfExporting to gltf: 54%Exporting to gltf: 60%
 Accessors: 5451, reused: 11661
 Exporting meta data
-done in 12 seconds
+done in 13 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/log.txt
 
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 4738.60 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.68
-[convert2xkt] Conversion time: 7.82 s
+[convert2xkt] Conversion time: 7.88 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 8525

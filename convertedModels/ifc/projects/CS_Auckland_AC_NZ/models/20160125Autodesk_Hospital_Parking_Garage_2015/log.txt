@@ -1,6 +1,6 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...ing_Garage_2015.ifc"Loading file "/home/lindsay/xe...ing_Garage_2015.ifc": 5%
 Converting IFC geometryConverting IFC geometry: 19%
@@ -24,10 +24,10 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 623.60 kB
+[convert2xkt] XKT size: 623.58 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.85
-[convert2xkt] Conversion time: 1.29 s
+[convert2xkt] Conversion time: 1.26 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1252

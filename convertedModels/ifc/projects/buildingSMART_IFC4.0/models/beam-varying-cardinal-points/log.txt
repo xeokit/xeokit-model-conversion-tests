@@ -1,6 +1,6 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_11-beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.11 ____________
+__ IFC to GLTF converter __ version: 3.0.12 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...cardinal-points.ifc"Loading file "/home/lindsay/xe...cardinal-points.ifc": 5%
 Converting IFC geometry
