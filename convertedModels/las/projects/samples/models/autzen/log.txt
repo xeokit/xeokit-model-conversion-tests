@@ -11,14 +11,14 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] transform: [1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,1]
 [convert2xkt] colorDepth: auto
 [convert2xkt] fp64: true
-[convert2xkt] skip: 1
+[convert2xkt] skip: 2
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
-[convert2xkt] XKT size: 39374.36 kB
+[convert2xkt] XKT size: 27139.82 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.43
-[convert2xkt] Conversion time: 18.78 s
+[convert2xkt] Compression ratio: 2.08
+[convert2xkt] Conversion time: 17.10 s
 [convert2xkt] Converted metaobjects: 2
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -26,7 +26,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 0
-[convert2xkt] Converted vertices: 5326668
+[convert2xkt] Converted vertices: 3551112
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

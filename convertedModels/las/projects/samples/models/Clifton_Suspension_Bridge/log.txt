@@ -11,5 +11,5 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] transform: [1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,1]
 [convert2xkt] colorDepth: auto
 [convert2xkt] fp64: true
-[convert2xkt] skip: 1
+[convert2xkt] skip: 2
 OOM
