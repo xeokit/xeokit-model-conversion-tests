@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:23:15",
+    "conversionDate": "2024-02-10 15:03:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb"
     ],

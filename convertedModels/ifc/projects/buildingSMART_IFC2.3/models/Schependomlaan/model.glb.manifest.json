@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:48:49",
+    "conversionDate": "2024-02-10 15:27:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb"
     ],

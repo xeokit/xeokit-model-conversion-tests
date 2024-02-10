@@ -184,6 +184,8 @@ const kdTree = new KDTree();
                         -t ${configs.ifc2gltf.options.t} \
                         -e 3 >> ${logPath}`;
 
+                        console.log("ifc2gltfCmd = " + ifc2gltfCmd);
+
                         fs.appendFileSync(logPath, ifc2gltfCmd + "\n");
 
                         execSync(ifc2gltfCmd, {stdio: 'inherit'});
@@ -195,7 +197,7 @@ const kdTree = new KDTree();
                         -o ${xktManifestPath} \
                         -l >> ${logPath}`;
 
-                    //    console.log("CMD = " + convert2xktCmd);
+                        console.log("convert2xktCmd = " + convert2xktCmd);
 
                         fs.appendFileSync(logPath, convert2xktCmd + "\n\n");
 
@@ -212,8 +214,10 @@ const kdTree = new KDTree();
                         kdTree.addModel(glbManifest, batchId, modelId);
 
                     } catch (e) {
+                        console.log(e)
                         xktSizes[ifcInputPath] = 0;
                         errors[ifcInputPath] = e;
+                        continue;
                     }
 
                     const endTime = performance.now();

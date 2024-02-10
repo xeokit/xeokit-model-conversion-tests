@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:16:06",
+    "conversionDate": "2024-02-10 14:56:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb"
     ],

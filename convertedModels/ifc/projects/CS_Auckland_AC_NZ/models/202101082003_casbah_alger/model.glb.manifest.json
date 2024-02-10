@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/202101082003_casbah_alger.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:20:19",
+    "conversionDate": "2024-02-10 15:00:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb",
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_1.glb",

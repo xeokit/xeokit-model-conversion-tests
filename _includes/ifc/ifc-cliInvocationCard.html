@@ -41,17 +41,23 @@
 <pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">
 node --max-old-space-size=14000 convert2xkt -n -a model.glb.manifest.json -o model.xkt.manifest.json</pre>
 
-<p>That converts the <code>glb</code> and JSON files into a set of XKT files, along with a JSON manifest that
+<p>That converts the <code>glb</code> and JSON files into a set of XKT and JSON files, along with a JSON manifest that
     lists them, as shown below. XKT is xeokit's web-friendly native binary model format, designed to load quickly into
-    its web viewer.
+    its web viewer. The JSON files are the same files that were output by <code>ifc2gltfcxconverter</code>. We could have caused those
+    JSON files to be embedded in the XKT, but since we configured <code>convert2xkt</code> with <code>externalMetadata: true</code>
+    (see: convert2xkt Configs below), they are managed as external attachments in this pipeline setup.
 </p>
 
 <pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">.
 ├── model.xkt.manifest.json
 ├── model_1.xkt
+├── model_1.json
 ├── model_2.xkt
+├── model_2.json
 ├── model_3.xkt
-└── model.xkt
+├── model_3.json
+├── model.xkt
+└── model.json
 </pre>
 
 <h2 style="margin-bottom: 1em">xeokit-sdk</h2>

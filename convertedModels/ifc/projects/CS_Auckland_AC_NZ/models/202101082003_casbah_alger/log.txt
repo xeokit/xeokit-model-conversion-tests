@@ -1006,7 +1006,7 @@ Accessors: 0, reused: 0
 Accessors: 0, reused: 0
 Accessors: 0, reused: 0
 Exporting meta data
-done in 36 seconds
+done in 29 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/log.txt
 
@@ -1026,7 +1026,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 167.77 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.87
-[convert2xkt] Conversion time: 0.39 s
+[convert2xkt] Conversion time: 0.37 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -1350,7 +1350,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1404,7 +1404,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1782,7 +1782,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1971,7 +1971,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -1998,7 +1998,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2025,7 +2025,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2106,7 +2106,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2214,7 +2214,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2349,7 +2349,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2376,7 +2376,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2403,7 +2403,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2862,7 +2862,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -2916,7 +2916,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3024,7 +3024,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3267,7 +3267,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3483,7 +3483,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3564,7 +3564,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3591,7 +3591,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3699,7 +3699,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -3942,7 +3942,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4050,7 +4050,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4401,7 +4401,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4509,7 +4509,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4617,7 +4617,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4752,7 +4752,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4779,7 +4779,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4833,7 +4833,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -4860,7 +4860,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5076,7 +5076,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5292,7 +5292,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5319,7 +5319,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5400,7 +5400,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5535,7 +5535,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -5643,7 +5643,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -6318,7 +6318,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -6426,7 +6426,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -6561,7 +6561,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -6669,7 +6669,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7128,7 +7128,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7236,7 +7236,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7344,7 +7344,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7560,7 +7560,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7803,7 +7803,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -7911,7 +7911,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -8019,7 +8019,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -8154,7 +8154,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -8370,7 +8370,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -8586,7 +8586,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -8721,7 +8721,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9045,7 +9045,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9288,7 +9288,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9396,7 +9396,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9504,7 +9504,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9612,7 +9612,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9747,7 +9747,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -9855,7 +9855,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10071,7 +10071,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10179,7 +10179,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10206,7 +10206,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10422,7 +10422,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10530,7 +10530,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10638,7 +10638,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10773,7 +10773,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -10881,7 +10881,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11097,7 +11097,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11205,7 +11205,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11367,7 +11367,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11448,7 +11448,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11556,7 +11556,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -11799,7 +11799,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -12231,7 +12231,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -12690,7 +12690,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13041,7 +13041,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.02 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13068,7 +13068,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13095,7 +13095,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13122,7 +13122,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13149,7 +13149,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13257,7 +13257,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13365,7 +13365,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13500,7 +13500,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13608,7 +13608,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -13851,7 +13851,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14067,7 +14067,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14283,7 +14283,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14742,7 +14742,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14769,7 +14769,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14796,7 +14796,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14823,7 +14823,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14877,7 +14877,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14958,7 +14958,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -14985,7 +14985,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15093,7 +15093,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15309,7 +15309,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15417,7 +15417,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15552,7 +15552,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15768,7 +15768,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15876,7 +15876,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -15984,7 +15984,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -16119,7 +16119,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -16443,7 +16443,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -16551,7 +16551,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -16686,7 +16686,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -17010,7 +17010,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -17145,7 +17145,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -17253,7 +17253,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -17577,7 +17577,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -17820,7 +17820,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18036,7 +18036,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18387,7 +18387,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18603,7 +18603,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18738,7 +18738,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18846,7 +18846,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -18954,7 +18954,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -19062,7 +19062,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -19170,7 +19170,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -19278,7 +19278,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -19413,7 +19413,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -19980,7 +19980,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -20088,7 +20088,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -20331,7 +20331,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -20439,7 +20439,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -20655,7 +20655,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -20898,7 +20898,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21330,7 +21330,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21465,7 +21465,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21519,7 +21519,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21573,7 +21573,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21681,7 +21681,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21708,7 +21708,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -21924,7 +21924,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22140,7 +22140,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22356,7 +22356,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22599,7 +22599,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22707,7 +22707,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22815,7 +22815,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -22923,7 +22923,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23058,7 +23058,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23166,7 +23166,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23274,7 +23274,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23517,7 +23517,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23625,7 +23625,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23733,7 +23733,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -23841,7 +23841,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24192,7 +24192,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24300,7 +24300,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24408,7 +24408,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24651,7 +24651,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24759,7 +24759,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24867,7 +24867,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -24975,7 +24975,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -25110,7 +25110,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -25434,7 +25434,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -25542,7 +25542,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -25677,7 +25677,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -25893,7 +25893,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26001,7 +26001,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26028,7 +26028,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26217,7 +26217,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.00 s
+[convert2xkt] Conversion time: 0.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26244,7 +26244,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26352,7 +26352,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26460,7 +26460,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26595,7 +26595,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -26811,7 +26811,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27027,7 +27027,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27135,7 +27135,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27243,7 +27243,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27378,7 +27378,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27486,7 +27486,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27594,7 +27594,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27702,7 +27702,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27837,7 +27837,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0
@@ -27945,7 +27945,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.28
-[convert2xkt] Conversion time: 0.01 s
+[convert2xkt] Conversion time: 0.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 0

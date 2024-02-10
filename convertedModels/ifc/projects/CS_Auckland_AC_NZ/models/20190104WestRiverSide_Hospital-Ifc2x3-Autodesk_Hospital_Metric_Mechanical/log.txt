@@ -9,7 +9,7 @@ Accessors: 7293, reused: 17903
 Accessors: 2923, reused: 5009
 Exporting meta data
 Exporting meta data
-done in 48 seconds
+done in 43 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/log.txt
 
@@ -29,7 +29,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 6868.41 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.80
-[convert2xkt] Conversion time: 11.06 s
+[convert2xkt] Conversion time: 10.61 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 15315
@@ -56,7 +56,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 2730.48 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.50
-[convert2xkt] Conversion time: 3.85 s
+[convert2xkt] Conversion time: 3.74 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4355

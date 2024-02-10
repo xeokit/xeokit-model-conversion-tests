@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:26:01",
+    "conversionDate": "2024-02-10 15:06:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb",
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb",

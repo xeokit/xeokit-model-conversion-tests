@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_Architectural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:23:27",
+    "conversionDate": "2024-02-10 15:03:41",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb"
     ],

@@ -11,11 +11,11 @@ Accessors: 3191, reused: 4733
 Accessors: 249, reused: 1129
 Exporting meta data
 Exporting meta data
-done in 41 seconds
+done in 37 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb.manifest.json                         -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-2...
+[convert2xkt] Running convert2xkt v1.1.15-beta-3...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb
@@ -31,7 +31,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 6392.25 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.16
-[convert2xkt] Conversion time: 9.03 s
+[convert2xkt] Conversion time: 8.75 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5534
@@ -58,7 +58,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 3393.48 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.78
-[convert2xkt] Conversion time: 5.11 s
+[convert2xkt] Conversion time: 4.88 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4629
@@ -85,7 +85,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 3625.84 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.92
-[convert2xkt] Conversion time: 5.62 s
+[convert2xkt] Conversion time: 5.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4636
@@ -112,7 +112,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 2251.60 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.78
-[convert2xkt] Conversion time: 3.04 s
+[convert2xkt] Conversion time: 2.92 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1213

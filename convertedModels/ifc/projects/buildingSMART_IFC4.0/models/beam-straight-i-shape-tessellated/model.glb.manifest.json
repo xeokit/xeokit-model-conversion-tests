@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:49:04",
+    "conversionDate": "2024-02-10 15:27:43",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-straight-i-shape-tessellated/model.glb"
     ],

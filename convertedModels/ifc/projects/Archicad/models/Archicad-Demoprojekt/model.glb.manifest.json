@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:11:45",
+    "conversionDate": "2024-02-10 14:52:50",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb"
     ],

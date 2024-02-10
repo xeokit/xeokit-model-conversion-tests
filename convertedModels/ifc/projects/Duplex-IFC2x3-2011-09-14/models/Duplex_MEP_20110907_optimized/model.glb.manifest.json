@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:25:50",
+    "conversionDate": "2024-02-10 15:05:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_MEP_20110907_optimized/model.glb"
     ],

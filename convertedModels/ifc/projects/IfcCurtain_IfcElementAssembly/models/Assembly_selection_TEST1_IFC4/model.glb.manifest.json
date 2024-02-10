@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/IfcCurtain_IfcElementAssembly/Assembly_selection_TEST1_IFC4.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:33:51",
+    "conversionDate": "2024-02-10 15:13:41",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcCurtain_IfcElementAssembly/models/Assembly_selection_TEST1_IFC4/model.glb"
     ],

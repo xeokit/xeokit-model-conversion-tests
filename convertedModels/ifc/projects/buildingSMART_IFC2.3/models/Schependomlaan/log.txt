@@ -5,6 +5,9 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe.../Schependomlaan.ifc"
 Converting IFC geometryno success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 0
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 0
 
 Exporting to gltf
@@ -30,7 +33,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 1124.55 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.19
-[convert2xkt] Conversion time: 2.22 s
+[convert2xkt] Conversion time: 2.25 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3563

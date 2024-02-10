@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:45:37",
+    "conversionDate": "2024-02-10 15:24:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.glb",
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model_1.glb",

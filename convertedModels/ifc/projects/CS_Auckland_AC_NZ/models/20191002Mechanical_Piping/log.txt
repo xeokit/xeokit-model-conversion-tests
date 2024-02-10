@@ -7,7 +7,7 @@ Converting IFC geometry
 Exporting to gltf
 Accessors: 5451, reused: 11661
 Exporting meta data
-done in 13 seconds
+done in 12 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
 
@@ -27,7 +27,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 4583.17 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.74
-[convert2xkt] Conversion time: 7.46 s
+[convert2xkt] Conversion time: 7.16 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 8525

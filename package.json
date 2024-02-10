@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "check-sizes": "./list_large_files.sh ./convertedModels",
-    "convert-ifc": "node --max-old-space-size=4076 convert-ifc.js; gulp build",
-    "convert-las": "node --max-old-space-size=4076 convert-las.js; gulp build",
+    "convert-ifc": "node --max-old-space-size=8076 convert-ifc.js; gulp build",
+    "convert-las": "node --max-old-space-size=8076 convert-las.js; gulp build",
     "convert": "node --max-old-space-size=4076 convert-las.js; node --max-old-space-size=4076 convert-ifc.js; gulp build"
   },
   "repository": {

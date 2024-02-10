@@ -5,7 +5,7 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...Munkerud_Arch-2.ifc"
 Converting IFC geometry
 Exporting to gltf
-Accessors: 827, reused: 2584
+Accessors: 826, reused: 2585
 Exporting meta data
 done in 1 seconds
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb
-[convert2xkt] Input file size: 1127.12 kB
+[convert2xkt] Input file size: 1126.79 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,7 +24,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 227.99 kB
+[convert2xkt] XKT size: 228.00 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.94
 [convert2xkt] Conversion time: 0.76 s

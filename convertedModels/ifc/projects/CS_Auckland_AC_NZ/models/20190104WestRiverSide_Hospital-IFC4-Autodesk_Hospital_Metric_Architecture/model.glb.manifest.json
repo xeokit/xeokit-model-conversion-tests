@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:13:35",
+    "conversionDate": "2024-02-10 14:54:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb",
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model_1.glb"

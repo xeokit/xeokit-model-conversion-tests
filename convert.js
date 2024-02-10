@@ -199,6 +199,7 @@ const kdTree = new KDTree();
 
                         execSync(convert2xktCmd, {stdio: 'inherit'});
 
+                        console.log(convert2xktCmd)
                         xktSizes[ifcInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
 
                         console.log("xktSize = " + xktSizes[ifcInputPath])
@@ -210,6 +211,7 @@ const kdTree = new KDTree();
                         kdTree.addModel(glbManifest, batchId, modelId);
 
                     } catch (e) {
+                        console.log(e);
                         xktSizes[ifcInputPath] = 0;
                         errors[ifcInputPath] = e;
                     }

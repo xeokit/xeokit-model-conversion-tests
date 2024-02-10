@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 04:33:54",
+    "conversionDate": "2024-02-10 15:13:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb",
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb",
