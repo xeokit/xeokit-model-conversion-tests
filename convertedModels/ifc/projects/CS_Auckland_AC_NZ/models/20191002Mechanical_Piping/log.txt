@@ -1,22 +1,22 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb                         -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...chanical_Piping.ifc"Loading file "/home/lindsay/xe...chanical_Piping.ifc": 5%Loading file "/home/lindsay/xe...chanical_Piping.ifc": 60%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 9%Converting IFC geometry: 17%Converting IFC geometry: 22%Converting IFC geometry: 29%Converting IFC geometry: 40%Converting IFC geometry: 77%
-Exporting to gltfExporting to gltf: 54%Exporting to gltf: 60%
+Loading file "/home/lindsay/xe...chanical_Piping.ifc"
+Converting IFC geometry
+Exporting to gltf
 Accessors: 5451, reused: 11661
 Exporting meta data
 done in 13 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json                         -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Running convert2xkt v1.1.15-beta-3...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb
 [convert2xkt] Input file size: 7969.01 kB
-[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json
+[convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
@@ -24,10 +24,10 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4738.60 kB
+[convert2xkt] XKT size: 4583.17 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.68
-[convert2xkt] Conversion time: 7.74 s
+[convert2xkt] Compression ratio: 1.74
+[convert2xkt] Conversion time: 7.46 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 8525

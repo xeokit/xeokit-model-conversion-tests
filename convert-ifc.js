@@ -195,7 +195,7 @@ const kdTree = new KDTree();
                         -o ${xktManifestPath} \
                         -l >> ${logPath}`;
 
-                        console.log("CMD = " + convert2xktCmd);
+                    //    console.log("CMD = " + convert2xktCmd);
 
                         fs.appendFileSync(logPath, convert2xktCmd + "\n\n");
 
@@ -349,6 +349,7 @@ const kdTree = new KDTree();
 
                     if (errors[ifcInputPath]) {
                         // TODO
+                        console.log(errors[ifcInputPath])
                     } else {
 
                         conversionResultsHTML.push(`@@include('../../_includes/ifc/ifc-modelConversionResults.html', { 

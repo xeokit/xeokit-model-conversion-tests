@@ -1,8 +1,8 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/column-extruded-solid.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/column-extruded-solid.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...-extruded-solid.ifc"Loading file "/home/lindsay/xe...-extruded-solid.ifc": 5%
+Loading file "/home/lindsay/xe...-extruded-solid.ifc"
 Converting IFC geometry
 Exporting to gltf
 Accessors: 0, reused: 0
@@ -11,12 +11,12 @@ done in 1 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb.manifest.json                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Running convert2xkt v1.1.15-beta-3...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.glb
 [convert2xkt] Input file size: 0.59 kB
-[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-extruded-solid/model.json
+[convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
@@ -24,9 +24,9 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 0.53 kB
+[convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.12
+[convert2xkt] Compression ratio: 1.28
 [convert2xkt] Conversion time: 0.02 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

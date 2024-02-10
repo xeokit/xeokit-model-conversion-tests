@@ -1,22 +1,22 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc                         -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb                         -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc                         -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb                         -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...ouse_Sanitation.ifc"Loading file "/home/lindsay/xe...ouse_Sanitation.ifc": 5%Loading file "/home/lindsay/xe...ouse_Sanitation.ifc": 84%
-Converting IFC geometryConverting IFC geometry: 21%Converting IFC geometry: 45%Converting IFC geometry: 62%Converting IFC geometry: 76%Converting IFC geometry: 88%
-Exporting to gltfExporting to gltf: 65%Exporting to gltf: 86%
-Accessors: 5618, reused: 17930
+Loading file "/home/lindsay/xe...ouse_Sanitation.ifc"
+Converting IFC geometry
+Exporting to gltf
+Accessors: 5835, reused: 17747
 Exporting meta data
-done in 9 seconds
+done in 11 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb.manifest.json                         -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Running convert2xkt v1.1.15-beta-3...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb
-[convert2xkt] Input file size: 9231.86 kB
-[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json
+[convert2xkt] Input file size: 9619.70 kB
+[convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
@@ -24,10 +24,10 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4924.80 kB
+[convert2xkt] XKT size: 5157.15 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.87
-[convert2xkt] Conversion time: 8.33 s
+[convert2xkt] Conversion time: 8.56 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 18266
@@ -35,7 +35,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 1368070
-[convert2xkt] Converted vertices: 1015304
+[convert2xkt] Converted vertices: 1020552
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

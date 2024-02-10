@@ -1,22 +1,22 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_HVAC.ifc                         -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb                         -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Clinic/Clinic_HVAC.ifc                         -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb                         -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc"Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 5%Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 84%
-Converting IFC geometryConverting IFC geometry: 9%
-Exporting to gltfExporting to gltf: 53%
-Accessors: 2418, reused: 4820
-Exporting meta dataExporting meta data: 91%
+Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc"
+Converting IFC geometry
+Exporting to gltf
+Accessors: 2419, reused: 4819
+Exporting meta data
 done in 5 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb.manifest.json                         -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Running convert2xkt v1.1.15-beta-3...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb
-[convert2xkt] Input file size: 4334.28 kB
-[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json
+[convert2xkt] Input file size: 4337.71 kB
+[convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
@@ -24,10 +24,10 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3357.82 kB
+[convert2xkt] XKT size: 1708.41 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.29
-[convert2xkt] Conversion time: 4.01 s
+[convert2xkt] Compression ratio: 2.54
+[convert2xkt] Conversion time: 2.85 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3704
@@ -35,7 +35,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 473406
-[convert2xkt] Converted vertices: 254237
+[convert2xkt] Converted vertices: 253895
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

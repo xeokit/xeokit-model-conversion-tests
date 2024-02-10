@@ -1,6 +1,0 @@
-node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Chemical_Plant.las                         -o convertedModels/las/projects/samples/models/Chemical_Plant/geometry.xkt                         -l >> convertedModels/las/projects/samples/models/Chemical_Plant/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
-[convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Chemical_Plant.las...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Chemical_Plant.las

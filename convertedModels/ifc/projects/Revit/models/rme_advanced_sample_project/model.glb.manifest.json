@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.12",
-    "conversionDate": "2024-01-26 04:43:29",
+    "converterApplicationVersion": "3.0.14",
+    "conversionDate": "2024-02-10 04:45:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json"
     ],
-    "numCreatedGltfMeshes": 11222,
+    "numCreatedGltfMeshes": 11219,
     "numCreatedMetaObjects": 6449,
     "numExportedPropertySetsOrElementQuantities": 16502,
     "modelBoundsMax": [

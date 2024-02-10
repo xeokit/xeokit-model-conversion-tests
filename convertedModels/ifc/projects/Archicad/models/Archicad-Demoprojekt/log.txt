@@ -1,22 +1,22 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc                         -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb                         -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc                         -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb                         -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc"Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 5%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 45%Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 71%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...cad-Demoprojekt.ifc"
+Converting IFC geometry
 Exporting to gltf
-Accessors: 5001, reused: 6344
-Exporting meta dataExporting meta data: 81%Exporting meta data: 100%
+Accessors: 5000, reused: 6345
+Exporting meta data
 done in 10 seconds
 
 node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb.manifest.json                         -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-1...
+[convert2xkt] Running convert2xkt v1.1.15-beta-2...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb
-[convert2xkt] Input file size: 5292.12 kB
-[convert2xkt] Reading input metadata file: convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json
+[convert2xkt] Input file size: 5291.45 kB
+[convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
@@ -24,18 +24,18 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2782.70 kB
+[convert2xkt] XKT size: 1088.21 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.90
-[convert2xkt] Conversion time: 4.08 s
+[convert2xkt] Compression ratio: 4.86
+[convert2xkt] Conversion time: 2.49 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4566
 [convert2xkt] Converted geometries: 7058
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 235644
-[convert2xkt] Converted vertices: 132418
+[convert2xkt] Converted triangles: 235628
+[convert2xkt] Converted vertices: 132422
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

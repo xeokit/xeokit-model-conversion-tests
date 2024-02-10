@@ -1,5 +1,5 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_12_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.12 ____________
+__ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...arying-profiles.ifc"Loading file "/home/lindsay/xe...arying-profiles.ifc": 5%
+Loading file "/home/lindsay/xe...arying-profiles.ifc"
