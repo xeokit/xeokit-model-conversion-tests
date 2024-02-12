@@ -176,26 +176,29 @@ const kdTree = new KDTree();
                     const startTime = performance.now();
 
                     try {
-                        const ifc2gltfCmd = `${configs.ifc2gltf.path} \
-                        -i ${ifcInputPath} \
-                        -o ${glbOutputPath} \
-                        -m ${jsonOutputPath} \
-                        -s ${configs.ifc2gltf.options.s} \
-                        -t ${configs.ifc2gltf.options.t} \
-                        -e 3 >> ${logPath}`;
+                        const ifc2gltfCmd = `${configs.ifc2gltf.path}` +
+                            ` -i ${ifcInputPath}` +
+                            ` -o ${glbOutputPath}` +
+                            ` -m ${jsonOutputPath}` +
+                            ` -s ${configs.ifc2gltf.options.s}` +
+                            ` -t ${configs.ifc2gltf.options.t}` +
+                            ` -e 3 >> ${logPath}`;
 
                         console.log("ifc2gltfCmd = " + ifc2gltfCmd);
+
+                        // Example of this commend:
+                        // ifc2gltfcxconverter -i Clinic_A_20110906_optimized.ifc -o model.glb -m model.json -s 5 -t 200 -e 3 >> log.txt
 
                         fs.appendFileSync(logPath, ifc2gltfCmd + "\n");
 
                         execSync(ifc2gltfCmd, {stdio: 'inherit'});
 
-                        const convert2xktCmd = `node --max-old-space-size=14000 \
-                        ${configs.convert2xkt.path}/convert2xkt.js -t \
-                        -c ${configs.convert2xkt.path}/convert2xkt.conf.json \
-                        -a ${jsonManifestPath} \
-                        -o ${xktManifestPath} \
-                        -l >> ${logPath}`;
+                        const convert2xktCmd = `node --max-old-space-size=14000` +
+                            ` ${configs.convert2xkt.path}/convert2xkt.js -t ` +
+                            ` -c ${configs.convert2xkt.path}/convert2xkt.conf.json ` +
+                            ` -a ${jsonManifestPath} ` +
+                            ` -o ${xktManifestPath} ` +
+                            ` -l >> ${logPath}`;
 
                         console.log("convert2xktCmd = " + convert2xktCmd);
 
