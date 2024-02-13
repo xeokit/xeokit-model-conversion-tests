@@ -1,9 +1,9 @@
-node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Africa_Palace.las                         -o convertedModels/las/projects/samples/models/Africa_Palace/geometry.xkt                         -l >> convertedModels/las/projects/samples/models/Africa_Palace/log.txt
+node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/las/samples/Africa_Palace.las                         -o convertedModels/las/projects/samples/models/Africa_Palace/geometry.xkt                         -l >> convertedModels/las/projects/samples/models/Africa_Palace/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-2...
+[convert2xkt] Running convert2xkt v1.1.15-beta-4...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
-[convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Africa_Palace.las...
-[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/las/samples/Africa_Palace.las
+[convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/las/samples/Africa_Palace.las...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/las/samples/Africa_Palace.las
 [convert2xkt] Input file size: 536558.41 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseLASIntoXKTModel
@@ -19,7 +19,7 @@ node --max-old-space-size=14000                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 70262.62 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 7.64
-[convert2xkt] Conversion time: 12.13 s
+[convert2xkt] Conversion time: 12.60 s
 [convert2xkt] Converted metaobjects: 2
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1

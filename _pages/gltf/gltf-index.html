@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('../../_includes/head.html')
+    <title></title></head>
+
+<body>
+
+@@include('../../_includes/gltf/gltf-navigationModelConversion.html')
+
+<header class="bg-primary py-5 pipelines-header bg-black">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-12">
+                <h1 class="text-white mt-5 mb-2">Model Conversion</h1>
+                <p class="lead mb-5 text-white">Recipes for importing AEC model files into xeokit</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="main-section  alabaster" id="intro">
+    <div class="container">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Introduction</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mx-auto">
+                <p>The xeokit SDK allows us to load large, full-precision AEC models over the Web in seconds and view
+                    them in the browser. To do that, we pre-convert our models to xeokit's fast-loading native
+                    <i>XKT</i> format.</p>
+
+                <p>Listed below are several pipelines we can use to convert AEC files to XKT. Each pipeline involves
+                    running the files through a chain of one or more CLI tools, in your local environment. The Community
+                    pipelines use exclusively open source tools, while the CxConverter pipelines use a proprietary
+                    tool for which a commercial license is required.</p>
+                <p>Periodically, we run our AEC test files through all the pipelines. That statically-generates the
+                    <a href="./gltf-tests.html">Model Conversion Tests</a> page, where you can check if the latest pipelines
+                    are converting our test models correctly.
+                </p>
+            </div>
+        </div>
+
+        <div class="row  mt-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./gltf-tests.html">glTF Conversion Tests &gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="main-section" id="lasCXConverterPipeline1">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter glTF Conversion Pipeline #1</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-gltf-enterprise1.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.gltf</code> files into <code>.xkt</code>, with
+                    two CLI tools, using intermediate <code>.glb</code> and <code>.json</code> files.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.gltf</code> files of many gigabytes</li>
+                    <li>Two CLI tools, written in C++ and JavaScript (NodeJS)</li>
+                    <li>Option to split output into multiple files for easy loading in browsers</li>
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files
+                    </li>
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">las2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-glTF-to-XKT-using-las2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            glTF to XKT using las2gltf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row  mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./gltf-tests.html">glTF Conversion Tests &gt;&gt;</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="main-section alabaster" id="lasCXConverterPipeline2">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 text-center">CxConverter glTF Conversion Pipeline #2</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-gltf-enterprise2.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p>A high-performance pipeline that converts large <code>.gltf</code> files directly into
+                    <code>.xkt</code>, using a single CLI tool and no intermediate formats.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts huge <code>.gltf</code> files of many gigabytes</li>
+                    <li>Converts <code>.gltf</code> directly into <code>.xkt</code>
+                    <li>A single CLI tool written in C++</li>
+                    <li>Option to split output into multiple <code>.xkt</code> files for easy loading in browsers</li>
+                    </li>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">las2gltf</a> (Closed source, from
+                        <a href="https://creoox.com">Creoox AG</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-glTF-to-XKT-using-las2gltf-a2e0005d00dc4f22b648f1237bc3245d">Converting
+                            glTF to XKT using las2gltf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-section" id="lasCommunityPipeline1">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 center-text">Community glTF Conversion Pipeline</h1>
+            </div>
+        </div>
+        <div class="row testimonial-row">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-gltf-community1.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p class="mb-4">A pipeline of open source CLI tools that converts medium-to-large
+                    <code>.gltf</code> files to <code>.xkt</code>.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts medium-to-large <code>.gltf</code> files to <code>.xkt</code></li>
+                    <li>All tools open source under AGPL3 and MIT</li>
+                    <li>Creates intermediate <code>.glb</code> and <code>.json</code> metadata files on disk
+                    </li>
+                    <li>View the <code>.xkt</code> or <code>.glb</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        with
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                        or
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js~GLTFLoaderPlugin.html">GLTFLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="http://lasopenshell.org/lasconvert">LasConvert</a> (MIT, from
+                        <a href="http://lasopenshell.org/">LasOpenShell</a>)
+                    </li>
+                    <li><a href="https://github.com/bimspot/xeokit-metadata">xeokit-metadata</a> <i>(MIT License, from
+                        <a href="https://bimspot.io">BIMSpot</a></i>)
+                    </li>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-glTF-Models-to-XKT-using-Open-Source-Tools-A-Simpler-Pipeline-02d45ba457eb4f808f63bcacb71a4fb3">Converting
+                            glTF Models to XKT using Open Source Tools - A Simpler Pipeline</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="main-section alabaster" id="xeokitMultiFormatPipeline">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <h1 class="mb-4 center-text">Community Multi-Format Conversion Pipeline</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-5">
+                <img alt="..." class="card-img" src="./img/pipeline-gltf-community2.png">
+            </div>
+            <div class="col-md-7">
+                <br><br>
+                <p class="mb-4">Convert multiple source formats into <code>.xkt</code> in a single step.</p>
+                <h5>Features</h5>
+                <ul>
+                    <li>Converts <code>.gltf</code>, <code>.glb</code>, <code>.gltf</code>,
+                        <code>.laz</code>, CityJSON and small <code>.gltf</code> files to <code>.xkt</code></li>
+                    <li>Don't use with large <code>.gltf</code> files</li>
+                    <li>Open source under AGPL3</li>
+                    <li>Internally uses <a href="https://github.com/LASjs/web-gltf">web-gltf</a> when converting <code>.gltf</code>.
+                    </li>
+                    <li>Creates no intermediate files</li>
+                    <li>View the <code>.xkt</code> in a xeokit
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html">Viewer</a>
+                        using an
+                        <a href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html">XKTLoaderPlugin</a>
+                    </li>
+                </ul>
+                <h5>Tools used</h5>
+                <ul>
+                    <li><a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> (AGPL3, from
+                        <a href="https://xeokit.io">xeokit SDK</a>)
+                    </li>
+                </ul>
+                <h5>More info</h5>
+                <ul>
+                    <li>Tutorial:
+                        <a href="https://www.notion.so/xeokit/Converting-Models-to-XKT-with-convert2xkt-fa567843313f4db8a7d6535e76da9380">Converting
+                            Models to XKT with convert2xkt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+@@include('../../_includes/footer.html')
+
+</body>
+
+</html>

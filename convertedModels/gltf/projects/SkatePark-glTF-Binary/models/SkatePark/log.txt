@@ -1,0 +1,8 @@
+node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/SkatePark-glTF-Binary/SkatePark.glb                         -o convertedModels/gltf/projects/SkatePark-glTF-Binary/models/SkatePark/geometry.xkt                         -l >> convertedModels/gltf/projects/SkatePark-glTF-Binary/models/SkatePark/log.txt
+
+[convert2xkt] Running convert2xkt v1.1.15-beta-4...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/SkatePark-glTF-Binary/SkatePark.glb...
+[convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/SkatePark-glTF-Binary/SkatePark.glb
+[convert2xkt] Input file size: 59778.52 kB
+[convert2xkt] Not embedding metadata in XKT

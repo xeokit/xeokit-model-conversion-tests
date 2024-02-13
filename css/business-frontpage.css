@@ -535,6 +535,20 @@ span.clients-name {
     -o-background-size: cover;
 }
 
+.home-header-gltf {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 600px;
+
+    /*background: linear-gradient(to right,  rgba(0, 0, 0, 0.6), rgba(0,0, 0, 0.0) ), url('../img/systemMonitor.png') center center no-repeat scroll;*/
+    background: linear-gradient(to right,  rgba(0, 0, 0.0, 0.5), rgba(0,0, 0, 0.0)  ), url('../img/gltf-textured.png') center center no-repeat scroll;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .home-header h1 {
     font-weight: 600;

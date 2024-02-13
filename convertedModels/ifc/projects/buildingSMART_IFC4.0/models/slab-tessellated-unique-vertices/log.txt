@@ -1,4 +1,4 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter                         -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/slab-tessellated-unique-vertices.ifc                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb                         -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.json                         -s 5                         -t 200                         -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/slab-tessellated-unique-vertices.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.json -s 5 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
@@ -9,9 +9,9 @@ Accessors: 2, reused: 0
 Exporting meta data
 done in 1 seconds
 
-node --max-old-space-size=14000                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb.manifest.json                         -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.xkt.manifest.json                         -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-3...
+[convert2xkt] Running convert2xkt v1.1.15-beta-4...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb

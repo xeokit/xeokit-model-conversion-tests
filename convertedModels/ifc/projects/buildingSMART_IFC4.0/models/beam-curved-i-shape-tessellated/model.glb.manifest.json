@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 15:27:41",
+    "conversionDate": "2024-02-13 05:14:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb"
     ],

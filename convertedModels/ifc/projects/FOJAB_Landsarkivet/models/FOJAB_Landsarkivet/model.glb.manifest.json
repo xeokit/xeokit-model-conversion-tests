@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 15:06:10",
+    "conversionDate": "2024-02-13 04:51:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb",
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb",

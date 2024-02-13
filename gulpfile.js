@@ -6,6 +6,7 @@ const gulp = require('gulp');
 gulp.task('build', function (callback) {
     runSequence('build-ifc-pages', callback);
     runSequence('build-las-pages', callback);
+    runSequence('build-gltf-pages', callback);
 });
 
 gulp.task('build-ifc-pages', function () {
@@ -29,6 +30,21 @@ gulp.task('build-las-pages', function () {
         '_pages/las/las-tests.html',
         '_pages/las/las-viewer.html',
         '_pages/las/las-debug.html'
+    ])
+        .pipe(fileinclude({
+            filters: {
+                markdown: markdown.parse
+            }
+        }))
+        .pipe(gulp.dest('./'));
+});
+
+gulp.task('build-gltf-pages', function () {
+    return gulp.src([
+        '_pages/gltf/gltf-index.html',
+        '_pages/gltf/gltf-tests.html',
+        '_pages/gltf/gltf-viewer.html',
+        '_pages/gltf/gltf-debug.html'
     ])
         .pipe(fileinclude({
             filters: {

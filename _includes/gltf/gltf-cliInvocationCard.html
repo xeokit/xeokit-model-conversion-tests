@@ -1,0 +1,28 @@
+<h2 style="margin-bottom: 1em">convert2xkt</h2>
+
+<p>The <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> tool
+    converts various model file formats into XKT format,
+    which we can view in the browser with xeokit. We use it to convert <code>glTF</code> files into XKT files, as shown
+    in the command below.</p><p>XKT is
+    xeokit's web-friendly native binary model format,
+    designed to load quickly into
+    its web viewer. Note that <code>convert2xkt</code> is
+    NodeJS-based CLI tool that often needs us to allocate it some extra memory, as we're doing here.</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">
+node --max-old-space-size=14000 convert2xkt -c convert2xkt.conf.json -s model.gltf -o model.xkt</pre>
+
+<p>
+</p>
+
+<h2 style="margin-bottom: 1em">xeokit-sdk</h2>
+
+<p>Finally, we visualize our XKT file in the browser using xeokit's web viewer. In JavaScript, we simply create a <a
+        href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>,
+    add an <a
+            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html"><code>XKTLoaderPlugin</code></a>,
+    and then load our XKT file.</p>
+
+<div style="width:100%; background-color: black;">
+    <img src="./img/xeokit-viewer-las.svg"/>
+</div>

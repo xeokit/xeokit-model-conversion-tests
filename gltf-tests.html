@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="xeokit - SDK for Browser-Based 3D BIM Visualization">
+<meta name="author" content="Lindsay Kay">
+<meta name="keywords" content="BIM,IFC,WebGL,JavaScript,Browser,BCF,Web,xeolabs,3D,3D Viewer,Lindsay Kay,xeokit,MedViz,ArchViz,Open Source,Browser,Viewer">
+
+<title>xeokit - 3D Web Programming Toolkit for BIM and Engineering Visualization</title>
+
+<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/business-frontpage.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Bootstrap core JavaScript -->
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title></title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-atom-dark.min.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-json.min.js"></script>
+
+<script>
+    function getPortionBeforeLastSlash(filePath) {
+        const lastSlashIndex = filePath.lastIndexOf('/');
+        if (lastSlashIndex !== -1) {
+            return filePath.substring(0, lastSlashIndex);
+        }
+    }
+
+    function createZip(files, zipFileName) {
+        const zip = new JSZip();
+        var folder = zip.folder("cxConverter1_" + zipFileName);
+        const promises = [];
+
+        function addFileToZip(url, fileName) {
+            return fetch(url)
+                .then(response => response.blob())
+                .then(blob => folder.file(fileName, blob));
+        }
+
+        files.forEach(function (url, index) {
+            promises.push(addFileToZip(url, url.substring(url.lastIndexOf('/') + 1)));
+        });
+
+        Promise.all(promises)
+            .then(function () {
+                return zip.generateAsync({type: "blob"});
+            })
+            .then(function (blob) {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `${zipFileName}.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+    }
+
+    function createModelZip(manifestPath, batchId, modelId) {
+        const modelPath = getPortionBeforeLastSlash(manifestPath);
+        fetch(manifestPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+
+            })
+            .then(data => {
+                const filesURLs = [manifestPath];
+                if (data.xktFiles)
+                    for (let i = 0, len = data.xktFiles.length; i < len; i++) {
+                        filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);
+                    }
+                createZip(filesURLs, `${batchId}_${modelId}`);
+            })
+            .catch(error => {
+                console.error('Error during fetch:', error);
+            });
+    }
+
+    function createProjectZip(manifestPath, batchId, modelId) {
+        const modelPath = getPortionBeforeLastSlash(manifestPath);
+        fetch(manifestPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+
+            })
+            .then(data => {
+                const filesURLs = [manifestPath];
+                if (data.xktFiles)
+                    for (let i = 0, len = data.xktFiles.length; i < len; i++) {
+                        filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);
+                    }
+                createZip(filesURLs, `${batchId}_${modelId}`);
+            })
+            .catch(error => {
+                console.error('Error during fetch:', error);
+            });
+    }
+
+    function storeScrollPosition() {
+        sessionStorage.setItem('scrollPosition', window.scrollY);
+    }
+
+    function getStoredScrollPosition() {
+        return parseInt(sessionStorage.getItem('scrollPosition')) || 0;
+    }
+
+    window.addEventListener('load', function () {
+        window.scrollTo(0, getStoredScrollPosition());
+    });
+
+    window.addEventListener('beforeunload', storeScrollPosition);
+
+    fetch("./convertedModels/gltf/convert2xkt.conf.json")
+        .then(response => response.text())
+        .then(code => {
+            // Get the code container element
+            const codeContainer = document.getElementById("convert2xkt.conf");
+
+            // Set the innerHTML with the syntax-highlighted code
+            codeContainer.innerHTML = `<pre><code style="font-size: 15px;" class="language-json">${Prism.highlight(code, Prism.languages.json, 'json')}</code></pre>`;
+        })
+        .catch(error => console.error('Error loading file:', error));
+
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <span style="color: #ffffff;"><a class="navbar-home" href="http://xeolabs.com">xeolabs</a>/<a class="navbar-parent" href="https://xeokit.io">xeokit&nbsp;SDK</a>/<a class="navbar-parent" href="./index.html">Model Conversion</a>/<a class="navbar-brand" href="./tests.html">glTF Conversion Tests</a></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html?foo=0">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=RevitSamples&tab=models">Revit Sample glTF Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAPPointCloud">1.6M Point Cloud Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=MAP&tab=objects">Full-Precision glTF Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Conference Center Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan&tab=storeys">Schependomlaan Model</a>
+                    <a class="dropdown-item" href="https://xeokit.io/demo.html?projectId=Schependomlaan_selectedStorey&tab=storeys">Schependomlaan Ground Floor</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#features">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=1#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_demos">Examples</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLearn">
+                    <a class="dropdown-item" href="https://www.notion.so/xeokit/xeokit-Documentation-4598591fcedb4889bf8896750651f74e">Documentation</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/examples/" target="_examples">Examples</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-sdk/docs/" target="_docs">API Reference</a>
+                    <a class="dropdown-item" href="https://github.com/xeokit" target="_code">Source Code</a>
+                    <a class="dropdown-item" href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/index.html?foo=2#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xeokit.io/download.html">Download</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="bg-black home-header-gltf bg-black">
+    <div class="container h-100">
+<!--        <div class="row h-100 align-items-center">-->
+<!--            <div class="col-lg-12">-->
+<!--                <h1 class="text-white mt-5 mb-2">glTF Conversion Tests</h1>-->
+<!--                <p class="lead mb-5 text-white">Check the health of our glTF->XKT file conversion tool</p>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</header>
+
+<section id="intro" class="main-section alabaster">
+    <div class="container">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>xeokit glTF Conversion Tests</h1>
+            </div>
+        </div>
+        <div class="row  mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./ifc-tests.html">See also: IFC Conversion Tests &gt;&gt;</a>&nbsp;
+                <a class="btn btn-lg btn-outline-primary border-2" href="./las-tests.html">See also: LAS Conversion Tests &gt;&gt;</a>
+            </div>
+        </div>
+
+        <!--        <div class="row mb-5">-->
+        <!--            <div class="col-5 mx-auto center-text">-->
+        <!--                <img class="img-fluid  mx-auto d-block" src="./img/xeokit-viewer-jitterThumb.png">-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <div class="row">
+            <div class="col-12 mx-auto left-text">
+                <p>The xeokit SDK empowers us to quickly load large, full-precision glTF models on the Web, enabling
+                    seamless browser viewing within seconds. To achieve this, we use our CLI tools to
+                    pre-convert glTF models into xeokit's efficient and fast-loading native XKT format.</p>
+
+                <p>We routinely validate the effectiveness of our conversion tools through tests with xeokit's
+                    conversion test suite. This suite performs batch conversions on a selected set of glTF
+                    models, resulting in the XKT models listed in the "Converted glTF Models" section below.</p>
+                <p>In this page, you'll also find
+                    detailed information on how we configure and execute the conversion process, providing
+                    insights for establishing your own glTF conversion pipeline with xeokit.</p>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 mx-auto" style=" justify-content: center; align-items:center">
+                <div style="width:300px; margin: auto;">
+                    <ul>
+                        <li><a href="#testResults">Converted glTF Models</a></li>
+                        <li><a href="#systemInfo">Conversion System Configuration</a></li>
+                        <li><a href="#testMethod">Conversion Pipeline Setup</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testResults" class="test-results-section">
+    <div class="container pt-6 pb-0">
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>Converted glTF Models</h1>
+            </div>
+        </div>
+        <div class="row  left-text">
+            <div class="col-lg-12">
+                <p>In the table below are the results from our most recent glTF conversion run. On the far right, select
+                    "View" to
+                    observe the converted model in a xeokit web viewer. Choose "Log" to inspect the conversion log
+                    associated with that model. Additionally, "Link" provides a link through which you can hot-load the
+                    converted model into a xeokit web viewer.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="test-results-section">
+                    <div class="container pt-6 pb-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table class="table table-sm table-hover  table-bordered mb-0">
+                                <tr style="background-color: rgba(0, 0, 0, 0.05);"><th>gltf File</th><th style="text-align:right;">gltf Size (Mb)</th><th style="text-align:right;">XKT Size (Mb)</th><th style="text-align:right;">Conversion Time (Secs)</th><th style="text-align:center;" colspan="5">Converted XKT</th></tr>
+                                <tbody>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>Archicad</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">AR-Demo_Sample_Single_Building_01.gltf</a></td>-->
+    <td>AR-Demo_Sample_Single_Building_01.gltf</td>
+    <td style="text-align:right;">5.1274</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">3.59</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=Archicad&modelId=AR-Demo_Sample_Single_Building_01">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=Archicad&modelId=AR-Demo_Sample_Single_Building_01">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/Archicad/index.json', 'Archicad', 'AR-Demo_Sample_Single_Building_01')">Zip</a></td>
+</tr>
+<tr>
+<!--    <td><a href="">Archicad-Demoprojekt.gltf</a></td>-->
+    <td>Archicad-Demoprojekt.gltf</td>
+    <td style="text-align:right;">5.2916</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">3.18</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=Archicad&modelId=Archicad-Demoprojekt">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=Archicad&modelId=Archicad-Demoprojekt">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/models/Archicad-Demoprojekt/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/Archicad/index.json', 'Archicad', 'Archicad-Demoprojekt')">Zip</a></td>
+</tr>
+<tr>
+<!--    <td><a href="">ME-Demo_Sample_Single_Building_01.gltf</a></td>-->
+    <td>ME-Demo_Sample_Single_Building_01.gltf</td>
+    <td style="text-align:right;">3.7996</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">2.94</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=Archicad&modelId=ME-Demo_Sample_Single_Building_01">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=Archicad&modelId=ME-Demo_Sample_Single_Building_01">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/models/ME-Demo_Sample_Single_Building_01/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/Archicad/index.json', 'Archicad', 'ME-Demo_Sample_Single_Building_01')">Zip</a></td>
+</tr>
+<tr>
+<!--    <td><a href="">ST-Demo_Sample_Single_Building_01.gltf</a></td>-->
+    <td>ST-Demo_Sample_Single_Building_01.gltf</td>
+    <td style="text-align:right;">1.0596</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">1.31</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=Archicad&modelId=ST-Demo_Sample_Single_Building_01">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=Archicad&modelId=ST-Demo_Sample_Single_Building_01">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/models/ST-Demo_Sample_Single_Building_01/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/Archicad/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/Archicad/index.json', 'Archicad', 'ST-Demo_Sample_Single_Building_01')">Zip</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>BoxTextured-glTF</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>BoxTextured-glTF-Binary</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">BoxTextured.gltf</a></td>-->
+    <td>BoxTextured.gltf</td>
+    <td style="text-align:right;">0.0065</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">1.54</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=BoxTextured-glTF-Binary&modelId=BoxTextured">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=BoxTextured-glTF-Binary&modelId=BoxTextured">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/BoxTextured-glTF-Binary/models/BoxTextured/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/BoxTextured-glTF-Binary/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/BoxTextured-glTF-Binary/index.json', 'BoxTextured-glTF-Binary', 'BoxTextured')">Zip</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>DamagedHelmet-glTF-Binary</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">DamagedHelmet.gltf</a></td>-->
+    <td>DamagedHelmet.gltf</td>
+    <td style="text-align:right;">3.7739</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">117.11</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=DamagedHelmet-glTF-Binary&modelId=DamagedHelmet">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=DamagedHelmet-glTF-Binary&modelId=DamagedHelmet">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/DamagedHelmet-glTF-Binary/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/DamagedHelmet-glTF-Binary/index.json', 'DamagedHelmet-glTF-Binary', 'DamagedHelmet')">Zip</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>HousePlan-glTF-Binary</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">HousePlan.gltf</a></td>-->
+    <td>HousePlan.gltf</td>
+    <td style="text-align:right;">28.6504</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">192.12</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=HousePlan-glTF-Binary&modelId=HousePlan">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=HousePlan-glTF-Binary&modelId=HousePlan">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/HousePlan-glTF-Binary/models/HousePlan/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/HousePlan-glTF-Binary/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/HousePlan-glTF-Binary/index.json', 'HousePlan-glTF-Binary', 'HousePlan')">Zip</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>SkatePark-glTF</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>SkatePark-glTF-Binary</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>VianneyHouse-glTF</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">VianneyHouse2.gltf</a></td>-->
+    <td>VianneyHouse2.gltf</td>
+    <td style="text-align:right;">0.0227</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">14.59</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=VianneyHouse-glTF&modelId=VianneyHouse2">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=VianneyHouse-glTF&modelId=VianneyHouse2">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/VianneyHouse-glTF/models/VianneyHouse2/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/VianneyHouse-glTF/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/VianneyHouse-glTF/index.json', 'VianneyHouse-glTF', 'VianneyHouse2')">Zip</a></td>
+</tr>
+<tr style="height: 60px; vertical-align:bottom; background-color: rgba(0, 0, 0, 0.05);"><td style="font-size: larger; height: 60px; vertical-align:bottom;" ><b>VianneyHouse-glTF-Binary</td><td></td><td></td><td></td><td colspan="5"></td></tr>
+<tr>
+<!--    <td><a href="">VianneyHouse2.gltf</a></td>-->
+    <td>VianneyHouse2.gltf</td>
+    <td style="text-align:right;">2.4269</td>
+    <td style="text-align:right;">0</td>
+    <td style="text-align:right;">14.59</td>
+    <td style="text-align:center;"><a href="./gltf-viewer.html?dataDir=https://xeokit.github.io/xeokit-model-conversion-tests/convertedModels/gltf/&projectId=VianneyHouse-glTF-Binary&modelId=VianneyHouse2">View</a> </td>
+    <td style="text-align:center;"><a href="./gltf-debug.html?dataDir=./convertedModels/gltf/&projectId=VianneyHouse-glTF-Binary&modelId=VianneyHouse2">Debug</a> </td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/VianneyHouse-glTF-Binary/models/VianneyHouse2/log.txt">Log</a></td>
+    <td style="text-align:center;"><a href="./convertedModels/gltf//projects/VianneyHouse-glTF-Binary/index.json">Link</a></td>
+    <td style="text-align:center;"><a href="javascript:createModelZip('./convertedModels/gltf//projects/VianneyHouse-glTF-Binary/index.json', 'VianneyHouse-glTF-Binary', 'VianneyHouse2')">Zip</a></td>
+</tr>
+</tbody></table></div></div></div></section>
+
+<br><br><br>
+
+<section id="systemInfo" class="system-info-section">
+    <div class="container pt-0 pb-0">
+
+        <div class="row testimonial-row center-text">
+            <div class="col-lg-12">
+                <h1>glTF Conversion System Configuration</h1>
+            </div>
+        </div>
+
+        <div class="row testimonial-row left-text">
+            <div class="col-lg-12">
+                <p>Below is a summary of our system
+                    specifications, along with the versions of the CLI converter tools and xeokit SDK we used. In this
+                    case,
+                    we're running everything on Linux, but
+                    you can just as easily run it on Windows and Mac O/S.</p>
+            </div>
+        </div>
+
+        <div class="row testimonial-row">
+            <div class="col-lg-12">
+                
+
+<table class="table table-sm table-hover table-striped table-bordered mb-0">
+    <tbody>
+    <tr>
+        <td>Date</td>
+        <td>Tue Feb 13 2024 05:23:35 GMT+0100 (Central European Standard Time)</td>
+    </tr>
+    <tr>
+        <td>CPU Manufacturer</td>
+        <td>Intel</td>
+    </tr>
+    <tr>
+        <td>CPU Brand</td>
+        <td>Xeon® Gold 6134</td>
+    </tr>
+    <tr>
+        <td>Memory</td>
+        <td>135 GB</td>
+    </tr>
+    <tr>
+        <td>OS Platform</td>
+        <td>linux</td>
+    </tr>
+    <tr>
+        <td>OS Distro</td>
+        <td>Ubuntu</td>
+    </tr>
+    <tr>
+        <td>OS Release</td>
+        <td>22.04.3 LTS</td>
+    </tr>
+    <tr>
+        <td>Node.js</td>
+        <td>v16.17.1</td>
+    </tr>
+    <tr>
+        <td>@xeokit/xeokit-convert</td>
+        <td>1.1.15-beta-1</td>
+    </tr>
+    <tr>
+        <td>@xeokit/xeokit-sdk</td>
+        <td>2.5.2-beta-22</td>
+    </tr>
+    </tbody>
+</table>
+            </div>
+        </div>
+
+
+        <div class="row mt-5 mb-5">
+            <div class="col-sm-12 text-center">
+                <a class="btn btn-lg btn-outline-primary border-2" href="./results/gltf/systemInfo.json">Full System
+                    Configuration
+                    &gt;&gt;</a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<section id="testMethod" class="test-results-section  mb-5">
+    <div class="container pt-6 pb-0">
+        <div class="row center-text mb-5">
+            <div class="col-lg-12">
+                <h1>glTF Conversion Pipeline Setup</h1>
+            </div>
+        </div>
+        <div class="row  mb-5">
+            <div class="col-12 mx-auto left-text">
+
+                <p>We ran our converter tools on each glTF file in our test collection using the CLI commands shown
+                    below.
+                    For each glTF file, we substitute "model" with the name of that file.</p>
+                <br>
+                <h2 style="margin-bottom: 1em">convert2xkt</h2>
+
+<p>The <a href="https://github.com/xeokit/xeokit-convert">convert2xkt</a> tool
+    converts various model file formats into XKT format,
+    which we can view in the browser with xeokit. We use it to convert <code>glTF</code> files into XKT files, as shown
+    in the command below.</p><p>XKT is
+    xeokit's web-friendly native binary model format,
+    designed to load quickly into
+    its web viewer. Note that <code>convert2xkt</code> is
+    NodeJS-based CLI tool that often needs us to allocate it some extra memory, as we're doing here.</p>
+
+<pre class="mt-4 mb-1  mb-5" style="background-color: #1b1e21; color: #3dff08; padding: 15px;">
+node --max-old-space-size=14000 convert2xkt -c convert2xkt.conf.json -s model.gltf -o model.xkt</pre>
+
+<p>
+</p>
+
+<h2 style="margin-bottom: 1em">xeokit-sdk</h2>
+
+<p>Finally, we visualize our XKT file in the browser using xeokit's web viewer. In JavaScript, we simply create a <a
+        href="https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html"><code>Viewer</code></a>,
+    add an <a
+            href="https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html"><code>XKTLoaderPlugin</code></a>,
+    and then load our XKT file.</p>
+
+<div style="width:100%; background-color: black;">
+    <img src="./img/xeokit-viewer-las.svg"/>
+</div>
+                <br>
+            </div>
+        </div>
+
+        <div class="row left-text mt-5">
+
+            <div class="col-md-12">
+
+
+                <h2 style="margin-bottom: 1em">convert2xkt Arguments</h2>
+
+                <p>The table below lists the arguments we're providing to
+                    <code>convert2xkt</code> to convert each glTF file.</p>
+
+                <table class="table table-sm table-hover table-striped table-bordered mb-0">
+                    <!--                    <tr style="background-color: rgba(0, 0, 0, 0.05);"><th><span class="nowrap">Option</span></th><th style="text-align:left;">Description</th></tr>-->
+                    <tbody>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-c
+                            convert2xkt.conf.json</code></td>
+
+                        <!--                        <td></td>-->
+                        <td>Path to convert2xkt configs file.</td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-s</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the input glTF file to convert.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code class="nowrap" style="font-size: larger; font-weight: bold">-o</code></td>
+                        <!--                        <td></td>-->
+                        <td>Path to the XKT file to create as output.</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <h2 style="margin-bottom: 1em">convert2xkt Configs</h2>
+
+                <p>As shown from the provided arguments, we pass configurations to <code>convert2xkt</code> through a
+                    JSON
+                    configuration file named <a href="./convertedModels/ifc/convert2xkt.conf.json"><code>convert2xkt.conf.json</code></a>.
+                    The configuration file's content is displayed below. </p> <p>In the configuration file, the
+                    "sourceConfigs" object contains the "gltf" and "glb" objects, which contain the configurations
+                    used by
+                    <code>convert2xkt</code> in our glTF conversion tests.</p>
+
+                <div style="background-color: black; " id="convert2xkt.conf"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="py-5 bg-dark xeokit-footer">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mb-3  text-left">
+                <h2>xeokit SDK</h2>
+                <p>Powering Engineering Graphics on the Web</p>
+                <img src="./img/xeokitLogoAlphaBG.png">
+            </div>
+            <div class="col-md-8 col-sm-12">
+
+                <div class="col-md-4 col-sm-6 col-6 p-0 float-left mb-3">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Learn</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#features">Features</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2 "><a
+                                href="https://xeokit.io/demo.html?projectId=OTCConferenceCenter&tab=storeys">Demo</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2 "><a
+                                href="https://xeokit.io/blog.html">Blog</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#pricing">Pricing</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/index.html#faq">FAQ</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-6 p-0 mb-3 float-left">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Develop</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.io/download.html">Download</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-sdk/examples/">Examples</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-sdk/docs/">API Docs</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://github.com/xeokit">Source Code</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://www.notion.so/xeokit">Tutorials</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://github.com/xeokit/xeokit-sdk/issues">Issues</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="https://xeokit.github.io/xeokit-model-conversion-tests/index.html">Model Conversion</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-6 mb-3 p-0 float-left">
+                    <h5 class="mb-4 font-weight-bold text-uppercase ">Connect</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="http://www.xeolabs.com"><i class="fa fa-globe mr-1"></i>
+                                xeolabs.com</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://www.linkedin.com/company/xeolabs"><i class="fa fa-linkedin mr-1"></i>
+                                LinkedIn</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://github.com/xeolabs" target="_code"><i class="fa fa-github mr-1"></i>
+                                Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="py-4 d-flex justify-content-center align-items-center">
+                    <p class="m-0 text-center">Copyright &copy; <a href="http://xeolabs.com">xeolabs</a> 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

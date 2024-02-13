@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/Revit/rac_advanced_sample_project.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Revit/rac_advanced_sample_project.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 15:23:40",
+    "conversionDate": "2024-02-13 05:10:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rac_advanced_sample_project/model.glb"
     ],

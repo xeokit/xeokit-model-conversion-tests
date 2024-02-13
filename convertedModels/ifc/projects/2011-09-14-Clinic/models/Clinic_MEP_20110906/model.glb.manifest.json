@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-10 14:50:29",
+    "conversionDate": "2024-02-13 04:34:56",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb",
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_1.glb",

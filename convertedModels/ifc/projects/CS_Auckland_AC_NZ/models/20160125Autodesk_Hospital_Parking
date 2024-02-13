@@ -2,7 +2,7 @@
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 
-Input file not found: /home/lindsay/xeolabs/xeokit-model-conversion-tests-jan25/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking
+Input file not found: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking
 ifc2gltfcxconverter: convert ifc to gltf
  usage information:
 
