@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 04:44:04",
+    "conversionDate": "2024-02-26 12:15:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
     ],

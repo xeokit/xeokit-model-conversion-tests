@@ -7,9 +7,12 @@ Converting IFC geometryno success in mergeCoplanarFacesInMeshSet, vertex count: 
 no success in mergeCoplanarFacesInMeshSet, vertex count: 8
 no success in mergeCoplanarFacesInMeshSet, vertex count: 8
 no success in mergeCoplanarFacesInMeshSet, vertex count: 8
+no success in mergeCoplanarFacesInMeshSet, vertex count: 18
+no success in mergeCoplanarFacesInMeshSet, vertex count: 18
+no success in mergeCoplanarFacesInMeshSet, vertex count: 18
 
 Exporting to gltf
-Accessors: 8846, reused: 15133
+Accessors: 8841, reused: 15138
 Exporting meta data
 Exporting meta data
 Exporting meta data
@@ -21,7 +24,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb
-[convert2xkt] Input file size: 11373.51 kB
+[convert2xkt] Input file size: 11368.80 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -30,18 +33,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2705.84 kB
+[convert2xkt] XKT size: 2703.84 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.20
-[convert2xkt] Conversion time: 5.41 s
+[convert2xkt] Conversion time: 5.43 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 16881
 [convert2xkt] Converted geometries: 16952
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 467741
-[convert2xkt] Converted vertices: 273165
+[convert2xkt] Converted triangles: 467739
+[convert2xkt] Converted vertices: 273167
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

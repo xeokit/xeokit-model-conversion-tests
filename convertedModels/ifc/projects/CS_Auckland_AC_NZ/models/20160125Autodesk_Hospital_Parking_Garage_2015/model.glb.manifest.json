@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 04:38:35",
+    "conversionDate": "2024-02-26 12:09:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.glb"
     ],

@@ -24,7 +24,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 209.90 kB
+[convert2xkt] XKT size: 209.89 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.79
 [convert2xkt] Conversion time: 0.47 s

@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 05:14:27",
+    "conversionDate": "2024-02-26 12:45:31",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb"
     ],

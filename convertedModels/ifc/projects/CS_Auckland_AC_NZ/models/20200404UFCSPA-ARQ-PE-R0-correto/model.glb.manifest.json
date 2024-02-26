@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20200404UFCSPA-ARQ-PE-R0-correto.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 04:42:22",
+    "conversionDate": "2024-02-26 12:13:43",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200404UFCSPA-ARQ-PE-R0-correto/model.glb",
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200404UFCSPA-ARQ-PE-R0-correto/model_1.glb",

@@ -5,11 +5,11 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-House_Plumbing.ifc"
 Converting IFC geometry
 Exporting to gltf
-Accessors: 8474, reused: 20180
-Accessors: 8286, reused: 34634
-Accessors: 1894, reused: 4549
+Accessors: 8464, reused: 20158
+Accessors: 8272, reused: 34587
+Accessors: 1922, reused: 4611
 Exporting meta data
-done in 1 minutes, 60 seconds
+done in 1 minutes, 49 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb
-[convert2xkt] Input file size: 12287.02 kB
+[convert2xkt] Input file size: 12279.48 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -26,25 +26,25 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 6162.90 kB
+[convert2xkt] XKT size: 6158.15 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.99
-[convert2xkt] Conversion time: 12.14 s
+[convert2xkt] Conversion time: 11.54 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 20772
-[convert2xkt] Converted geometries: 20772
+[convert2xkt] Converted drawable objects: 20751
+[convert2xkt] Converted geometries: 20751
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2352945
-[convert2xkt] Converted vertices: 1170828
+[convert2xkt] Converted triangles: 2350753
+[convert2xkt] Converted vertices: 1169686
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 3)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb
-[convert2xkt] Input file size: 16000.84 kB
+[convert2xkt] Input file size: 15987.78 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -53,25 +53,25 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 9211.70 kB
+[convert2xkt] XKT size: 9199.54 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.74
-[convert2xkt] Conversion time: 17.62 s
+[convert2xkt] Conversion time: 17.16 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 35365
-[convert2xkt] Converted geometries: 35365
+[convert2xkt] Converted drawable objects: 35322
+[convert2xkt] Converted geometries: 35322
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 3972591
-[convert2xkt] Converted vertices: 1920374
+[convert2xkt] Converted triangles: 3968807
+[convert2xkt] Converted vertices: 1917940
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.xkt
 [convert2xkt] Converted model2.xkt (2 of 3)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb
-[convert2xkt] Input file size: 2731.64 kB
+[convert2xkt] Input file size: 2767.70 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -80,18 +80,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1273.21 kB
+[convert2xkt] XKT size: 1289.70 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.15
-[convert2xkt] Conversion time: 2.46 s
+[convert2xkt] Conversion time: 2.34 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 4747
-[convert2xkt] Converted geometries: 4747
+[convert2xkt] Converted drawable objects: 4811
+[convert2xkt] Converted geometries: 4811
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 480104
-[convert2xkt] Converted vertices: 253950
+[convert2xkt] Converted triangles: 486080
+[convert2xkt] Converted vertices: 257526
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] minTileSize: 200

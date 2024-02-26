@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 04:38:41",
+    "conversionDate": "2024-02-26 12:09:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.glb"
     ],

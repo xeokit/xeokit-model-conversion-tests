@@ -9,11 +9,21 @@ no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 0
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 0
+no success in mergeCoplanarFacesInMeshSet, vertex count: 0
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 0
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 6
+no success in mergeCoplanarFacesInMeshSet, vertex count: 0
 
 Exporting to gltf
 Accessors: 3937, reused: 4968
 Exporting meta data
-done in 8 seconds
+done in 7 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb.manifest.json  -o convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/log.txt
 
@@ -33,7 +43,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 1124.55 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.19
-[convert2xkt] Conversion time: 2.19 s
+[convert2xkt] Conversion time: 2.25 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3563

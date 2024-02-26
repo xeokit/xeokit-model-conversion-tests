@@ -11,7 +11,7 @@ Accessors: 3191, reused: 4395
 Accessors: 249, reused: 1117
 Exporting meta data
 Exporting meta data
-done in 40 seconds
+done in 44 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.glb.manifest.json  -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/log.txt
 
@@ -31,7 +31,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 6339.24 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.14
-[convert2xkt] Conversion time: 8.44 s
+[convert2xkt] Conversion time: 8.62 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5534
@@ -58,7 +58,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 3380.58 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.77
-[convert2xkt] Conversion time: 5.11 s
+[convert2xkt] Conversion time: 4.83 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4629
@@ -85,7 +85,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 3605.49 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.91
-[convert2xkt] Conversion time: 5.43 s
+[convert2xkt] Conversion time: 5.37 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4636
@@ -112,7 +112,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 2249.15 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.78
-[convert2xkt] Conversion time: 2.95 s
+[convert2xkt] Conversion time: 2.93 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1213

@@ -15,7 +15,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-07/models/Duplex_2x3_2011-09-07/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-07/models/Duplex_2x3_2011-09-07/model.glb
-[convert2xkt] Input file size: 327.96 kB
+[convert2xkt] Input file size: 327.94 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled

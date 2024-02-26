@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/wefly/wefly.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 05:14:30",
+    "conversionDate": "2024-02-26 12:45:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/wefly/models/wefly/model.glb"
     ],

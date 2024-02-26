@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 04:49:02",
+    "conversionDate": "2024-02-26 12:20:24",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb"
     ],

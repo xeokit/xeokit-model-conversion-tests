@@ -5,7 +5,7 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...s/ifc/Revit/rac.ifc"
 Converting IFC geometry
 Exporting to gltf
-Accessors: 1282, reused: 1678
+Accessors: 1281, reused: 1679
 Exporting meta data
 done in 3 seconds
 
@@ -15,7 +15,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Revit/models/rac/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Revit/models/rac/model.glb
-[convert2xkt] Input file size: 1871.90 kB
+[convert2xkt] Input file size: 1864.38 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,10 +24,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 547.11 kB
+[convert2xkt] XKT size: 547.07 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.42
-[convert2xkt] Conversion time: 1.08 s
+[convert2xkt] Compression ratio: 3.41
+[convert2xkt] Conversion time: 1.10 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 445

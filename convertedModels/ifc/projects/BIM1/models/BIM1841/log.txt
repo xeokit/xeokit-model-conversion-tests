@@ -7,7 +7,7 @@ Converting IFC geometry
 Exporting to gltf
 Accessors: 3733, reused: 3545
 Exporting meta data
-done in 4 seconds
+done in 3 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/BIM1/models/BIM1841/model.glb.manifest.json  -o convertedModels/ifc/projects/BIM1/models/BIM1841/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/BIM1/models/BIM1841/log.txt
 
@@ -27,7 +27,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 671.05 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.98
-[convert2xkt] Conversion time: 1.58 s
+[convert2xkt] Conversion time: 1.62 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3640

@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT01_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-13 05:09:44",
+    "conversionDate": "2024-02-26 12:40:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT01_Arch/model.glb"
     ],
