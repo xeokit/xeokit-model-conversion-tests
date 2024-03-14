@@ -1,18 +1,20 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.json -s 5 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-individual-colors.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...dividual-colors.ifc"
+Loading file "/home/lindsay/xe...dividual-colors.ifc"Loading file "/home/lindsay/xe...dividual-colors.ifc": 5%
 Converting IFC geometry
 Exporting to gltf
 Accessors: 2, reused: 0
 Exporting meta data
 done in 1 seconds
 
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.15-beta-4...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/log.txt
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.glb
 [convert2xkt] Input file size: 1.29 kB
@@ -20,6 +22,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
@@ -38,7 +41,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Converted vertices: 7
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-individual-colors/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

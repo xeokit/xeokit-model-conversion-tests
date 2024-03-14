@@ -1,25 +1,27 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json -s 5 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe.../Schependomlaan.ifc"
-Converting IFC geometryno success in mergeCoplanarFacesInMeshSet, vertex count: 6
+Loading file "/home/lindsay/xe.../Schependomlaan.ifc"Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 5%Loading file "/home/lindsay/xe.../Schependomlaan.ifc": 45%
+Converting IFC geometryConverting IFC geometry: 0%no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
 no success in mergeCoplanarFacesInMeshSet, vertex count: 6
-
+Converting IFC geometry: 72%
 Exporting to gltf
 Accessors: 3937, reused: 4968
-Exporting meta data
+Exporting meta dataExporting meta data: 75%Exporting meta data: 91%
 done in 7 seconds
 
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.15-beta-4...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/log.txt
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb
 [convert2xkt] Input file size: 3588.12 kB
@@ -27,6 +29,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
@@ -34,7 +37,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] XKT size: 1124.55 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.19
-[convert2xkt] Conversion time: 2.33 s
+[convert2xkt] Conversion time: 2.21 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3563
@@ -45,7 +48,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//conv
 [convert2xkt] Converted vertices: 110579
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

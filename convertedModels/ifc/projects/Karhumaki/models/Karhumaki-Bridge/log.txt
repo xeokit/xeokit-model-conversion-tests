@@ -1,128 +1,48 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 5 -t 200 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"
-Converting IFC geometry
-Exporting to gltf
-Accessors: 4343, reused: 5746
-Accessors: 3781, reused: 5979
-Accessors: 7212, reused: 11081
-Accessors: 2085, reused: 2315
-Exporting meta data
-done in 19 seconds
+Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 33%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 75%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 18%Converting IFC geometry: 43%Converting IFC geometry: 64%Converting IFC geometry: 70%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 60%Exporting to gltf: 65%Exporting to gltf: 77%Exporting to gltf: 87%
+Accessors: 16851, reused: 25176
+Exporting meta dataExporting meta data: 78%Exporting meta data: 84%Exporting meta data: 90%Exporting meta data: 100%
+done in 20 seconds
 
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
-
-[convert2xkt] Running convert2xkt v1.1.15-beta-4...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb
-[convert2xkt] Input file size: 6687.64 kB
+[convert2xkt] Input file size: 26663.43 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1743.40 kB
+[convert2xkt] XKT size: 6217.79 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.84
-[convert2xkt] Conversion time: 4.60 s
+[convert2xkt] Compression ratio: 4.29
+[convert2xkt] Conversion time: 18.77 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1651
-[convert2xkt] Converted geometries: 5867
+[convert2xkt] Converted drawable objects: 5954
+[convert2xkt] Converted geometries: 25533
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 942709
-[convert2xkt] Converted vertices: 426680
+[convert2xkt] Converted triangles: 3616019
+[convert2xkt] Converted vertices: 1790351
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 4)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb
-[convert2xkt] Input file size: 7335.48 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1784.12 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.11
-[convert2xkt] Conversion time: 4.99 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 972
-[convert2xkt] Converted geometries: 6028
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1106622
-[convert2xkt] Converted vertices: 563631
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 4)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_2.glb
-[convert2xkt] Input file size: 9369.17 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1927.36 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.86
-[convert2xkt] Conversion time: 5.95 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 3100
-[convert2xkt] Converted geometries: 11248
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1088077
-[convert2xkt] Converted vertices: 551765
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_2.xkt
-[convert2xkt] Converted model3.xkt (3 of 4)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_3.glb
-[convert2xkt] Input file size: 3920.70 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 824.09 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.76
-[convert2xkt] Conversion time: 2.15 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 231
-[convert2xkt] Converted geometries: 2390
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 478625
-[convert2xkt] Converted vertices: 248275
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_3.xkt
-[convert2xkt] Converted model4.xkt (4 of 4)
+[convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

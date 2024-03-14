@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-26 12:20:04",
+    "conversionDate": "2024-03-14 02:18:16",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb"
     ],
@@ -15,7 +15,7 @@
     "modelBoundsMax": [
         987.6427001953125,
         919.1029663085938,
-        62.734184323626266
+        62.73418432362625
     ],
     "modelBoundsMin": [
         -0.04145190864801407,

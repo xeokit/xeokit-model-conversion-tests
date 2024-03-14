@@ -21,6 +21,8 @@ const errors = {};
 
 const kdTree = new KDTree();
 
+const bashScript = [];
+
 (async () => {
     try {
 
@@ -191,7 +193,8 @@ const kdTree = new KDTree();
 
                         fs.appendFileSync(logPath, ifc2gltfCmd + "\n");
 
-                        execSync(ifc2gltfCmd, {stdio: 'inherit'});
+                        bashScript.push(`echo "${ifc2gltfCmd}"`);
+                        bashScript.push(ifc2gltfCmd);
 
                         const convert2xktCmd = `node --max-old-space-size=14000` +
                             ` ${configs.convert2xkt.path}/convert2xkt.js -t ` +
@@ -204,17 +207,18 @@ const kdTree = new KDTree();
 
                         fs.appendFileSync(logPath, convert2xktCmd + "\n\n");
 
-                        execSync(convert2xktCmd, {stdio: 'inherit'});
+                        bashScript.push(`echo "${convert2xktCmd}"`);
+                        bashScript.push(convert2xktCmd);
 
-                        xktSizes[ifcInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
+                     //   xktSizes[ifcInputPath] = (getXKTSize(modelOutPath, `model.xkt.manifest.json`) / 1000000).toFixed(4);
 
                         console.log("xktSize = " + xktSizes[ifcInputPath])
 
-                        const glbManifest = JSON.parse(fs.readFileSync(jsonManifestPath));
-                        const batchId = inputBatchDir;
-                        const modelId = path.parse(inputFile).name;
-
-                        kdTree.addModel(glbManifest, batchId, modelId);
+                        // const glbManifest = JSON.parse(fs.readFileSync(jsonManifestPath));
+                        // const batchId = inputBatchDir;
+                        // const modelId = path.parse(inputFile).name;
+                        //
+                        // kdTree.addModel(glbManifest, batchId, modelId);
 
                     } catch (e) {
                         console.log(e)
@@ -254,7 +258,7 @@ const kdTree = new KDTree();
                 const data = JSON.parse(manifest);
                 let fileSize = 0;
                 for (let i = 0, len = data.xktFiles.length; i < len; i++) {
-                    fileSize += getFileSize(baseDir + "/" + data.xktFiles[i]);
+                  //  fileSize += getFileSize(baseDir + "/" + data.xktFiles[i]);
                 }
                 return fileSize;
             } catch (error) {
@@ -403,6 +407,8 @@ const kdTree = new KDTree();
         fs.copyFileSync(`${configs.convert2xkt.path}/convert2xkt.conf.json`, `./convertedModels/ifc/convert2xkt.conf.json`);
 
         console.log("HTML test page written.");
+
+        fs.writeFileSync("./convert-ifc.sh", bashScript.join("\n"), {encoding: 'utf8'});
 
     } catch (e) {
         console.error("[Error] ", e);

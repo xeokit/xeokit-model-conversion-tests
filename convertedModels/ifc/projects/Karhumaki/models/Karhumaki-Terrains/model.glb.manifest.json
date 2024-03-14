@@ -2,13 +2,12 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Karhumaki/Karhumaki-Terrains.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-02-26 12:31:45",
+    "conversionDate": "2024-03-14 02:26:50",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb"
     ],
     "metadataOutFiles": [
-        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.json",
-        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model_1.json"
+        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.json"
     ],
     "numCreatedGltfMeshes": 10145,
     "numCreatedMetaObjects": 10152,
