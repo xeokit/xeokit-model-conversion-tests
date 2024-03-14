@@ -1,7 +1,7 @@
-node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/DamagedHelmet-glTF-Binary/DamagedHelmet.glb                         -o convertedModels/gltf/projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/geometry.xkt                         -l >> convertedModels/gltf/projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/log.txt
+node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/DamagedHelmet-glTF-Binary/DamagedHelmet.glb                         -o convertedModels/gltf/projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/geometry.xkt                         -l >> convertedModels/gltf/projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-4...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/DamagedHelmet-glTF-Binary/DamagedHelmet.glb...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/DamagedHelmet-glTF-Binary/DamagedHelmet.glb
 [convert2xkt] Input file size: 3773.92 kB
@@ -9,6 +9,7 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
@@ -16,7 +17,7 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 11379.41 kB
 [convert2xkt] XKT textures size: 11199.00kB
 [convert2xkt] Compression ratio: 0.33
-[convert2xkt] Conversion time: 117.75 s
+[convert2xkt] Conversion time: 116.60 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
@@ -27,6 +28,7 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted vertices: 14556
 [convert2xkt] Converted UVs: 14556
 [convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/gltf/projects/DamagedHelmet-glTF-Binary/models/DamagedHelmet/geometry.xkt
 [convert2xkt] Done.

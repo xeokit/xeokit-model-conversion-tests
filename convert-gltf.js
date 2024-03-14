@@ -116,7 +116,7 @@ const errors = {};
             const isDir = fs.lstatSync(inputBatchDirPath).isDirectory();
 
             if (isDir) {
-                console.log("Converting LAS batch: " + inputBatchDirPath);
+                console.log("Converting glTF batch: " + inputBatchDirPath);
                 const outputBatchDirPath = path.join(convertedProjectsDir, inputBatchDir);
                 if (fs.existsSync(outputBatchDirPath)) {
                     fs.rmSync(outputBatchDirPath, {recursive: true, force: true});

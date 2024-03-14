@@ -1,7 +1,7 @@
-node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/Archicad/AR-Demo_Sample_Single_Building_01.glb                         -o convertedModels/gltf/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/geometry.xkt                         -l >> convertedModels/gltf/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt
+node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/Archicad/AR-Demo_Sample_Single_Building_01.glb                         -o convertedModels/gltf/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/geometry.xkt                         -l >> convertedModels/gltf/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-4...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-jan10//convert2xkt.conf.json
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/Archicad/AR-Demo_Sample_Single_Building_01.glb...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/Archicad/AR-Demo_Sample_Single_Building_01.glb
 [convert2xkt] Input file size: 5127.45 kB
@@ -9,14 +9,15 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1265.56 kB
+[convert2xkt] XKT size: 1227.98 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.05
-[convert2xkt] Conversion time: 3.02 s
+[convert2xkt] Compression ratio: 4.18
+[convert2xkt] Conversion time: 3.11 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5727
@@ -27,6 +28,7 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] Converted vertices: 190091
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
-[convert2xkt] minTileSize: 200
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/gltf/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/geometry.xkt
 [convert2xkt] Done.
