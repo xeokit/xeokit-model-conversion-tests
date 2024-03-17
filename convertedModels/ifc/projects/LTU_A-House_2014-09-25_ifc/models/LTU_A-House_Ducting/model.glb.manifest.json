@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:29:53",
+    "conversionDate": "2024-03-17 22:24:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Ducting/model.glb"
     ],

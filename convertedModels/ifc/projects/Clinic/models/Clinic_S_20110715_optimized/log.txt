@@ -9,7 +9,7 @@ Loading file "/home/lindsay/xe...10715_optimized.ifc"Loading file "/home/lindsa
 Converting IFC geometryConverting IFC geometry: 23%
 Exporting to gltf
 Accessors: 422, reused: 1032
-Exporting meta data
+Exporting meta dataExporting meta data: 90%
 done in 3 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/model.glb.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/log.txt
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 646.97 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.26
-[convert2xkt] Conversion time: 1.57 s
+[convert2xkt] Conversion time: 1.61 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1078

@@ -5,8 +5,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...humaki-Terrains.ifc"Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 5%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 33%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 78%
-Converting IFC geometryConverting IFC geometry: 13%Converting IFC geometry: 81%
+Loading file "/home/lindsay/xe...humaki-Terrains.ifc"Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 5%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 36%Loading file "/home/lindsay/xe...humaki-Terrains.ifc": 81%
+Converting IFC geometryConverting IFC geometry: 20%Converting IFC geometry: 82%
 Exporting to gltf
 Accessors: 9663, reused: 10143
 Exporting meta dataExporting meta data: 75%Exporting meta data: 78%Exporting meta data: 79%Exporting meta data: 81%Exporting meta data: 82%Exporting meta data: 84%Exporting meta data: 85%Exporting meta data: 87%Exporting meta data: 88%Exporting meta data: 90%Exporting meta data: 91%Exporting meta data: 93%Exporting meta data: 94%Exporting meta data: 100%
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 239.46 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 27.50
-[convert2xkt] Conversion time: 2.65 s
+[convert2xkt] Conversion time: 2.57 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 10145

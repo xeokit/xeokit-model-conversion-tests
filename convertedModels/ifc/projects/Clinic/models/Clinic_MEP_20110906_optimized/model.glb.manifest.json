@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_MEP_20110906_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:18:44",
+    "conversionDate": "2024-03-17 22:09:55",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 18386,
+    "numCreatedGltfMeshes": 18912,
     "numCreatedMetaObjects": 16545,
     "numExportedPropertySetsOrElementQuantities": 111260,
     "modelBoundsMax": [

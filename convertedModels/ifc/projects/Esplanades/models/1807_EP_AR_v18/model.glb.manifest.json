@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:20:56",
+    "conversionDate": "2024-03-17 22:12:06",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.json"
     ],
-    "numCreatedGltfMeshes": 9350,
+    "numCreatedGltfMeshes": 9635,
     "numCreatedMetaObjects": 2260,
     "numExportedPropertySetsOrElementQuantities": 11328,
     "modelBoundsMax": [

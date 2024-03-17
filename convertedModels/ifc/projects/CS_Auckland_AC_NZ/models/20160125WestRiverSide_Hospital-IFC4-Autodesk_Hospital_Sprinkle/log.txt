@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...spital_Sprinkle.ifc"Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 5%Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 84%
-Converting IFC geometryConverting IFC geometry: 4%Converting IFC geometry: 12%Converting IFC geometry: 18%Converting IFC geometry: 22%Converting IFC geometry: 25%Converting IFC geometry: 27%Converting IFC geometry: 30%Converting IFC geometry: 36%Converting IFC geometry: 48%Converting IFC geometry: 60%Converting IFC geometry: 71%Converting IFC geometry: 81%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 2%Converting IFC geometry: 9%Converting IFC geometry: 17%Converting IFC geometry: 21%Converting IFC geometry: 25%Converting IFC geometry: 28%Converting IFC geometry: 31%Converting IFC geometry: 42%Converting IFC geometry: 55%Converting IFC geometry: 67%Converting IFC geometry: 78%Converting IFC geometry: 88%
 Exporting to gltfExporting to gltf: 53%Exporting to gltf: 59%Exporting to gltf: 63%
 Accessors: 3409, reused: 20633
 Exporting meta dataExporting meta data: 100%
-done in 21 seconds
+done in 19 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 5634.01 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.72
-[convert2xkt] Conversion time: 10.79 s
+[convert2xkt] Conversion time: 10.77 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 13490

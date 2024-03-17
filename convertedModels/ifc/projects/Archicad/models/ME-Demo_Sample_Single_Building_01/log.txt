@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...gle_Building_01.ifc"Loading file "/home/lindsay/xe...gle_Building_01.ifc": 5%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 57%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 7%Converting IFC geometry: 17%Converting IFC geometry: 25%Converting IFC geometry: 29%
+Converting IFC geometryConverting IFC geometry: 3%Converting IFC geometry: 9%Converting IFC geometry: 17%Converting IFC geometry: 25%Converting IFC geometry: 29%
 Exporting to gltfExporting to gltf: 56%
 Accessors: 2201, reused: 8061
 Exporting meta dataExporting meta data: 100%
-done in 10 seconds
+done in 9 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb.manifest.json  -o convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...

@@ -5,12 +5,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...03_casbah_alger.ifc"Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 5%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 60%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 63%Converting IFC geometry: 78%
+Loading file "/home/lindsay/xe...03_casbah_alger.ifc"Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 5%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 63%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 67%Converting IFC geometry: 78%
 Exporting to gltfExporting to gltf: 62%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 86%
 Accessors: 18137, reused: 21497
 Exporting meta data
-done in 17 seconds
+done in 15 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
@@ -27,10 +27,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3517.16 kB
+[convert2xkt] XKT size: 3517.18 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.57
-[convert2xkt] Conversion time: 7.99 s
+[convert2xkt] Conversion time: 7.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3170

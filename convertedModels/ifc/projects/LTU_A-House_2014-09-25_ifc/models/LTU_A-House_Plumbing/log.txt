@@ -5,19 +5,19 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 20%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 48%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 87%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 10%Converting IFC geometry: 17%Converting IFC geometry: 21%Converting IFC geometry: 25%Converting IFC geometry: 28%Converting IFC geometry: 31%Converting IFC geometry: 34%Converting IFC geometry: 36%Converting IFC geometry: 37%Converting IFC geometry: 39%Converting IFC geometry: 41%Converting IFC geometry: 43%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 48%Converting IFC geometry: 50%Converting IFC geometry: 52%Converting IFC geometry: 54%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 82%Converting IFC geometry: 82%Converting IFC geometry: 83%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 86%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 89%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 53%Exporting to gltf: 57%Exporting to gltf: 60%Exporting to gltf: 65%Exporting to gltf: 69%Exporting to gltf: 72%Exporting to gltf: 77%Exporting to gltf: 81%Exporting to gltf: 86%Exporting to gltf: 90%
-Accessors: 16261, reused: 59781
+Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 69%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 7%Converting IFC geometry: 14%Converting IFC geometry: 19%Converting IFC geometry: 24%Converting IFC geometry: 27%Converting IFC geometry: 30%Converting IFC geometry: 33%Converting IFC geometry: 36%Converting IFC geometry: 37%Converting IFC geometry: 39%Converting IFC geometry: 41%Converting IFC geometry: 43%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 48%Converting IFC geometry: 50%Converting IFC geometry: 52%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 80%Converting IFC geometry: 81%Converting IFC geometry: 82%Converting IFC geometry: 82%Converting IFC geometry: 83%Converting IFC geometry: 84%Converting IFC geometry: 85%Converting IFC geometry: 86%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 54%Exporting to gltf: 59%Exporting to gltf: 62%Exporting to gltf: 66%Exporting to gltf: 71%Exporting to gltf: 75%Exporting to gltf: 80%Exporting to gltf: 84%Exporting to gltf: 89%
+Accessors: 16263, reused: 59779
 Exporting meta dataExporting meta data: 75%
-done in 1 minutes, 54 seconds
+done in 1 minutes, 39 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb
-[convert2xkt] Input file size: 28814.66 kB
+[convert2xkt] Input file size: 28821.68 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,10 +27,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 15215.93 kB
+[convert2xkt] XKT size: 15215.82 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.89
-[convert2xkt] Conversion time: 31.26 s
+[convert2xkt] Conversion time: 31.38 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 60884

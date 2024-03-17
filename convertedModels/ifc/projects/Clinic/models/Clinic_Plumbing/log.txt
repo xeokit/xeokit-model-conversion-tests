@@ -6,18 +6,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc"Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 36%Loading file "/home/lindsay/xe...Clinic_Plumbing.ifc": 87%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 11%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 76%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 2%Converting IFC geometry: 3%Converting IFC geometry: 10%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 76%
 Exporting to gltfExporting to gltf: 51%Exporting to gltf: 57%Exporting to gltf: 62%Exporting to gltf: 65%
-Accessors: 4251, reused: 9528
-Exporting meta dataExporting meta data: 82%
-done in 30 seconds
+Accessors: 4252, reused: 9527
+Exporting meta dataExporting meta data: 91%
+done in 27 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb
-[convert2xkt] Input file size: 7673.05 kB
+[convert2xkt] Input file size: 7889.80 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,8 +29,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 12807.17 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 0.60
-[convert2xkt] Conversion time: 16.14 s
+[convert2xkt] Compression ratio: 0.62
+[convert2xkt] Conversion time: 16.18 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6587

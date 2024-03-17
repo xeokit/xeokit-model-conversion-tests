@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/261110ADT-Smiley-West-5-Buildings-14-10-2005.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:21:13",
+    "conversionDate": "2024-03-17 22:16:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/261110ADT-Smiley-West-5-Buildings-14-10-2005/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/261110ADT-Smiley-West-5-Buildings-14-10-2005/model.json"
     ],
-    "numCreatedGltfMeshes": 1623,
+    "numCreatedGltfMeshes": 1693,
     "numCreatedMetaObjects": 487,
     "numExportedPropertySetsOrElementQuantities": 1128,
     "modelBoundsMax": [

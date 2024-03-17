@@ -8,7 +8,7 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...plex_A_20110907.ifc"Loading file "/home/lindsay/xe...plex_A_20110907.ifc": 5%
 Converting IFC geometry
 Exporting to gltf
-Accessors: 292, reused: 348
+Accessors: 317, reused: 365
 Exporting meta data
 done in 1 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907/model.glb
-[convert2xkt] Input file size: 327.96 kB
+[convert2xkt] Input file size: 342.24 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 94.51 kB
+[convert2xkt] XKT size: 99.48 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.47
+[convert2xkt] Compression ratio: 3.44
 [convert2xkt] Conversion time: 0.35 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 215
-[convert2xkt] Converted geometries: 415
+[convert2xkt] Converted drawable objects: 225
+[convert2xkt] Converted geometries: 436
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 25146
-[convert2xkt] Converted vertices: 14507
+[convert2xkt] Converted triangles: 25599
+[convert2xkt] Converted vertices: 14779
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

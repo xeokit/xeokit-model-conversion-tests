@@ -5,9 +5,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...A-House_Cooling.ifc"Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 5%Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 66%
-Converting IFC geometryConverting IFC geometry: 6%Converting IFC geometry: 25%Converting IFC geometry: 41%Converting IFC geometry: 54%Converting IFC geometry: 65%Converting IFC geometry: 74%Converting IFC geometry: 82%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 57%Exporting to gltf: 74%Exporting to gltf: 89%
+Loading file "/home/lindsay/xe...A-House_Cooling.ifc"Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 5%Loading file "/home/lindsay/xe...A-House_Cooling.ifc": 72%
+Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 27%Converting IFC geometry: 44%Converting IFC geometry: 56%Converting IFC geometry: 67%Converting IFC geometry: 76%Converting IFC geometry: 84%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 59%Exporting to gltf: 75%Exporting to gltf: 92%
 Accessors: 5376, reused: 20488
 Exporting meta data
 done in 14 seconds
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 7202.63 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.49
-[convert2xkt] Conversion time: 11.53 s
+[convert2xkt] Conversion time: 11.56 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 20979

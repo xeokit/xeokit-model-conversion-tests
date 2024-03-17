@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/MarkupTest/MarkupTest.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:35:30",
+    "conversionDate": "2024-03-17 22:29:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.json"
     ],
-    "numCreatedGltfMeshes": 122,
+    "numCreatedGltfMeshes": 124,
     "numCreatedMetaObjects": 218,
     "numExportedPropertySetsOrElementQuantities": 235,
     "modelBoundsMax": [

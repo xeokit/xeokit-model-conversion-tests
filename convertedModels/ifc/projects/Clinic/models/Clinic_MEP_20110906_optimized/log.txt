@@ -5,10 +5,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...10906_optimized.ifc"Loading file "/home/lindsay/xe...10906_optimized.ifc": 5%Loading file "/home/lindsay/xe...10906_optimized.ifc": 20%Loading file "/home/lindsay/xe...10906_optimized.ifc": 36%Loading file "/home/lindsay/xe...10906_optimized.ifc": 57%Loading file "/home/lindsay/xe...10906_optimized.ifc": 75%Loading file "/home/lindsay/xe...10906_optimized.ifc": 87%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 6%Converting IFC geometry: 15%Converting IFC geometry: 19%Converting IFC geometry: 24%Converting IFC geometry: 27%Converting IFC geometry: 31%Converting IFC geometry: 35%Converting IFC geometry: 43%Converting IFC geometry: 52%Converting IFC geometry: 59%Converting IFC geometry: 68%Converting IFC geometry: 78%Converting IFC geometry: 89%
+Loading file "/home/lindsay/xe...10906_optimized.ifc"Loading file "/home/lindsay/xe...10906_optimized.ifc": 5%Loading file "/home/lindsay/xe...10906_optimized.ifc": 20%Loading file "/home/lindsay/xe...10906_optimized.ifc": 36%Loading file "/home/lindsay/xe...10906_optimized.ifc": 63%Loading file "/home/lindsay/xe...10906_optimized.ifc": 78%Loading file "/home/lindsay/xe...10906_optimized.ifc": 87%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 1%Converting IFC geometry: 6%Converting IFC geometry: 14%Converting IFC geometry: 18%Converting IFC geometry: 21%Converting IFC geometry: 25%Converting IFC geometry: 28%Converting IFC geometry: 32%Converting IFC geometry: 36%Converting IFC geometry: 43%Converting IFC geometry: 50%Converting IFC geometry: 57%Converting IFC geometry: 62%Converting IFC geometry: 72%Converting IFC geometry: 81%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 53%Exporting to gltf: 57%Exporting to gltf: 63%Exporting to gltf: 69%Exporting to gltf: 74%Exporting to gltf: 78%Exporting to gltf: 80%
-Accessors: 7895, reused: 16669
+Accessors: 8488, reused: 17127
 Exporting meta dataExporting meta data: 75%Exporting meta data: 85%Exporting meta data: 91%Exporting meta data: 100%
 done in 40 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb
-[convert2xkt] Input file size: 18043.45 kB
+[convert2xkt] Input file size: 18374.33 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 15510.30 kB
+[convert2xkt] XKT size: 15533.36 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.16
-[convert2xkt] Conversion time: 21.75 s
+[convert2xkt] Compression ratio: 1.18
+[convert2xkt] Conversion time: 21.89 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 16012
-[convert2xkt] Converted geometries: 18386
+[convert2xkt] Converted drawable objects: 16277
+[convert2xkt] Converted geometries: 18912
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 4576487
-[convert2xkt] Converted vertices: 2805393
+[convert2xkt] Converted triangles: 4589647
+[convert2xkt] Converted vertices: 2813021
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

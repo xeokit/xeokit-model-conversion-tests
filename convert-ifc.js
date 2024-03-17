@@ -107,7 +107,7 @@ const bashScript = [];
             "nodeVersion": "${process.version}",
             "xeokitVersion": "${xeokitVersion}",
             "xeokitConvertVersion": "${xeokitConvertVersion}",
-            "cxConverterVersion": "${cxConvertVersion}"
+            "cxConverterVersion": "${configs.ifc2gltf.version}"
             })`);
 
         const inputBatchDirs = await fs.promises.readdir(inputFilesDir);

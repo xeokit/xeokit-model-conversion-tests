@@ -8,7 +8,7 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...fc/Revit/Duplex.ifc"Loading file "/home/lindsay/xe...fc/Revit/Duplex.ifc": 5%
 Converting IFC geometry
 Exporting to gltf
-Accessors: 286, reused: 340
+Accessors: 309, reused: 353
 Exporting meta data
 done in 1 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Revit/models/Duplex/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Revit/models/Duplex/model.glb
-[convert2xkt] Input file size: 323.14 kB
+[convert2xkt] Input file size: 336.72 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 93.92 kB
+[convert2xkt] XKT size: 98.84 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.44
-[convert2xkt] Conversion time: 0.32 s
+[convert2xkt] Compression ratio: 3.41
+[convert2xkt] Conversion time: 0.33 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 205
-[convert2xkt] Converted geometries: 405
+[convert2xkt] Converted drawable objects: 212
+[convert2xkt] Converted geometries: 423
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 24986
-[convert2xkt] Converted vertices: 14411
+[convert2xkt] Converted triangles: 25408
+[convert2xkt] Converted vertices: 14663
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

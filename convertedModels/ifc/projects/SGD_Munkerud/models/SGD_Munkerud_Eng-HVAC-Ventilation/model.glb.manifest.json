@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Ventilation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:38:23",
+    "conversionDate": "2024-03-17 22:32:16",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Ventilation/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Ventilation/model.json"
     ],
-    "numCreatedGltfMeshes": 400,
+    "numCreatedGltfMeshes": 468,
     "numCreatedMetaObjects": 1288,
     "numExportedPropertySetsOrElementQuantities": 285,
     "modelBoundsMax": [

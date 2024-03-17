@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...xion_28-09-2016.ifc"Loading file "/home/lindsay/xe...xion_28-09-2016.ifc": 5%Loading file "/home/lindsay/xe...xion_28-09-2016.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 30%Converting IFC geometry: 84%
-Exporting to gltfExporting to gltf: 87%
+Converting IFC geometryConverting IFC geometry: 31%Converting IFC geometry: 89%
+Exporting to gltfExporting to gltf: 100%
 Accessors: 2063, reused: 10953
 Exporting meta data
-done in 6 seconds
+done in 5 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 1621.39 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.85
-[convert2xkt] Conversion time: 4.33 s
+[convert2xkt] Conversion time: 4.19 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6042

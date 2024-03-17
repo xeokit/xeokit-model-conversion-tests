@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Schependomlaan/Schependomlaan.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:38:34",
+    "conversionDate": "2024-03-17 22:32:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.json"
     ],
-    "numCreatedGltfMeshes": 6031,
+    "numCreatedGltfMeshes": 6131,
     "numCreatedMetaObjects": 3730,
     "numExportedPropertySetsOrElementQuantities": 18063,
     "modelBoundsMax": [

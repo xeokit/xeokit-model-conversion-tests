@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:18:36",
+    "conversionDate": "2024-03-17 22:09:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json"
     ],
-    "numCreatedGltfMeshes": 5252,
+    "numCreatedGltfMeshes": 5515,
     "numCreatedMetaObjects": 3974,
     "numExportedPropertySetsOrElementQuantities": 30734,
     "modelBoundsMax": [

@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:37:08",
+    "conversionDate": "2024-03-17 22:31:00",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.json"
     ],
-    "numCreatedGltfMeshes": 774,
+    "numCreatedGltfMeshes": 777,
     "numCreatedMetaObjects": 369,
     "numExportedPropertySetsOrElementQuantities": 438,
     "modelBoundsMax": [

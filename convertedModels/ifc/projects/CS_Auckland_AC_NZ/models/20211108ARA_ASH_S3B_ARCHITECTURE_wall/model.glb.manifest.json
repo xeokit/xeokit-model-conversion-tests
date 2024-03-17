@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20211108ARA_ASH_S3B_ARCHITECTURE_wall.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:17:34",
+    "conversionDate": "2024-03-17 22:08:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb"
     ],

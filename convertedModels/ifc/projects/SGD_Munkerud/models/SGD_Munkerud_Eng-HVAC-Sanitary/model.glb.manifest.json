@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Sanitary.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:38:20",
+    "conversionDate": "2024-03-17 22:32:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.json"
     ],
-    "numCreatedGltfMeshes": 844,
+    "numCreatedGltfMeshes": 912,
     "numCreatedMetaObjects": 2338,
     "numExportedPropertySetsOrElementQuantities": 533,
     "modelBoundsMax": [

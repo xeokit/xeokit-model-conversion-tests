@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:36:33",
+    "conversionDate": "2024-03-17 22:30:25",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Nullpunkt/models/ARC_NUL_Nullpunkt_--_E_A/model.glb"
     ],

@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:15:59",
+    "conversionDate": "2024-03-17 22:07:15",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.json"
     ],
-    "numCreatedGltfMeshes": 31968,
+    "numCreatedGltfMeshes": 32155,
     "numCreatedMetaObjects": 15434,
     "numExportedPropertySetsOrElementQuantities": 82114,
     "modelBoundsMax": [

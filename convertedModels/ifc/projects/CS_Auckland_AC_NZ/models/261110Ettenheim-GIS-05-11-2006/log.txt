@@ -7,8 +7,8 @@ __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc"Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 5%Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 35%
-Exporting to gltfExporting to gltf: 50%
-Accessors: 3881, reused: 4609
+Exporting to gltfExporting to gltf: 51%
+Accessors: 3885, reused: 4606
 Exporting meta data
 done in 5 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb
-[convert2xkt] Input file size: 3859.07 kB
+[convert2xkt] Input file size: 3863.51 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 931.90 kB
+[convert2xkt] XKT size: 932.91 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.14
-[convert2xkt] Conversion time: 1.98 s
+[convert2xkt] Conversion time: 2.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3165
 [convert2xkt] Converted geometries: 5320
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 187843
-[convert2xkt] Converted vertices: 109604
+[convert2xkt] Converted triangles: 187842
+[convert2xkt] Converted vertices: 109603
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 7

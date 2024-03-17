@@ -6,9 +6,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.14 ____________
 Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...unkerud_Eng-ELE.ifc"Loading file "/home/lindsay/xe...unkerud_Eng-ELE.ifc": 5%
-Converting IFC geometryConverting IFC geometry: 32%Converting IFC geometry: 61%Converting IFC geometry: 89%
+Converting IFC geometryConverting IFC geometry: 32%Converting IFC geometry: 60%Converting IFC geometry: 88%
 Exporting to gltf
-Accessors: 103, reused: 323
+Accessors: 162, reused: 390
 Exporting meta data
 done in 4 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.glb
-[convert2xkt] Input file size: 376.16 kB
+[convert2xkt] Input file size: 401.44 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 209.89 kB
+[convert2xkt] XKT size: 213.03 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.79
-[convert2xkt] Conversion time: 0.47 s
+[convert2xkt] Compression ratio: 1.88
+[convert2xkt] Conversion time: 0.48 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 373
-[convert2xkt] Converted geometries: 373
+[convert2xkt] Converted drawable objects: 384
+[convert2xkt] Converted geometries: 441
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 60039
-[convert2xkt] Converted vertices: 35444
+[convert2xkt] Converted triangles: 60855
+[convert2xkt] Converted vertices: 35988
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

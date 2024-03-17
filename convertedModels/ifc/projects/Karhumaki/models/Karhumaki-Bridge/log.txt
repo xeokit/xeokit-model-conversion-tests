@@ -8,8 +8,8 @@ Loading input config file: ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 33%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 75%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 18%Converting IFC geometry: 43%Converting IFC geometry: 64%Converting IFC geometry: 70%
 Exporting to gltfExporting to gltf: 50%Exporting to gltf: 60%Exporting to gltf: 65%Exporting to gltf: 77%Exporting to gltf: 87%
-Accessors: 16851, reused: 25176
-Exporting meta dataExporting meta data: 78%Exporting meta data: 84%Exporting meta data: 90%Exporting meta data: 100%
+Accessors: 16856, reused: 25172
+Exporting meta dataExporting meta data: 79%Exporting meta data: 87%Exporting meta data: 93%
 done in 20 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb
-[convert2xkt] Input file size: 26663.43 kB
+[convert2xkt] Input file size: 26671.78 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,17 +27,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 6217.79 kB
+[convert2xkt] XKT size: 6217.92 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.29
-[convert2xkt] Conversion time: 18.77 s
+[convert2xkt] Conversion time: 18.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5954
 [convert2xkt] Converted geometries: 25533
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 3616019
+[convert2xkt] Converted triangles: 3616027
 [convert2xkt] Converted vertices: 1790351
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

@@ -2,14 +2,14 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT10_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.14",
-    "conversionDate": "2024-03-14 02:36:11",
+    "conversionDate": "2024-03-17 22:30:04",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.json"
     ],
-    "numCreatedGltfMeshes": 4902,
+    "numCreatedGltfMeshes": 4923,
     "numCreatedMetaObjects": 4897,
     "numExportedPropertySetsOrElementQuantities": 21477,
     "modelBoundsMax": [
