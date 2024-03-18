@@ -1,48 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
-
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
-
-__ IFC to GLTF converter __ version: 3.0.14 ____________
-Loading input config file: ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...chanical_Piping.ifc"Loading file "/home/lindsay/xe...chanical_Piping.ifc": 5%Loading file "/home/lindsay/xe...chanical_Piping.ifc": 60%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 11%Converting IFC geometry: 18%Converting IFC geometry: 26%Converting IFC geometry: 33%Converting IFC geometry: 62%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 57%Exporting to gltf: 65%
-Accessors: 5451, reused: 11661
-Exporting meta data
-done in 12 seconds
-
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/log.txt
-[convert2xkt] Running convert2xkt v1.1.15-beta-6...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
-[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb.manifest.json...
-[convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb
-[convert2xkt] Input file size: 7969.01 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4583.17 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.74
-[convert2xkt] Conversion time: 7.24 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 8525
-[convert2xkt] Converted geometries: 12282
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1204095
-[convert2xkt] Converted vertices: 628921
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

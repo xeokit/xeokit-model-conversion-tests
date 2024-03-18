@@ -56,6 +56,7 @@ const bashScript = [];
                     fs.mkdirSync(modelOutPath);
                     try {
                         const ifc2gltfCmd = `${configs.ifc2gltf.path}` +
+                            ` -c ${configs.ifc2gltf.options.c}` +
                             ` -i ${ifcInputPath}` +
                             ` -o ${glbOutputPath}` +
                             ` -m ${jsonOutputPath}` +
