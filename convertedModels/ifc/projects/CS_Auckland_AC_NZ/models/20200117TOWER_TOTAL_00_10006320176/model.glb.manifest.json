@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20200117TOWER_TOTAL_00_10006320176.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 21:51:43",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.json"
+    ],
+    "numCreatedGltfMeshes": 7092,
+    "numCreatedMetaObjects": 1217,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        3.9999589905462383,
+        3.999951310926117,
+        122.986954338007
+    ],
+    "modelBoundsMin": [
+        -3.999948990552011,
+        -3.999951310926117,
+        -0.9350001364014418
+    ]
+}

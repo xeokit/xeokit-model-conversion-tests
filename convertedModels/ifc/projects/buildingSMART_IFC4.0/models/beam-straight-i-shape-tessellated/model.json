@@ -1,0 +1,1 @@
+{"id":"IFC4","projectId":"1UFxZ9s9X4Gfv33iw5mP8l","schema":"IFC4","metaObjects":[{"parent":null,"id":"1UFxZ9s9X4Gfv33iw5mP8l","name":"P1","type":"IfcProject"},{"id":"3uvY$5FxrCov51rMJmsbC8","name":"B1","type":"IfcBuilding","parent":"1UFxZ9s9X4Gfv33iw5mP8l"},{"id":"1ZWsZO7155cf7hXsTj4gTi","name":"Beam 1","type":"IfcBeam","parent":"3uvY$5FxrCov51rMJmsbC8"}]}

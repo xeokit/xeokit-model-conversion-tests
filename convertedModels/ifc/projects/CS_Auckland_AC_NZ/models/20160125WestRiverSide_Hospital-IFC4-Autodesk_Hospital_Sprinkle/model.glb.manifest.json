@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 21:48:41",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.json"
+    ],
+    "numCreatedGltfMeshes": 21064,
+    "numCreatedMetaObjects": 13498,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        86.75117600181056,
+        140.26836860932903,
+        191.53760000000003
+    ],
+    "modelBoundsMin": [
+        -11.11357439115104,
+        48.28691885048366,
+        163.66857899999943
+    ]
+}

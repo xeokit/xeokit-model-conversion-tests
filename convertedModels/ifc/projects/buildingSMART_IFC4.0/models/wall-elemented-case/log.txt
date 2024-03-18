@@ -1,0 +1,48 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.22 ____________
+Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...-elemented-case.ifc"Loading file "/home/lindsay/xe...-elemented-case.ifc": 5%Loading file "/home/lindsay/xe...-elemented-case.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 100%
+Accessors: 0, reused: 0
+Exporting metadataExporting metadata: 100%
+done in 1 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/log.txt
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb
+[convert2xkt] Input file size: 0.59 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 0.46 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.28
+[convert2xkt] Conversion time: 0.03 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 0
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 0
+[convert2xkt] Converted vertices: 0
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 0
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

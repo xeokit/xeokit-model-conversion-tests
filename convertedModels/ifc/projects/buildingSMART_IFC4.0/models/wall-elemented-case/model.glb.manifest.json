@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 22:50:20",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.json"
+    ],
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 2,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        39.014399999999995,
+        19.507199999999997,
+        0.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ]
+}

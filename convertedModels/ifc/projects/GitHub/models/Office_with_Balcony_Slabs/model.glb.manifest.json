@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 22:39:23",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json"
+    ],
+    "numCreatedGltfMeshes": 1187,
+    "numCreatedMetaObjects": 281,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        58.5999992370606,
+        45.05,
+        9.9
+    ],
+    "modelBoundsMin": [
+        -0.5,
+        -29.800000316141592,
+        -5.39999995231628
+    ]
+}

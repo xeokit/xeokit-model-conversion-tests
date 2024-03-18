@@ -1,0 +1,48 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+
+__ IFC to GLTF converter __ version: 3.0.22 ____________
+Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 66%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 6%Converting IFC geometry: 18%Converting IFC geometry: 28%Converting IFC geometry: 36%Converting IFC geometry: 45%Converting IFC geometry: 53%Converting IFC geometry: 61%Converting IFC geometry: 69%Converting IFC geometry: 78%Converting IFC geometry: 87%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 51%Exporting to gltf: 56%Exporting to gltf: 59%Exporting to gltf: 62%Exporting to gltf: 65%Exporting to gltf: 69%Exporting to gltf: 72%Exporting to gltf: 75%Exporting to gltf: 78%Exporting to gltf: 81%Exporting to gltf: 84%Exporting to gltf: 87%Exporting to gltf: 100%
+Accessors: 17040, reused: 60034, compression: 22%
+Exporting metadataExporting metadata: 100%
+done in 34 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb
+[convert2xkt] Input file size: 31658.95 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 15836.68 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.00
+[convert2xkt] Conversion time: 33.25 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 60884
+[convert2xkt] Converted geometries: 60884
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 6846760
+[convert2xkt] Converted vertices: 4018351
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

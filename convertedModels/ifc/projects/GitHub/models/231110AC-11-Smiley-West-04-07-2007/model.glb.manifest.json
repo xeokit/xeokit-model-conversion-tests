@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 22:39:17",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.json"
+    ],
+    "numCreatedGltfMeshes": 3028,
+    "numCreatedMetaObjects": 490,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        39.495,
+        21.909999999999997,
+        7.950000000000001
+    ],
+    "modelBoundsMin": [
+        -2.0,
+        -12.999999999999998,
+        -3.1700000000000004
+    ]
+}

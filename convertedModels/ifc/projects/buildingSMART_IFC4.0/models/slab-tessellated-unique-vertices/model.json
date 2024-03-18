@@ -1,0 +1,1 @@
+{"id":"IFC4","projectId":"1j1i_xK_X5Tf3O1Ox2mOxp","schema":"IFC4","metaObjects":[{"parent":null,"id":"1j1i_xK_X5Tf3O1Ox2mOxp","name":"P1","type":"IfcProject"},{"id":"3uvY$5FxrCov51rMJmsbC8","name":"Grasshopper Building","type":"IfcBuilding","parent":"1j1i_xK_X5Tf3O1Ox2mOxp"},{"id":"35DHdKriP6OQIQhodN2chQ","name":"Slab 1","type":"IfcSlab","parent":"3uvY$5FxrCov51rMJmsbC8"}]}

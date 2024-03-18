@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/ST-Demo_Sample_Single_Building_01.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 21:47:43",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Archicad/models/ST-Demo_Sample_Single_Building_01/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Archicad/models/ST-Demo_Sample_Single_Building_01/model.json"
+    ],
+    "numCreatedGltfMeshes": 1218,
+    "numCreatedMetaObjects": 1038,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        66.27457755559632,
+        54.049102136253396,
+        11.550000000000006
+    ],
+    "modelBoundsMin": [
+        -6.574999999999875,
+        -1.760000000000204,
+        -7.299999999999999
+    ]
+}

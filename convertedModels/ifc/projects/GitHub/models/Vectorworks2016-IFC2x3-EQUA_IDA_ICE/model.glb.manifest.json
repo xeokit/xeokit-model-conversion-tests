@@ -1,0 +1,25 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.0.22",
+    "conversionDate": "2024-03-18 22:39:25",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json"
+    ],
+    "numCreatedGltfMeshes": 1678,
+    "numCreatedMetaObjects": 1704,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        16.968877515,
+        19.05,
+        20.235716262
+    ],
+    "modelBoundsMin": [
+        -5.031122485000001,
+        -5.569373559999999,
+        -6.300000000000001
+    ]
+}
