@@ -7,17 +7,17 @@ __ IFC to GLTF converter __ version: 3.0.22 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...gle_Building_01.ifc"Loading file "/home/lindsay/xe...gle_Building_01.ifc": 5%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 39%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 87%Loading file "/home/lindsay/xe...gle_Building_01.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 58%Converting IFC geometry: 79%Converting IFC geometry: 87%Converting IFC geometry: 88%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 51%Exporting to gltf: 81%Exporting to gltf: 100%
-Accessors: 2839, reused: 8396, compression: 25%
+Exporting to gltfExporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 2832, reused: 8407, compression: 25%
 Exporting metadataExporting metadata: 100%
-done in 22 seconds
+done in 21 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb.manifest.json  -o convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb
-[convert2xkt] Input file size: 6325.97 kB
+[convert2xkt] Input file size: 6345.87 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,9 +27,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1455.29 kB
+[convert2xkt] XKT size: 1472.40 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.35
+[convert2xkt] Compression ratio: 4.31
 [convert2xkt] Conversion time: 3.20 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
@@ -37,8 +37,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converted geometries: 9312
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 410378
-[convert2xkt] Converted vertices: 247655
+[convert2xkt] Converted triangles: 410271
+[convert2xkt] Converted vertices: 247635
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

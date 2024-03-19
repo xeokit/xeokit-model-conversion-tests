@@ -5,7 +5,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.22 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc"Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 5%Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 75%Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 100%
+Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc"Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 5%Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 81%Loading file "/home/lindsay/xe...fc/BIM1/BIM1841.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
 Accessors: 3733, reused: 3545, compression: 51%
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 671.34 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.98
-[convert2xkt] Conversion time: 1.55 s
+[convert2xkt] Conversion time: 1.59 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3640

@@ -6,7 +6,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ IFC to GLTF converter __ version: 3.0.22 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...tric_Mechanical.ifc"Loading file "/home/lindsay/xe...tric_Mechanical.ifc": 5%Loading file "/home/lindsay/xe...tric_Mechanical.ifc": 30%Loading file "/home/lindsay/xe...tric_Mechanical.ifc": 72%Loading file "/home/lindsay/xe...tric_Mechanical.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 3%Converting IFC geometry: 5%Converting IFC geometry: 7%Converting IFC geometry: 9%Converting IFC geometry: 13%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 26%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 2%Converting IFC geometry: 4%Converting IFC geometry: 6%Converting IFC geometry: 8%Converting IFC geometry: 10%Converting IFC geometry: 16%Converting IFC geometry: 19%Converting IFC geometry: 22%Converting IFC geometry: 30%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 51%Exporting to gltf: 56%Exporting to gltf: 60%Exporting to gltf: 100%
 Accessors: 9266, reused: 23021, compression: 28%
 Exporting metadataExporting metadata: 100%

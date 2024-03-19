@@ -10,7 +10,7 @@ Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
 Accessors: 701, reused: 781, compression: 47%
 Exporting metadataExporting metadata: 100%
-done in 3 seconds
+done in 2 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_MEP_20110907_optimized/model.glb.manifest.json  -o convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_MEP_20110907_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_MEP_20110907_optimized/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 1146.59 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.57
-[convert2xkt] Conversion time: 1.81 s
+[convert2xkt] Conversion time: 1.74 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 947

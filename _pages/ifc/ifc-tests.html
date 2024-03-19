@@ -65,6 +65,10 @@
                     for (let i = 0, len = data.xktFiles.length; i < len; i++) {
                         filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);
                     }
+                if (data.metaModelFiles)
+                    for (let i = 0, len = data.metaModelFiles.length; i < len; i++) {
+                        filesURLs.push(`${modelPath}/${data.metaModelFiles[i]}`);
+                    }
                 createZip(filesURLs, `${batchId}_${modelId}`);
             })
             .catch(error => {

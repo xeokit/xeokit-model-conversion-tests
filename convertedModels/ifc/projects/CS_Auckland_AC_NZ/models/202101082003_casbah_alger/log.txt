@@ -5,9 +5,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ IFC to GLTF converter __ version: 3.0.22 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...03_casbah_alger.ifc"Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 5%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 60%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 36%Converting IFC geometry: 73%Converting IFC geometry: 78%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 100%
+Loading file "/home/lindsay/xe...03_casbah_alger.ifc"Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 5%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 63%Loading file "/home/lindsay/xe...03_casbah_alger.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 28%Converting IFC geometry: 73%Converting IFC geometry: 78%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 100%
 Accessors: 22824, reused: 21508, compression: 51%
 Exporting metadataExporting metadata: 100%
 done in 16 seconds
@@ -27,10 +27,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3496.32 kB
+[convert2xkt] XKT size: 3496.34 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.21
-[convert2xkt] Conversion time: 8.73 s
+[convert2xkt] Compression ratio: 5.20
+[convert2xkt] Conversion time: 8.91 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3165

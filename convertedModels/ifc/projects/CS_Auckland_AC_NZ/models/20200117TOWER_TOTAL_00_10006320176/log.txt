@@ -8,7 +8,7 @@ Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/lin
 Loading file "/home/lindsay/xe..._00_10006320176.ifc"Loading file "/home/lindsay/xe..._00_10006320176.ifc": 5%Loading file "/home/lindsay/xe..._00_10006320176.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 68%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 91%Exporting to gltf: 100%
-Accessors: 1933, reused: 7028, compression: 21%
+Accessors: 1935, reused: 7028, compression: 21%
 Exporting metadataExporting metadata: 100%
 done in 5 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb
-[convert2xkt] Input file size: 5447.97 kB
+[convert2xkt] Input file size: 5460.31 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,17 +27,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2479.18 kB
+[convert2xkt] XKT size: 2479.40 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.20
-[convert2xkt] Conversion time: 4.03 s
+[convert2xkt] Conversion time: 4.44 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 872
 [convert2xkt] Converted geometries: 7092
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 799651
+[convert2xkt] Converted triangles: 799661
 [convert2xkt] Converted vertices: 413453
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

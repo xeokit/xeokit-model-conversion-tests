@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IFCPlate_Color_Test/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.0.22",
-    "conversionDate": "2024-03-18 22:39:29",
+    "conversionDate": "2024-03-19 12:19:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IFCPlate_Color_Test/models/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01/model.glb"
     ],

@@ -8,7 +8,7 @@ Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/lin
 Loading file "/home/lindsay/xe...8DigitalHub_ARC.ifc"Loading file "/home/lindsay/xe...8DigitalHub_ARC.ifc": 5%Loading file "/home/lindsay/xe...8DigitalHub_ARC.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 46%Converting IFC geometry: 58%Converting IFC geometry: 64%Converting IFC geometry: 75%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 2389, reused: 2987, compression: 44%
+Accessors: 2379, reused: 3001, compression: 44%
 Exporting metadataExporting metadata: 100%
 done in 7 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb
-[convert2xkt] Input file size: 2536.56 kB
+[convert2xkt] Input file size: 2524.00 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 539.08 kB
+[convert2xkt] XKT size: 538.09 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.71
-[convert2xkt] Conversion time: 1.53 s
+[convert2xkt] Compression ratio: 4.69
+[convert2xkt] Conversion time: 1.42 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 768
 [convert2xkt] Converted geometries: 3581
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 187375
-[convert2xkt] Converted vertices: 97826
+[convert2xkt] Converted triangles: 187383
+[convert2xkt] Converted vertices: 97828
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
