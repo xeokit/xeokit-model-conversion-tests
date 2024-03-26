@@ -18,7 +18,7 @@ node --max-old-space-size=18076                         /home/lindsay/xeolabs/xe
 [convert2xkt] XKT size: 18.70 kB
 [convert2xkt] XKT textures size: 17.93kB
 [convert2xkt] Compression ratio: 0.35
-[convert2xkt] Conversion time: 3.98 s
+[convert2xkt] Conversion time: 1.98 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1
