@@ -1,14 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc"Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 5%Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 25%Converting IFC geometry: 78%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 28%Converting IFC geometry: 83%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 3893, reused: 4602, compression: 45%
+Accessors: 3892, reused: 4598, compression: 54%
 Exporting metadataExporting metadata: 100%
 done in 5 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb
-[convert2xkt] Input file size: 3903.82 kB
+[convert2xkt] Input file size: 3900.17 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,7 +27,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 936.01 kB
+[convert2xkt] XKT size: 934.88 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.17
 [convert2xkt] Conversion time: 2.06 s
@@ -37,8 +37,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converted geometries: 5320
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 190140
-[convert2xkt] Converted vertices: 111159
+[convert2xkt] Converted triangles: 190100
+[convert2xkt] Converted vertices: 111132
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 7

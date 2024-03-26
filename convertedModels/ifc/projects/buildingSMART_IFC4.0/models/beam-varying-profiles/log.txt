@@ -1,14 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...arying-profiles.ifc"Loading file "/home/lindsay/xe...arying-profiles.ifc": 5%Loading file "/home/lindsay/xe...arying-profiles.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 4, reused: 0, compression: 100%
+Accessors: 4
 Exporting metadataExporting metadata: 100%
 done in 1 seconds
 

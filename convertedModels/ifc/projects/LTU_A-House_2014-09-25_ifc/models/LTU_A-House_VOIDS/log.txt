@@ -1,23 +1,23 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...U_A-House_VOIDS.ifc"Loading file "/home/lindsay/xe...U_A-House_VOIDS.ifc": 5%Loading file "/home/lindsay/xe...U_A-House_VOIDS.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 51%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 68%Exporting to gltf: 100%
-Accessors: 5921, reused: 15921, compression: 27%
+Converting IFC geometryConverting IFC geometry: 54%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 62%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 100%
+Accessors: 5917, reused: 15925, compression: 72%
 Exporting metadataExporting metadata: 100%
-done in 6 seconds
+done in 7 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb
-[convert2xkt] Input file size: 8092.09 kB
+[convert2xkt] Input file size: 8081.08 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,10 +27,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3666.41 kB
+[convert2xkt] XKT size: 3666.14 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.21
-[convert2xkt] Conversion time: 7.04 s
+[convert2xkt] Compression ratio: 2.20
+[convert2xkt] Conversion time: 6.27 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 16514

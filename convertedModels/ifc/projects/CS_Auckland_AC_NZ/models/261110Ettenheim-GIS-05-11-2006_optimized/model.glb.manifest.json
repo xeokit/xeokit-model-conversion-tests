@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.22",
-    "conversionDate": "2024-03-19 11:54:29",
+    "converterApplicationVersion": "3.0.24",
+    "conversionDate": "2024-03-26 14:38:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb"
     ],

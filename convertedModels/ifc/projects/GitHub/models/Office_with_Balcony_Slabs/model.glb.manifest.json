@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.22",
-    "conversionDate": "2024-03-19 12:19:06",
+    "converterApplicationVersion": "3.0.24",
+    "conversionDate": "2024-03-26 14:44:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb"
     ],

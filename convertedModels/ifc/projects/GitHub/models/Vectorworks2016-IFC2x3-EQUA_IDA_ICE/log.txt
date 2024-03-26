@@ -1,14 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc -o convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb -m convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc -o convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb -m convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb.manifest.json  -o convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc -o convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb -m convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc -o convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb -m convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...x3-EQUA_IDA_ICE.ifc"Loading file "/home/lindsay/xe...x3-EQUA_IDA_ICE.ifc": 5%Loading file "/home/lindsay/xe...x3-EQUA_IDA_ICE.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 51%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 58%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 1290, reused: 1361, compression: 48%
+Accessors: 1294, reused: 1358, compression: 51%
 Exporting metadataExporting metadata: 100%
 done in 3 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb
-[convert2xkt] Input file size: 1169.77 kB
+[convert2xkt] Input file size: 1171.54 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 372.71 kB
+[convert2xkt] XKT size: 375.00 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.14
-[convert2xkt] Conversion time: 0.91 s
+[convert2xkt] Compression ratio: 3.12
+[convert2xkt] Conversion time: 0.84 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 1452
 [convert2xkt] Converted geometries: 1678
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 81095
-[convert2xkt] Converted vertices: 48228
+[convert2xkt] Converted triangles: 81155
+[convert2xkt] Converted vertices: 48258
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

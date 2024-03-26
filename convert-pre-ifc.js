@@ -35,6 +35,7 @@ const bashScript = [];
                 for (const inputFile of inputFiles) {  // foo.ifc, bar.ifc
                     const ext = inputFile.split('.').pop();
                     if (ext !== "ifc") {
+                        console.log(`Skipping file (".ifc" extension expected): ${inputFile}`);
                         continue;
                     }
                     const inputFileName = path.parse(inputFile).name;

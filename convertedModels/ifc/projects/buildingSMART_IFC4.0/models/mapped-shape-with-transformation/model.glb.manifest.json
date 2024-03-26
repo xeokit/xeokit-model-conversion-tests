@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-transformation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.22",
-    "conversionDate": "2024-03-19 12:30:30",
+    "converterApplicationVersion": "3.0.24",
+    "conversionDate": "2024-03-26 14:57:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.glb"
     ],

@@ -1,14 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb.manifest.json  -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc -o convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb -m convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc"Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 5%Loading file "/home/lindsay/xe...IfcOpenHouse2x3.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 21, reused: 32, compression: 39%
+Accessors: 21, reused: 32, compression: 60%
 Exporting metadataExporting metadata: 100%
 done in 1 seconds
 
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 9.66 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.05
-[convert2xkt] Conversion time: 0.08 s
+[convert2xkt] Conversion time: 0.07 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 34

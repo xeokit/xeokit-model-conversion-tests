@@ -1,16 +1,16 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb.manifest.json  -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_22_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb -m convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.22 ____________
+__ IFC to GLTF converter __ version: 3.0.24 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc"Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 5%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 14%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 23%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 36%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 54%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 69%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 84%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 17%Converting IFC geometry: 29%Converting IFC geometry: 38%Converting IFC geometry: 48%Converting IFC geometry: 58%Converting IFC geometry: 67%Converting IFC geometry: 79%Converting IFC geometry: 89%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 54%Exporting to gltf: 59%Exporting to gltf: 66%Exporting to gltf: 71%Exporting to gltf: 75%Exporting to gltf: 80%Exporting to gltf: 100%
-Accessors: 8489, reused: 18501, compression: 31%
-Exporting metadataExporting metadata: 62%Exporting metadata: 77%Exporting metadata: 88%Exporting metadata: 100%
-done in 35 seconds
+Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc"Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 5%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 12%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 18%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 30%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 45%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 63%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 75%Loading file "/home/lindsay/xe...ic_MEP_20110906.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 16%Converting IFC geometry: 29%Converting IFC geometry: 38%Converting IFC geometry: 48%Converting IFC geometry: 58%Converting IFC geometry: 67%Converting IFC geometry: 79%Converting IFC geometry: 89%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 54%Exporting to gltf: 57%Exporting to gltf: 62%Exporting to gltf: 66%Exporting to gltf: 69%Exporting to gltf: 72%Exporting to gltf: 75%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 100%
+Accessors: 8489, reused: 18501, compression: 68%
+Exporting metadataExporting metadata: 63%Exporting metadata: 77%Exporting metadata: 88%Exporting metadata: 100%
+done in 38 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb.manifest.json  -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/log.txt
 [convert2xkt] Running convert2xkt v1.1.15-beta-6...
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 15658.44 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.20
-[convert2xkt] Conversion time: 22.73 s
+[convert2xkt] Conversion time: 22.21 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 16277
