@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20201208DigitalHub_ARC.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.24",
-    "conversionDate": "2024-03-26 14:34:53",
+    "converterApplicationVersion": "3.0.25",
+    "conversionDate": "2024-04-12 15:21:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208DigitalHub_ARC/model.glb"
     ],

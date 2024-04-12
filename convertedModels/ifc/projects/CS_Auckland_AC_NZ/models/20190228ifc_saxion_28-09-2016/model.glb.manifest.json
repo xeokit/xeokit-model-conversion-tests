@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.24",
-    "conversionDate": "2024-03-26 14:31:21",
+    "converterApplicationVersion": "3.0.25",
+    "conversionDate": "2024-04-12 15:18:06",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb"
     ],

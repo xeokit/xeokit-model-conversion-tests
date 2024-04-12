@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/301110FJK-Project-Final.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.24",
-    "conversionDate": "2024-03-26 14:44:42",
+    "converterApplicationVersion": "3.0.25",
+    "conversionDate": "2024-04-12 15:31:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/301110FJK-Project-Final/model.glb"
     ],

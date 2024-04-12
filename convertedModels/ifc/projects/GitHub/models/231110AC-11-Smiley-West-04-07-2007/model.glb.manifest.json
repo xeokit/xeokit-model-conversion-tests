@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.0.24",
-    "conversionDate": "2024-03-26 14:44:38",
+    "converterApplicationVersion": "3.0.25",
+    "conversionDate": "2024-04-12 15:31:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.glb"
     ],

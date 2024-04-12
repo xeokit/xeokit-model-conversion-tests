@@ -1,19 +1,19 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_25_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_24_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_25_beta/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 25 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-__ IFC to GLTF converter __ version: 3.0.24 ____________
+__ IFC to GLTF converter __ version: 3.0.25 ____________
 Loading input config file: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_0_14_beta/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc"Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 5%Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 81%Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 27%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 63%Exporting to gltf: 100%
+Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc"Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 5%Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 84%Loading file "/home/lindsay/xe...nic/Clinic_HVAC.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 18%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 62%Exporting to gltf: 100%
 Accessors: 2746, reused: 5015, compression: 64%
 Exporting metadataExporting metadata: 100%
-done in 4 seconds
+done in 5 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
-[convert2xkt] Running convert2xkt v1.1.15-beta-6...
+[convert2xkt] Running convert2xkt v1.1.15-beta-8...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 1741.13 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.59
-[convert2xkt] Conversion time: 2.94 s
+[convert2xkt] Conversion time: 2.93 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3730
