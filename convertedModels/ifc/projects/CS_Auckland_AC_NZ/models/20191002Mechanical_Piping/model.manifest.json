@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:36:31",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json"
+    ],
+    "numCreatedGltfMeshes": 12282,
+    "numCreatedMetaObjects": 8534,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        78.26218609304921,
+        37.59027430769751,
+        12.346223464168462
+    ],
+    "modelBoundsMin": [
+        0.4797753912208549,
+        -0.050000000000007816,
+        -0.3164000000000051
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

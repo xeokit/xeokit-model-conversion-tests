@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:32:44",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.json"
+    ],
+    "numCreatedGltfMeshes": 1203,
+    "numCreatedMetaObjects": 307,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        1842038.6794568275,
+        5173320.675941546,
+        171.0619067530708
+    ],
+    "modelBoundsMin": [
+        1842005.901983272,
+        5173283.019763579,
+        166.5499999999999
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

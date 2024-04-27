@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 04:01:10",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json"
+    ],
+    "numCreatedGltfMeshes": 5978,
+    "numCreatedMetaObjects": 3730,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        22.949999869575,
+        23.46500000001,
+        13.356488444660002
+    ],
+    "modelBoundsMin": [
+        -1.0,
+        -1.0,
+        -1.7000000000000002
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

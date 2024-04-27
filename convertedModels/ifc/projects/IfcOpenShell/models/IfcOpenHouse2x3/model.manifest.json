@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:50:35",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.json"
+    ],
+    "numCreatedGltfMeshes": 38,
+    "numCreatedMetaObjects": 44,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        10.0,
+        10.0,
+        5.780001370540001
+    ],
+    "modelBoundsMin": [
+        -10.0,
+        -10.0,
+        -8.13
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

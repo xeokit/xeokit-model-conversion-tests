@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-straight-i-shape-tessellated.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 04:01:27",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-straight-i-shape-tessellated/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-straight-i-shape-tessellated/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.109999999403954,
+        10.0,
+        0.300000011920929
+    ],
+    "modelBoundsMin": [
+        -0.109999999403954,
+        0.0,
+        -0.300000011920929
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC_VERSION_UNDEFINED"
+    ],
+    "warnings": [],
+    "errors": []
+}

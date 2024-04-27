@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:35:39",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.json"
+    ],
+    "numCreatedGltfMeshes": 23686,
+    "numCreatedMetaObjects": 19684,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        85.41652552674928,
+        138.54377548001614,
+        201.17429881780004
+    ],
+    "modelBoundsMin": [
+        -10.492085567748646,
+        49.86431759099892,
+        166.6377988178
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

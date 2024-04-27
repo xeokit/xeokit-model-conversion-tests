@@ -1,0 +1,31 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_MEP_20110906_optimized.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:43:42",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.glb",
+        "convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_MEP_20110906_optimized/model.json"
+    ],
+    "numCreatedGltfMeshes": 18912,
+    "numCreatedMetaObjects": 16545,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.4347990361710643,
+        57.96081873996162,
+        13.250000000004665
+    ],
+    "modelBoundsMin": [
+        -54.84206622129499,
+        -8.62785591446373,
+        -0.684137500000011
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

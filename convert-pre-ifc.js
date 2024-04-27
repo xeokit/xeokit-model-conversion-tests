@@ -45,7 +45,7 @@ const bashScript = [];
                     const glbOutputPath = path.join(modelOutPath, `model.glb`);
                     const jsonOutputPath = path.join(modelOutPath, `model.json`);
                     const logPath = path.join(modelOutPath, `log.txt`);
-                    const jsonManifestPath = path.join(modelOutPath, `model.glb.manifest.json`);
+                    const jsonManifestPath = path.join(modelOutPath, `model.manifest.json`);
                     const xktManifestPath = path.join(modelOutPath, `model.xkt.manifest.json`);
                     if (fs.existsSync(convertedModelDir)) {
                         fs.rmSync(convertedModelDir, {recursive: true, force: true});

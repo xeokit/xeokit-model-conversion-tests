@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_HVAC.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:43:34",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json"
+    ],
+    "numCreatedGltfMeshes": 5515,
+    "numCreatedMetaObjects": 3974,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.6985443840308179,
+        56.80907761493462,
+        11.25
+    ],
+    "modelBoundsMin": [
+        -52.01300000000081,
+        -9.554161741302561,
+        -1.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

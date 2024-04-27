@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:33:16",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.json"
+    ],
+    "numCreatedGltfMeshes": 2187,
+    "numCreatedMetaObjects": 1291,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        210.09271183441706,
+        173.16578129139356,
+        189.58680000000004
+    ],
+    "modelBoundsMin": [
+        129.56594595053838,
+        42.59400096833012,
+        163.98360000000002
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

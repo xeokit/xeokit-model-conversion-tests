@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Revit/rac.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:57:40",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Revit/models/rac/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Revit/models/rac/model.json"
+    ],
+    "numCreatedGltfMeshes": 2098,
+    "numCreatedMetaObjects": 471,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        39.53875559670054,
+        11.190302167557164,
+        17.20611061773285
+    ],
+    "modelBoundsMin": [
+        -55.26886149685217,
+        -76.0116852892945,
+        -7.102
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4"
+    ],
+    "warnings": [],
+    "errors": []
+}

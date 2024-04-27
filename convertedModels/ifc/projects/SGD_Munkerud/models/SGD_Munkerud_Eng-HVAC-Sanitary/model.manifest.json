@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Sanitary.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 03:59:32",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.json"
+    ],
+    "numCreatedGltfMeshes": 912,
+    "numCreatedMetaObjects": 2338,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        22.983458136930324,
+        6.660399089696393,
+        7.923000038166911
+    ],
+    "modelBoundsMin": [
+        5.1487315988540665,
+        4.892487533569342,
+        -3.9195120856026415
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X2"
+    ],
+    "warnings": [],
+    "errors": []
+}

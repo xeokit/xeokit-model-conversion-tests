@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-transformation.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.2",
+    "conversionDate": "2024-04-27 04:01:35",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        1.3535533905932737,
+        0.35355339059327373,
+        2.0
+    ],
+    "modelBoundsMin": [
+        0.6464466094067263,
+        -0.35355339059327373,
+        0.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4"
+    ],
+    "warnings": [],
+    "errors": []
+}
