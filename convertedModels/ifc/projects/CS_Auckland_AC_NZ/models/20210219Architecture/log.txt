@@ -1,0 +1,49 @@
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.json -s 100 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/log.txt
+
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.json -s 100 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 3.4 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...219Architecture.ifc"Loading file "/home/lindsay/xe...219Architecture.ifc": 5%Loading file "/home/lindsay/xe...219Architecture.ifc": 21%Loading file "/home/lindsay/xe...219Architecture.ifc": 45%Loading file "/home/lindsay/xe...219Architecture.ifc": 69%Loading file "/home/lindsay/xe...219Architecture.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 17%Converting IFC geometry: 19%Converting IFC geometry: 21%Converting IFC geometry: 23%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 33%Converting IFC geometry: 40%Converting IFC geometry: 42%Converting IFC geometry: 45%Converting IFC geometry: 50%Converting IFC geometry: 55%Converting IFC geometry: 58%Converting IFC geometry: 60%Converting IFC geometry: 70%Converting IFC geometry: 72%Converting IFC geometry: 82%Converting IFC geometry: 86%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 54%Exporting to gltf: 60%Exporting to gltf: 68%Exporting to gltf: 71%Exporting to gltf: 77%Exporting to gltf: 80%Exporting to gltf: 86%Exporting to gltf: 100%
+Accessors: 8991, reused: 30838, compression: 77%
+Exporting metadataExporting metadata: 76%Exporting metadata: 100%done in 1 minute, 7 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/log.txt
+[convert2xkt] Running convert2xkt v1.1.17...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 19395.04 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 28336.90 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.68
+[convert2xkt] Conversion time: 31.99 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 15435
+[convert2xkt] Converted geometries: 33732
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 4795470
+[convert2xkt] Converted vertices: 2818923
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

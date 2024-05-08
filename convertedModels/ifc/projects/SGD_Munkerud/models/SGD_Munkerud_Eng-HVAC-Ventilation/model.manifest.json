@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Ventilation.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 18:11:41",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Ventilation/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Ventilation/model.json"
+    ],
+    "numCreatedGltfMeshes": 468,
+    "numCreatedMetaObjects": 1288,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        17.033500842375794,
+        11.17694509151578,
+        8.823
+    ],
+    "modelBoundsMin": [
+        -0.7035028820037859,
+        2.7823642807009996,
+        -0.7040002414884245
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/BIM2/bim1840.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 17:46:15",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/BIM2/models/bim1840/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/BIM2/models/bim1840/model.json"
+    ],
+    "numCreatedGltfMeshes": 456,
+    "numCreatedMetaObjects": 461,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        68.9998,
+        255.0277,
+        6.8061
+    ],
+    "modelBoundsMin": [
+        4.627699999999997,
+        184.01859999999996,
+        -0.29600000000000026
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

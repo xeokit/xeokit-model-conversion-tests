@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 18:09:51",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Nullpunkt/models/ARC_NUL_Nullpunkt_--_E_A/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Nullpunkt/models/ARC_NUL_Nullpunkt_--_E_A/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 6,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        77.0,
+        9.0,
+        1.0
+    ],
+    "modelBoundsMin": [
+        -9.0,
+        -39.0,
+        0.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

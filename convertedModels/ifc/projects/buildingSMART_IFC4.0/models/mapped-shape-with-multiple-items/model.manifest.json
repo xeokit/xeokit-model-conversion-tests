@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-multiple-items.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 18:13:18",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-multiple-items/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-multiple-items/model.json"
+    ],
+    "numCreatedGltfMeshes": 4,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2.353553390593274,
+        1.3535533905932737,
+        2.0
+    ],
+    "modelBoundsMin": [
+        0.646446609406726,
+        -0.35355339059327373,
+        0.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

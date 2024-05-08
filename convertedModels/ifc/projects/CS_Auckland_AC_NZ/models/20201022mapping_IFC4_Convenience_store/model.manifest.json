@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 17:51:15",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.json"
+    ],
+    "numCreatedGltfMeshes": 5131,
+    "numCreatedMetaObjects": 5090,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        39.75499999998144,
+        17.20000000013114,
+        6.200000000000001
+    ],
+    "modelBoundsMin": [
+        -4.019559870267024,
+        -2.5749999998950557,
+        -7.9
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

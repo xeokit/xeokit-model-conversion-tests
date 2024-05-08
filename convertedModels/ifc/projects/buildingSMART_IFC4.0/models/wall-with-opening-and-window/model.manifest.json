@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.4",
+    "conversionDate": "2024-05-08 18:13:29",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.json"
+    ],
+    "numCreatedGltfMeshes": 2,
+    "numCreatedMetaObjects": 6,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        3.0,
+        0.3,
+        2.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}
