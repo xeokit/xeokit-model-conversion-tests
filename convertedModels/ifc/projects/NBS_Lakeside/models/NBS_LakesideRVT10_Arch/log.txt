@@ -5,10 +5,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc"Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 5%Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 75%Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 100%
+Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc"Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 5%Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 45%Loading file "/home/lindsay/xe...esideRVT10_Arch.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 7%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 86%Exporting to gltf: 100%
-Accessors: 4569, reused: 4634, compression: 50%
+Exporting to gltfExporting to gltf: 87%Exporting to gltf: 100%
+Accessors: 4571, reused: 4632, compression: 50%
 Exporting metadataExporting metadata: 100%
 done in 5 seconds
 
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 7688.46 kB
+[convert2xkt] Input file size: 7689.97 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,10 +29,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 2932.42 kB
+[convert2xkt] XKT size: 2932.44 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.62
-[convert2xkt] Conversion time: 4.49 s
+[convert2xkt] Conversion time: 4.53 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4898

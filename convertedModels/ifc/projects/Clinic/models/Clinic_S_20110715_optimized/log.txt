@@ -10,7 +10,7 @@ Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
 Accessors: 1196, reused: 1032, compression: 46%
 Exporting metadataExporting metadata: 100%
-done in 2 seconds
+done in 3 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_S_20110715_optimized/log.txt
 [convert2xkt] Running convert2xkt v1.1.17...

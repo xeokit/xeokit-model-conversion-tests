@@ -5,12 +5,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...VAC-Ventilation.ifc"Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 5%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 60%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 32%Converting IFC geometry: 57%Converting IFC geometry: 84%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...VAC-Ventilation.ifc"Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 5%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 63%Loading file "/home/lindsay/xe...VAC-Ventilation.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 1%Converting IFC geometry: 36%Converting IFC geometry: 62%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
 Accessors: 2276, reused: 3801, compression: 62%
 Exporting metadataExporting metadata: 100%
-done in 8 seconds
+done in 7 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.manifest.json  -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/log.txt
 [convert2xkt] Running convert2xkt v1.1.17...
@@ -32,7 +32,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 749.18 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 3.42
-[convert2xkt] Conversion time: 1.62 s
+[convert2xkt] Conversion time: 1.60 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 3914

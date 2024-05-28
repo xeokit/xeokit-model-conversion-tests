@@ -86,7 +86,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 714.48 kB
+[convert2xkt] Input file size: 715.72 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -97,18 +97,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 307.92 kB
+[convert2xkt] XKT size: 307.90 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.32
-[convert2xkt] Conversion time: 0.60 s
+[convert2xkt] Conversion time: 0.58 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 921
 [convert2xkt] Converted geometries: 912
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 80663
-[convert2xkt] Converted vertices: 45952
+[convert2xkt] Converted triangles: 80707
+[convert2xkt] Converted vertices: 45951
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

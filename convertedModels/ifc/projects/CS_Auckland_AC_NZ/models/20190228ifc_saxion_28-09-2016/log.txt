@@ -6,9 +6,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...xion_28-09-2016.ifc"Loading file "/home/lindsay/xe...xion_28-09-2016.ifc": 5%Loading file "/home/lindsay/xe...xion_28-09-2016.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 69%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 84%Exporting to gltf: 100%
-Accessors: 2385, reused: 10955, compression: 82%
+Converting IFC geometryConverting IFC geometry: 56%Converting IFC geometry: 84%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 74%Exporting to gltf: 100%
+Accessors: 2387, reused: 10954, compression: 82%
 Exporting metadataExporting metadata: 100%
 done in 6 seconds
 
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4848.28 kB
+[convert2xkt] Input file size: 4849.40 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,17 +29,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1656.03 kB
+[convert2xkt] XKT size: 1655.76 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.93
-[convert2xkt] Conversion time: 4.11 s
+[convert2xkt] Conversion time: 3.95 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 6558
 [convert2xkt] Converted geometries: 11400
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 809595
+[convert2xkt] Converted triangles: 809597
 [convert2xkt] Converted vertices: 422128
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

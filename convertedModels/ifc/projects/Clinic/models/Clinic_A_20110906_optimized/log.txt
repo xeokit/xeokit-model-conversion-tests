@@ -10,7 +10,7 @@ Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
 Accessors: 6272, reused: 3311, compression: 34%
 Exporting metadataExporting metadata: 100%
-done in 2 seconds
+done in 3 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_A_20110906_optimized/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_A_20110906_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_A_20110906_optimized/log.txt
 [convert2xkt] Running convert2xkt v1.1.17...
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Clinic/models/Clinic_A_20110906_optimized/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Clinic/models/Clinic_A_20110906_optimized/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4516.99 kB
+[convert2xkt] Input file size: 4517.00 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,10 +29,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 798.16 kB
+[convert2xkt] XKT size: 798.14 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.66
-[convert2xkt] Conversion time: 1.93 s
+[convert2xkt] Conversion time: 1.99 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2897

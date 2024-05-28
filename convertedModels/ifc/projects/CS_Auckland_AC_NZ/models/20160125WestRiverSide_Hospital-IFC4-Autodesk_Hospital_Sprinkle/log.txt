@@ -5,9 +5,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...spital_Sprinkle.ifc"Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 5%Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 87%Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 100%
+Loading file "/home/lindsay/xe...spital_Sprinkle.ifc"Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 5%Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 81%Loading file "/home/lindsay/xe...spital_Sprinkle.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 36%Converting IFC geometry: 49%Converting IFC geometry: 60%Converting IFC geometry: 72%Converting IFC geometry: 83%Converting IFC geometry: 88%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 54%Exporting to gltf: 59%Exporting to gltf: 63%Exporting to gltf: 100%
+Exporting to gltfExporting to gltf: 56%Exporting to gltf: 60%Exporting to gltf: 65%Exporting to gltf: 100%
 Accessors: 3328, reused: 20617, compression: 86%
 Exporting metadataExporting metadata: 100%
 done in 13 seconds
@@ -32,7 +32,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 5291.89 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.79
-[convert2xkt] Conversion time: 10.13 s
+[convert2xkt] Conversion time: 10.21 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 13499

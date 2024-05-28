@@ -5,12 +5,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc"Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 5%Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 75%Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 5%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc"Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 5%Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 22%Loading file "/home/lindsay/xe...kesideVW00_Arch.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 5%Converting IFC geometry: 88%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 86%Exporting to gltf: 100%
 Accessors: 4906, reused: 4643, compression: 48%
 Exporting metadataExporting metadata: 100%
-done in 5 seconds
+done in 6 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideVW00_Arch/model.manifest.json  -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideVW00_Arch/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideVW00_Arch/log.txt
 [convert2xkt] Running convert2xkt v1.1.17...
@@ -29,10 +29,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3066.55 kB
+[convert2xkt] XKT size: 3066.56 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.58
-[convert2xkt] Conversion time: 4.58 s
+[convert2xkt] Conversion time: 4.75 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4908

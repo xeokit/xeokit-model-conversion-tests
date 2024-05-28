@@ -60,7 +60,9 @@
 
             })
             .then(data => {
-                const filesURLs = [manifestPath];
+                const filesURLs = [
+                    manifestPath
+                ];
                 if (data.xktFiles)
                     for (let i = 0, len = data.xktFiles.length; i < len; i++) {
                         filesURLs.push(`${modelPath}/${data.xktFiles[i]}`);

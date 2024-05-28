@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-08 18:08:36",
+    "conversionDate": "2024-05-28 15:31:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb"
     ],

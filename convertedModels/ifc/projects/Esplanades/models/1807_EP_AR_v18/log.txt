@@ -8,7 +8,7 @@ Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxcon
 Loading file "/home/lindsay/xe.../1807_EP_AR_v18.ifc"Loading file "/home/lindsay/xe.../1807_EP_AR_v18.ifc": 5%Loading file "/home/lindsay/xe.../1807_EP_AR_v18.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 33%Converting IFC geometry: 66%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 2481, reused: 9361, compression: 79%
+Accessors: 2479, reused: 9364, compression: 79%
 Exporting metadataExporting metadata: 100%
 done in 5 seconds
 
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4245.31 kB
+[convert2xkt] Input file size: 4242.07 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,17 +29,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 844.41 kB
+[convert2xkt] XKT size: 844.22 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.03
-[convert2xkt] Conversion time: 1.89 s
+[convert2xkt] Compression ratio: 5.02
+[convert2xkt] Conversion time: 1.90 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 2261
 [convert2xkt] Converted geometries: 10718
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 173775
+[convert2xkt] Converted triangles: 173777
 [convert2xkt] Converted vertices: 111553
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

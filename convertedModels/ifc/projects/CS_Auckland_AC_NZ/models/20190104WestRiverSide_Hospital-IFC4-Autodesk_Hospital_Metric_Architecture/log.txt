@@ -5,10 +5,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...ic_Architecture.ifc"Loading file "/home/lindsay/xe...ic_Architecture.ifc": 5%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 30%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 72%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 100%
+Loading file "/home/lindsay/xe...ic_Architecture.ifc"Loading file "/home/lindsay/xe...ic_Architecture.ifc": 5%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 30%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 69%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 20%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 32%Converting IFC geometry: 39%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 49%Converting IFC geometry: 53%Converting IFC geometry: 56%Converting IFC geometry: 60%Converting IFC geometry: 63%Converting IFC geometry: 68%Converting IFC geometry: 72%Converting IFC geometry: 77%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 56%Exporting to gltf: 62%Exporting to gltf: 69%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 84%Exporting to gltf: 100%
-Accessors: 13799, reused: 29366, compression: 68%
+Accessors: 13800, reused: 29364, compression: 68%
 Exporting metadataExporting metadata: 100%
 done in 55 seconds
 
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 22078.02 kB
+[convert2xkt] Input file size: 22073.90 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,17 +29,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 28627.48 kB
+[convert2xkt] XKT size: 28627.42 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.77
-[convert2xkt] Conversion time: 31.75 s
+[convert2xkt] Conversion time: 32.50 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 14653
 [convert2xkt] Converted geometries: 32074
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 4668973
+[convert2xkt] Converted triangles: 4668968
 [convert2xkt] Converted vertices: 2964107
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

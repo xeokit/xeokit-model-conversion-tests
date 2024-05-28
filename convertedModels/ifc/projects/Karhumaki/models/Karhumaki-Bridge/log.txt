@@ -5,12 +5,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.4 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 39%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 87%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 14%Converting IFC geometry: 20%Converting IFC geometry: 39%Converting IFC geometry: 56%Converting IFC geometry: 76%Converting IFC geometry: 85%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 60%Exporting to gltf: 66%Exporting to gltf: 77%Exporting to gltf: 87%Exporting to gltf: 100%
-Accessors: 18428, reused: 23991, compression: 56%
-Exporting metadataExporting metadata: 68%Exporting metadata: 82%Exporting metadata: 94%Exporting metadata: 100%
-done in 20 seconds
+Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc"Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 5%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 33%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 81%Loading file "/home/lindsay/xe...arhumaki-Bridge.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 14%Converting IFC geometry: 20%Converting IFC geometry: 39%Converting IFC geometry: 55%Converting IFC geometry: 64%Converting IFC geometry: 83%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 60%Exporting to gltf: 65%Exporting to gltf: 75%Exporting to gltf: 86%Exporting to gltf: 87%Exporting to gltf: 100%
+Accessors: 18432, reused: 23987, compression: 56%
+Exporting metadataExporting metadata: 65%Exporting metadata: 78%Exporting metadata: 89%Exporting metadata: 100%
+done in 21 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 [convert2xkt] Running convert2xkt v1.1.17...
@@ -18,7 +18,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 31988.32 kB
+[convert2xkt] Input file size: 31996.51 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,17 +29,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 6798.19 kB
+[convert2xkt] XKT size: 6798.03 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 4.71
-[convert2xkt] Conversion time: 17.83 s
+[convert2xkt] Conversion time: 18.43 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5983
 [convert2xkt] Converted geometries: 25557
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 3729590
+[convert2xkt] Converted triangles: 3729588
 [convert2xkt] Converted vertices: 1741465
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
