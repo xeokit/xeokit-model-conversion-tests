@@ -1,0 +1,1107 @@
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/ThinkProject/maquetteCVC-Tour.ifc -o convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.glb -m convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.manifest.json  -o convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/log.txt
+
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/ThinkProject/maquetteCVC-Tour.ifc -o convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.glb -m convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 3.8 ____________
+-s parameter: adjusting max file size to 10 MByte
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc"Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 5%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 7%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 9%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 11%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 12%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 13%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 15%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 17%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 19%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 20%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 22%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 24%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 30%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 33%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 36%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 39%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 42%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 45%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 48%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 51%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 54%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 57%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 60%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 63%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 66%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 69%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 72%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 75%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 78%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 81%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 84%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 87%Loading file "/home/lindsay/xe...aquetteCVC-Tour.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 44%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 50%Converting IFC geometry: 51%Converting IFC geometry: 52%Converting IFC geometry: 52%Converting IFC geometry: 53%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
+Accessors: 6707, reused: 12192, compression: 64%
+Exporting to gltf: 100%
+Accessors: 5339, reused: 8329, compression: 60%
+Exporting to gltf: 100%
+Accessors: 6152, reused: 9085, compression: 59%
+Exporting to gltf: 100%
+Accessors: 5632, reused: 8473, compression: 60%
+Exporting to gltf: 100%
+Accessors: 6580, reused: 11426, compression: 63%
+Exporting to gltf: 100%
+Accessors: 6251, reused: 7288, compression: 53%
+Exporting to gltf: 100%
+Accessors: 5708, reused: 12096, compression: 67%
+Exporting to gltf: 100%
+Accessors: 5275, reused: 9372, compression: 63%
+Exporting to gltf: 100%
+Accessors: 6281, reused: 9177, compression: 59%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6425, reused: 9254, compression: 59%
+Exporting to gltf: 100%
+Accessors: 5899, reused: 10761, compression: 64%
+Exporting to gltf: 100%
+Accessors: 5504, reused: 10444, compression: 65%
+Exporting to gltf: 100%
+Accessors: 7137, reused: 7885, compression: 52%
+Exporting to gltf: 100%
+Accessors: 5365, reused: 11469, compression: 68%
+Exporting to gltf: 100%
+Accessors: 6440, reused: 9345, compression: 59%
+Exporting to gltf: 100%
+Accessors: 5682, reused: 9666, compression: 62%
+Exporting to gltf: 100%
+Accessors: 5533, reused: 9423, compression: 63%
+Exporting to gltf: 100%
+Accessors: 6243, reused: 10235, compression: 62%
+Exporting to gltf: 100%
+Accessors: 5982, reused: 7363, compression: 55%
+Exporting to gltf: 100%
+Accessors: 5778, reused: 8145, compression: 58%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6473, reused: 11099, compression: 63%
+Exporting to gltf: 100%
+Accessors: 6290, reused: 12120, compression: 65%
+Exporting to gltf: 100%
+Accessors: 5742, reused: 7126, compression: 55%
+Exporting to gltf: 100%
+Accessors: 6044, reused: 10466, compression: 63%
+Exporting to gltf: 100%
+Accessors: 6354, reused: 10482, compression: 62%
+Exporting to gltf: 100%
+Accessors: 5152, reused: 10248, compression: 66%
+Exporting to gltf: 100%
+Accessors: 5831, reused: 10427, compression: 64%
+Exporting to gltf: 100%
+Accessors: 6828, reused: 8185, compression: 54%
+Exporting to gltf: 100%
+Accessors: 6473, reused: 11781, compression: 64%
+Exporting to gltf: 100%
+Accessors: 5603, reused: 9229, compression: 62%
+Exporting to gltf: 100%
+Accessors: 6098, reused: 9650, compression: 61%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 5005, reused: 8362, compression: 62%
+Exporting to gltf: 100%
+Accessors: 6395, reused: 10153, compression: 61%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 4636, reused: 7526, compression: 61%
+Exporting metadatapreparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_1.json
+preparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_2.json
+Exporting metadata: 100%done in 6 minutes, 6 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.manifest.json  -o convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/log.txt
+[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11018.04 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5150.97 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.14
+[convert2xkt] Conversion time: 7.21 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 14193
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1136149
+[convert2xkt] Converted vertices: 605581
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_1.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10730.27 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4547.84 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.36
+[convert2xkt] Conversion time: 6.13 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9973
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 916338
+[convert2xkt] Converted vertices: 486646
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_2.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10806.06 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4803.04 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.25
+[convert2xkt] Conversion time: 6.22 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 10932
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 951615
+[convert2xkt] Converted vertices: 504546
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_3.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10780.17 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4707.87 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.29
+[convert2xkt] Conversion time: 6.03 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9915
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 905814
+[convert2xkt] Converted vertices: 475688
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_3.xkt
+[convert2xkt] Converted model4.xkt (4 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_4.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11049.40 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5369.28 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.06
+[convert2xkt] Conversion time: 6.69 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 13474
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1101426
+[convert2xkt] Converted vertices: 587763
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_4.xkt
+[convert2xkt] Converted model5.xkt (5 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_5.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10687.67 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4379.33 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.44
+[convert2xkt] Conversion time: 5.53 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9136
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 828711
+[convert2xkt] Converted vertices: 435200
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_5.xkt
+[convert2xkt] Converted model6.xkt (6 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_6.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11032.07 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5060.14 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.18
+[convert2xkt] Conversion time: 6.66 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 13817
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1082819
+[convert2xkt] Converted vertices: 584359
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_6.xkt
+[convert2xkt] Converted model7.xkt (7 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_7.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10847.75 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4893.79 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.22
+[convert2xkt] Conversion time: 6.18 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 10949
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1006816
+[convert2xkt] Converted vertices: 530528
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_7.xkt
+[convert2xkt] Converted model8.xkt (8 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_8.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10839.71 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4828.74 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.24
+[convert2xkt] Conversion time: 6.02 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11062
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 965598
+[convert2xkt] Converted vertices: 512339
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_8.xkt
+[convert2xkt] Converted model9.xkt (9 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_9.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10835.11 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4557.43 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.38
+[convert2xkt] Conversion time: 5.83 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11196
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 901717
+[convert2xkt] Converted vertices: 482430
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_9.xkt
+[convert2xkt] Converted model10.xkt (10 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_10.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11004.95 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4734.66 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.32
+[convert2xkt] Conversion time: 6.41 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12422
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1000713
+[convert2xkt] Converted vertices: 535053
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_10.xkt
+[convert2xkt] Converted model11.xkt (11 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_11.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10915.75 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5449.68 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.00
+[convert2xkt] Conversion time: 6.58 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12141
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1076732
+[convert2xkt] Converted vertices: 569827
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_11.xkt
+[convert2xkt] Converted model12.xkt (12 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_12.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10761.34 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4210.08 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.56
+[convert2xkt] Conversion time: 5.49 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 10116
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 822047
+[convert2xkt] Converted vertices: 437646
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_12.xkt
+[convert2xkt] Converted model13.xkt (13 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_13.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11005.19 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5138.16 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.14
+[convert2xkt] Conversion time: 6.65 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 13024
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1068498
+[convert2xkt] Converted vertices: 572018
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_13.xkt
+[convert2xkt] Converted model14.xkt (14 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_14.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10869.31 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4486.54 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.42
+[convert2xkt] Conversion time: 5.91 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11296
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 908217
+[convert2xkt] Converted vertices: 486862
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_14.xkt
+[convert2xkt] Converted model15.xkt (15 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_15.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10831.88 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4678.16 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.32
+[convert2xkt] Conversion time: 6.06 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11309
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 947581
+[convert2xkt] Converted vertices: 504452
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_15.xkt
+[convert2xkt] Converted model16.xkt (16 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_16.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10809.64 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4793.11 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.26
+[convert2xkt] Conversion time: 5.94 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11004
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 980306
+[convert2xkt] Converted vertices: 519437
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_16.xkt
+[convert2xkt] Converted model17.xkt (17 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_17.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10934.94 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4815.70 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.27
+[convert2xkt] Conversion time: 6.36 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12189
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1008880
+[convert2xkt] Converted vertices: 538149
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_17.xkt
+[convert2xkt] Converted model18.xkt (18 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_18.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10693.77 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5150.60 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.08
+[convert2xkt] Conversion time: 6.05 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9066
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 906687
+[convert2xkt] Converted vertices: 474397
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_18.xkt
+[convert2xkt] Converted model19.xkt (19 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_19.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10736.27 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4608.95 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.33
+[convert2xkt] Conversion time: 5.58 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9892
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 905267
+[convert2xkt] Converted vertices: 477440
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_19.xkt
+[convert2xkt] Converted model20.xkt (20 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_20.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10936.35 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5025.56 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.18
+[convert2xkt] Conversion time: 6.42 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 13084
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1057187
+[convert2xkt] Converted vertices: 564483
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_20.xkt
+[convert2xkt] Converted model21.xkt (21 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_21.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11025.80 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4902.52 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.25
+[convert2xkt] Conversion time: 6.73 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 14053
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1055720
+[convert2xkt] Converted vertices: 569691
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_21.xkt
+[convert2xkt] Converted model22.xkt (22 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_22.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10681.99 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4306.22 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.48
+[convert2xkt] Conversion time: 5.33 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 8726
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 805172
+[convert2xkt] Converted vertices: 427829
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_22.xkt
+[convert2xkt] Converted model23.xkt (23 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_23.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10963.02 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5061.79 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.17
+[convert2xkt] Conversion time: 6.43 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12243
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1033742
+[convert2xkt] Converted vertices: 547996
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_23.xkt
+[convert2xkt] Converted model24.xkt (24 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_24.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10950.11 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4961.23 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.21
+[convert2xkt] Conversion time: 6.41 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12508
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1025377
+[convert2xkt] Converted vertices: 548495
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_24.xkt
+[convert2xkt] Converted model25.xkt (25 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_25.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10923.06 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5056.40 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.16
+[convert2xkt] Conversion time: 6.26 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11546
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1022439
+[convert2xkt] Converted vertices: 542050
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_25.xkt
+[convert2xkt] Converted model26.xkt (26 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_26.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10954.80 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4951.75 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.21
+[convert2xkt] Conversion time: 6.28 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12158
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1030805
+[convert2xkt] Converted vertices: 547607
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_26.xkt
+[convert2xkt] Converted model27.xkt (27 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_27.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10771.68 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4372.05 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.46
+[convert2xkt] Conversion time: 5.62 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 10376
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 879385
+[convert2xkt] Converted vertices: 469169
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_27.xkt
+[convert2xkt] Converted model28.xkt (28 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_28.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11062.34 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4955.36 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.23
+[convert2xkt] Conversion time: 6.46 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 13822
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1040585
+[convert2xkt] Converted vertices: 559862
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_28.xkt
+[convert2xkt] Converted model29.xkt (29 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_29.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10821.45 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4982.53 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.17
+[convert2xkt] Conversion time: 6.15 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 10804
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 987868
+[convert2xkt] Converted vertices: 521664
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_29.xkt
+[convert2xkt] Converted model30.xkt (30 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_30.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10860.89 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4867.46 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.23
+[convert2xkt] Conversion time: 6.23 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11495
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1006288
+[convert2xkt] Converted vertices: 534124
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_30.xkt
+[convert2xkt] Converted model31.xkt (31 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_31.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10733.24 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5074.52 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.12
+[convert2xkt] Conversion time: 5.98 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 9655
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 957932
+[convert2xkt] Converted vertices: 503503
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_31.xkt
+[convert2xkt] Converted model32.xkt (32 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_32.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10891.53 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4944.31 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.20
+[convert2xkt] Conversion time: 6.21 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12150
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1018738
+[convert2xkt] Converted vertices: 542369
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_32.xkt
+[convert2xkt] Converted model33.xkt (33 of 34)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_33.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 8679.79 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4506.08 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.93
+[convert2xkt] Conversion time: 5.39 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 8619
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 825044
+[convert2xkt] Converted vertices: 442633
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquetteCVC-Tour/model_33.xkt
+[convert2xkt] Converted model34.xkt (34 of 34)
+[convert2xkt] Done.

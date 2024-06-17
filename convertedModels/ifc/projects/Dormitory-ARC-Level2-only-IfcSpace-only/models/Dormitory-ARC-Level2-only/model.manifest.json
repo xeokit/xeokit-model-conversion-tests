@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Dormitory-ARC-Level2-only-IfcSpace-only/Dormitory-ARC-Level2-only.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:18:56",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:46:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Dormitory-ARC-Level2-only-IfcSpace-only/models/Dormitory-ARC-Level2-only/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 363,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        74.9620050000003,
-        -72.61456099999988,
+        74.962005,
+        -72.6145609999,
         109.14
     ],
     "modelBoundsMin": [
-        40.112004999999996,
-        -88.68907373271519,
-        102.63636363636364
+        40.1120049999,
+        -88.6890737327,
+        102.6363636363
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

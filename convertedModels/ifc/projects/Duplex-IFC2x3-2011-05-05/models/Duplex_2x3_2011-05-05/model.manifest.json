@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Duplex-IFC2x3-2011-05-05/Duplex_2x3_2011-05-05.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:18:59",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:46:49",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-05-05/models/Duplex_2x3_2011-05-05/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 233,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        10.050652030373222,
-        0.8130000000000379,
+        10.0506520303,
+        0.813,
         6.6348
     ],
     "modelBoundsMin": [
-        -1.2506520303732467,
-        -18.613000000000028,
-        -1.5500000000000003
+        -1.2506520303,
+        -18.613,
+        -1.55
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

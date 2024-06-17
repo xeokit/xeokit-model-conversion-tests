@@ -1,0 +1,538 @@
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bexel-Tower1-MEP/Tower_1-MEP.ifc -o convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.glb -m convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.manifest.json  -o convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/log.txt
+
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bexel-Tower1-MEP/Tower_1-MEP.ifc -o convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.glb -m convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 3.8 ____________
+-s parameter: adjusting max file size to 10 MByte
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc"Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 5%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 8%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 12%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 17%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 20%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 24%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 33%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 42%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 51%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 60%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 69%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 78%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 87%Loading file "/home/lindsay/xe...MEP/Tower_1-MEP.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 4%Converting IFC geometry: 5%Converting IFC geometry: 6%Converting IFC geometry: 7%Converting IFC geometry: 8%Converting IFC geometry: 9%Converting IFC geometry: 10%Converting IFC geometry: 12%Converting IFC geometry: 12%Converting IFC geometry: 14%Converting IFC geometry: 15%Converting IFC geometry: 16%Converting IFC geometry: 17%Converting IFC geometry: 19%Converting IFC geometry: 20%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 24%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 31%Converting IFC geometry: 32%Converting IFC geometry: 33%Converting IFC geometry: 34%Converting IFC geometry: 36%Converting IFC geometry: 36%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 40%Converting IFC geometry: 44%Converting IFC geometry: 44%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 52%Converting IFC geometry: 52%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 64%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
+Accessors: 3620, reused: 3266, compression: 47%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3737, reused: 3127, compression: 45%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 5087, reused: 4393, compression: 46%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3026, reused: 2810, compression: 48%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 2611, reused: 2469, compression: 48%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 2952, reused: 2720, compression: 47%
+Exporting to gltf: 56%Exporting to gltf: 100%
+Accessors: 3863, reused: 3619, compression: 48%
+Exporting to gltf: 54%Exporting to gltf: 100%
+Accessors: 3049, reused: 2543, compression: 45%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3749, reused: 3243, compression: 46%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3779, reused: 3271, compression: 46%
+Exporting to gltf: 54%Exporting to gltf: 100%
+Accessors: 4296, reused: 3798, compression: 46%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3623, reused: 2921, compression: 44%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3603, reused: 3041, compression: 45%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3633, reused: 3065, compression: 45%
+Exporting to gltf: 53%Exporting to gltf: 100%
+Accessors: 3488, reused: 2706, compression: 43%
+Exporting to gltf: 100%
+Accessors: 513, reused: 231, compression: 31%
+Exporting metadataExporting metadata: 8%Exporting metadata: 27%Exporting metadata: 47%Exporting metadata: 55%Exporting metadata: 57%Exporting metadata: 59%Exporting metadata: 61%Exporting metadata: 63%Exporting metadata: 65%Exporting metadata: 67%Exporting metadata: 69%Exporting metadata: 71%Exporting metadata: 73%Exporting metadata: 75%Exporting metadata: 77%Exporting metadata: 79%Exporting metadata: 81%Exporting metadata: 83%Exporting metadata: 85%Exporting metadata: 87%Exporting metadata: 89%Exporting metadata: 91%Exporting metadata: 93%preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_1.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_2.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_3.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_4.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_5.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_6.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_7.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_8.json
+preparing metadata file convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_9.json
+Exporting metadata: 100%done in 6 minutes, 36 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.manifest.json  -o convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/log.txt
+[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10284.76 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3351.78 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.07
+[convert2xkt] Conversion time: 7.36 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3443
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1424061
+[convert2xkt] Converted vertices: 637828
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_1.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10269.07 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5130.95 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.00
+[convert2xkt] Conversion time: 6.74 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3432
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1087156
+[convert2xkt] Converted vertices: 558028
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_2.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10392.27 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4140.21 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.51
+[convert2xkt] Conversion time: 6.56 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 4740
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1148945
+[convert2xkt] Converted vertices: 522523
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_3.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10244.18 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 2874.09 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.56
+[convert2xkt] Conversion time: 7.44 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 2918
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1564300
+[convert2xkt] Converted vertices: 712562
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_3.xkt
+[convert2xkt] Converted model4.xkt (4 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_4.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10211.61 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3034.35 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.37
+[convert2xkt] Conversion time: 7.73 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 2540
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1652791
+[convert2xkt] Converted vertices: 728920
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_4.xkt
+[convert2xkt] Converted model5.xkt (5 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_5.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10235.12 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3137.76 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.26
+[convert2xkt] Conversion time: 7.52 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 2836
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1648408
+[convert2xkt] Converted vertices: 711186
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_5.xkt
+[convert2xkt] Converted model6.xkt (6 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_6.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10330.24 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3309.46 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 3.12
+[convert2xkt] Conversion time: 7.38 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3741
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1571011
+[convert2xkt] Converted vertices: 677426
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_6.xkt
+[convert2xkt] Converted model7.xkt (7 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_7.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10225.56 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4101.89 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.49
+[convert2xkt] Conversion time: 6.54 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 2796
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1226700
+[convert2xkt] Converted vertices: 603460
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_7.xkt
+[convert2xkt] Converted model8.xkt (8 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_8.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10282.40 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5524.10 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.86
+[convert2xkt] Conversion time: 6.68 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3496
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1138423
+[convert2xkt] Converted vertices: 585907
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_8.xkt
+[convert2xkt] Converted model9.xkt (9 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_9.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10291.10 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5609.45 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.83
+[convert2xkt] Conversion time: 6.71 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3525
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1140356
+[convert2xkt] Converted vertices: 585138
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_9.xkt
+[convert2xkt] Converted model10.xkt (10 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_10.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10326.97 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5291.58 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.95
+[convert2xkt] Conversion time: 6.69 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 4047
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1131490
+[convert2xkt] Converted vertices: 571356
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_10.xkt
+[convert2xkt] Converted model11.xkt (11 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_11.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10251.48 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5135.29 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.00
+[convert2xkt] Conversion time: 6.23 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3272
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1043444
+[convert2xkt] Converted vertices: 530495
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_11.xkt
+[convert2xkt] Converted model12.xkt (12 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_12.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10263.87 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5759.85 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.78
+[convert2xkt] Conversion time: 6.88 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3322
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1121152
+[convert2xkt] Converted vertices: 572368
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_12.xkt
+[convert2xkt] Converted model13.xkt (13 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_13.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10261.75 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5626.92 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.82
+[convert2xkt] Conversion time: 6.74 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3349
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1119063
+[convert2xkt] Converted vertices: 570815
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_13.xkt
+[convert2xkt] Converted model14.xkt (14 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_14.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10230.53 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 4680.23 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.19
+[convert2xkt] Conversion time: 5.89 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 3097
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1000650
+[convert2xkt] Converted vertices: 507224
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_14.xkt
+[convert2xkt] Converted model15.xkt (15 of 16)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_15.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 2970.64 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 1615.05 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.84
+[convert2xkt] Conversion time: 1.78 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 372
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 263474
+[convert2xkt] Converted vertices: 132812
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Bexel-Tower1-MEP/models/Tower_1-MEP/model_15.xkt
+[convert2xkt] Converted model16.xkt (16 of 16)
+[convert2xkt] Done.

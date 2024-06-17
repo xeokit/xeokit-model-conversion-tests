@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bauhub/KROON_AR_TP.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:34:48",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Bauhub/models/KROON_AR_TP/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Bauhub/models/KROON_AR_TP/model.json"
+    ],
+    "numCreatedGltfMeshes": 23455,
+    "numCreatedMetaObjects": 9375,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        60.6767422533,
+        50.8698120418,
+        11.4220555188
+    ],
+    "modelBoundsMin": [
+        -2.6342717787,
+        0.0,
+        -2.96
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

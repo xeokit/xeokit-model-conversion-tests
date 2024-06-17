@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/BexelRobustness/9ebe2d79-435a-41a8-88c4-2475ea5f6e60_ProVI_Demoprojekt_gesamt.ifc___6.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 13:47:16",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/BexelRobustness/models/9ebe2d79-435a-41a8-88c4-2475ea5f6e60_ProVI_Demoprojekt_gesamt.ifc___6/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/BexelRobustness/models/9ebe2d79-435a-41a8-88c4-2475ea5f6e60_ProVI_Demoprojekt_gesamt.ifc___6/model.json"
+    ],
+    "numCreatedGltfMeshes": 4428,
+    "numCreatedMetaObjects": 4432,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2533966.664710749,
+        5736489.0,
+        21.3853359222
+    ],
+    "modelBoundsMin": [
+        2532639.9325760743,
+        5735425.880447177,
+        19.6241949748
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

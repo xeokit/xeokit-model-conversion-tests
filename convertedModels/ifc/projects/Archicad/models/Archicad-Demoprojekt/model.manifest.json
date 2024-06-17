@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:06:24",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:33:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 5167,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        57.12715685205134,
-        17.076628765644983,
-        13.8445862336048
+        57.127156852,
+        17.0766287656,
+        13.8445862336
     ],
     "modelBoundsMin": [
-        12.367297602942884,
-        -27.683230483463475,
-        -5.299999999999999
+        12.3672976029,
+        -27.6832304834,
+        -5.2999999999
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

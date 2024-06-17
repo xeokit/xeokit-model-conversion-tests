@@ -1,26 +1,27 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20211108ARA_ASH_S3B_ARCHITECTURE_wall.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:15:53",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:43:47",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb"
     ],
     "metadataOutFiles": [
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model_1.json"
     ],
     "numCreatedGltfMeshes": 16952,
     "numCreatedMetaObjects": 17636,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.473400289574883,
-        77.74873327766147,
-        62.50000000007518
+        16.4734002895,
+        77.7487332776,
+        62.5
     ],
     "modelBoundsMin": [
-        -252.75768426739648,
-        -55.759397707494486,
-        7.2499999998496705
+        -252.7576842673,
+        -55.7593977074,
+        7.2499999998
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:10:31",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:38:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb"
     ],
@@ -14,13 +14,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         60.985349,
-        25.536092906674497,
-        15.072000447946502
+        25.5360929066,
+        15.0720004479
     ],
     "modelBoundsMin": [
-        -1.2322133612749013,
-        -20.697791650316248,
-        -0.7301000000000002
+        -1.2322133612,
+        -20.6977916503,
+        -0.7301
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

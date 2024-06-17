@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:07:48",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:36:20",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 2808,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        87.08298005907317,
-        139.46515090236818,
-        192.35494881780002
+        87.082980059,
+        139.4651509023,
+        192.3549488178
     ],
     "modelBoundsMin": [
-        -9.723057909281678,
-        47.21632363414801,
-        164.62198148813243
+        -9.7230579092,
+        47.2163236341,
+        164.6219814881
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Entity with id # 19  not found"
+    ]
 }

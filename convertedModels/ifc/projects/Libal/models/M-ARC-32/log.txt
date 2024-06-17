@@ -1,0 +1,50 @@
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Libal/M-ARC-32.ifc -o convertedModels/ifc/projects/Libal/models/M-ARC-32/model.glb -m convertedModels/ifc/projects/Libal/models/M-ARC-32/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/Libal/models/M-ARC-32/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Libal/models/M-ARC-32/model.manifest.json  -o convertedModels/ifc/projects/Libal/models/M-ARC-32/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Libal/models/M-ARC-32/log.txt
+
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Libal/M-ARC-32.ifc -o convertedModels/ifc/projects/Libal/models/M-ARC-32/model.glb -m convertedModels/ifc/projects/Libal/models/M-ARC-32/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/Libal/models/M-ARC-32/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 3.8 ____________
+-s parameter: adjusting max file size to 10 MByte
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe.../Libal/M-ARC-32.ifc"Loading file "/home/lindsay/xe.../Libal/M-ARC-32.ifc": 5%Loading file "/home/lindsay/xe.../Libal/M-ARC-32.ifc": 72%Loading file "/home/lindsay/xe.../Libal/M-ARC-32.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 2%Converting IFC geometry: 17%Converting IFC geometry: 20%Converting IFC geometry: 27%Converting IFC geometry: 32%Converting IFC geometry: 43%Converting IFC geometry: 48%Converting IFC geometry: 52%Converting IFC geometry: 61%Converting IFC geometry: 66%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 66%Exporting to gltf: 81%Exporting to gltf: 100%
+Accessors: 5637, reused: 19032, compression: 77%
+Exporting metadataExporting metadata: 100%
+done in 54 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Libal/models/M-ARC-32/model.manifest.json  -o convertedModels/ifc/projects/Libal/models/M-ARC-32/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Libal/models/M-ARC-32/log.txt
+[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Libal/models/M-ARC-32/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/Libal/models/M-ARC-32/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 8631.02 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 8327.54 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.04
+[convert2xkt] Conversion time: 11.04 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 20718
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1938647
+[convert2xkt] Converted vertices: 1063157
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Libal/models/M-ARC-32/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

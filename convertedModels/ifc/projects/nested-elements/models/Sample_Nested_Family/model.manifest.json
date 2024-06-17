@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/nested-elements/Sample_Nested_Family.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:34",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/nested-elements/models/Sample_Nested_Family/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/nested-elements/models/Sample_Nested_Family/model.json"
+    ],
+    "numCreatedGltfMeshes": 354,
+    "numCreatedMetaObjects": 454,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        410901.9472026981,
+        1439826.811527427,
+        29.7179998717
+    ],
+    "modelBoundsMin": [
+        410847.9372626163,
+        1439752.824230369,
+        8.545000132
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:33:59",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:00:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 11620,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        68.58000488281252,
-        63.57000122070313,
+        68.5800048828,
+        63.5700012207,
         9.3
     ],
     "modelBoundsMin": [
-        14.960000610351564,
-        8.587867736816406,
-        -1.3150001296263336
+        14.9600006103,
+        8.5878677368,
+        -1.3150001296
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

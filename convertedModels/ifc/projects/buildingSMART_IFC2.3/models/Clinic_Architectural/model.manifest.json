@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Architectural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:34:41",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:01:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 2896,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.1964999999993964,
-        56.519999999999264,
-        13.534963118216996
+        1.1964999999,
+        56.5199999999,
+        13.5349631182
     ],
     "modelBoundsMin": [
-        -53.1950000000007,
-        -10.924161741302562,
-        -1.2191999999999963
+        -53.195,
+        -10.9241617413,
+        -1.2191999999
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

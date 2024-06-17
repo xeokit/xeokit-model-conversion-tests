@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20200117TOWER_TOTAL_00_10006320176.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:10:59",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:39:15",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200117TOWER_TOTAL_00_10006320176/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 1217,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        3.9999589905462383,
-        3.999951310926117,
-        122.986954338007
+        3.9999589905,
+        3.9999513109,
+        122.986954338
     ],
     "modelBoundsMin": [
-        -3.999948990552011,
-        -3.999951310926117,
-        -0.9350001364014418
+        -3.9999489905,
+        -3.9999513109,
+        -0.9350001364
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

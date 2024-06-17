@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bexel_SZP/SZP-Za_prezentaciju_avg_2022.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 13:48:21",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Bexel_SZP/models/SZP-Za_prezentaciju_avg_2022/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Bexel_SZP/models/SZP-Za_prezentaciju_avg_2022/model.json"
+    ],
+    "numCreatedGltfMeshes": 5,
+    "numCreatedMetaObjects": 8,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        7458512.000934111,
+        4961139.191388753,
+        105.0000013038
+    ],
+    "modelBoundsMin": [
+        7458074.308841215,
+        4960862.7504707845,
+        104.40000128
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

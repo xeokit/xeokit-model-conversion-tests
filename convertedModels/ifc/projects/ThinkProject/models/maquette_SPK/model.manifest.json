@@ -1,0 +1,46 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/ThinkProject/maquette_SPK.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 14:25:13",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_1.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_2.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_3.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_4.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_5.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_6.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_7.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_8.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_9.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_10.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_11.glb",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_12.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.json",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_1.json",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_2.json",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_3.json",
+        "convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_4.json"
+    ],
+    "numCreatedGltfMeshes": 203555,
+    "numCreatedMetaObjects": 76080,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        78542.2936653288,
+        76181.333906333,
+        404.7899999999
+    ],
+    "modelBoundsMin": [
+        78334.0329554475,
+        76043.4216445031,
+        310.9927489266
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

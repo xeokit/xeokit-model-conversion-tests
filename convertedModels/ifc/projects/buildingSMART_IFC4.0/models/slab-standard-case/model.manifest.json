@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/slab-standard-case.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:36:04",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb"
     ],
@@ -26,5 +26,7 @@
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Entity with id # 302  not found"
+    ]
 }

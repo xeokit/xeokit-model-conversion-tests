@@ -1,0 +1,33 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 13:32:19",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/models/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0/model.glb",
+        "convertedModels/ifc/projects/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/models/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/models/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0/model.json",
+        "convertedModels/ifc/projects/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/models/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0/model_1.json",
+        "convertedModels/ifc/projects/043d91ca-0a28-4a9d-95f3-c3008f1a0a85/models/9257d260-dc98-4588-a341-2a4320e3a4fc_663a8d67-a573-484b-9582-f4f1966138e0/model_2.json"
+    ],
+    "numCreatedGltfMeshes": 17795,
+    "numCreatedMetaObjects": 17798,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2534013.0224609375,
+        5736489.243455405,
+        30.8024759292
+    ],
+    "modelBoundsMin": [
+        2532639.840607848,
+        5735425.655885865,
+        16.3107130527
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

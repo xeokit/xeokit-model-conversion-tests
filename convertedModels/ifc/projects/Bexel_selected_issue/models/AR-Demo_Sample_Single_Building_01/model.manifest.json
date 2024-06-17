@@ -1,0 +1,32 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bexel_selected_issue/AR-Demo_Sample_Single_Building_01.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 13:48:22",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Bexel_selected_issue/models/AR-Demo_Sample_Single_Building_01/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Bexel_selected_issue/models/AR-Demo_Sample_Single_Building_01/model.json"
+    ],
+    "numCreatedGltfMeshes": 7569,
+    "numCreatedMetaObjects": 6070,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        211.5910597931,
+        98.3637552643,
+        12.4854350067
+    ],
+    "modelBoundsMin": [
+        -107.4742741179,
+        -53.398860385,
+        -7.2791845597
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [
+        "degenerated triangle"
+    ],
+    "errors": []
+}

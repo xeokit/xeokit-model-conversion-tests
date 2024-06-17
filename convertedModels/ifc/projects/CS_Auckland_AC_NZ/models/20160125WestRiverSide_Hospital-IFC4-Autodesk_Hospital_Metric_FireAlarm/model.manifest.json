@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:07:51",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:36:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 875,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        86.7546312001958,
-        137.4778766137916,
-        189.62589881780005
+        86.7546312001,
+        137.4778766137,
+        189.6258988178
     ],
     "modelBoundsMin": [
-        -9.792851958456154,
-        50.11123310332064,
+        -9.7928519584,
+        50.1112331033,
         165.8377988178
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Entity with id # 19  not found"
+    ]
 }

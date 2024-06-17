@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-multiple-items.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:36:00",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-multiple-items/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2.353553390593274,
-        1.3535533905932737,
+        2.3535533905,
+        1.3535533905,
         2.0
     ],
     "modelBoundsMin": [
-        0.646446609406726,
-        -0.35355339059327373,
+        0.6464466094,
+        -0.3535533905,
         0.0
     ],
     "generalMessages": [

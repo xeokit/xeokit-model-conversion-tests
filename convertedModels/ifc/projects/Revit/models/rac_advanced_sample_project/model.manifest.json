@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Revit/rac_advanced_sample_project.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:32:35",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:58:55",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rac_advanced_sample_project/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 5570,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        211.59105979315854,
-        98.36375526433919,
-        12.485435006793569
+        211.5910597931,
+        98.3637552643,
+        12.4854350067
     ],
     "modelBoundsMin": [
-        -107.4742741179745,
-        -53.39886038507491,
-        -1.8288000000000002
+        -107.4742741179,
+        -53.398860385,
+        -1.8288
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

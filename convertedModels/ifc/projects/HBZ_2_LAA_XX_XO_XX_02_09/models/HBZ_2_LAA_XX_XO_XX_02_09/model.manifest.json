@@ -1,0 +1,33 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/HBZ_2_LAA_XX_XO_XX_02_09/HBZ_2_LAA_XX_XO_XX_02_09.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 14:03:23",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/HBZ_2_LAA_XX_XO_XX_02_09/models/HBZ_2_LAA_XX_XO_XX_02_09/model.glb",
+        "convertedModels/ifc/projects/HBZ_2_LAA_XX_XO_XX_02_09/models/HBZ_2_LAA_XX_XO_XX_02_09/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/HBZ_2_LAA_XX_XO_XX_02_09/models/HBZ_2_LAA_XX_XO_XX_02_09/model.json"
+    ],
+    "numCreatedGltfMeshes": 9098,
+    "numCreatedMetaObjects": 396,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        77.6347615529,
+        87.8487847259,
+        12.2649999999
+    ],
+    "modelBoundsMin": [
+        -38.027590157,
+        -9.1314808449,
+        -4.371057
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": [
+        "Entity with id # 54668, 54711  not found"
+    ]
+}

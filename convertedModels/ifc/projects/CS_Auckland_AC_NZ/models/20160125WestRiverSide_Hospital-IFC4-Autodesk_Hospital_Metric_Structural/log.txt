@@ -1,46 +1,45 @@
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.json -s 100 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
 
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.json -s 100 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 3.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_4_beta/Ifc2gltfcxconverter-3.4/linux/bin/ifc2gltfcxconverter.json
+__ Creoox IFC to GLTF converter __ version: 3.9 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...tric_Structural.ifc"Loading file "/home/lindsay/xe...tric_Structural.ifc": 5%Loading file "/home/lindsay/xe...tric_Structural.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 2794, reused: 2850, compression: 50%
+Accessors: 2791, reused: 2853, compression: 50%
 Exporting metadataExporting metadata: 100%
 done in 2 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/log.txt
-[convert2xkt] Running convert2xkt v1.1.17...
+[convert2xkt] Running convert2xkt v1.1.18...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 2808.61 kB
+[convert2xkt] Input file size: 2628.91 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
-[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 774.42 kB
+[convert2xkt] XKT size: 491.68 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.63
-[convert2xkt] Conversion time: 1.90 s
+[convert2xkt] Compression ratio: 5.35
+[convert2xkt] Conversion time: 1.43 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2847
+[convert2xkt] Converted drawable objects: 0
 [convert2xkt] Converted geometries: 4928
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 302913
-[convert2xkt] Converted vertices: 161162
+[convert2xkt] Converted triangles: 152031
+[convert2xkt] Converted vertices: 85722
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

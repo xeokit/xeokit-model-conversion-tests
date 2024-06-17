@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:14:11",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:42:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 15434,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        89.66248878734969,
-        152.88843887307962,
+        89.6624887873,
+        152.888438873,
         39.0144
     ],
     "modelBoundsMin": [
-        -12.788376403050748,
-        -5.060644602643677,
-        -1.2037427908861247
+        -12.788376403,
+        -5.0606446026,
+        -1.2037427908
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "polygonal_halfspace_item_data->meshsets.size() != 1"
+    ]
 }

@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Libal/M-ARC-32.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 14:10:58",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Libal/models/M-ARC-32/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Libal/models/M-ARC-32/model.json"
+    ],
+    "numCreatedGltfMeshes": 20304,
+    "numCreatedMetaObjects": 3618,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        74.702626535,
+        29.2016953856,
+        12.8874242381
+    ],
+    "modelBoundsMin": [
+        -0.8544795362,
+        -0.9471962281,
+        -6.3
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

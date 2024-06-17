@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Bexel_OutOfMemory/06152bb0-a420-4bd3-b621-872f6380f7ac_1_Structural_Works.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 13:48:21",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Bexel_OutOfMemory/models/06152bb0-a420-4bd3-b621-872f6380f7ac_1_Structural_Works/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Bexel_OutOfMemory/models/06152bb0-a420-4bd3-b621-872f6380f7ac_1_Structural_Works/model.json"
+    ],
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 31,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "modelBoundsMin": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

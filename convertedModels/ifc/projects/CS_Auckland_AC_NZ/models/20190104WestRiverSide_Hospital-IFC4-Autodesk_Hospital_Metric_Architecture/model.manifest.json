@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:08:24",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:36:56",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 14652,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        89.710870189439,
-        156.2161025427435,
+        89.7108701894,
+        156.2161025427,
         203.7688
     ],
     "modelBoundsMin": [
-        -12.27247354118046,
-        -0.4656414801338258,
-        164.60745720911387
+        -12.2724735411,
+        -0.4656414801,
+        164.6074572091
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "polygonal_halfspace_item_data->meshsets.size() != 1"
+    ]
 }

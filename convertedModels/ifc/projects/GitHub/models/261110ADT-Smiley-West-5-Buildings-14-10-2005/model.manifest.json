@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/261110ADT-Smiley-West-5-Buildings-14-10-2005.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:22:22",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:50:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/261110ADT-Smiley-West-5-Buildings-14-10-2005/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 487,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.49499999999999,
-        17.180000000000014,
+        39.4949999999,
+        17.18,
         8.41
     ],
     "modelBoundsMin": [
-        -2.000000006785079,
-        -13.000000016731612,
-        -3.1000000000000005
+        -2.0000000067,
+        -13.0000000167,
+        -3.1
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "No plane angle unit definition found in model"
+    ],
     "errors": []
 }

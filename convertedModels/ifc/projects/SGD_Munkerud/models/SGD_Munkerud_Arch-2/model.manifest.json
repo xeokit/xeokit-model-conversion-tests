@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Arch-2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:34:09",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:00:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 558,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.548870910497385,
-        22.13999988007467,
-        8.072659875639433
+        34.5488709104,
+        22.13999988,
+        8.0726598756
     ],
     "modelBoundsMin": [
-        -18.94619755623357,
-        -7.400000119925331,
-        -5.360000000000001
+        -18.9461975562,
+        -7.4000001199,
+        -5.36
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

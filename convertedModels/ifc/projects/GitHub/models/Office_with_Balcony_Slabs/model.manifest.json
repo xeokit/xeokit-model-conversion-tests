@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:22:26",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:50:16",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 281,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        58.5999992370606,
+        58.599999237,
         45.05,
         9.9
     ],
     "modelBoundsMin": [
         -0.5,
-        -29.800000316141592,
-        -5.39999995231628
+        -29.8000003161,
+        -5.3999999523
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/albert-ing/2151_FAR_AR_T1_Architektur.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 14:30:45",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/albert-ing/models/2151_FAR_AR_T1_Architektur/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/albert-ing/models/2151_FAR_AR_T1_Architektur/model.json"
+    ],
+    "numCreatedGltfMeshes": 16757,
+    "numCreatedMetaObjects": 4819,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        32292150.350759223,
+        5629666.853661721,
+        235.5499999999
+    ],
+    "modelBoundsMin": [
+        32292049.74998778,
+        5629499.749987806,
+        201.5499999999
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:33:03",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:59:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
@@ -13,18 +13,21 @@
     "numCreatedMetaObjects": 369,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.3856880708781,
+        34.3856880708,
         10.3084375,
-        8.90133406320728
+        8.9013340632
     ],
     "modelBoundsMin": [
-        20.1470020158289,
+        20.1470020158,
         -8.6915625,
-        -2.3000000000000007
+        -2.3
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "duplicate GUID in model: 0WTvaOfeHAPRlzM3ujhLGn",
+        "duplicate GUID in model: 3uzX3kyDv9gRN9RmdXYQjS"
+    ]
 }

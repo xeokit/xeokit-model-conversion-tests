@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_S_20110715.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:05:40",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:33:31",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_S_20110715/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 1094,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2.7849999999999824,
-        57.140000000000114,
-        13.804972436794184
+        2.7849999999,
+        57.14,
+        13.8049724367
     ],
     "modelBoundsMin": [
-        -52.90000000000006,
-        -19.959503024258694,
+        -52.9,
+        -19.9595030242,
         -2.215
     ],
     "generalMessages": [

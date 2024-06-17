@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:56",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:18",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-straight-rectangle-tessellation/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.074399999999999,
+        11.0743999999,
         7.4168,
         4.2672
     ],
     "modelBoundsMin": [
         10.8712,
         7.2136,
-        1.2191999999999998
+        1.2191999999
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

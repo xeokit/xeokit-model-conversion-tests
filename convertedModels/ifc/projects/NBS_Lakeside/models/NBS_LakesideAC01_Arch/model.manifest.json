@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC01_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:31:29",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:58:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC01_Arch/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         30.628643,
         17.079221,
-        6.2823742000000005
+        6.2823742
     ],
     "modelBoundsMin": [
         -19.463689,
-        -19.47166433581876,
-        -3.6000000000000005
+        -19.4716643358,
+        -3.6
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

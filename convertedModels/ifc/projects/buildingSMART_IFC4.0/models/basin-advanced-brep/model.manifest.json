@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/basin-advanced-brep.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:47",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/basin-advanced-brep/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.437751000006541,
-        0.268843232748677,
+        0.437751,
+        0.2688432327,
         0.0
     ],
     "modelBoundsMin": [
-        -0.457685108750141,
-        -0.15350296491881982,
-        -0.09399999999999911
+        -0.4576851087,
+        -0.1535029649,
+        -0.0939999999
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "degenerated triangle"
+    ],
     "errors": []
 }

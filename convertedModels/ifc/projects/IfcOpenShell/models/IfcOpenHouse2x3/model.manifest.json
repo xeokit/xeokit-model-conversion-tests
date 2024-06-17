@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse2x3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:24:44",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:51:40",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse2x3/model.glb"
     ],
@@ -15,7 +15,7 @@
     "modelBoundsMax": [
         10.0,
         10.0,
-        5.780001370540001
+        5.7800013705
     ],
     "modelBoundsMin": [
         -10.0,

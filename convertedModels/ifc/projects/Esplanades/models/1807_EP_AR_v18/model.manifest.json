@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:19:12",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:47:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         538518.9787610235,
         6591636.17147632,
-        32.268287086534
+        32.2682870865
     ],
     "modelBoundsMin": [
         538445.8610814061,
         6591576.263056778,
-        12.530000000000001
+        12.53
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

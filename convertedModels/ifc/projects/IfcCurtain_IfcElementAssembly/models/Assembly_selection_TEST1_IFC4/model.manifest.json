@@ -1,26 +1,26 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcCurtain_IfcElementAssembly/Assembly_selection_TEST1_IFC4.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:24:43",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:51:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcCurtain_IfcElementAssembly/models/Assembly_selection_TEST1_IFC4/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/IfcCurtain_IfcElementAssembly/models/Assembly_selection_TEST1_IFC4/model.json"
     ],
-    "numCreatedGltfMeshes": 451,
+    "numCreatedGltfMeshes": 614,
     "numCreatedMetaObjects": 536,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        5.138285410353127,
-        11.451592580777966,
-        9.130619332494
+        5.1382854103,
+        11.4515925807,
+        9.1306193324
     ],
     "modelBoundsMin": [
-        -18.74440752056612,
-        -23.708758808629693,
-        -0.4137984548585747
+        -18.7444075205,
+        -23.7087588086,
+        -0.4137984548
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

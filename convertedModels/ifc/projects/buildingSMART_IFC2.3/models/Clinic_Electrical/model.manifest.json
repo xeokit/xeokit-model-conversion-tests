@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:34:46",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:01:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Electrical/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 2390,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.3847624999993613,
-        56.52476249999917,
-        13.25000000000448
+        0.3847624999,
+        56.5247624999,
+        13.25
     ],
     "modelBoundsMin": [
-        -52.200475000000736,
-        -8.627855914463723,
-        -1.2192000000000007
+        -52.200475,
+        -8.6278559144,
+        -1.2192
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

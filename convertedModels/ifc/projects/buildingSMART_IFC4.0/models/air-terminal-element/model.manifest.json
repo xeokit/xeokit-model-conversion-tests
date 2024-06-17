@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:45",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb"
     ],
@@ -13,9 +13,9 @@
     "numCreatedMetaObjects": 4,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.6095999999999999,
-        0.6095999999999999,
-        0.7111999999999999
+        0.6095999999,
+        0.6095999999,
+        0.7111999999
     ],
     "modelBoundsMin": [
         0.0,

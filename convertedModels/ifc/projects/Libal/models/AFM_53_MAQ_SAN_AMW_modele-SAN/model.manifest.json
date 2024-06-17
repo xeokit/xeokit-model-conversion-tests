@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Libal/AFM_53_MAQ_SAN_AMW_modele-SAN.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.8",
+    "conversionDate": "2024-06-14 14:10:46",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Libal/models/AFM_53_MAQ_SAN_AMW_modele-SAN/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Libal/models/AFM_53_MAQ_SAN_AMW_modele-SAN/model.json"
+    ],
+    "numCreatedGltfMeshes": 1955,
+    "numCreatedMetaObjects": 877,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2534182.9811964203,
+        1153123.9388832082,
+        400.8836752222
+    ],
+    "modelBoundsMin": [
+        2534155.034831403,
+        1153091.472908568,
+        389.1836752222
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

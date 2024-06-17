@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:57",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.glb"
     ],
@@ -13,8 +13,8 @@
     "numCreatedMetaObjects": 8,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.014399999999995,
-        19.507199999999997,
+        39.0143999999,
+        19.5071999999,
         4.4196
     ],
     "modelBoundsMin": [
@@ -26,5 +26,7 @@
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Entity with id # 292  not found"
+    ]
 }

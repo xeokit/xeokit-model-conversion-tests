@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/cube-advanced-brep.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:58",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:20",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/cube-advanced-brep/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.683012701892219,
-        0.683012701892219,
+        0.6830127018,
+        0.6830127018,
         1.0
     ],
     "modelBoundsMin": [
-        -0.683012701892219,
-        -0.683012701892219,
+        -0.6830127018,
+        -0.6830127018,
         0.0
     ],
     "generalMessages": [

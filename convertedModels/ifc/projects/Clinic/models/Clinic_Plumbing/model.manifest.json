@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:18:17",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:46:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 6593,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.4347990361710643,
-        57.96081873996155,
-        9.528749999999999
+        0.4347990361,
+        57.9608187399,
+        9.5287499999
     ],
     "modelBoundsMin": [
-        -53.75757441741111,
-        -7.018405914463685,
-        -0.6820279972111987
+        -53.7575744174,
+        -7.0184059144,
+        -0.6820279972
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

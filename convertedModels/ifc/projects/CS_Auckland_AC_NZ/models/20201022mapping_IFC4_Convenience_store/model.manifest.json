@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:12:15",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:40:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 5090,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.75499999998144,
-        17.20000000013114,
-        6.200000000000001
+        39.7549999999,
+        17.2000000001,
+        6.2
     ],
     "modelBoundsMin": [
-        -4.019559870267024,
-        -2.5749999998950557,
+        -4.0195598702,
+        -2.5749999998,
         -7.9
     ],
     "generalMessages": [

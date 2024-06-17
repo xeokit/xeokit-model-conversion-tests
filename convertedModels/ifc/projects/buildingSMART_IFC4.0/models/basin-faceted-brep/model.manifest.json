@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/basin-faceted-brep.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:35:47",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/basin-faceted-brep/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.30348536835108797,
-        0.268706812331913,
+        0.3034853683,
+        0.2687068123,
         0.0
     ],
     "modelBoundsMin": [
-        -0.30489107130749604,
-        -0.153121660363236,
-        -0.09399999999999911
+        -0.3048910713,
+        -0.1531216603,
+        -0.0939999999
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

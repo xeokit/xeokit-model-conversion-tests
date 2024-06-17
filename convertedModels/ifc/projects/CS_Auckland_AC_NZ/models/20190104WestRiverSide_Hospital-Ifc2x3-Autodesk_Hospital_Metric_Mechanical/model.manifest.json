@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:09:53",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:38:03",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 19684,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        85.41652552674928,
-        138.54377548001614,
-        201.17429881780004
+        85.4165255267,
+        138.54377548,
+        201.1742988178
     ],
     "modelBoundsMin": [
-        -10.492085567748646,
-        49.86431759099892,
+        -10.4920855677,
+        49.8643175909,
         166.6377988178
     ],
     "generalMessages": [

@@ -1,0 +1,1011 @@
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/kushal/promodel.ifc -o convertedModels/ifc/projects/kushal/models/promodel/model.glb -m convertedModels/ifc/projects/kushal/models/promodel/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/kushal/models/promodel/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/kushal/models/promodel/model.manifest.json  -o convertedModels/ifc/projects/kushal/models/promodel/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/kushal/models/promodel/log.txt
+
+ /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/kushal/promodel.ifc -o convertedModels/ifc/projects/kushal/models/promodel/model.glb -m convertedModels/ifc/projects/kushal/models/promodel/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/kushal/models/promodel/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 3.8 ____________
+-s parameter: adjusting max file size to 10 MByte
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...kushal/promodel.ifc"Loading file "/home/lindsay/xe...kushal/promodel.ifc": 5%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 9%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 14%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 18%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 23%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 30%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 36%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 42%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 48%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 54%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 60%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 69%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 75%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 84%Loading file "/home/lindsay/xe...kushal/promodel.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 20%Converting IFC geometry: 20%Converting IFC geometry: 21%Converting IFC geometry: 22%Converting IFC geometry: 23%Converting IFC geometry: 24%Converting IFC geometry: 24%Converting IFC geometry: 25%Converting IFC geometry: 26%Converting IFC geometry: 27%Converting IFC geometry: 28%Converting IFC geometry: 28%Converting IFC geometry: 29%Converting IFC geometry: 30%Converting IFC geometry: 31%Converting IFC geometry: 32%Converting IFC geometry: 32%Converting IFC geometry: 33%Converting IFC geometry: 34%Converting IFC geometry: 35%Converting IFC geometry: 36%Converting IFC geometry: 36%Converting IFC geometry: 37%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 40%Converting IFC geometry: 40%Converting IFC geometry: 41%Converting IFC geometry: 42%Converting IFC geometry: 43%Converting IFC geometry: 44%Converting IFC geometry: 44%Converting IFC geometry: 45%Converting IFC geometry: 46%Converting IFC geometry: 47%Converting IFC geometry: 48%Converting IFC geometry: 48%Converting IFC geometry: 49%Converting IFC geometry: 50%Converting IFC geometry: 51%Converting IFC geometry: 52%Converting IFC geometry: 52%Converting IFC geometry: 53%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 75%Converting IFC geometry: 77%Converting IFC geometry: 79%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 100%
+Accessors: 5016, reused: 23108, compression: 82%
+Exporting to gltf: 100%
+Accessors: 5800, reused: 10324, compression: 64%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6775, reused: 15719, compression: 69%
+Exporting to gltf: 100%
+Accessors: 1178, reused: 41514, compression: 97%
+Exporting to gltf: 100%
+Accessors: 4695, reused: 19456, compression: 80%
+Exporting to gltf: 100%
+Accessors: 6132, reused: 12572, compression: 67%
+Exporting to gltf: 100%
+Accessors: 4845, reused: 17486, compression: 78%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6512, reused: 24912, compression: 79%
+Exporting to gltf: 100%
+Accessors: 1898, reused: 35148, compression: 94%
+Exporting to gltf: 100%
+Accessors: 5537, reused: 23706, compression: 81%
+Exporting to gltf: 100%
+Accessors: 5724, reused: 16331, compression: 74%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 5385, reused: 15503, compression: 74%
+Exporting to gltf: 100%
+Accessors: 4460, reused: 39164, compression: 89%
+Exporting to gltf: 100%
+Accessors: 5503, reused: 20147, compression: 78%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 5611, reused: 11119, compression: 66%
+Exporting to gltf: 100%
+Accessors: 5505, reused: 15348, compression: 73%
+Exporting to gltf: 100%
+Accessors: 1930, reused: 11628, compression: 85%
+Exporting to gltf: 100%
+Accessors: 4441, reused: 23138, compression: 83%
+Exporting to gltf: 100%
+Accessors: 5287, reused: 19318, compression: 78%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 4818, reused: 14444, compression: 74%
+Exporting to gltf: 100%
+Accessors: 4526, reused: 33780, compression: 88%
+Exporting to gltf: 100%
+Accessors: 3680, reused: 31402, compression: 89%
+Exporting to gltf: 100%
+Accessors: 5098, reused: 22900, compression: 81%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 5301, reused: 11606, compression: 68%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6160, reused: 18463, compression: 74%
+Exporting to gltf: 100%
+Accessors: 2894, reused: 32640, compression: 91%
+Exporting to gltf: 52%Exporting to gltf: 100%
+Accessors: 5393, reused: 26463, compression: 83%
+Exporting to gltf: 100%
+Accessors: 5464, reused: 10611, compression: 66%
+Exporting to gltf: 51%Exporting to gltf: 100%
+Accessors: 6250, reused: 15119, compression: 70%
+Exporting to gltf: 100%
+Accessors: 1995, reused: 39459, compression: 95%
+Exporting to gltf: 52%Exporting to gltf: 100%
+Accessors: 2972, reused: 15861, compression: 84%
+Exporting metadatapreparing metadata file convertedModels/ifc/projects/kushal/models/promodel/model_1.json
+preparing metadata file convertedModels/ifc/projects/kushal/models/promodel/model_2.json
+Exporting metadata: 100%done in 15 minutes, 25 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/kushal/models/promodel/model.manifest.json  -o convertedModels/ifc/projects/kushal/models/promodel/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/kushal/models/promodel/log.txt
+[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/kushal/models/promodel/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10925.28 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 19494.58 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.56
+[convert2xkt] Conversion time: 21.68 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 25236
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3519696
+[convert2xkt] Converted vertices: 1849037
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_1.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10564.68 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5030.46 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.10
+[convert2xkt] Conversion time: 7.24 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11259
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1174453
+[convert2xkt] Converted vertices: 619222
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_2.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10840.10 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 9550.48 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.14
+[convert2xkt] Conversion time: 13.04 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 17311
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2214902
+[convert2xkt] Converted vertices: 1148809
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_3.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11630.91 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 70259.80 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.17
+[convert2xkt] Conversion time: 61.30 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 41943
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 8954964
+[convert2xkt] Converted vertices: 4925712
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_3.xkt
+[convert2xkt] Converted model4.xkt (4 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_4.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11095.96 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 9885.25 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.12
+[convert2xkt] Conversion time: 11.72 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 20636
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2096240
+[convert2xkt] Converted vertices: 1154581
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_4.xkt
+[convert2xkt] Converted model5.xkt (5 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_5.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10483.77 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 13569.03 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.77
+[convert2xkt] Conversion time: 15.49 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 15062
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2396563
+[convert2xkt] Converted vertices: 1238146
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_5.xkt
+[convert2xkt] Converted model6.xkt (6 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_6.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10785.12 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 11120.55 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.97
+[convert2xkt] Conversion time: 13.11 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 18286
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2259630
+[convert2xkt] Converted vertices: 1199559
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_6.xkt
+[convert2xkt] Converted model7.xkt (7 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_7.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10867.80 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 31845.35 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.34
+[convert2xkt] Conversion time: 32.77 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 26206
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 5031712
+[convert2xkt] Converted vertices: 2739833
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_7.xkt
+[convert2xkt] Converted model8.xkt (8 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_8.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10986.09 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 42744.38 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.26
+[convert2xkt] Conversion time: 38.24 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 35734
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 5805201
+[convert2xkt] Converted vertices: 3181338
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_8.xkt
+[convert2xkt] Converted model9.xkt (9 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_9.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11150.20 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 9405.94 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.19
+[convert2xkt] Conversion time: 12.11 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 25920
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2094228
+[convert2xkt] Converted vertices: 1241879
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_9.xkt
+[convert2xkt] Converted model10.xkt (10 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_10.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10713.88 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 8486.39 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.26
+[convert2xkt] Conversion time: 11.31 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 17526
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1975527
+[convert2xkt] Converted vertices: 1045628
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_10.xkt
+[convert2xkt] Converted model11.xkt (11 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_11.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10708.01 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 20595.92 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.52
+[convert2xkt] Conversion time: 21.53 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 16554
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3349725
+[convert2xkt] Converted vertices: 1788939
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_11.xkt
+[convert2xkt] Converted model12.xkt (12 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_12.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11970.99 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 22072.39 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.54
+[convert2xkt] Conversion time: 23.42 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 40671
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 4043363
+[convert2xkt] Converted vertices: 2406687
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_12.xkt
+[convert2xkt] Converted model13.xkt (13 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_13.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10843.75 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 11839.59 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.92
+[convert2xkt] Conversion time: 13.89 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 21271
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2410642
+[convert2xkt] Converted vertices: 1271534
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_13.xkt
+[convert2xkt] Converted model14.xkt (14 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_14.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10550.02 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 7424.28 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.42
+[convert2xkt] Conversion time: 9.84 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12315
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1798375
+[convert2xkt] Converted vertices: 936015
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_14.xkt
+[convert2xkt] Converted model15.xkt (15 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_15.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10630.25 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 23314.31 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.46
+[convert2xkt] Conversion time: 23.81 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 16677
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3590683
+[convert2xkt] Converted vertices: 1933038
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_15.xkt
+[convert2xkt] Converted model16.xkt (16 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_16.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10532.02 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 46782.94 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.23
+[convert2xkt] Conversion time: 39.17 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12375
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 5521657
+[convert2xkt] Converted vertices: 2860886
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_16.xkt
+[convert2xkt] Converted model17.xkt (17 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_17.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11187.36 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 20508.94 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.55
+[convert2xkt] Conversion time: 20.54 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 24975
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3277830
+[convert2xkt] Converted vertices: 1819790
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_17.xkt
+[convert2xkt] Converted model18.xkt (18 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_18.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10822.64 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 6911.89 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.57
+[convert2xkt] Conversion time: 9.63 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 20073
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1811333
+[convert2xkt] Converted vertices: 969542
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_18.xkt
+[convert2xkt] Converted model19.xkt (19 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_19.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10682.31 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 11532.97 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.93
+[convert2xkt] Conversion time: 14.13 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 15620
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2613895
+[convert2xkt] Converted vertices: 1352449
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_19.xkt
+[convert2xkt] Converted model20.xkt (20 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_20.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11170.92 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 64712.30 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.17
+[convert2xkt] Conversion time: 59.70 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 34978
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 8685763
+[convert2xkt] Converted vertices: 4768160
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_20.xkt
+[convert2xkt] Converted model21.xkt (21 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_21.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11383.90 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 10198.87 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.12
+[convert2xkt] Conversion time: 12.31 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 32598
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1969310
+[convert2xkt] Converted vertices: 1193451
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_21.xkt
+[convert2xkt] Converted model22.xkt (22 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_22.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10984.88 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 17669.92 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.62
+[convert2xkt] Conversion time: 19.18 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 24367
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3153157
+[convert2xkt] Converted vertices: 1661932
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_22.xkt
+[convert2xkt] Converted model23.xkt (23 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_23.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10613.04 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 7403.39 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.43
+[convert2xkt] Conversion time: 9.63 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 12641
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1715529
+[convert2xkt] Converted vertices: 895249
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_23.xkt
+[convert2xkt] Converted model24.xkt (24 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_24.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11028.10 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 24002.78 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.46
+[convert2xkt] Conversion time: 24.63 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 19891
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3830380
+[convert2xkt] Converted vertices: 2052166
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_24.xkt
+[convert2xkt] Converted model25.xkt (25 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_25.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11225.45 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 42669.29 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.26
+[convert2xkt] Conversion time: 40.32 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 33453
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 6006697
+[convert2xkt] Converted vertices: 3312274
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_25.xkt
+[convert2xkt] Converted model26.xkt (26 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_26.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11163.57 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 17720.28 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.63
+[convert2xkt] Conversion time: 19.97 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 28379
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 3330049
+[convert2xkt] Converted vertices: 1805053
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_26.xkt
+[convert2xkt] Converted model27.xkt (27 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_27.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10504.21 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 5346.18 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.96
+[convert2xkt] Conversion time: 7.42 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 11522
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1271706
+[convert2xkt] Converted vertices: 684144
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_27.xkt
+[convert2xkt] Converted model28.xkt (28 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_28.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 10722.45 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 10659.90 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 1.01
+[convert2xkt] Conversion time: 13.87 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 16510
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2431631
+[convert2xkt] Converted vertices: 1255087
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_28.xkt
+[convert2xkt] Converted model29.xkt (29 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_29.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 11166.60 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 65202.73 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.17
+[convert2xkt] Conversion time: 55.91 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 39983
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 8354484
+[convert2xkt] Converted vertices: 4594787
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_29.xkt
+[convert2xkt] Converted model30.xkt (30 of 31)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/kushal/models/promodel/model_30.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 7973.27 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 11290.99 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 0.71
+[convert2xkt] Conversion time: 10.96 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted geometries: 16795
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1764801
+[convert2xkt] Converted vertices: 1003835
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/kushal/models/promodel/model_30.xkt
+[convert2xkt] Converted model31.xkt (31 of 31)
+[convert2xkt] Done.

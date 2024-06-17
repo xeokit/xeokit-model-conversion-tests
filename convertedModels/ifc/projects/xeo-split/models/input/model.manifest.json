@@ -1,0 +1,35 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/xeo-split/input.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 21:02:39",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/xeo-split/models/input/model.glb",
+        "convertedModels/ifc/projects/xeo-split/models/input/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/xeo-split/models/input/model.json",
+        "convertedModels/ifc/projects/xeo-split/models/input/model_1.json",
+        "convertedModels/ifc/projects/xeo-split/models/input/model_2.json",
+        "convertedModels/ifc/projects/xeo-split/models/input/model_3.json",
+        "convertedModels/ifc/projects/xeo-split/models/input/model_4.json"
+    ],
+    "numCreatedGltfMeshes": 79408,
+    "numCreatedMetaObjects": 156508,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        410.4,
+        92.4001,
+        44.5
+    ],
+    "modelBoundsMin": [
+        281.5999999999,
+        -0.4,
+        -1.2
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

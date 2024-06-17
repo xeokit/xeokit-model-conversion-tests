@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/0591IFCRohbau_20230922.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.4",
-    "conversionDate": "2024-05-28 15:22:10",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-17 20:50:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/0591IFCRohbau_20230922/model.glb"
     ],
@@ -14,12 +14,12 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         56.2467385829,
-        -48.06103773662,
-        15.409999997287002
+        -48.0610377366,
+        15.4099999972
     ],
     "modelBoundsMin": [
         -44.4982614169,
-        -114.69679475409978,
+        -114.696794754,
         -25.35
     ],
     "generalMessages": [
