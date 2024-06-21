@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...ic_Architecture.ifc"Loading file "/home/lindsay/xe...ic_Architecture.ifc": 5%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 30%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 72%Loading file "/home/lindsay/xe...ic_Architecture.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 20%Converting IFC geometry: 28%Converting IFC geometry: 35%Converting IFC geometry: 40%Converting IFC geometry: 42%Converting IFC geometry: 46%Converting IFC geometry: 49%Converting IFC geometry: 52%Converting IFC geometry: 56%Converting IFC geometry: 60%Converting IFC geometry: 64%Converting IFC geometry: 68%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 56%Exporting to gltf: 62%Exporting to gltf: 69%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 84%Exporting to gltf: 100%
-Accessors: 13805, reused: 29358, compression: 68%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 18%Converting IFC geometry: 20%Converting IFC geometry: 20%Converting IFC geometry: 28%Converting IFC geometry: 35%Converting IFC geometry: 40%Converting IFC geometry: 42%Converting IFC geometry: 46%Converting IFC geometry: 49%Converting IFC geometry: 52%Converting IFC geometry: 56%Converting IFC geometry: 60%Converting IFC geometry: 64%Converting IFC geometry: 68%Converting IFC geometry: 72%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 56%Exporting to gltf: 62%Exporting to gltf: 68%Exporting to gltf: 72%Exporting to gltf: 80%Exporting to gltf: 84%Exporting to gltf: 100%
+Accessors: 13802, reused: 29362, compression: 68%
 Exporting metadataExporting metadata: 100%
-done in 35 seconds
+done in 36 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
 [convert2xkt] Running convert2xkt v1.1.18...
@@ -18,27 +18,28 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 20271.50 kB
+[convert2xkt] Input file size: 20278.58 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 28620.46 kB
+[convert2xkt] XKT size: 28620.21 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 0.71
-[convert2xkt] Conversion time: 31.48 s
+[convert2xkt] Conversion time: 31.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 14653
 [convert2xkt] Converted geometries: 32074
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 4667436
+[convert2xkt] Converted triangles: 4667430
 [convert2xkt] Converted vertices: 2499048
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

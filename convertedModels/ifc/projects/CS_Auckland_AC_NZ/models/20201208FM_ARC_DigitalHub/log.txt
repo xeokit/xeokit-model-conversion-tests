@@ -6,9 +6,9 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe..._ARC_DigitalHub.ifc"Loading file "/home/lindsay/xe..._ARC_DigitalHub.ifc": 5%Loading file "/home/lindsay/xe..._ARC_DigitalHub.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 19%Converting IFC geometry: 40%Converting IFC geometry: 61%Converting IFC geometry: 71%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 21%Converting IFC geometry: 42%Converting IFC geometry: 62%Converting IFC geometry: 74%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 2632, reused: 2996, compression: 53%
+Accessors: 2622, reused: 3002, compression: 53%
 Exporting metadataExporting metadata: 100%
 done in 6 seconds
 
@@ -18,28 +18,29 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 2435.35 kB
+[convert2xkt] Input file size: 2422.84 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 484.13 kB
+[convert2xkt] XKT size: 481.64 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.03
-[convert2xkt] Conversion time: 1.31 s
+[convert2xkt] Conversion time: 1.24 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 785
 [convert2xkt] Converted geometries: 3841
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 168190
-[convert2xkt] Converted vertices: 90562
+[convert2xkt] Converted triangles: 168295
+[convert2xkt] Converted vertices: 90564
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

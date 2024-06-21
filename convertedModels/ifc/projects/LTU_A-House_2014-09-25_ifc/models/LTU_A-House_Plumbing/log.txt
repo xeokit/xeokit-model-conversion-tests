@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 30%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 78%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 8%Converting IFC geometry: 16%Converting IFC geometry: 24%Converting IFC geometry: 30%Converting IFC geometry: 36%Converting IFC geometry: 43%Converting IFC geometry: 55%Converting IFC geometry: 64%Converting IFC geometry: 71%Converting IFC geometry: 77%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 8%Converting IFC geometry: 15%Converting IFC geometry: 22%Converting IFC geometry: 28%Converting IFC geometry: 34%Converting IFC geometry: 40%Converting IFC geometry: 49%Converting IFC geometry: 60%Converting IFC geometry: 68%Converting IFC geometry: 73%Converting IFC geometry: 79%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 53%Exporting to gltf: 56%Exporting to gltf: 59%Exporting to gltf: 62%Exporting to gltf: 65%Exporting to gltf: 66%Exporting to gltf: 68%Exporting to gltf: 69%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 100%
-Accessors: 12752, reused: 42543, compression: 76%
+Accessors: 12748, reused: 42527, compression: 76%
 Exporting to gltf: 54%Exporting to gltf: 57%Exporting to gltf: 60%Exporting to gltf: 100%
-Accessors: 4261, reused: 17196, compression: 80%
+Accessors: 4275, reused: 17207, compression: 80%
 Exporting metadataExporting metadata: 100%
 done in 45 seconds
 
@@ -20,28 +20,29 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 21631.38 kB
+[convert2xkt] Input file size: 21631.58 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 10922.56 kB
+[convert2xkt] XKT size: 10901.91 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.98
-[convert2xkt] Conversion time: 20.55 s
+[convert2xkt] Conversion time: 20.00 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 43347
+[convert2xkt] Converted drawable objects: 43339
+[convert2xkt] Converted geometries: 43332
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 4094390
-[convert2xkt] Converted vertices: 2484721
+[convert2xkt] Converted triangles: 4090878
+[convert2xkt] Converted vertices: 2482675
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
@@ -50,28 +51,29 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 7814.36 kB
+[convert2xkt] Input file size: 7866.59 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4239.54 kB
+[convert2xkt] XKT size: 4261.96 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.84
-[convert2xkt] Conversion time: 7.52 s
+[convert2xkt] Compression ratio: 1.85
+[convert2xkt] Conversion time: 7.33 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 17532
+[convert2xkt] Converted drawable objects: 17553
+[convert2xkt] Converted geometries: 17547
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1577230
-[convert2xkt] Converted vertices: 966760
+[convert2xkt] Converted triangles: 1580742
+[convert2xkt] Converted vertices: 968806
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

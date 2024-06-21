@@ -1,452 +1,0 @@
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/ThinkProject/maquette_SPK.ifc -o convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.glb -m convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/log.txt
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.manifest.json  -o convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/log.txt
-
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/ThinkProject/maquette_SPK.ifc -o convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.glb -m convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.json -s 5 -t 1000 -e 3 >> convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/log.txt
-
-__ Creoox IFC to GLTF converter __ version: 3.8 ____________
--s parameter: adjusting max file size to 10 MByte
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_8_beta/Ifc2gltfcxconverter-3.8/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc"Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 5%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 8%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 9%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 10%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 11%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 14%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 17%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 19%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 22%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 30%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 36%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 42%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 48%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 54%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 60%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 66%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 72%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 78%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 84%Loading file "/home/lindsay/xe...ct/maquette_SPK.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 0%Converting IFC geometry: 54%Converting IFC geometry: 55%Converting IFC geometry: 56%Converting IFC geometry: 56%Converting IFC geometry: 57%Converting IFC geometry: 58%Converting IFC geometry: 59%Converting IFC geometry: 60%Converting IFC geometry: 60%Converting IFC geometry: 61%Converting IFC geometry: 62%Converting IFC geometry: 63%Converting IFC geometry: 64%Converting IFC geometry: 64%Converting IFC geometry: 65%Converting IFC geometry: 66%Converting IFC geometry: 67%Converting IFC geometry: 68%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 71%Converting IFC geometry: 72%Converting IFC geometry: 72%Converting IFC geometry: 73%Converting IFC geometry: 74%Converting IFC geometry: 75%Converting IFC geometry: 76%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 78%Converting IFC geometry: 79%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 51%Exporting to gltf: 100%
-Accessors: 3053, reused: 26724, compression: 89%
-Exporting to gltf: 100%
-Accessors: 3733, reused: 19682, compression: 84%
-Exporting to gltf: 51%Exporting to gltf: 100%
-Accessors: 4979, reused: 16954, compression: 77%
-Exporting to gltf: 51%Exporting to gltf: 100%
-Accessors: 4918, reused: 15464, compression: 75%
-Exporting to gltf: 100%
-Accessors: 2071, reused: 13964, compression: 87%
-Exporting to gltf: 100%
-Accessors: 2005, reused: 13313, compression: 86%
-Exporting to gltf: 100%
-Accessors: 1912, reused: 12582, compression: 86%
-Exporting to gltf: 100%
-Accessors: 1900, reused: 15683, compression: 89%
-Exporting to gltf: 100%
-Accessors: 2201, reused: 16564, compression: 88%
-Exporting to gltf: 100%
-Accessors: 2185, reused: 12943, compression: 85%
-Exporting to gltf: 100%
-Accessors: 4055, reused: 10047, compression: 71%
-Exporting to gltf: 100%
-Accessors: 3494, reused: 9808, compression: 73%
-Exporting to gltf: 100%
-Accessors: 2958, reused: 9229, compression: 75%
-Exporting metadataExporting metadata: 9%Exporting metadata: 55%Exporting metadata: 61%Exporting metadata: 65%Exporting metadata: 69%Exporting metadata: 72%Exporting metadata: 75%Exporting metadata: 78%Exporting metadata: 81%Exporting metadata: 84%Exporting metadata: 87%Exporting metadata: 90%Exporting metadata: 93%childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-childProperty->m_JsonArrayIndex < 0
-preparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_1.json
-preparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_2.json
-preparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_3.json
-preparing metadata file convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_4.json
-Exporting metadata: 100%done in 3 minutes, 3 seconds
-
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.manifest.json  -o convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/log.txt
-[convert2xkt] Running convert2xkt v1.1.18...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
-[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.manifest.json...
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 12461.83 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 12385.51 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.01
-[convert2xkt] Conversion time: 18.59 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 27360
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 3745928
-[convert2xkt] Converted vertices: 1917685
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_1.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11953.26 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 8790.13 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.36
-[convert2xkt] Conversion time: 12.50 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 20670
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2483042
-[convert2xkt] Converted vertices: 1285289
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_2.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11889.56 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 8383.98 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.42
-[convert2xkt] Conversion time: 11.33 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 17890
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2083133
-[convert2xkt] Converted vertices: 1090739
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_2.xkt
-[convert2xkt] Converted model3.xkt (3 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_3.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11622.54 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7498.52 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.55
-[convert2xkt] Conversion time: 10.33 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 16401
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1891899
-[convert2xkt] Converted vertices: 982332
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_3.xkt
-[convert2xkt] Converted model4.xkt (4 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_4.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11347.33 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7719.83 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.47
-[convert2xkt] Conversion time: 10.20 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 14731
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2108081
-[convert2xkt] Converted vertices: 1085876
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_4.xkt
-[convert2xkt] Converted model5.xkt (5 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_5.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11233.66 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7625.88 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.47
-[convert2xkt] Conversion time: 9.95 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 14051
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2022142
-[convert2xkt] Converted vertices: 1043152
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_5.xkt
-[convert2xkt] Converted model6.xkt (6 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_6.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11168.14 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7535.57 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.48
-[convert2xkt] Conversion time: 9.63 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 13334
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1952676
-[convert2xkt] Converted vertices: 1007064
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_6.xkt
-[convert2xkt] Converted model7.xkt (7 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_7.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11455.48 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7451.04 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.54
-[convert2xkt] Conversion time: 10.04 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 16396
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2086832
-[convert2xkt] Converted vertices: 1079674
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_7.xkt
-[convert2xkt] Converted model8.xkt (8 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_8.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11565.36 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7746.59 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.49
-[convert2xkt] Conversion time: 10.44 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 17286
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2185981
-[convert2xkt] Converted vertices: 1132306
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_8.xkt
-[convert2xkt] Converted model9.xkt (9 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_9.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11500.06 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7739.48 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.49
-[convert2xkt] Conversion time: 9.92 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 13748
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1908610
-[convert2xkt] Converted vertices: 984880
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_9.xkt
-[convert2xkt] Converted model10.xkt (10 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_10.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11024.60 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 10428.91 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.06
-[convert2xkt] Conversion time: 11.30 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 10994
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1904429
-[convert2xkt] Converted vertices: 972883
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_10.xkt
-[convert2xkt] Converted model11.xkt (11 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_11.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 10970.95 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 6358.92 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.73
-[convert2xkt] Conversion time: 7.89 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 10736
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1447601
-[convert2xkt] Converted vertices: 749230
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_11.xkt
-[convert2xkt] Converted model12.xkt (12 of 13)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_12.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 9038.25 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 5572.73 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.62
-[convert2xkt] Conversion time: 6.84 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 9958
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1279992
-[convert2xkt] Converted vertices: 663650
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/ThinkProject/models/maquette_SPK/model_12.xkt
-[convert2xkt] Converted model13.xkt (13 of 13)
-[convert2xkt] Done.

@@ -1,13 +1,438 @@
 node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/HousePlan-glTF-Binary/HousePlan.glb                         -o convertedModels/gltf/projects/HousePlan-glTF-Binary/models/HousePlan/geometry.xkt                         -l >> convertedModels/gltf/projects/HousePlan-glTF-Binary/models/HousePlan/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-8...
+[convert2xkt] Running convert2xkt v1.1.18...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/HousePlan-glTF-Binary/HousePlan.glb...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/HousePlan-glTF-Binary/HousePlan.glb
+[convert2xkt] Input file extension: "glb"
 [convert2xkt] Input file size: 28650.37 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: '3DSMeshMatrix - will randomly-generating an object ID in XKT
+[convert2xkt] Warning: Two or more glTF nodes found with same 'name' attribute: 'Geode - will randomly-generating an object ID in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
+XKTModel.finalize()
+XKTModel._removeUnusedTextures()
+XKTModel._compressTextures()
+counttextures = 14
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed
+texture.imageData = [object Object]
+texture.compressed

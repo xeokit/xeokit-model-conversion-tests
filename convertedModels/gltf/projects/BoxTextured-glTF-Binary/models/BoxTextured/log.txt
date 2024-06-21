@@ -1,14 +1,21 @@
 node --max-old-space-size=18076                         /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js  -t                         -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json                         -s /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/BoxTextured-glTF-Binary/BoxTextured.glb                         -o convertedModels/gltf/projects/BoxTextured-glTF-Binary/models/BoxTextured/geometry.xkt                         -l >> convertedModels/gltf/projects/BoxTextured-glTF-Binary/models/BoxTextured/log.txt
 
-[convert2xkt] Running convert2xkt v1.1.15-beta-8...
+[convert2xkt] Running convert2xkt v1.1.18...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting single input file /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/BoxTextured-glTF-Binary/BoxTextured.glb...
 [convert2xkt] Reading input file: /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/gltf/BoxTextured-glTF-Binary/BoxTextured.glb
+[convert2xkt] Input file extension: "glb"
 [convert2xkt] Input file size: 6.54 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
-[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
+[convert2xkt] Warning: 'name' properties not found on any of the glTF scene nodes - creating a singular root object in the XKT with a random ID
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
+XKTModel.finalize()
+XKTModel._removeUnusedTextures()
+XKTModel._compressTextures()
+counttextures = 1
+texture.imageData = [object Object]
+texture.compressed

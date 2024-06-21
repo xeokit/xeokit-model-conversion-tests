@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc"Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 5%Loading file "/home/lindsay/xe...SGD_BODO_Arch-2.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 10%Converting IFC geometry: 33%Converting IFC geometry: 42%Converting IFC geometry: 69%Converting IFC geometry: 77%Converting IFC geometry: 79%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 8%Converting IFC geometry: 10%Converting IFC geometry: 33%Converting IFC geometry: 50%Converting IFC geometry: 76%Converting IFC geometry: 77%Converting IFC geometry: 79%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 78%Exporting to gltf: 100%
 Accessors: 3407, reused: 16749, compression: 83%
 Exporting metadataExporting metadata: 100%
-done in 17 seconds
+done in 16 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.manifest.json  -o convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/log.txt
 [convert2xkt] Running convert2xkt v1.1.18...
@@ -23,18 +23,19 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 5448.18 kB
+[convert2xkt] XKT size: 5448.36 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.33
-[convert2xkt] Conversion time: 8.91 s
+[convert2xkt] Conversion time: 8.54 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 2343
 [convert2xkt] Converted geometries: 17727
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0

@@ -76,7 +76,7 @@ add geometry for IfcSpace with no geometry in IFC model
 add geometry for IfcSpace with no geometry in IFC model 
 add geometry for IfcSpace with no geometry in IFC model 
 Exporting to gltf: 100%
-Accessors: 155, reused: 391, compression: 71%
+Accessors: 156, reused: 389, compression: 71%
 Exporting metadataExporting metadata: 100%
 done in 4 seconds
 
@@ -86,11 +86,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 338.32 kB
+[convert2xkt] Input file size: 343.93 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
@@ -98,16 +99,16 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 214.45 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.58
+[convert2xkt] Compression ratio: 1.60
 [convert2xkt] Conversion time: 0.42 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 448
 [convert2xkt] Converted geometries: 441
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 56123
-[convert2xkt] Converted vertices: 31794
+[convert2xkt] Converted triangles: 56116
+[convert2xkt] Converted vertices: 31793
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

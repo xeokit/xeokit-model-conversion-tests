@@ -5,14 +5,14 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...Holter_Tower_10.ifc"Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 5%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 14%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 21%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 36%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 57%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 75%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 10%Converting IFC geometry: 24%Converting IFC geometry: 39%Converting IFC geometry: 46%Converting IFC geometry: 56%Converting IFC geometry: 72%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 50%Exporting to gltf: 53%Exporting to gltf: 56%Exporting to gltf: 59%Exporting to gltf: 100%
-Accessors: 38784, reused: 55721, compression: 58%
-Exporting to gltf: 57%Exporting to gltf: 62%Exporting to gltf: 65%Exporting to gltf: 68%Exporting to gltf: 71%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 100%
-Accessors: 1416, reused: 51992, compression: 97%
-Exporting metadataExporting metadata: 59%Exporting metadata: 94%Exporting metadata: 100%
-done in 53 seconds
+Loading file "/home/lindsay/xe...Holter_Tower_10.ifc"Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 5%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 15%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 30%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 51%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 69%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 87%Loading file "/home/lindsay/xe...Holter_Tower_10.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 13%Converting IFC geometry: 30%Converting IFC geometry: 44%Converting IFC geometry: 46%Converting IFC geometry: 58%Converting IFC geometry: 76%Converting IFC geometry: 100%
+Exporting to gltfExporting to gltf: 50%Exporting to gltf: 53%Exporting to gltf: 56%Exporting to gltf: 59%Exporting to gltf: 60%Exporting to gltf: 100%
+Accessors: 38782, reused: 55735, compression: 58%
+Exporting to gltf: 57%Exporting to gltf: 62%Exporting to gltf: 65%Exporting to gltf: 68%Exporting to gltf: 71%Exporting to gltf: 72%Exporting to gltf: 74%Exporting to gltf: 75%Exporting to gltf: 77%Exporting to gltf: 78%Exporting to gltf: 80%Exporting to gltf: 81%Exporting to gltf: 83%Exporting to gltf: 100%
+Accessors: 1416, reused: 51981, compression: 97%
+Exporting metadataExporting metadata: 70%Exporting metadata: 100%
+done in 52 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.manifest.json  -o convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/log.txt
 [convert2xkt] Running convert2xkt v1.1.18...
@@ -20,28 +20,29 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 22718.76 kB
+[convert2xkt] Input file size: 22718.80 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3673.39 kB
+[convert2xkt] XKT size: 3674.83 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 6.18
-[convert2xkt] Conversion time: 9.59 s
+[convert2xkt] Conversion time: 9.34 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 59477
+[convert2xkt] Converted drawable objects: 15709
+[convert2xkt] Converted geometries: 59489
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 794456
-[convert2xkt] Converted vertices: 580771
+[convert2xkt] Converted triangles: 795079
+[convert2xkt] Converted vertices: 581107
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
@@ -50,28 +51,29 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converted model1.xkt (1 of 2)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_1.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 13733.92 kB
+[convert2xkt] Input file size: 13728.58 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 5254.66 kB
+[convert2xkt] XKT size: 5252.87 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 2.61
-[convert2xkt] Conversion time: 9.79 s
+[convert2xkt] Conversion time: 9.44 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
-[convert2xkt] Converted geometries: 52611
+[convert2xkt] Converted drawable objects: 45157
+[convert2xkt] Converted geometries: 52599
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 1444228
-[convert2xkt] Converted vertices: 819679
+[convert2xkt] Converted triangles: 1443601
+[convert2xkt] Converted vertices: 819343
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

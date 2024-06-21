@@ -6,11 +6,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc"Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 5%Loading file "/home/lindsay/xe...-GIS-05-11-2006.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 32%Converting IFC geometry: 76%Converting IFC geometry: 100%
+Converting IFC geometryConverting IFC geometry: 23%Converting IFC geometry: 71%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 5606, reused: 4516, compression: 44%
+Accessors: 5615, reused: 4511, compression: 44%
 Exporting metadataExporting metadata: 100%
-done in 5 seconds
+done in 4 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/log.txt
 [convert2xkt] Running convert2xkt v1.1.18...
@@ -18,27 +18,28 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4773.46 kB
+[convert2xkt] Input file size: 4778.47 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 943.96 kB
+[convert2xkt] XKT size: 943.77 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.06
-[convert2xkt] Conversion time: 2.10 s
+[convert2xkt] Conversion time: 2.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 3363
 [convert2xkt] Converted geometries: 6970
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 189720
+[convert2xkt] Converted triangles: 189716
 [convert2xkt] Converted vertices: 112090
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

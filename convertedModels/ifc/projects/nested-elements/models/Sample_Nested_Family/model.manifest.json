@@ -2,7 +2,7 @@
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/nested-elements/Sample_Nested_Family.ifc",
     "converterApplication": "ifc2gltfcxconverter",
     "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-17 21:02:34",
+    "conversionDate": "2024-06-21 18:06:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/nested-elements/models/Sample_Nested_Family/model.glb"
     ],

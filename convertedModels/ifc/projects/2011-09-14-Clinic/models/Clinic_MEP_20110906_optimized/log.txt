@@ -5,16 +5,16 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 
 __ Creoox IFC to GLTF converter __ version: 3.9 ____________
 Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...10906_optimized.ifc"Loading file "/home/lindsay/xe...10906_optimized.ifc": 5%Loading file "/home/lindsay/xe...10906_optimized.ifc": 18%Loading file "/home/lindsay/xe...10906_optimized.ifc": 39%Loading file "/home/lindsay/xe...10906_optimized.ifc": 63%Loading file "/home/lindsay/xe...10906_optimized.ifc": 81%Loading file "/home/lindsay/xe...10906_optimized.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 13%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 34%Converting IFC geometry: 38%Converting IFC geometry: 42%Converting IFC geometry: 46%Converting IFC geometry: 50%Converting IFC geometry: 100%
+Loading file "/home/lindsay/xe...10906_optimized.ifc"Loading file "/home/lindsay/xe...10906_optimized.ifc": 5%Loading file "/home/lindsay/xe...10906_optimized.ifc": 20%Loading file "/home/lindsay/xe...10906_optimized.ifc": 45%Loading file "/home/lindsay/xe...10906_optimized.ifc": 75%Loading file "/home/lindsay/xe...10906_optimized.ifc": 87%Loading file "/home/lindsay/xe...10906_optimized.ifc": 100%
+Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 16%Converting IFC geometry: 24%Converting IFC geometry: 26%Converting IFC geometry: 34%Converting IFC geometry: 38%Converting IFC geometry: 42%Converting IFC geometry: 46%Converting IFC geometry: 50%Converting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 53%Exporting to gltf: 57%Exporting to gltf: 62%Exporting to gltf: 66%Exporting to gltf: 69%Exporting to gltf: 100%
 Accessors: 21648, reused: 12009, compression: 35%
 add geometry for IfcSpace with no geometry in IFC model 
 Exporting to gltf: 56%Exporting to gltf: 59%Exporting to gltf: 100%
 Accessors: 5578, reused: 4737, compression: 45%
-Exporting metadataExporting metadata: 63%Exporting metadata: 77%Exporting metadata: 92%preparing metadata file convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model_1.json
+Exporting metadataExporting metadata: 64%Exporting metadata: 79%preparing metadata file convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model_1.json
 Exporting metadata: 100%
-done in 33 seconds
+done in 30 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.manifest.json  -o convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/log.txt
 [convert2xkt] Running convert2xkt v1.1.18...
@@ -27,6 +27,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
@@ -38,7 +39,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Conversion time: 16.01 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 11281
 [convert2xkt] Converted geometries: 29225
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
@@ -57,6 +58,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
@@ -65,10 +67,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 4334.75 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 1.83
-[convert2xkt] Conversion time: 6.67 s
+[convert2xkt] Conversion time: 6.87 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 5271
 [convert2xkt] Converted geometries: 7761
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0

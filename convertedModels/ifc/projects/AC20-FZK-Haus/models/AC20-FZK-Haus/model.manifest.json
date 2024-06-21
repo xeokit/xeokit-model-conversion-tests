@@ -1,0 +1,30 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/AC20-FZK-Haus/AC20-FZK-Haus.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "3.9",
+    "conversionDate": "2024-06-21 17:39:37",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.json"
+    ],
+    "numCreatedGltfMeshes": 252,
+    "numCreatedMetaObjects": 108,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        15.0,
+        13.0,
+        6.3176914536
+    ],
+    "modelBoundsMin": [
+        -3.0,
+        -3.0,
+        -1.0
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [],
+    "errors": []
+}

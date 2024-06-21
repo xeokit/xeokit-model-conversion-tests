@@ -8,7 +8,7 @@ Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxcon
 Loading file "/home/lindsay/xe...Munkerud_Arch-3.ifc"Loading file "/home/lindsay/xe...Munkerud_Arch-3.ifc": 5%Loading file "/home/lindsay/xe...Munkerud_Arch-3.ifc": 100%
 Converting IFC geometryConverting IFC geometry: 100%
 Exporting to gltfExporting to gltf: 100%
-Accessors: 904, reused: 1784, compression: 66%
+Accessors: 903, reused: 1785, compression: 66%
 Exporting metadataExporting metadata: 100%
 done in 1 seconds
 
@@ -18,23 +18,24 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-3/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-3/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 874.85 kB
+[convert2xkt] Input file size: 874.54 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 168.11 kB
+[convert2xkt] XKT size: 168.12 kB
 [convert2xkt] XKT textures size: 0.01kB
 [convert2xkt] Compression ratio: 5.20
-[convert2xkt] Conversion time: 0.52 s
+[convert2xkt] Conversion time: 0.49 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 459
 [convert2xkt] Converted geometries: 2054
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0

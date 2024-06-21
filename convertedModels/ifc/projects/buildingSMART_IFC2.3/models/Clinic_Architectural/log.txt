@@ -18,23 +18,24 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4435.95 kB
+[convert2xkt] Input file size: 4435.94 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
+[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 798.54 kB
+[convert2xkt] XKT size: 798.56 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 5.56
-[convert2xkt] Conversion time: 1.97 s
+[convert2xkt] Compression ratio: 5.55
+[convert2xkt] Conversion time: 1.89 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 0
+[convert2xkt] Converted drawable objects: 2897
 [convert2xkt] Converted geometries: 7722
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
