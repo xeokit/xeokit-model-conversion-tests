@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:41:19",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:31:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.glb"
     ],
@@ -13,19 +13,21 @@
     "numCreatedMetaObjects": 875,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        86.7546312001,
-        137.4778766137,
-        189.6258988178
+        86.7546312001958,
+        137.4778766137916,
+        189.62589881780005
     ],
     "modelBoundsMin": [
-        -9.7928519584,
-        50.1112331033,
+        -9.792851958456154,
+        50.11123310332064,
         165.8377988178
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Object with GUID 3O4n4IwsrFkPdc5dOdgpLJ appears several times in spatial structure"
+    ],
     "errors": [
         "Entity with id # 19  not found"
     ]

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-transformation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:37",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.3535533905,
-        0.3535533905,
+        1.3535533905932737,
+        0.35355339059327373,
         2.0
     ],
     "modelBoundsMin": [
-        0.6464466094,
-        -0.3535533905,
+        0.6464466094067263,
+        -0.35355339059327373,
         0.0
     ],
     "generalMessages": [

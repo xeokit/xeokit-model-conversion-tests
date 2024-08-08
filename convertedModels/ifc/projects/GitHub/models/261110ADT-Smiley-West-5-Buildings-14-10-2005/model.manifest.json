@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/261110ADT-Smiley-West-5-Buildings-14-10-2005.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:54:30",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:43:50",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/261110ADT-Smiley-West-5-Buildings-14-10-2005/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 487,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.4949999999,
-        17.18,
+        39.49499999999999,
+        17.180000000000014,
         8.41
     ],
     "modelBoundsMin": [
-        -2.0000000067,
-        -13.0000000167,
-        -3.1
+        -2.000000006785079,
+        -13.000000016731612,
+        -3.1000000000000005
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

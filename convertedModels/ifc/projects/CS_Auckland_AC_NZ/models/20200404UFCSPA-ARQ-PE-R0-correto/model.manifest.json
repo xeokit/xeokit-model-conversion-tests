@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20200404UFCSPA-ARQ-PE-R0-correto.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:44:13",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:34:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200404UFCSPA-ARQ-PE-R0-correto/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 836,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        359.5181196351,
-        307.7030600134,
-        4.1
+        359.5181196351926,
+        307.70306001345824,
+        4.100000000000001
     ],
     "modelBoundsMin": [
-        -3.8012036223,
-        -306.0960611942,
+        -3.801203622301898,
+        -306.09606119428355,
         -99.81
     ],
     "generalMessages": [

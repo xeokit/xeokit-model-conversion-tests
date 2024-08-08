@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:25",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2.109999895,
-        10.0758619308,
-        0.3000000119
+        2.10999989509583,
+        10.0758619308472,
+        0.300000011920929
     ],
     "modelBoundsMin": [
-        -0.0796551778,
-        -0.0758620649,
-        -0.3000000119
+        -0.07965517789125443,
+        -0.07586206495761871,
+        -0.300000011920929
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

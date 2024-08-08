@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Sanitary.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:04:57",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:54:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 2338,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        22.9834581369,
-        6.6603990896,
-        7.9230000381
+        22.983458136930324,
+        6.660399089696393,
+        7.923000038166908
     ],
     "modelBoundsMin": [
-        5.1487315988,
-        4.8924875335,
-        -3.9195120856
+        5.1487315988540665,
+        4.892487533569342,
+        -3.9195120856026406
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

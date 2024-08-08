@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/MarkupTest/MarkupTest.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:02:09",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:51:29",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/MarkupTest/models/MarkupTest/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 218,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        15.8978474722,
+        15.897847472227461,
         -5.46,
         9.5
     ],
     "modelBoundsMin": [
-        3.9599999999,
-        -20.19,
+        3.959999999999993,
+        -20.19000000000003,
         0.0
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcTextLiteral"
+    ],
     "errors": []
 }

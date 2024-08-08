@@ -1,62 +1,35 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:41:28",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:31:55",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.json"
     ],
-    "numCreatedGltfMeshes": 21064,
+    "numCreatedGltfMeshes": 20922,
     "numCreatedMetaObjects": 13498,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        86.7511760018,
-        140.2683686093,
-        191.5376
+        86.75117600178835,
+        139.41899334368958,
+        190.86010000000002
     ],
     "modelBoundsMin": [
-        -11.1135743911,
-        48.2869188504,
-        163.6685789999
+        -11.113574391175831,
+        48.28691885049966,
+        163.66857899999943
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
+        "IfcSurfaceCurveSweptAreaSolid: Directrix not valid",
+        "Object with GUID 0oRwkC2RfAvvAvj9OxPQ33 appears several times in spatial structure"
     ],
     "errors": [
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 90.0000000000043 in function readSelectType",
         "Entity with id # 19  not found"
     ]
 }

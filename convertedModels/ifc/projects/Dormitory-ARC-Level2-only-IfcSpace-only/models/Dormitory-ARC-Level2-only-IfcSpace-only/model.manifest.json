@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Dormitory-ARC-Level2-only-IfcSpace-only/Dormitory-ARC-Level2-only-IfcSpace-only.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:51:07",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:40:20",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Dormitory-ARC-Level2-only-IfcSpace-only/models/Dormitory-ARC-Level2-only-IfcSpace-only/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 24,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        74.812005,
-        -73.129561,
+        74.8120050000002,
+        -73.12956100000008,
         107.3
     ],
     "modelBoundsMin": [
-        40.262005,
-        -88.209561,
+        40.26200500000013,
+        -88.20956100000006,
         103.8
     ],
     "generalMessages": [

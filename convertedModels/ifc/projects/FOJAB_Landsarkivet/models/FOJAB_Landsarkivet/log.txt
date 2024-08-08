@@ -1,82 +1,112 @@
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json  -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 3.9 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc"Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 5%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 15%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 30%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 48%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 66%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 87%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 0%Converting IFC geometry: 16%Converting IFC geometry: 28%Converting IFC geometry: 33%Converting IFC geometry: 38%Converting IFC geometry: 39%Converting IFC geometry: 45%Converting IFC geometry: 51%Converting IFC geometry: 53%Converting IFC geometry: 57%Converting IFC geometry: 64%Converting IFC geometry: 68%Converting IFC geometry: 69%Converting IFC geometry: 70%Converting IFC geometry: 78%Converting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 59%Exporting to gltf: 66%Exporting to gltf: 74%Exporting to gltf: 100%
-Accessors: 9356, reused: 29464, compression: 75%
-Exporting to gltf: 100%
-Accessors: 1658, reused: 3323, compression: 66%
-Exporting metadataExporting metadata: 100%done in 2 minutes, 19 seconds
+__ Creoox IFC to GLTF converter __ version: 4.7 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc"Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 5.00%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 14.0%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 22.1%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 44.0%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 60.0%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 76.0%Loading file "/home/lindsay/xe...AB_Landsarkivet.ifc": 100.0%
+Converting IFC geometryConverting IFC geometry: 5.63%Converting IFC geometry: 9.7%Converting IFC geometry: 11.3%Converting IFC geometry: 16.9%Converting IFC geometry: 24.15%Converting IFC geometry: 26.56%Converting IFC geometry: 33.0%Converting IFC geometry: 40.2%Converting IFC geometry: 46.7%Converting IFC geometry: 58.8%Converting IFC geometry: 100.0%
+Exporting to gltf
+Accessors: 8456, reused: 29499, compression: 77%
+Exporting to gltf: 1.00%
+Accessors: 1589, reused: 3313, compression: 67%
+Exporting to gltf: 1.0%
+Accessors: 7, reused: 11, compression: 61%
+Exporting metadataExporting metadata: 100.0%done in 2 minutes, 19 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json  -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
-[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Running convert2xkt v1.1.19...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 23205.46 kB
+[convert2xkt] Input file size: 33916.49 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
-[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 17159.17 kB
+[convert2xkt] XKT size: 17404.52 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.35
-[convert2xkt] Conversion time: 20.52 s
+[convert2xkt] Compression ratio: 1.95
+[convert2xkt] Conversion time: 22.30 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 9071
 [convert2xkt] Converted geometries: 32695
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2785034
-[convert2xkt] Converted vertices: 1441849
+[convert2xkt] Converted triangles: 2846613
+[convert2xkt] Converted vertices: 2353233
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 2)
+[convert2xkt] Converted model1.xkt (1 of 3)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 11324.49 kB
+[convert2xkt] Input file size: 27843.18 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
-[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 6638.10 kB
+[convert2xkt] XKT size: 6716.56 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.71
-[convert2xkt] Conversion time: 7.76 s
+[convert2xkt] Compression ratio: 4.15
+[convert2xkt] Conversion time: 10.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1122
-[convert2xkt] Converted geometries: 3852
+[convert2xkt] Converted drawable objects: 1112
+[convert2xkt] Converted geometries: 3839
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 805366
-[convert2xkt] Converted vertices: 383701
+[convert2xkt] Converted triangles: 839880
+[convert2xkt] Converted vertices: 1739040
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 2)
+[convert2xkt] Converted model2.xkt (2 of 3)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_2.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 9.10 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 3.72 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 2.45
+[convert2xkt] Conversion time: 0.02 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 14
+[convert2xkt] Converted geometries: 13
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 816
+[convert2xkt] Converted vertices: 424
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_2.xkt
+[convert2xkt] Converted model3.xkt (3 of 3)
 [convert2xkt] Done.

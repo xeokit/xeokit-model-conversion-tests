@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT10_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:02:53",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:52:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT10_Arch/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 4897,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        30.6286428106,
-        18.7318634884,
-        6.2768471008
+        30.62864281060422,
+        18.731863488422356,
+        6.276847100829623
     ],
     "modelBoundsMin": [
-        -44.3731641712,
-        -37.2646860691,
-        -3.6
+        -44.37316417125503,
+        -37.26468606913563,
+        -3.6000000000000005
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

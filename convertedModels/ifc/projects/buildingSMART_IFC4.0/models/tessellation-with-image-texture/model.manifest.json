@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:44",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:42",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-image-texture/model.glb"
     ],
@@ -18,7 +18,7 @@
         4.0
     ],
     "modelBoundsMin": [
-        -0.0702937841,
+        -0.07029378414154053,
         -0.0703125,
         0.0
     ],
@@ -26,5 +26,7 @@
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "#207=IfcTriangulatedFaceSet: stoi"
+    ]
 }

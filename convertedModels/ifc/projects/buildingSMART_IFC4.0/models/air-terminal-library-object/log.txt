@@ -1,29 +1,28 @@
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-library-object.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-library-object.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
 
- /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-library-object.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-library-object.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 3.9 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/3_9_beta/Ifc2gltfcxconverter-3.9/linux/bin/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...-library-object.ifc"Loading file "/home/lindsay/xe...-library-object.ifc": 5%Loading file "/home/lindsay/xe...-library-object.ifc": 100%
-Converting IFC geometryConverting IFC geometry: 100%
-Exporting to gltfExporting to gltf: 100%
+__ Creoox IFC to GLTF converter __ version: 4.7 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xe...-library-object.ifc"Loading file "/home/lindsay/xe...-library-object.ifc": 5.16%Loading file "/home/lindsay/xe...-library-object.ifc": 100.0%
+Converting IFC geometryConverting IFC geometry: 100.0%
+Exporting to gltf
 Accessors: 0
-Exporting metadataExporting metadata: 100%
+Exporting metadataExporting metadata: 100.0%
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/log.txt
-[convert2xkt] Running convert2xkt v1.1.18...
+[convert2xkt] Running convert2xkt v1.1.19...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-library-object/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 0.58 kB
+[convert2xkt] Input file size: 0.62 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
 [convert2xkt] Parsing textures: enabled
-[convert2xkt] Warning: 'name' properties not found on glTF scene nodes - will randomly-generate object IDs in XKT
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
@@ -31,11 +30,11 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.25
-[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Compression ratio: 1.35
+[convert2xkt] Conversion time: 0.05 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1
+[convert2xkt] Converted drawable objects: 2
 [convert2xkt] Converted geometries: 0
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0

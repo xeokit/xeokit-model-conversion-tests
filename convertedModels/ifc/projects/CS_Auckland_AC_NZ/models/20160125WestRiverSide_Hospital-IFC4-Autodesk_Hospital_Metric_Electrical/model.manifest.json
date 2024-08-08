@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:41:16",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:31:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb"
     ],
@@ -13,19 +13,21 @@
     "numCreatedMetaObjects": 2808,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        87.082980059,
-        139.4651509023,
-        192.3549488178
+        87.08298005907233,
+        139.4651509023685,
+        192.35494881780002
     ],
     "modelBoundsMin": [
-        -9.7230579092,
-        47.2163236341,
-        164.6219814881
+        -9.723057909282652,
+        47.21632363414864,
+        164.62198148813243
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Object with GUID 2Enq330w57O8ZceFgZH$x3 appears several times in spatial structure"
+    ],
     "errors": [
         "Entity with id # 19  not found"
     ]

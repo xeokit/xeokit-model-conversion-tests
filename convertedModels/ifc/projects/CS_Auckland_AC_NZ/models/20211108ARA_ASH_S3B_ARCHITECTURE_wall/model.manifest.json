@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20211108ARA_ASH_S3B_ARCHITECTURE_wall.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:48:21",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:38:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb"
     ],
@@ -14,14 +14,14 @@
     "numCreatedMetaObjects": 17636,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.4734002895,
-        77.7487332776,
-        62.5
+        16.473400289574855,
+        77.74873327766147,
+        62.50000000007518
     ],
     "modelBoundsMin": [
-        -252.7576842673,
-        -55.7593977074,
-        7.2499999998
+        -252.75768426739768,
+        -55.759397707494486,
+        7.2499999998496705
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

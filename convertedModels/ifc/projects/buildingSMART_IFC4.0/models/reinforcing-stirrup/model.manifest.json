@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/reinforcing-stirrup.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:39",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/reinforcing-stirrup/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.1068626917,
-        0.0179079511,
-        -0.0180809776
+        0.07564582522409397,
+        0.017909928518582672,
+        -0.024999999999999967
     ],
     "modelBoundsMin": [
-        -0.0810784687,
-        -0.0059999999,
-        -0.3816900026
+        -0.07500000000000001,
+        -0.006000000000000001,
+        -0.37497744352917417
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

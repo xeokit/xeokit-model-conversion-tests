@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_A_20110906.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:37:20",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:27:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_A_20110906/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 2896,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.1964999999,
-        56.5199999999,
-        13.5349631182
+        1.1964999999993964,
+        56.51999999999926,
+        13.534963118216996
     ],
     "modelBoundsMin": [
-        -53.195,
-        -10.9241617413,
-        -1.2191999999
+        -53.1950000000007,
+        -10.924161741302566,
+        -1.2191999999999963
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

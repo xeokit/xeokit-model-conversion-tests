@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:02:10",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:51:29",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         37.2607289887,
         26.5891879373,
-        23.9605
+        23.960500000000003
     ],
     "modelBoundsMin": [
-        -8.196578557,
-        -10.5389856172,
-        -5.02
+        -8.19657855701,
+        -10.538985617200002,
+        -5.020000000000001
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

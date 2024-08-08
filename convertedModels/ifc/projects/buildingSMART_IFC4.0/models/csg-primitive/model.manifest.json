@@ -1,30 +1,32 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/csg-primitive.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:33",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:31",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/csg-primitive/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/csg-primitive/model.json"
     ],
-    "numCreatedGltfMeshes": 1,
+    "numCreatedGltfMeshes": 0,
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.0,
         0.0,
-        1.0
+        0.0,
+        0.0
     ],
     "modelBoundsMin": [
         0.0,
-        -1.0,
-        -1.0
+        0.0,
+        0.0
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "invalid IfcSectionedSpine.BaseSurface"
+    ]
 }

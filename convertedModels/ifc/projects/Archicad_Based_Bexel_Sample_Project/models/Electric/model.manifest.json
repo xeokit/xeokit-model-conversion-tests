@@ -1,0 +1,33 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/Electric.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:30:49",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Electric/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Electric/model.json"
+    ],
+    "numCreatedGltfMeshes": 6589,
+    "numCreatedMetaObjects": 2275,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        53.6136547314273,
+        13.642741477925718,
+        12.900000214576723
+    ],
+    "modelBoundsMin": [
+        15.675005509742775,
+        -24.169859110082946,
+        -3.5599999748170372
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [
+        "Unhandled IFC Representation: IfcTextLiteralWithExtent",
+        "Object with GUID 0MWYV6wAc6WyLLmsDCmLuJ appears several times in spatial structure"
+    ],
+    "errors": []
+}

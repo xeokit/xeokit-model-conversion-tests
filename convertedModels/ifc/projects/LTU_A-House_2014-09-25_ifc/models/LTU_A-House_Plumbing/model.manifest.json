@@ -1,47 +1,49 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:00:25",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:49:39",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb",
-        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb"
+        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb",
+        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json"
     ],
-    "numCreatedGltfMeshes": 60879,
-    "numCreatedMetaObjects": 60891,
+    "numCreatedGltfMeshes": 60865,
+    "numCreatedMetaObjects": 60877,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        236.56599998,
-        198.984,
+        236.56599998000002,
+        198.98400000000004,
         17.28
     ],
     "modelBoundsMin": [
-        -189.4188171199,
-        -61.7227159999,
-        1.1677575893
+        -189.41881711999997,
+        -61.72271599999999,
+        1.1667696369218774
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Element with GUID 1712skmef4TwSSB18dETco added several times",
+        "Element with GUID 3Yr1pV9dj7XhZqoxPClx6O added several times",
+        "Element with GUID 02GOb2beHAigsMMkcuLVdg added several times",
+        "Element with GUID 3xV5IGobX5OBNcmt$va29e added several times",
+        "Element with GUID 2AJ3Xn1NbCBvNKhCJpnJZv added several times",
+        "Element with GUID 3MiJOikEH5cBHijuz19CmL added several times",
+        "Element with GUID 1r6m0Fj3z1u9DvlcEGdMyP added several times",
+        "Element with GUID 0Pdz9ScVDFlu2FwBBBkYIT added several times",
+        "Element with GUID 2ZRiKt4nHFovYl7S$uzCFI added several times",
+        "Element with GUID 1M3YgDcGP4zxTekT25j_EJ added several times",
+        "Element with GUID 0GBijtjD52Gv80WR68PlT7 added several times",
+        "Element with GUID 00ErCvTxX7YeOsvTuDg2fn added several times",
+        "Element with GUID 3nXpxHW59Bpe1VubqVfk1K added several times",
+        "Element with GUID 0rOOUIdX18HPLkli0hmjJD added several times"
+    ],
     "errors": [
-        "duplicate GUID in model: 1712skmef4TwSSB18dETco",
-        "duplicate GUID in model: 3Yr1pV9dj7XhZqoxPClx6O",
-        "duplicate GUID in model: 02GOb2beHAigsMMkcuLVdg",
-        "duplicate GUID in model: 3nXpxHW59Bpe1VubqVfk1K",
-        "duplicate GUID in model: 3xV5IGobX5OBNcmt$va29e",
-        "Entity with id # 202851  not found",
-        "duplicate GUID in model: 0Pdz9ScVDFlu2FwBBBkYIT",
-        "duplicate GUID in model: 2AJ3Xn1NbCBvNKhCJpnJZv",
-        "duplicate GUID in model: 00ErCvTxX7YeOsvTuDg2fn",
-        "duplicate GUID in model: 1M3YgDcGP4zxTekT25j_EJ",
-        "duplicate GUID in model: 0rOOUIdX18HPLkli0hmjJD",
-        "duplicate GUID in model: 3MiJOikEH5cBHijuz19CmL",
-        "duplicate GUID in model: 2ZRiKt4nHFovYl7S$uzCFI",
-        "duplicate GUID in model: 0GBijtjD52Gv80WR68PlT7",
-        "duplicate GUID in model: 1r6m0Fj3z1u9DvlcEGdMyP"
+        "Entity with id # 202851  not found"
     ]
 }

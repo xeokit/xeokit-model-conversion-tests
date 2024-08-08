@@ -1,30 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:50:30",
-    "gltfOutFiles": [
-        "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb"
-    ],
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:40:12",
+    "gltfOutFiles": [],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json"
     ],
-    "numCreatedGltfMeshes": 10205,
-    "numCreatedMetaObjects": 6593,
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 0,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.4347990361,
-        57.9608187399,
-        9.5287499999
+        0.0,
+        0.0,
+        0.0
     ],
     "modelBoundsMin": [
-        -53.7575744174,
-        -7.0184059144,
-        -0.6820279972
+        0.0,
+        0.0,
+        0.0
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4X3"
+    "generalMessages": [],
+    "warnings": [
+        "Empty stream"
     ],
-    "warnings": [],
-    "errors": []
+    "errors": [
+        "IfcProject not found in model "
+    ]
 }

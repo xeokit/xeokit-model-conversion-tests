@@ -1,33 +1,32 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:03:44",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:52:56",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.json"
     ],
-    "numCreatedGltfMeshes": 777,
-    "numCreatedMetaObjects": 369,
+    "numCreatedGltfMeshes": 753,
+    "numCreatedMetaObjects": 368,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.3856880708,
+        34.3856880708781,
         10.3084375,
-        8.9013340632
+        8.90133406320728
     ],
     "modelBoundsMin": [
-        20.1470020158,
+        20.1470020158289,
         -8.6915625,
-        -2.3
+        -2.3000000000000007
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
-    "errors": [
-        "duplicate GUID in model: 0WTvaOfeHAPRlzM3ujhLGn",
-        "duplicate GUID in model: 3uzX3kyDv9gRN9RmdXYQjS"
-    ]
+    "warnings": [
+        "Element with GUID 0WTvaOfeHAPRlzM3ujhLGn added several times"
+    ],
+    "errors": []
 }

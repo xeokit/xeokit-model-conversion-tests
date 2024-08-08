@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/basin-tessellation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:24",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/basin-tessellation/model.glb"
     ],
@@ -18,7 +18,7 @@
         0.0
     ],
     "modelBoundsMin": [
-        -0.3012465,
+        -0.30124650000000003,
         -0.153498641,
         -0.094
     ],

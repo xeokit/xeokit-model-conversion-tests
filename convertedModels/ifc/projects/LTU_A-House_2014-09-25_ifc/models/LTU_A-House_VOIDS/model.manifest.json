@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:01:55",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:51:15",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb"
     ],
@@ -18,9 +18,9 @@
         17.7
     ],
     "modelBoundsMin": [
-        -2.63159867,
-        -61.7227159999,
-        2.6999999149
+        -2.6315986700000096,
+        -61.72271599999999,
+        2.6999999149999994
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

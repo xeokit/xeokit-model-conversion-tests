@@ -1,101 +1,33 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:40:14",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:30:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.json"
     ],
-    "numCreatedGltfMeshes": 8756,
+    "numCreatedGltfMeshes": 8260,
     "numCreatedMetaObjects": 4109,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        62.8413462249,
-        53.0030209771,
-        16.15
+        62.84134622493726,
+        53.00302097710804,
+        15.900000000000002
     ],
     "modelBoundsMin": [
-        -7.0808100371,
-        -0.473975,
-        -4.7000000002
+        -7.080810037190581,
+        -0.4739750000002374,
+        -4.700000000284842
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
     "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
+        "IfcSurfaceCurveSweptAreaSolid: Directrix not valid",
+        "Object with GUID 1$Du4Y8tH49Q53auHGH4sI appears several times in spatial structure"
     ],
-    "errors": [
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType",
-        "unhandled select argument: 0. in function readSelectType",
-        "unhandled select argument: 360. in function readSelectType"
-    ]
+    "errors": []
 }

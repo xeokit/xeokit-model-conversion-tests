@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:54:28",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:43:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.glb"
     ],
@@ -14,13 +14,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         39.495,
-        21.9099999999,
-        7.95
+        21.909999999999997,
+        7.950000000000001
     ],
     "modelBoundsMin": [
         -2.0,
-        -12.9999999999,
-        -3.17
+        -12.999999999999998,
+        -3.1700000000000004
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

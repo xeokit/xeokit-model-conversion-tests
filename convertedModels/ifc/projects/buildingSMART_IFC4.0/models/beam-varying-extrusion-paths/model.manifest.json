@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:29",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-extrusion-paths/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 4,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.05,
-        1.0192307693,
+        0.10000000000000002,
+        1.0384615387455618,
         0.0
     ],
     "modelBoundsMin": [
-        -0.1499999984,
-        -0.019230769,
-        -0.2
+        -0.19999999846153876,
+        -0.038461538177514853,
+        -0.15000000000000002
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

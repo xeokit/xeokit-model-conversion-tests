@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:45:19",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:35:24",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 5090,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.7549999999,
-        17.2000000001,
-        6.2
+        39.75499999998144,
+        17.20000000013114,
+        6.200000000000001
     ],
     "modelBoundsMin": [
-        -4.0195598702,
-        -2.5749999998,
+        -4.019559870267024,
+        -2.5749999998950557,
         -7.9
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Object with GUID 0pA6$kujoYHRd8UtCJz2ut appears several times in spatial structure"
+    ],
     "errors": []
 }

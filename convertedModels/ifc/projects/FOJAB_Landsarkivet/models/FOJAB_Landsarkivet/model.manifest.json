@@ -1,11 +1,12 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:51:30",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:40:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb",
-        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb"
+        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb",
+        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json"
@@ -16,12 +17,12 @@
     "modelBoundsMax": [
         131320.5001011028,
         6175323.458270839,
-        58.1176023208
+        58.11760232086882
     ],
     "modelBoundsMin": [
         131213.4467795359,
         6175220.274598266,
-        0.1226023208
+        0.12260232086881473
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

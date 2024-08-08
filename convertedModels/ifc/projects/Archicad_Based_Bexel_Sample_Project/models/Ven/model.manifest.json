@@ -1,0 +1,33 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/Ven.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:31:05",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Ven/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Ven/model.json"
+    ],
+    "numCreatedGltfMeshes": 6014,
+    "numCreatedMetaObjects": 753,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        52.87073754028333,
+        13.216207453099333,
+        14.400000309944149
+    ],
+    "modelBoundsMin": [
+        16.62371690547573,
+        -24.247356201840223,
+        3.4790000237943612
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4X3"
+    ],
+    "warnings": [
+        "Unhandled IFC Representation: IfcTextLiteralWithExtent",
+        "Object with GUID 0MWYV6wAc6WyLLmsDCmLuJ appears several times in spatial structure"
+    ],
+    "errors": []
+}

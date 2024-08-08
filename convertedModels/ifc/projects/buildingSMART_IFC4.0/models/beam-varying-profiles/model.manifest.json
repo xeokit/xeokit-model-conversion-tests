@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 18:06:30",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:55:28",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         0.60955,
         1.0,
-        0.1068033527
+        0.10788568934248738
     ],
     "modelBoundsMin": [
-        -0.05,
+        -0.10000000000000003,
         0.0,
-        -0.1068033527
+        -0.1078856893424874
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"

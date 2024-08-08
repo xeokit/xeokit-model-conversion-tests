@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "3.9",
-    "conversionDate": "2024-06-21 17:43:48",
+    "converterApplicationVersion": "4.7",
+    "conversionDate": "2024-08-08 06:34:04",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 8534,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        78.262186093,
-        37.5902743076,
-        12.3462234641
+        78.26218609304921,
+        37.59027430769751,
+        12.346223464168464
     ],
     "modelBoundsMin": [
-        0.4797753912,
-        -0.05,
-        -0.3164
+        0.4797753912208549,
+        -0.050000000000007816,
+        -0.2924000000000069
     ],
     "generalMessages": [
         "Detected IFC version: IFC4X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Object with GUID 0xQp_ltlz1BBUU3QHibyAH appears several times in spatial structure"
+    ],
     "errors": []
 }
