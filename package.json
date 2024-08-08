@@ -1,6 +1,6 @@
 {
   "name": "xeokit-model-conversion-tests",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs all our converter pipelines over a directory containing your IFC files and generates a nice report with Bootstrap, including logs and clickable links to view the converted XKT files ",
   "main": "index.js",
   "scripts": {
