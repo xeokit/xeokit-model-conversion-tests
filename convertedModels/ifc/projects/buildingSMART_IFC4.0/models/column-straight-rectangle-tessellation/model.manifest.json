@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/column-straight-rectangle-tessellation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:30",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:00",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/column-straight-rectangle-tessellation/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.074399999999999,
-        7.4168,
-        4.2672
+        0.10159999877214432,
+        0.10159999877214432,
+        1.5240000486373901
     ],
     "modelBoundsMin": [
-        10.8712,
-        7.2136,
-        1.2191999999999998
+        -0.10159999877214432,
+        -0.10159999877214432,
+        -1.5240000486373901
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

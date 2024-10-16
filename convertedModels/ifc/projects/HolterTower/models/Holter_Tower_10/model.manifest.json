@@ -1,32 +1,36 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/HolterTower/Holter_Tower_10.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/HolterTower/Holter_Tower_10.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:44:22",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:15",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.glb",
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_1.glb",
-        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_2.glb"
+        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_2.glb",
+        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_3.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.json"
     ],
-    "numCreatedGltfMeshes": 108520,
+    "numCreatedGltfMeshes": 108535,
     "numCreatedMetaObjects": 60860,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        93.9908629681,
-        93.18865574109999,
-        190.0000000009
+        78.4978596728021,
+        66.25398063659668,
+        121.01974962197941
     ],
     "modelBoundsMin": [
-        -47.6139850319,
-        -39.3193102421,
-        -10.0
+        -78.4978596728021,
+        -66.25398063659668,
+        -121.01974962197941
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

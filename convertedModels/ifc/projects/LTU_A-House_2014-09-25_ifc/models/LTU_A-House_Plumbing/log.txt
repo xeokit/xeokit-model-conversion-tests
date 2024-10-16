@@ -1,58 +1,31 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...-House_Plumbing.ifc"Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 5.00%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 39.0%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 83.0%Loading file "/home/lindsay/xe...-House_Plumbing.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 0.80%Converting IFC geometry: 12.8%Converting IFC geometry: 22.4%Converting IFC geometry: 29.6%Converting IFC geometry: 36.8%Converting IFC geometry: 44.0%Converting IFC geometry: 50.5%Converting IFC geometry: 56.9%Converting IFC geometry: 64.1%Converting IFC geometry: 71.3%Converting IFC geometry: 78.5%Converting IFC geometry: 100.0%
-Exporting to gltfExporting to gltf: 51.08%
-Accessors: 11225, reused: 22916, compression: 67%
-Exporting to gltf: 1.0%Exporting to gltf: 51.15%Exporting to gltf: 51.74%Exporting to gltf: 52.19%
-Accessors: 8891, reused: 31101, compression: 77%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc"Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 30.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 31.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 32.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 33.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 34.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 35.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 36.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 37.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 38.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 39.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 40.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 41.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 42.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 43.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 44.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 45.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 46.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 47.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 48.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 49.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 50.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 51.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 52.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 53.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 54.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 55.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 56.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 57.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 58.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 59.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 60.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 61.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 62.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 63.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 64.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 65.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 66.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 67.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 68.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 69.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 70.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 71.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 72.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 73.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 74.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 75.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 76.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 77.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 78.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 79.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 80.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 81.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 82.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 83.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 84.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 85.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 86.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 87.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 88.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 89.00%             Loading file "/home/lindsay/xeolabs/xeok...-House_Plumbing.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 5.50%             Converting IFC geometry: 6.00%             Converting IFC geometry: 6.50%             Converting IFC geometry: 7.00%             Converting IFC geometry: 7.50%             Converting IFC geometry: 8.00%             Converting IFC geometry: 8.50%             Converting IFC geometry: 9.00%             Converting IFC geometry: 9.50%             Converting IFC geometry: 10.00%             Converting IFC geometry: 10.50%             Converting IFC geometry: 11.00%             Converting IFC geometry: 11.50%             Converting IFC geometry: 12.00%             Converting IFC geometry: 12.50%             Converting IFC geometry: 13.00%             Converting IFC geometry: 13.50%             Converting IFC geometry: 14.00%             Converting IFC geometry: 14.50%             Converting IFC geometry: 15.00%             Converting IFC geometry: 15.50%             Converting IFC geometry: 16.00%             Converting IFC geometry: 16.50%             Converting IFC geometry: 17.00%             Converting IFC geometry: 17.50%             Converting IFC geometry: 18.00%             Converting IFC geometry: 18.50%             Converting IFC geometry: 19.00%             Converting IFC geometry: 19.50%             Converting IFC geometry: 20.00%             Converting IFC geometry: 20.50%             Converting IFC geometry: 21.00%             Converting IFC geometry: 21.50%             Converting IFC geometry: 22.00%             Converting IFC geometry: 22.50%             Converting IFC geometry: 23.00%             Converting IFC geometry: 23.50%             Converting IFC geometry: 24.00%             Converting IFC geometry: 24.50%             Converting IFC geometry: 25.00%             Converting IFC geometry: 25.50%             Converting IFC geometry: 26.00%             Converting IFC geometry: 26.50%             Converting IFC geometry: 27.00%             Converting IFC geometry: 27.50%             Converting IFC geometry: 28.00%             Converting IFC geometry: 28.50%             Converting IFC geometry: 29.00%             Converting IFC geometry: 29.50%             Converting IFC geometry: 30.00%             Converting IFC geometry: 30.50%             Converting IFC geometry: 31.00%             Converting IFC geometry: 31.51%             Converting IFC geometry: 32.01%             Converting IFC geometry: 32.51%             
+Exporting to gltfExporting to gltf: 33.01%             Exporting to gltf: 33.51%             
+Accessors: 8523, reused: 21120, compression: 71%
+Exporting to gltf: 34.01%             
+Converting IFC geometryConverting IFC geometry: 5.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.01%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.02%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.03%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.04%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.05%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.06%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.07%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.08%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.09%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.10%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.11%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.12%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.13%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.14%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.15%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.16%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.17%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.18%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.19%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.20%             Converting IFC geometry: 5.21%             Converting IFC geometry: 5.21%             Converting IFC geometry: 5.21%             Converting IFC geometry: 5.21%             Converting IFC geometry: 5.21%             Converting IFC geometry: 5.21%             Converting IFC geometry: 34.51%             Converting IFC geometry: 35.01%             Converting IFC geometry: 35.51%             Converting IFC geometry: 36.01%             Converting IFC geometry: 36.51%             Converting IFC geometry: 37.01%             Converting IFC geometry: 37.51%             Converting IFC geometry: 38.01%             Converting IFC geometry: 38.51%             Converting IFC geometry: 39.01%             Converting IFC geometry: 39.51%             Converting IFC geometry: 40.01%             Converting IFC geometry: 40.51%             Converting IFC geometry: 41.01%             Converting IFC geometry: 41.51%             Converting IFC geometry: 42.01%             Converting IFC geometry: 42.51%             Converting IFC geometry: 43.01%             Converting IFC geometry: 43.51%             Converting IFC geometry: 44.01%             Converting IFC geometry: 44.51%             Converting IFC geometry: 45.01%             Converting IFC geometry: 45.51%             Converting IFC geometry: 46.01%             Converting IFC geometry: 46.51%             Converting IFC geometry: 47.01%             Converting IFC geometry: 47.51%             Converting IFC geometry: 48.01%             Converting IFC geometry: 48.51%             Converting IFC geometry: 49.01%             Converting IFC geometry: 49.51%             Converting IFC geometry: 50.01%             Converting IFC geometry: 50.51%             Converting IFC geometry: 51.01%             Converting IFC geometry: 51.51%             Converting IFC geometry: 52.01%             Converting IFC geometry: 52.51%             Converting IFC geometry: 53.01%             Converting IFC geometry: 53.51%             Converting IFC geometry: 54.01%             Converting IFC geometry: 54.51%             Converting IFC geometry: 55.01%             Converting IFC geometry: 55.51%             Converting IFC geometry: 56.01%             Converting IFC geometry: 56.51%             Converting IFC geometry: 57.01%             Converting IFC geometry: 57.51%             Converting IFC geometry: 58.02%             Converting IFC geometry: 58.52%             Converting IFC geometry: 59.02%             Converting IFC geometry: 59.52%             Converting IFC geometry: 60.02%             Converting IFC geometry: 60.52%             Converting IFC geometry: 61.02%             Converting IFC geometry: 61.52%             Converting IFC geometry: 62.02%             Converting IFC geometry: 62.52%             Converting IFC geometry: 63.02%             Converting IFC geometry: 63.52%             Converting IFC geometry: 64.02%             Converting IFC geometry: 64.52%             Converting IFC geometry: 65.02%             Converting IFC geometry: 65.52%             Converting IFC geometry: 66.02%             Converting IFC geometry: 66.52%             Converting IFC geometry: 67.02%             
+Exporting to gltfExporting to gltf: 67.52%             Exporting to gltf: 68.02%             Exporting to gltf: 68.52%             
+Accessors: 6684, reused: 25762, compression: 79%
 
-Accessors: 2464, reused: 5587, compression: 69%
-Exporting metadataExporting metadata: 50.0%Exporting metadata: 100.0%
-done in 46 seconds
+Converting IFC geometryConverting IFC geometry: 69.02%             Converting IFC geometry: 69.52%             Converting IFC geometry: 70.02%             Converting IFC geometry: 70.52%             Converting IFC geometry: 71.02%             Converting IFC geometry: 71.52%             Converting IFC geometry: 72.02%             Converting IFC geometry: 72.52%             Converting IFC geometry: 73.02%             Converting IFC geometry: 73.52%             Converting IFC geometry: 74.02%             Converting IFC geometry: 74.52%             Converting IFC geometry: 75.02%             Converting IFC geometry: 75.52%             Converting IFC geometry: 76.02%             Converting IFC geometry: 76.52%             Converting IFC geometry: 77.02%             Converting IFC geometry: 77.52%             Converting IFC geometry: 78.02%             Converting IFC geometry: 78.52%             Converting IFC geometry: 79.02%             Converting IFC geometry: 79.52%             Converting IFC geometry: 80.02%             Converting IFC geometry: 80.52%             Converting IFC geometry: 81.02%             Converting IFC geometry: 81.52%             Converting IFC geometry: 82.02%             Converting IFC geometry: 82.52%             Converting IFC geometry: 83.02%             Converting IFC geometry: 83.52%             Converting IFC geometry: 84.02%             Converting IFC geometry: 84.53%             Converting IFC geometry: 85.03%             Converting IFC geometry: 85.53%             Converting IFC geometry: 86.03%             Converting IFC geometry: 86.53%             Converting IFC geometry: 87.03%             Converting IFC geometry: 87.53%             Converting IFC geometry: 88.03%             Converting IFC geometry: 88.53%             Converting IFC geometry: 89.03%             Converting IFC geometry: 100.00%             
+Exporting to gltf
+Accessors: 3378, reused: 12942, compression: 79%
+Exporting metadataExporting metadata: 50.00%             Exporting metadata: 51.01%             Exporting metadata: 52.02%             Exporting metadata: 53.04%             Exporting metadata: 54.05%             Exporting metadata: 55.06%             Exporting metadata: 56.08%             Exporting metadata: 57.09%             Exporting metadata: 58.11%             Exporting metadata: 59.12%             Exporting metadata: 60.13%             Exporting metadata: 61.15%             Exporting metadata: 62.16%             Exporting metadata: 63.18%             Exporting metadata: 64.19%             Exporting metadata: 65.20%             Exporting metadata: 66.22%             Exporting metadata: 67.23%             Exporting metadata: 68.24%             Exporting metadata: 69.26%             Exporting metadata: 70.27%             Exporting metadata: 71.29%             Exporting metadata: 72.30%             Exporting metadata: 73.31%             Exporting metadata: 74.33%             Exporting metadata: 75.34%             Exporting metadata: 76.36%             Exporting metadata: 77.37%             Exporting metadata: 78.38%             Exporting metadata: 79.40%             Exporting metadata: 80.41%             Exporting metadata: 81.42%             Exporting metadata: 82.44%             Exporting metadata: 83.45%             Exporting metadata: 84.47%             Exporting metadata: 85.48%             Exporting metadata: 86.49%             Exporting metadata: 87.51%             Exporting metadata: 88.52%             Exporting metadata: 89.54%             Exporting metadata: 90.55%             Exporting metadata: 91.56%             Exporting metadata: 92.58%             Exporting metadata: 93.59%             Exporting metadata: 94.61%             Exporting metadata: 100.00%             done in 7 minutes, 17 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.manifest.json...
-[convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 16157.72 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7023.27 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.30
-[convert2xkt] Conversion time: 12.96 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 23456
-[convert2xkt] Converted geometries: 23446
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2536611
-[convert2xkt] Converted vertices: 1503636
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 3)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 15770.81 kB
+[convert2xkt] Input file size: 15504.66 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -62,27 +35,27 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 7628.80 kB
+[convert2xkt] XKT size: 3433.32 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.07
-[convert2xkt] Conversion time: 15.26 s
+[convert2xkt] Compression ratio: 4.52
+[convert2xkt] Conversion time: 7.51 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 31631
-[convert2xkt] Converted geometries: 31624
+[convert2xkt] Converted drawable objects: 21501
+[convert2xkt] Converted geometries: 8160
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 3222046
-[convert2xkt] Converted vertices: 1930724
+[convert2xkt] Converted triangles: 1048162
+[convert2xkt] Converted vertices: 647103
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 3)
+[convert2xkt] Converted model1.xkt (1 of 3)
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 3614.55 kB
+[convert2xkt] Input file size: 14420.57 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -92,22 +65,52 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1600.93 kB
+[convert2xkt] XKT size: 2966.20 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.26
-[convert2xkt] Conversion time: 2.75 s
+[convert2xkt] Compression ratio: 4.86
+[convert2xkt] Conversion time: 6.34 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 5801
-[convert2xkt] Converted geometries: 5795
+[convert2xkt] Converted drawable objects: 26186
+[convert2xkt] Converted geometries: 6278
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 586459
-[convert2xkt] Converted vertices: 348644
+[convert2xkt] Converted triangles: 830606
+[convert2xkt] Converted vertices: 490967
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.xkt
+[convert2xkt] Converted model2.xkt (2 of 3)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_3.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 6960.86 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v10
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 1421.60 kB
+[convert2xkt] XKT textures size: 0.01kB
+[convert2xkt] Compression ratio: 4.90
+[convert2xkt] Conversion time: 2.84 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 13201
+[convert2xkt] Converted geometries: 3125
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 380239
+[convert2xkt] Converted vertices: 218963
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_3.xkt
 [convert2xkt] Converted model3.xkt (3 of 3)
 [convert2xkt] Done.

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:54:38",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 6593,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.4347990361710643,
-        57.96081873996155,
-        9.528749999999999
+        27.09618751704693,
+        32.48961257938585,
+        5.105804619789124
     ],
     "modelBoundsMin": [
-        -53.75757441741111,
-        -7.018405914463685,
-        -0.6828592623190648
+        -27.09618751704693,
+        -32.48961257938585,
+        -5.105804619789124
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
     "errors": []
 }

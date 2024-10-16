@@ -1,30 +1,32 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-transformation.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-transformation.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:35",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-transformation/model.json"
     ],
-    "numCreatedGltfMeshes": 1,
+    "numCreatedGltfMeshes": 0,
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.3535533905932737,
-        0.35355339059327373,
-        2.0
+        0.0,
+        0.0,
+        0.0
     ],
     "modelBoundsMin": [
-        0.6464466094067263,
-        -0.35355339059327373,
+        0.0,
+        0.0,
         0.0
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
+    "warnings": [
+        "Invalid SweptArea"
+    ],
     "errors": []
 }

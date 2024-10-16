@@ -1,32 +1,34 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/BIMData/MAP.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIMData/MAP.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:31:15",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.json"
     ],
-    "numCreatedGltfMeshes": 5561,
+    "numCreatedGltfMeshes": 5559,
     "numCreatedMetaObjects": 2017,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1842038.6794568275,
-        5173320.675941546,
-        24.58955683442439
+        16.925292457686737,
+        18.34726578183472,
+        14.094778407372539
     ],
     "modelBoundsMin": [
-        1842005.9071708762,
-        5173283.019763579,
-        -3.6000000000000014
+        -16.925292457686737,
+        -18.34726578183472,
+        -14.094778407372539
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "Object with GUID 3toKckUfH2jBmd$7uhJHa7 appears several times in spatial structure"
+        "Unhandled IFC Representation: IfcGeometricSet"
     ],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

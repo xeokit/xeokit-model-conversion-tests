@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:31:52",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Structural/model.glb"
     ],
@@ -13,18 +13,22 @@
     "numCreatedMetaObjects": 2846,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        89.22724111054535,
-        163.3815667362856,
-        199.81120000000004
+        126.02203825630562,
+        121.0026307952347,
+        20.651000002980254
     ],
     "modelBoundsMin": [
-        -12.464959033079715,
-        44.52571123952887,
-        158.50920000000002
+        -126.02203825630562,
+        -121.0026307952347,
+        -20.651000002980254
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

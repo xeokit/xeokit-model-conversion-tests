@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:19",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:50",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 4,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.6095999999999999,
-        0.6095999999999999,
-        0.7111999999999999
+        0.30480000376701355,
+        0.30480000376701355,
+        0.35560000376701356
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        -0.30480000376701355,
+        -0.30480000376701355,
+        -0.35560000376701356
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

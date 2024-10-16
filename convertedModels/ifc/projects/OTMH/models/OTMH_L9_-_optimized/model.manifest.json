@@ -1,0 +1,35 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L9_-_optimized.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:14:29",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model_1.glb",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model_2.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model_1.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model_2.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model_3.json"
+    ],
+    "numCreatedGltfMeshes": 18574,
+    "numCreatedMetaObjects": 13958,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        1177.1524173139958,
+        2348.2429896036488,
+        110.48407956825035
+    ],
+    "modelBoundsMin": [
+        -1177.1524173139958,
+        -2348.2429896036488,
+        -110.48407956825035
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
+}

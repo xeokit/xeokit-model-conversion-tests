@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:33:55",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:52:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 6672,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        60.985349,
-        25.536092906674497,
-        15.072000447946502
+        30.28400324499559,
+        12.041299689078613,
+        7.901050224344517
     ],
     "modelBoundsMin": [
-        -1.2322133612749013,
-        -20.697791650316248,
-        -0.7301000000000002
+        -30.28400324499559,
+        -12.041299689078613,
+        -7.901050224344517
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
     "errors": []
 }

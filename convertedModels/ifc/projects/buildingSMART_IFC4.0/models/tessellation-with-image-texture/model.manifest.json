@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellation-with-image-texture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:42",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellation-with-image-texture/model.glb"
     ],
@@ -13,20 +13,20 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        40.0,
-        20.0,
-        4.0
+        2.0,
+        2.0,
+        2.0
     ],
     "modelBoundsMin": [
-        -0.07029378414154053,
-        -0.0703125,
-        0.0
+        -2.0,
+        -2.0,
+        -2.0
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": [
-        "#207=IfcTriangulatedFaceSet: stoi"
-    ]
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": []
 }

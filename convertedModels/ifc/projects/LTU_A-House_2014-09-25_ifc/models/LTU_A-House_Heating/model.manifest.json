@@ -1,29 +1,29 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Heating.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:49:03",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:10:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Heating/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Heating/model.json"
     ],
-    "numCreatedGltfMeshes": 22494,
+    "numCreatedGltfMeshes": 22503,
     "numCreatedMetaObjects": 22510,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        167.98146083,
-        74.47617678,
-        15.247500000000002
+        85.41353728002608,
+        76.11051990192092,
+        6.304249999672175
     ],
     "modelBoundsMin": [
-        -2.8456137299999966,
-        -77.74486300000001,
-        2.6390000000000002
+        -85.41353728002608,
+        -76.11051990192092,
+        -6.304249999672175
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
     "errors": []

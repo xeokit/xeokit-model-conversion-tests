@@ -1,32 +1,37 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:40:45",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:01:27",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb",
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb",
-        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_2.glb"
+        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_2.glb",
+        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_3.glb",
+        "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_4.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json"
     ],
-    "numCreatedGltfMeshes": 34445,
+    "numCreatedGltfMeshes": 34360,
     "numCreatedMetaObjects": 10187,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        131320.5001011028,
-        6175323.458270839,
-        58.11760232086882
+        114894.59764443789,
+        5403388.669821715,
+        51.35828434758876
     ],
     "modelBoundsMin": [
-        131213.4467795359,
-        6175220.274598266,
-        0.12260232086881473
+        -114894.59764443789,
+        -5403388.669821715,
+        -51.35828434758876
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:43:48",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 490,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.495,
-        21.909999999999997,
-        7.950000000000001
+        20.747499465942383,
+        17.454999923706055,
+        5.560000039637089
     ],
     "modelBoundsMin": [
-        -2.0,
-        -12.999999999999998,
-        -3.1700000000000004
+        -20.747499465942383,
+        -17.454999923706055,
+        -5.560000039637089
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
     "errors": []
 }

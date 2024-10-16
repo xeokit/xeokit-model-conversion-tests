@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/ST-Demo_Sample_Single_Building_01.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ST-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:30:22",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:40",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ST-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -13,22 +13,23 @@
     "numCreatedMetaObjects": 1038,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        66.27457755559632,
-        54.049102136253396,
-        11.550000000000006
+        36.42478878375857,
+        27.904551044284943,
+        9.425000002980234
     ],
     "modelBoundsMin": [
-        -6.574999999999875,
-        -1.760000000000204,
-        -7.299999999999999
+        -36.42478878375857,
+        -27.904551044284943,
+        -9.425000002980234
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [
         "degenerated triangle"
     ],
     "errors": [
-        "polygonal_halfspace_item_data->meshsets.size() != 1"
+        "polygonal_halfspace_itemData->meshsets.size() != 1",
+        "Trim1 is not IfcTrimmingSelect"
     ]
 }

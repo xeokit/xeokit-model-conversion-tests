@@ -1,30 +1,32 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:57",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:06",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.json"
     ],
-    "numCreatedGltfMeshes": 17168,
-    "numCreatedMetaObjects": 2346,
+    "numCreatedGltfMeshes": 0,
+    "numCreatedMetaObjects": 1,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        204.82008560404654,
-        80.9372817351009,
-        15.960000000000003
+        0.0,
+        0.0,
+        0.0
     ],
     "modelBoundsMin": [
-        -32.09057281067892,
-        -111.60497376620393,
-        -3.9999999999999982
+        0.0,
+        0.0,
+        0.0
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X2"
     ],
-    "warnings": [],
+    "warnings": [
+        "IfcProject.UnitsInContext not found"
+    ],
     "errors": []
 }

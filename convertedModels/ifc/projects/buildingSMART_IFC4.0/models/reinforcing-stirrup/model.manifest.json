@@ -1,29 +1,29 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/reinforcing-stirrup.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/reinforcing-stirrup.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:37",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:07",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/reinforcing-stirrup/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/reinforcing-stirrup/model.json"
     ],
-    "numCreatedGltfMeshes": 1,
+    "numCreatedGltfMeshes": 0,
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.07564582522409397,
-        0.017909928518582672,
-        -0.024999999999999967
+        0.0,
+        0.0,
+        0.0
     ],
     "modelBoundsMin": [
-        -0.07500000000000001,
-        -0.006000000000000001,
-        -0.37497744352917417
+        0.0,
+        0.0,
+        0.0
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

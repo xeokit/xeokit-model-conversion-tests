@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:56",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
@@ -13,20 +13,20 @@
     "numCreatedMetaObjects": 368,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.3856880708781,
-        10.3084375,
-        8.90133406320728
+        7.1193437576293945,
+        9.29645449846983,
+        5.600666904449463
     ],
     "modelBoundsMin": [
-        20.1470020158289,
-        -8.6915625,
-        -2.3000000000000007
+        -7.1193437576293945,
+        -9.29645449846983,
+        -5.600666904449463
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Element with GUID 0WTvaOfeHAPRlzM3ujhLGn added several times"
-    ],
-    "errors": []
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:30:10",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -13,21 +13,23 @@
     "numCreatedMetaObjects": 4109,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        62.84134622493726,
-        53.00302097710804,
-        15.900000000000002
+        34.96107813309047,
+        26.738497989531616,
+        10.300000000142422
     ],
     "modelBoundsMin": [
-        -7.080810037190581,
-        -0.4739750000002374,
-        -4.700000000284842
+        -34.96107813309047,
+        -26.738497989531616,
+        -10.300000000142422
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: Directrix not valid",
-        "Object with GUID 1$Du4Y8tH49Q53auHGH4sI appears several times in spatial structure"
+        "no intersection found",
+        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
     ],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

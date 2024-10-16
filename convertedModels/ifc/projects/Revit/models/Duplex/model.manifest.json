@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Revit/Duplex.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/Duplex.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:32",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:14:53",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.glb"
     ],
@@ -13,18 +13,22 @@
     "numCreatedMetaObjects": 233,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        10.05065203037322,
-        0.8130000000000397,
-        6.6348
+        4.641500048339367,
+        9.141500048339367,
+        4.092399947595596
     ],
     "modelBoundsMin": [
-        -1.2506520303732227,
-        -18.613000000000028,
-        -1.5500000000000003
+        -4.641500048339367,
+        -9.141500048339367,
+        -4.092399947595596
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

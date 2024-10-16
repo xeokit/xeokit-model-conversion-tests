@@ -1,24 +1,24 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-profiles.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...arying-profiles.ifc"Loading file "/home/lindsay/xe...arying-profiles.ifc": 6.20%Loading file "/home/lindsay/xe...arying-profiles.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 100.0%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc"Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 30.01%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 31.34%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 32.57%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 33.81%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 35.54%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 36.89%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 38.05%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 39.21%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 40.51%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 41.71%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 43.11%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 44.83%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 46.74%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 47.96%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 49.16%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 50.72%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 52.24%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 53.61%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 55.01%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 56.02%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 57.06%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 58.15%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 59.17%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 60.17%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 61.24%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 62.64%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 63.74%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 64.96%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 66.06%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 67.56%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 69.25%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 71.40%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 72.48%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 73.60%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 74.77%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 75.79%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 76.82%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 77.88%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 79.28%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 80.39%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 81.60%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 82.71%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 84.21%             Loading file "/home/lindsay/xeolabs/xeok...arying-profiles.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 23.75%             Converting IFC geometry: 80.00%             Converting IFC geometry: 98.75%             Converting IFC geometry: 100.00%             
 Exporting to gltf
-Accessors: 6
-Exporting metadataExporting metadata: 100.0%
+Accessors: 4
+Exporting metadataExporting metadata: 100.00%             
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-profiles/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 5.66 kB
+[convert2xkt] Input file size: 5.17 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -28,18 +28,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1.76 kB
+[convert2xkt] XKT size: 1.74 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.22
+[convert2xkt] Compression ratio: 2.97
 [convert2xkt] Conversion time: 0.06 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 5
-[convert2xkt] Converted geometries: 4
+[convert2xkt] Converted geometries: 2
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
 [convert2xkt] Converted triangles: 188
-[convert2xkt] Converted vertices: 100
+[convert2xkt] Converted vertices: 96
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

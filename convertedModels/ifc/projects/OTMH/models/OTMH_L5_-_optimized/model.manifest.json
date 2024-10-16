@@ -1,0 +1,41 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L5_-_optimized.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:13:23",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_1.glb",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_2.glb",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_3.glb",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_4.glb",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_5.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_1.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_2.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_3.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_4.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_5.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_6.json"
+    ],
+    "numCreatedGltfMeshes": 36895,
+    "numCreatedMetaObjects": 30650,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        2129.2194060330703,
+        4354.015163624817,
+        173.53356333454022
+    ],
+    "modelBoundsMin": [
+        -2129.2194060330703,
+        -4354.015163624817,
+        -173.53356333454022
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC2X3"
+    ],
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
+}

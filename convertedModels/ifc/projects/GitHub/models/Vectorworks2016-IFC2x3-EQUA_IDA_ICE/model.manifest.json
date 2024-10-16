@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:43:55",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 1704,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.968877515,
-        19.05,
-        20.235716262
+        9.8995680809021,
+        10.274999618530273,
+        13.267858213186264
     ],
     "modelBoundsMin": [
-        -5.031122485000001,
-        -5.569373559999999,
-        -6.300000000000001
+        -9.8995680809021,
+        -10.274999618530273,
+        -13.267858213186264
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
     "errors": []
 }

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Dormitory-ARC-Level2-only-IfcSpace-only/Dormitory-ARC-Level2-only.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Dormitory-ARC-Level2-only-IfcSpace-only/Dormitory-ARC-Level2-only.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:40:21",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:01:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Dormitory-ARC-Level2-only-IfcSpace-only/models/Dormitory-ARC-Level2-only/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 363,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        74.9620050000003,
-        -72.61456100000008,
-        109.14
+        17.425000459253788,
+        8.037256361290005,
+        3.2518182581121238
     ],
     "modelBoundsMin": [
-        40.112004999999996,
-        -88.68907373271516,
-        102.63636363636364
+        -17.425000459253788,
+        -8.037256361290005,
+        -3.2518182581121238
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4X1"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

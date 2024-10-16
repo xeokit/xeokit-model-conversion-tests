@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/wefly/wefly.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/wefly/wefly.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:49",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:20",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/wefly/models/wefly/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 6,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.21374869346619,
-        1.8615311384201,
-        0.768742799758911
+        1.0883973836898804,
+        0.4323408603668213,
+        0.6200967878103256
     ],
     "modelBoundsMin": [
-        -0.9630460739135741,
-        0.996849417686462,
-        -0.47145077586174
+        -1.0883973836898804,
+        -0.4323408603668213,
+        -0.6200967878103256
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

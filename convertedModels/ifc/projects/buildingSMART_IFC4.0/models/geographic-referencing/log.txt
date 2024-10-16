@@ -1,24 +1,24 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/geographic-referencing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/geographic-referencing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/geographic-referencing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/geographic-referencing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...hic-referencing.ifc"Loading file "/home/lindsay/xe...hic-referencing.ifc": 6.17%Loading file "/home/lindsay/xe...hic-referencing.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 100.0%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc"Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 30.01%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 31.97%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 33.62%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 34.86%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 36.71%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 38.13%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 39.35%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 40.78%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 41.96%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 43.66%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 45.20%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 46.40%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 48.22%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 49.76%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 50.93%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 53.08%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 55.65%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 57.25%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 58.63%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 60.31%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 61.52%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 62.84%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 64.41%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 65.72%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 68.14%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 69.61%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 72.33%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 73.80%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 74.92%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 76.58%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 77.81%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 79.16%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 80.98%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 82.80%             Loading file "/home/lindsay/xeolabs/xeok...hic-referencing.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 80.00%             Converting IFC geometry: 100.00%             
 Exporting to gltf
 Accessors: 0
-Exporting metadataExporting metadata: 100.0%
+Exporting metadataExporting metadata: 100.00%             
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 0.82 kB
+[convert2xkt] Input file size: 0.88 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.78
+[convert2xkt] Compression ratio: 1.91
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

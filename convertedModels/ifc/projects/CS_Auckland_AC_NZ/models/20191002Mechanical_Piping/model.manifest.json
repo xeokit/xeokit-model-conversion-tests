@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:34:04",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:52:17",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb"
     ],
@@ -13,20 +13,20 @@
     "numCreatedMetaObjects": 8534,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        78.26218609304921,
-        37.59027430769751,
-        12.346223464168464
+        38.891205348565734,
+        18.820137405768037,
+        6.319311746317839
     ],
     "modelBoundsMin": [
-        0.4797753912208549,
-        -0.050000000000007816,
-        -0.2924000000000069
+        -38.891205348565734,
+        -18.820137405768037,
+        -6.319311746317839
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Object with GUID 0xQp_ltlz1BBUU3QHibyAH appears several times in spatial structure"
-    ],
-    "errors": []
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

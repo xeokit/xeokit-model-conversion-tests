@@ -1,32 +1,36 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:27:54",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:49:40",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb",
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_1.glb"
+        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_1.glb",
+        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_2.glb"
     ],
     "metadataOutFiles": [
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.json",
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_1.json"
+        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_1.json",
+        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model_2.json"
     ],
     "numCreatedGltfMeshes": 20287,
     "numCreatedMetaObjects": 16545,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.4347990361710643,
-        57.96081873996162,
-        13.250000000004665
+        39.97703699160873,
+        44.92220982437868,
+        9.176034431651665
     ],
     "modelBoundsMin": [
-        -54.84206622129499,
-        -8.62785591446373,
-        -0.684137500000011
+        -39.97703699160873,
+        -44.92220982437868,
+        -9.176034431651665
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

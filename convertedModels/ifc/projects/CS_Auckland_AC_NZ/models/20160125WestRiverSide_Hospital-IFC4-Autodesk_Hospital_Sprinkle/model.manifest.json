@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:31:55",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:33",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb"
     ],
@@ -13,23 +13,23 @@
     "numCreatedMetaObjects": 13498,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        86.75117600178835,
-        139.41899334368958,
-        190.86010000000002
+        49.178879646763285,
+        45.565794801300015,
+        13.595760498267765
     ],
     "modelBoundsMin": [
-        -11.113574391175831,
-        48.28691885049966,
-        163.66857899999943
+        -49.178879646763285,
+        -45.565794801300015,
+        -13.595760498267765
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: Directrix not valid",
-        "Object with GUID 0oRwkC2RfAvvAvj9OxPQ33 appears several times in spatial structure"
+        "no intersection found",
+        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
     ],
     "errors": [
-        "Entity with id # 19  not found"
+        "Trim1 is not IfcTrimmingSelect"
     ]
 }

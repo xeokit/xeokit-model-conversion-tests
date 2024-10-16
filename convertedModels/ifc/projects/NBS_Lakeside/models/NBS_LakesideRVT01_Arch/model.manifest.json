@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT01_Arch.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideRVT01_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:07",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:12:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideRVT01_Arch/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 1242,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        30.553642811000003,
-        17.004220615,
-        6.218719993
+        25.008666010390627,
+        16.291500176609162,
+        4.909359979629516
     ],
     "modelBoundsMin": [
-        -19.463689373,
-        -15.578779384999999,
-        -3.6000000000000005
+        -25.008666010390627,
+        -16.291500176609162,
+        -4.909359979629516
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

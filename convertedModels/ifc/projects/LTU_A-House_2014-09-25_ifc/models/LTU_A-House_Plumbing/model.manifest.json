@@ -1,49 +1,32 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:49:39",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:11:09",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb",
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb",
-        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb"
+        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb",
+        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_3.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json"
     ],
-    "numCreatedGltfMeshes": 60865,
+    "numCreatedGltfMeshes": 60870,
     "numCreatedMetaObjects": 60877,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        236.56599998000002,
-        198.98400000000004,
-        17.28
+        212.99240854433756,
+        133.54172319502982,
+        12.892193848342455
     ],
     "modelBoundsMin": [
-        -189.41881711999997,
-        -61.72271599999999,
-        1.1667696369218774
+        -212.99240854433756,
+        -133.54172319502982,
+        -12.892193848342455
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Element with GUID 1712skmef4TwSSB18dETco added several times",
-        "Element with GUID 3Yr1pV9dj7XhZqoxPClx6O added several times",
-        "Element with GUID 02GOb2beHAigsMMkcuLVdg added several times",
-        "Element with GUID 3xV5IGobX5OBNcmt$va29e added several times",
-        "Element with GUID 2AJ3Xn1NbCBvNKhCJpnJZv added several times",
-        "Element with GUID 3MiJOikEH5cBHijuz19CmL added several times",
-        "Element with GUID 1r6m0Fj3z1u9DvlcEGdMyP added several times",
-        "Element with GUID 0Pdz9ScVDFlu2FwBBBkYIT added several times",
-        "Element with GUID 2ZRiKt4nHFovYl7S$uzCFI added several times",
-        "Element with GUID 1M3YgDcGP4zxTekT25j_EJ added several times",
-        "Element with GUID 0GBijtjD52Gv80WR68PlT7 added several times",
-        "Element with GUID 00ErCvTxX7YeOsvTuDg2fn added several times",
-        "Element with GUID 3nXpxHW59Bpe1VubqVfk1K added several times",
-        "Element with GUID 0rOOUIdX18HPLkli0hmjJD added several times"
-    ],
-    "errors": [
-        "Entity with id # 202851  not found"
-    ]
+    "warnings": [],
+    "errors": []
 }

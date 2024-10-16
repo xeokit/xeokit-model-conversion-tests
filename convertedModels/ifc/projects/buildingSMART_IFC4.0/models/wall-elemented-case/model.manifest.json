@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:44",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb"
     ],
@@ -13,8 +13,8 @@
     "numCreatedMetaObjects": 2,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.014399999999995,
-        19.507199999999997,
+        0.0,
+        0.0,
         0.0
     ],
     "modelBoundsMin": [
@@ -23,10 +23,10 @@
         0.0
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": [
-        "Entity with id # 123  not found"
-    ]
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": []
 }

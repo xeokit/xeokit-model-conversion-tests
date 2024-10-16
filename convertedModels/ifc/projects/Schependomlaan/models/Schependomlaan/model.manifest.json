@@ -1,32 +1,89 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Schependomlaan/Schependomlaan.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Schependomlaan/Schependomlaan.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:54:13",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.json"
     ],
-    "numCreatedGltfMeshes": 5978,
-    "numCreatedMetaObjects": 3730,
+    "numCreatedGltfMeshes": 1643,
+    "numCreatedMetaObjects": 3674,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        22.949999869575,
-        23.46500000001,
-        13.356488444660002
+        15.04000017166138,
+        17.937678741655077,
+        7.674814890981469
     ],
     "modelBoundsMin": [
-        -1.0,
-        -1.0,
-        -1.7000000000000002
+        -15.04000017166138,
+        -17.937678741655077,
+        -7.674814890981469
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "degenerated triangle"
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: UnknownIfcClassID, tag: 0, guid: 1i82_yJU$tY9VRLfKIeMOK",
+        "Object with GUID 0ObAt5weD2MxClwOERiQnw appears several times in spatial structure",
+        "Object with GUID 2vp_usBx12Y9PoQVOVdAFF appears several times in spatial structure",
+        "Object with GUID 3hhiC8yEn2tx0W6$uE_WXb appears several times in spatial structure",
+        "Object with GUID 0Zx4cqrajBR8O5_p97fE50 appears several times in spatial structure",
+        "Object with GUID 3nJZgUzE597eilBObAKJsS appears several times in spatial structure",
+        "Object with GUID 0vzoXh8HfE39$x$uEJYJop appears several times in spatial structure",
+        "Object with GUID 2GynMxLJb7Ve_WEsuAUB$o appears several times in spatial structure",
+        "Object with GUID 2Hyat1fsPEGfyYPyim12A1 appears several times in spatial structure",
+        "Object with GUID 1L540sTSbBmBcA50ERiYup appears several times in spatial structure",
+        "Object with GUID 2luRa0gbH7jxkpjjSUl3pE appears several times in spatial structure",
+        "Object with GUID 03pWrikv57TvJ6ZuhGktHh appears several times in spatial structure",
+        "Object with GUID 3KwtARMrX7SOZcscyIrGyC appears several times in spatial structure",
+        "Object with GUID 043PX6AOf83xoc4Zbos9VV appears several times in spatial structure",
+        "Object with GUID 2LWjDdCajEqx6y3aO2HdiR appears several times in spatial structure",
+        "Object with GUID 0lF5MOhTPBxPrLOQzM_gU0 appears several times in spatial structure",
+        "Object with GUID 2UvMAz_eX4de4Cch8tic9z appears several times in spatial structure",
+        "Object with GUID 0c9IdEzTz61uKg3zrEBJVm appears several times in spatial structure",
+        "Object with GUID 0wPqxf9KX0nPDjgzD8mXwD appears several times in spatial structure",
+        "Object with GUID 23IDpa5hfBCAToeuOPibhu appears several times in spatial structure",
+        "Object with GUID 0NegscEpLBHfCO0cOvWvWD appears several times in spatial structure",
+        "Object with GUID 3a6hoiwS5ALQTYbFhAtpMx appears several times in spatial structure",
+        "Object with GUID 0_FtwVBcH6BQrvFHbzx1Dk appears several times in spatial structure",
+        "Object with GUID 2jqRiK6lr5dgbYAtO7O9PM appears several times in spatial structure",
+        "Object with GUID 3T7qMysCj85xrHCzTZnlNj appears several times in spatial structure",
+        "Object with GUID 2mZ5fvqSj1euAdxjC9HqAB appears several times in spatial structure",
+        "Object with GUID 11SSFTmvfAsh7uffkbAkHw appears several times in spatial structure",
+        "Object with GUID 1AGXqM6FXE$PKWFpHb0tD1 appears several times in spatial structure",
+        "Object with GUID 1QAOzVcfjCIgepdR9u6YaR appears several times in spatial structure",
+        "Invalid SweptArea",
+        "Object with GUID 0kBoEfgQzCZwcAITqZnDkN appears several times in spatial structure",
+        "Object with GUID 2ojoT3QkX9_xyO2CmkhazA appears several times in spatial structure",
+        "Object with GUID 3Y0AN$7uH9RhdeNNvTVRg$ appears several times in spatial structure",
+        "Object with GUID 0Aoj1Fkgn3UATZpBNlMNaf appears several times in spatial structure",
+        "Object with GUID 0qpBWaAanEoR5V$fq4r3RS appears several times in spatial structure",
+        "Object with GUID 1EAotCuNzD2w4dz5DcwpX_ appears several times in spatial structure",
+        "Object with GUID 3OZhFtFq98_OiNVPZhex1v appears several times in spatial structure",
+        "Object with GUID 07cuRabSn7ofP$cYt02X4i appears several times in spatial structure",
+        "Object with GUID 2HxXb1h3n16BOCoDJT05OM appears several times in spatial structure",
+        "Object with GUID 18Dp7n99rCLBnu8_b3RxrR appears several times in spatial structure",
+        "Object with GUID 1q7DPgykr9lATuR9kfU1JJ appears several times in spatial structure",
+        "Object with GUID 0Kvw2yChTBXuQ4cILhgS7P appears several times in spatial structure",
+        "Object with GUID 0u4wgLe6n0ABVaiXyikbkA appears several times in spatial structure",
+        "Object with GUID 0bh_izAIvCGR4N2dD46iKk appears several times in spatial structure",
+        "Object with GUID 3k4Z3diXzAWAnqMaC4UbXG appears several times in spatial structure",
+        "Object with GUID 2Oyl7MsmPBX8QuVAq0wJYB appears several times in spatial structure",
+        "Object with GUID 060KlqT792Gu$HoedzYDFv appears several times in spatial structure",
+        "Object with GUID 1k4Rf11O17$OYfDaxGxz3e appears several times in spatial structure",
+        "Object with GUID 03smbr_9zFUvoPc7iSmcEW appears several times in spatial structure",
+        "Object with GUID 20qaS1_VH8IOJrYDQQgAEV appears several times in spatial structure",
+        "Object with GUID 0NYuZC_Zn0zxU$8bSIn_dg appears several times in spatial structure",
+        "Object with GUID 10T_URhX986PdE3NdBihco appears several times in spatial structure",
+        "Object with GUID 0x2Ptqk7D5yQfXDXwRCLJk appears several times in spatial structure",
+        "Object with GUID 1CPapQAlf4YQ_ggfHZhkiy appears several times in spatial structure",
+        "Object with GUID 1MobKlpi5FmRBwmIGJvVe7 appears several times in spatial structure",
+        "Object with GUID 3vD0BTagr0uhk85$J$0SBn appears several times in spatial structure"
     ],
-    "errors": []
+    "errors": [
+        "convertIfcPropertySetOrQuantity: ifcObject in property set/quantity is null. Entity tag: 0, guid: 1i82_yJU$tY9VRLfKIeMOK"
+    ]
 }

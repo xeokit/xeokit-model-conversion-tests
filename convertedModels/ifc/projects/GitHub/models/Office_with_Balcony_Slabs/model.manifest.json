@@ -1,29 +1,29 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:43:53",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json"
     ],
-    "numCreatedGltfMeshes": 1187,
+    "numCreatedGltfMeshes": 1185,
     "numCreatedMetaObjects": 281,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        58.5999992370606,
-        45.05,
-        9.9
+        16.599999666213968,
+        16.599999299748077,
+        7.649999976158142
     ],
     "modelBoundsMin": [
-        -0.5,
-        -29.800000316141592,
-        -5.39999995231628
+        -16.599999666213968,
+        -16.599999299748077,
+        -7.649999976158142
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

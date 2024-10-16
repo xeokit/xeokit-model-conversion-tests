@@ -1,24 +1,24 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/wall-with-opening-and-window.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...ning-and-window.ifc"Loading file "/home/lindsay/xe...ning-and-window.ifc": 5.59%Loading file "/home/lindsay/xe...ning-and-window.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 100.0%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc"Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 30.00%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 31.55%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 32.83%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 33.83%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 35.11%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 36.17%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 37.22%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 38.26%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 39.26%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 40.26%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 41.73%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 43.10%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 44.24%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 45.38%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 46.73%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 48.11%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 49.43%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 50.65%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 51.72%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 52.79%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 53.87%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 54.99%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 56.41%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 57.60%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 58.89%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 59.89%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 60.92%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 62.07%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 63.07%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 64.08%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 65.44%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 66.79%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 67.82%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 68.87%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 69.88%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 71.24%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 72.27%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 73.60%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 75.24%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 76.27%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 77.62%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 78.67%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 80.14%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 81.28%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 82.55%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 83.66%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 84.91%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 85.96%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 87.01%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 88.03%             Loading file "/home/lindsay/xeolabs/xeok...ning-and-window.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 80.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             Converting IFC geometry: 100.00%             
 Exporting to gltf
-Accessors: 6
-Exporting metadataExporting metadata: 100.0%
+Accessors: 0
+Exporting metadataExporting metadata: 100.00%             
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 3.02 kB
+[convert2xkt] Input file size: 0.68 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -28,21 +28,21 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1.02 kB
+[convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.97
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Compression ratio: 1.48
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 7
-[convert2xkt] Converted geometries: 3
+[convert2xkt] Converted drawable objects: 2
+[convert2xkt] Converted geometries: 0
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 52
-[convert2xkt] Converted vertices: 30
+[convert2xkt] Converted triangles: 0
+[convert2xkt] Converted vertices: 0
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
+[convert2xkt] Converted tiles: 0
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-with-opening-and-window/model.xkt
 [convert2xkt] Converted model1.xkt (1 of 1)

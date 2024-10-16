@@ -1,30 +1,34 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_K-modell.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_K-modell.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:49:25",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:10:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_K-modell/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_K-modell/model.json"
     ],
-    "numCreatedGltfMeshes": 7351,
+    "numCreatedGltfMeshes": 7320,
     "numCreatedMetaObjects": 6419,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        379.90000000000146,
-        106.06891377301326,
-        17.47726683991643
+        68.42874145507813,
+        42.942572593688965,
+        7.7875000050043095
     ],
     "modelBoundsMin": [
-        -33656.22,
-        -15563.92,
-        0.0
+        -68.42874145507813,
+        -42.942572593688965,
+        -7.7875000050043095
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

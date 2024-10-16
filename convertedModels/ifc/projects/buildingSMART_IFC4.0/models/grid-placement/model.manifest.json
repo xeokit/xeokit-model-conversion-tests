@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/grid-placement.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/grid-placement.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:33",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:04",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/grid-placement/model.glb"
     ],
@@ -13,19 +13,20 @@
     "numCreatedMetaObjects": 40,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        6.0,
-        19.0,
-        2.8000000000000003
+        8.100000001490116,
+        8.12500000372529,
+        1.4000000000000001
     ],
     "modelBoundsMin": [
-        -17.0,
-        -0.15000000000000036,
-        0.0
+        -8.100000001490116,
+        -8.12500000372529,
+        -1.4000000000000001
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet",
         "IfcGridPlacement not implemented"
     ],
     "errors": []

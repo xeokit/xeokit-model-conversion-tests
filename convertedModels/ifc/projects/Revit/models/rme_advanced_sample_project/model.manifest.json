@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:42",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:00",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb"
     ],
@@ -13,20 +13,22 @@
     "numCreatedMetaObjects": 6449,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        65.4167873187524,
-        54.12904597710801,
-        15.15
+        36.24879911359205,
+        27.817023630846606,
+        9.925
     ],
     "modelBoundsMin": [
-        -7.080810037190602,
-        -1.5050012845852017,
-        -4.7000000541030555
+        -36.24879911359205,
+        -27.817023630846606,
+        -9.925
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "Object with GUID 0JscU5WvzA2OhXSE73_EiJ appears several times in spatial structure"
+        "Unhandled IFC Representation: IfcGeometricSet"
     ],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

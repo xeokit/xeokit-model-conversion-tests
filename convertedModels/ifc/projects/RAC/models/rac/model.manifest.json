@@ -1,32 +1,36 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/RAC/rac.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RAC/rac.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:28",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:14:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.json"
     ],
-    "numCreatedGltfMeshes": 2098,
+    "numCreatedGltfMeshes": 709,
     "numCreatedMetaObjects": 471,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        28.281324189178292,
-        11.190302167557164,
-        17.20611061773285
+        34.913638809455186,
+        46.17413883324238,
+        11.603055536985321
     ],
     "modelBoundsMin": [
-        -55.26886149685217,
-        -76.0116852892945,
-        -7.102
+        -34.913638809455186,
+        -46.17413883324238,
+        -11.603055536985321
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [
-        "degenerated triangle"
+        "degenerated triangle",
+        "Unhandled IFC Representation: IfcGeometricCurveSet",
+        "Invalid SweptArea"
     ],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

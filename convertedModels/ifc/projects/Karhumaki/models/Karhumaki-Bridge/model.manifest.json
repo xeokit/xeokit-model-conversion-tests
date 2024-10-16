@@ -1,34 +1,33 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:45:38",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:46",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb",
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb",
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json"
     ],
-    "numCreatedGltfMeshes": 25320,
+    "numCreatedGltfMeshes": 25393,
     "numCreatedMetaObjects": 6918,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        -35.63476987482646,
-        127.39008630433803,
-        55.16499999931403
+        92.03489899787468,
+        96.5222915087569,
+        81.68026749832904
     ],
     "modelBoundsMin": [
-        -108.51143902718208,
-        -9.136624271926436,
-        38.341486591490174
+        -92.03489899787468,
+        -96.5222915087569,
+        -81.68026749832904
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "no intersection found"
-    ],
-    "errors": []
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

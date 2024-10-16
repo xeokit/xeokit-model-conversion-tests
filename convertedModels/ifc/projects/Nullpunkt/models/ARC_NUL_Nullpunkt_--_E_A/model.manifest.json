@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:52:27",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:12:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Nullpunkt/models/ARC_NUL_Nullpunkt_--_E_A/model.glb"
     ],
@@ -13,18 +13,23 @@
     "numCreatedMetaObjects": 6,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        77.0,
-        9.0,
-        1.0
+        0.5,
+        0.5,
+        0.5
     ],
     "modelBoundsMin": [
-        -9.0,
-        -39.0,
-        0.0
+        -0.5,
+        -0.5,
+        -0.5
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: UnknownIfcClassID, tag: 0, guid: 3$TCbSLR195PSGmz8stJry",
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": [
+        "convertIfcPropertySetOrQuantity: ifcObject in property set/quantity is null. Entity tag: 0, guid: 3$TCbSLR195PSGmz8stJry"
+    ]
 }

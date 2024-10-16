@@ -1,0 +1,32 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/AC20-FZK-Haus/AC20-FZK-Haus.ifc",
+    "converterApplication": "ifc2gltfcxconverter",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:22",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.json"
+    ],
+    "numCreatedGltfMeshes": 252,
+    "numCreatedMetaObjects": 108,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        9.0,
+        8.0,
+        3.6588457584381104
+    ],
+    "modelBoundsMin": [
+        -9.0,
+        -8.0,
+        -3.6588457584381104
+    ],
+    "generalMessages": [
+        "Detected IFC version: IFC4"
+    ],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": []
+}

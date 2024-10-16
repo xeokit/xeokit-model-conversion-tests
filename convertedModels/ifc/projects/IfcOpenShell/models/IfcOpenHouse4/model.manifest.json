@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/IfcOpenShell/IfcOpenHouse4.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/IfcOpenShell/IfcOpenHouse4.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:45:37",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcOpenShell/models/IfcOpenHouse4/model.glb"
     ],
@@ -15,15 +15,15 @@
     "modelBoundsMax": [
         10.0,
         10.0,
-        5.780001370540001
+        6.955000734329223
     ],
     "modelBoundsMin": [
         -10.0,
         -10.0,
-        -8.13
+        -6.955000734329223
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

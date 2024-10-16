@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:30",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.glb"
     ],
@@ -13,20 +13,20 @@
     "numCreatedMetaObjects": 8,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.014399999999995,
-        19.507199999999997,
-        4.4196
+        19.507200241088867,
+        9.753600120544434,
+        2.20980004863739
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        -19.507200241088867,
+        -9.753600120544434,
+        -2.20980004863739
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": [
-        "Entity with id # 292  not found"
-    ]
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
+    "errors": []
 }

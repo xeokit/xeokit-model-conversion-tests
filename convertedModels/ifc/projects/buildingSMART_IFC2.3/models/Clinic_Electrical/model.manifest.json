@@ -1,30 +1,34 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Electrical.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:54:26",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Electrical/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Electrical/model.json"
     ],
-    "numCreatedGltfMeshes": 6358,
+    "numCreatedGltfMeshes": 6211,
     "numCreatedMetaObjects": 2390,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.3847624999993613,
-        56.52476249999917,
-        13.25000000000448
+        26.292618750518237,
+        32.57630920726089,
+        7.234600007536267
     ],
     "modelBoundsMin": [
-        -52.200475000000736,
-        -8.627855914463723,
-        -1.2192000000000007
+        -26.292618750518237,
+        -32.57630920726089,
+        -7.234600007536267
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

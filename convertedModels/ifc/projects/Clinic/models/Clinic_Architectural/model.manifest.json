@@ -1,30 +1,34 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Clinic/Clinic_Architectural.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Architectural.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:39:12",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:00:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Architectural/model.json"
     ],
-    "numCreatedGltfMeshes": 3708,
+    "numCreatedGltfMeshes": 3706,
     "numCreatedMetaObjects": 2896,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.1964999999993964,
-        56.51999999999926,
-        13.534963118216996
+        26.34249999785428,
+        33.05158102574475,
+        7.377081622697961
     ],
     "modelBoundsMin": [
-        -53.1950000000007,
-        -10.924161741302566,
-        -1.2191999999999963
+        -26.34249999785428,
+        -33.05158102574475,
+        -7.377081622697961
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

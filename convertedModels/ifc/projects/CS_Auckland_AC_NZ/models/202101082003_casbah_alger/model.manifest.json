@@ -1,10 +1,11 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/202101082003_casbah_alger.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/202101082003_casbah_alger.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:36:51",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:59:54",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_1.glb",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.json"
@@ -13,17 +14,17 @@
     "numCreatedMetaObjects": 3185,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1951.3624813229999,
-        1900.21654457,
-        41.40023434359999
+        1069.039882276525,
+        1047.1602044064753,
+        67.17463771577499
     ],
     "modelBoundsMin": [
-        418.801645378,
-        62.78609794199997,
-        -83.8863165195
+        -1069.039882276525,
+        -1047.1602044064753,
+        -67.17463771577499
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

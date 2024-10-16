@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/GitHub/0591IFCRohbau_20230922.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/0591IFCRohbau_20230922.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:43:38",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:09:06",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/0591IFCRohbau_20230922/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 1110,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        56.2467385829,
-        -48.06103773662,
-        15.410000000000002
+        50.37250000139011,
+        33.291453170829115,
+        20.380000013113023
     ],
     "modelBoundsMin": [
-        -44.4982614169,
-        -114.69679475409978,
-        -25.35
+        -50.37250000139011,
+        -33.291453170829115,
+        -20.380000013113023
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

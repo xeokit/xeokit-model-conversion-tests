@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:33:18",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb"
     ],
@@ -13,20 +13,20 @@
     "numCreatedMetaObjects": 19684,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        85.41652552674927,
-        138.54377548001614,
-        201.17429881780004
+        47.8516995147186,
+        44.32022785442429,
+        17.2682500012219
     ],
     "modelBoundsMin": [
-        -10.492085567748632,
-        49.86431759099892,
-        166.6377988178
+        -47.8516995147186,
+        -44.32022785442429,
+        -17.2682500012219
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Object with GUID 0$B0wY21D0cfsjuf_VeGxJ appears several times in spatial structure"
-    ],
-    "errors": []
+    "warnings": [],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

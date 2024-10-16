@@ -1,33 +1,34 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:32:17",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:42",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb",
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model_1.glb"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model_1.glb",
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json"
     ],
-    "numCreatedGltfMeshes": 30635,
+    "numCreatedGltfMeshes": 30614,
     "numCreatedMetaObjects": 14652,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        89.710870189439,
-        156.2161025427435,
-        203.7688
+        182.60719018874656,
+        168.20372357065324,
+        110.6881941009076
     ],
     "modelBoundsMin": [
-        -12.27247354118046,
-        -0.4656414801338258,
-        164.60294014588618
+        -182.60719018874656,
+        -168.20372357065324,
+        -110.6881941009076
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": [
-        "polygonal_halfspace_item_data->meshsets.size() != 1"
+        "polygonal_halfspace_itemData->meshsets.size() != 1",
+        "Trim1 is not IfcTrimmingSelect"
     ]
 }

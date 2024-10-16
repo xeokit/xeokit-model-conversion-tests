@@ -1,31 +1,32 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/ARCHICAD_Demoprojekt_Büro_23-IFC2x3.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/ARCHICAD_Demoprojekt_Büro_23-IFC2x3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:30:25",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:41",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.glb",
-        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model_1.glb"
+        "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.json"
     ],
-    "numCreatedGltfMeshes": 29729,
+    "numCreatedGltfMeshes": 29763,
     "numCreatedMetaObjects": 3061,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        150.5799449244749,
-        66.8705331039221,
-        14.679271533180998
+        87.32768747653861,
+        82.91028302760759,
+        17.39463593596306
     ],
     "modelBoundsMin": [
-        -24.075430028673054,
-        -107.78484184922584,
-        -20.1100000002
+        -87.32768747653861,
+        -82.91028302760759,
+        -17.39463593596306
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
     "errors": []
 }

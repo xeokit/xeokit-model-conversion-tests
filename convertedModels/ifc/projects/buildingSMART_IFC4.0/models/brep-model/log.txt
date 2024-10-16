@@ -1,24 +1,24 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/brep-model.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/brep-model.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/brep-model.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/brep-model.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...C4.0/brep-model.ifc"Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 6.21%Loading file "/home/lindsay/xe...C4.0/brep-model.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 100.0%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc"Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 30.00%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 31.03%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 32.83%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 34.78%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 35.88%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 36.96%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 38.52%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 40.14%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 41.97%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 43.32%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 44.64%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 45.76%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 46.85%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 48.30%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 50.14%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 51.43%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 52.76%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 54.39%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 55.72%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 56.98%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 58.60%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 60.52%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 61.85%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 63.79%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 65.54%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 66.97%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 68.50%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 69.76%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 71.02%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 72.07%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 73.12%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 74.18%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 75.23%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 76.29%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 77.72%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 78.95%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 80.27%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 82.13%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 83.14%             Loading file "/home/lindsay/xeolabs/xeok...C4.0/brep-model.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 30.00%             Converting IFC geometry: 80.00%             Converting IFC geometry: 100.00%             
 Exporting to gltf
 Accessors: 2
-Exporting metadataExporting metadata: 100.0%
+Exporting metadataExporting metadata: 100.00%             
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/brep-model/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 1.32 kB
+[convert2xkt] Input file size: 1.38 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -30,8 +30,8 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 0.71 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.87
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] Compression ratio: 1.96
+[convert2xkt] Conversion time: 0.06 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4

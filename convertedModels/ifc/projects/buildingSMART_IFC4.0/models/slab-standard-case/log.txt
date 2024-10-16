@@ -1,24 +1,24 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/slab-standard-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/slab-standard-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/slab-standard-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/slab-standard-case.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.7 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_7_internal/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xe...b-standard-case.ifc"Loading file "/home/lindsay/xe...b-standard-case.ifc": 6.54%Loading file "/home/lindsay/xe...b-standard-case.ifc": 100.0%
-Converting IFC geometryConverting IFC geometry: 100.0%
+__ Creoox IFC to GLTF converter __ version: 4.24 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_24_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc"Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 30.01%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 31.73%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 33.30%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 34.90%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 35.99%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 37.12%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 38.34%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 40.35%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 41.84%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 42.99%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 45.04%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 46.17%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 48.97%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 51.42%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 52.99%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 54.54%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 56.54%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 58.05%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 60.77%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 62.21%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 63.69%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 64.97%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 66.45%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 67.65%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 70.29%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 72.65%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 73.71%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 74.85%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 76.64%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 78.05%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 79.11%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 80.62%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 81.96%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 82.97%             Loading file "/home/lindsay/xeolabs/xeok...b-standard-case.ifc": 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 5.00%             Converting IFC geometry: 42.50%             Converting IFC geometry: 80.00%             Converting IFC geometry: 100.00%             
 Exporting to gltf
 Accessors: 0
-Exporting metadataExporting metadata: 100.0%
+Exporting metadataExporting metadata: 100.00%             
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/log.txt
-[convert2xkt] Running convert2xkt v1.1.19...
+[convert2xkt] Running convert2xkt v1.1.23...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-standard-case/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 0.68 kB
+[convert2xkt] Input file size: 0.73 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 0.46 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 1.47
+[convert2xkt] Compression ratio: 1.59
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

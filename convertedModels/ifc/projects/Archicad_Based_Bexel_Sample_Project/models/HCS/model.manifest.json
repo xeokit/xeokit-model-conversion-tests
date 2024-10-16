@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/HCS.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/HCS.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:30:55",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/HCS/model.glb"
     ],
@@ -13,21 +13,20 @@
     "numCreatedMetaObjects": 2990,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        54.3926371068443,
-        14.296711129474994,
-        13.592010304331776
+        19.624062808005014,
+        19.62406280799442,
+        8.973503774002278
     ],
     "modelBoundsMin": [
-        15.123716073520903,
-        -24.972209903848416,
-        -4.354997249931247
+        -19.624062808005014,
+        -19.62406280799442,
+        -8.973503774002278
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "Unhandled IFC Representation: IfcTextLiteralWithExtent",
-        "Object with GUID 0MWYV6wAc6WyLLmsDCmLuJ appears several times in spatial structure"
+        "Unhandled IFC Representation: IfcTextLiteralWithExtent"
     ],
     "errors": []
 }

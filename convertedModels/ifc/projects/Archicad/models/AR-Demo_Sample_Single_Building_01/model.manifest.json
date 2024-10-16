@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/Archicad/AR-Demo_Sample_Single_Building_01.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/AR-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:29:45",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:50:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/AR-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -13,18 +13,22 @@
     "numCreatedMetaObjects": 6070,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        211.59105979315854,
-        98.36375526433919,
-        12.485435006793626
+        159.53266525268555,
+        75.88130569458008,
+        7.304420254453559
     ],
     "modelBoundsMin": [
-        -107.4742741179745,
-        -53.39886038507491,
-        -2.12880000228882
+        -159.53266525268555,
+        -75.88130569458008,
+        -7.304420254453559
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
-    "warnings": [],
-    "errors": []
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricSet"
+    ],
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

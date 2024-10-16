@@ -1,29 +1,29 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/reinforcing-assembly.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/reinforcing-assembly.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:36",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:07",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/reinforcing-assembly/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/reinforcing-assembly/model.json"
     ],
-    "numCreatedGltfMeshes": 35,
+    "numCreatedGltfMeshes": 1,
     "numCreatedMetaObjects": 38,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.1,
-        5.0,
-        0.0
+        0.10000000149011612,
+        2.5,
+        0.20000000298023224
     ],
     "modelBoundsMin": [
-        -0.1,
-        0.0,
-        -0.4
+        -0.10000000149011612,
+        -2.5,
+        -0.20000000298023224
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

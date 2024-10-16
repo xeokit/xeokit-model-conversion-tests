@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-extruded-solid.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-extruded-solid.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:24",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:54",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-extruded-solid/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.3,
-        10.0,
-        0.11
+        0.30000001192092896,
+        5.0,
+        0.10999999940395355
     ],
     "modelBoundsMin": [
-        -0.3,
-        0.0,
-        -0.11
+        -0.30000001192092896,
+        -5.0,
+        -0.10999999940395355
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

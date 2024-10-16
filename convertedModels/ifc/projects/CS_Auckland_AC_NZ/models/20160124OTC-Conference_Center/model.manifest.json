@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20160124OTC-Conference_Center.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160124OTC-Conference_Center.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:31:21",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:13",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.glb"
     ],
@@ -13,20 +13,22 @@
     "numCreatedMetaObjects": 6656,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        101.03200061450885,
-        66.95439999999982,
-        27.465925367099317
+        51.92319965362549,
+        37.466020584106445,
+        18.228762697434426
     ],
     "modelBoundsMin": [
-        -2.8144000000000062,
-        -7.977642873818212,
-        -8.99160000000002
+        -51.92319965362549,
+        -37.466020584106445,
+        -18.228762697434426
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "Object with GUID 3lMSBJ1J9AUQZulZKiGshs appears several times in spatial structure"
+        "Unhandled IFC Representation: IfcGeometricSet"
     ],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/CS_Auckland_AC_NZ/20200404UFCSPA-ARQ-PE-R0-correto.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20200404UFCSPA-ARQ-PE-R0-correto.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:34:30",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:52:28",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20200404UFCSPA-ARQ-PE-R0-correto/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 836,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        359.5181196351926,
-        307.70306001345824,
-        4.100000000000001
+        17.053637504577637,
+        20.624911308288574,
+        2.125000048428774
     ],
     "modelBoundsMin": [
-        -3.801203622301898,
-        -306.09606119428355,
-        -99.81
+        -17.053637504577637,
+        -20.624911308288574,
+        -2.125000048428774
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "Trim1 is not IfcTrimmingSelect"
+    ]
 }

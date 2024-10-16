@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/slab-tessellated-unique-vertices.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/slab-tessellated-unique-vertices.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:39",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:16:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/slab-tessellated-unique-vertices/model.glb"
     ],
@@ -14,16 +14,16 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         10.0,
-        8.66025352478027,
-        0.0
+        8.660253524780273,
+        0.15000000596046448
     ],
     "modelBoundsMin": [
         -10.0,
-        -8.66025352478027,
-        -0.300000011920929
+        -8.660253524780273,
+        -0.15000000596046448
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

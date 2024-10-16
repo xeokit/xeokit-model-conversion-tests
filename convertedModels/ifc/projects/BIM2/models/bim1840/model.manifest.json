@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/BIM2/bim1840.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIM2/bim1840.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:31:13",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 14:51:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIM2/models/bim1840/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 461,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        68.9998,
-        255.0277,
-        6.8061
+        13.907065868377686,
+        20.964332580566406,
+        1.6595345437526703
     ],
     "modelBoundsMin": [
-        4.627699999999997,
-        184.01859999999996,
-        -0.29600000000000026
+        -13.907065868377686,
+        -20.964332580566406,
+        -1.6595345437526703
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "Unhandled IFC Representation: IfcGeometricCurveSet"
+    ],
     "errors": []
 }

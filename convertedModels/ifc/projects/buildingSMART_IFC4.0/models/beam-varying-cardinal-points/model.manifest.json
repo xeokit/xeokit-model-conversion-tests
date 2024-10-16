@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:55:27",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:57",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 6,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.65,
-        1.0,
-        0.15000000000000002
+        0.3750000037252903,
+        0.5,
+        0.15000000596046448
     ],
     "modelBoundsMin": [
-        -0.09999999999999998,
-        0.0,
-        -0.15000000000000002
+        -0.3750000037252903,
+        -0.5,
+        -0.15000000596046448
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC4"
     ],
     "warnings": [],
     "errors": []

@@ -1,8 +1,8 @@
 {
-    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-feb12/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing.ifc",
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.7",
-    "conversionDate": "2024-08-08 06:53:31",
+    "converterApplicationVersion": "4.24",
+    "conversionDate": "2024-10-16 15:15:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Plumbing/model.glb"
     ],
@@ -13,17 +13,17 @@
     "numCreatedMetaObjects": 11136,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        81.95999755859376,
-        66.54761352539063,
-        9.050000000347085
+        41.32725111407286,
+        33.39645355567336,
+        5.409857557903845
     ],
     "modelBoundsMin": [
-        -0.6945046908809474,
-        -0.24529358865783024,
-        -1.7697151150626294
+        -41.32725111407286,
+        -33.39645355567336,
+        -5.409857557903845
     ],
     "generalMessages": [
-        "Detected IFC version: IFC4X3"
+        "Detected IFC version: IFC2X2"
     ],
     "warnings": [],
     "errors": []
