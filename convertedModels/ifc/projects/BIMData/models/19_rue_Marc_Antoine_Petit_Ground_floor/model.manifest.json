@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIMData/19_rue_Marc_Antoine_Petit_Ground_floor.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:51:09",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 12:59:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/19_rue_Marc_Antoine_Petit_Ground_floor/model.glb"
     ],
@@ -13,22 +13,18 @@
     "numCreatedMetaObjects": 307,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.925292457686737,
+        16.960543444612995,
         18.3472657809034,
         2.2559533230966053
     ],
     "modelBoundsMin": [
-        -16.925292457686737,
+        -16.960543444612995,
         -18.3472657809034,
         -2.2559533230966053
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Unhandled IFC Representation: IfcGeometricSet"
-    ],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "warnings": [],
+    "errors": []
 }

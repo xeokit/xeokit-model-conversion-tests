@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:50:35",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 12:59:18",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.json"
     ],
-    "numCreatedGltfMeshes": 8260,
+    "numCreatedGltfMeshes": 8756,
     "numCreatedMetaObjects": 4109,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -26,7 +26,6 @@
         "Detected IFC version: IFC4"
     ],
     "warnings": [
-        "no intersection found",
         "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
     ],
     "errors": [

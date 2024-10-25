@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:00:43",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:02:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 5310,
+    "numCreatedGltfMeshes": 5320,
     "numCreatedMetaObjects": 3362,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -29,7 +29,6 @@
         "No plane angle unit definition found in model"
     ],
     "errors": [
-        "polygonal_halfspace_itemData->meshsets.size() != 1",
-        "Trim1 is not IfcTrimmingSelect"
+        "polygonal_halfspace_itemData->meshsets.size() != 1"
     ]
 }

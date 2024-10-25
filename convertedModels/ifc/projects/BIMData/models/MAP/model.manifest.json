@@ -1,34 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIMData/MAP.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:51:10",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 12:59:52",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.json"
     ],
-    "numCreatedGltfMeshes": 5559,
+    "numCreatedGltfMeshes": 5561,
     "numCreatedMetaObjects": 2017,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.925292457686737,
+        16.960543444612995,
         18.34726578183472,
         14.094778407372539
     ],
     "modelBoundsMin": [
-        -16.925292457686737,
+        -16.960543444612995,
         -18.34726578183472,
         -14.094778407372539
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Unhandled IFC Representation: IfcGeometricSet"
-    ],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "warnings": [],
+    "errors": []
 }

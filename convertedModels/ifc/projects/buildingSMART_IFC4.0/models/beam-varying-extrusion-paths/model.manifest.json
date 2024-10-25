@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:15:58",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:14:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-extrusion-paths/model.glb"
     ],
@@ -26,7 +26,5 @@
         "Detected IFC version: IFC4"
     ],
     "warnings": [],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

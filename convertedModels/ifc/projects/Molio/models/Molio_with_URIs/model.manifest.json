@@ -1,32 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:11:55",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:10:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.json"
     ],
-    "numCreatedGltfMeshes": 0,
-    "numCreatedMetaObjects": 1,
+    "numCreatedGltfMeshes": 8159,
+    "numCreatedMetaObjects": 3805,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.0,
-        0.0,
-        0.0
+        22.728654861450195,
+        18.564086437225342,
+        14.490249994516374
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        -22.728654861450195,
+        -18.564086437225342,
+        -14.490249994516374
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "IfcProject.UnitsInContext not found"
-    ],
+    "warnings": [],
     "errors": []
 }

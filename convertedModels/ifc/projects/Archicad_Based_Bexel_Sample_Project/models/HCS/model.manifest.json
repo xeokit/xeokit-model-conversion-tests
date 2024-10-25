@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/HCS.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:50:59",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 12:59:42",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/HCS/model.glb"
     ],
@@ -13,20 +13,18 @@
     "numCreatedMetaObjects": 2990,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        19.624062808005014,
+        19.62406280800502,
         19.62406280799442,
-        8.973503774002278
+        8.973503774002275
     ],
     "modelBoundsMin": [
-        -19.624062808005014,
+        -19.62406280800502,
         -19.62406280799442,
-        -8.973503774002278
+        -8.973503774002275
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Unhandled IFC Representation: IfcTextLiteralWithExtent"
-    ],
+    "warnings": [],
     "errors": []
 }

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:59:52",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:01:40",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb"
     ],
@@ -25,9 +25,7 @@
     "generalMessages": [
         "Detected IFC version: IFC4"
     ],
-    "warnings": [
-        "Unhandled IFC Representation: IfcGeometricSet"
-    ],
+    "warnings": [],
     "errors": [
         "Trim1 is not IfcTrimmingSelect"
     ]

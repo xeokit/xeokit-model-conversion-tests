@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:51:27",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:00:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015/model.glb"
     ],
@@ -13,20 +13,18 @@
     "numCreatedMetaObjects": 1291,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        59.275434501454214,
-        87.39396398476262,
+        40.26072672646089,
+        65.2870751765389,
         12.801599636936203
     ],
     "modelBoundsMin": [
-        -59.275434501454214,
-        -87.39396398476262,
+        -40.26072672646089,
+        -65.2870751765389,
         -12.801599636936203
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

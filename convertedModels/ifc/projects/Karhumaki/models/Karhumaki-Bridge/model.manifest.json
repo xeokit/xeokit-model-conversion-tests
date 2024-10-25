@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:09:46",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:08:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb",
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_2.glb"
@@ -14,20 +14,20 @@
     "numCreatedMetaObjects": 6918,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        92.03489899787468,
-        96.5222915087569,
-        81.68026749832904
+        70.30798589504883,
+        97.76573605325218,
+        32.12456848951824
     ],
     "modelBoundsMin": [
-        -92.03489899787468,
-        -96.5222915087569,
-        -81.68026749832904
+        -70.30798589504883,
+        -97.76573605325218,
+        -32.12456848951824
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "warnings": [
+        "no intersection found"
+    ],
+    "errors": []
 }

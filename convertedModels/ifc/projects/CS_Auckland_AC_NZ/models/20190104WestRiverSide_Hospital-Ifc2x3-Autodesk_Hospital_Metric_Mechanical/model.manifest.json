@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 14:51:59",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:00:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb"
     ],
@@ -26,7 +26,5 @@
         "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

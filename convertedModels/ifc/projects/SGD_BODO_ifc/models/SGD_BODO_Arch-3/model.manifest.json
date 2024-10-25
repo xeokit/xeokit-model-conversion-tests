@@ -1,34 +1,32 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:15:07",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:13:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.json"
     ],
-    "numCreatedGltfMeshes": 5084,
+    "numCreatedGltfMeshes": 5086,
     "numCreatedMetaObjects": 5132,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         33.29750038865753,
-        29.498906834184268,
+        29.49890649700948,
         8.047999979684072
     ],
     "modelBoundsMin": [
         -33.29750038865753,
-        -29.498906834184268,
+        -29.49890649700948,
         -8.047999979684072
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "Unhandled IFC Representation: IfcGeometricCurveSet"
+        "Unhandled IFC Representation: IfcAnnotationFillArea"
     ],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

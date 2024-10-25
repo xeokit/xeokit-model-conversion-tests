@@ -1,32 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Arch-2.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:15:20",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:13:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.json"
     ],
-    "numCreatedGltfMeshes": 0,
-    "numCreatedMetaObjects": 1,
+    "numCreatedGltfMeshes": 2726,
+    "numCreatedMetaObjects": 542,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.0,
-        0.0,
-        0.0
+        26.747533798217773,
+        14.769999742507935,
+        6.716330018882271
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        -26.747533798217773,
+        -14.769999742507935,
+        -6.716330018882271
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X2"
     ],
-    "warnings": [
-        "IfcProject.UnitsInContext not found"
-    ],
+    "warnings": [],
     "errors": []
 }

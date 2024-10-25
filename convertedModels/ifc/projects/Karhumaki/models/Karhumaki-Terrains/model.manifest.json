@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Terrains.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.24",
-    "conversionDate": "2024-10-16 15:10:02",
+    "converterApplicationVersion": "4.27",
+    "conversionDate": "2024-10-25 13:08:42",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb"
     ],
@@ -16,12 +16,12 @@
     "modelBoundsMax": [
         82.08666913992283,
         89.75748345513213,
-        25.621407927369727
+        25.621407927369724
     ],
     "modelBoundsMin": [
         -82.08666913992283,
         -89.75748345513213,
-        -25.621407927369727
+        -25.621407927369724
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
