@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.27",
-    "conversionDate": "2024-10-25 13:02:26",
+    "converterApplicationVersion": "4.30",
+    "conversionDate": "2024-11-13 21:59:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 5320,
+    "numCreatedGltfMeshes": 5357,
     "numCreatedMetaObjects": 3362,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -25,9 +25,7 @@
     "generalMessages": [
         "Detected IFC version: IFC2X"
     ],
-    "warnings": [
-        "No plane angle unit definition found in model"
-    ],
+    "warnings": [],
     "errors": [
         "polygonal_halfspace_itemData->meshsets.size() != 1"
     ]

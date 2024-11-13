@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/HolterTower/Holter_Tower_10.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.27",
-    "conversionDate": "2024-10-25 13:07:48",
+    "converterApplicationVersion": "4.30",
+    "conversionDate": "2024-11-13 22:04:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_1.glb",
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_2.glb",
@@ -16,13 +16,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         78.10956546302776,
-        69.63645833099694,
-        121.76974962197941
+        66.25398063659668,
+        126.24999978887315
     ],
     "modelBoundsMin": [
         -78.10956546302776,
-        -69.63645833099694,
-        -121.76974962197941
+        -66.25398063659668,
+        -126.24999978887315
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.27",
-    "conversionDate": "2024-10-25 13:09:21",
+    "converterApplicationVersion": "4.30",
+    "conversionDate": "2024-11-13 22:05:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb",
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_2.glb",
@@ -11,18 +11,18 @@
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json"
     ],
-    "numCreatedGltfMeshes": 60870,
-    "numCreatedMetaObjects": 60877,
+    "numCreatedGltfMeshes": 60874,
+    "numCreatedMetaObjects": 60881,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        224.32920426170685,
-        165.6728615975447,
-        12.892193848342455
+        215.32920426170685,
+        163.89633537255216,
+        14.24398252162386
     ],
     "modelBoundsMin": [
-        -224.32920426170685,
-        -165.6728615975447,
-        -12.892193848342455
+        -215.32920426170685,
+        -163.89633537255216,
+        -14.24398252162386
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"

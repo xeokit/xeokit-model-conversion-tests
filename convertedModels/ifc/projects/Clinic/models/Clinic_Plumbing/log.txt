@@ -1,12 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_27_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_27_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_27_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_27_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.27 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_27_beta/linux/ifc2gltfcxconverter.json
+__ Creoox IFC to GLTF converter __ version: 4.30 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json
 Loading file "/home/lindsay/xeolabs/xeok...Clinic_Plumbing.ifc"
-Converting IFC geometryConverting IFC geometry: 0.00%             Converting IFC geometry: 1.10%             Converting IFC geometry: 3.00%             Converting IFC geometry: 80.00%             Converting IFC geometry: 100.00%             
+Converting IFC geometryConverting IFC geometry: 0.00% convertGeometry: IfcProject invalid
+IfcProject not set in model
+Converting IFC geometry: 80.00% Converted 0 elements, 0 items, cache re-use:  0
 Exporting to gltffinalizeGltfModel: gltfModel->nodes.size() == 0
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_Plumbing/log.txt
 [convert2xkt] Running convert2xkt v1.1.23...

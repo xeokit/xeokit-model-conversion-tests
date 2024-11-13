@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L5_-_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.27",
-    "conversionDate": "2024-10-25 13:11:43",
+    "converterApplicationVersion": "4.30",
+    "conversionDate": "2024-11-13 22:08:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_1.glb",
         "convertedModels/ifc/projects/OTMH/models/OTMH_L5_-_optimized/model_2.glb",
@@ -22,13 +22,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         2007.3415763089097,
-        4068.5936330373993,
-        162.35864272045382
+        4068.5936330373997,
+        162.30778071808106
     ],
     "modelBoundsMin": [
         -2007.3415763089097,
-        -4068.5936330373993,
-        -162.35864272045382
+        -4068.5936330373997,
+        -162.30778071808106
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
