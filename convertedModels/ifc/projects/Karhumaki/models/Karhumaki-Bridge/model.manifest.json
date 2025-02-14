@@ -1,11 +1,11 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:04:50",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:49:54",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb",
-        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_2.glb"
+        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb",
+        "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json"
@@ -14,14 +14,14 @@
     "numCreatedMetaObjects": 6918,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        72.47474047391722,
-        97.82123674054301,
-        32.12856848966854
+        70.30798589504883,
+        96.155242206743,
+        32.1282684897125
     ],
     "modelBoundsMin": [
-        -72.47474047391722,
-        -97.82123674054301,
-        -32.12856848966854
+        -70.30798589504883,
+        -96.155242206743,
+        -32.1282684897125
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"

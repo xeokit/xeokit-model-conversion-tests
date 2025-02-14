@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:55:45",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:39:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 4109,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.96107813309046,
+        34.96107813309047,
         26.738497989531616,
-        10.300000000142418
+        10.300000000142422
     ],
     "modelBoundsMin": [
-        -34.96107813309046,
+        -34.96107813309047,
         -26.738497989531616,
-        -10.300000000142418
+        -10.300000000142422
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"
@@ -28,7 +28,5 @@
     "warnings": [
         "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
     ],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

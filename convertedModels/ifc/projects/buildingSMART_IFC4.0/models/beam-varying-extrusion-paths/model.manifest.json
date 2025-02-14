@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-extrusion-paths.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:10:41",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:54:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-extrusion-paths/model.glb"
     ],

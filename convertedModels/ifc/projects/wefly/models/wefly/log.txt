@@ -1,50 +1,0 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/wefly/wefly.ifc -o convertedModels/ifc/projects/wefly/models/wefly/model.glb -m convertedModels/ifc/projects/wefly/models/wefly/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/wefly/models/wefly/log.txt
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/wefly/models/wefly/model.manifest.json  -o convertedModels/ifc/projects/wefly/models/wefly/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/wefly/models/wefly/log.txt
-
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/wefly/wefly.ifc -o convertedModels/ifc/projects/wefly/models/wefly/model.glb -m convertedModels/ifc/projects/wefly/models/wefly/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/wefly/models/wefly/log.txt
-
-__ Creoox IFC to GLTF converter __ version: 4.30 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc"Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 11.19% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 12.54% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 13.70% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 15.26% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 16.49% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 17.84% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 19.15% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 20.24% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 21.54% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 22.79% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 23.88% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 25.09% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 26.46% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 27.65% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 28.79% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 29.80% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 30.89% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 31.99% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 33.12% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 34.25% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 35.37% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 36.54% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 37.70% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 38.90% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 40.09% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 41.27% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 42.47% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 51.97% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 53.60% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 54.63% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 55.63% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 56.85% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 57.86% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 58.95% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 60.08% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 61.26% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 62.46% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 63.65% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 64.84% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 66.00% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 67.16% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 68.36% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 69.52% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 70.70% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 71.91% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 82.46% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 84.39% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 85.41% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 86.42% Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 87.47% Conversion factor value not found
-Loading file "/home/lindsay/xeolabs/xeok...ifc/wefly/wefly.ifc": 100.00% 
-Converting IFC geometryConverting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 5,  1.10%                          Converted 6 elements, 4 items, cache re-use:  0
-Exporting to gltf
-Accessors: 4
-Exporting metadataExporting metadata: 100.00%                                              
-done in 1 seconds
-
-node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/wefly/models/wefly/model.manifest.json  -o convertedModels/ifc/projects/wefly/models/wefly/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/wefly/models/wefly/log.txt
-[convert2xkt] Running convert2xkt v1.1.23...
-[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
-[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/wefly/models/wefly/model.manifest.json...
-[convert2xkt] Reading input file: convertedModels/ifc/projects/wefly/models/wefly/model.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 3.48 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1.36 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.56
-[convert2xkt] Conversion time: 0.05 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 7
-[convert2xkt] Converted geometries: 2
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 91
-[convert2xkt] Converted vertices: 50
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/wefly/models/wefly/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 1)
-[convert2xkt] Done.

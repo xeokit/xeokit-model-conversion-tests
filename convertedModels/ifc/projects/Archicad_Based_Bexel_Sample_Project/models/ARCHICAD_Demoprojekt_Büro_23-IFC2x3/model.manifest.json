@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/ARCHICAD_Demoprojekt_Büro_23-IFC2x3.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:55:52",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:39:54",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.glb"
     ],

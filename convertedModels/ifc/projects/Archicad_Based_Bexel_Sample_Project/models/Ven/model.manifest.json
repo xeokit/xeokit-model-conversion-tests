@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/Ven.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:56:18",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:40:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Ven/model.glb"
     ],
@@ -13,12 +13,12 @@
     "numCreatedMetaObjects": 753,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        18.03564241919473,
+        18.035642419194723,
         18.657535616518025,
         5.460500144399701
     ],
     "modelBoundsMin": [
-        -18.03564241919473,
+        -18.035642419194723,
         -18.657535616518025,
         -5.460500144399701
     ],

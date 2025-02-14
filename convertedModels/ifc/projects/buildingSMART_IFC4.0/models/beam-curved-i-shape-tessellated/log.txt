@@ -1,24 +1,22 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-curved-i-shape-tessellated.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.30 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_30_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc"Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 60.40% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 89.84% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 100.00% 
-Converting IFC geometryConverting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 2,  1.10%                          Converted 3 elements, 1 items, cache re-use:  0
-Exporting to gltf
-Accessors: 2
-Exporting metadataExporting metadata: 100.00%                                              
+__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
+Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
+Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 60.40% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 89.84% Loading file "/home/lindsay/xeolabs/xeok...ape-tessellated.ifc": 100.00% 
+Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 2,  1.10%                                                                                   Accessors: 2
+Exporting metadata objects: 60.00%                                       Exporting metadata objects: 70.00%                                       Exporting metadata objects: 80.00%                                       Exporting metadata objects: 100.00%                                      
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/log.txt
-[convert2xkt] Running convert2xkt v1.1.23...
+[convert2xkt] Running convert2xkt v1.1.25...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-curved-i-shape-tessellated/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 147.30 kB
+[convert2xkt] Input file size: 147.38 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -28,10 +26,10 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v10
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 61.45 kB
+[convert2xkt] XKT size: 54.01 kB
 [convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.40
-[convert2xkt] Conversion time: 0.18 s
+[convert2xkt] Compression ratio: 2.73
+[convert2xkt] Conversion time: 0.13 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4

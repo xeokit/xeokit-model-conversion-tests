@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:59:34",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:43:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907_optimized/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 447,
+    "numCreatedGltfMeshes": 436,
     "numCreatedMetaObjects": 246,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [

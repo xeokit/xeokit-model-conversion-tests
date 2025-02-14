@@ -1,35 +1,32 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RAC/rac.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:09:17",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:52:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.json"
     ],
-    "numCreatedGltfMeshes": 709,
+    "numCreatedGltfMeshes": 2098,
     "numCreatedMetaObjects": 471,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.91363880945518,
+        34.913638809455186,
         46.17413883324238,
-        11.603055536985321
+        12.154055536985322
     ],
     "modelBoundsMin": [
-        -34.91363880945518,
+        -34.913638809455186,
         -46.17413883324238,
-        -11.603055536985321
+        -12.154055536985322
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"
     ],
     "warnings": [
-        "degenerated triangle",
-        "Invalid SweptArea"
+        "degenerated triangle"
     ],
-    "errors": [
-        "Trim1 is not IfcTrimmingSelect"
-    ]
+    "errors": []
 }

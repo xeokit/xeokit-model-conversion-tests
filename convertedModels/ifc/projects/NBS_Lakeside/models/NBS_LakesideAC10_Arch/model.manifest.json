@@ -1,32 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:06:34",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:52:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json"
     ],
-    "numCreatedGltfMeshes": 3977,
+    "numCreatedGltfMeshes": 6283,
     "numCreatedMetaObjects": 2893,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        25.02848528170252,
+        25.046166001192095,
         18.24967055841583,
-        3.5186758544839476
+        4.941187119483947
     ],
     "modelBoundsMin": [
-        -25.02848528170252,
+        -25.046166001192095,
         -18.24967055841583,
-        -3.5186758544839476
+        -4.941187119483947
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [
-        "Invalid SweptArea"
-    ],
+    "warnings": [],
     "errors": []
 }

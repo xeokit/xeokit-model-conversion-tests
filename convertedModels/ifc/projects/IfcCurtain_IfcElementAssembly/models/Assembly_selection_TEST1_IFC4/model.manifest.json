@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/IfcCurtain_IfcElementAssembly/Assembly_selection_TEST1_IFC4.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:04:47",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:49:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcCurtain_IfcElementAssembly/models/Assembly_selection_TEST1_IFC4/model.glb"
     ],
@@ -13,18 +13,20 @@
     "numCreatedMetaObjects": 536,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.931182819903846,
+        11.93099418236529,
         17.605916138409658,
         4.756280400536424
     ],
     "modelBoundsMin": [
-        -11.931182819903846,
+        -11.93099418236529,
         -17.605916138409658,
         -4.756280400536424
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"
     ],
-    "warnings": [],
+    "warnings": [
+        "No segments found in IfcIndexedPolyCurve"
+    ],
     "errors": []
 }

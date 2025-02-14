@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/IFCPlate_Color_Test/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:04:46",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:49:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IFCPlate_Color_Test/models/eed01637-d47a-46a4-8707-0438319a5cbd_AR-Demo_Sample_Building_01/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         2.974996566772461,
         0.012499809265136719,
-        1.0935001373291016
+        0.6075000762939453
     ],
     "modelBoundsMin": [
         -2.974996566772461,
         -0.012499809265136719,
-        -1.0935001373291016
+        -0.6075000762939453
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"

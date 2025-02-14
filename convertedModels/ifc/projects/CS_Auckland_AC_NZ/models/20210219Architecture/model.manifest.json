@@ -1,11 +1,10 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:58:32",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:42:38",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_1.glb",
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model_2.glb"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.json"
@@ -14,20 +13,18 @@
     "numCreatedMetaObjects": 15434,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        69.21377415589964,
-        107.41949152155772,
-        28.71304239864964
+        51.197082198657085,
+        78.97454170735355,
+        20.11132997381836
     ],
     "modelBoundsMin": [
-        -69.21377415589964,
-        -107.41949152155772,
-        -28.71304239864964
+        -51.197082198657085,
+        -78.97454170735355,
+        -20.11132997381836
     ],
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
     "warnings": [],
-    "errors": [
-        "polygonal_halfspace_itemData->meshsets.size() != 1"
-    ]
+    "errors": []
 }

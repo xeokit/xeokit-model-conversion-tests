@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:57:46",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:41:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.json"
     ],
-    "numCreatedGltfMeshes": 862,
+    "numCreatedGltfMeshes": 5131,
     "numCreatedMetaObjects": 5090,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -25,6 +25,9 @@
     "generalMessages": [
         "Detected IFC version: IFC4"
     ],
-    "warnings": [],
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 6322, guid: 3W_aJO6yT8VuHoi1KGFaEo",
+        "No segments found in IfcIndexedPolyCurve"
+    ],
     "errors": []
 }

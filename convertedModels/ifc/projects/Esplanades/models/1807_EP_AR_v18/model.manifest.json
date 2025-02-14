@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:59:38",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:43:36",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
@@ -25,6 +25,8 @@
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 308057, guid: 2SyJfQ1qYB4wZB2rgCpeMi"
+    ],
     "errors": []
 }

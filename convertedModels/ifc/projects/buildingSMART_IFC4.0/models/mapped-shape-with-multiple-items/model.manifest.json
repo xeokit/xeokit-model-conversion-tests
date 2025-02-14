@@ -1,32 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/mapped-shape-with-multiple-items.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:10:48",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:54:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-multiple-items/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/mapped-shape-with-multiple-items/model.json"
     ],
-    "numCreatedGltfMeshes": 0,
+    "numCreatedGltfMeshes": 4,
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.0,
-        0.0,
-        0.0
+        0.8535533994436264,
+        0.8535533994436264,
+        1.0
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        -0.8535533994436264,
+        -0.8535533994436264,
+        -1.0
     ],
     "generalMessages": [
         "Detected IFC version: IFC4"
     ],
-    "warnings": [
-        "Invalid SweptArea"
-    ],
+    "warnings": [],
     "errors": []
 }

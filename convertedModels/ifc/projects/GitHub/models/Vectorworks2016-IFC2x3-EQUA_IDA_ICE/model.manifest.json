@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:04:21",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:48:24",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb"
     ],
@@ -25,6 +25,8 @@
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 133313, guid: 2ZI_aK9UD7PestsIxBqRr3"
+    ],
     "errors": []
 }

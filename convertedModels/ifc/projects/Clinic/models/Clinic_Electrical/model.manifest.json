@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Electrical.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:59:09",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:43:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Electrical/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Electrical/model.json"
     ],
-    "numCreatedGltfMeshes": 6950,
+    "numCreatedGltfMeshes": 6358,
     "numCreatedMetaObjects": 2390,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [

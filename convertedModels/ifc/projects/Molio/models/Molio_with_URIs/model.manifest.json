@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:06:22",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:52:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb"
     ],
@@ -25,6 +25,8 @@
     "generalMessages": [
         "Detected IFC version: IFC2X3"
     ],
-    "warnings": [],
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 443885, guid: 3iy5Xdv5BEADOxVtmGId5r"
+    ],
     "errors": []
 }

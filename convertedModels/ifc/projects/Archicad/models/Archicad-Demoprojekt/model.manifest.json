@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:55:40",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:39:43",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb"
     ],
@@ -13,12 +13,12 @@
     "numCreatedMetaObjects": 5167,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        20.661804982988038,
+        20.661804982988045,
         20.66180633185689,
         9.572293118840978
     ],
     "modelBoundsMin": [
-        -20.661804982988038,
+        -20.661804982988045,
         -20.66180633185689,
         -9.572293118840978
     ],

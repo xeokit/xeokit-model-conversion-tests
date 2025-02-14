@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/301110FJK-Project-Final.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:04:19",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:48:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/301110FJK-Project-Final/model.glb"
     ],
@@ -25,6 +25,8 @@
     "generalMessages": [
         "Detected IFC version: IFC2X"
     ],
-    "warnings": [],
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 139580, guid: 1dTMGbUiXAwPyN5mtFLTpY"
+    ],
     "errors": []
 }

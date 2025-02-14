@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 21:58:59",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:43:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb"
     ],
@@ -25,8 +25,8 @@
     "generalMessages": [
         "Detected IFC version: IFC2X"
     ],
-    "warnings": [],
-    "errors": [
-        "polygonal_halfspace_itemData->meshsets.size() != 1"
-    ]
+    "warnings": [
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 446921, guid: 12YSKzmWf1lwxNwPtrvbTO"
+    ],
+    "errors": []
 }

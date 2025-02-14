@@ -1,24 +1,24 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Schependomlaan/Schependomlaan.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:10:05",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:53:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.json"
     ],
-    "numCreatedGltfMeshes": 5417,
+    "numCreatedGltfMeshes": 5978,
     "numCreatedMetaObjects": 3730,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.982119748910224,
+        11.982119679456064,
         12.232500076293945,
         7.528244366988707
     ],
     "modelBoundsMin": [
-        -11.982119748910224,
+        -11.982119679456064,
         -12.232500076293945,
         -7.528244366988707
     ],
@@ -26,8 +26,8 @@
         "Detected IFC version: IFC2X3"
     ],
     "warnings": [
-        "degenerated triangle",
-        "Invalid SweptArea"
+        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 124051, guid: 25lwY2ERSCWudrceZV_Mg0",
+        "degenerated triangle"
     ],
     "errors": []
 }

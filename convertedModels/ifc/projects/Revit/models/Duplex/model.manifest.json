@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/Duplex.ifc",
     "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.30",
-    "conversionDate": "2024-11-13 22:09:19",
+    "converterApplicationVersion": "4.34.4",
+    "conversionDate": "2025-02-14 14:52:40",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.json"
     ],
-    "numCreatedGltfMeshes": 438,
+    "numCreatedGltfMeshes": 423,
     "numCreatedMetaObjects": 233,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
