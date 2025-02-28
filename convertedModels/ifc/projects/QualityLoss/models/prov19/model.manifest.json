@@ -1,0 +1,29 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/QualityLoss/prov19.ifc",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:48:45",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/QualityLoss/models/prov19/model.glb",
+        "convertedModels/ifc/projects/QualityLoss/models/prov19/model_1.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/QualityLoss/models/prov19/model.json"
+    ],
+    "numCreatedGltfMeshes": 68237,
+    "numCreatedMetaObjects": 41675,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        328.80513669968855,
+        2.6495090547080196,
+        699.6819995422363
+    ],
+    "modelBoundsMin": [
+        200.4130177571426,
+        -116.79648067995721,
+        635.7220004577637
+    ],
+    "generalMessages": [],
+    "warnings": [],
+    "errors": []
+}

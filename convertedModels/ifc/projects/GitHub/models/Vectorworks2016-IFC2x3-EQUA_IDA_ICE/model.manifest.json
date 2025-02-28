@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Vectorworks2016-IFC2x3-EQUA_IDA_ICE.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:24",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Vectorworks2016-IFC2x3-EQUA_IDA_ICE/model.json"
     ],
-    "numCreatedGltfMeshes": 1678,
+    "numCreatedGltfMeshes": 3277,
     "numCreatedMetaObjects": 1704,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        9.8995680809021,
-        10.274999618530273,
-        13.267858213186264
+        2245.7278930580915,
+        14446.05381880188,
+        129.05467622896037
     ],
     "modelBoundsMin": [
-        -9.8995680809021,
-        -10.274999618530273,
-        -13.267858213186264
+        -2248.474086680055,
+        -14433.99181880188,
+        -123.01467622896037
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 133313, guid: 2ZI_aK9UD7PestsIxBqRr3"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

@@ -1,17 +1,11 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_HVAC.ifc -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-
-Converting IFC geometry: 0.00% convertGeometry: IfcProject invalid
-IfcProject not set in model
-Converting IFC geometry: 80.00%                                                          No IfcProject found in model
-
-done in 1 seconds
-
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_HVAC.ifc
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.manifest.json  -o convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Clinic/models/Clinic_HVAC/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json

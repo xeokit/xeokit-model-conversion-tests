@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:43:36",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:21:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.json"
     ],
-    "numCreatedGltfMeshes": 9633,
+    "numCreatedGltfMeshes": 9635,
     "numCreatedMetaObjects": 2260,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        31.907879453036003,
-        21.9359667962417,
-        9.869143549203876
+        547894.6316767398,
+        6591638.889690774,
+        6524.8162791753075
     ],
     "modelBoundsMin": [
-        -31.907879453036003,
-        -21.9359667962417,
-        -9.869143549203876
+        529065.7095949973,
+        6591573.568790546,
+        -6462.226279175307
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 308057, guid: 2SyJfQ1qYB4wZB2rgCpeMi"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

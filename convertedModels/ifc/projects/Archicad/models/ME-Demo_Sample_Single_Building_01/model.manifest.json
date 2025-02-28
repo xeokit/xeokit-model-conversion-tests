@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ME-Demo_Sample_Single_Building_01.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:39:48",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:09:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -10,23 +10,19 @@
         "convertedModels/ifc/projects/Archicad/models/ME-Demo_Sample_Single_Building_01/model.json"
     ],
     "numCreatedGltfMeshes": 8756,
-    "numCreatedMetaObjects": 4109,
+    "numCreatedMetaObjects": 11727,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.96107813309047,
-        26.738497989531616,
-        10.300000000142422
+        62.8413462269638,
+        55.94095010936456,
+        15.900000000453005
     ],
     "modelBoundsMin": [
-        -34.96107813309047,
-        -26.738497989531616,
-        -10.300000000142422
+        -7.080810000569485,
+        -0.47397500048897784,
+        -4.69999988419573
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

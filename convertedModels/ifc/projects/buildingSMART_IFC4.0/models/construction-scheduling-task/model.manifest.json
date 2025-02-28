@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/construction-scheduling-task.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:54:04",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:21",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/construction-scheduling-task/model.json"
     ],
-    "numCreatedGltfMeshes": 5,
-    "numCreatedMetaObjects": 8,
+    "numCreatedGltfMeshes": 6,
+    "numCreatedMetaObjects": 9,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        19.507200241088867,
-        9.753600120544434,
-        2.20980004863739
+        22.021800000941752,
+        14.706599934387206,
+        4.41960004863739
     ],
     "modelBoundsMin": [
-        -19.507200241088867,
-        -9.753600120544434,
-        -2.20980004863739
+        14.554199999058246,
+        6.019799961471557,
+        1.2953999999999999
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

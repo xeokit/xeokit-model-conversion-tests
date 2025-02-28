@@ -1,11 +1,10 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/HolterTower/Holter_Tower_10.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:25",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:30:30",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.glb",
-        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model_1.glb"
+        "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/HolterTower/models/Holter_Tower_10/model.json"
@@ -14,20 +13,16 @@
     "numCreatedMetaObjects": 60860,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        70.80242156982422,
-        66.25398063659668,
-        116.9999996219794
+        87.98633962597854,
+        92.52353535249267,
+        189.9999996224294
     ],
     "modelBoundsMin": [
-        -70.80242156982422,
-        -66.25398063659668,
-        -116.9999996219794
+        -31.07907462783607,
+        -19.65965512105,
+        -3.5
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 40380, guid: 07jdq5kRLeInh8OP4fK6dJ"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

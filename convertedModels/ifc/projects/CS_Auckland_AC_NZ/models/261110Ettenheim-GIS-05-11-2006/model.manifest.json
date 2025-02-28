@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/261110Ettenheim-GIS-05-11-2006.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:43:09",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:20:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/261110Ettenheim-GIS-05-11-2006/model.glb"
     ],
@@ -13,20 +13,16 @@
     "numCreatedMetaObjects": 3362,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        493.84207605198026,
-        459.55148406087585,
-        31.36709213256836
+        668.7826843261719,
+        724.0428885450877,
+        62.73418438974892
     ],
     "modelBoundsMin": [
-        -493.84207605198026,
-        -459.55148406087585,
-        -31.36709213256836
+        312.96342650285806,
+        234.48469900680382,
+        0.9999997999098875
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 446921, guid: 12YSKzmWf1lwxNwPtrvbTO"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

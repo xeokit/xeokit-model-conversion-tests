@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:50:30",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:31:39",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 20986,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        63.33417505155648,
-        59.6087890058236,
-        6.349904116552608
+        127.04204613378641,
+        62.59890432657254,
+        15.379808233552247
     ],
     "modelBoundsMin": [
-        -63.33417505155648,
-        -59.6087890058236,
-        -6.349904116552608
+        0.11663217419168725,
+        -57.86093455985099,
+        1.608814686437249
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

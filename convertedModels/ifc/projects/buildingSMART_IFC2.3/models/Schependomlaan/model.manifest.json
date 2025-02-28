@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Schependomlaan.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:49",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.glb"
     ],
@@ -10,24 +10,21 @@
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Schependomlaan/model.json"
     ],
     "numCreatedGltfMeshes": 5978,
-    "numCreatedMetaObjects": 3730,
+    "numCreatedMetaObjects": 3744,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.982119679456064,
-        12.232500076293945,
-        7.528244366988707
+        59.35818819793127,
+        27.03900492477417,
+        2624.292704220412
     ],
     "modelBoundsMin": [
-        -11.982119679456064,
-        -12.232500076293945,
-        -7.528244366988707
+        -18.668167755321278,
+        -2.98000000445,
+        -2603.2625174526765
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 124051, guid: 25lwY2ERSCWudrceZV_Mg0",
-        "degenerated triangle"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 1047706"
+    ]
 }

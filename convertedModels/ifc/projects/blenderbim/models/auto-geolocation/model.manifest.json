@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/blenderbim/auto-geolocation.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:30",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:50:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/blenderbim/models/auto-geolocation/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 3,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.40569764404790476,
-        0.8035764014348388,
-        2.6724998988211155
+        -1.7976931348623157e308,
+        -1.7976931348623157e308,
+        -1.7976931348623157e308
     ],
     "modelBoundsMin": [
-        -0.40569764404790476,
-        -0.8035764014348388,
-        -2.6724998988211155
+        1.7976931348623157e308,
+        1.7976931348623157e308,
+        1.7976931348623157e308
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

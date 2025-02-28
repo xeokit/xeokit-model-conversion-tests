@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:40",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:11:51",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb"
     ],
@@ -10,23 +10,23 @@
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.json"
     ],
     "numCreatedGltfMeshes": 21064,
-    "numCreatedMetaObjects": 13498,
+    "numCreatedMetaObjects": 38256,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        49.178879646763285,
-        45.565794801300015,
-        13.595760498267765
+        86.74660878687928,
+        139.402847339911,
+        190.86010000089408
     ],
     "modelBoundsMin": [
-        -49.178879646763285,
-        -45.565794801300015,
-        -13.595760498267765
+        -11.117962754655402,
+        48.29020026381789,
+        163.66857900050647
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "IfcSurfaceCurveSweptAreaSolid: StartParam and EndParam not implemented"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 750545",
+        "parent not found for element 874234",
+        "parent not found for element 646780"
+    ]
 }

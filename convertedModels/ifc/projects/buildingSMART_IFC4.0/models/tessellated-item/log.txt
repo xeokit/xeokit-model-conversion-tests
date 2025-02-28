@@ -1,13 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellated-item.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellated-item.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellated-item.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellated-item.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 10.01% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 11.59% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 13.09% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 14.49% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 16.02% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 17.51% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 18.55% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 19.95% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 21.77% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 23.30% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 24.79% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 25.79% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 27.30% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 28.63% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 30.71% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 32.21% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 33.49% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 34.49% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 36.17% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 38.41% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 39.91% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 41.27% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 42.78% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 44.76% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 46.83% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 47.83% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 49.35% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 50.37% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 51.83% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 52.84% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 54.34% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 55.84% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 57.30% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 58.81% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 60.88% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 62.37% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 63.57% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 65.08% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 67.27% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 68.28% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 69.77% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 71.27% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 73.40% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 76.03% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 77.56% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 79.07% Loading file "/home/lindsay/xeolabs/xeok...essellated-item.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 2,  1.10%                                                                                   Accessors: 2
-Exporting metadata objects: 60.00%                                       Exporting metadata objects: 70.00%                                       Exporting metadata objects: 80.00%                                       Exporting metadata objects: 100.00%                                      
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/tessellated-item.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
+glTF accessors: 2
+Writing file convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/log.txt
@@ -16,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/tessellated-item/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 1.47 kB
+[convert2xkt] Input file size: 1.34 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,12 +25,12 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
+[convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 0.67 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.18
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] XKT size: 1.02 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.32
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 4

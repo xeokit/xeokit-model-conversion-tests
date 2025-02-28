@@ -1,31 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20211108ARA_ASH_S3B_ARCHITECTURE_wall.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:42:55",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:20:16",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb"
     ],
     "metadataOutFiles": [
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json",
-        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model_1.json"
+        "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json"
     ],
-    "numCreatedGltfMeshes": 16952,
+    "numCreatedGltfMeshes": 16960,
     "numCreatedMetaObjects": 17636,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        134.5806925555221,
-        66.6843656991245,
-        27.62500000009397
+        16.473400290978176,
+        77.74873402110543,
+        62.500000000056396
     ],
     "modelBoundsMin": [
-        -134.5806925555221,
-        -66.6843656991245,
-        -27.62500000009397
+        -252.4999358571532,
+        -59.35103868770798,
+        7.24999994262921
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

@@ -1,46 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Plumbing.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:51:01",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:34:01",
     "gltfOutFiles": [
-        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb",
-        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model_1.glb"
+        "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Plumbing/model.json"
     ],
-    "numCreatedGltfMeshes": 60870,
-    "numCreatedMetaObjects": 60877,
+    "numCreatedGltfMeshes": 60884,
+    "numCreatedMetaObjects": 60891,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        212.99240854433756,
-        147.6286748725447,
-        10.75955760598248
+        236.56599998280143,
+        198.97800000280142,
+        17.279999988079073
     ],
     "modelBoundsMin": [
-        -212.99240854433756,
-        -147.6286748725447,
-        -10.75955760598248
+        -189.4188171109401,
+        -61.722716,
+        1.1662682808491018
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "Duplicate GUID in model: 3MiJOikEH5cBHijuz19CmL",
-        "Duplicate GUID in model: 2ZRiKt4nHFovYl7S$uzCFI",
-        "Duplicate GUID in model: 1712skmef4TwSSB18dETco",
-        "Duplicate GUID in model: 3xV5IGobX5OBNcmt$va29e",
-        "Duplicate GUID in model: 0Pdz9ScVDFlu2FwBBBkYIT",
-        "Duplicate GUID in model: 3nXpxHW59Bpe1VubqVfk1K",
-        "Duplicate GUID in model: 2AJ3Xn1NbCBvNKhCJpnJZv",
-        "Duplicate GUID in model: 1M3YgDcGP4zxTekT25j_EJ",
-        "Duplicate GUID in model: 00ErCvTxX7YeOsvTuDg2fn",
-        "Duplicate GUID in model: 0rOOUIdX18HPLkli0hmjJD",
-        "Duplicate GUID in model: 0GBijtjD52Gv80WR68PlT7",
-        "Duplicate GUID in model: 02GOb2beHAigsMMkcuLVdg",
-        "Duplicate GUID in model: 1r6m0Fj3z1u9DvlcEGdMyP",
-        "Duplicate GUID in model: 3Yr1pV9dj7XhZqoxPClx6O"
-    ]
+    "errors": []
 }

@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Arch-2.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:18",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:50:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Arch-2/model.json"
     ],
-    "numCreatedGltfMeshes": 2726,
+    "numCreatedGltfMeshes": 2954,
     "numCreatedMetaObjects": 542,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        26.747533798217773,
-        14.769999742507935,
-        6.716330018882271
+        21.393699421257512,
+        16.386509466731486,
+        8.072659798084556
     ],
     "modelBoundsMin": [
-        -26.747533798217773,
-        -14.769999742507935,
-        -6.716330018882271
+        -4.067275691990319,
+        -2.925200471878052,
+        -4.86120748542386
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X2"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 14987, guid: 15Pt_wYUHAixwRaIle2O7Y"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

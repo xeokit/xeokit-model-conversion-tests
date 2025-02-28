@@ -1,31 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906_optimized.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:39:19",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:08:58",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.glb"
     ],
     "metadataOutFiles": [
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.json",
-        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model_1.json"
+        "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 18912,
+    "numCreatedGltfMeshes": 35340,
     "numCreatedMetaObjects": 16545,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        27.638432631164896,
-        33.29433736174836,
-        6.967068750002246
+        2.7609981467316653,
+        458982.4532776318,
+        13.995712585453894
     ],
     "modelBoundsMin": [
-        -27.638432631164896,
-        -33.29433736174836,
-        -6.967068750002246
+        -54.84206620314655,
+        -458907.33548511146,
+        -7.855712585444543
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

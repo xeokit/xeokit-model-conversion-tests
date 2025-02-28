@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/structural-curve-member.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:54:13",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:29",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/structural-curve-member/model.glb"
     ],
@@ -10,21 +10,39 @@
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/structural-curve-member/model.json"
     ],
     "numCreatedGltfMeshes": 0,
-    "numCreatedMetaObjects": 1,
+    "numCreatedMetaObjects": 17,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.0,
-        0.0,
-        0.0
+        -1.7976931348623157e308,
+        -1.7976931348623157e308,
+        -1.7976931348623157e308
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        1.7976931348623157e308,
+        1.7976931348623157e308,
+        1.7976931348623157e308
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 317",
+        "parent not found for element 2747",
+        "Element #2781=IfcStructuralCurveReaction has no parent element",
+        "Element #2733=IfcStructuralPointReaction has no parent element",
+        "Element #2773=IfcStructuralCurveReaction has no parent element",
+        "Element #317=IfcStructuralCurveAction has no parent element",
+        "Element #2741=IfcStructuralPointReaction has no parent element",
+        "Element #263=IfcStructuralCurveMember has no parent element",
+        "Element #280=IfcStructuralPointConnection has no parent element",
+        "Element #228=IfcStructuralCurveMember has no parent element",
+        "Element #2789=IfcStructuralCurveReaction has no parent element",
+        "Element #247=IfcStructuralPointConnection has no parent element",
+        "Element #296=IfcStructuralCurveMember has no parent element",
+        "Element #2753=IfcStructuralPointReaction has no parent element",
+        "Element #271=IfcStructuralPointConnection has no parent element",
+        "Element #2765=IfcStructuralPointReaction has no parent element",
+        "Element #236=IfcStructuralPointConnection has no parent element",
+        "Element #2759=IfcStructuralPointReaction has no parent element",
+        "Element #2747=IfcStructuralPointReaction has no parent element"
+    ]
 }

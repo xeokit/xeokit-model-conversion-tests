@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Nullpunkt/ARC_NUL_Nullpunkt_--_E_A.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:36",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:35:03",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Nullpunkt/models/ARC_NUL_Nullpunkt_--_E_A/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 6,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.5,
-        0.5,
-        0.5
+        -1.7976931348623157e308,
+        -1.7976931348623157e308,
+        -1.7976931348623157e308
     ],
     "modelBoundsMin": [
-        -0.5,
-        -0.5,
-        -0.5
+        1.7976931348623157e308,
+        1.7976931348623157e308,
+        1.7976931348623157e308
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

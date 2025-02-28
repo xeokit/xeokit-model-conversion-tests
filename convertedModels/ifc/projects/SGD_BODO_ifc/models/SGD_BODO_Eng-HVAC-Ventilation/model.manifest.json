@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Ventilation.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:13",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:50:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Ventilation/model.json"
     ],
-    "numCreatedGltfMeshes": 3906,
+    "numCreatedGltfMeshes": 3907,
     "numCreatedMetaObjects": 11620,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        26.810002136230494,
-        27.49106675386429,
-        5.307500034570694
+        68.74537983238697,
+        63.570001220703126,
+        16.24695587158203
     ],
     "modelBoundsMin": [
-        -26.810002136230494,
-        -27.49106675386429,
-        -5.307500034570694
+        14.828750807046891,
+        8.587867728650238,
+        -6.995738410949707
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X2"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

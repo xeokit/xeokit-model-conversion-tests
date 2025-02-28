@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/ST-Demo_Sample_Single_Building_01.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:39:52",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:09:42",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/ST-Demo_Sample_Single_Building_01/model.glb"
     ],
@@ -13,20 +13,16 @@
     "numCreatedMetaObjects": 1038,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        36.42478878375857,
-        27.904551044284943,
-        9.425000002980234
+        67.64207757466981,
+        54.48271936738555,
+        23.273499679565433
     ],
     "modelBoundsMin": [
-        -36.42478878375857,
-        -27.904551044284943,
-        -9.425000002980234
+        -6.559809870296739,
+        -3.6607004767903346,
+        -7.300000000000005
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "degenerated triangle"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

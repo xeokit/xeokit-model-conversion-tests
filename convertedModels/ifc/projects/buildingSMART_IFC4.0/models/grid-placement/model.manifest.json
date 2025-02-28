@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/grid-placement.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:54:07",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:24",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/grid-placement/model.glb"
     ],
@@ -13,20 +13,16 @@
     "numCreatedMetaObjects": 40,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        8.100000001490116,
-        8.12500000372529,
-        1.4000000000000001
+        2.1000000014901152,
+        16.0,
+        2.8000000014901163
     ],
     "modelBoundsMin": [
-        -8.100000001490116,
-        -8.12500000372529,
-        -1.4000000000000001
+        -14.100000001490116,
+        -1.399999976158142,
+        1.2499999940395357
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "IfcGridPlacement not implemented"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015-IFC4.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:32",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:10:52",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015-IFC4/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015-IFC4/model.json"
     ],
-    "numCreatedGltfMeshes": 2187,
+    "numCreatedGltfMeshes": 2196,
     "numCreatedMetaObjects": 1291,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        40.26072672646089,
-        65.2870751765389,
-        12.80159962768559
+        220.14843737429317,
+        173.16578129355952,
+        190.8289267792969
     ],
     "modelBoundsMin": [
-        -40.26072672646089,
-        -65.2870751765389,
-        -12.80159962768559
+        125.15471286168652,
+        42.666696286204136,
+        150.76892922070314
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

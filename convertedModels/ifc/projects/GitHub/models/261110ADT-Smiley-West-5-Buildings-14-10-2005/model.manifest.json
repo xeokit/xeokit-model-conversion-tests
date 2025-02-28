@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/261110ADT-Smiley-West-5-Buildings-14-10-2005.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:21",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/261110ADT-Smiley-West-5-Buildings-14-10-2005/model.glb"
     ],
@@ -13,20 +13,16 @@
     "numCreatedMetaObjects": 487,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        20.74749946933492,
-        15.090000084659751,
-        5.754999998211861
+        39.49499946594237,
+        10.842499952318429,
+        11.794999914169312
     ],
     "modelBoundsMin": [
-        -20.74749946933492,
-        -15.090000084659751,
-        -5.754999998211861
+        -1.9999994727274633,
+        -12.96789519441168,
+        -3.6799999141693114
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 74086, guid: 0_2RvIjwvEIAQ6esfWs3e0"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

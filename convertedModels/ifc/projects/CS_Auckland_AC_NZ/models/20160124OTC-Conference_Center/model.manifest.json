@@ -1,30 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160124OTC-Conference_Center.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:24",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:10:48",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.json"
     ],
-    "numCreatedGltfMeshes": 16072,
-    "numCreatedMetaObjects": 6656,
+    "numCreatedGltfMeshes": 16071,
+    "numCreatedMetaObjects": 10036,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        51.92319965362549,
-        37.466020584106445,
-        18.228762697434426
+        101.03199900720558,
+        84.99177918904624,
+        43.037305284171076
     ],
     "modelBoundsMin": [
-        -51.92319965362549,
-        -37.466020584106445,
-        -18.228762697434426
+        -2.8143983926967593,
+        -35.458398529052744,
+        -42.45609852905274
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 2182225"
+    ]
 }

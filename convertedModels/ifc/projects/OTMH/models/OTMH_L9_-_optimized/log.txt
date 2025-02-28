@@ -1,0 +1,48 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L9_-_optimized.ifc -o convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.glb -m convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.manifest.json  -o convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L9_-_optimized.ifc -o convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.glb -m convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH_L9_-_optimized.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 7.54% Exporting to glTF: 8.57% Exporting to glTF: 10.36% Exporting to glTF: 10.91% Exporting to glTF: 12.03% Exporting to glTF: 12.51% Exporting to glTF: 13.18% Exporting to glTF: 15.01% Exporting to glTF: 17.38% Exporting to glTF: 19.26% Exporting to glTF: 20.66% Exporting to glTF: 21.37% Exporting to glTF: 22.68% Exporting to glTF: 24.20% Exporting to glTF: 25.51% Exporting to glTF: 26.69% Exporting to glTF: 27.74% Exporting to glTF: 29.09% Exporting to glTF: 30.42% Exporting to glTF: 31.76% Exporting to glTF: 33.06% Exporting to glTF: 34.32% Exporting to glTF: 35.58% Exporting to glTF: 36.81% Exporting to glTF: 38.05% Exporting to glTF: 39.26% Exporting to glTF: 40.41% Exporting to glTF: 41.54% Exporting to glTF: 42.70% Exporting to glTF: 43.85% Exporting to glTF: 44.98% Exporting to glTF: 46.02% Exporting to glTF: 47.15% Exporting to glTF: 48.26% Exporting to glTF: 49.37% Exporting to glTF: 50.46% Exporting to glTF: 51.52% Exporting to glTF: 52.58% Exporting to glTF: 53.62% Exporting to glTF: 54.66% Exporting to glTF: 55.68% Exporting to glTF: 56.71% Exporting to glTF: 57.71% Exporting to glTF: 58.69% Exporting to glTF: 59.67% Exporting to glTF: 60.64% Exporting to glTF: 61.59% Exporting to glTF: 62.53% Exporting to glTF: 63.48% Exporting to glTF: 64.40% Exporting to glTF: 65.33% Exporting to glTF: 66.25% Exporting to glTF: 67.15% Exporting to glTF: 68.03% Exporting to glTF: 68.92% Exporting to glTF: 69.81% Exporting to glTF: 70.69% Exporting to glTF: 71.56% Exporting to glTF: 72.42% Exporting to glTF: 73.27% Exporting to glTF: 74.10% Exporting to glTF: 74.94% Exporting to glTF: 75.77% Exporting to glTF: 76.59% Exporting to glTF: 77.40% Exporting to glTF: 78.21% Exporting to glTF: 79.02% Exporting to glTF: 79.81% Exporting to glTF: 80.60% Exporting to glTF: 81.39% Exporting to glTF: 82.13% Exporting to glTF: 82.90% Exporting to glTF: 83.65% Exporting to glTF: 84.38% Exporting to glTF: 85.12% Exporting to glTF: 85.86% Exporting to glTF: 86.59% Exporting to glTF: 87.25% Exporting to glTF: 87.97% Exporting to glTF: 88.69% Exporting to glTF: 89.40% Exporting to glTF: 100.00% 
+glTF accessors: 9740, reused: 30478, compression: 75%
+Writing file convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.glb
+done in 53 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.manifest.json  -o convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/log.txt
+[convert2xkt] Running convert2xkt v1.1.25...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 24349.60 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v12
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 25577.96 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 0.95
+[convert2xkt] Conversion time: 7.02 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 13959
+[convert2xkt] Converted geometries: 7937
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 1103255
+[convert2xkt] Converted vertices: 573387
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/OTMH/models/OTMH_L9_-_optimized/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

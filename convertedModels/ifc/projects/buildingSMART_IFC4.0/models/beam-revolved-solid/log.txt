@@ -1,12 +1,48 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 10.01% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 11.35% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 12.61% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 13.78% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 14.92% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 16.15% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 18.24% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 19.50% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 20.75% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 22.03% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 23.33% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 25.06% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 26.31% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 27.57% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 28.88% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 30.34% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 31.44% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 32.73% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 33.99% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 35.08% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 36.26% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 38.09% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 39.35% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 40.85% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 42.78% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 44.07% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 45.33% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 46.65% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 48.09% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 49.39% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 50.64% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 51.65% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 53.51% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 55.39% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 56.69% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 57.94% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 59.20% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 60.62% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 61.90% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 63.35% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 65.24% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 66.50% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 67.91% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 69.20% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 70.60% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 71.64% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 72.92% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 74.17% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 75.26% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 76.92% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 78.79% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 80.04% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 81.05% Loading file "/home/lindsay/xeolabs/xeok...-revolved-solid.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 2,  1.10%                          node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
+glTF accessors: 2
+Writing file convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb
+done in 1 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
 [convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 7.82 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v12
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 7.77 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.01
+[convert2xkt] Conversion time: 0.04 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 4
+[convert2xkt] Converted geometries: 1
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 352
+[convert2xkt] Converted vertices: 192
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 1)
+[convert2xkt] Done.

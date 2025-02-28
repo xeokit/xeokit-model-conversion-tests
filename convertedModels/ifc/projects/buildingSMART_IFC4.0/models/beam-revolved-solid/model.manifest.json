@@ -1,0 +1,28 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:15",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json"
+    ],
+    "numCreatedGltfMeshes": 1,
+    "numCreatedMetaObjects": 3,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        -1.7976931348623157e308,
+        -1.7976931348623157e308,
+        -1.7976931348623157e308
+    ],
+    "modelBoundsMin": [
+        1.7976931348623157e308,
+        1.7976931348623157e308,
+        1.7976931348623157e308
+    ],
+    "generalMessages": [],
+    "warnings": [],
+    "errors": []
+}

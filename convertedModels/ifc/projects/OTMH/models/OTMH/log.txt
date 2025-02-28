@@ -1,0 +1,80 @@
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH.ifc -o convertedModels/ifc/projects/OTMH/models/OTMH/model.glb -m convertedModels/ifc/projects/OTMH/models/OTMH/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/OTMH/models/OTMH/log.txt
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/OTMH/models/OTMH/model.manifest.json  -o convertedModels/ifc/projects/OTMH/models/OTMH/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/OTMH/models/OTMH/log.txt
+
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH.ifc -o convertedModels/ifc/projects/OTMH/models/OTMH/model.glb -m convertedModels/ifc/projects/OTMH/models/OTMH/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/OTMH/models/OTMH/log.txt
+
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 5.95% Exporting to glTF: 7.35% Exporting to glTF: 8.29% Exporting to glTF: 8.92% Exporting to glTF: 9.21% Exporting to glTF: 9.76% Exporting to glTF: 9.95% Exporting to glTF: 10.53% Exporting to glTF: 11.07% Exporting to glTF: 11.62% Exporting to glTF: 12.18% Exporting to glTF: 12.42% Exporting to glTF: 12.83% Exporting to glTF: 13.09% Exporting to glTF: 13.47% Exporting to glTF: 13.59% Exporting to glTF: 13.85% Exporting to glTF: 14.13% Exporting to glTF: 14.39% Exporting to glTF: 14.73% Exporting to glTF: 14.98% Exporting to glTF: 15.21% Exporting to glTF: 15.45% Exporting to glTF: 15.68% Exporting to glTF: 15.91% Exporting to glTF: 16.10% Exporting to glTF: 16.23% Exporting to glTF: 16.33% Exporting to glTF: 16.47% Exporting to glTF: 16.64% Exporting to glTF: 16.82% Exporting to glTF: 16.99% Exporting to glTF: 17.16% Exporting to glTF: 17.33% Exporting to glTF: 17.50% Exporting to glTF: 17.67% Exporting to glTF: 17.83% Exporting to glTF: 17.98% Exporting to glTF: 18.14% Exporting to glTF: 18.29% Exporting to glTF: 18.43% Exporting to glTF: 18.59% Exporting to glTF: 18.72% Exporting to glTF: 18.84% Exporting to glTF: 18.99% Exporting to glTF: 19.13% Exporting to glTF: 19.26% Exporting to glTF: 19.41% Exporting to glTF: 19.56% Exporting to glTF: 19.71% Exporting to glTF: 19.85% Exporting to glTF: 20.00% Exporting to glTF: 20.14% Exporting to glTF: 20.28% Exporting to glTF: 20.42% Exporting to glTF: 20.56% Exporting to glTF: 20.70% Exporting to glTF: 20.83% Exporting to glTF: 20.96% Exporting to glTF: 21.09% Exporting to glTF: 21.21% Exporting to glTF: 21.33% Exporting to glTF: 21.45% Exporting to glTF: 21.56% Exporting to glTF: 21.68% Exporting to glTF: 21.78% Exporting to glTF: 21.88% Exporting to glTF: 21.96% Exporting to glTF: 22.04% Exporting to glTF: 22.15% Exporting to glTF: 22.26% Exporting to glTF: 22.37% Exporting to glTF: 22.47% Exporting to glTF: 22.57% Exporting to glTF: 22.69% Exporting to glTF: 22.80% Exporting to glTF: 22.92% Exporting to glTF: 23.02% Exporting to glTF: 23.13% Exporting to glTF: 23.23% Exporting to glTF: 23.33% Exporting to glTF: 23.43% Exporting to glTF: 23.53% Exporting to glTF: 23.63% Exporting to glTF: 23.73% Exporting to glTF: 23.82% Exporting to glTF: 23.91% Exporting to glTF: 24.01% Exporting to glTF: 24.10% Exporting to glTF: 24.19% Exporting to glTF: 24.29% Exporting to glTF: 24.39% Exporting to glTF: 24.48% Exporting to glTF: 24.58% Exporting to glTF: 24.68% Exporting to glTF: 24.77% Exporting to glTF: 24.87% Exporting to glTF: 24.96% Exporting to glTF: 25.06% Exporting to glTF: 25.15% Exporting to glTF: 25.24% Exporting to glTF: 25.33% Exporting to glTF: 25.42% Exporting to glTF: 25.51% Exporting to glTF: 25.60% Exporting to glTF: 25.69% Exporting to glTF: 25.79% Exporting to glTF: 25.87% Exporting to glTF: 25.96% Exporting to glTF: 26.05% Exporting to glTF: 26.15% Exporting to glTF: 26.24% Exporting to glTF: 26.34% Exporting to glTF: 26.43% Exporting to glTF: 26.52% Exporting to glTF: 26.62% Exporting to glTF: 26.71% Exporting to glTF: 26.80% Exporting to glTF: 26.89% 
+glTF accessors: 18945, reused: 59785, compression: 75%
+Exporting to glTF: 26.96% Exporting to glTF: 29.11% Exporting to glTF: 30.76% Exporting to glTF: 32.15% Exporting to glTF: 33.18% Exporting to glTF: 34.22% Exporting to glTF: 35.18% Exporting to glTF: 36.06% Exporting to glTF: 36.87% Exporting to glTF: 37.64% Exporting to glTF: 38.38% Exporting to glTF: 39.10% Exporting to glTF: 39.77% Exporting to glTF: 40.43% Exporting to glTF: 41.05% Exporting to glTF: 41.65% Exporting to glTF: 42.23% Exporting to glTF: 42.79% Exporting to glTF: 43.35% Exporting to glTF: 43.88% Exporting to glTF: 44.40% Exporting to glTF: 44.91% Exporting to glTF: 45.40% Exporting to glTF: 45.86% Exporting to glTF: 46.31% Exporting to glTF: 46.77% Exporting to glTF: 47.23% Exporting to glTF: 47.68% Exporting to glTF: 48.13% Exporting to glTF: 48.56% Exporting to glTF: 48.99% Exporting to glTF: 49.41% Exporting to glTF: 49.81% Exporting to glTF: 50.21% Exporting to glTF: 50.59% Exporting to glTF: 50.99% Exporting to glTF: 51.38% Exporting to glTF: 51.76% Exporting to glTF: 52.14% Exporting to glTF: 52.51% Exporting to glTF: 52.88% Exporting to glTF: 53.24% Exporting to glTF: 53.60% Exporting to glTF: 53.95% Exporting to glTF: 54.30% Exporting to glTF: 54.64% Exporting to glTF: 54.98% Exporting to glTF: 55.32% Exporting to glTF: 55.64% Exporting to glTF: 55.96% Exporting to glTF: 56.24% Exporting to glTF: 56.54% Exporting to glTF: 56.84% Exporting to glTF: 57.14% Exporting to glTF: 57.44% Exporting to glTF: 57.74% Exporting to glTF: 58.04% Exporting to glTF: 58.33% Exporting to glTF: 58.61% Exporting to glTF: 58.89% Exporting to glTF: 59.17% Exporting to glTF: 59.45% Exporting to glTF: 59.73% Exporting to glTF: 60.01% Exporting to glTF: 60.28% Exporting to glTF: 60.55% Exporting to glTF: 60.83% Exporting to glTF: 61.10% Exporting to glTF: 61.36% Exporting to glTF: 61.63% Exporting to glTF: 61.89% Exporting to glTF: 62.15% Exporting to glTF: 62.41% Exporting to glTF: 62.67% Exporting to glTF: 62.92% Exporting to glTF: 63.16% Exporting to glTF: 63.41% Exporting to glTF: 63.66% Exporting to glTF: 63.90% Exporting to glTF: 64.14% Exporting to glTF: 64.38% Exporting to glTF: 64.62% Exporting to glTF: 64.86% Exporting to glTF: 65.09% Exporting to glTF: 65.32% Exporting to glTF: 65.55% Exporting to glTF: 65.78% Exporting to glTF: 66.01% Exporting to glTF: 66.24% Exporting to glTF: 66.46% Exporting to glTF: 66.68% Exporting to glTF: 66.90% Exporting to glTF: 67.10% Exporting to glTF: 67.31% Exporting to glTF: 67.52% Exporting to glTF: 67.73% Exporting to glTF: 67.94% Exporting to glTF: 68.15% Exporting to glTF: 68.35% Exporting to glTF: 68.56% Exporting to glTF: 68.76% Exporting to glTF: 68.96% Exporting to glTF: 69.16% Exporting to glTF: 69.37% Exporting to glTF: 69.56% Exporting to glTF: 69.76% Exporting to glTF: 69.95% Exporting to glTF: 70.14% Exporting to glTF: 70.34% Exporting to glTF: 70.53% Exporting to glTF: 70.72% Exporting to glTF: 70.91% Exporting to glTF: 71.10% Exporting to glTF: 71.29% Exporting to glTF: 71.48% Exporting to glTF: 71.67% Exporting to glTF: 71.86% Exporting to glTF: 72.04% Exporting to glTF: 72.23% Exporting to glTF: 72.42% Exporting to glTF: 72.60% Exporting to glTF: 72.78% Exporting to glTF: 72.96% Exporting to glTF: 73.14% Exporting to glTF: 73.32% Exporting to glTF: 73.50% Exporting to glTF: 73.67% Exporting to glTF: 73.85% Exporting to glTF: 74.02% Exporting to glTF: 74.18% Exporting to glTF: 74.35% Exporting to glTF: 74.53% Exporting to glTF: 74.70% Exporting to glTF: 74.87% Exporting to glTF: 75.04% Exporting to glTF: 75.21% Exporting to glTF: 75.38% Exporting to glTF: 75.55% Exporting to glTF: 75.72% Exporting to glTF: 75.88% Exporting to glTF: 76.05% Exporting to glTF: 76.21% Exporting to glTF: 76.38% Exporting to glTF: 76.54% Exporting to glTF: 76.71% Exporting to glTF: 76.87% Exporting to glTF: 77.03% Exporting to glTF: 77.19% Exporting to glTF: 77.35% Exporting to glTF: 77.51% Exporting to glTF: 77.67% Exporting to glTF: 77.83% Exporting to glTF: 77.98% Exporting to glTF: 78.14% Exporting to glTF: 78.30% Exporting to glTF: 78.45% Exporting to glTF: 78.61% Exporting to glTF: 78.76% Exporting to glTF: 78.91% Exporting to glTF: 79.07% Exporting to glTF: 79.22% Exporting to glTF: 79.37% Exporting to glTF: 79.52% Exporting to glTF: 79.67% Exporting to glTF: 79.81% Exporting to glTF: 79.96% Exporting to glTF: 80.11% Exporting to glTF: 80.26% Exporting to glTF: 80.40% Exporting to glTF: 80.55% Exporting to glTF: 80.69% Exporting to glTF: 80.84% Exporting to glTF: 80.98% Exporting to glTF: 81.13% Exporting to glTF: 81.27% Exporting to glTF: 81.41% Exporting to glTF: 81.55% Exporting to glTF: 81.69% Exporting to glTF: 81.82% Exporting to glTF: 81.96% Exporting to glTF: 82.10% Exporting to glTF: 82.23% Exporting to glTF: 82.37% Exporting to glTF: 82.50% Exporting to glTF: 82.64% Exporting to glTF: 82.77% Exporting to glTF: 82.91% Exporting to glTF: 83.04% Exporting to glTF: 83.17% Exporting to glTF: 83.30% Exporting to glTF: 83.44% Exporting to glTF: 83.57% Exporting to glTF: 83.70% Exporting to glTF: 83.83% Exporting to glTF: 83.96% Exporting to glTF: 84.08% Exporting to glTF: 84.21% Exporting to glTF: 84.34% Exporting to glTF: 84.47% Exporting to glTF: 84.60% Exporting to glTF: 84.72% Exporting to glTF: 84.85% Exporting to glTF: 84.97% Exporting to glTF: 85.10% Exporting to glTF: 85.22% Exporting to glTF: 85.34% Exporting to glTF: 85.47% Exporting to glTF: 85.59% Exporting to glTF: 85.71% Exporting to glTF: 85.83% Exporting to glTF: 85.95% Exporting to glTF: 86.08% Exporting to glTF: 86.20% Exporting to glTF: 86.32% Exporting to glTF: 86.44% Exporting to glTF: 86.56% Exporting to glTF: 86.68% Exporting to glTF: 86.80% Exporting to glTF: 86.92% Exporting to glTF: 87.04% Exporting to glTF: 87.16% Exporting to glTF: 87.27% Exporting to glTF: 87.39% Exporting to glTF: 87.51% Exporting to glTF: 87.63% Exporting to glTF: 87.74% Exporting to glTF: 87.86% Exporting to glTF: 87.98% Exporting to glTF: 88.09% Exporting to glTF: 88.21% Exporting to glTF: 88.33% Exporting to glTF: 88.44% Exporting to glTF: 88.55% Exporting to glTF: 88.67% Exporting to glTF: 88.78% Exporting to glTF: 88.90% Exporting to glTF: 89.01% Exporting to glTF: 89.12% Exporting to glTF: 89.24% Exporting to glTF: 89.35% Exporting to glTF: 89.47% Exporting to glTF: 89.58% Exporting to glTF: 89.69% Exporting to glTF: 89.80% Exporting to glTF: 89.92% Exporting to glTF: 100.00% 
+glTF accessors: 9848, reused: 26302, compression: 72%
+Writing file convertedModels/ifc/projects/OTMH/models/OTMH/model.glb
+done in 3 minutes, 38 seconds
+
+node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/OTMH/models/OTMH/model.manifest.json  -o convertedModels/ifc/projects/OTMH/models/OTMH/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/OTMH/models/OTMH/log.txt
+[convert2xkt] Running convert2xkt v1.1.25...
+[convert2xkt] Using JSON configs file: /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json
+[convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/OTMH/models/OTMH/model.manifest.json...
+[convert2xkt] Reading input file: convertedModels/ifc/projects/OTMH/models/OTMH/model.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 53106.84 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v12
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 53680.92 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 0.99
+[convert2xkt] Conversion time: 13.28 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 27482
+[convert2xkt] Converted geometries: 12692
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 2380215
+[convert2xkt] Converted vertices: 1220759
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/OTMH/models/OTMH/model.xkt
+[convert2xkt] Converted model1.xkt (1 of 2)
+[convert2xkt] Reading input file: convertedModels/ifc/projects/OTMH/models/OTMH/model_1.glb
+[convert2xkt] Input file extension: "glb"
+[convert2xkt] Input file size: 21021.86 kB
+[convert2xkt] Not embedding metadata in XKT
+[convert2xkt] Using parser: parseGLTFIntoXKTModel
+[convert2xkt] Parsing normals: disabled
+[convert2xkt] Parsing textures: enabled
+[convert2xkt] Creating default metamodel in XKT
+[convert2xkt] Input file parsed OK. Building XKT document...
+[convert2xkt] XKT document built OK. Writing to XKT file...
+[convert2xkt] Converted to: XKT v12
+[convert2xkt] Exclude types: 
+[convert2xkt] XKT size: 20301.82 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.04
+[convert2xkt] Conversion time: 5.71 s
+[convert2xkt] Converted metaobjects: 0
+[convert2xkt] Converted property sets: 0
+[convert2xkt] Converted drawable objects: 17119
+[convert2xkt] Converted geometries: 8498
+[convert2xkt] Converted textures: 0
+[convert2xkt] Converted textureSets: 0
+[convert2xkt] Converted triangles: 816853
+[convert2xkt] Converted vertices: 425723
+[convert2xkt] Converted UVs: 0
+[convert2xkt] Converted normals: 0
+[convert2xkt] Converted tiles: 1
+[convert2xkt] minTileSize: 1000
+[convert2xkt] Writing XKT file: convertedModels/ifc/projects/OTMH/models/OTMH/model_1.xkt
+[convert2xkt] Converted model2.xkt (2 of 2)
+[convert2xkt] Done.

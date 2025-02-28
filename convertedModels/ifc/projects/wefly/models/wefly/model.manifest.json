@@ -1,0 +1,28 @@
+{
+    "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/wefly/wefly.ifc",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:59",
+    "gltfOutFiles": [
+        "convertedModels/ifc/projects/wefly/models/wefly/model.glb"
+    ],
+    "metadataOutFiles": [
+        "convertedModels/ifc/projects/wefly/models/wefly/model.json"
+    ],
+    "numCreatedGltfMeshes": 2,
+    "numCreatedMetaObjects": 6,
+    "numExportedPropertySetsOrElementQuantities": 0,
+    "modelBoundsMax": [
+        0.13035424053668998,
+        1.42757308483124,
+        0.041962847113609425
+    ],
+    "modelBoundsMin": [
+        0.13035424053668998,
+        1.42757308483124,
+        0.041962847113609425
+    ],
+    "generalMessages": [],
+    "warnings": [],
+    "errors": []
+}

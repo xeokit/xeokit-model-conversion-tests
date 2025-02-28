@@ -1,30 +1,32 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/wall-elemented-case.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:54:18",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/wall-elemented-case/model.json"
     ],
-    "numCreatedGltfMeshes": 0,
-    "numCreatedMetaObjects": 2,
+    "numCreatedGltfMeshes": 34,
+    "numCreatedMetaObjects": 17,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.0,
-        0.0,
-        0.0
+        4.876800003767014,
+        4.133110926786253e128,
+        3.4219047868064305e226
     ],
     "modelBoundsMin": [
-        0.0,
-        0.0,
-        0.0
+        1.2191999962329865,
+        -4.133110926786253e128,
+        -3.4219047868064305e226
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 49",
+        "Element #48=IfcElementAssemblyType has no parent element",
+        "Element #49=IfcWallType has no parent element"
+    ]
 }

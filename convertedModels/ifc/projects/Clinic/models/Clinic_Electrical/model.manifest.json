@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Electrical.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:43:19",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:20:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Electrical/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Electrical/model.json"
     ],
-    "numCreatedGltfMeshes": 6358,
+    "numCreatedGltfMeshes": 6367,
     "numCreatedMetaObjects": 2390,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        26.292618750518237,
-        32.57630920726089,
-        7.234600007536267
+        0.3847625000288071,
+        7.240584505527217e205,
+        13.250000046516492
     ],
     "modelBoundsMin": [
-        -26.292618750518237,
-        -32.57630920726089,
-        -7.234600007536267
+        -54.82125001144475,
+        -7.240584505527217e205,
+        -8.58284640110093e-8
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Duplex-IFC2x3-2011-09-14/Duplex_A_20110907_optimized.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:43:32",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:21:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907_optimized/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_A_20110907_optimized/model.json"
     ],
-    "numCreatedGltfMeshes": 436,
+    "numCreatedGltfMeshes": 681,
     "numCreatedMetaObjects": 246,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        4.641500048339367,
-        13.28273391093444,
-        5.2750000059604645
+        17.28299971008299,
+        1.0568730464769142e256,
+        10.03299980163584
     ],
     "modelBoundsMin": [
-        -4.641500048339367,
-        -13.28273391093444,
-        -5.2750000059604645
+        -8.351844828800296,
+        -1.0568730464769142e256,
+        -6.932999801635644
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

@@ -1,30 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC01_Arch.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:17",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:34:43",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC01_Arch/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC01_Arch/model.json"
     ],
-    "numCreatedGltfMeshes": 6304,
-    "numCreatedMetaObjects": 2902,
+    "numCreatedGltfMeshes": 6351,
+    "numCreatedMetaObjects": 2928,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        25.04616600119209,
-        18.24967055841583,
-        4.941187119483947
+        39.8948715600586,
+        31.19611112426758,
+        16.947500228881836
     ],
     "modelBoundsMin": [
-        -25.04616600119209,
-        -18.24967055841583,
-        -4.941187119483947
+        -23.00617189107361,
+        -23.962088186035153,
+        -24.625633171621093
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 2692931"
+    ]
 }

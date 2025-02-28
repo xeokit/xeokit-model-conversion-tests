@@ -1,30 +1,31 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:47",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:49:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json"
     ],
-    "numCreatedGltfMeshes": 11222,
-    "numCreatedMetaObjects": 6449,
+    "numCreatedGltfMeshes": 12053,
+    "numCreatedMetaObjects": 14121,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        36.24879911359205,
-        27.817023630846606,
-        9.925
+        69.3855371862974,
+        59.247021769058875,
+        34.006849363659576
     ],
     "modelBoundsMin": [
-        -36.24879911359205,
-        -27.817023630846606,
-        -9.925
+        -7.080810000569507,
+        -12.661497541063255,
+        -19.70684936365958
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 998097",
+        "parent not found for element 1018850"
+    ]
 }

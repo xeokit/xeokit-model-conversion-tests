@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Ducting.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:50:41",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:31:44",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Ducting/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 4073,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        66.32924999073147,
-        59.28228308099847,
-        5.77450001128018
+        134.63582860810547,
+        74.37500019073487,
+        15.050000095367432
     ],
     "modelBoundsMin": [
-        -66.32924999073147,
-        -59.28228308099847,
-        -5.77450001128018
+        -1.4125,
+        -70.99184354073486,
+        -1.032859134674072
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

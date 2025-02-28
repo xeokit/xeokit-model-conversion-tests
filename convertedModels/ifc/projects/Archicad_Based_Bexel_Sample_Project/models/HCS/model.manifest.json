@@ -1,30 +1,31 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/HCS.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:10",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:10:21",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/HCS/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/HCS/model.json"
     ],
-    "numCreatedGltfMeshes": 5165,
-    "numCreatedMetaObjects": 2990,
+    "numCreatedGltfMeshes": 27875,
+    "numCreatedMetaObjects": 9229,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        19.624062808005014,
-        19.62406280799442,
-        8.973503774002275
+        54.40727863089453,
+        14.311352653504002,
+        13.592010301351545
     ],
     "modelBoundsMin": [
-        -19.624062808005014,
-        -19.62406280799442,
-        -8.973503774002275
+        15.108761872755206,
+        -24.986851427877422,
+        -4.35499724897937
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 17513",
+        "parent not found for element 27786"
+    ]
 }

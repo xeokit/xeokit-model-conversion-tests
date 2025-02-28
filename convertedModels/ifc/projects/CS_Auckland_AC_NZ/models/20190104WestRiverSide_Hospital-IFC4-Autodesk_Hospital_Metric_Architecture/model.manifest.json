@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:50",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:12:28",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json"
     ],
-    "numCreatedGltfMeshes": 30635,
+    "numCreatedGltfMeshes": 31029,
     "numCreatedMetaObjects": 14652,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        53.352176690450015,
-        78.3360467942635,
-        19.58292989012716
+        93.94437525593102,
+        166.05395221468348,
+        203.7687999872823
     ],
     "modelBoundsMin": [
-        -53.352176690450015,
-        -78.3360467942635,
-        -19.58292989012716
+        -36.92039076685133,
+        -0.5126622374607828,
+        159.41499867553713
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

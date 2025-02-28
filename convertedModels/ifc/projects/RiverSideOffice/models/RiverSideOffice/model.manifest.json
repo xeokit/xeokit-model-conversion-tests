@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:52",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:49:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.json"
     ],
-    "numCreatedGltfMeshes": 753,
-    "numCreatedMetaObjects": 368,
+    "numCreatedGltfMeshes": 777,
+    "numCreatedMetaObjects": 369,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        7.1193437576293945,
-        9.29645449846983,
-        5.600666904449463
+        2303.76346622313,
+        2097.512778129137,
+        4539.424965660274
     ],
     "modelBoundsMin": [
-        -7.1193437576293945,
-        -9.29645449846983,
-        -5.600666904449463
+        -2241.236762658706,
+        -2085.9459031291367,
+        -4529.074965660274
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "Duplicate GUID in model: 0WTvaOfeHAPRlzM3ujhLGn"
-    ]
+    "errors": []
 }

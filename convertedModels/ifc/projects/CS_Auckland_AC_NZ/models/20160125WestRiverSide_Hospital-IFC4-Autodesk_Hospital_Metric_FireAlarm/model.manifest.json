@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:37",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:10:58",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_FireAlarm/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 875,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        48.26627423854009,
-        43.68702796646659,
-        11.894050000235467
+        86.760732102511,
+        137.4704641924709,
+        189.6258988171861
     ],
     "modelBoundsMin": [
-        -48.26627423854009,
-        -43.68702796646659,
-        -11.894050000235467
+        -9.799071718506038,
+        50.11123310281326,
+        165.8377988111243
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

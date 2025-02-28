@@ -1,30 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201027Mechanical_Piping.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:41:54",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:15:46",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201027Mechanical_Piping/model.json"
     ],
-    "numCreatedGltfMeshes": 12282,
-    "numCreatedMetaObjects": 8534,
+    "numCreatedGltfMeshes": 12436,
+    "numCreatedMetaObjects": 22390,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        38.891205348565734,
-        18.820137405768037,
-        6.319311746317839
+        78.26218608744638,
+        37.59027431527379,
+        12.463601143421085
     ],
     "modelBoundsMin": [
-        -38.891205348565734,
-        -18.820137405768037,
-        -6.319311746317839
+        0.4797753903148847,
+        -0.05000000149012257,
+        -0.3164000018000657
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 1154645"
+    ]
 }

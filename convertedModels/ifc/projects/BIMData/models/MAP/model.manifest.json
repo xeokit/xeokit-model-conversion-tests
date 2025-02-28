@@ -1,30 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIMData/MAP.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:40:21",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:10:36",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.json"
     ],
-    "numCreatedGltfMeshes": 5561,
-    "numCreatedMetaObjects": 2017,
+    "numCreatedGltfMeshes": 5609,
+    "numCreatedMetaObjects": 2077,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.960543444612995,
-        18.34726578183472,
-        14.094778407372539
+        1842041.1723837727,
+        5173321.102187219,
+        29.516236545160417
     ],
     "modelBoundsMin": [
-        -16.960543444612995,
-        -18.34726578183472,
-        -14.094778407372539
+        1842000.676645759,
+        5173281.637451061,
+        -4.435385608673095
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 802377"
+    ]
 }

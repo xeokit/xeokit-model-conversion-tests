@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/301110FJK-Project-Final.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:22",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:33",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/301110FJK-Project-Final/model.glb"
     ],
@@ -13,20 +13,16 @@
     "numCreatedMetaObjects": 229,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        14.404999732971191,
-        13.214247226715088,
-        6.144999995231629
+        12.802499885559083,
+        18.20505162468103,
+        9.28
     ],
     "modelBoundsMin": [
-        -14.404999732971191,
-        -13.214247226715088,
-        -6.144999995231629
+        -8.240000005960464,
+        -3.374999885559082,
+        -2.7018000107288365
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 139580, guid: 1dTMGbUiXAwPyN5mtFLTpY"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

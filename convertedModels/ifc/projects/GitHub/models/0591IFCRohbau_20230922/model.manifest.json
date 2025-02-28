@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/0591IFCRohbau_20230922.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:16",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:29",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/0591IFCRohbau_20230922/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/0591IFCRohbau_20230922/model.json"
     ],
-    "numCreatedGltfMeshes": 1155,
+    "numCreatedGltfMeshes": 1084,
     "numCreatedMetaObjects": 1110,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        50.37250000139011,
-        33.2914531708291,
-        20.380000013113023
+        66.59423823987726,
+        -30.72549917779078,
+        58.46499984741211
     ],
     "modelBoundsMin": [
-        -50.37250000139011,
-        -33.2914531708291,
-        -20.380000013113023
+        -48.3382612596956,
+        -133.9629985676242,
+        -39.87999969482422
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

@@ -1,19 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json  -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb -m convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 11.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 12.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 13.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 14.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 15.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 16.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 17.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 18.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 19.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 20.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 21.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 22.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 23.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 24.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 25.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 26.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 27.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 28.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 29.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 30.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 31.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 32.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 33.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 34.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 35.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 36.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 37.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 38.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 39.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 40.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 41.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 42.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 43.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 44.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 45.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 46.00% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 47.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 48.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 49.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 50.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 51.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 52.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 53.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 54.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 55.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 56.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 57.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 58.18% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 59.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 60.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 61.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 62.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 63.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 64.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 65.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 66.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 67.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 68.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 69.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 70.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 71.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 72.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 73.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 74.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 75.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 76.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 77.21% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 79.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 80.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 81.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 82.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 83.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 84.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 85.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 86.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 87.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 88.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 89.32% Loading file "/home/lindsay/xeolabs/xeok...AB_Landsarkivet.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 10186,  1.10%                      Converting IFC geometry, element 8843 of 10187,  58.14%                  Converting IFC geometry, element 10187 of 10187,  66.22%                 Converting IFC geometry, element 10187 of 10187,  80.00%                 currentBufferSizeInMegaBytes: 11.9205
-currentGltfJsonSizeInMegaBytes: 7.8074
-Accessors: 7575, reused: 60379, compression: 88%
-[1K
-Splitting gltf file at 20 MB
-Exporting to glTF: 1.00%                                                 Converting IFC geometry, element 10187 of 10187,  100.00%                                                                         Accessors: 422, reused: 514, compression: 54%
-Exporting metadata: 2.00%                                                Exporting metadata: 4.00%                                                Exporting metadata: 6.00%                                                Exporting metadata: 8.00%                                                Exporting metadata: 10.00%                                               Exporting metadata: 12.00%                                               Exporting metadata: 14.00%                                               Exporting metadata: 16.00%                                               Exporting metadata: 18.00%                                               Exporting metadata: 20.00%                                               Exporting metadata: 22.00%                                               Exporting metadata: 24.00%                                               Exporting metadata: 26.00%                                               Exporting metadata: 28.00%                                               Exporting metadata: 30.00%                                               Exporting metadata: 32.00%                                               Exporting metadata: 34.00%                                               Exporting metadata: 50.00%                                               Exporting metadata: 51.50%                                               Exporting metadata: 53.00%                                               Exporting metadata: 54.50%                                               Exporting metadata: 56.00%                                               Exporting metadata: 57.50%                                               Exporting metadata objects: 60.00%                                       Exporting metadata objects: 61.50%                                       Exporting metadata objects: 63.00%                                       Exporting metadata objects: 64.50%                                       Exporting metadata objects: 66.00%                                       Exporting metadata objects: 67.50%                                       Exporting metadata objects: 69.01%                                       Exporting metadata objects: 70.51%                                       Exporting metadata objects: 72.01%                                       Exporting metadata objects: 73.51%                                       Exporting metadata objects: 75.01%                                       Exporting metadata objects: 76.52%                                       Exporting metadata objects: 78.02%                                       Exporting metadata objects: 79.52%                                       Exporting metadata objects: 81.02%                                       Exporting metadata objects: 82.52%                                       Exporting metadata objects: 84.03%                                       Exporting metadata objects: 85.53%                                       Exporting metadata objects: 87.03%                                       Exporting metadata objects: 88.53%                                       Exporting metadata objects: 100.00%                                      
-done in 4 minutes, 26 seconds
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 7.22% Exporting to glTF: 8.01% Exporting to glTF: 9.43% Exporting to glTF: 11.32% Exporting to glTF: 13.55% Exporting to glTF: 16.00% Exporting to glTF: 18.12% Exporting to glTF: 20.12% Exporting to glTF: 21.79% Exporting to glTF: 23.09% Exporting to glTF: 24.58% Exporting to glTF: 26.83% Exporting to glTF: 28.62% Exporting to glTF: 30.78% Exporting to glTF: 32.49% Exporting to glTF: 34.20% Exporting to glTF: 36.56% Exporting to glTF: 38.60% Exporting to glTF: 40.29% Exporting to glTF: 41.60% Exporting to glTF: 43.38% Exporting to glTF: 44.95% Exporting to glTF: 46.51% Exporting to glTF: 47.81% Exporting to glTF: 50.16% Exporting to glTF: 52.35% Exporting to glTF: 54.72% Exporting to glTF: 57.51% Exporting to glTF: 60.29% Exporting to glTF: 63.08% Exporting to glTF: 65.88% Exporting to glTF: 67.82% Exporting to glTF: 69.02% Exporting to glTF: 70.35% Exporting to glTF: 71.61% Exporting to glTF: 72.91% Exporting to glTF: 73.85% Exporting to glTF: 74.70% Exporting to glTF: 75.76% Exporting to glTF: 76.57% Exporting to glTF: 77.20% Exporting to glTF: 78.02% Exporting to glTF: 78.99% Exporting to glTF: 79.92% Exporting to glTF: 80.84% Exporting to glTF: 81.39% Exporting to glTF: 82.37% Exporting to glTF: 83.29% Exporting to glTF: 84.18% Exporting to glTF: 84.23% Exporting to glTF: 85.18% Exporting to glTF: 86.16% Exporting to glTF: 86.99% Exporting to glTF: 87.82% Exporting to glTF: 88.72% Exporting to glTF: 89.96% Exporting to glTF: 100.00% 
+glTF accessors: 5826, reused: 64096, compression: 91%
+Writing file convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb
+done in 36 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json  -o convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
@@ -21,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 22513.71 kB
+[convert2xkt] Input file size: 31920.25 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,54 +25,24 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
+[convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4934.12 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.56
-[convert2xkt] Conversion time: 7.27 s
+[convert2xkt] XKT size: 30601.47 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.04
+[convert2xkt] Conversion time: 12.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 9716
-[convert2xkt] Converted geometries: 6359
+[convert2xkt] Converted drawable objects: 10188
+[convert2xkt] Converted geometries: 4238
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 784760
-[convert2xkt] Converted vertices: 415269
+[convert2xkt] Converted triangles: 1255405
+[convert2xkt] Converted vertices: 631871
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 2)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 10234.70 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3984.92 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 2.57
-[convert2xkt] Conversion time: 3.90 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 509
-[convert2xkt] Converted geometries: 269
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 559594
-[convert2xkt] Converted vertices: 279914
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 2)
+[convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

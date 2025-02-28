@@ -1,33 +1,41 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201022mapping_IFC4_Convenience_store.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:41:48",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:15:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201022mapping_IFC4_Convenience_store/model.json"
     ],
-    "numCreatedGltfMeshes": 5131,
-    "numCreatedMetaObjects": 5090,
+    "numCreatedGltfMeshes": 5150,
+    "numCreatedMetaObjects": 5803,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        21.887280040386592,
-        9.887500096857295,
-        7.050000023841858
+        47.26250019071631,
+        35.287499237165456,
+        10.487500190734863
     ],
     "modelBoundsMin": [
-        -21.887280040386592,
-        -9.887500096857295,
-        -7.050000023841858
+        -4.975000095385994,
+        -20.732499542131404,
+        -8.017552764552763
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 6322, guid: 3W_aJO6yT8VuHoi1KGFaEo",
-        "No segments found in IfcIndexedPolyCurve"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 8038",
+        "parent not found for element 6390",
+        "Element #6413=IfcVoidingFeature has no parent element",
+        "Element #7057=IfcVoidingFeature has no parent element",
+        "Element #7080=IfcVoidingFeature has no parent element",
+        "Element #7336=IfcVoidingFeature has no parent element",
+        "parent not found for element 7057",
+        "Element #6390=IfcVoidingFeature has no parent element",
+        "Element #7443=IfcVoidingFeature has no parent element",
+        "Element #7466=IfcVoidingFeature has no parent element",
+        "Element #8020=IfcVoidingFeature has no parent element",
+        "Element #8038=IfcVoidingFeature has no parent element"
+    ]
 }

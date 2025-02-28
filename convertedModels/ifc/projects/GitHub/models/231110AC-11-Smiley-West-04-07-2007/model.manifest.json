@@ -1,32 +1,30 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/231110AC-11-Smiley-West-04-07-2007.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:20",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:30",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/231110AC-11-Smiley-West-04-07-2007/model.json"
     ],
-    "numCreatedGltfMeshes": 3028,
-    "numCreatedMetaObjects": 490,
+    "numCreatedGltfMeshes": 3448,
+    "numCreatedMetaObjects": 505,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        20.747499465942383,
-        17.454999923706055,
-        5.560000039637089
+        38.495,
+        19.41,
+        7.85
     ],
     "modelBoundsMin": [
-        -20.747499465942383,
-        -17.454999923706055,
-        -5.560000039637089
+        -1.0,
+        -4.0,
+        -3.0600000000000005
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 120470, guid: 2vIg3Y09515ufy4Qj1hhRQ"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 172977"
+    ]
 }

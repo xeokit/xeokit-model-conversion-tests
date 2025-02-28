@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/Duplex.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:40",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:49:17",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Revit/models/Duplex/model.json"
     ],
-    "numCreatedGltfMeshes": 423,
+    "numCreatedGltfMeshes": 668,
     "numCreatedMetaObjects": 233,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        4.641500048339367,
-        9.141500048339367,
-        4.092399947595596
+        10.233000119209274,
+        4.191500095367432,
+        11.319999710083007
     ],
     "modelBoundsMin": [
-        -4.641500048339367,
-        -9.141500048339367,
-        -4.092399947595596
+        -8.27449980163574,
+        -21.783000186920166,
+        -7.141499710082909
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

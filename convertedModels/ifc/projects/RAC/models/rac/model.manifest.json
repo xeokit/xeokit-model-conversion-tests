@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RAC/rac.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:38",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:49:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.json"
     ],
-    "numCreatedGltfMeshes": 2098,
-    "numCreatedMetaObjects": 471,
+    "numCreatedGltfMeshes": 2099,
+    "numCreatedMetaObjects": 531,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        34.913638809455186,
-        46.17413883324238,
-        12.154055536985322
+        95.18565595995867,
+        90.95345081521207,
+        17.410168062496034
     ],
     "modelBoundsMin": [
-        -34.913638809455186,
-        -46.17413883324238,
-        -12.154055536985322
+        -124.37859476632352,
+        -124.17916020918074,
+        -7.101999927520751
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "degenerated triangle"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

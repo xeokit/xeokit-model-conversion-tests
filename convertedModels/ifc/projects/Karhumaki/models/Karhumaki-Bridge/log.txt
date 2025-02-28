@@ -1,19 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb -m convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 11.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 12.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 13.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 14.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 15.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 16.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 17.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 18.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 19.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 20.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 21.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 22.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 23.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 24.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 25.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 26.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 27.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 28.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 29.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 30.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 31.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 32.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 33.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 34.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 35.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 36.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 37.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 38.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 39.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 40.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 41.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 42.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 43.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 44.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 45.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 46.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 47.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 48.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 49.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 50.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 51.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 52.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 53.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 54.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 55.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 56.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 57.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 58.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 59.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 60.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 61.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 62.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 63.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 64.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 65.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 66.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 67.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 68.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 69.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 70.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 71.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 72.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 73.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 74.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 75.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 76.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 77.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 78.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 79.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 80.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 81.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 82.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 83.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 84.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 85.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 86.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 87.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 88.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 89.00% Loading file "/home/lindsay/xeolabs/xeok...arhumaki-Bridge.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 6917,  1.10%                       Converting IFC geometry, element 3792 of 6918,  46.11%                   currentBufferSizeInMegaBytes: 13.367
-currentGltfJsonSizeInMegaBytes: 6.25282
-Accessors: 14591, reused: 30369, compression: 67%
-[1K
-Splitting gltf file at 20 MB
-Exporting to glTF: 1.00%                                                 Exporting to glTF: 18.61%                                                Converting IFC geometry, element 6918 of 6918,  100.00%                                                                           Accessors: 2783, reused: 3043, compression: 52%
-Exporting metadata: 2.00%                                                Exporting metadata: 4.00%                                                Exporting metadata: 6.00%                                                Exporting metadata: 8.00%                                                Exporting metadata: 10.00%                                               Exporting metadata: 12.00%                                               Exporting metadata: 14.00%                                               Exporting metadata: 16.00%                                               Exporting metadata: 18.00%                                               Exporting metadata: 20.00%                                               Exporting metadata: 22.00%                                               Exporting metadata: 24.00%                                               Exporting metadata: 26.00%                                               Exporting metadata: 28.00%                                               Exporting metadata: 30.00%                                               Exporting metadata: 32.00%                                               Exporting metadata: 34.00%                                               Exporting metadata: 36.00%                                               Exporting metadata: 38.00%                                               Exporting metadata: 50.00%                                               Exporting metadata: 51.50%                                               Exporting metadata: 53.00%                                               Exporting metadata: 54.50%                                               Exporting metadata: 56.00%                                               Exporting metadata: 57.50%                                               Exporting metadata: 59.00%                                               Exporting metadata objects: 60.00%                                       Exporting metadata objects: 61.50%                                       Exporting metadata objects: 63.00%                                       Exporting metadata objects: 64.50%                                       Exporting metadata objects: 66.00%                                       Exporting metadata objects: 67.50%                                       Exporting metadata objects: 69.00%                                       Exporting metadata objects: 70.50%                                       Exporting metadata objects: 72.00%                                       Exporting metadata objects: 73.50%                                       Exporting metadata objects: 75.00%                                       Exporting metadata objects: 76.50%                                       Exporting metadata objects: 78.00%                                       Exporting metadata objects: 79.50%                                       Exporting metadata objects: 81.00%                                       Exporting metadata objects: 82.50%                                       Exporting metadata objects: 84.00%                                       Exporting metadata objects: 85.50%                                       Exporting metadata objects: 87.00%                                       Exporting metadata objects: 88.50%                                       Exporting metadata objects: 100.00%                                      
-done in 7 seconds
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 29.61% Exporting to glTF: 37.95% Exporting to glTF: 46.86% Exporting to glTF: 57.75% Exporting to glTF: 66.51% Exporting to glTF: 70.59% Exporting to glTF: 71.38% Exporting to glTF: 72.84% Exporting to glTF: 73.16% Exporting to glTF: 73.47% Exporting to glTF: 74.14% Exporting to glTF: 75.63% Exporting to glTF: 78.58% Exporting to glTF: 81.22% Exporting to glTF: 84.28% Exporting to glTF: 87.86% Exporting to glTF: 100.00% 
+glTF accessors: 4839, reused: 48139, compression: 90%
+Writing file convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb
+done in 12 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.manifest.json  -o convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
@@ -21,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 22295.73 kB
+[convert2xkt] Input file size: 33184.13 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,54 +25,24 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
+[convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 3574.36 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 6.24
-[convert2xkt] Conversion time: 9.50 s
+[convert2xkt] XKT size: 71570.20 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 0.46
+[convert2xkt] Conversion time: 14.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 5815
-[convert2xkt] Converted geometries: 14379
+[convert2xkt] Converted drawable objects: 6919
+[convert2xkt] Converted geometries: 4521
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 2155818
-[convert2xkt] Converted vertices: 1106824
+[convert2xkt] Converted triangles: 3559810
+[convert2xkt] Converted vertices: 1825460
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
 [convert2xkt] minTileSize: 1000
 [convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.xkt
-[convert2xkt] Converted model1.xkt (1 of 2)
-[convert2xkt] Reading input file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.glb
-[convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 5884.81 kB
-[convert2xkt] Not embedding metadata in XKT
-[convert2xkt] Using parser: parseGLTFIntoXKTModel
-[convert2xkt] Parsing normals: disabled
-[convert2xkt] Parsing textures: enabled
-[convert2xkt] Creating default metamodel in XKT
-[convert2xkt] Input file parsed OK. Building XKT document...
-[convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
-[convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1246.35 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 4.72
-[convert2xkt] Conversion time: 2.64 s
-[convert2xkt] Converted metaobjects: 0
-[convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 1109
-[convert2xkt] Converted geometries: 2752
-[convert2xkt] Converted textures: 0
-[convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 734720
-[convert2xkt] Converted vertices: 373356
-[convert2xkt] Converted UVs: 0
-[convert2xkt] Converted normals: 0
-[convert2xkt] Converted tiles: 1
-[convert2xkt] minTileSize: 1000
-[convert2xkt] Writing XKT file: convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model_1.xkt
-[convert2xkt] Converted model2.xkt (2 of 2)
+[convert2xkt] Converted model1.xkt (1 of 1)
 [convert2xkt] Done.

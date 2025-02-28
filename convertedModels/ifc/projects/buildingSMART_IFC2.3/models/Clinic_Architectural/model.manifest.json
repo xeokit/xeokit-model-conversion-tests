@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Architectural.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:31",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:50:29",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Architectural/model.json"
     ],
-    "numCreatedGltfMeshes": 3708,
+    "numCreatedGltfMeshes": 4632,
     "numCreatedMetaObjects": 2896,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        26.34249999785428,
-        33.05158102574475,
-        7.377081622697961
+        10.296500190734243,
+        80.76500024413988,
+        24.441023803715037
     ],
     "modelBoundsMin": [
-        -26.34249999785428,
-        -33.05158102574475,
-        -7.377081622697961
+        -67.53521917724669,
+        -16.691499404907994,
+        -1.2477531044003238
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

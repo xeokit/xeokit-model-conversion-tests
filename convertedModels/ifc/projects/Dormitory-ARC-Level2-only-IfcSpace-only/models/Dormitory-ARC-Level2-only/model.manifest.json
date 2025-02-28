@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Dormitory-ARC-Level2-only-IfcSpace-only/Dormitory-ARC-Level2-only.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:43:28",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:21:22",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Dormitory-ARC-Level2-only-IfcSpace-only/models/Dormitory-ARC-Level2-only/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Dormitory-ARC-Level2-only-IfcSpace-only/models/Dormitory-ARC-Level2-only/model.json"
     ],
-    "numCreatedGltfMeshes": 1190,
+    "numCreatedGltfMeshes": 1204,
     "numCreatedMetaObjects": 363,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        17.425000459253788,
-        8.037256361289991,
-        3.2518182581121238
+        74.96200545776382,
+        -64.25456061853008,
+        109.14000007629394
     ],
     "modelBoundsMin": [
-        -17.425000459253788,
-        -8.037256361289991,
-        -3.2518182581121238
+        40.037005047683714,
+        -98.95456138146953,
+        102.63636358667436
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4X1"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

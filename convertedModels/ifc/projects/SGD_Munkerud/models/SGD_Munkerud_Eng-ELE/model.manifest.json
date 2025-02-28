@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-ELE.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:20",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:50:14",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-ELE/model.json"
     ],
-    "numCreatedGltfMeshes": 441,
+    "numCreatedGltfMeshes": 373,
     "numCreatedMetaObjects": 1765,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        9.180090868933933,
-        6.891280049404003,
-        4.235000043660402
+        17.349090575989358,
+        12.891557692873047,
+        5.750000088214874
     ],
     "modelBoundsMin": [
-        -9.180090868933933,
-        -6.891280049404003,
-        -4.235000043660402
+        -1.0110911367498538,
+        0.32707613200928176,
+        -2.7199999991059305
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X2"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

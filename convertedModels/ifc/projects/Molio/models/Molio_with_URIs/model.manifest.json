@@ -1,32 +1,37 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:12",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:34:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.json"
     ],
-    "numCreatedGltfMeshes": 8159,
-    "numCreatedMetaObjects": 3805,
+    "numCreatedGltfMeshes": 8122,
+    "numCreatedMetaObjects": 3948,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        22.728654861450195,
-        18.564086437225342,
-        14.490249994516374
+        28.713542586333954,
+        6.595362586630277e196,
+        23.960500000011876
     ],
     "modelBoundsMin": [
-        -22.728654861450195,
-        -18.564086437225342,
-        -14.490249994516374
+        -10.301999946594238,
+        -6.595362586630277e196,
+        -4.399999988079071
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 443885, guid: 3iy5Xdv5BEADOxVtmGId5r"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 133154",
+        "parent not found for element 475190",
+        "parent not found for element 939895",
+        "parent not found for element 661949",
+        "parent not found for element 865774",
+        "parent not found for element 780852",
+        "parent not found for element 585644",
+        "parent not found for element 372245"
+    ]
 }

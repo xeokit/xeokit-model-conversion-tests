@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/AC20-FZK-Haus/AC20-FZK-Haus.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:39:37",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:09:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.glb"
     ],
@@ -10,23 +10,21 @@
         "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.json"
     ],
     "numCreatedGltfMeshes": 252,
-    "numCreatedMetaObjects": 108,
+    "numCreatedMetaObjects": 111,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        9.0,
-        8.0,
-        3.6588457584381104
+        16.8500000000001,
+        15.85,
+        6.317691425901662
     ],
     "modelBoundsMin": [
-        -9.0,
-        -8.0,
-        -3.6588457584381104
+        -4.85,
+        -5.85,
+        -0.5
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "convertIfcPropertySetOrQuantity: not a property set or element quanity: IfcWindowPanelProperties, tag: 67454, guid: 0y1wZ8xNrO2w$uG2ZvTsBI"
-    ],
-    "errors": []
+    "generalMessages": [],
+    "warnings": [],
+    "errors": [
+        "parent not found for element 77636"
+    ]
 }

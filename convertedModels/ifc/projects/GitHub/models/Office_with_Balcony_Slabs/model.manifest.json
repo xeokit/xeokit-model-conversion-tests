@@ -1,32 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:48:23",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:22:34",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json"
     ],
-    "numCreatedGltfMeshes": 1187,
+    "numCreatedGltfMeshes": 1171,
     "numCreatedMetaObjects": 281,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        17.099999666213968,
-        17.09999936531515,
-        7.649999976158142
+        33.69999923706049,
+        33.549999999999905,
+        9.900000000000002
     ],
     "modelBoundsMin": [
-        -17.099999666213968,
-        -17.09999936531515,
-        -7.649999976158142
+        -4.749999999999969,
+        -4.899999035397837,
+        -5.399999952316282
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "No segments found in IfcIndexedPolyCurve"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

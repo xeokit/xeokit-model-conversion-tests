@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-standard-case.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:53:59",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:51:16",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-standard-case/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-standard-case/model.json"
     ],
-    "numCreatedGltfMeshes": 9,
+    "numCreatedGltfMeshes": 18,
     "numCreatedMetaObjects": 21,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.0,
-        6.165000006556511,
-        0.16500000655651093
+        2.9398898633747987,
+        12.109999999701976,
+        2.2412252225494944
     ],
     "modelBoundsMin": [
-        -1.0,
-        -6.165000006556511,
-        -0.16500000655651093
+        -0.000014805409800077232,
+        -0.10999999970197677,
+        -0.21999999940395343
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

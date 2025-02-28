@@ -1,30 +1,36 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/ARCHICAD_Demoprojekt_Büro_23-IFC2x3.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:39:54",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:09:59",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.json"
     ],
-    "numCreatedGltfMeshes": 29763,
-    "numCreatedMetaObjects": 3061,
+    "numCreatedGltfMeshes": 29727,
+    "numCreatedMetaObjects": 3274,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        87.32768747653861,
-        82.91028302760759,
-        17.39463593596306
+        117.77242350562908,
+        66.87053310388674,
+        14.679271329476165
     ],
     "modelBoundsMin": [
-        -87.32768747653861,
-        -82.91028302760759,
-        -17.39463593596306
+        -10.644425569454732,
+        -107.78484184919049,
+        -19.999999694924227
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC2X3"
-    ],
+    "generalMessages": [],
     "warnings": [],
-    "errors": []
+    "errors": [
+        "parent not found for element 828371",
+        "parent not found for element 4014124",
+        "parent not found for element 798383",
+        "parent not found for element 5005102",
+        "parent not found for element 3998417",
+        "parent not found for element 2083854",
+        "parent not found for element 1887487"
+    ]
 }

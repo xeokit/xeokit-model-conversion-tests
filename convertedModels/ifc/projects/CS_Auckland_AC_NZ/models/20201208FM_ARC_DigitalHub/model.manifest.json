@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:42:24",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:16:52",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.json"
     ],
-    "numCreatedGltfMeshes": 3581,
+    "numCreatedGltfMeshes": 3599,
     "numCreatedMetaObjects": 790,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        79.65418148040771,
-        31.76492691040039,
-        6.909999999999999
+        141.12500067751319,
+        89.29410954962768,
+        79.65418243408203
     ],
     "modelBoundsMin": [
-        -79.65418148040771,
-        -31.76492691040039,
-        -6.909999999999999
+        -18.183364190650877,
+        -85.30325697869259,
+        -79.65418243408203
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
+    "generalMessages": [],
     "warnings": [],
     "errors": []
 }

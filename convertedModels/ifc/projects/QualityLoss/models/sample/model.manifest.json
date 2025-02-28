@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/QualityLoss/sample.ifc",
-    "converterApplication": "ifc2gltfcxconverter",
-    "converterApplicationVersion": "4.34.4",
-    "conversionDate": "2025-02-14 14:52:37",
+    "converterApplication": "cxconverter",
+    "converterApplicationVersion": "4.35.0",
+    "conversionDate": "2025-02-27 12:49:12",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/QualityLoss/models/sample/model.glb"
     ],
@@ -10,23 +10,19 @@
         "convertedModels/ifc/projects/QualityLoss/models/sample/model.json"
     ],
     "numCreatedGltfMeshes": 1415,
-    "numCreatedMetaObjects": 433,
+    "numCreatedMetaObjects": 917,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        11.655517578125,
-        3.5653321443004273,
-        1.9049999993294477
+        278.99190371956826,
+        2.3653321436017327e289,
+        671.4349999993294
     ],
     "modelBoundsMin": [
-        -11.655517578125,
-        -3.5653321443004273,
-        -1.9049999993294477
+        255.6808704167994,
+        -2.3653321436017327e289,
+        667.6250000238417
     ],
-    "generalMessages": [
-        "Detected IFC version: IFC4"
-    ],
-    "warnings": [
-        "No segments found in IfcIndexedPolyCurve"
-    ],
+    "generalMessages": [],
+    "warnings": [],
     "errors": []
 }

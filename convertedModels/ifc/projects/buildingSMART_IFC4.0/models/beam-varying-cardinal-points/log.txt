@@ -1,13 +1,14 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 10.01% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 11.28% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 12.45% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 13.64% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 15.29% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 16.58% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 17.69% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 18.80% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 20.03% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 21.18% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 22.52% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 24.29% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 26.11% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 27.28% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 28.43% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 29.92% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 31.37% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 32.67% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 34.01% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 36.16% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 37.21% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 38.68% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 40.15% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 41.49% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 42.54% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 43.70% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 44.80% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 45.89% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 47.57% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 49.26% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 50.73% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 52.20% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 53.54% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 54.59% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 55.75% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 56.85% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 57.93% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 59.61% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 61.31% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 62.81% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 64.28% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 65.61% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 66.67% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 67.83% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 68.92% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 70.03% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 71.71% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 73.42% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 74.92% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 76.39% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 77.73% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 78.78% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 79.94% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 81.04% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 82.15% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 83.83% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 84.84% Loading file "/home/lindsay/xeolabs/xeok...cardinal-points.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 5,  1.10%                                                                                   Accessors: 5, reused: 3, compression: 37%
-Exporting metadata objects: 60.00%                                       Exporting metadata objects: 65.00%                                       Exporting metadata objects: 70.00%                                       Exporting metadata objects: 75.00%                                       Exporting metadata objects: 80.00%                                       Exporting metadata objects: 85.00%                                       Exporting metadata objects: 100.00%                                      
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-varying-cardinal-points.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
+glTF accessors: 2, reused: 6, compression: 75%
+Writing file convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/log.txt
@@ -16,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-varying-cardinal-points/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 7.21 kB
+[convert2xkt] Input file size: 2.99 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,20 +25,20 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
+[convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1.87 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.86
-[convert2xkt] Conversion time: 0.06 s
+[convert2xkt] XKT size: 2.72 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.10
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 7
-[convert2xkt] Converted geometries: 4
+[convert2xkt] Converted geometries: 1
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 496
-[convert2xkt] Converted vertices: 256
+[convert2xkt] Converted triangles: 60
+[convert2xkt] Converted vertices: 32
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

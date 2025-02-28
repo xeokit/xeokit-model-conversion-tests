@@ -1,13 +1,16 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter_static -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.json -s 20 -t 1000 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.34.4 ____________
-Config file loaded: /home/lindsay/xeolabs/xeokit/ifc2gltf/4_34_4_beta/linux/ifc2gltfcxconverter.json
-Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 10.00% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 11.13% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 12.26% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 13.47% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 14.84% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 16.01% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 17.26% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 18.30% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 19.36% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 20.39% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 21.76% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 23.78% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 24.92% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 26.49% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 27.49% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 28.59% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 29.61% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 30.61% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 32.22% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 33.82% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 35.07% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 36.08% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 37.08% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 38.09% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 39.28% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 40.30% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 41.47% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 42.86% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 43.92% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 45.11% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 46.40% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 47.74% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 48.75% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 49.75% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 51.00% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 52.52% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 53.66% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 55.98% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 57.22% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 58.36% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 60.10% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 61.47% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 62.87% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 64.05% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 65.34% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 66.61% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 67.93% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 69.11% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 70.12% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 71.13% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 72.36% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 73.66% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 74.76% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 76.31% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 77.51% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 78.66% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 79.92% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 81.04% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 82.16% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 83.25% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 84.25% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 85.25% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 86.27% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 87.30% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 88.63% Loading file "/home/lindsay/xeolabs/xeok...erminal-element.ifc": 100.00% 
-Converting IFC geometry: 0.00%                                           Converting IFC geometry, element 0 of 7,  1.10%                                                                                   Accessors: 4
-Exporting metadata: 20.00%                                               Exporting metadata: 50.00%                                               Exporting metadata: 55.00%                                               Exporting metadata objects: 60.00%                                       Exporting metadata objects: 67.50%                                       Exporting metadata objects: 75.00%                                       Exporting metadata objects: 82.50%                                       Exporting metadata objects: 100.00%                                      
+__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+No config file loaded. 
+Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/air-terminal-element.ifc
+Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
+glTF accessors: 2
+Writing file convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb
+valueComponentString not handled
+tokenTypeUnitComponent != REF
 done in 1 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/log.txt
@@ -16,7 +19,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/air-terminal-element/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4.94 kB
+[convert2xkt] Input file size: 3.16 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -24,20 +27,20 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Creating default metamodel in XKT
 [convert2xkt] Input file parsed OK. Building XKT document...
 [convert2xkt] XKT document built OK. Writing to XKT file...
-[convert2xkt] Converted to: XKT v10
+[convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1.53 kB
-[convert2xkt] XKT textures size: 0.01kB
-[convert2xkt] Compression ratio: 3.22
-[convert2xkt] Conversion time: 0.05 s
+[convert2xkt] XKT size: 2.70 kB
+[convert2xkt] XKT textures size: 0.00kB
+[convert2xkt] Compression ratio: 1.17
+[convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 5
-[convert2xkt] Converted geometries: 2
+[convert2xkt] Converted drawable objects: 8
+[convert2xkt] Converted geometries: 1
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 176
-[convert2xkt] Converted vertices: 88
+[convert2xkt] Converted triangles: 94
+[convert2xkt] Converted vertices: 48
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1
