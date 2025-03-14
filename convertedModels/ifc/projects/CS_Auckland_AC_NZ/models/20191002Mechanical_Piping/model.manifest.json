@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20191002Mechanical_Piping.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:15:12",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:08:28",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.glb"
     ],
@@ -10,12 +10,12 @@
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20191002Mechanical_Piping/model.json"
     ],
     "numCreatedGltfMeshes": 12436,
-    "numCreatedMetaObjects": 22390,
+    "numCreatedMetaObjects": 22840,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         78.26218608744638,
         37.59027431527379,
-        12.463601143421085
+        12.34622346409172
     ],
     "modelBoundsMin": [
         0.4797753903148847,
@@ -24,7 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 1154645"
-    ]
+    "errors": []
 }

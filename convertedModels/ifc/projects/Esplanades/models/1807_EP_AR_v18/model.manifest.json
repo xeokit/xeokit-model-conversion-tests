@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Esplanades/1807_EP_AR_v18.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:21:35",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:12:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Esplanades/models/1807_EP_AR_v18/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 2260,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        547894.6316767398,
-        6591638.889690774,
-        6524.8162791753075
+        538511.0010224874,
+        6591628.0940604815,
+        32.268287088350895
     ],
     "modelBoundsMin": [
-        529065.7095949973,
-        6591573.568790546,
-        -6462.226279175307
+        538450.530549835,
+        6591583.679983323,
+        12.530000009536744
     ],
     "generalMessages": [],
     "warnings": [],

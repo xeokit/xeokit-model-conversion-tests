@@ -1,15 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb -m convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb -m convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.manifest.json  -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb -m convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb -m convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 8.04% Exporting to glTF: 11.63% Exporting to glTF: 18.58% Exporting to glTF: 27.74% Exporting to glTF: 33.02% Exporting to glTF: 36.29% Exporting to glTF: 40.99% Exporting to glTF: 46.14% Exporting to glTF: 51.15% Exporting to glTF: 56.05% Exporting to glTF: 60.88% Exporting to glTF: 65.38% Exporting to glTF: 69.55% Exporting to glTF: 73.75% Exporting to glTF: 77.90% Exporting to glTF: 82.00% Exporting to glTF: 85.85% Exporting to glTF: 89.76% Exporting to glTF: 100.00% 
-glTF accessors: 2650, reused: 21456, compression: 89%
+Exporting to glTF: 1.00% Exporting to glTF: 8.44% Exporting to glTF: 11.70% Exporting to glTF: 22.40% Exporting to glTF: 31.46% Exporting to glTF: 35.00% Exporting to glTF: 39.25% Exporting to glTF: 44.56% Exporting to glTF: 49.69% Exporting to glTF: 54.72% Exporting to glTF: 59.63% Exporting to glTF: 64.45% Exporting to glTF: 69.17% Exporting to glTF: 73.76% Exporting to glTF: 78.28% Exporting to glTF: 82.75% Exporting to glTF: 87.07% Exporting to glTF: 100.00% 
+glTF accessors: 2645, reused: 21461, compression: 89%
 Writing file convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb
-done in 11 seconds
+done in 10 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.manifest.json  -o convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 6438.47 kB
+[convert2xkt] Input file size: 6479.89 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 5800.21 kB
+[convert2xkt] XKT size: 5793.40 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.11
-[convert2xkt] Conversion time: 1.77 s
+[convert2xkt] Compression ratio: 1.12
+[convert2xkt] Conversion time: 1.79 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 6450
-[convert2xkt] Converted geometries: 2147
+[convert2xkt] Converted drawable objects: 14139
+[convert2xkt] Converted geometries: 2145
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 195837
-[convert2xkt] Converted vertices: 102252
+[convert2xkt] Converted triangles: 195543
+[convert2xkt] Converted vertices: 102108
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

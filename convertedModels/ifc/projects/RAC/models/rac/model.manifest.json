@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RAC/rac.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:14",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:46:58",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RAC/models/rac/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 531,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        95.18565595995867,
-        90.95345081521207,
-        17.410168062496034
+        95.26385516486492,
+        90.95344289354034,
+        17.206110845851747
     ],
     "modelBoundsMin": [
-        -124.37859476632352,
-        -124.17916020918074,
+        -124.45679397122977,
+        -124.257359414087,
         -7.101999927520751
     ],
     "generalMessages": [],

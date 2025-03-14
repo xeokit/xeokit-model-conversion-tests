@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:22:12",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:12:52",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/FOJAB_Landsarkivet/models/FOJAB_Landsarkivet/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         131311.5320683346,
         6175318.4511787,
-        71.54494366760954
+        58.11760232161388
     ],
     "modelBoundsMin": [
         131213.52353850217,
         6175223.554088333,
-        25.146154109198896
+        31.472602320868813
     ],
     "generalMessages": [],
     "warnings": [],

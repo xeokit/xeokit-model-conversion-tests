@@ -1,15 +1,15 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 8.17% Exporting to glTF: 8.90% Exporting to glTF: 9.63% Exporting to glTF: 9.77% Exporting to glTF: 10.00% Exporting to glTF: 10.45% Exporting to glTF: 10.61% Exporting to glTF: 10.78% Exporting to glTF: 12.68% Exporting to glTF: 13.22% Exporting to glTF: 14.43% Exporting to glTF: 14.80% Exporting to glTF: 16.34% Exporting to glTF: 18.55% Exporting to glTF: 19.12% Exporting to glTF: 21.19% Exporting to glTF: 25.40% Exporting to glTF: 26.67% Exporting to glTF: 28.33% Exporting to glTF: 31.92% Exporting to glTF: 34.46% Exporting to glTF: 36.33% Exporting to glTF: 38.37% Exporting to glTF: 40.34% Exporting to glTF: 42.26% Exporting to glTF: 43.79% Exporting to glTF: 44.63% Exporting to glTF: 46.70% Exporting to glTF: 48.73% Exporting to glTF: 50.56% Exporting to glTF: 52.28% Exporting to glTF: 53.69% Exporting to glTF: 55.39% Exporting to glTF: 57.02% Exporting to glTF: 58.73% Exporting to glTF: 60.43% Exporting to glTF: 61.90% Exporting to glTF: 63.53% Exporting to glTF: 65.11% Exporting to glTF: 66.81% Exporting to glTF: 68.30% Exporting to glTF: 69.79% Exporting to glTF: 71.27% Exporting to glTF: 72.55% Exporting to glTF: 73.58% Exporting to glTF: 74.69% Exporting to glTF: 75.54% Exporting to glTF: 75.97% Exporting to glTF: 76.83% Exporting to glTF: 77.92% Exporting to glTF: 78.90% Exporting to glTF: 79.65% Exporting to glTF: 80.43% Exporting to glTF: 81.66% Exporting to glTF: 82.87% Exporting to glTF: 83.98% Exporting to glTF: 84.90% Exporting to glTF: 85.94% Exporting to glTF: 87.05% Exporting to glTF: 88.23% Exporting to glTF: 89.41% Exporting to glTF: 100.00% 
-glTF accessors: 4968, reused: 57090, compression: 91%
+Exporting to glTF: 1.00% Exporting to glTF: 8.63% Exporting to glTF: 9.61% Exporting to glTF: 9.87% Exporting to glTF: 10.37% Exporting to glTF: 10.56% Exporting to glTF: 10.72% Exporting to glTF: 12.60% Exporting to glTF: 13.18% Exporting to glTF: 14.43% Exporting to glTF: 14.81% Exporting to glTF: 17.24% Exporting to glTF: 18.73% Exporting to glTF: 21.82% Exporting to glTF: 26.52% Exporting to glTF: 30.04% Exporting to glTF: 33.76% Exporting to glTF: 36.25% Exporting to glTF: 38.99% Exporting to glTF: 41.08% Exporting to glTF: 43.64% Exporting to glTF: 44.67% Exporting to glTF: 47.16% Exporting to glTF: 49.39% Exporting to glTF: 51.35% Exporting to glTF: 53.23% Exporting to glTF: 54.92% Exporting to glTF: 56.84% Exporting to glTF: 58.79% Exporting to glTF: 60.76% Exporting to glTF: 62.50% Exporting to glTF: 64.34% Exporting to glTF: 66.21% Exporting to glTF: 67.97% Exporting to glTF: 69.66% Exporting to glTF: 71.40% Exporting to glTF: 73.05% Exporting to glTF: 74.71% Exporting to glTF: 76.34% Exporting to glTF: 77.91% Exporting to glTF: 79.46% Exporting to glTF: 81.00% Exporting to glTF: 82.50% Exporting to glTF: 83.99% Exporting to glTF: 85.43% Exporting to glTF: 86.80% Exporting to glTF: 88.16% Exporting to glTF: 89.48% Exporting to glTF: 100.00% 
+glTF accessors: 4951, reused: 57107, compression: 92%
 Writing file convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb
-done in 35 seconds
+done in 27 seconds
 
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/log.txt
 [convert2xkt] Running convert2xkt v1.1.25...
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Architecture/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 15892.16 kB
+[convert2xkt] Input file size: 15876.65 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 13041.92 kB
+[convert2xkt] XKT size: 13025.68 kB
 [convert2xkt] XKT textures size: 0.00kB
 [convert2xkt] Compression ratio: 1.22
-[convert2xkt] Conversion time: 4.33 s
+[convert2xkt] Conversion time: 4.76 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 14653
-[convert2xkt] Converted geometries: 3598
+[convert2xkt] Converted geometries: 3587
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 420389
-[convert2xkt] Converted vertices: 222955
+[convert2xkt] Converted triangles: 419611
+[convert2xkt] Converted vertices: 222607
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

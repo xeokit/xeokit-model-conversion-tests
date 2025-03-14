@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:59",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:48:35",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb"
     ],
@@ -13,9 +13,9 @@
     "numCreatedMetaObjects": 19651,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1.6373627187043358,
+        0.434137099220379,
         57.96081877449725,
-        9.61194053788185
+        9.52874999989271
     ],
     "modelBoundsMin": [
         -53.757574422031304,
@@ -24,7 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 143160"
-    ]
+    "errors": []
 }

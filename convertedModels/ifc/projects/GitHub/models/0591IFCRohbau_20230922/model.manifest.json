@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/0591IFCRohbau_20230922.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:22:29",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:13:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/GitHub/models/0591IFCRohbau_20230922/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 1110,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        66.59423823987726,
-        -30.72549917779078,
-        58.46499984741211
+        56.2467385829,
+        -48.061037660433925,
+        15.410000011924184
     ],
     "modelBoundsMin": [
-        -48.3382612596956,
-        -133.9629985676242,
-        -39.87999969482422
+        -44.49826080672844,
+        -114.69679480305668,
+        -25.350000381469727
     ],
     "generalMessages": [],
     "warnings": [],

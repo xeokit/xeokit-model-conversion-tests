@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/RiverSideOffice/RiverSideOffice.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:37",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:20",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/RiverSideOffice/models/RiverSideOffice/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 369,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2303.76346622313,
-        2097.512778129137,
-        4539.424965660274
+        34.38568829649427,
+        9.873346346433298,
+        8.90133404417469
     ],
     "modelBoundsMin": [
-        -2241.236762658706,
-        -2085.9459031291367,
-        -4529.074965660274
+        20.147002239398425,
+        -8.691562881469727,
+        -2.3000000572204593
     ],
     "generalMessages": [],
     "warnings": [],

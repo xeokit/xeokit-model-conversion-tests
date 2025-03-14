@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/nested-elements/Sample_Nested_Family.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:51:59",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:49:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/nested-elements/models/Sample_Nested_Family/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 454,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        410901.8668056632,
-        1439793.7925265813,
+        410901.8698940572,
+        1439826.811527427,
         29.717999871712657
     ],
     "modelBoundsMin": [
-        410848.0176590829,
-        1439762.8083222643,
-        10.832500096302958
+        410848.0145712572,
+        1439760.0991250833,
+        8.54500019167039
     ],
     "generalMessages": [],
     "warnings": [],

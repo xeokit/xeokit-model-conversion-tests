@@ -1,12 +1,12 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.manifest.json  -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc -o convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb -m convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Sanitation.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 27.70% Exporting to glTF: 47.84% Exporting to glTF: 66.69% Exporting to glTF: 76.00% Exporting to glTF: 81.25% Exporting to glTF: 83.33% Exporting to glTF: 84.89% Exporting to glTF: 86.41% Exporting to glTF: 87.78% Exporting to glTF: 89.22% Exporting to glTF: 100.00% 
+Exporting to glTF: 1.00% Exporting to glTF: 35.04% Exporting to glTF: 50.22% Exporting to glTF: 69.03% Exporting to glTF: 77.43% Exporting to glTF: 81.78% Exporting to glTF: 83.70% Exporting to glTF: 85.29% Exporting to glTF: 86.64% Exporting to glTF: 88.01% Exporting to glTF: 89.39% Exporting to glTF: 100.00% 
 glTF accessors: 1440, reused: 35092, compression: 96%
 Writing file convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb
 done in 7 seconds
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Sanitation/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 6417.40 kB
+[convert2xkt] Input file size: 6417.18 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -30,7 +30,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT size: 6315.36 kB
 [convert2xkt] XKT textures size: 0.00kB
 [convert2xkt] Compression ratio: 1.02
-[convert2xkt] Conversion time: 1.91 s
+[convert2xkt] Conversion time: 1.85 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 18274

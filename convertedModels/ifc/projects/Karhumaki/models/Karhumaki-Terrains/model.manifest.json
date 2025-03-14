@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Terrains.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:31:19",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:23:42",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Terrains/model.glb"
     ],

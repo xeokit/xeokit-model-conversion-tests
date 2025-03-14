@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/ARCHICAD_Demoprojekt_Büro_23-IFC2x3.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:09:59",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/ARCHICAD_Demoprojekt_Büro_23-IFC2x3/model.glb"
     ],
@@ -24,13 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 828371",
-        "parent not found for element 4014124",
-        "parent not found for element 798383",
-        "parent not found for element 5005102",
-        "parent not found for element 3998417",
-        "parent not found for element 2083854",
-        "parent not found for element 1887487"
-    ]
+    "errors": []
 }

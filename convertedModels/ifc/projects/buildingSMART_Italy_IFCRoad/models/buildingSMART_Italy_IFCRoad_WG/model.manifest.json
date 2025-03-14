@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_Italy_IFCRoad/buildingSMART_Italy_IFCRoad_WG.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:51:42",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:49:21",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_Italy_IFCRoad/models/buildingSMART_Italy_IFCRoad_WG/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 809,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        301505.63882601925,
-        8.202246171408781e285,
-        1445.6799039151156
+        302063.20500097657,
+        508062.8929755859,
+        919.9999999648438
     ],
     "modelBoundsMin": [
-        299007.4713797545,
-        -8.202246171408781e285,
-        48.83121379335921
+        298978.02799902344,
+        506208.568024414,
+        728.1719970351561
     ],
     "generalMessages": [],
     "warnings": [],

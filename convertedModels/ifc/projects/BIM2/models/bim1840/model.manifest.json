@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIM2/bim1840.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:31",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:23",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIM2/models/bim1840/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 461,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        43.146596,
-        234.9738055,
-        3.666295
+        43.32946229888916,
+        235.1176799968548,
+        3.860753004198074
     ],
     "modelBoundsMin": [
-        15.700479000000001,
-        193.321852,
-        0.592142
+        15.515327701110841,
+        193.1890143458252,
+        0.5416840034046173
     ],
     "generalMessages": [],
     "warnings": [],

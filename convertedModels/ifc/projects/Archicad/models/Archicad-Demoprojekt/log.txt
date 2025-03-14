@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.manifest.json  -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc -o convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb -m convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 25.71% Exporting to glTF: 27.00% Exporting to glTF: 43.45% Exporting to glTF: 57.26% Exporting to glTF: 69.06% Exporting to glTF: 80.99% Exporting to glTF: 89.90% Exporting to glTF: 100.00% 
-glTF accessors: 3879, reused: 10357, compression: 72%
+Exporting to glTF: 1.00% Exporting to glTF: 26.37% Exporting to glTF: 30.75% Exporting to glTF: 48.70% Exporting to glTF: 63.44% Exporting to glTF: 76.92% Exporting to glTF: 87.15% Exporting to glTF: 100.00% 
+glTF accessors: 3859, reused: 10377, compression: 72%
 Writing file convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb
 done in 6 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4396.26 kB
+[convert2xkt] Input file size: 4387.38 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4086.10 kB
+[convert2xkt] XKT size: 4077.60 kB
 [convert2xkt] XKT textures size: 0.00kB
 [convert2xkt] Compression ratio: 1.08
-[convert2xkt] Conversion time: 1.40 s
+[convert2xkt] Conversion time: 1.44 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 5168
-[convert2xkt] Converted geometries: 3250
+[convert2xkt] Converted drawable objects: 5211
+[convert2xkt] Converted geometries: 3235
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 144610
-[convert2xkt] Converted vertices: 78152
+[convert2xkt] Converted triangles: 144199
+[convert2xkt] Converted vertices: 77900
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

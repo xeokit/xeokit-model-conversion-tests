@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Revit/rme_advanced_sample_project.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:34",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:17",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.glb"
     ],
@@ -10,22 +10,21 @@
         "convertedModels/ifc/projects/Revit/models/rme_advanced_sample_project/model.json"
     ],
     "numCreatedGltfMeshes": 12053,
-    "numCreatedMetaObjects": 14121,
+    "numCreatedMetaObjects": 14172,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        69.3855371862974,
-        59.247021769058875,
-        34.006849363659576
+        65.41678732149617,
+        54.12904597710801,
+        15.150000000453005
     ],
     "modelBoundsMin": [
         -7.080810000569507,
-        -12.661497541063255,
-        -19.70684936365958
+        -1.5050012845851999,
+        -4.699999818853534
     ],
     "generalMessages": [],
     "warnings": [],
     "errors": [
-        "parent not found for element 998097",
-        "parent not found for element 1018850"
+        "parent not found for element 1013756"
     ]
 }

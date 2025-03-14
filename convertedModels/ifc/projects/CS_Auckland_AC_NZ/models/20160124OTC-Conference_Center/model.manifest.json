@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160124OTC-Conference_Center.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:48",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.glb"
     ],
@@ -10,21 +10,19 @@
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160124OTC-Conference_Center/model.json"
     ],
     "numCreatedGltfMeshes": 16071,
-    "numCreatedMetaObjects": 10036,
+    "numCreatedMetaObjects": 10074,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         101.03199900720558,
-        84.99177918904624,
-        43.037305284171076
+        66.95440105454588,
+        27.465925365702013
     ],
     "modelBoundsMin": [
         -2.8143983926967593,
-        -35.458398529052744,
-        -42.45609852905274
+        -7.9776439283642695,
+        -8.992849424951672
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 2182225"
-    ]
+    "errors": []
 }

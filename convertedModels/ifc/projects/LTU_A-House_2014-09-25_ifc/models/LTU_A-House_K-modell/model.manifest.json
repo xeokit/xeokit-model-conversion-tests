@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_K-modell.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:32:02",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:24:27",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_K-modell/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 6419,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1992.1249959091222,
-        115.19999923706055,
-        3741.654949510824
+        133.10747590919402,
+        67.48514296966314,
+        16.275029940063124
     ],
     "modelBoundsMin": [
-        -1778.974995909122,
-        -53.02499923706055,
-        -3726.5199495108236
+        -3.75,
+        -18.40000001192093,
+        0.6999999940395351
     ],
     "generalMessages": [],
     "warnings": [],

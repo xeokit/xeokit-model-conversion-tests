@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Ventilation.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:16",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:54",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Ventilation/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 1288,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        17.0337485056353,
-        11.177192470029642,
-        8.96869102525711
+        17.03350160829548,
+        11.176945088535547,
+        8.823000002980232
     ],
     "modelBoundsMin": [
-        -0.7037499936533965,
-        2.7823642836812312,
+        -0.7035028879642493,
+        2.7823642836812317,
         -0.704000241209552
     ],
     "generalMessages": [],

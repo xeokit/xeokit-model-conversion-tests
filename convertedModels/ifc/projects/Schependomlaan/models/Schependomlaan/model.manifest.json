@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Schependomlaan/Schependomlaan.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:25",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:48:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Schependomlaan/models/Schependomlaan/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 3744,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        59.35818819793127,
-        27.03900492477417,
-        2624.292704220412
+        22.964239253614178,
+        23.465000000596046,
+        13.349384734736823
     ],
     "modelBoundsMin": [
-        -18.668167755321278,
-        -2.98000000445,
-        -2603.2625174526765
+        -1.0,
+        -1.0,
+        -1.7000000059604647
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 1047706"
-    ]
+    "errors": []
 }

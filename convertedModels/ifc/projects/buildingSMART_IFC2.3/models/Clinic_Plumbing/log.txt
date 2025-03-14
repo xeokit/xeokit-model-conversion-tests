@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Plumbing.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 9.08% Exporting to glTF: 10.66% Exporting to glTF: 12.89% Exporting to glTF: 14.94% Exporting to glTF: 15.02% Exporting to glTF: 15.35% Exporting to glTF: 16.21% Exporting to glTF: 16.29% Exporting to glTF: 18.15% Exporting to glTF: 20.49% Exporting to glTF: 24.21% Exporting to glTF: 28.66% Exporting to glTF: 32.98% Exporting to glTF: 36.97% Exporting to glTF: 40.90% Exporting to glTF: 44.68% Exporting to glTF: 48.23% Exporting to glTF: 51.41% Exporting to glTF: 54.42% Exporting to glTF: 57.51% Exporting to glTF: 60.64% Exporting to glTF: 63.74% Exporting to glTF: 66.79% Exporting to glTF: 69.81% Exporting to glTF: 72.80% Exporting to glTF: 75.75% Exporting to glTF: 78.67% Exporting to glTF: 81.56% Exporting to glTF: 84.41% Exporting to glTF: 87.22% Exporting to glTF: 100.00% 
-glTF accessors: 3312, reused: 18990, compression: 85%
+Exporting to glTF: 1.00% Exporting to glTF: 9.06% Exporting to glTF: 10.54% Exporting to glTF: 12.62% Exporting to glTF: 14.91% Exporting to glTF: 14.98% Exporting to glTF: 15.06% Exporting to glTF: 16.16% Exporting to glTF: 16.23% Exporting to glTF: 16.29% Exporting to glTF: 18.18% Exporting to glTF: 20.20% Exporting to glTF: 23.16% Exporting to glTF: 27.53% Exporting to glTF: 31.97% Exporting to glTF: 36.06% Exporting to glTF: 40.10% Exporting to glTF: 43.63% Exporting to glTF: 47.11% Exporting to glTF: 50.49% Exporting to glTF: 53.75% Exporting to glTF: 56.97% Exporting to glTF: 60.16% Exporting to glTF: 63.27% Exporting to glTF: 66.43% Exporting to glTF: 69.48% Exporting to glTF: 72.65% Exporting to glTF: 75.78% Exporting to glTF: 78.86% Exporting to glTF: 81.83% Exporting to glTF: 84.76% Exporting to glTF: 87.66% Exporting to glTF: 100.00% 
+glTF accessors: 3311, reused: 18991, compression: 85%
 Writing file convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb
 done in 19 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Plumbing/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 8153.36 kB
+[convert2xkt] Input file size: 8230.86 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,17 +27,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 8023.96 kB
+[convert2xkt] XKT size: 8023.57 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.02
-[convert2xkt] Conversion time: 2.26 s
+[convert2xkt] Compression ratio: 1.03
+[convert2xkt] Conversion time: 2.46 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 6594
+[convert2xkt] Converted drawable objects: 19652
 [convert2xkt] Converted geometries: 2590
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 293022
+[convert2xkt] Converted triangles: 292990
 [convert2xkt] Converted vertices: 160381
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

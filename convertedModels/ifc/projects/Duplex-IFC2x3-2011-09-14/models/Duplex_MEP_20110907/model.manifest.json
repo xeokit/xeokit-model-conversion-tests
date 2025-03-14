@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Duplex-IFC2x3-2011-09-14/Duplex_MEP_20110907.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:21:28",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:12:21",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Duplex-IFC2x3-2011-09-14/models/Duplex_MEP_20110907/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 974,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        9.680001912849756,
+        8.591500186920152,
         -0.20850028991699254,
         9.000000000000002
     ],
     "modelBoundsMin": [
-        -0.5903907338578307,
-        -18.718028330108822,
-        -2.8141805665128157
+        -0.3895120340537894,
+        -17.591499710083006,
+        -0.7613659392349982
     ],
     "generalMessages": [],
     "warnings": [],

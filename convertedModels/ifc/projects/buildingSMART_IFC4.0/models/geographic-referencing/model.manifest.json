@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/geographic-referencing.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:51:23",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:49:01",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC4.0/models/geographic-referencing/model.glb"
     ],

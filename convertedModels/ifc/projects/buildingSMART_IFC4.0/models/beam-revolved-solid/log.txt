@@ -1,9 +1,9 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc -o convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC4.0/beam-revolved-solid.ifc
 Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC4.0/models/beam-revolved-solid/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 7.82 kB
+[convert2xkt] Input file size: 7.60 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -29,7 +29,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Exclude types: 
 [convert2xkt] XKT size: 7.77 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.01
+[convert2xkt] Compression ratio: 0.98
 [convert2xkt] Conversion time: 0.04 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0

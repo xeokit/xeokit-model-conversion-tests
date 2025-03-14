@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/IfcCurtain_IfcElementAssembly/Assembly_selection_TEST1_IFC4.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:30:43",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:23:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/IfcCurtain_IfcElementAssembly/models/Assembly_selection_TEST1_IFC4/model.glb"
     ],
@@ -14,7 +14,7 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         5.138285410353127,
-        19.35673008077796,
+        11.45159258127566,
         9.130619327873816
     ],
     "modelBoundsMin": [

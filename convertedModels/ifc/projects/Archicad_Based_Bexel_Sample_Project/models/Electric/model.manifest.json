@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/Electric.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:08",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Electric/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Electric/model.json"
     ],
-    "numCreatedGltfMeshes": 24160,
+    "numCreatedGltfMeshes": 9087,
     "numCreatedMetaObjects": 3011,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -24,10 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 26720",
-        "parent not found for element 7026",
-        "parent not found for element 6016",
-        "parent not found for element 8403"
-    ]
+    "errors": []
 }

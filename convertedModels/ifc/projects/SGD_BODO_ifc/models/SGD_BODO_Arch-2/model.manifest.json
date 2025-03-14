@@ -1,26 +1,26 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-2.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:44",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:25",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-2/model.json"
     ],
-    "numCreatedGltfMeshes": 48853,
+    "numCreatedGltfMeshes": 17423,
     "numCreatedMetaObjects": 2346,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         88.9716000667572,
-        80.7680259027604,
-        32.08502639770508
+        80.93728174248675,
+        15.95999996185303
     ],
     "modelBoundsMin": [
         -16.865893129406746,
         -19.46840329768134,
-        -10.305026397705076
+        -3.9999999999999973
     ],
     "generalMessages": [],
     "warnings": [],

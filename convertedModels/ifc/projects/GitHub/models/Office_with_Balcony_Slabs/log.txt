@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc -o convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb -m convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc -o convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb -m convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.manifest.json  -o convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc -o convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb -m convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc -o convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb -m convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/GitHub/Office_with_Balcony_Slabs.ifc
 Exporting to glTF: 1.00% Exporting to glTF: 100.00% 
-glTF accessors: 291, reused: 2051, compression: 87%
+glTF accessors: 286, reused: 2056, compression: 87%
 Writing file convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb
 done in 1 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/GitHub/models/Office_with_Balcony_Slabs/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 401.27 kB
+[convert2xkt] Input file size: 393.23 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 317.84 kB
+[convert2xkt] XKT size: 309.76 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.26
-[convert2xkt] Conversion time: 0.18 s
+[convert2xkt] Compression ratio: 1.27
+[convert2xkt] Conversion time: 0.17 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 282
-[convert2xkt] Converted geometries: 197
+[convert2xkt] Converted geometries: 195
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 8749
-[convert2xkt] Converted vertices: 4456
+[convert2xkt] Converted triangles: 8359
+[convert2xkt] Converted vertices: 4312
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

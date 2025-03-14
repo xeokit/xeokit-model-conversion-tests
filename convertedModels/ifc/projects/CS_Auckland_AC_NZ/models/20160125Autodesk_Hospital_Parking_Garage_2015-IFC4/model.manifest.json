@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125Autodesk_Hospital_Parking_Garage_2015-IFC4.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:52",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:41",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125Autodesk_Hospital_Parking_Garage_2015-IFC4/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 1291,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        220.14843737429317,
+        210.09271160689593,
         173.16578129355952,
-        190.8289267792969
+        189.58679962768556
     ],
     "modelBoundsMin": [
-        125.15471286168652,
+        129.56594584330006,
         42.666696286204136,
-        150.76892922070314
+        163.98359999246597
     ],
     "generalMessages": [],
     "warnings": [],

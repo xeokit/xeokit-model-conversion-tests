@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_Munkerud/SGD_Munkerud_Eng-HVAC-Sanitary.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:15",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:53",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_Munkerud/models/SGD_Munkerud_Eng-HVAC-Sanitary/model.glb"
     ],
@@ -14,13 +14,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         22.983413590297356,
-        6.660399105391549,
+        6.66039909675013,
         7.9230000334560415
     ],
     "modelBoundsMin": [
-        4.935999804645168,
-        4.669228588491612,
-        -3.8267386454147414
+        5.148731981813909,
+        4.892487545490279,
+        -3.811761513758827
     ],
     "generalMessages": [],
     "warnings": [],

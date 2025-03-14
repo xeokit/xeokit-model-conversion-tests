@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/AC20-FZK-Haus/AC20-FZK-Haus.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:09:11",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:03:21",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/AC20-FZK-Haus/models/AC20-FZK-Haus/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 111,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        16.8500000000001,
-        15.85,
+        15.0,
+        13.0,
         6.317691425901662
     ],
     "modelBoundsMin": [
-        -4.85,
-        -5.85,
-        -0.5
+        -3.0,
+        -3.0,
+        -1.0000000000000009
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 77636"
-    ]
+    "errors": []
 }

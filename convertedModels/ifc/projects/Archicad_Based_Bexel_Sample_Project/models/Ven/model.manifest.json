@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad_Based_Bexel_Sample_Project/Ven.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:26",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:19",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Ven/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Archicad_Based_Bexel_Sample_Project/models/Ven/model.json"
     ],
-    "numCreatedGltfMeshes": 13258,
+    "numCreatedGltfMeshes": 6081,
     "numCreatedMetaObjects": 2241,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -20,14 +20,9 @@
     "modelBoundsMin": [
         16.499452828334444,
         -24.10593484562208,
-        3.479000023794361
+        3.479000023959671
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 7001",
-        "parent not found for element 5951",
-        "parent not found for element 4644",
-        "parent not found for element 6744"
-    ]
+    "errors": []
 }

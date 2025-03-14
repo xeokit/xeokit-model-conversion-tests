@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Eng-HVAC-Plumbing.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:01",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:39",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Eng-HVAC-Plumbing/model.glb"
     ],
@@ -14,12 +14,12 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         81.95999753437472,
-        66.5437772928588,
-        10.20050015449524
+        66.57034454345703,
+        9.050000001490115
     ],
     "modelBoundsMin": [
-        -0.4931287304318386,
-        -0.21852012870352852,
+        -0.6945046920157338,
+        -0.16057373271368652,
         -1.7065626022607898
     ],
     "generalMessages": [],

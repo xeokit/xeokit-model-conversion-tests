@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_Cooling.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:31:39",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:24:03",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_Cooling/model.glb"
     ],
@@ -14,13 +14,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         127.04204613378641,
-        62.59890432657254,
+        61.331857322848194,
         15.379808233552247
     ],
     "modelBoundsMin": [
-        0.11663217419168725,
+        0.3735739845515823,
         -57.86093455985099,
-        1.608814686437249
+        2.6800000002235174
     ],
     "generalMessages": [],
     "warnings": [],

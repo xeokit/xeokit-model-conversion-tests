@@ -1,15 +1,15 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20211108ARA_ASH_S3B_ARCHITECTURE_wall.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:20:16",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:11:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20211108ARA_ASH_S3B_ARCHITECTURE_wall/model.json"
     ],
-    "numCreatedGltfMeshes": 16960,
+    "numCreatedGltfMeshes": 16961,
     "numCreatedMetaObjects": 17636,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
@@ -19,7 +19,7 @@
     ],
     "modelBoundsMin": [
         -252.4999358571532,
-        -59.35103868770798,
+        -55.759397894392855,
         7.24999994262921
     ],
     "generalMessages": [],

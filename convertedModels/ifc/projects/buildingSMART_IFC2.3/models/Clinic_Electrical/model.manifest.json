@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_Electrical.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:32",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:48:08",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_Electrical/model.glb"
     ],
@@ -18,9 +18,9 @@
         13.250000046516492
     ],
     "modelBoundsMin": [
-        -54.82125001144475,
+        -52.200475000489476,
         -8.62785602508993,
-        -8.58284640110093e-8
+        -1.2191999450683595
     ],
     "generalMessages": [],
     "warnings": [],

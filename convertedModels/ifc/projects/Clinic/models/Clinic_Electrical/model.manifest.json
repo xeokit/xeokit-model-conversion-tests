@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Clinic/Clinic_Electrical.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:20:38",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:11:28",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Clinic/models/Clinic_Electrical/model.glb"
     ],
@@ -14,13 +14,13 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         0.3847625000288071,
-        7.240584505527217e205,
+        56.524762500028615,
         13.250000046516492
     ],
     "modelBoundsMin": [
-        -54.82125001144475,
-        -7.240584505527217e205,
-        -8.58284640110093e-8
+        -52.200475000489476,
+        -8.62785602508993,
+        -1.2191999450683595
     ],
     "generalMessages": [],
     "warnings": [],

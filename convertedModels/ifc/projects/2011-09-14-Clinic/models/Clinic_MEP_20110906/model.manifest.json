@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/2011-09-14-Clinic/Clinic_MEP_20110906.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:08:22",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:02:33",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/2011-09-14-Clinic/models/Clinic_MEP_20110906/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 16545,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2.605804903029224,
-        6.3407366465905495e274,
-        13.995712585453894
+        0.4341370992203793,
+        57.9608187744973,
+        13.250000046516677
     ],
     "modelBoundsMin": [
-        -54.821250011444775,
-        -6.3407366465905495e274,
-        -7.855712585444543
+        -54.84206620314655,
+        -8.627856025089935,
+        -0.6841374993324391
     ],
     "generalMessages": [],
     "warnings": [],

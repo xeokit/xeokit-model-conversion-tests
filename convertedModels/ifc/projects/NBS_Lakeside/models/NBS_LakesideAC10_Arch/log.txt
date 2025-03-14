@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb -m convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb -m convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.manifest.json  -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb -m convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc -o convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb -m convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 18.07% Exporting to glTF: 38.93% Exporting to glTF: 64.01% Exporting to glTF: 86.48% Exporting to glTF: 100.00% 
-glTF accessors: 2318, reused: 10340, compression: 81%
+Exporting to glTF: 1.00% Exporting to glTF: 18.22% Exporting to glTF: 40.22% Exporting to glTF: 66.09% Exporting to glTF: 100.00% 
+glTF accessors: 2301, reused: 10359, compression: 81%
 Writing file convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb
 done in 4 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4611.50 kB
+[convert2xkt] Input file size: 4606.65 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 5097.76 kB
+[convert2xkt] XKT size: 5096.53 kB
 [convert2xkt] XKT textures size: 0.00kB
 [convert2xkt] Compression ratio: 0.90
-[convert2xkt] Conversion time: 1.40 s
+[convert2xkt] Conversion time: 1.41 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2894
-[convert2xkt] Converted geometries: 1828
+[convert2xkt] Converted drawable objects: 2920
+[convert2xkt] Converted geometries: 1826
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 202056
-[convert2xkt] Converted vertices: 105209
+[convert2xkt] Converted triangles: 201997
+[convert2xkt] Converted vertices: 105207
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

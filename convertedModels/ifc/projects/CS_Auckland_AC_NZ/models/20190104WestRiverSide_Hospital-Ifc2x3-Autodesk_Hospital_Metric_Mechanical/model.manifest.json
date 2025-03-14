@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:14:47",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:08:02",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.glb"
     ],
@@ -10,7 +10,7 @@
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190104WestRiverSide_Hospital-Ifc2x3-Autodesk_Hospital_Metric_Mechanical/model.json"
     ],
     "numCreatedGltfMeshes": 23690,
-    "numCreatedMetaObjects": 59216,
+    "numCreatedMetaObjects": 59675,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         85.3123366298189,
@@ -24,8 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 2100753",
-        "parent not found for element 1846273"
-    ]
+    "errors": []
 }

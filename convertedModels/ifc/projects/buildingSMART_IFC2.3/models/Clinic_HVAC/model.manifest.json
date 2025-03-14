@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:50:38",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:48:15",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb"
     ],
@@ -14,18 +14,15 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         0.6985443851958039,
-        6.173950063714582e21,
-        13.371719512939453
+        56.80907761609962,
+        11.250000000000004
     ],
     "modelBoundsMin": [
-        -52.68799994850227,
-        -6.173950063714582e21,
-        -5.897478446067209
+        -52.01300011062692,
+        -9.554161826157017,
+        -1.0000000391006423
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 79602",
-        "parent not found for element 82500"
-    ]
+    "errors": []
 }

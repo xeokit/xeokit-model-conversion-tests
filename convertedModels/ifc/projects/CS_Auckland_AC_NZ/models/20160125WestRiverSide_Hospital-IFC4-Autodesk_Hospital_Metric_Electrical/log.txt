@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 57.41% Exporting to glTF: 81.57% Exporting to glTF: 100.00% 
-glTF accessors: 189, reused: 10437, compression: 98%
+Exporting to glTF: 1.00% Exporting to glTF: 57.52% Exporting to glTF: 82.74% Exporting to glTF: 100.00% 
+glTF accessors: 188, reused: 10438, compression: 98%
 Writing file convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb
 done in 2 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 1672.80 kB
+[convert2xkt] Input file size: 1691.06 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,17 +27,17 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 964.24 kB
+[convert2xkt] XKT size: 964.12 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.73
-[convert2xkt] Conversion time: 0.64 s
+[convert2xkt] Compression ratio: 1.75
+[convert2xkt] Conversion time: 0.66 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 2809
+[convert2xkt] Converted drawable objects: 6307
 [convert2xkt] Converted geometries: 152
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 8120
+[convert2xkt] Converted triangles: 8110
 [convert2xkt] Converted vertices: 4395
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0

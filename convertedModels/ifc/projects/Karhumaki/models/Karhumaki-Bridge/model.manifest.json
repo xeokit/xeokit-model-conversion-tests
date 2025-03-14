@@ -1,20 +1,20 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Karhumaki/Karhumaki-Bridge.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:30:56",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:23:18",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/Karhumaki/models/Karhumaki-Bridge/model.json"
     ],
-    "numCreatedGltfMeshes": 26489,
+    "numCreatedGltfMeshes": 26493,
     "numCreatedMetaObjects": 6918,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         -35.63476987482647,
-        128.89258847432492,
+        127.41509972212602,
         55.164999999694
     ],
     "modelBoundsMin": [

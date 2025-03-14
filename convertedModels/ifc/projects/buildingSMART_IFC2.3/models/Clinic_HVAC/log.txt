@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.manifest.json  -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc -o convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb -m convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/buildingSMART_IFC2.3/Clinic_HVAC.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 17.87% Exporting to glTF: 29.37% Exporting to glTF: 39.96% Exporting to glTF: 47.68% Exporting to glTF: 57.23% Exporting to glTF: 66.69% Exporting to glTF: 75.96% Exporting to glTF: 84.80% Exporting to glTF: 100.00% 
-glTF accessors: 2406, reused: 9632, compression: 80%
+Exporting to glTF: 1.00% Exporting to glTF: 17.79% Exporting to glTF: 28.77% Exporting to glTF: 38.91% Exporting to glTF: 47.47% Exporting to glTF: 57.52% Exporting to glTF: 67.57% Exporting to glTF: 77.29% Exporting to glTF: 86.55% Exporting to glTF: 100.00% 
+glTF accessors: 2404, reused: 9634, compression: 80%
 Writing file convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb
 done in 6 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/buildingSMART_IFC2.3/models/Clinic_HVAC/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 4738.28 kB
+[convert2xkt] Input file size: 4780.44 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 4505.20 kB
+[convert2xkt] XKT size: 4504.21 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.05
-[convert2xkt] Conversion time: 1.34 s
+[convert2xkt] Compression ratio: 1.06
+[convert2xkt] Conversion time: 1.48 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
-[convert2xkt] Converted drawable objects: 3975
-[convert2xkt] Converted geometries: 1841
+[convert2xkt] Converted drawable objects: 11365
+[convert2xkt] Converted geometries: 1840
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 170910
-[convert2xkt] Converted vertices: 89873
+[convert2xkt] Converted triangles: 170840
+[convert2xkt] Converted vertices: 89865
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

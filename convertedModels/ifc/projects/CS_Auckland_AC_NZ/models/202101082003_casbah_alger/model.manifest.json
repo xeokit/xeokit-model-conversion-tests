@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/202101082003_casbah_alger.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:16:59",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:10:10",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/202101082003_casbah_alger/model.glb"
     ],
@@ -13,13 +13,13 @@
     "numCreatedMetaObjects": 3185,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        2110.2128224368066,
-        1899.592754105,
+        1951.3624855175156,
+        1900.2165445479436,
         41.4002343436
     ],
     "modelBoundsMin": [
-        503.87875126724805,
-        104.2342043179926,
+        418.8016678401875,
+        62.786090849375,
         -83.88631653672346
     ],
     "generalMessages": [],

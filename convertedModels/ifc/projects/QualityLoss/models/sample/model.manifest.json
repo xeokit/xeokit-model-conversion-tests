@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/QualityLoss/sample.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:12",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:46:56",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/QualityLoss/models/sample/model.glb"
     ],
@@ -14,12 +14,12 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         278.99190371956826,
-        2.3653321436017327e289,
+        -90.29596898585305,
         671.4349999993294
     ],
     "modelBoundsMin": [
         255.6808704167994,
-        -2.3653321436017327e289,
+        -97.42663139065161,
         667.6250000238417
     ],
     "generalMessages": [],

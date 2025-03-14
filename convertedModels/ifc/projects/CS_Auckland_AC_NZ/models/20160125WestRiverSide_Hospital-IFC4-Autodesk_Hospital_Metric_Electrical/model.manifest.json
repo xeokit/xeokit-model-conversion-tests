@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:56",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:45",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Metric_Electrical/model.glb"
     ],
@@ -24,9 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 97645",
-        "parent not found for element 113302",
-        "parent not found for element 87353"
-    ]
+    "errors": []
 }

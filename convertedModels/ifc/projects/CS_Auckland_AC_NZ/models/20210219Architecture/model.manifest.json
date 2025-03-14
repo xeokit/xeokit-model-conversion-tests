@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20210219Architecture.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:17:31",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:10:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20210219Architecture/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 15434,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        111.1240804174659,
-        164.80901628091627,
-        54.91104888916071
+        89.66248878085798,
+        152.88843887136298,
+        39.01440001335144
     ],
     "modelBoundsMin": [
-        -41.77312129849782,
-        -6.713340979320473,
-        -43.9110488891596
+        -12.788376426787426,
+        -5.06064464727562,
+        -1.2105521075451156
     ],
     "generalMessages": [],
     "warnings": [],

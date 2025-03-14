@@ -1,11 +1,12 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/QualityLoss/prov19.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:48:45",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:46:09",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/QualityLoss/models/prov19/model.glb",
-        "convertedModels/ifc/projects/QualityLoss/models/prov19/model_1.glb"
+        "convertedModels/ifc/projects/QualityLoss/models/prov19/model_1.glb",
+        "convertedModels/ifc/projects/QualityLoss/models/prov19/model_2.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/QualityLoss/models/prov19/model.json"
@@ -14,14 +15,14 @@
     "numCreatedMetaObjects": 41675,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        328.80513669968855,
-        2.6495090547080196,
-        699.6819995422363
+        328.8051386525269,
+        2.87926748709981,
+        672.164998705843
     ],
     "modelBoundsMin": [
-        200.4130177571426,
-        -116.79648067995721,
-        635.7220004577637
+        200.2026529213055,
+        -111.96556707702169,
+        665.1100013179988
     ],
     "generalMessages": [],
     "warnings": [],

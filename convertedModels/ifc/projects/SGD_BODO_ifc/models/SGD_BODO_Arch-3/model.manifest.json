@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/SGD_BODO_ifc/SGD_BODO_Arch-3.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:49:54",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:47:32",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/SGD_BODO_ifc/models/SGD_BODO_Arch-3/model.json"
     ],
-    "numCreatedGltfMeshes": 8125,
+    "numCreatedGltfMeshes": 7721,
     "numCreatedMetaObjects": 5274,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        81.78278059275232,
-        76.62314453125,
-        81.18300030517578
+        79.69056705935509,
+        69.46281740644093,
+        69.73599997464393
     ],
     "modelBoundsMin": [
-        8.36320040724771,
-        -2.2334022817444747,
-        45.57299969482422
+        12.441600000149013,
+        5.601130097019769,
+        53.63999999344349
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 2830107"
-    ]
+    "errors": []
 }

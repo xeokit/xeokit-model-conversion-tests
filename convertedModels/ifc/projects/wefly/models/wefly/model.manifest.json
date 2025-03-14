@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/wefly/wefly.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:51:59",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:49:37",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/wefly/models/wefly/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 6,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        0.13035424053668998,
-        1.42757308483124,
-        0.041962847113609425
+        0.6288567334413531,
+        1.6563625335693382,
+        0.5553764551877977
     ],
     "modelBoundsMin": [
-        0.13035424053668998,
-        1.42757308483124,
-        0.041962847113609425
+        -0.3681482523679731,
+        1.1987836360931419,
+        -0.47145076096057886
     ],
     "generalMessages": [],
     "warnings": [],

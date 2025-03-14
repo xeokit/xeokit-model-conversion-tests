@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Archicad/Archicad-Demoprojekt.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:09:27",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:03:31",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Archicad/models/Archicad-Demoprojekt/model.glb"
     ],
@@ -13,18 +13,16 @@
     "numCreatedMetaObjects": 5210,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        58.51288793794614,
-        23.496699457454593,
+        55.40903336289052,
+        15.358504597870718,
         13.844586234123462
     ],
     "modelBoundsMin": [
-        8.783403282781133,
-        -34.10330117562664,
+        14.085421096077658,
+        -25.965106320101576,
         -5.300000000745058
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 1335674"
-    ]
+    "errors": []
 }

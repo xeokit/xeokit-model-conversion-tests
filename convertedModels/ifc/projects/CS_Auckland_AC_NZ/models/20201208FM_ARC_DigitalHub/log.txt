@@ -1,13 +1,13 @@
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/log.txt
 node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.js -t  -c /home/lindsay/xeolabs/xeokit-convert-mar14//convert2xkt.conf.json  -a convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.manifest.json  -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.xkt.manifest.json  -l >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/log.txt
 
-/home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/4_35_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/log.txt
+/home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/cxconverter -c /home/lindsay/xeolabs/xeokit/ifc2gltf/5_0_0/linux/ifc2gltfcxconverter.json -i /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc -o convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb -m convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.json -s 50 -t 200 -e 3 >> convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/log.txt
 
-__ Creoox IFC to GLTF converter __ version: 4.35.0 ____________
+__ Creoox IFC to GLTF converter __ version: 5.0.0 ____________
 No config file loaded. 
 Loading file /home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc
-Exporting to glTF: 1.00% Exporting to glTF: 40.65% Exporting to glTF: 100.00% 
-glTF accessors: 813, reused: 6385, compression: 88%
+Exporting to glTF: 1.00% Exporting to glTF: 30.98% Exporting to glTF: 100.00% 
+glTF accessors: 890, reused: 6308, compression: 87%
 Writing file convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb
 done in 2 seconds
 
@@ -17,7 +17,7 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] Converting glTF files in manifest convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.manifest.json...
 [convert2xkt] Reading input file: convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb
 [convert2xkt] Input file extension: "glb"
-[convert2xkt] Input file size: 1652.68 kB
+[convert2xkt] Input file size: 1899.96 kB
 [convert2xkt] Not embedding metadata in XKT
 [convert2xkt] Using parser: parseGLTFIntoXKTModel
 [convert2xkt] Parsing normals: disabled
@@ -27,18 +27,18 @@ node --max-old-space-size=14000 /home/lindsay/xeolabs/xeokit-convert-mar14//conv
 [convert2xkt] XKT document built OK. Writing to XKT file...
 [convert2xkt] Converted to: XKT v12
 [convert2xkt] Exclude types: 
-[convert2xkt] XKT size: 1507.63 kB
+[convert2xkt] XKT size: 1718.20 kB
 [convert2xkt] XKT textures size: 0.00kB
-[convert2xkt] Compression ratio: 1.10
-[convert2xkt] Conversion time: 0.48 s
+[convert2xkt] Compression ratio: 1.11
+[convert2xkt] Conversion time: 0.54 s
 [convert2xkt] Converted metaobjects: 0
 [convert2xkt] Converted property sets: 0
 [convert2xkt] Converted drawable objects: 791
-[convert2xkt] Converted geometries: 555
+[convert2xkt] Converted geometries: 601
 [convert2xkt] Converted textures: 0
 [convert2xkt] Converted textureSets: 0
-[convert2xkt] Converted triangles: 53069
-[convert2xkt] Converted vertices: 30481
+[convert2xkt] Converted triangles: 66441
+[convert2xkt] Converted vertices: 36353
 [convert2xkt] Converted UVs: 0
 [convert2xkt] Converted normals: 0
 [convert2xkt] Converted tiles: 1

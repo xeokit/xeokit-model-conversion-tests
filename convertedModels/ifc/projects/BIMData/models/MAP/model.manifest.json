@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/BIMData/MAP.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:10:36",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:04:26",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/BIMData/models/MAP/model.glb"
     ],
@@ -10,21 +10,19 @@
         "convertedModels/ifc/projects/BIMData/models/MAP/model.json"
     ],
     "numCreatedGltfMeshes": 5609,
-    "numCreatedMetaObjects": 2077,
+    "numCreatedMetaObjects": 2085,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        1842041.1723837727,
+        1842038.679456771,
         5173321.102187219,
-        29.516236545160417
+        24.589556836820105
     ],
     "modelBoundsMin": [
-        1842000.676645759,
-        5173281.637451061,
-        -4.435385608673095
+        1842005.8984809283,
+        5173283.013905063,
+        -3.6000000059604647
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 802377"
-    ]
+    "errors": []
 }

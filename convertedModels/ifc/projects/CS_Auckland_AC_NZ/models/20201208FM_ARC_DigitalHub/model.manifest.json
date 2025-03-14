@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20201208FM_ARC_DigitalHub.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:16:52",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:10:05",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20201208FM_ARC_DigitalHub/model.glb"
     ],
@@ -13,14 +13,14 @@
     "numCreatedMetaObjects": 790,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        141.12500067751319,
-        89.29410954962768,
-        79.65418243408203
+        141.1250023902697,
+        41.40485402594603,
+        9.95000003814695
     ],
     "modelBoundsMin": [
         -18.183364190650877,
-        -85.30325697869259,
-        -79.65418243408203
+        -22.12499979485475,
+        -3.8700000014901192
     ],
     "generalMessages": [],
     "warnings": [],

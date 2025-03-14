@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/Molio/Molio_with_URIs.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:34:37",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:27:00",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/Molio/models/Molio_with_URIs/model.glb"
     ],
@@ -13,25 +13,16 @@
     "numCreatedMetaObjects": 3948,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        28.713542586333954,
-        6.595362586630277e196,
+        28.713542625426644,
+        20.972542666904047,
         23.960500000011876
     ],
     "modelBoundsMin": [
-        -10.301999946594238,
-        -6.595362586630277e196,
+        -1.0,
+        -10.538985611458848,
         -4.399999988079071
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 133154",
-        "parent not found for element 475190",
-        "parent not found for element 939895",
-        "parent not found for element 661949",
-        "parent not found for element 865774",
-        "parent not found for element 780852",
-        "parent not found for element 585644",
-        "parent not found for element 372245"
-    ]
+    "errors": []
 }

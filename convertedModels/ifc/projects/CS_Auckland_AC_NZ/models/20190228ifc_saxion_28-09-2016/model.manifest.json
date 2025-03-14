@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20190228ifc_saxion_28-09-2016.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:14:55",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:08:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20190228ifc_saxion_28-09-2016/model.glb"
     ],
@@ -15,12 +15,12 @@
     "modelBoundsMax": [
         60.37800791764834,
         9.480000002980232,
-        20.59993173159915
+        15.07200044869156
     ],
     "modelBoundsMin": [
         -0.18999961809405022,
-        -21.30695290856418,
-        -2.0797508474414084
+        -14.602599369216533,
+        -0.7301000000920146
     ],
     "generalMessages": [],
     "warnings": [],

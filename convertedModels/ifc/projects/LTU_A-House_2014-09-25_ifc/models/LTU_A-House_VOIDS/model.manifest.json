@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/LTU_A-House_2014-09-25_ifc/LTU_A-House_VOIDS.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:34:26",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:26:52",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/LTU_A-House_2014-09-25_ifc/models/LTU_A-House_VOIDS/model.glb"
     ],
@@ -14,8 +14,8 @@
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         130.04000005,
-        62.946887700793,
-        19.890468656122685
+        61.25000000715256,
+        17.700000007152557
     ],
     "modelBoundsMin": [
         -2.6315986672581864,

@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/CS_Auckland_AC_NZ/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:11:51",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:05:38",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.glb"
     ],
@@ -10,7 +10,7 @@
         "convertedModels/ifc/projects/CS_Auckland_AC_NZ/models/20160125WestRiverSide_Hospital-IFC4-Autodesk_Hospital_Sprinkle/model.json"
     ],
     "numCreatedGltfMeshes": 21064,
-    "numCreatedMetaObjects": 38256,
+    "numCreatedMetaObjects": 38273,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         86.74660878687928,
@@ -24,9 +24,5 @@
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 750545",
-        "parent not found for element 874234",
-        "parent not found for element 646780"
-    ]
+    "errors": []
 }

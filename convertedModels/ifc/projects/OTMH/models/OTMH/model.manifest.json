@@ -1,8 +1,8 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/OTMH/OTMH.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:38:40",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:31:17",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/OTMH/models/OTMH/model.glb",
         "convertedModels/ifc/projects/OTMH/models/OTMH/model_1.glb"
@@ -10,24 +10,23 @@
     "metadataOutFiles": [
         "convertedModels/ifc/projects/OTMH/models/OTMH/model.json",
         "convertedModels/ifc/projects/OTMH/models/OTMH/model_1.json",
-        "convertedModels/ifc/projects/OTMH/models/OTMH/model_2.json"
+        "convertedModels/ifc/projects/OTMH/models/OTMH/model_2.json",
+        "convertedModels/ifc/projects/OTMH/models/OTMH/model_3.json"
     ],
     "numCreatedGltfMeshes": 57440,
-    "numCreatedMetaObjects": 111768,
+    "numCreatedMetaObjects": 113477,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
         2286.0462753242805,
-        4633.805836051196,
-        238.53435134887695
+        4631.657723220831,
+        217.79769615468769
     ],
     "modelBoundsMin": [
-        2135.7514727742205,
-        4491.58282202997,
-        139.96564865112305
+        2146.8440190226734,
+        4506.168557105148,
+        164.55963034534307
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 10961893"
-    ]
+    "errors": []
 }

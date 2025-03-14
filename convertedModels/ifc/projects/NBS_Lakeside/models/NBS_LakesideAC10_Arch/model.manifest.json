@@ -1,30 +1,28 @@
 {
     "inputFile": "/home/lindsay/xeolabs/xeokit-model-conversion-tests-OCT17/inputFiles/ifc/NBS_Lakeside/NBS_LakesideAC10_Arch.ifc",
     "converterApplication": "cxconverter",
-    "converterApplicationVersion": "4.35.0",
-    "conversionDate": "2025-02-27 12:34:49",
+    "converterApplicationVersion": "5.0.0",
+    "conversionDate": "2025-03-13 17:27:11",
     "gltfOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.glb"
     ],
     "metadataOutFiles": [
         "convertedModels/ifc/projects/NBS_Lakeside/models/NBS_LakesideAC10_Arch/model.json"
     ],
-    "numCreatedGltfMeshes": 6329,
+    "numCreatedGltfMeshes": 6330,
     "numCreatedMetaObjects": 2919,
     "numExportedPropertySetsOrElementQuantities": 0,
     "modelBoundsMax": [
-        39.89487261682129,
-        31.74224670446777,
-        16.947500228881836
+        30.628643106811523,
+        17.079221047683717,
+        6.282374174560243
     ],
     "modelBoundsMin": [
         -23.006171891073606,
-        -24.458690036621096,
-        -24.117303176035158
+        -19.471664355839625,
+        -3.5999999608993534
     ],
     "generalMessages": [],
     "warnings": [],
-    "errors": [
-        "parent not found for element 2508247"
-    ]
+    "errors": []
 }
